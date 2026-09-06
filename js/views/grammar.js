@@ -9,8 +9,27 @@ import { setContext } from '../router.js';
 import { CEFR, wordDiffHtml } from '../utils.js';
 
 export async function render(container, params) {
+  if (params.id === 'tenses') return renderTenses(container);
   if (params.id) return renderLesson(container, params.id);
   return renderList(container);
+}
+
+async function renderTenses(container) {
+  const tenses = await content.tenses();
+  const groups = { present: [], past: [], future: [] };
+  for (const t of tenses) (groups[t.time] || groups.present).push(t);
+  mount(container, html`
+    ${backLink('#/grammar', 'Grammar')}
+    <div class="page-head"><div><h1>The 12 tenses</h1><p class="sub">One screen for the whole system. Hindi has three tenses and one continuous form; English splits time into twelve boxes. Learn the four present ones deeply first.</p></div></div>
+    ${Object.entries(groups).map(([time, list]) => html`<h3 class="mt-lg" style="text-transform:capitalize">${time}</h3>
+      ${list.map((t) => html`<div class="card"><div class="row between"><strong style="font-size:var(--fs-lg)">${t.name}</strong><span class="chip">${t.aspect}</span></div>
+        <div class="pattern mt">${t.form}</div>
+        <p class="mt">${t.use_en}</p>${hiBlock(t.use_hi)}
+        <div class="chips">${(t.signals || []).map((s) => html`<span class="chip">${s}</span>`)}</div>
+        <div class="example-list mt">${t.examples.map((ex) => html`<div class="ex"><div class="grow"><div>${ex.en}</div><div>${hi(ex.hi)}</div></div>${speakButton(ex.en)}</div>`)}</div>
+        ${t.hindi_trap ? html`<div class="feedback close small mt"><strong>Hindi trap:</strong> ${t.hindi_trap}</div>` : ''}
+        ${t.lesson ? html`<div class="mt"><a class="btn btn-sm" href="#/grammar/${t.lesson}">Open the lesson ${icon('next')}</a></div>` : ''}</div>`)}`)}`);
+  setContext({ title: 'The 12 tenses', text: 'Overview of all English tenses with forms, uses and Hindi-speaker traps.' });
 }
 
 async function renderList(container) {
@@ -22,7 +41,7 @@ async function renderList(container) {
   for (const l of lessons) (byLevel[l.cefr] ||= []).push(l);
   const doneCount = lessons.filter((l) => done[l.id]).length;
   mount(container, html`
-    <div class="page-head"><div><h1>Grammar</h1><p class="sub">${lessons.length} lessons · ${doneCount} completed · your level ${s.level}</p></div></div>
+    <div class="page-head"><div><h1>Grammar</h1><p class="sub">${lessons.length} lessons · ${doneCount} completed · your level ${s.level}</p></div><a class="btn" href="#/grammar/tenses">${icon('clock')} The 12 tenses</a></div>
     ${progressBar((doneCount / lessons.length) * 100, 'green')}
     <p class="small muted mt">Lessons at your level and one above are unlocked. Priority lessons fix the mistakes Hindi speakers make most.</p>
     ${CEFR.map((lvl) => byLevel[lvl] ? html`<h3 class="mt-lg">${lvl}</h3><div class="list">${byLevel[lvl].map((l) => {

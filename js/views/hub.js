@@ -30,3 +30,4 @@ export async function render_(container, isLearn) {
     </div>`);
 }
 export function render(container) { return render_(container, current() === '/learn'); }
+PRACTICE.splice(5, 0, { href: '#/translate', icon: 'refresh', title: 'Translate', sub: 'Hindi → English, graded by AI' });

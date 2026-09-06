@@ -5,6 +5,7 @@ import { toast, icon, html, openSheet, $, $$ } from './ui.js';
 import { isHindi, setHindi, onHindiChange } from './i18n.js';
 import * as store from './store.js';
 import * as tts from './tts.js';
+import * as sync from './sync.js';
 import { dueCount } from './srs.js';
 
 /* ---------------- theme ---------------- */
@@ -48,6 +49,7 @@ route('/mistakes', V('mistakes'), { title: 'Mistakes' });
 route('/progress', V('progress'), { title: 'Progress' });
 route('/placement', V('placement'), { title: 'Placement test' });
 route('/settings', V('settings'), { title: 'Settings' });
+route('/translate', V('translate'), { title: 'Translate' });
 route('/learn', V('hub'), { title: 'Learn' });
 route('/practice', V('hub'), { title: 'Practice' });
 
@@ -55,14 +57,14 @@ route('/practice', V('hub'), { title: 'Practice' });
 const TABS = [
   { href: '#/', label: 'Home', icon: 'home', match: (p) => p === '/' },
   { href: '#/learn', label: 'Learn', icon: 'book', match: (p) => /^\/(learn|vocab|word|daily|grammar|notes)/.test(p) },
-  { href: '#/practice', label: 'Practice', icon: 'target', match: (p) => /^\/(practice|pron|shadow|listen|speak|write|mistakes|review)/.test(p) },
+  { href: '#/practice', label: 'Practice', icon: 'target', match: (p) => /^\/(practice|pron|shadow|listen|speak|write|translate|mistakes|review)/.test(p) },
   { href: '#/chat', label: 'Tutor', icon: 'chat', match: (p) => p.startsWith('/chat') },
   { href: '#/progress', label: 'Progress', icon: 'chart', match: (p) => /^\/(progress|settings|placement)/.test(p) },
 ];
 const SIDE = [
   { title: '', items: [{ href: '#/', label: 'Home', icon: 'home' }, { href: '#/review', label: 'Review', icon: 'zap', badge: 'due' }] },
   { title: 'Learn', items: [{ href: '#/vocab', label: 'Vocabulary', icon: 'layers' }, { href: '#/daily', label: 'Daily 5', icon: 'calendar' }, { href: '#/grammar', label: 'Grammar', icon: 'book' }, { href: '#/notes', label: 'Notes', icon: 'note' }] },
-  { title: 'Practice', items: [{ href: '#/pron', label: 'Pronunciation', icon: 'wave' }, { href: '#/shadow', label: 'Shadowing', icon: 'ear' }, { href: '#/listen', label: 'Listening', icon: 'speaker' }, { href: '#/speak', label: 'Speaking', icon: 'mic' }, { href: '#/write', label: 'Writing', icon: 'pen' }, { href: '#/mistakes', label: 'Mistakes', icon: 'alert' }] },
+  { title: 'Practice', items: [{ href: '#/pron', label: 'Pronunciation', icon: 'wave' }, { href: '#/shadow', label: 'Shadowing', icon: 'ear' }, { href: '#/listen', label: 'Listening', icon: 'speaker' }, { href: '#/speak', label: 'Speaking', icon: 'mic' }, { href: '#/write', label: 'Writing', icon: 'pen' }, { href: '#/translate', label: 'Translate', icon: 'refresh' }, { href: '#/mistakes', label: 'Mistakes', icon: 'alert' }] },
   { title: 'More', items: [{ href: '#/chat', label: 'AI Tutor', icon: 'chat' }, { href: '#/progress', label: 'Progress', icon: 'chart' }, { href: '#/settings', label: 'Settings', icon: 'settings' }] },
 ];
 function renderNav() {
@@ -121,9 +123,11 @@ async function boot() {
   onRoute((p) => { highlightNav(p); refreshBadges(); });
   document.getElementById('ask-fab').onclick = openAsk;
   store.startStudyTimer();
+  sync.start();
   start();
   registerSW();
   exportReminder();
+  cloudRestoreOffer();
   // First run → placement
   try {
     const s = await store.settings();
@@ -133,7 +137,19 @@ async function boot() {
   } catch { /* ignore */ }
 }
 
+/** New device with a token but no progress yet → offer to pull the cloud backup. */
+async function cloudRestoreOffer() {
+  try {
+    if (!(await sync.isConfigured())) return;
+    if (await db.getSetting('lastCloudRestore', null)) return;
+    const cards = await db.count('cards');
+    if (cards > 0) return;
+    toast('A cloud backup may exist for this GitHub account.', '', { timeout: 12000, action: { label: 'Restore', onClick: () => navigate('/settings') } });
+  } catch { /* ignore */ }
+}
+
 async function exportReminder() {
+  if (await sync.isConfigured()) return; // cloud backup covers it
   try {
     const last = await db.getSetting('lastExport', null);
     const cards = await db.count('cards');

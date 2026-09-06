@@ -22,11 +22,13 @@ export async function render(container) {
       </div>
     </div>
     <div id="mistakes-card"></div>
+    <div id="backup-card"></div>
     <h3 class="mt-lg">Continue</h3>
     <div id="continue" class="grid"></div>
   `);
   renderDaily(container.querySelector('#daily-card'));
   renderMistakes(container.querySelector('#mistakes-card'));
+  renderBackupNudge(container.querySelector('#backup-card'), summary);
   renderContinue(container.querySelector('#continue'), s);
   setContext({ title: 'Home', text: `Level ${s.level}. ${summary.total} cards due.` });
 }
@@ -60,6 +62,14 @@ async function renderMistakes(el) {
   if (!top.length) return;
   mount(el, html`<div class="card amber"><div class="card-title"><h3>Your top recurring mistakes</h3><a class="btn btn-sm btn-ghost" href="#/mistakes">All ${icon('next')}</a></div>
     <div class="contrast">${top.map((m) => html`<div><span class="wrong">${m.original}</span> → <span class="right">${m.fix}</span> <span class="faint xs">×${m.count} · ${m.rule}</span></div>`)}</div></div>`);
+}
+
+async function renderBackupNudge(el, summary) {
+  try {
+    const sync = await import('../sync.js');
+    if (await sync.isConfigured() || summary.totalCards < 5) return;
+    mount(el, html`<a class="card compact" href="#/settings"><div class="row">${icon('upload')}<div class="grow"><div class="bold">Protect your progress</div><div class="muted small">Connect your GitHub account once and every review is backed up automatically, on any device.</div></div>${icon('next', 'arrow')}</div></a>`);
+  } catch { /* ignore */ }
 }
 
 async function renderContinue(el, s) {

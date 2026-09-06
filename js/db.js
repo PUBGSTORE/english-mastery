@@ -4,7 +4,7 @@ import { toast } from './ui.js';
 import { nowISO, hashStr } from './utils.js';
 
 export const DB_NAME = 'english-mastery';
-export const DB_VERSION = 1;
+export const DB_VERSION = 2;
 export const EXPORT_FORMAT = 1;
 
 // Store definitions. Adding a store or index = bump DB_VERSION and add a case to migrate().
@@ -22,14 +22,21 @@ const STORES = {
   audio:    { keyPath: 'id', indexes: [['ts', 'ts']] },
   settings: { keyPath: 'key', indexes: [] },
   meta:     { keyPath: 'key', indexes: [] },
+  custom:   { keyPath: 'id', indexes: [['kind', 'kind'], ['deck', 'deck']] }, // v2: user- and AI-generated content
 };
 export const STORE_NAMES = Object.keys(STORES);
 const EXPORT_STORES = STORE_NAMES.filter((s) => s !== 'audio');
 
 let dbPromise = null;
 
+// Write hooks: sync.js listens so cloud backup can run after changes.
+const writeListeners = new Set();
+export function onWrite(fn) { writeListeners.add(fn); return () => writeListeners.delete(fn); }
+function notifyWrite(store) { for (const fn of writeListeners) { try { fn(store); } catch { /* ignore */ } } }
+
 function migrate(db, oldVersion, tx) {
-  // v1: create everything. Future versions: `if (oldVersion < 2) { ... }` adding stores/indexes only.
+  // v1: all original stores. v2: adds `custom`. The loop below is additive, so any missing store or index is created
+  // and existing data is never touched. Never remove or rename a store.
   for (const [name, def] of Object.entries(STORES)) {
     let store;
     if (!db.objectStoreNames.contains(name)) store = db.createObjectStore(name, { keyPath: def.keyPath });
@@ -104,6 +111,7 @@ export async function put(store, value) {
     const tx = db.transaction(store, 'readwrite');
     tx.objectStore(store).put(value);
     await txDone(tx);
+    notifyWrite(store);
     return value;
   } catch (e) { fail(`put ${store}`, e); }
 }
@@ -115,11 +123,12 @@ export async function bulkPut(store, values) {
     const now = nowISO();
     for (const v of values) { if (v && typeof v === 'object') { v.updatedAt = v.updatedAt || now; if (v.v === undefined) v.v = 1; } os.put(v); }
     await txDone(tx);
+    notifyWrite(store);
     return values.length;
   } catch (e) { fail(`bulkPut ${store}`, e); }
 }
 export async function del(store, key) {
-  try { const db = await open(); const tx = db.transaction(store, 'readwrite'); tx.objectStore(store).delete(key); await txDone(tx); }
+  try { const db = await open(); const tx = db.transaction(store, 'readwrite'); tx.objectStore(store).delete(key); await txDone(tx); notifyWrite(store); }
   catch (e) { fail(`delete ${store}`, e); }
 }
 export async function clear(store) {

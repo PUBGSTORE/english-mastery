@@ -23,6 +23,9 @@ async function renderDecks(container) {
     <div class="page-head"><div><h1>Vocabulary</h1><p class="sub">Frequency-ordered decks. Add a deck to feed it into your reviews at ${(await store.settings()).newPerDay} new words a day.</p></div></div>
     <div class="search mb">${icon('search')}<input class="input" type="search" id="q" placeholder="Search 1,200+ words, Hindi meanings…" autocomplete="off"></div>
     <div id="results"></div>
+    <div class="card accent compact"><div class="row between"><div><strong>${icon('sparkle')} Words for any topic</strong><div class="xs muted">The tutor writes full entries (Hindi, examples, mistakes) and adds them to <a href="#/vocab/custom">My AI words</a>.</div></div></div>
+      <form class="row mt" id="gen-form" autocomplete="off"><input class="input" id="gen-topic" placeholder="e.g. job interviews, cooking, cloud security, small talk" style="flex:1;min-width:200px"><select class="select" id="gen-n" style="width:auto"><option value="5">5 words</option><option value="10">10 words</option></select><button class="btn btn-primary" type="submit" id="gen-btn">Generate</button></form>
+      <div id="gen-out" class="mt"></div></div>
     <div class="grid">
       ${content.VOCAB_DECKS.map((d, i) => {
         const s = stats[i]; const total = counts[d.file] || s.total || 0;
@@ -39,6 +42,27 @@ async function renderDecks(container) {
     const hits = await content.searchVocab(v);
     mount(res, html`<div class="list mb">${hits.length ? hits.map((w) => html`<a class="list-item" href="#/word/${w.id}"><div class="grow"><div class="title">${w.word} <span class="ipa xs">${w.ipa}</span></div><div class="sub">${w.en_def} · <span class="hi-text" lang="hi">${w.hi_def}</span></div></div><span class="chip">${w.cefr}</span></a>`) : html`<div class="empty small">No matches for “${v}”</div>`}</div>`);
   }, 150);
+  $('#gen-form', container).onsubmit = async (e) => {
+    e.preventDefault();
+    const topic = $('#gen-topic', container).value.trim(); if (!topic) return;
+    const ai = await import('../ai.js');
+    if (!(await ai.hasKey())) { toast('Add your DeepSeek key in Settings first.', 'warn', { action: { label: 'Settings', onClick: () => { location.hash = '#/settings'; } } }); return; }
+    const btn = $('#gen-btn', container); btn.disabled = true; btn.innerHTML = '<span class="spinner"></span> Writing…';
+    try {
+      const n = +$('#gen-n', container).value;
+      const all = await content.allVocab();
+      const level = await store.level();
+      const words = await ai.generateWords(topic, level, n, all.filter((w) => (w.tags || []).includes('custom') || Math.random() < 0.15).map((w) => w.word));
+      const saved = await content.addCustomWords(words, { topic });
+      if (!saved.length) { toast('All suggested words already exist in your decks. Try a narrower topic.', 'warn'); }
+      else {
+        await store.ensureVocabCards(saved.map((w) => w.id), { priority: 1 });
+        mount($('#gen-out', container), html`<div class="chips">${saved.map((w) => html`<a class="chip green" href="#/word/${w.id}">${w.word}</a>`)}</div><p class="xs muted mt mb-0">${saved.length} new words saved and queued for review.</p>`);
+        toast(`${saved.length} words added to My AI words`, 'ok');
+      }
+    } catch (err) { toast(err.message === 'NO_KEY' ? 'Add your DeepSeek key in Settings.' : err.message, 'err', { timeout: 7000 }); }
+    btn.disabled = false; btn.textContent = 'Generate';
+  };
 }
 
 async function renderDeck(container, deckId) {

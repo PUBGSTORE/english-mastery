@@ -5,6 +5,7 @@ import * as store from '../store.js';
 import * as tts from '../tts.js';
 import * as ai from '../ai.js';
 import * as audio from '../audio.js';
+import * as sync from '../sync.js';
 import { download, readFileText, CEFR } from '../utils.js';
 import { getTheme, setTheme } from '../app.js';
 import { isHindi, setHindi } from '../i18n.js';
@@ -17,6 +18,11 @@ export async function render(container) {
   const est = await db.estimateUsage();
   const recs = await audio.recordingCount();
   const voices = tts.getVoices();
+  const ghToken = await sync.getToken();
+  const ghUser = await db.getSetting('ghUser', '');
+  const gistId = await sync.getGistId();
+  const lastCloud = await db.getSetting('lastCloudBackup', null);
+  const lastCloudBytes = await db.getSetting('lastCloudBackupBytes', 0);
   mount(container, html`
     <div class="page-head"><div><h1>Settings</h1><p class="sub">Everything is stored on this device only.</p></div></div>
 
@@ -65,6 +71,15 @@ export async function render(container) {
       <p class="small">Last export: <strong>${s.lastExport ? new Date(s.lastExport).toLocaleString() : 'never'}</strong></p>
       <div class="btn-row"><button class="btn btn-primary" id="export">${icon('download')} Export all progress</button>
         <label class="btn" for="import-file">${icon('upload')} Import…</label><input type="file" id="import-file" accept="application/json,.json" hidden></div>
+    </div>
+
+    <div class="card ${ghToken ? 'green' : 'accent'}"><h3>Cloud backup (your GitHub account)</h3>
+      <p class="small muted">Your progress is saved automatically to a <strong>private Gist</strong> on your GitHub account, about 90 seconds after you stop studying and at least once a day. Open the app on any other browser or device, paste the same token, tap Restore, and everything is back. Nothing is sent anywhere except api.github.com.</p>
+      ${ghToken ? html`<p class="small">Connected${ghUser ? ` as <strong>${ghUser}</strong>` : ''} · last backup: <strong>${lastCloud ? new Date(lastCloud).toLocaleString() : 'not yet'}</strong>${lastCloudBytes ? ` · ${(lastCloudBytes / 1024).toFixed(0)} KB` : ''}${gistId ? html` · <a href="https://gist.github.com/${gistId}" target="_blank" rel="noopener">view gist</a>` : ''}</p>
+        <div class="btn-row"><button class="btn btn-primary" id="cloud-backup">${icon('upload')} Back up now</button><button class="btn" id="cloud-restore">${icon('download')} Restore from cloud</button><button class="btn btn-ghost" id="cloud-remove">Disconnect</button></div>`
+      : html`<div class="field"><label for="ghToken">GitHub token (classic, scope: <code>gist</code>)</label><input class="input" id="ghToken" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="ghp_…">
+          <span class="help">Create one at <a href="https://github.com/settings/tokens/new?scopes=gist&description=English%20Mastery%20backup" target="_blank" rel="noopener">github.com/settings/tokens/new</a> (tick only <em>gist</em>, set no expiry or one year). Or, on your Mac, run <code>gh auth token</code> in Terminal and paste the result. The token is stored only on this device.</span></div>
+        <div class="btn-row"><button class="btn btn-primary" id="cloud-connect">Connect</button><button class="btn" id="cloud-connect-restore">Connect and restore existing backup</button></div>`}
     </div>
 
     <div class="card"><h3>Storage</h3>
@@ -135,6 +150,45 @@ export async function render(container) {
     });
     e.target.value = '';
   };
+  const connect = async (restoreAfter) => {
+    const t = $('#ghToken', container).value.trim();
+    if (!t) { toast('Paste a GitHub token first.', 'warn'); return; }
+    await store.setSetting('ghToken', t);
+    try {
+      const user = await sync.whoAmI();
+      await store.setSetting('ghUser', user);
+      toast(`Connected to GitHub as ${user}`, 'ok');
+      if (restoreAfter) {
+        const remote = await sync.fetchRemote();
+        if (!remote) { toast('No backup found on this account yet. Backing up now.', '', { timeout: 5000 }); await sync.backup({ reason: 'manual' }); }
+        else if (await confirmDialog(`Found a backup from ${new Date(remote.updatedAt).toLocaleString()} (${(remote.size / 1024).toFixed(0)} KB). Merge it into this device?`, { okLabel: 'Restore' })) {
+          const r = await sync.restore('merge'); toast(`Restored: ${Object.entries(r.summary).map(([k, v]) => `${k} ${v}`).join(', ')}`, 'ok', { timeout: 6000 }); setTimeout(() => location.reload(), 900); return;
+        }
+      } else await sync.backup({ reason: 'manual' });
+      render(container);
+    } catch (e) { await store.setSetting('ghToken', ''); toast(e.message, 'err', { timeout: 7000 }); }
+  };
+  const cc = $('#cloud-connect', container); if (cc) cc.onclick = () => connect(false);
+  const ccr = $('#cloud-connect-restore', container); if (ccr) ccr.onclick = () => connect(true);
+  const cb = $('#cloud-backup', container); if (cb) cb.onclick = async () => { cb.disabled = true; await sync.backup({ reason: 'manual' }); render(container); };
+  const cr = $('#cloud-restore', container); if (cr) cr.onclick = async () => {
+    cr.disabled = true;
+    try {
+      const remote = await sync.fetchRemote();
+      if (!remote) { toast('No cloud backup found.', 'warn'); cr.disabled = false; return; }
+      const body = openSheet(html`<h3>Restore from cloud</h3><p class="small muted">Backup from ${new Date(remote.updatedAt).toLocaleString()} · ${(remote.size / 1024).toFixed(0)} KB · ${Object.entries(remote.data.counts || {}).map(([k, v]) => `${k} ${v}`).join(', ')}</p>
+        <p class="small"><strong>Merge</strong> keeps what is on this device and adds the cloud copy (newer wins). <strong>Replace</strong> wipes this device first.</p>
+        <div class="btn-row right"><button class="btn" data-x="cancel">Cancel</button><button class="btn btn-danger" data-x="replace">Replace</button><button class="btn btn-primary" data-x="merge">Merge</button></div>`, { dialog: true });
+      body.querySelector('[data-x="cancel"]').onclick = () => { closeSheet(); cr.disabled = false; };
+      for (const mode of ['merge', 'replace']) body.querySelector(`[data-x="${mode}"]`).onclick = async () => {
+        if (mode === 'replace' && !(await confirmDialog('Replace ALL progress on this device with the cloud copy?', { okLabel: 'Replace', danger: true }))) return;
+        const r = await sync.restore(mode); closeSheet();
+        toast(`Restored: ${Object.entries(r.summary).map(([k, v]) => `${k} ${v}`).join(', ')}`, 'ok', { timeout: 6000 });
+        setTimeout(() => location.reload(), 900);
+      };
+    } catch (e) { toast(e.message, 'err', { timeout: 6000 }); cr.disabled = false; }
+  };
+  const crm = $('#cloud-remove', container); if (crm) crm.onclick = async () => { if (await confirmDialog('Disconnect cloud backup? The Gist stays on GitHub; this device just stops syncing.', { okLabel: 'Disconnect' })) { await store.setSetting('ghToken', ''); await store.setSetting('ghUser', ''); render(container); } };
   $('#clear-recs', container).onclick = async () => { if (await confirmDialog('Delete all saved recordings?', { okLabel: 'Delete', danger: true })) { const n = await audio.clearRecordings(); toast(`Deleted ${n} recordings`, 'ok'); render(container); } };
   $('#reset-all', container).onclick = async () => {
     if (!(await confirmDialog('This deletes every card, review, mistake, note and chat on this device. Export first! Continue?', { okLabel: 'Delete everything', danger: true, title: 'Reset all progress' }))) return;

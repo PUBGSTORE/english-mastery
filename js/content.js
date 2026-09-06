@@ -1,5 +1,6 @@
 // content.js — loads ./data/*.json lazily and builds lookup maps.
 import { toast } from './ui.js';
+import * as db from './db.js';
 
 const cache = new Map();
 const inflight = new Map();
@@ -13,6 +14,7 @@ export const VOCAB_DECKS = [
   { id: 'vocab-tech', file: 'vocab-tech', name: 'Security & Reports', cefr: 'B2', desc: 'Vulnerability reports, triage, disclosure' },
   { id: 'phrasal-verbs', file: 'phrasal-verbs', name: 'Phrasal Verbs', cefr: 'B1', desc: 'Separable and inseparable' },
   { id: 'idioms', file: 'idioms', name: 'Idioms', cefr: 'B2', desc: 'Modern workplace and daily idioms' },
+  { id: 'custom', file: null, name: 'My AI words', cefr: 'any', desc: 'Words you generated with the tutor for your own topics', custom: true },
 ];
 
 export async function load(name) {
@@ -44,10 +46,34 @@ let vocabDeckOf = null;
 export async function loadDeck(deckId) {
   const deck = VOCAB_DECKS.find((d) => d.id === deckId);
   if (!deck) throw new Error(`Unknown deck ${deckId}`);
-  const rows = await load(deck.file);
+  const rows = deck.file ? await load(deck.file) : await db.getAll('custom', { index: 'kind', query: 'vocab' });
   indexVocab(deckId, rows);
   return rows;
 }
+/** Save AI/user-generated words into the custom deck. Returns saved entries (deduped by headword). */
+export async function addCustomWords(entries, { topic = '' } = {}) {
+  const { hashStr } = await import('./utils.js');
+  const existing = await allVocab();
+  const taken = new Set(existing.map((w) => w.word.toLowerCase()));
+  const saved = [];
+  for (const e of entries) {
+    const word = String(e.word || '').trim();
+    if (!word || taken.has(word.toLowerCase())) continue;
+    taken.add(word.toLowerCase());
+    const row = {
+      id: `v:cu:${hashStr(word.toLowerCase()).toString(36)}`, kind: 'vocab', deck: 'custom', topic,
+      word, ipa: e.ipa || '', pos: e.pos || 'noun', cefr: e.cefr || 'B1', freq_rank: 9000, en_def: e.en_def, hi_def: e.hi_def, hi_nuance: e.hi_nuance || '',
+      examples: (e.examples || []).filter((x) => x && x.en).slice(0, 7), collocations: e.collocations || [], synonyms: e.synonyms || [], antonyms: e.antonyms || [],
+      word_family: e.word_family && e.word_family.length ? e.word_family : [word], register: e.register || 'neutral',
+      common_mistake: e.common_mistake || null, cloze: e.cloze && e.cloze.sentence ? e.cloze : { sentence: (e.examples?.[0]?.en || '____').replace(new RegExp(word, 'i'), '____'), answer: word },
+      tags: ['custom', ...(topic ? [topic.toLowerCase().slice(0, 30)] : [])], separable: null, createdAt: new Date().toISOString(),
+    };
+    saved.push(row);
+  }
+  if (saved.length) { await db.bulkPut('custom', saved); indexVocab('custom', saved); }
+  return saved;
+}
+export async function deleteCustomWord(id) { await db.del('custom', id); if (vocabMap) vocabMap.delete(id); }
 function indexVocab(deckId, rows) {
   vocabMap ||= new Map(); vocabDeckOf ||= new Map();
   for (const w of rows) { vocabMap.set(w.id, w); vocabDeckOf.set(w.id, deckId); }
@@ -62,7 +88,7 @@ export async function wordById(id) {
   const m = /^v:([a-z0-9]+):/.exec(id);
   if (m) {
     const key = m[1];
-    const deckId = key === 'pv' ? 'phrasal-verbs' : key === 'id' ? 'idioms' : `vocab-${key}`;
+    const deckId = key === 'pv' ? 'phrasal-verbs' : key === 'id' ? 'idioms' : key === 'cu' ? 'custom' : `vocab-${key}`;
     if (VOCAB_DECKS.some((d) => d.id === deckId)) { await loadDeck(deckId); return vocabMap.get(id); }
   }
   await allVocab();
@@ -73,8 +99,9 @@ export function deckOfWord(id) {
   const m = /^v:([a-z0-9]+):/.exec(id || '');
   if (!m) return null;
   const key = m[1];
-  return key === 'pv' ? 'phrasal-verbs' : key === 'id' ? 'idioms' : `vocab-${key}`;
+  return key === 'pv' ? 'phrasal-verbs' : key === 'id' ? 'idioms' : key === 'cu' ? 'custom' : `vocab-${key}`;
 }
+export const tenses = () => load('tenses');
 export async function searchVocab(q) {
   const all = await allVocab();
   const s = q.toLowerCase().trim();

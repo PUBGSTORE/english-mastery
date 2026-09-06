@@ -1,0 +1,158 @@
+[
+  {
+    "id": "t:present-simple", "name": "Present simple", "time": "present", "aspect": "simple", "lesson": "g:05-present-simple",
+    "form": "I/you/we/they work · he/she/it works · Do you work? · She doesn't work",
+    "use_en": "Facts, habits, routines, timetables, and permanent states. Not for something happening right now.",
+    "use_hi": "तथ्य, आदतें, रोज़ की दिनचर्या, समय-सारणी और स्थायी स्थितियाँ। जो अभी इसी समय हो रहा है उसके लिए नहीं।",
+    "signals": ["always", "usually", "every day", "on Mondays", "never", "sometimes"],
+    "examples": [
+      { "en": "I work from home on Fridays.", "hi": "मैं शुक्रवार को घर से काम करता हूँ।" },
+      { "en": "The scanner runs every night at 2 a.m.", "hi": "स्कैनर हर रात 2 बजे चलता है।" },
+      { "en": "She doesn't like spicy food.", "hi": "उसे तीखा खाना पसंद नहीं है।" }
+    ],
+    "hindi_trap": "Hindi 'करता हूँ' covers both habit and right-now, so learners say 'I work now' for 'I am working now'. Also the third-person -s is dropped: 'he work' ✗ → 'he works'."
+  },
+  {
+    "id": "t:present-continuous", "name": "Present continuous", "time": "present", "aspect": "continuous", "lesson": "g:14-present-continuous-vs-simple",
+    "form": "am/is/are + verb-ing · I'm working · Is she coming? · They aren't listening",
+    "use_en": "Happening right now, temporary situations, changing trends, and fixed future arrangements. Not with state verbs (know, have, like, want).",
+    "use_hi": "जो अभी हो रहा है, अस्थायी स्थितियाँ, बदलते रुझान और तय भविष्य की योजनाएँ। स्थिति-सूचक क्रियाओं (know, have, like, want) के साथ नहीं।",
+    "signals": ["now", "at the moment", "currently", "these days", "Look!", "this week"],
+    "examples": [
+      { "en": "I'm reviewing the logs right now.", "hi": "मैं अभी लॉग देख रहा हूँ।" },
+      { "en": "More companies are moving to passkeys these days.", "hi": "आजकल ज़्यादा कंपनियाँ पासकी की ओर जा रही हैं।" },
+      { "en": "We're meeting the client on Tuesday.", "hi": "हम मंगलवार को क्लाइंट से मिल रहे हैं।" }
+    ],
+    "hindi_trap": "The classic Indian error is continuous with state verbs: 'I am knowing', 'I am having a car', 'She is understanding' ✗. Use the simple form: I know, I have, she understands."
+  },
+  {
+    "id": "t:present-perfect", "name": "Present perfect", "time": "present", "aspect": "perfect", "lesson": "g:27-present-perfect-vs-past",
+    "form": "have/has + past participle · I've finished · Has he left? · We haven't decided",
+    "use_en": "A past action with a present result, life experience with no time given, or something that started in the past and continues (with since/for). Never with a finished-time word like yesterday.",
+    "use_hi": "ऐसा अतीत जिसका असर अब है, बिना समय बताए अनुभव, या जो अतीत में शुरू होकर अब तक जारी है (since/for के साथ)। 'yesterday' जैसे समाप्त समय के साथ कभी नहीं।",
+    "signals": ["already", "yet", "just", "ever", "never", "since", "for", "so far", "recently"],
+    "examples": [
+      { "en": "I've already patched the server.", "hi": "मैंने सर्वर को पहले ही पैच कर दिया है।" },
+      { "en": "Have you ever been to Singapore?", "hi": "क्या तुम कभी सिंगापुर गए हो?" },
+      { "en": "She has worked here since 2021.", "hi": "वह 2021 से यहाँ काम कर रही है।" }
+    ],
+    "hindi_trap": "'I have gone yesterday' ✗. If the sentence says WHEN, use past simple: 'I went yesterday'. Hindi 'गया हूँ' does not carry this restriction, which is why the error is so common."
+  },
+  {
+    "id": "t:present-perfect-continuous", "name": "Present perfect continuous", "time": "present", "aspect": "perfect continuous", "lesson": "g:29-present-perfect-continuous",
+    "form": "have/has been + verb-ing · I've been waiting · How long has it been running?",
+    "use_en": "An activity that started in the past and is still going, or just stopped and explains a present result. Emphasises duration.",
+    "use_hi": "ऐसी गतिविधि जो अतीत में शुरू हुई और अब भी चल रही है, या अभी-अभी रुकी है और वर्तमान परिणाम बताती है। अवधि पर ज़ोर।",
+    "signals": ["for two hours", "since morning", "all day", "how long", "lately"],
+    "examples": [
+      { "en": "I've been working here for three years.", "hi": "मैं यहाँ तीन साल से काम कर रहा हूँ।" },
+      { "en": "The build has been failing since the last merge.", "hi": "पिछले मर्ज के बाद से बिल्ड फ़ेल हो रहा है।" },
+      { "en": "You look tired. Have you been sleeping badly?", "hi": "तुम थके लग रहे हो। क्या तुम ठीक से नहीं सो रहे?" }
+    ],
+    "hindi_trap": "'I am working here since three years' ✗. Hindi uses the present continuous for this; English needs the perfect continuous and 'for' with a length of time: 'I have been working here for three years'."
+  },
+  {
+    "id": "t:past-simple", "name": "Past simple", "time": "past", "aspect": "simple", "lesson": "g:13-past-simple",
+    "form": "verb-ed / irregular · I finished · Did you see? · He didn't know",
+    "use_en": "A completed action at a known or implied time in the past. The default tense for telling what happened.",
+    "use_hi": "अतीत में एक ज्ञात या समझे गए समय पर पूरी हुई क्रिया। जो हुआ उसे बताने का मूल काल।",
+    "signals": ["yesterday", "last week", "in 2019", "two hours ago", "when I was", "then"],
+    "examples": [
+      { "en": "We found the bug yesterday.", "hi": "हमें कल बग मिला।" },
+      { "en": "Did you send the report?", "hi": "क्या तुमने रिपोर्ट भेजी?" },
+      { "en": "I didn't know about the change.", "hi": "मुझे बदलाव के बारे में पता नहीं था।" }
+    ],
+    "hindi_trap": "After did/didn't the verb goes back to the base form: 'I didn't knew' ✗ → 'I didn't know'; 'Did you went?' ✗ → 'Did you go?'."
+  },
+  {
+    "id": "t:past-continuous", "name": "Past continuous", "time": "past", "aspect": "continuous", "lesson": "g:25-past-continuous",
+    "form": "was/were + verb-ing · I was testing · Were they sleeping?",
+    "use_en": "A longer past action in progress, often interrupted by a shorter past-simple action, or two actions happening at the same time.",
+    "use_hi": "अतीत की लंबी चल रही क्रिया, जो अक्सर किसी छोटी past simple क्रिया से बाधित होती है, या एक साथ हो रही दो क्रियाएँ।",
+    "signals": ["while", "when", "at 9 o'clock last night", "all evening"],
+    "examples": [
+      { "en": "I was reviewing the code when the alert fired.", "hi": "जब अलर्ट आया, मैं कोड देख रहा था।" },
+      { "en": "They were still testing while we were deploying.", "hi": "जब हम डिप्लॉय कर रहे थे, वे अभी भी टेस्ट कर रहे थे।" },
+      { "en": "It was raining all night.", "hi": "पूरी रात बारिश हो रही थी।" }
+    ],
+    "hindi_trap": "Learners overuse it for completed events: 'Yesterday I was going to the market and I was buying vegetables' ✗. Completed sequence = past simple: 'I went… and bought…'."
+  },
+  {
+    "id": "t:past-perfect", "name": "Past perfect", "time": "past", "aspect": "perfect", "lesson": "g:30-past-perfect",
+    "form": "had + past participle · I had finished · Had she left?",
+    "use_en": "The earlier of two past actions: what had already happened before another past moment. Common in reported speech and third conditionals.",
+    "use_hi": "अतीत की दो घटनाओं में पहली वाली: दूसरे अतीत के क्षण से पहले जो हो चुका था। reported speech और third conditional में आम।",
+    "signals": ["by the time", "before", "after", "already", "when… had"],
+    "examples": [
+      { "en": "By the time we noticed, the attacker had already left.", "hi": "जब तक हमने ध्यान दिया, हमलावर पहले ही जा चुका था।" },
+      { "en": "She had never used Linux before that job.", "hi": "उस नौकरी से पहले उसने कभी Linux इस्तेमाल नहीं किया था।" },
+      { "en": "I realised I had forgotten my badge.", "hi": "मुझे एहसास हुआ कि मैं अपना बैज भूल गया था।" }
+    ],
+    "hindi_trap": "Using it for any old event: 'I had visited Goa in 2015' ✗ (no second past action). One past event = past simple: 'I visited Goa in 2015'."
+  },
+  {
+    "id": "t:past-perfect-continuous", "name": "Past perfect continuous", "time": "past", "aspect": "perfect continuous", "lesson": "g:30-past-perfect",
+    "form": "had been + verb-ing · I had been waiting · How long had it been running?",
+    "use_en": "Duration of an activity up to a point in the past, often explaining a past result.",
+    "use_hi": "अतीत के किसी क्षण तक चली गतिविधि की अवधि, अक्सर अतीत के किसी परिणाम की व्याख्या।",
+    "signals": ["for", "since", "how long", "before"],
+    "examples": [
+      { "en": "The service had been running for a week before anyone checked the logs.", "hi": "किसी के लॉग देखने से पहले सर्विस एक हफ़्ते से चल रही थी।" },
+      { "en": "He was exhausted because he had been debugging all night.", "hi": "वह थक गया था क्योंकि वह पूरी रात डिबग कर रहा था।" },
+      { "en": "We had been waiting for an hour when the train finally came.", "hi": "जब ट्रेन आख़िरकार आई, हम एक घंटे से इंतज़ार कर रहे थे।" }
+    ],
+    "hindi_trap": "Rare in speech; do not force it. Use it only when duration before a past moment matters."
+  },
+  {
+    "id": "t:future-simple", "name": "Future with will / going to", "time": "future", "aspect": "simple", "lesson": "g:20-future-forms",
+    "form": "will + verb · am/is/are going to + verb · I'll call you · We're going to migrate",
+    "use_en": "will: decisions made now, promises, predictions from opinion. going to: plans already decided, predictions from evidence. Present continuous: fixed arrangements.",
+    "use_hi": "will: अभी लिया गया निर्णय, वादे, राय पर आधारित अनुमान। going to: पहले से तय योजना, सबूत पर आधारित अनुमान। present continuous: पक्की व्यवस्था।",
+    "signals": ["tomorrow", "next week", "soon", "I think", "probably", "Look at those clouds"],
+    "examples": [
+      { "en": "I'll send the fix tonight.", "hi": "मैं आज रात फ़िक्स भेज दूँगा।" },
+      { "en": "We're going to migrate to the new cluster next month.", "hi": "हम अगले महीने नए क्लस्टर पर जाने वाले हैं।" },
+      { "en": "It's going to rain; look at the sky.", "hi": "बारिश होने वाली है; आसमान देखो।" }
+    ],
+    "hindi_trap": "After 'if' and 'when' English uses the present, not will: 'If it will rain' ✗ → 'If it rains'. And 'I will call you tomorrow' is fine, but a fixed plan sounds more natural as 'I'm calling you tomorrow'."
+  },
+  {
+    "id": "t:future-continuous", "name": "Future continuous", "time": "future", "aspect": "continuous", "lesson": "g:48-future-perfect-continuous",
+    "form": "will be + verb-ing · I'll be working · Will you be using the room?",
+    "use_en": "An action in progress at a future time, or a polite way to ask about plans.",
+    "use_hi": "भविष्य के किसी समय चल रही क्रिया, या योजनाओं के बारे में विनम्रता से पूछने का तरीका।",
+    "signals": ["this time tomorrow", "at 10 tomorrow", "all next week"],
+    "examples": [
+      { "en": "This time tomorrow I'll be flying to Delhi.", "hi": "कल इसी समय मैं दिल्ली के लिए उड़ान भर रहा होऊँगा।" },
+      { "en": "Will you be using the test server tonight?", "hi": "क्या तुम आज रात टेस्ट सर्वर इस्तेमाल कर रहे होगे?" },
+      { "en": "The team will be monitoring the rollout all evening.", "hi": "टीम पूरी शाम रोलआउट की निगरानी कर रही होगी।" }
+    ],
+    "hindi_trap": "Maps well to Hindi 'रहा होगा'; the trap is dropping 'be': 'I will working' ✗."
+  },
+  {
+    "id": "t:future-perfect", "name": "Future perfect", "time": "future", "aspect": "perfect", "lesson": "g:48-future-perfect-continuous",
+    "form": "will have + past participle · I'll have finished · Will they have fixed it by then?",
+    "use_en": "Something that will be complete before a future point. Almost always with 'by'.",
+    "use_hi": "जो भविष्य के किसी बिंदु से पहले पूरा हो चुका होगा। लगभग हमेशा 'by' के साथ।",
+    "signals": ["by Friday", "by the time", "by then", "before"],
+    "examples": [
+      { "en": "By Friday we'll have closed all critical findings.", "hi": "शुक्रवार तक हम सभी critical findings बंद कर चुके होंगे।" },
+      { "en": "She'll have left by the time you arrive.", "hi": "तुम्हारे पहुँचने तक वह जा चुकी होगी।" },
+      { "en": "In June I'll have worked here for five years.", "hi": "जून में मुझे यहाँ काम करते हुए पाँच साल हो जाएँगे।" }
+    ],
+    "hindi_trap": "Learners avoid it and say 'By Friday we will close' — correct but weaker. Use it when the deadline is the point."
+  },
+  {
+    "id": "t:future-perfect-continuous", "name": "Future perfect continuous", "time": "future", "aspect": "perfect continuous", "lesson": "g:48-future-perfect-continuous",
+    "form": "will have been + verb-ing · I'll have been working here for ten years",
+    "use_en": "Duration of an activity up to a future point. Rare; mostly with 'for' and 'by'.",
+    "use_hi": "भविष्य के किसी बिंदु तक चली गतिविधि की अवधि। दुर्लभ; ज़्यादातर 'for' और 'by' के साथ।",
+    "signals": ["by next year", "for ten years by then"],
+    "examples": [
+      { "en": "By December I'll have been learning English for a year.", "hi": "दिसंबर तक मुझे अंग्रेज़ी सीखते हुए एक साल हो जाएगा।" },
+      { "en": "Next month they'll have been living in Pune for a decade.", "hi": "अगले महीने उन्हें पुणे में रहते हुए दस साल हो जाएँगे।" },
+      { "en": "The scan will have been running for six hours by the time it finishes.", "hi": "जब तक स्कैन खत्म होगा, वह छह घंटे से चल रहा होगा।" }
+    ],
+    "hindi_trap": "Know it, recognise it, but do not reach for it in everyday speech."
+  }
+]

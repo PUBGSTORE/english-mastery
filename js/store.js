@@ -209,7 +209,7 @@ export async function wordRetention(wordId) {
 export async function logAttempt({ kind, refId, accuracy = null, fluency = null, completeness = null, transcript = '', selfRating = null, extra = {} }) {
   const a = { id: uid('at'), kind, refId, accuracy, fluency, completeness, transcript, selfRating, ...extra, day: todayKey(), ts: nowISO() };
   await db.put('attempts', a);
-  const skill = kind === 'dictation' || kind === 'numbers' || kind === 'dates' || kind === 'spelling' ? 'listening' : kind === 'speaking' ? 'speaking' : 'pronunciation';
+  const skill = ['dictation', 'numbers', 'dates', 'spelling'].includes(kind) ? 'listening' : kind === 'speaking' ? 'speaking' : ['writing', 'translate'].includes(kind) ? 'writing' : ['stress', 'sentence-stress'].includes(kind) ? 'pronunciation' : 'pronunciation';
   await bumpDay({ attempts: 1, skill });
   return a;
 }

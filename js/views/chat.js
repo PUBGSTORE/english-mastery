@@ -43,7 +43,7 @@ function noKeyHtml() {
 }
 
 /** Mount the chat UI for the Ask sheet or the full page. */
-export async function mountChat(container, { context = null, embedded = true, threadId = null } = {}) {
+export async function mountChat(container, { context = null, embedded = true, threadId = null, initialMessage = null } = {}) {
   let thread;
   if (threadId) thread = await ai.getThread(threadId);
   if (!thread) {
@@ -51,10 +51,10 @@ export async function mountChat(container, { context = null, embedded = true, th
     const ctx = context || getContext();
     thread = await ai.createThread({ title: ctx && ctx.title ? `About: ${ctx.title}` : 'Quick question', context: ctx });
   }
-  return mountThread(container, thread.id, { embedded, context: context || thread.context });
+  return mountThread(container, thread.id, { embedded, context: context || thread.context, initialMessage });
 }
 
-async function mountThread(container, threadId, { embedded, context = null }) {
+async function mountThread(container, threadId, { embedded, context = null, initialMessage = null }) {
   const thread = await ai.getThread(threadId);
   if (!thread) { mount(container, html`<div class="empty">Chat not found. <a href="#/chat">Back</a></div>`); return; }
   const ctx = context || thread.context;
@@ -120,4 +120,5 @@ async function mountThread(container, threadId, { embedded, context = null }) {
     busy = false; abort = null; sendBtn.innerHTML = String(icon('send'));
   }
   if (!embedded && window.matchMedia('(min-width: 768px)').matches) input.focus();
+  if (initialMessage && key && !msgs.length) { input.value = initialMessage; send(); }
 }

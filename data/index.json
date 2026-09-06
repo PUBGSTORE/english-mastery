@@ -1,6 +1,6 @@
 {
  "app": "english-mastery",
- "contentVersion": "1.0.0",
+ "contentVersion": "1.1.0",
  "generated": "2026-09-06",
  "files": [
   "collocations.json",
@@ -15,6 +15,7 @@
   "shadowing.json",
   "speaking-prompts.json",
   "stress.json",
+  "tenses.json",
   "tongue-twisters.json",
   "vocab-a1.json",
   "vocab-a2.json",
@@ -48,6 +49,7 @@
    "connected": 73,
    "intonation": 61
   },
+  "tenses": 12,
   "tongue-twisters": 34,
   "vocab-a1": 200,
   "vocab-a2": 200,

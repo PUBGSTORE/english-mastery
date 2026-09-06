@@ -200,3 +200,25 @@ export async function speakingFeedback(prompt, transcript, seconds, level) {
   });
   return parseJSON(r.content);
 }
+
+/** Generate new vocabulary entries in the app's schema for a topic. Returns an array. */
+export async function generateWords(topic, level, n = 5, avoid = []) {
+  const r = await chat({
+    json: true, temperature: 0.6, maxTokens: 3500,
+    system: `You create vocabulary entries for a Hindi-speaking English learner (level ${level}). Return JSON only: {"words":[...]} with exactly ${n} entries. Each entry: {"word":"...","ipa":"/.../","pos":"noun|verb|adjective|adverb|phrase|phrasal verb|idiom","cefr":"A1|A2|B1|B2|C1","en_def":"simple English definition","hi_def":"Hindi meaning in Devanagari","hi_nuance":"one sentence on how Hindi speakers misuse or confuse this word","examples":[{"en":"natural sentence","hi":"Devanagari translation"}] (exactly 5, varied, real-world),"collocations":["..."],"synonyms":["..."],"antonyms":["..."],"word_family":["..."],"register":"formal|neutral|informal|technical","common_mistake":{"wrong":"a typical Indian-English error sentence","right":"corrected","why":"short reason"},"cloze":{"sentence":"a sentence with ____ where the word goes","answer":"the word form that fills it"}}. Choose genuinely useful, high-frequency words for the topic that a ${level} learner may not know. Do not use any of these words: ${avoid.slice(0, 300).join(', ')}.`,
+    messages: [{ role: 'user', content: `Topic: ${topic}` }],
+  });
+  const j = parseJSON(r.content);
+  const list = Array.isArray(j) ? j : (j.words || j.entries || []);
+  return list.filter((w) => w && w.word && w.en_def && w.hi_def && Array.isArray(w.examples));
+}
+
+/** Grade a Hindi→English translation against a reference (alternatives are accepted). */
+export async function gradeTranslation(hindi, reference, typed, level) {
+  const r = await chat({
+    json: true, temperature: 0.2, maxTokens: 400,
+    system: `A Hindi-speaking learner (level ${level}) translated a Hindi sentence into English. The reference translation is only one acceptable answer; accept any natural, grammatical English with the same meaning. Return JSON only: {"ok": boolean (acceptable as-is), "score": 0-10, "corrected": "the learner's sentence corrected minimally (or unchanged)", "why_en": "one short sentence", "why_hi": "same in Devanagari", "rule": "short tag such as articles, tense, preposition, word order, word choice, or 'fine'"}`,
+    messages: [{ role: 'user', content: `Hindi: ${hindi}\nReference: ${reference}\nLearner: ${typed}` }],
+  });
+  return parseJSON(r.content);
+}

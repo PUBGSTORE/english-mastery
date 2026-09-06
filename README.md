@@ -19,6 +19,10 @@ What is inside:
 | **AI tutor** | DeepSeek chat with streaming, context injection from whatever you are studying, threads, rolling summaries and a cost counter. |
 | **Progress** | Heatmap, skill radar, pronunciation and listening trends, CEFR progress, streak, time studied. |
 | **Placement** | 30-question adaptive test on first launch. |
+| **Translate** | Hindi → English production drill built from the 6,000+ example pairs in the content; the tutor accepts any natural version. |
+| **Tense map** | All 12 tenses on one screen: form, use, signal words, Hindi trap, link to the lesson. |
+| **AI words** | Type a topic and the tutor writes full entries (Hindi, examples, common mistake, cloze) into your own deck. |
+| **Cloud backup** | Automatic private-Gist backup on your GitHub account; restore on any device with one token. |
 
 ## Deploy to GitHub Pages
 
@@ -59,12 +63,19 @@ The key is stored only in your browser's IndexedDB on that device and is sent on
 
 ## Backups
 
-There is no server. If the browser's site data is cleared, your progress is gone. Do this:
+There is no server. If the browser's site data is cleared, your progress is gone. Two layers protect you:
+
+### Cloud backup (recommended)
+
+Your GitHub account is the account. In **Settings → Cloud backup**, paste a GitHub token (classic, with only the `gist` scope; create it at github.com/settings/tokens/new or run `gh auth token` on your Mac). The app then keeps a private Gist called `english-mastery-backup.json` up to date: about 90 seconds after you stop studying, when you leave the app, and at least once a day. On a new browser or device, paste the same token and tap **Connect and restore existing backup**. Merge keeps both sides (newer record wins). The token is stored only in that browser's IndexedDB and is sent only to api.github.com.
+
+### Manual export
 
 - **Settings → Backup → Export all progress** at least weekly. The app reminds you after seven days. Save the file to iCloud Drive or Files.
 - **Import** restores from that file. **Merge** keeps current data and adds the file (newer wins). **Replace** wipes first.
 - Exports include cards, reviews, attempts, mistakes, daily sets, notes, chats and settings (including the API key). They exclude audio recordings.
 - On iOS, the app asks for persistent storage so Safari is less likely to evict data, but a backup is still the only guarantee.
+- The weekly export reminder is silenced once cloud backup is connected.
 
 ## Adding your own content
 
@@ -78,7 +89,7 @@ All content lives in `data/*.json`. No code changes are needed to add items. IDs
 | `phonemes.json` | Exactly 44 | Edit descriptions only. |
 | `minimal-pairs.json` | Array | `mp:<contrast>:NN`, two words with IPA, a sentence each, tips. |
 | `stress.json` | Object with five arrays | `sentence_stress.content` are 0-based word indices; `intonation.contour` must have one value per word. |
-| `shadowing.json`, `listening.json`, `speaking-prompts.json`, `writing-prompts.json`, `placement.json` | See the existing entries | Keep the Hindi fields in Devanagari. |
+| `shadowing.json`, `listening.json`, `speaking-prompts.json`, `writing-prompts.json`, `placement.json`, `tenses.json` | See the existing entries | Keep the Hindi fields in Devanagari. |
 
 After editing, run the validator. It checks every required field, Hindi presence, index ranges and duplicate ids:
 
@@ -120,6 +131,7 @@ js/tts.js  js/asr.js  js/audio.js   speech synthesis, recognition + word-level s
 js/ai.js                 DeepSeek streaming client, tutor prompts, structured grading
 js/charts.js             SVG heatmap, line, radar, bars, intonation curve
 js/i18n.js               Hindi toggle and tap-to-reveal
+js/sync.js               cloud backup to a private GitHub Gist
 js/views/*.js            one module per screen
 data/*.json              all content
 tools/validate.py        content validator;  tools/merge.py merges part files
