@@ -1,5 +1,5 @@
 // chat.js — DeepSeek tutor: threads, streaming, quick-action chips, context injection. Also mounted in the Ask sheet.
-import { html, mount, icon, toast, confirmDialog, promptDialog, $, closeSheet } from '../ui.js';
+import { html, mount, icon, toast, confirmDialog, promptDialog, openSheet, closeSheet, $ } from '../ui.js';
 import * as ai from '../ai.js';
 import * as store from '../store.js';
 import { getContext } from '../router.js';
@@ -18,12 +18,24 @@ export async function render(container, params) {
   if (params.id) { return mountThread(container, params.id, { embedded: false }); }
   const threads = await ai.listThreads();
   const usage = await ai.usageSummary();
+  const memory = await ai.getMemory();
   mount(container, html`
-    <div class="page-head"><div><h1>AI tutor</h1><p class="sub">${key ? `deepseek-chat · ${usage.calls} calls · ~$${usage.cost.toFixed(3)} spent` : 'No API key yet'}</p></div><button class="btn btn-primary" id="new">${icon('plus')} New chat</button></div>
+    <div class="page-head"><div><h1>AI tutor</h1><p class="sub">${key ? `deepseek-chat · ${usage.calls} calls · ~$${usage.cost.toFixed(3)} spent` : 'No API key yet'}</p></div><div class="btn-row"><button class="btn" id="memory">${icon('star')} Memory (${memory.length})</button><button class="btn btn-primary" id="new">${icon('plus')} New chat</button></div></div>
     ${!key ? noKeyHtml() : ''}
     <div class="search mb">${icon('search')}<input class="input" type="search" id="q" placeholder="Search chats…"></div>
     <div class="list" id="threads">${threads.length ? threads.map(threadRow) : html`<div class="empty">${icon('chat')}<p>No conversations yet. Tap the Ask button on any screen: the tutor already knows what you are studying.</p></div>`}</div>`);
   $('#new', container).onclick = async () => { const t = await ai.createThread({ title: 'New chat' }); location.hash = `#/chat/${t.id}`; };
+  $('#memory', container).onclick = async () => {
+    const draw = async () => {
+      const m = await ai.getMemory();
+      const body = openSheet(html`<h3>What the tutor remembers about you</h3><p class="small muted">These facts are added to every conversation so the tutor never starts from zero. They are learned automatically every few messages, and you can add or delete any.</p>
+        <div class="list">${m.length ? m.map((x) => html`<div class="list-item"><div class="grow"><div class="small">${x.text}</div><div class="xs faint">${x.source === 'auto' ? 'learned' : 'added by you'} · ${fmtDate(x.ts)}</div></div><button class="btn btn-sm btn-ghost" data-mem-del="${x.id}">${icon('trash')}</button></div>`) : html`<div class="xs muted">Nothing yet. Chat a little, or add a fact below.</div>`}</div>
+        <form class="row mt" id="mem-form"><input class="input" id="mem-in" placeholder="e.g. I want to sound natural in client calls" style="flex:1"><button class="btn btn-primary" type="submit">Add</button></form>`, { wide: true });
+      body.querySelectorAll('[data-mem-del]').forEach((b) => b.onclick = async () => { await ai.removeMemory(b.dataset.memDel); closeSheet(); setTimeout(draw, 250); });
+      body.querySelector('#mem-form').onsubmit = async (e) => { e.preventDefault(); const v = body.querySelector('#mem-in').value.trim(); if (!v) return; await ai.addMemory(v, 'user'); closeSheet(); setTimeout(draw, 250); };
+    };
+    draw();
+  };
   $('#q', container).oninput = debounce(async () => {
     const q = $('#q', container).value.toLowerCase().trim();
     if (!q) { mount($('#threads', container), html`${threads.map(threadRow)}`); return; }
@@ -47,9 +59,12 @@ export async function mountChat(container, { context = null, embedded = true, th
   let thread;
   if (threadId) thread = await ai.getThread(threadId);
   if (!thread) {
-    // Reuse today's context thread if the same context, else create
+    // Remember: reuse the most recent thread if it was used in the last 24h (same context → same thread; otherwise continue the latest one).
     const ctx = context || getContext();
-    thread = await ai.createThread({ title: ctx && ctx.title ? `About: ${ctx.title}` : 'Quick question', context: ctx });
+    const recent = (await ai.listThreads()).filter((t) => Date.now() - new Date(t.updatedAt).getTime() < 24 * 3600000);
+    thread = recent.find((t) => ctx && ctx.title && t.context && t.context.title === ctx.title) || recent[0] || null;
+    if (thread && ctx) { thread.context = ctx; await (await import('../db.js')).put('threads', thread); }
+    if (!thread) thread = await ai.createThread({ title: ctx && ctx.title ? `About: ${ctx.title}` : 'Quick question', context: ctx });
   }
   return mountThread(container, thread.id, { embedded, context: context || thread.context, initialMessage });
 }
@@ -102,7 +117,8 @@ async function mountThread(container, threadId, { embedded, context = null, init
     abort = new AbortController();
     try {
       const history = await ai.buildContext(thread, msgs);
-      const r = await ai.chat({ system: ai.tutorSystem(level, ctx), messages: history, signal: abort.signal, onToken: (_, full) => { el.firstElementChild.innerHTML = mdLite(full); log.scrollTop = log.scrollHeight; } });
+      const memory = await ai.getMemory();
+      const r = await ai.chat({ feature: 'chat', system: ai.tutorSystem(level, ctx, memory), messages: history, signal: abort.signal, onToken: (_, full) => { el.firstElementChild.innerHTML = mdLite(full); log.scrollTop = log.scrollHeight; } });
       el.firstElementChild.classList.remove('cursor-blink');
       const am = await ai.addMessage(threadId, 'assistant', r.content, { usage: r.usage });
       msgs.push(am);
@@ -111,6 +127,7 @@ async function mountThread(container, threadId, { embedded, context = null, init
       await (await import('../db.js')).put('threads', thread);
       if (!embedded) $('#title-btn', container).textContent = thread.title;
       updateCost();
+      ai.maybeExtractMemory(thread, msgs).then((n) => { if (n) toast(`Remembered ${n} thing${n > 1 ? 's' : ''} about you`, '', { timeout: 2000 }); });
     } catch (e) {
       el.remove();
       if (e.name === 'AbortError') toast('Stopped', '', { timeout: 1200 });

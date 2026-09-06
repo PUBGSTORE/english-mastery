@@ -57,7 +57,7 @@ async function runScenario(container, sc) {
     turns.push({ role: 'me', text, ts: nowISO(), seconds }); busy = true; drawLog();
     try {
       const msgs = turns.map((t) => ({ role: t.role === 'ai' ? 'assistant' : 'user', content: t.text }));
-      const r = await ai.chat({ system, messages: msgs, temperature: 0.8, maxTokens: 220 });
+      const r = await ai.chat({ feature: 'conversation', system, messages: msgs, temperature: 0.8, maxTokens: 220 });
       turns.push({ role: 'ai', text: r.content.trim(), ts: nowISO() });
       busy = false; drawLog(); tts.speak(r.content.trim());
       $('#finish', container).disabled = false;
@@ -70,7 +70,7 @@ async function runScenario(container, sc) {
     const btn = $('#finish', container); btn.disabled = true; btn.innerHTML = '<span class="spinner"></span> Analysing…';
     try {
       const transcript = turns.map((t) => `${t.role === 'ai' ? sc.title.split(' ')[0] + ' (AI)' : 'ME'}: ${t.text}`).join('\n');
-      const r = await ai.chat({ json: true, temperature: 0.3, maxTokens: 2200, system: `You are an English coach reviewing a roleplay ("${sc.title}") by a Hindi-speaking learner (level ${level}). Only judge the lines marked ME. Return JSON only:
+      const r = await ai.chat({ feature: 'conversation', json: true, temperature: 0.3, maxTokens: 2200, system: `You are an English coach reviewing a roleplay ("${sc.title}") by a Hindi-speaking learner (level ${level}). Only judge the lines marked ME. Return JSON only:
 {"scores":{"grammar":0-10,"vocabulary":0-10,"fluency":0-10,"task":0-10},
  "corrections":[{"from":"exact ME line or fragment","to":"corrected","why_en":"short","why_hi":"Devanagari","rule":"tag"}] (every real error, max 12),
  "native":[{"from":"ME line","to":"what a native speaker would more likely say"}] (5 items),

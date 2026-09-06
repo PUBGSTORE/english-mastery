@@ -31,7 +31,7 @@ export async function recentMistakes(days = 7, n = 25) {
 async function call(system, user, maxTokens) {
   let last = null;
   for (let attempt = 0; attempt < 2; attempt++) {
-    const r = await ai.chat({ json: true, temperature: 0.5, maxTokens, system, messages: [{ role: 'user', content: user }] });
+    const r = await ai.chat({ feature: 'generate', json: true, temperature: 0.5, maxTokens, system, messages: [{ role: 'user', content: user }] });
     try { last = JSON.parse(r.content); return last; } catch (e) { const m = r.content.match(/\{[\s\S]*\}/); if (m) { try { return JSON.parse(m[0]); } catch { /* retry */ } } }
   }
   throw new Error('The tutor returned malformed JSON twice. Try again.');

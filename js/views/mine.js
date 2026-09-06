@@ -115,7 +115,7 @@ async function processSegments(container, meta, segments, { auto }) {
     protocol: { preTaught: false, watched: null, reviewed1: false, reviewed3: false, questionsDone: false, summaryDone: false, closed: false }, cardsAdded: 0,
   };
   await db.put('videos', rec);
-  location.hash = `#/mine/${encodeURIComponent(meta.id)}`;
+  location.hash = `#/mine/${encodeURIComponent(meta.id)}?lookup=1`;
 }
 
 /* ============================================================ VIDEO ============================================================ */
@@ -131,6 +131,7 @@ async function renderVideo(container, id) {
   const month = await ai.monthSpend();
   const inr = await db.getSetting('inrRate', 84);
   let tab = location.hash.includes('tab=protocol') ? 'protocol' : location.hash.includes('tab=text') ? 'text' : 'words';
+  const autoLookup = location.hash.includes('lookup=1');
   const draw = async () => {
     mount(container, html`
       ${backLink('#/mine', 'Miner')}
@@ -150,11 +151,13 @@ async function renderVideo(container, id) {
     const pendingNow = v.words.filter((w) => !w.decision);
     const newNow = pendingNow.filter((w) => !cache.has(w.lemma)).length;
     mount(pane, html`
-      ${pendingNow.length && newNow ? html`<div class="card accent compact"><div class="row between"><div><strong>${icon('sparkle')} Get meanings</strong><div class="xs muted">${pendingNow.length - newNow} already in your word cache (free) · ${newNow} new ≈ ₹${(est.inr * newNow / Math.max(1, newCount)).toFixed(2)} · this month so far ₹${(month.usd * inr).toFixed(2)}</div></div>
-        <button class="btn btn-primary" id="enrich" ${key ? '' : 'disabled'}>${key ? 'Look up' : 'Needs API key'}</button></div>${key ? '' : html`<p class="xs muted mt mb-0">Without a DeepSeek key you still get the word list and the video sentences; a key adds IPA, English and Hindi meanings for about half a rupee per video, cached forever.</p>`}<div id="enrich-progress"></div></div>` : ''}
+      ${!key ? html`<div class="card amber"><strong>${icon('alert')} No meanings yet: the DeepSeek key is missing.</strong><p class="small mt">The word list and the video sentences are free, but the explanations (IPA, English meaning, हिन्दी, ગુજરાતી, example) come from DeepSeek. Add your key once and tap <em>Look up</em>; it costs about half a rupee per video and every word is cached forever.</p><a class="btn btn-primary" href="#/settings">Open Settings → AI tutor</a></div>` : ''}
+      ${pendingNow.length && newNow ? html`<div class="card accent compact"><div class="row between"><div><strong>${icon('sparkle')} Get meanings for ${newNow} words</strong><div class="xs muted">${pendingNow.length - newNow} already in your word cache (free) · ${newNow} new ≈ ₹${(est.inr * newNow / Math.max(1, newCount)).toFixed(2)} · this month so far ₹${(month.usd * inr).toFixed(2)}</div></div>
+        <button class="btn btn-primary" id="enrich" ${key ? '' : 'disabled'}>${key ? 'Look up' : 'Needs API key'}</button></div><div id="enrich-progress"></div></div>` : ''}
       <div class="btn-row mb"><button class="btn btn-sm" id="add-all">${icon('plus')} Add all</button><button class="btn btn-sm" id="add-b1">Add only B1+</button><button class="btn btn-sm" id="export">${icon('download')} Export list</button><span class="xs muted">${v.words.filter((w) => w.decision === 'added').length} added · ${v.words.filter((w) => w.decision === 'known').length} known · ${v.words.filter((w) => w.decision === 'ignored').length} ignored</span></div>
       <div class="list" id="wl">${v.words.map((w, i) => wordRow(w, i, cache.get(w.lemma)))}</div>`);
     const en = $('#enrich', pane); if (en) en.onclick = () => runEnrich(pane);
+    if (autoLookup && key && newNow && en && !pane.dataset.offered) { pane.dataset.offered = '1'; setTimeout(() => runEnrich(pane), 400); }
     $('#add-all', pane).onclick = () => bulkAdd((w) => true);
     $('#add-b1', pane).onclick = () => bulkAdd((w) => { const c = cache.get(w.lemma); return c ? ['B1', 'B2', 'C1', 'C2'].includes(c.cefr) : w.band >= 3; });
     $('#export', pane).onclick = () => exportList();

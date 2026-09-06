@@ -16,7 +16,7 @@ What is inside:
 | **Speaking** | Daily prompt, recording, transcript, AI feedback on grammar, vocabulary range and filler words. |
 | **Writing studio** | Email, bug report, Slack, essay, incident and disclosure templates. AI rubric, corrected version with inline diff, every correction becomes a card. |
 | **Mistakes** | Every wrong answer and AI correction is logged, grouped by rule, and re-tested more aggressively. |
-| **AI tutor** | DeepSeek chat with streaming, context injection from whatever you are studying, threads, rolling summaries and a cost counter. |
+| **AI tutor** | DeepSeek chat with streaming, context injection from whatever you are studying, threads, rolling summaries, a cost counter, and **long-term memory**: every few messages the tutor distils facts about you (goals, weak points, preferences) into a memory you can view, add to and edit; the Ask button continues your recent conversation instead of starting from zero. |
 | **Progress** | Heatmap, skill radar, pronunciation and listening trends, CEFR progress, streak, time studied. |
 | **Placement** | 30-question adaptive test on first launch. |
 | **Translate** | Hindi → English production drill built from the 6,000+ example pairs in the content; the tutor accepts any natural version. |
@@ -53,6 +53,8 @@ python3 -m http.server 8080
 ```
 
 ## The DeepSeek key
+
+DeepSeek is called **only** when you press an AI action (send a message, Look up, Analyse, Grade, Generate, Check with AI, Explain). Nothing runs on a timer, in the background, or on page load. Settings shows calls and spend per feature, this month's spend, and a monthly cap that blocks calls when reached.
 
 The AI tutor, writing rubric, speaking feedback and sentence grading use DeepSeek's `deepseek-chat` model.
 
@@ -113,6 +115,8 @@ Paste any YouTube link (or a video id, or a `youtu.be` short link) on the **Vide
 3. **Paste (always works).** Open the video → `…more` → Show transcript → select all → copy → paste into the box the app shows. Timestamps are kept. `.srt`, `.vtt` and `.txt` files can be dropped in too.
 
 Auto-captions arrive without punctuation. If a DeepSeek key is set, the app offers to re-punctuate the text for a few paise so the cloze sentences are real sentences; otherwise each caption line is used as a sentence.
+
+**Meanings.** Right after a video is mined, the app offers to look up the unknown words (one confirm, cost shown). Without a DeepSeek key you get the words and sentences but no explanations, and the page says so in orange. Any word added without a meaning has a **Get meaning** button on its page.
 
 **Cost control.** Every looked-up word is cached forever in your browser (and in your exports), so a word costs money once and never again. Before any lookup you see the estimate in rupees, Settings shows this month's spend, and a monthly cap blocks calls when reached. DeepSeek prices per million tokens and the ₹/$ rate are editable in Settings. Without a key, you still get the word list and the video sentences.
 

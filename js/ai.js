@@ -11,19 +11,41 @@ export async function getKey() { return (await getSetting('apiKey', '')) || ''; 
 export async function hasKey() { return !!(await getKey()); }
 export async function getPrices() { return (await getSetting('prices', null)) || DEFAULT_PRICES; }
 
-export function tutorSystem(level = 'A2', context = null) {
+export function tutorSystem(level = 'A2', context = null, memory = []) {
   let s = `You are a patient English tutor for a Hindi-speaking adult learner at level ${level}. Explain in simple English, then give the same explanation in Hindi (Devanagari). Always give 3+ examples. If the user's message contains English errors, correct them gently at the end under 'Quick fix:'. Be concise. Use short paragraphs and markdown lists; no tables.`;
+  if (memory && memory.length) s += `\n\nWhat you remember about this learner from earlier conversations (use it naturally, never recite it):\n- ${memory.map((m) => m.text).join('\n- ')}`;
   if (context && context.text) s += `\n\nThe learner is currently studying: ${context.title ? context.title + ' — ' : ''}${context.text}`;
   return s;
+}
+
+/* ---------------- long-term learner memory (facts that persist across chats) ---------------- */
+export async function getMemory() { return (await getSetting('tutorMemory', [])) || []; }
+export async function setMemory(list) { return setSetting('tutorMemory', list); }
+export async function addMemory(text, source = 'user') { const m = await getMemory(); if (m.some((x) => x.text.toLowerCase() === text.toLowerCase())) return m; m.unshift({ id: uid('mem'), text, source, ts: nowISO() }); await setMemory(m.slice(0, 60)); return m; }
+export async function removeMemory(id) { await setMemory((await getMemory()).filter((x) => x.id !== id)); }
+/** After every 8 learner messages in a thread, distil durable facts (goals, level, recurring errors, preferences, life context) with one cheap call. */
+export async function maybeExtractMemory(thread, msgs) {
+  const userMsgs = msgs.filter((m) => m.role === 'user');
+  const seen = thread.memorisedCount || 0;
+  if (userMsgs.length - seen < 8) return false;
+  const chunk = msgs.slice(-24).map((m) => `${m.role}: ${m.content}`).join('\n');
+  try {
+    const r = await chat({ json: true, temperature: 0.2, maxTokens: 400, feature: 'chat-memory', system: 'From this English-tutoring conversation, extract durable facts worth remembering about the LEARNER for future sessions: their goals, job, interests, weak points, mistakes they repeat, preferences (e.g. wants Hindi first, prefers short answers). Only facts stated or clearly shown, no guesses. Return JSON only: {"facts": ["short third-person sentences, max 6"]}', messages: [{ role: 'user', content: chunk }] });
+    const j = JSON.parse(r.content); const facts = Array.isArray(j.facts) ? j.facts.filter((f) => typeof f === 'string' && f.length > 8).slice(0, 6) : [];
+    for (const f of facts) await addMemory(f, 'auto');
+    thread.memorisedCount = userMsgs.length; await put('threads', thread);
+    return facts.length;
+  } catch (e) { console.warn('[ai] memory extraction failed', e); return false; }
 }
 
 /**
  * Stream a chat completion. onToken(delta, fullSoFar). Resolves { content, usage }.
  */
-export async function chat({ messages, system, temperature = 0.7, onToken, signal, json = false, maxTokens = 1200 }) {
+export async function chat({ messages, system, temperature = 0.7, onToken, signal, json = false, maxTokens = 1200, feature = 'other' }) {
   const key = await getKey();
   if (!key) throw new Error('NO_KEY');
   await checkCap(0);
+  currentFeature = feature;
   const body = {
     model: MODEL, temperature, stream: !json, max_tokens: maxTokens,
     messages: [{ role: 'system', content: system }, ...messages],
@@ -77,7 +99,12 @@ export async function chat({ messages, system, temperature = 0.7, onToken, signa
   return { content, usage };
 }
 
+let currentFeature = 'other';
 async function addUsage(u) {
+  const byFeature = (await getSetting('usageByFeature', null)) || {};
+  const f = byFeature[currentFeature] || { input: 0, output: 0, calls: 0 };
+  f.input += u.input || 0; f.output += u.output || 0; f.calls += 1; byFeature[currentFeature] = f;
+  await setSetting('usageByFeature', byFeature);
   const cur = (await getSetting('usage', null)) || { input: 0, output: 0, calls: 0 };
   cur.input += u.input || 0; cur.output += u.output || 0; cur.calls += 1;
   await setSetting('usage', cur);
@@ -133,7 +160,7 @@ export async function buildContext(thread, msgs, { keep = 10 } = {}) {
   if (older.length > summarisedCount + 4) {
     try {
       const text = older.slice(summarisedCount).map((m) => `${m.role}: ${m.content}`).join('\n');
-      const r = await chat({
+      const r = await chat({ feature: 'chat-summary',
         system: 'Summarise this English-tutoring conversation in under 120 words, keeping the learner\'s level, recurring mistakes, and topics covered. Output plain text.',
         messages: [{ role: 'user', content: (summary ? `Previous summary: ${summary}\n\nNew turns:\n` : '') + text }],
         temperature: 0.3, maxTokens: 250,
@@ -160,7 +187,7 @@ function parseJSON(s) {
 /** Grade a learner's sentence using a target word. */
 export async function gradeSentence(word, sentence, level) {
   const r = await chat({
-    json: true, temperature: 0.3, maxTokens: 400,
+    feature: 'review-use', json: true, temperature: 0.3, maxTokens: 400,
     system: `You grade one English sentence written by a Hindi-speaking learner (level ${level}) who is practising the word "${word}". Respond with JSON only: {"ok": boolean (word used correctly and sentence grammatical), "score": 0-10, "corrected": "corrected sentence or same", "why_en": "one or two short sentences", "why_hi": "same in Devanagari Hindi", "natural": "a more natural alternative sentence using the word"}`,
     messages: [{ role: 'user', content: sentence }],
   });
@@ -170,7 +197,7 @@ export async function gradeSentence(word, sentence, level) {
 /** Grade free production for a grammar lesson (3 sentences). */
 export async function gradeProduction(lessonTitle, pattern, text, level) {
   const r = await chat({
-    json: true, temperature: 0.3, maxTokens: 900,
+    feature: 'grammar-production', json: true, temperature: 0.3, maxTokens: 900,
     system: `You are checking sentences written by a Hindi-speaking English learner (level ${level}) practising the grammar point "${lessonTitle}" (pattern: ${pattern}). For each sentence return a correction. Respond with JSON only: {"overall": 0-10, "summary_en": "...", "summary_hi": "Devanagari", "items": [{"original": "...", "corrected": "...", "ok": boolean, "why_en": "...", "why_hi": "...", "rule": "short rule name"}]}`,
     messages: [{ role: 'user', content: text }],
   });
@@ -180,7 +207,7 @@ export async function gradeProduction(lessonTitle, pattern, text, level) {
 /** Writing studio rubric. */
 export async function gradeWriting(task, register, text, level) {
   const r = await chat({
-    json: true, temperature: 0.3, maxTokens: 1800,
+    feature: 'writing', json: true, temperature: 0.3, maxTokens: 1800,
     system: `You are an expert English writing coach for a Hindi-speaking security engineer (level ${level}). Task: ${task}. Expected register: ${register}. Grade the text and return JSON only:
 {"scores": {"grammar": 0-10, "vocabulary": 0-10, "coherence": 0-10, "register": 0-10, "naturalness": 0-10},
  "corrected": "the full corrected text, same structure and meaning, natural native English, no commentary",
@@ -195,7 +222,7 @@ Keep changes to the 3-12 most important ones. Flag Indianisms (kindly, revert ba
 /** Speaking feedback from a transcript. */
 export async function speakingFeedback(prompt, transcript, seconds, level) {
   const r = await chat({
-    json: true, temperature: 0.4, maxTokens: 1000,
+    feature: 'speaking', json: true, temperature: 0.4, maxTokens: 1000,
     system: `You are an English speaking coach for a Hindi-speaking adult (level ${level}). The learner spoke for ${Math.round(seconds)} seconds in response to: "${prompt}". You receive an automatic transcript (may contain recognition errors; ignore obvious ASR noise). Return JSON only:
 {"scores": {"grammar": 0-10, "vocabulary": 0-10, "fluency": 0-10, "task": 0-10},
  "fillers": ["list of filler words/phrases detected, e.g. basically, actually, like"],
@@ -210,7 +237,7 @@ export async function speakingFeedback(prompt, transcript, seconds, level) {
 /** Generate new vocabulary entries in the app's schema for a topic. Returns an array. */
 export async function generateWords(topic, level, n = 5, avoid = []) {
   const r = await chat({
-    json: true, temperature: 0.6, maxTokens: 3500,
+    feature: 'ai-words', json: true, temperature: 0.6, maxTokens: 3500,
     system: `You create vocabulary entries for a Hindi-speaking English learner (level ${level}). Return JSON only: {"words":[...]} with exactly ${n} entries. Each entry: {"word":"...","ipa":"/.../","pos":"noun|verb|adjective|adverb|phrase|phrasal verb|idiom","cefr":"A1|A2|B1|B2|C1","en_def":"simple English definition","hi_def":"Hindi meaning in Devanagari","hi_nuance":"one sentence on how Hindi speakers misuse or confuse this word","examples":[{"en":"natural sentence","hi":"Devanagari translation"}] (exactly 5, varied, real-world),"collocations":["..."],"synonyms":["..."],"antonyms":["..."],"word_family":["..."],"register":"formal|neutral|informal|technical","common_mistake":{"wrong":"a typical Indian-English error sentence","right":"corrected","why":"short reason"},"cloze":{"sentence":"a sentence with ____ where the word goes","answer":"the word form that fills it"}}. Choose genuinely useful, high-frequency words for the topic that a ${level} learner may not know. Do not use any of these words: ${avoid.slice(0, 300).join(', ')}.`,
     messages: [{ role: 'user', content: `Topic: ${topic}` }],
   });
@@ -222,7 +249,7 @@ export async function generateWords(topic, level, n = 5, avoid = []) {
 /** Grade a Hindi→English translation against a reference (alternatives are accepted). */
 export async function gradeTranslation(hindi, reference, typed, level) {
   const r = await chat({
-    json: true, temperature: 0.2, maxTokens: 400,
+    feature: 'translate', json: true, temperature: 0.2, maxTokens: 400,
     system: `A Hindi-speaking learner (level ${level}) translated a Hindi sentence into English. The reference translation is only one acceptable answer; accept any natural, grammatical English with the same meaning. Return JSON only: {"ok": boolean (acceptable as-is), "score": 0-10, "corrected": "the learner's sentence corrected minimally (or unchanged)", "why_en": "one short sentence", "why_hi": "same in Devanagari", "rule": "short tag such as articles, tense, preposition, word order, word choice, or 'fine'"}`,
     messages: [{ role: 'user', content: `Hindi: ${hindi}\nReference: ${reference}\nLearner: ${typed}` }],
   });
@@ -249,7 +276,7 @@ export async function enrichWords(lemmasList, level = 'B1', sentences = {}) {
   await checkCap(0.01);
   const ctx = lemmasList.map((l) => sentences[l] ? `${l}: "${String(sentences[l]).slice(0, 140)}"` : l).join('\n');
   const r = await chat({
-    json: true, temperature: 0.2, maxTokens: 4000,
+    feature: 'miner-meanings', json: true, temperature: 0.2, maxTokens: 4000,
     system: `You are a dictionary for a Hindi-speaking English learner (level ${level}). For EVERY word in the list return an entry. Respond with JSON only: {"<word>": {"word": "dictionary headword (lemma)", "ipa": "/…/", "pos": "noun|verb|adjective|adverb|phrase|other", "cefr": "A1|A2|B1|B2|C1|C2", "en_def": "simple English, A2 vocabulary, under 15 words, matching the sense used in the quoted sentence if given", "hi_def": "natural Devanagari Hindi meaning (not transliteration)", "gu_def": "Gujarati meaning in Gujarati script", "hi_nuance": "one short sentence for Hindi speakers, or empty", "example_en": "one natural example sentence", "example_hi": "its Devanagari translation", "synonyms": ["up to 3"], "register": "formal|neutral|informal|technical|slang"}}. Keys must be exactly the words given.`,
     messages: [{ role: 'user', content: ctx }],
   });

@@ -31,7 +31,7 @@ export async function estimate(text) {
 
 async function callJSON(system, user, maxTokens) {
   for (let attempt = 0; attempt < 2; attempt++) {
-    const r = await ai.chat({ json: true, temperature: 0.3, maxTokens, system, messages: [{ role: 'user', content: user }] });
+    const r = await ai.chat({ feature: 'fast-knowledge', json: true, temperature: 0.3, maxTokens, system, messages: [{ role: 'user', content: user }] });
     try { return JSON.parse(r.content); } catch { const m = r.content.match(/\{[\s\S]*\}/); if (m) { try { return JSON.parse(m[0]); } catch { /* retry */ } } }
   }
   throw new Error('The tutor returned malformed JSON twice.');

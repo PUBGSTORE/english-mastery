@@ -122,6 +122,7 @@ export async function renderWord(container, id) {
       <p style="font-size:var(--fs-lg);margin-top:10px">${w.en_def}</p>
       <div class="hi-text" lang="hi" style="font-size:var(--fs-lg)">${w.hi_def}</div>
       ${w.hi_nuance ? html`<div class="feedback close mt small"><strong>Hindi speakers, note:</strong> ${w.hi_nuance}</div>` : ''}
+      ${w.deck === 'custom' && w.hi_def === 'अर्थ अभी नहीं मिला' || /^(Seen in:|Frequency rank)/.test(w.en_def || '') ? html`<div class="feedback close mt small"><strong>No meaning yet.</strong> This word was added without a lookup. <button class="btn btn-sm btn-primary" id="get-meaning" style="margin-left:8px">${icon('sparkle')} Get meaning (≈ ₹0.02)</button></div>` : ''}
       <div class="btn-row mt">
         ${card ? html`<span class="chip ${card.interval >= 21 ? 'green' : 'amber'}">${card.state === 'new' ? 'In queue' : `Due ${fmtRelDue(card.due)} · ease ${card.ease}`}${retention !== null ? ` · retention ${retention}%` : ''}</span>` : html`<button class="btn btn-primary" id="add-card">${icon('plus')} Add to reviews</button>`}
         <button class="btn" id="add-note">${icon('note')} Note</button>
@@ -144,6 +145,12 @@ export async function renderWord(container, id) {
   const add = $('#add-card', container);
   if (add) add.onclick = async () => { await store.ensureVocabCards([id]); toast('Added to reviews', 'ok'); renderWord(container, id); };
   $('#add-note', container).onclick = () => { location.hash = `#/notes/new?attach=${encodeURIComponent(id)}&title=${encodeURIComponent(w.word)}`; };
+  const gm = $('#get-meaning', container); if (gm) gm.onclick = async () => {
+    const ai = await import('../ai.js'); if (!(await ai.hasKey())) { toast('Add your DeepSeek key in Settings first.', 'warn', { action: { label: 'Settings', onClick: () => { location.hash = '#/settings'; } } }); return; }
+    gm.disabled = true; gm.innerHTML = '<span class="spinner"></span>';
+    try { const mine = await import('../mine.js'); await mine.fillCustomWord(w, { level: await store.level(), sentence: (w.examples || [])[0]?.en || '' }); toast('Meaning added', 'ok'); renderWord(container, id); }
+    catch (e) { toast(e.message === 'CAP_REACHED' ? 'Monthly AI cap reached.' : e.message, 'err'); gm.disabled = false; gm.textContent = 'Get meaning'; }
+  };
   const mv = await import('../myvocab.js'); const fav = $('#fav', container);
   if (await mv.has(id)) fav.style.color = 'var(--red)';
   fav.onclick = async () => { const added = await mv.toggle(await mv.fromWordId(id)); fav.style.color = added ? 'var(--red)' : ''; toast(added ? 'Added to your vocabulary list' : 'Removed from your list', 'ok', { timeout: 1500 }); };

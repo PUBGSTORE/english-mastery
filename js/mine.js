@@ -112,12 +112,16 @@ export async function estimate(nNew) {
   const usd = (inTok / 1e6) * p.input + (outTok / 1e6) * p.output;
   return { usd, inr: usd * inr, inTok, outTok };
 }
-const REQUIRED = ['word', 'ipa', 'pos', 'cefr', 'en_def', 'hi_def', 'example_en', 'example_hi'];
-function valid(e) {
-  if (!e || typeof e !== 'object') return false;
-  for (const k of REQUIRED) if (typeof e[k] !== 'string' || !e[k].trim()) return false;
-  if (!/[ऀ-ॿ]/.test(e.hi_def)) return false;
-  return true;
+// A usable entry needs a headword and an English meaning; everything else is optional (missing Hindi is shown as blank, never as a failure).
+function valid(e) { return !!(e && typeof e === 'object' && typeof e.en_def === 'string' && e.en_def.trim()); }
+function findEntry(got, l) {
+  if (!got) return null;
+  const key = l.toLowerCase();
+  if (got[key]) return got[key];
+  for (const [k, v] of Object.entries(got)) { if (String(k).toLowerCase().trim() === key) return v; if (v && typeof v === 'object' && String(v.word || '').toLowerCase().trim() === key) return v; }
+  // inflection tolerance: "scanner" vs "scanners"
+  for (const [k, v] of Object.entries(got)) { const kk = String(k).toLowerCase(); if (kk.startsWith(key) || key.startsWith(kk)) return v; }
+  return null;
 }
 /**
  * Enrich lemmas (cache-first). onBatch(i, n). Returns { entries: Map, skipped: [] }.
@@ -138,8 +142,8 @@ export async function enrich(lemmaList, { level = 'B1', onBatch = null, sentence
     if (!got) continue;
     const rows = [];
     for (const l of batch) {
-      const e = got[l] || got[l.toLowerCase()];
-      if (valid(e)) rows.push({ lemma: l, word: e.word.trim().toLowerCase(), ipa: e.ipa, pos: e.pos, cefr: normCefr(e.cefr), en_def: e.en_def, hi_def: e.hi_def, gu_def: /[઀-૿]/.test(e.gu_def || '') ? e.gu_def : '', hi_nuance: e.hi_nuance || '', example_en: e.example_en, example_hi: e.example_hi, synonyms: Array.isArray(e.synonyms) ? e.synonyms.slice(0, 5) : [], register: e.register || 'neutral', ts: nowISO(), model: ai.MODEL });
+      const e = findEntry(got, l);
+      if (valid(e)) rows.push({ lemma: l, word: String(e.word || l).trim().toLowerCase(), ipa: e.ipa || '', pos: e.pos || 'other', cefr: normCefr(e.cefr), en_def: e.en_def, hi_def: /[ऀ-ॿ]/.test(e.hi_def || '') ? e.hi_def : (e.hi_def || ''), gu_def: /[઀-૿]/.test(e.gu_def || '') ? e.gu_def : '', hi_nuance: e.hi_nuance || '', example_en: e.example_en || '', example_hi: e.example_hi || '', synonyms: Array.isArray(e.synonyms) ? e.synonyms.slice(0, 5) : [], register: e.register || 'neutral', ts: nowISO(), model: ai.MODEL });
       else skipped.push(l);
     }
     if (rows.length) { await db.bulkPut('wordCache', rows); for (const r of rows) entries.set(r.lemma, r); }
@@ -174,7 +178,7 @@ export async function repunctuate(text, { onChunk = null } = {}) {
   const out = [];
   for (let i = 0; i < chunks.length; i++) {
     onChunk && onChunk(i, chunks.length);
-    const r = await ai.chat({ system: 'You receive an English auto-caption transcript with no punctuation or capitalisation. Return the SAME words in the SAME order with correct sentence punctuation, capitalisation and paragraph breaks. Do not add, remove, translate or paraphrase any word. Output plain text only.', messages: [{ role: 'user', content: chunks[i] }], temperature: 0.1, maxTokens: 2400 });
+    const r = await ai.chat({ feature: 'miner-punctuation', system: 'You receive an English auto-caption transcript with no punctuation or capitalisation. Return the SAME words in the SAME order with correct sentence punctuation, capitalisation and paragraph breaks. Do not add, remove, translate or paraphrase any word. Output plain text only.', messages: [{ role: 'user', content: chunks[i] }], temperature: 0.1, maxTokens: 2400 });
     out.push(r.content.trim());
   }
   return out.join('\n\n');
@@ -186,3 +190,20 @@ export async function estimateRepunctuate(text) {
   return { usd, inr: usd * inr };
 }
 export const textId = (text) => `text:${hashStr(text.slice(0, 5000) + text.length).toString(36)}`;
+
+/** Look up one word (cache-first) and, if it is a custom word without a real meaning, fill the custom entry in place. */
+export const PLACEHOLDER_HI = 'अर्थ अभी नहीं मिला';
+export function isPlaceholder(w) { return !w || !w.en_def || w.hi_def === PLACEHOLDER_HI || /^(Seen in:|Frequency rank)/.test(w.en_def); }
+export async function fillCustomWord(word, { level = 'B1', sentence = '' } = {}) {
+  const lemma = String(word.word || '').toLowerCase();
+  const r = await enrich([lemma], { level, sentences: sentence ? { [lemma]: sentence } : {} });
+  const c = r.entries.get(lemma);
+  if (!c) throw new Error(`No meaning came back for "${word.word}".`);
+  const row = { ...word, ipa: c.ipa || word.ipa, pos: c.pos || word.pos, cefr: c.cefr || word.cefr, en_def: c.en_def, hi_def: c.hi_def || word.hi_def, gu_def: c.gu_def || word.gu_def || '', hi_nuance: c.hi_nuance || word.hi_nuance, synonyms: c.synonyms && c.synonyms.length ? c.synonyms : word.synonyms, register: c.register || word.register };
+  const ex = (row.examples || []).filter((x) => x && x.en && !/^\(वीडियो से\)/.test(x.hi || ''));
+  if (c.example_en) ex.push({ en: c.example_en, hi: c.example_hi || '' });
+  for (const x of row.examples || []) if (x && x.en && /^\(वीडियो से\)/.test(x.hi || '')) ex.unshift({ en: x.en, hi: c.hi_def ? `(वीडियो से) ${c.hi_def}` : x.hi });
+  row.examples = ex.slice(0, 7);
+  await db.put('custom', row);
+  return row;
+}

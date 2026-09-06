@@ -30,6 +30,7 @@ export async function render(container) {
   const transcriptProxy = await db.getSetting('transcriptProxy', '');
   const wordCacheCount = await db.count('wordCache');
   const localBackups = await db.listBackups();
+  const byFeature = (await db.getSetting('usageByFeature', null)) || {};
   mount(container, html`
     <div class="page-head"><div><h1>Settings</h1><p class="sub">Everything is stored on this device only.</p></div></div>
 
@@ -74,7 +75,10 @@ export async function render(container) {
         <div class="field"><label for="monthlyCap">Monthly spend cap ($, 0 = none)</label><input class="input" id="monthlyCap" type="number" step="0.5" min="0" value="${monthlyCap}"><span class="help">This month: $${month.usd.toFixed(3)} (₹${(month.usd * inrRate).toFixed(2)}) across ${month.calls} calls. Calls are blocked once the cap is hit.</span></div>
         <div class="field"><label for="inrRate">₹ per $ (for estimates)</label><input class="input" id="inrRate" type="number" step="0.5" value="${inrRate}"></div>
       </div>
-      <button class="btn btn-ghost btn-sm" id="reset-usage">Reset counter</button>
+      <details class="mt"><summary class="small muted" style="cursor:pointer">Where the tokens went (by feature)</summary>
+        <p class="xs muted mt">DeepSeek is called <strong>only</strong> when you press an AI action: send a chat message, Look up, Analyse, Grade, Generate, Check with AI, Explain. Nothing runs in the background, on a timer, or on page load. Cloud backup uses GitHub, not DeepSeek.</p>
+        ${Object.keys(byFeature).length ? html`<table class="tbl"><thead><tr><th>Feature</th><th>Calls</th><th>Tokens</th><th>≈ ₹</th></tr></thead><tbody>${Object.entries(byFeature).sort((a, b) => (b[1].input + b[1].output) - (a[1].input + a[1].output)).map(([k, v]) => html`<tr><td>${k}</td><td>${v.calls}</td><td>${((v.input + v.output) / 1000).toFixed(1)}k</td><td>${(((v.input / 1e6) * prices.input + (v.output / 1e6) * prices.output) * inrRate).toFixed(2)}</td></tr>`)}</tbody></table>` : html`<p class="xs muted">No calls recorded yet.</p>`}</details>
+      <button class="btn btn-ghost btn-sm mt" id="reset-usage">Reset counter</button>
     </div>
 
     <div class="card"><h3>Video miner</h3>
@@ -91,7 +95,7 @@ export async function render(container) {
     </div>
 
     <div class="card ${ghToken ? 'green' : 'accent'}"><h3>Cloud backup (your GitHub account)</h3>
-      <p class="small muted">Your progress is saved automatically to a <strong>private Gist</strong> on your GitHub account, about 90 seconds after you stop studying and at least once a day. Open the app on any other browser or device, paste the same token, tap Restore, and everything is back. Nothing is sent anywhere except api.github.com.</p>
+      <p class="small muted">Your progress is saved automatically to a <strong>private Gist</strong> on your GitHub account: about 90 seconds after you stop studying, when you leave the app, and at least once a day. <strong>New device?</strong> Open the app → Settings → paste the same token → <em>Connect and restore existing backup</em>. Everything comes back. Nothing is sent anywhere except api.github.com.</p>
       ${ghToken ? html`<p class="small">Connected${ghUser ? ` as <strong>${ghUser}</strong>` : ''} · last backup: <strong>${lastCloud ? new Date(lastCloud).toLocaleString() : 'not yet'}</strong>${lastCloudBytes ? ` · ${(lastCloudBytes / 1024).toFixed(0)} KB` : ''}${gistId ? html` · <a href="https://gist.github.com/${gistId}" target="_blank" rel="noopener">view gist</a>` : ''}</p>
         <div class="btn-row"><button class="btn btn-primary" id="cloud-backup">${icon('upload')} Back up now</button><button class="btn" id="cloud-restore">${icon('download')} Restore from cloud</button><button class="btn btn-ghost" id="cloud-remove">Disconnect</button></div>`
       : html`<div class="field"><label for="ghToken">GitHub token (classic, scope: <code>gist</code>)</label><input class="input" id="ghToken" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="ghp_…">
@@ -137,7 +141,7 @@ export async function render(container) {
   };
   const savePrices = () => store.setSetting('prices', { input: parseFloat($('#priceIn', container).value) || 0, output: parseFloat($('#priceOut', container).value) || 0 });
   $('#priceIn', container).onchange = savePrices; $('#priceOut', container).onchange = savePrices;
-  $('#reset-usage', container).onclick = async () => { await ai.resetUsage(); render(container); };
+  $('#reset-usage', container).onclick = async () => { await ai.resetUsage(); await store.setSetting('usageByFeature', {}); render(container); };
   $('#monthlyCap', container).onchange = (e) => save('monthlyCapUsd', Math.max(0, parseFloat(e.target.value) || 0));
   $('#inrRate', container).onchange = (e) => save('inrRate', Math.max(1, parseFloat(e.target.value) || 84));
   $('#transcriptProxy', container).onchange = async (e) => { const v = e.target.value.trim().replace(/\/$/, ''); await save('transcriptProxy', v); };
