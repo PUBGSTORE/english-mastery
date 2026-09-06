@@ -103,7 +103,7 @@ export async function gradeCard(card, grade, { elapsedMs = 0, face = null } = {}
   return updated;
 }
 function skillOfKind(kind) {
-  return ({ vocab: 'vocab', collocation: 'vocab', grammar: 'grammar', mistake: 'grammar', correction: 'writing', phoneme: 'pronunciation', pair: 'pronunciation', shadow: 'pronunciation', dictation: 'listening', note: 'vocab' })[kind] || 'vocab';
+  return ({ vocab: 'vocab', collocation: 'vocab', grammar: 'grammar', mistake: 'grammar', correction: 'writing', phoneme: 'pronunciation', pair: 'pronunciation', shadow: 'pronunciation', dictation: 'listening', note: 'vocab', chunk: 'speaking', phrase: 'speaking', root: 'vocab', confusable: 'grammar' })[kind] || 'vocab';
 }
 export async function reviewsForCard(cardId) { return db.getAll('reviews', { index: 'cardId', query: cardId }); }
 export async function reviewsForRef(refId) { const all = await db.getAll('reviews'); return all.filter((r) => r.refId === refId); }

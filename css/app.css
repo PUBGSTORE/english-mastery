@@ -432,3 +432,11 @@ h1 .ic, h2 .ic, h3 .ic { width: 1em; height: 1em; }
 .rw-learning { background: var(--amber-soft); }
 .rw:hover { outline: 1px solid var(--accent); }
 mark { background: var(--accent-soft); color: inherit; }
+.intonation.pitch path.model { stroke: var(--text-3); stroke-dasharray: 6 5; }
+.intonation.pitch path.mine { stroke: var(--accent); }
+.intonation.pitch .legend-model { fill: var(--text-3); font-weight: 600; }
+.intonation.pitch .legend-mine { fill: var(--accent); font-weight: 600; }
+.session-bar { position: fixed; top: 0; left: 0; right: 0; z-index: 35; background: var(--bg-2); border-bottom: 1px solid var(--border); padding: calc(var(--sat) + 6px) 12px 8px; box-shadow: var(--shadow); }
+.session-bar .progress { height: 4px; margin-bottom: 6px; }
+body:has(.session-bar) .view { padding-top: calc(var(--sat) + 76px); }
+@media (min-width: 1024px) { .session-bar { left: var(--sidebar-w); } }

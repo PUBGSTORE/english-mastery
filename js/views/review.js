@@ -14,7 +14,7 @@ import { setContext } from '../router.js';
 let state = null;
 
 export async function render(container, params, query) {
-  const { queue, counts } = await store.reviewQueue({ deck: query.deck || undefined, kind: query.kind || undefined });
+  const { queue, counts } = await store.reviewQueue({ deck: query.deck || undefined, kind: query.kind || undefined, interleave: query.interleave === '1' || (await store.getSetting('interleave')) === true });
   if (!queue.length) {
     mount(container, html`<div class="hero"><h1>Nothing due</h1><p>${counts.newAvailable ? `${counts.newAvailable} new cards are waiting for tomorrow's limit (change it in Settings).` : 'Add words from Daily 5 or a deck, and they will come back here on schedule.'}</p>
       <div class="btn-row"><a class="btn btn-primary" href="#/daily">Daily 5</a><a class="btn" href="#/vocab">Decks</a><a class="btn" href="#/">Home</a></div></div>`);
@@ -162,6 +162,9 @@ async function buildCard(card) {
     case 'dictation': return buildDictation(card);
     case 'note': return buildNote(card);
     case 'stress': return buildStress(card);
+    case 'chunk': case 'phrase': return buildChunk(card);
+    case 'root': return buildRoot(card);
+    case 'confusable': return buildConfusable(card);
     default: throw new Error('unknown kind ' + card.kind);
   }
 }
@@ -199,6 +202,21 @@ async function buildVocab(card) {
       face, front: html`<div class="prompt muted small">Listen and type the word</div><div class="center mt"><button class="btn btn-lg" data-speak="${w.word}" id="listen-btn">${icon('speaker')} Play</button></div>`,
       back: html`${wordHead}<div class="def">${w.en_def}</div><div>${hi(w.hi_def)}</div>`,
       typed: typedInput({ accepted: [w.word], placeholder: 'Type what you hear', rule: 'spelling', autoSpeak: w.word }),
+    };
+  }
+  if (face === 'say') {
+    // §12: say the word aloud; ASR scores it where available, otherwise record + self-compare.
+    return {
+      face, front: html`<div class="prompt muted small">Say it aloud</div><div class="word">${w.word}</div><div class="row"><span class="ipa">${w.ipa}</span><span class="pos">${w.pos}</span></div>`,
+      back: html`<div class="def">${w.en_def}</div><div>${hi(w.hi_def)}</div>${exampleHtml(ex)}`,
+      typed: async (el, done) => {
+        const pron = await import('./pronunciation.js');
+        const cleanup = pron.mountRecorder(el, { refId: w.id, modelText: w.word, kind: 'say', targetWps: [0.5, 3], onResult: (r) => {
+          const status = r.selfRating ? (r.selfRating >= 4 ? 'exact' : r.selfRating >= 3 ? 'close' : 'wrong') : (r.accuracy >= 90 ? 'exact' : r.accuracy >= 50 ? 'close' : 'wrong');
+          done(status, { easy: status === 'exact' && (r.selfRating === 5 || r.accuracy === 100) });
+        } });
+        return { cleanup };
+      },
     };
   }
   // use it
@@ -374,6 +392,45 @@ async function buildDictation(card) {
 async function buildNote(card) {
   const p = card.payload;
   return { face: 'note', front: html`<div class="prompt" style="font-size:var(--fs-lg)">${p.front}</div>`, back: html`<div class="md">${{ toString: () => p.backHtml || '' }}</div>${p.noteId ? html`<div class="small mt"><a href="#/notes/${p.noteId}">Open note ${icon('next')}</a></div>` : ''}` };
+}
+
+/** Production-first: cue (function + Hindi) → produce the chunk/phrase. */
+async function buildChunk(card) {
+  const p = card.payload;
+  return {
+    face: card.kind,
+    front: html`<div class="prompt muted small">${card.kind === 'chunk' ? `Say it like a native · ${p.cue}` : `Everyday phrase · ${p.cue}`}</div><div class="def hi-text" lang="hi" style="font-size:var(--fs-xl)">${p.hi}</div>${p.clumsy ? html`<div class="small mt"><span class="muted">Not:</span> <span style="color:var(--red);text-decoration:line-through">${p.clumsy}</span></div>` : ''}`,
+    back: html`<div class="word" style="font-size:var(--fs-xl)">${p.text} ${speakButton(p.text)}</div><div class="xs muted">${p.register}</div>${p.example ? html`<div class="example">“${p.example.en}” ${speakButton(p.example.en)}<div>${hi(p.example.hi)}</div></div>` : ''}`,
+    typed: typedInput({ accepted: [p.text.replace(/…/g, '').trim()], placeholder: 'Type the English', rule: card.kind, sentence: true }),
+  };
+}
+async function buildRoot(card) {
+  const p = card.payload;
+  return {
+    face: 'root',
+    front: html`<div class="prompt muted small">${p.type} · what does it mean? Name two words built on it.</div><div class="word">${p.part}</div>`,
+    back: html`<div class="def">${p.meaning_en}</div><div>${hi(p.meaning_hi)}</div><div class="chips mt">${(p.derived || []).map((d) => html`<span class="chip">${d}</span>`)}</div>`,
+  };
+}
+async function buildConfusable(card) {
+  const p = card.payload;
+  const q = pick(p.quiz || []);
+  const opts = [p.a, p.b, ...(p.c ? [p.c] : [])];
+  return {
+    face: 'confusable',
+    front: html`<div class="prompt muted small">${opts.join(' / ')}</div><div class="cloze">${{ toString: () => String(html`${q ? q.sentence : ''}`).replace(/_{3,}/g, '<span class="blank">&nbsp;</span>') }}</div>`,
+    back: html`<div class="def">${q ? q.sentence.replace(/_{3,}/, q.answer) : ''}</div><div class="small mt">${p.rule_en}</div><div class="small">${hi(p.rule_hi)}</div>`,
+    typed: async (el, done) => {
+      mount(el, html`<div class="option-list">${opts.map((o) => html`<button class="btn" data-o="${o}">${o}</button>`)}</div>`);
+      el.querySelectorAll('[data-o]').forEach((b) => b.onclick = () => {
+        const ok = q && b.dataset.o.toLowerCase() === q.answer.toLowerCase();
+        el.querySelectorAll('[data-o]').forEach((x) => { x.disabled = true; if (q && x.dataset.o.toLowerCase() === q.answer.toLowerCase()) x.classList.add('right'); });
+        if (!ok) b.classList.add('wrong');
+        done(ok ? 'exact' : 'wrong', {});
+      });
+      return { cleanup: () => {} };
+    },
+  };
 }
 
 async function buildStress(card) {

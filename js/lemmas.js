@@ -73,11 +73,13 @@ export async function coverage() {
   await lemmaReady();
   const freq = await load('frequency-5000');
   const m = await all();
+  const level = await db.getSetting('level', 'A2');
+  const assumedBands = Math.max(0, ['A1', 'A2', 'B1', 'B2', 'C1'].indexOf(level));
   const bands = [1, 2, 3, 4, 5].map((b) => ({ band: b, total: 0, known: 0, learning: 0, familiar: 0 }));
   for (const f of freq) {
     const b = bands[f.b - 1]; b.total++;
     const st = m.get(f.l);
-    const s = st ? st.state : (isStop(f.l) ? STATE.known : 0);
+    const s = st ? st.state : (isStop(f.l) || f.b <= assumedBands ? STATE.known : 0);
     if (s === STATE.known) b.known++; else if (s === STATE.learning) b.learning++; else if (s === STATE.familiar) b.familiar++;
   }
   const share = bands.map((b) => (b.known + 0.5 * b.familiar + 0.5 * b.learning) / b.total);
@@ -89,18 +91,22 @@ export async function coverage() {
     s += w[5] * share[4] * 0.6;
     est[k] = Math.round(s * 100);
   }
-  const knownTotal = [...m.values()].filter((r) => r.state === STATE.known).length;
+  const knownTotal = bands.reduce((a, b) => a + b.known, 0) + [...m.values()].filter((r) => r.state === STATE.known && !freqRankHas(freq, r.lemma)).length;
   return { bands, share, est, knownTotal, learningTotal: [...m.values()].filter((r) => r.state === STATE.learning).length };
 }
 
 /** Highest-value unknown lemmas by frequency (skipping stoplist, ignored, and words already in decks/cards). */
+let freqSet = null;
+function freqRankHas(freq, l) { if (!freqSet) freqSet = new Set(freq.map((x) => x.l)); return freqSet.has(l); }
 export async function nextWords(n = 20) {
   await lemmaReady();
   const freq = await load('frequency-5000');
   const m = await all();
+  const level = await db.getSetting('level', 'A2');
+  const assumedBands = Math.max(0, ['A1', 'A2', 'B1', 'B2', 'C1'].indexOf(level));
   const out = [];
   for (const f of freq) {
-    if (isStop(f.l) || f.l.length < 3) continue;
+    if (isStop(f.l) || f.l.length < 3 || f.b <= assumedBands) continue;
     const st = m.get(f.l);
     if (st && st.state !== STATE.unknown) continue;
     out.push({ lemma: f.l, rank: f.r, band: f.b });

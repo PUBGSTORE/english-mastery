@@ -28,6 +28,7 @@ export async function render(container) {
   const month = await ai.monthSpend();
   const transcriptProxy = await db.getSetting('transcriptProxy', '');
   const wordCacheCount = await db.count('wordCache');
+  const localBackups = await db.listBackups();
   mount(container, html`
     <div class="page-head"><div><h1>Settings</h1><p class="sub">Everything is stored on this device only.</p></div></div>
 
@@ -97,6 +98,13 @@ export async function render(container) {
         <div class="btn-row"><button class="btn btn-primary" id="cloud-connect">Connect</button><button class="btn" id="cloud-connect-restore">Connect and restore existing backup</button></div>`}
     </div>
 
+    <div class="card"><h3>Anki export</h3><p class="small muted">Your cards outlive this app. Front / back / tags, importable into Anki (File → Import, tab-separated).</p>
+      <div class="btn-row"><button class="btn" id="anki-txt">${icon('download')} .txt (tab-separated)</button><button class="btn" id="anki-csv">${icon('download')} .csv</button></div></div>
+
+    <div class="card"><h3>Local auto-backups</h3><p class="small muted">The last 3 daily snapshots are kept inside the browser so a bad import can be undone.</p>
+      <div class="list" id="bk-list">${localBackups.length ? localBackups.map((b) => html`<div class="list-item"><div class="grow"><div class="title">${new Date(b.ts).toLocaleString()}</div><div class="sub">${b.reason} · ${(b.bytes / 1024).toFixed(0)} KB · ${b.counts.cards} cards, ${b.counts.reviews} reviews</div></div><button class="btn btn-sm" data-restore="${b.id}">Restore</button></div>`) : html`<div class="xs muted">No snapshots yet (one is taken daily once you have cards).</div>`}</div>
+      <div class="btn-row mt"><button class="btn btn-sm" id="bk-now">Snapshot now</button></div></div>
+
     <div class="card"><h3>Storage</h3>
       <p class="small muted">Using ${(est.usage / 1048576).toFixed(1)} MB${est.quota ? ` of ${(est.quota / 1048576).toFixed(0)} MB available` : ''}. ${recs} saved recordings (not included in exports).</p>
       <div class="btn-row"><button class="btn" id="clear-recs">Delete recordings</button><button class="btn btn-danger" id="reset-all">${icon('trash')} Reset all progress</button></div>
@@ -155,6 +163,7 @@ export async function render(container) {
     try { data = JSON.parse(await readFileText(file)); } catch (err) { toast('Not valid JSON: ' + err.message, 'err'); return; }
     const problems = db.validateExport(data);
     const fatal = problems.filter((p) => !p.includes('will be skipped'));
+    if (!fatal.length) { try { await db.snapshotBackup('pre-import'); } catch { /* toasted */ } }
     const counts = Object.entries(data.stores || {}).map(([k, v]) => `${k}: ${Array.isArray(v) ? v.length : '?'}`).join(', ');
     const body = openSheet(html`<h3>Import backup</h3>
       <p class="small muted">Exported ${data.exportedAt ? new Date(data.exportedAt).toLocaleString() : '?'} · format ${data.format}</p>
@@ -213,6 +222,25 @@ export async function render(container) {
     } catch (e) { toast(e.message, 'err', { timeout: 6000 }); cr.disabled = false; }
   };
   const crm = $('#cloud-remove', container); if (crm) crm.onclick = async () => { if (await confirmDialog('Disconnect cloud backup? The Gist stays on GitHub; this device just stops syncing.', { okLabel: 'Disconnect' })) { await store.setSetting('ghToken', ''); await store.setSetting('ghUser', ''); render(container); } };
+  const ankiRows = async () => {
+    const cards = await store.allCards(); const content = await import('../content.js'); const rows = [];
+    for (const c of cards) {
+      const p = c.payload || {}; let front = '', back = '';
+      if (c.kind === 'vocab') { const w = await content.wordById(c.refId); if (!w) continue; front = w.word; back = `${w.ipa} · ${w.pos}<br>${w.en_def}<br>${w.hi_def}${(w.examples || [])[0] ? '<br><i>' + w.examples[0].en + '</i>' : ''}`; }
+      else if (c.kind === 'mistake' || c.kind === 'correction') { front = p.original || p.from; back = `${p.fix || p.to}${p.why_en ? '<br>' + p.why_en : ''}`; }
+      else if (c.kind === 'chunk' || c.kind === 'phrase') { front = `${p.cue}: ${p.hi}`; back = p.text; }
+      else if (c.kind === 'grammar' && p.item) { front = p.item.prompt; back = p.item.answer[0]; }
+      else if (c.kind === 'root') { front = p.part; back = `${p.meaning_en} · ${p.meaning_hi}<br>${(p.derived || []).join(', ')}`; }
+      else if (c.kind === 'note') { front = p.front; back = (p.backHtml || '').replace(/<[^>]+>/g, ' '); }
+      else continue;
+      rows.push([front, back, `english-mastery ${c.kind} ${c.deck}`].map((x) => String(x).replace(/\t/g, ' ').replace(/\n/g, ' ')));
+    }
+    return rows;
+  };
+  $('#anki-txt', container).onclick = async () => { const rows = await ankiRows(); download(`english-mastery-anki-${new Date().toISOString().slice(0, 10)}.txt`, rows.map((r) => r.join('\t')).join('\n'), 'text/plain'); toast(`${rows.length} cards exported`, 'ok'); };
+  $('#anki-csv', container).onclick = async () => { const rows = await ankiRows(); const q = (x) => '"' + String(x).replace(/"/g, '""') + '"'; download(`english-mastery-anki-${new Date().toISOString().slice(0, 10)}.csv`, ['front,back,tags', ...rows.map((r) => r.map(q).join(','))].join('\n'), 'text/csv'); toast(`${rows.length} cards exported`, 'ok'); };
+  $('#bk-now', container).onclick = async () => { const n = await db.snapshotBackup('manual'); toast(`Snapshot saved (${(n / 1024).toFixed(0)} KB)`, 'ok'); render(container); };
+  container.querySelectorAll('[data-restore]').forEach((b) => b.onclick = async () => { if (await confirmDialog('Replace all current progress with this snapshot? (A fresh snapshot of the current state is taken first.)', { okLabel: 'Restore', danger: true })) { await db.snapshotBackup('pre-restore'); await db.restoreBackup(b.dataset.restore, 'replace'); toast('Restored', 'ok'); setTimeout(() => location.reload(), 700); } });
   $('#clear-recs', container).onclick = async () => { if (await confirmDialog('Delete all saved recordings?', { okLabel: 'Delete', danger: true })) { const n = await audio.clearRecordings(); toast(`Deleted ${n} recordings`, 'ok'); render(container); } };
   $('#reset-all', container).onclick = async () => {
     if (!(await confirmDialog('This deletes every card, review, mistake, note and chat on this device. Export first! Continue?', { okLabel: 'Delete everything', danger: true, title: 'Reset all progress' }))) return;

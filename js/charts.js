@@ -119,3 +119,16 @@ export function intonation(words, contour, { width = null } = {}) {
 
 export function weekDays() { const out = []; for (let i = 6; i >= 0; i--) out.push(dayKey(addDays(new Date(), -i))); return out; }
 export { parseDayKey };
+
+/** §9: my pitch contour (0–3 per word, may contain null) drawn over the model contour. */
+export function pitchOverlay(words, model, mine, { width = null } = {}) {
+  const n = words.length; const height = 150; const padX = 56;
+  width = width || Math.max(380, n * 90);
+  const step = (width - padX * 2) / Math.max(1, n - 1);
+  const X = (i) => padX + i * step; const Y = (v) => 96 - v * 22;
+  const path = (arr, cls) => { const pts = arr.map((v, i) => (v == null ? null : [X(i), Y(v)])); let d = ''; let started = false; pts.forEach((p, i) => { if (!p) { started = false; return; } if (!started) { d += `M${p[0]},${p[1]}`; started = true; } else { const q = pts[i - 1]; const cx = (q[0] + p[0]) / 2; d += ` C${cx},${q[1]} ${cx},${p[1]} ${p[0]},${p[1]}`; } }); return `<path d="${d}" class="${cls}"/>`; };
+  let g = path(model, 'model') + (mine ? path(mine, 'mine') : '');
+  words.forEach((w, i) => { g += `<text x="${X(i)}" y="136" text-anchor="middle" font-size="${n > 7 ? 15 : 17}">${escapeHtml(w)}</text>`; });
+  g += `<text x="${padX}" y="14" font-size="12" class="legend-model">— model</text><text x="${padX + 90}" y="14" font-size="12" class="legend-mine">— you</text>`;
+  return `<svg class="intonation pitch" viewBox="0 0 ${width} ${height}" role="img" aria-label="Your pitch over the model">${g}</svg>`;
+}

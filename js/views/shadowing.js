@@ -73,7 +73,7 @@ async function renderItem(container, id) {
       $('#rec', container).onclick = async () => {
         const btn = $('#rec', container); const status = $('#status', container);
         if (!recording) {
-          const ok = await audio.start({ onLevel: (v) => { $('#meter', container).style.width = `${Math.round(v * 100)}%`; } });
+          const ok = await audio.start({ onLevel: (v) => { { const _m = $('#meter', container); if (_m) _m.style.width = `${Math.round(v * 100)}%`; } } });
           if (!ok) return;
           recording = true; btn.classList.add('recording'); btn.innerHTML = String(icon('stop')); status.textContent = 'Recording — speak with the voice'; t0 = performance.now();
           if (asr.supported()) asrPromise = asr.recognise({ timeoutMs: 45000 }).catch(() => ({ transcript: '', alternatives: [] }));

@@ -132,7 +132,15 @@ export function buildQueue(cards, opts = {}) {
   const newCap = Math.max(0, (opts.newPerDay ?? 10) - (opts.newToday || 0));
   const priorityNew = fresh.filter((c) => c.priority > 0);
   const normalNew = fresh.filter((c) => !(c.priority > 0)).slice(0, newCap);
-  const queue = [...learning, ...due.slice(0, reviewCap), ...priorityNew, ...normalNew];
+  let dueSlice = due.slice(0, reviewCap);
+  if (opts.interleave) {
+    // Round-robin by kind: mixing item types is harder in the moment and remembered far better.
+    const byKind = {}; for (const c of dueSlice) (byKind[c.kind] ||= []).push(c);
+    const kinds = Object.keys(byKind); const mixed = [];
+    while (mixed.length < dueSlice.length) for (const k of kinds) { const x = byKind[k].shift(); if (x) mixed.push(x); }
+    dueSlice = mixed;
+  }
+  const queue = [...learning, ...dueSlice, ...priorityNew, ...normalNew];
   return {
     queue,
     counts: { learning: learning.length, due: due.length, newAvailable: fresh.length, newAllowed: priorityNew.length + normalNew.length, total: queue.length },
@@ -148,12 +156,14 @@ export function dueCount(cards, now = new Date()) {
 }
 
 /** Vocab prompt face rotation: 5 faces cycle by reps */
-export const VOCAB_FACES = ['meaning', 'produce', 'cloze', 'listen', 'use'];
+export const VOCAB_FACES = ['meaning', 'produce', 'cloze', 'say', 'listen', 'use'];
 export function vocabFace(card) {
   if (card.cardType && card.cardType !== 'rotate') return card.cardType;
   const r = card.reps || 0;
-  // First two reviews are recognition (meaning) & cloze, then rotate through all.
+  // First reviews: recognition, then cloze, then say it aloud (a word cannot reach "mastered" unspoken), then rotate.
   if (r === 0) return 'meaning';
   if (r === 1) return 'cloze';
-  return VOCAB_FACES[r % VOCAB_FACES.length];
+  if (r === 2) return 'say';
+  const rot = ['produce', 'listen', 'use', 'cloze', 'say', 'meaning'];
+  return rot[(r - 3) % rot.length];
 }

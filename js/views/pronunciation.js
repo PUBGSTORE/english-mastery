@@ -7,6 +7,7 @@ import * as tts from '../tts.js';
 import * as asr from '../asr.js';
 import * as audio from '../audio.js';
 import { intonation as intonationChart } from '../charts.js';
+import * as charts from '../charts.js';
 import { setContext } from '../router.js';
 import { shuffle, pick, avg, fmtDate } from '../utils.js';
 
@@ -53,7 +54,7 @@ async function renderHub(container) {
  * Mounts a record/compare widget. opts: { refId, modelText, onScore(result) , targetWps, kind }
  * If ASR supported: recognises and scores. Always records for A/B.
  */
-export function mountRecorder(el, { refId, modelText, targetWps = [2, 3], kind = 'sentence', onResult } = {}) {
+export function mountRecorder(el, { refId, modelText, targetWps = [2, 3], kind = 'sentence', onResult, contour = null, contourType = null } = {}) {
   let rec = null; let listening = false; let asrPromise = null; let t0 = 0;
   const canAsr = asr.supported();
   const draw = async () => {
@@ -86,17 +87,23 @@ export function mountRecorder(el, { refId, modelText, targetWps = [2, 3], kind =
         asr.stop();
         if (r && r.blob && r.blob.size > 0) { await audio.saveRecording(refId, r.blob, r.mime, r.seconds); rec = r.blob; }
         let result = null;
+        // §9 pitch, rate and pauses from the recording itself (works on iOS)
+        let pitch = null;
+        if (rec && rec.size > 2000 && modelText.split(' ').length >= 2) {
+          try { const P = await import('../pitch.js'); pitch = await P.analyseBlob(rec); pitch.verdict = P.verdict(pitch, contour, contourType); pitch.mine = contour ? P.toWordContour(pitch.semis, contour.length) : null; } catch (e) { console.warn('[pitch]', e); }
+        }
+        const pitchHtml = pitch ? html`<div class="mt">${pitch.mine ? { toString: () => charts.pitchOverlay(modelText.split(' '), contour, pitch.mine) } : ''}<div class="grid-3 mt"><div class="stat"><div class="label">Rate</div><div class="value">${pitch.rate.toFixed(1)}<small> syl/s</small></div></div><div class="stat"><div class="label">Pauses</div><div class="value">${pitch.pauseCount}<small> ${pitch.avgPause ? pitch.avgPause.toFixed(1) + 's avg' : ''}</small></div></div><div class="stat"><div class="label">Pitch range</div><div class="value">${pitch.rangeSemis.toFixed(0)}<small> semitones</small></div></div></div><div class="feedback ${/natural/.test(pitch.verdict) ? 'ok' : 'close'} small mt">${pitch.verdict}</div></div>` : '';
         if (canAsr && asrPromise) {
           const a = await asrPromise;
           if (a.error && a.error !== 'no-speech' && a.error !== 'aborted') toast(a.error === 'not-allowed' ? 'Microphone blocked for speech recognition.' : `Recognition error: ${a.error}`, 'warn');
           result = asr.score(modelText, a, seconds, targetWps);
           mount($('#rec-result', el), html`<div class="card compact">${{ toString: () => asr.tilesHtml(result.words, result.extra) }}
             <div class="grid-3 mt"><div class="stat"><div class="label">Accuracy</div><div class="value">${result.accuracy}%</div></div><div class="stat"><div class="label">Fluency</div><div class="value">${result.fluency}%<small> ${result.wps} w/s</small></div></div><div class="stat"><div class="label">Complete</div><div class="value">${result.completeness}%</div></div></div>
-            ${result.transcript ? html`<div class="xs muted mt">Heard: “${result.transcript}”</div>` : html`<div class="xs muted mt">Nothing recognised. Speak louder, closer to the mic.</div>`}</div>`);
-          await store.logAttempt({ kind, refId, accuracy: result.accuracy, fluency: result.fluency, completeness: result.completeness, transcript: result.transcript, extra: { seconds } });
+            ${result.transcript ? html`<div class="xs muted mt">Heard: “${result.transcript}”</div>` : html`<div class="xs muted mt">Nothing recognised. Speak louder, closer to the mic.</div>`}${pitchHtml}</div>`);
+          await store.logAttempt({ kind, refId, accuracy: result.accuracy, fluency: result.fluency, completeness: result.completeness, transcript: result.transcript, extra: { seconds, words: result.words, pitch: pitch ? { rate: pitch.rate, pauses: pitch.pauseCount, range: pitch.rangeSemis } : null } });
           for (const w of result.words) if (w.status === 'red' && w.heard) store.logMistake({ source: 'pronunciation', refId, original: w.heard, fix: w.word, rule: 'pronunciation', makeCard: false }).catch(() => {});
         } else {
-          mount($('#rec-result', el), html`<div class="card compact"><p class="small mb">Recorded ${seconds.toFixed(1)}s. Play the model, then yours. Rate how close you were:</p>
+          mount($('#rec-result', el), html`<div class="card compact">${pitchHtml}<p class="small mb mt">Recorded ${seconds.toFixed(1)}s. Play the model, then yours. Rate how close you were:</p>
             <div class="btn-row stretch">${[1, 2, 3, 4, 5].map((n) => html`<button class="btn" data-rate="${n}">${n}</button>`)}</div><div class="xs muted center mt">1 = very different · 5 = nearly identical</div></div>`);
           el.querySelectorAll('[data-rate]').forEach((b) => b.onclick = async () => {
             el.querySelectorAll('[data-rate]').forEach((x) => { x.disabled = true; x.classList.toggle('btn-primary', x === b); });
@@ -362,7 +369,7 @@ async function renderIntonation(container) {
         <div class="mt" id="rec-here"></div></div>`);
     container.querySelectorAll('[data-type]').forEach((b) => b.onclick = () => { type = b.dataset.type; i = 0; draw(); });
     $('#next', container).onclick = () => { i++; draw(); };
-    mountRecorder($('#rec-here', container), { refId: it.id, modelText: it.sentence, kind: 'sentence', targetWps: [1.8, 3.2] });
+    mountRecorder($('#rec-here', container), { refId: it.id, modelText: it.sentence, kind: 'sentence', targetWps: [1.8, 3.2], contour: it.contour, contourType: it.type });
     setContext({ title: `Intonation: ${type}`, text: `"${it.sentence}" — ${it.rule_en}` });
   };
   draw();

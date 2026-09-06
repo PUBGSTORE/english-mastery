@@ -34,7 +34,7 @@ export async function render(container) {
     $('#rec', container).onclick = async () => {
       const btn = $('#rec', container); const status = $('#status', container);
       if (!recording) {
-        const ok = await audio.start({ onLevel: (v) => { $('#meter', container).style.width = `${Math.round(v * 100)}%`; } });
+        const ok = await audio.start({ onLevel: (v) => { { const _m = $('#meter', container); if (_m) _m.style.width = `${Math.round(v * 100)}%`; } } });
         if (!ok && !asr.supported()) return;
         recording = true; t0 = performance.now(); btn.classList.add('recording'); btn.innerHTML = String(icon('stop'));
         timer = setInterval(() => { const sec = (performance.now() - t0) / 1000; status.textContent = `${Math.round(sec)}s`; $('#timebar', container).style.width = `${Math.min(100, (sec / p.seconds) * 100)}%`; }, 250);

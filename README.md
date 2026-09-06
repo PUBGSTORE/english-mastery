@@ -122,6 +122,24 @@ Auto-captions arrive without punctuation. If a DeepSeek key is set, the app offe
 
 Transcripts are fetched for your personal study only; keep it that way.
 
+## Phase 7 additions at a glance
+
+| Screen | What it does |
+|---|---|
+| **Today** (landing) | Pick 10 / 20 / 40 minutes; the app composes the session (interleaved reviews → Daily 5 → weakest skill → a lesson → shadowing or re-watch → a production task) and walks you through it with a progress bar. The classic dashboard is at `#/home`. |
+| **Video miner** and **Reader** | See the section above. |
+| **Coverage** | Where you stand against the 5,000 most frequent lemmas, estimated text coverage for general / news / academic text, and the 20 highest-value unknown words with one-tap add. |
+| **Chunks & phrases** | 300 functional frames (softening, disagreeing, hedging, clarifying, interrupting, bad news, escalating, apologising, summarising, small talk…) and 200 everyday spoken phrases. Cards are production-first: Hindi and function in, English frame out. |
+| **Roots & confusables** | 120 Latin/Greek parts with a decode drill, and 106 confusable pairs with a quiz. |
+| **Everyday English deck** | 600 items daily life runs on; Daily 5 pulls 3 of its 5 words from here until the deck is finished. |
+| **Generate** | New material from your own weaknesses: a reading passage reusing your 8 weakest words, 10 cloze sentences for a word you keep failing, a dialogue on a grammar point you keep breaking, 10 extra practice items for any lesson, and a weekly quiz over this week's mistakes. Strict JSON, validated, cached, cost shown first. |
+| **Conversation** | Ten voice roleplays (interview, standup, triage call, doctor, restaurant, bad phone line…). The tutor stays in character and never corrects mid-flow; the report at the end has inline corrections, five "a native would say", your three best moments, and every correction becomes a card. |
+| **Commute** | Hands-free audio queue with Media Session controls, sleep timer, star button and a wake-lock toggle. On iPhone/iPad, Safari pauses speech when the screen locks, so keep the screen on. |
+| **Pitch curve** | Every recording in the pronunciation drills is analysed for pitch (autocorrelation, 75–350 Hz), speaking rate, and pauses; in the intonation drill your contour is drawn over the model with a one-line verdict. Works on iOS. |
+| **Proof** | Weekly cumulative test (25 items across everything), CEFR re-assessment every 30 days with a trajectory chart, a monthly two-minute voice diary you can play side by side, and per-deck retention honesty (decks under 80% are flagged). |
+| **Safety** | Anki export (.txt / .csv), GitHub Gist cloud sync, global search on `/`, and the last 3 daily snapshots kept in the browser for one-tap restore. |
+| **Say the word** | The third review of every word asks you to say it aloud and scores it (or record-and-compare on iPad), so no word reaches "mastered" unspoken. **Weak-sound detector** on Progress ranks the sounds you actually fail and builds a personal drill deck. Every mined video is closed only after five comprehension questions and a 60-second spoken summary. |
+
 ## Keyboard shortcuts (desktop)
 
 | Key | Action |

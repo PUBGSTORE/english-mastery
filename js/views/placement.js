@@ -62,6 +62,7 @@ async function run(container, bank) {
     const level = CEFR[finalIdx];
     await store.setLevel(level);
     await store.setSetting('placementDone', true);
+    await db.put('tests', { id: `test:cefr:${Date.now().toString(36)}`, kind: 'cefr', ts: new Date().toISOString(), level, score: answers.filter((a) => a.ok).length, total: answers.length });
     await store.setSetting('placementResult', { level, at: new Date().toISOString(), correct: answers.filter((a) => a.ok).length, total: answers.length, byLevel: Object.fromEntries(CEFR.map((L) => [L, answers.filter((a) => a.q.cefr === L).map((a) => a.ok)])) });
     for (const a of answers) if (!a.ok) await store.logMistake({ source: 'placement', refId: a.q.id, original: a.q.options[a.q.options.findIndex((_, i) => i !== a.q.answer)] || '', fix: a.q.options[a.q.answer], rule: a.q.skill, why_en: a.q.explain_en, why_hi: a.q.explain_hi, makeCard: false });
     const correct = answers.filter((a) => a.ok).length;

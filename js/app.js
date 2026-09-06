@@ -6,6 +6,7 @@ import { isHindi, setHindi, onHindiChange } from './i18n.js';
 import * as store from './store.js';
 import * as tts from './tts.js';
 import * as sync from './sync.js';
+import * as session from './session.js';
 import { dueCount } from './srs.js';
 
 /* ---------------- theme ---------------- */
@@ -22,7 +23,9 @@ function updateThemeButtons() {
 
 /* ---------------- routes ---------------- */
 const V = (name) => () => import(`./views/${name}.js`);
-route('/', V('home'), { title: '' });
+route('/', V('today'), { title: 'Today' });
+route('/today', V('today'), { title: 'Today' });
+route('/home', V('home'), { title: 'Dashboard' });
 route('/review', V('review'), { title: 'Review' });
 route('/vocab', V('vocab'), { title: 'Vocabulary' });
 route('/vocab/:deck', V('vocab'), { title: 'Vocabulary' });
@@ -54,22 +57,37 @@ route('/mine', V('mine'), { title: 'Video miner' });
 route('/mine/:id', V('mine'), { title: 'Mined video' });
 route('/read', V('reader'), { title: 'Reader' });
 route('/read/:id', V('reader'), { title: 'Reader' });
+route('/coverage', V('coverage'), { title: 'Coverage' });
+route('/chunks', V('chunks'), { title: 'Chunks' });
+route('/chunks/:group', V('chunks'), { title: 'Chunks' });
+route('/phrases', V('chunks'), { title: 'Everyday phrases' });
+route('/roots', V('roots'), { title: 'Word roots' });
+route('/roots/:id', V('roots'), { title: 'Word roots' });
+route('/confusables', V('roots'), { title: 'Confusables' });
+route('/confusables/:id', V('roots'), { title: 'Confusables' });
+route('/generate', V('generate'), { title: 'Generate' });
+route('/generate/:id', V('generate'), { title: 'Generate' });
+route('/converse', V('converse'), { title: 'Conversation' });
+route('/converse/:id', V('converse'), { title: 'Conversation' });
+route('/commute', V('commute'), { title: 'Commute' });
+route('/proof', V('proof'), { title: 'Proof' });
+route('/proof/:id', V('proof'), { title: 'Proof' });
 route('/learn', V('hub'), { title: 'Learn' });
 route('/practice', V('hub'), { title: 'Practice' });
 
 /* ---------------- navigation ---------------- */
 const TABS = [
-  { href: '#/', label: 'Home', icon: 'home', match: (p) => p === '/' },
+  { href: '#/', label: 'Today', icon: 'home', match: (p) => p === '/' || p === '/today' || p === '/home' },
   { href: '#/learn', label: 'Learn', icon: 'book', match: (p) => /^\/(learn|vocab|word|daily|grammar|notes)/.test(p) },
-  { href: '#/practice', label: 'Practice', icon: 'target', match: (p) => /^\/(practice|pron|shadow|listen|speak|write|translate|mistakes|review)/.test(p) },
+  { href: '#/practice', label: 'Practice', icon: 'target', match: (p) => /^\/(practice|pron|shadow|listen|speak|write|translate|mistakes|review|converse|generate|commute)/.test(p) },
   { href: '#/chat', label: 'Tutor', icon: 'chat', match: (p) => p.startsWith('/chat') },
-  { href: '#/progress', label: 'Progress', icon: 'chart', match: (p) => /^\/(progress|settings|placement)/.test(p) },
+  { href: '#/progress', label: 'Progress', icon: 'chart', match: (p) => /^\/(progress|settings|placement|proof)/.test(p) },
 ];
 const SIDE = [
-  { title: '', items: [{ href: '#/', label: 'Home', icon: 'home' }, { href: '#/review', label: 'Review', icon: 'zap', badge: 'due' }] },
-  { title: 'Learn', items: [{ href: '#/vocab', label: 'Vocabulary', icon: 'layers' }, { href: '#/daily', label: 'Daily 5', icon: 'calendar' }, { href: '#/grammar', label: 'Grammar', icon: 'book' }, { href: '#/mine', label: 'Video miner', icon: 'play' }, { href: '#/read', label: 'Reader', icon: 'eye' }, { href: '#/notes', label: 'Notes', icon: 'note' }] },
-  { title: 'Practice', items: [{ href: '#/pron', label: 'Pronunciation', icon: 'wave' }, { href: '#/shadow', label: 'Shadowing', icon: 'ear' }, { href: '#/listen', label: 'Listening', icon: 'speaker' }, { href: '#/speak', label: 'Speaking', icon: 'mic' }, { href: '#/write', label: 'Writing', icon: 'pen' }, { href: '#/translate', label: 'Translate', icon: 'refresh' }, { href: '#/mistakes', label: 'Mistakes', icon: 'alert' }] },
-  { title: 'More', items: [{ href: '#/chat', label: 'AI Tutor', icon: 'chat' }, { href: '#/progress', label: 'Progress', icon: 'chart' }, { href: '#/settings', label: 'Settings', icon: 'settings' }] },
+  { title: '', items: [{ href: '#/', label: 'Today', icon: 'home' }, { href: '#/home', label: 'Dashboard', icon: 'grid' }, { href: '#/review', label: 'Review', icon: 'zap', badge: 'due' }] },
+  { title: 'Learn', items: [{ href: '#/vocab', label: 'Vocabulary', icon: 'layers' }, { href: '#/daily', label: 'Daily 5', icon: 'calendar' }, { href: '#/grammar', label: 'Grammar', icon: 'book' }, { href: '#/mine', label: 'Video miner', icon: 'play' }, { href: '#/read', label: 'Reader', icon: 'eye' }, { href: '#/chunks', label: 'Chunks & phrases', icon: 'message' }, { href: '#/roots', label: 'Roots', icon: 'layers' }, { href: '#/coverage', label: 'Coverage', icon: 'trending' }, { href: '#/notes', label: 'Notes', icon: 'note' }] },
+  { title: 'Practice', items: [{ href: '#/pron', label: 'Pronunciation', icon: 'wave' }, { href: '#/shadow', label: 'Shadowing', icon: 'ear' }, { href: '#/listen', label: 'Listening', icon: 'speaker' }, { href: '#/speak', label: 'Speaking', icon: 'mic' }, { href: '#/write', label: 'Writing', icon: 'pen' }, { href: '#/translate', label: 'Translate', icon: 'refresh' }, { href: '#/converse', label: 'Conversation', icon: 'chat' }, { href: '#/generate', label: 'Generate', icon: 'sparkle' }, { href: '#/commute', label: 'Commute', icon: 'speaker' }, { href: '#/mistakes', label: 'Mistakes', icon: 'alert' }] },
+  { title: 'More', items: [{ href: '#/chat', label: 'AI Tutor', icon: 'chat' }, { href: '#/progress', label: 'Progress', icon: 'chart' }, { href: '#/proof', label: 'Proof', icon: 'award' }, { href: '#/settings', label: 'Settings', icon: 'settings' }] },
 ];
 function renderNav() {
   const tab = document.getElementById('tabbar');
@@ -128,7 +146,10 @@ async function boot() {
   document.getElementById('ask-fab').onclick = openAsk;
   store.startStudyTimer();
   sync.start();
+  session.init();
   start();
+  document.addEventListener('keydown', (e) => { const tag = (e.target && e.target.tagName) || ''; if (e.key === '/' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(tag) && !document.querySelector('.search input')) { e.preventDefault(); import('./search.js').then((m) => m.openSearch()); } });
+  localAutoBackup();
   registerSW();
   exportReminder();
   cloudRestoreOffer();
@@ -150,6 +171,17 @@ async function cloudRestoreOffer() {
     if (cards > 0) return;
     toast('A cloud backup may exist for this GitHub account.', '', { timeout: 12000, action: { label: 'Restore', onClick: () => navigate('/settings') } });
   } catch { /* ignore */ }
+}
+
+/** §11: silently keep the last 3 exports in IndexedDB (daily). */
+async function localAutoBackup() {
+  try {
+    const last = await db.getSetting('lastLocalBackup', null);
+    if (last && Date.now() - new Date(last).getTime() < 24 * 3600000) return;
+    if (!(await db.count('cards'))) return;
+    await db.snapshotBackup('auto');
+    await db.setSetting('lastLocalBackup', new Date().toISOString());
+  } catch (e) { console.warn('[backup]', e); }
 }
 
 async function exportReminder() {

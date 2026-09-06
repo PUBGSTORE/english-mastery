@@ -251,3 +251,21 @@ export async function requestPersistence() {
   try { if (navigator.storage && navigator.storage.persist) return await navigator.storage.persist(); } catch { /* ignore */ }
   return false;
 }
+
+/* ---------------- local auto-backups (§11): last 3 exports kept in the `backups` store ---------------- */
+export async function snapshotBackup(reason = 'auto') {
+  const data = await exportAll();
+  const json = JSON.stringify(data);
+  await put('backups', { id: `bk:${Date.now().toString(36)}`, ts: nowISO(), reason, bytes: json.length, counts: data.counts, json });
+  const all = (await getAll('backups', { index: 'ts' }));
+  for (const old of all.slice(0, Math.max(0, all.length - 3))) await del('backups', old.id);
+  return json.length;
+}
+export async function listBackups() { return (await getAll('backups', { index: 'ts' })).reverse().map(({ json, ...rest }) => rest); }
+export async function restoreBackup(id, mode = 'replace') {
+  const b = await get('backups', id); if (!b) throw new Error('Backup not found');
+  const data = JSON.parse(b.json);
+  const problems = validateExport(data).filter((p) => !p.includes('will be skipped'));
+  if (problems.length) throw new Error(problems.join('; '));
+  return importAll(data, mode);
+}

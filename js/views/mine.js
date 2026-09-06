@@ -225,13 +225,44 @@ async function renderVideo(container, id) {
           <label class="switch"><input type="checkbox" id="r3" ${p.reviewed3 ? 'checked' : ''}><span class="track"></span><span>Day 3: re-watched the same video ${day3 && today >= day3 && !p.reviewed3 ? html`<span class="chip amber" style="min-height:22px">due</span>` : ''}</span></label>
         </div>
         <p class="xs muted mt mb-0">Re-watching known content ("narrow listening") beats chasing new videos. The second viewing is where the words settle.</p></div>
-      ${p.watched ? html`<div class="card ${p.closed ? 'green' : ''}"><strong>4 · Close the loop</strong><div class="small mt">Five comprehension questions and a 60-second spoken summary in your own words. <span class="muted">(Coming in this phase's §12.)</span></div></div>` : ''}
+      ${p.watched ? html`<div class="card ${p.closed ? 'green' : ''}"><strong>4 · Close the loop</strong><div class="small mt muted">Mining words is input; saying it back is output. A video is not finished until both are done.</div>
+        <div class="row between mt"><span class="small">${p.questionsDone ? html`${icon('check')} Questions answered${p.questionsScore !== undefined ? ` (${p.questionsScore}/5)` : ''}` : 'Five comprehension questions from the transcript'}</span>${p.questionsDone ? '' : html`<button class="btn btn-sm btn-primary" id="q-start">${icon('sparkle')} Generate questions</button>`}</div><div id="q-area"></div>
+        <div class="row between mt"><span class="small">${p.summaryDone ? html`${icon('check')} Summary recorded` : 'A 60-second summary in your own words'}</span>${p.summaryDone ? html`<button class="btn btn-sm" id="s-play">${icon('play')} Play</button>` : html`<button class="btn btn-sm btn-primary" id="s-start">${icon('mic')} Record summary</button>`}</div><div id="s-area"></div>
+        ${p.closed ? html`<div class="feedback ok small mt">${icon('award')} Closed. This video is finished.</div>` : ''}</div>` : ''}
       ${addedWords.length ? html`<h3 class="mt-lg">Words I learned from this video</h3><div class="chips" id="learned">${addedWords.map((w) => html`<a class="chip" href="${w.wordId ? '#/word/' + w.wordId : '#'}" data-lemma="${w.lemma}">${(cache.get(w.lemma) || {}).word || w.lemma}</a>`)}</div>` : ''}`);
     const pt = $('#preteach', pane); if (pt) pt.onclick = () => preTeach($('#pt', pane));
     const w2 = $('#watch2', pane); if (w2) w2.onclick = async () => { v.protocol.watched = nowISO(); await persist(); };
     const mw = $('#mark-watched', pane); if (mw) mw.onclick = async () => { v.protocol.watched = nowISO(); await persist(); drawProtocol(); };
     $('#r1', pane).onchange = async (e) => { v.protocol.reviewed1 = e.target.checked; await persist(); };
     $('#r3', pane).onchange = async (e) => { v.protocol.reviewed3 = e.target.checked; await persist(); drawProtocol(); };
+    const closeIfDone = async () => { if (v.protocol.questionsDone && v.protocol.summaryDone && !v.protocol.closed) { v.protocol.closed = true; await persist(); toast('Video closed. Input and output both done.', 'ok', { timeout: 4000 }); } };
+    const qs = $('#q-start', pane); if (qs) qs.onclick = async () => {
+      if (!(await ai.hasKey())) { toast('Comprehension questions need a DeepSeek key (Settings).', 'warn'); return; }
+      qs.disabled = true; qs.innerHTML = '<span class="spinner"></span>';
+      try {
+        const gen = await import('../generate.js');
+        const existing = (await db.getAll('generated', { index: 'refId', query: v.id })).find((g) => g.kind === 'questions');
+        const rec = existing || await gen.comprehension(v);
+        const area = $('#q-area', pane); let i = 0; let score = 0;
+        const { mountExercise } = await import('../exercise.js');
+        const step = async () => {
+          if (i >= rec.data.items.length) { v.protocol.questionsDone = true; v.protocol.questionsScore = score; await persist(); await closeIfDone(); drawProtocol(); return; }
+          const it = rec.data.items[i];
+          mount(area, html`<div class="card compact mt" id="q-ex"></div>`);
+          const item = it.type === 'choose' ? { type: 'choose', prompt: it.q, options: it.options || [], answer: [it.answer], hi: it.hi || '', feedback_en: '' } : { type: 'fix', prompt: it.q, answer: [it.answer], hi: it.hi || '', feedback_en: `Expected: ${it.answer}` };
+          const r = await mountExercise($('#q-ex', area), item);
+          if (r.status !== 'wrong') score++;
+          const nb = document.createElement('button'); nb.className = 'btn btn-sm btn-primary mt'; nb.textContent = i === rec.data.items.length - 1 ? 'Finish' : 'Next'; nb.onclick = () => { i++; step(); }; $('#q-ex', area).appendChild(nb);
+        };
+        step();
+      } catch (e) { toast(e.message === 'CAP_REACHED' ? 'Monthly AI cap reached.' : e.message, 'err'); qs.disabled = false; qs.textContent = 'Generate questions'; }
+    };
+    const ss = $('#s-start', pane); if (ss) ss.onclick = async () => {
+      const area = $('#s-area', pane);
+      mount(area, html`<p class="xs muted mt">Tell the story of the video in your own words for about a minute. No script.</p><div id="s-rec"></div>`);
+      mountRecorderLite($('#s-rec', pane), `summary:${v.id}`, async (seconds) => { v.protocol.summaryDone = true; v.protocol.summarySeconds = seconds; await persist(); await store.logAttempt({ kind: 'speaking', refId: v.id, transcript: '', extra: { seconds, summary: true } }); await closeIfDone(); drawProtocol(); });
+    };
+    const sp = $('#s-play', pane); if (sp) sp.onclick = async () => { const a = await import('../audio.js'); const r = await a.getRecording(`summary:${v.id}`); if (r) a.play(r.blob); else toast('Recording not found on this device.', 'warn'); };
     // colour learned chips by card state
     (async () => { const cards = await store.allCards(); const byRef = new Map(cards.map((c) => [c.refId, c])); pane.querySelectorAll('#learned a').forEach((a) => { const w = addedWords.find((x) => x.lemma === a.dataset.lemma); const c = w && w.wordId ? byRef.get(w.wordId) : null; if (c && c.interval >= 21) a.classList.add('green'); else if (c && c.state !== 'new') a.classList.add('amber'); }); })();
   };
@@ -273,3 +304,16 @@ function markUnknown(sentence, unknown) {
 }
 const lemmaApi = {};
 import('../lemma.js').then((m) => { lemmaApi.lemmatise = m.lemmatise; });
+
+/** Minimal record/stop widget used for the closing summary. */
+function mountRecorderLite(el, refId, onDone) {
+  import('../audio.js').then((audio) => {
+    let rec = false; let t0 = 0;
+    mount(el, html`<div class="row" style="justify-content:center;gap:16px"><button class="rec-btn" id="lite-rec">${icon('mic')}</button><div class="stack" style="flex:1;max-width:240px"><div class="meter"><span id="lite-meter"></span></div><div class="xs muted center" id="lite-status">Tap to start</div></div></div>`);
+    $('#lite-rec', el).onclick = async () => {
+      const b = $('#lite-rec', el); const st = $('#lite-status', el);
+      if (!rec) { const ok = await audio.start({ onLevel: (v) => { { const _m = $('#lite-meter', el); if (_m) _m.style.width = `${Math.round(v * 100)}%`; } } }); if (!ok) return; rec = true; t0 = performance.now(); b.classList.add('recording'); b.innerHTML = String(icon('stop')); st.textContent = 'Recording…'; }
+      else { rec = false; b.classList.remove('recording'); b.innerHTML = String(icon('mic')); const r = await audio.stop(); const seconds = (performance.now() - t0) / 1000; if (r && r.blob && r.blob.size) { await audio.saveRecording(refId, r.blob, r.mime, r.seconds); st.textContent = `Saved ${Math.round(seconds)}s`; onDone(seconds); } else st.textContent = 'Nothing recorded.'; }
+    };
+  });
+}

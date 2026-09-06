@@ -24,6 +24,7 @@ export async function start({ onLevel } = {}) {
     toast(e.name === 'NotAllowedError' ? 'Microphone permission denied. Allow it in Settings → Safari → Microphone.' : `Microphone error: ${e.message}`, 'err', { timeout: 6000 });
     return false;
   }
+  clearInterval(meterTimer); meterTimer = null;
   const mime = pickMime();
   try { recorder = new MediaRecorder(stream, mime ? { mimeType: mime } : undefined); }
   catch { recorder = new MediaRecorder(stream); }
@@ -40,9 +41,10 @@ export async function start({ onLevel } = {}) {
       src.connect(analyser);
       const buf = new Uint8Array(analyser.frequencyBinCount);
       meterTimer = setInterval(() => {
+        if (!analyser) { clearInterval(meterTimer); meterTimer = null; return; }
         analyser.getByteTimeDomainData(buf);
         let sum = 0; for (let i = 0; i < buf.length; i++) { const v = (buf[i] - 128) / 128; sum += v * v; }
-        onLevel(Math.min(1, Math.sqrt(sum / buf.length) * 4));
+        try { onLevel(Math.min(1, Math.sqrt(sum / buf.length) * 4)); } catch { clearInterval(meterTimer); meterTimer = null; }
       }, 80);
     } catch { /* meter optional */ }
   }
