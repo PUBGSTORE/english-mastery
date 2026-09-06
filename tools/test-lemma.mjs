@@ -28,7 +28,7 @@ const cases = [
   ['vulnerabilities', 'vulnerability'], ['patches', 'patch'], ['exploited', 'exploit'], ['escalating', 'escalate'],
   ['glass', 'glass'], ['gas', 'gas'], ['yes', 'yes'], ['us', 'us'], ['bus', 'bus'], ['less', 'less'], ['process', 'process'],
   ['users', 'user'], ['user', 'user'], ['latest', 'late'], ['later', 'late'], ['taken', 'take'], ['taking', 'take'],
-  ['hoped', 'hope'], ['hoping', 'hope'], ['used', 'use'], ['using', 'use'], ['saved', 'save'], ['lives', 'life'], ["it's", 'it'], ['meetings', 'meeting'], ['settings', 'setting'], ['nothing', 'nothing'], ['thing', 'thing'], ['stated', 'state'], ['fastest', 'fast'], ['nicer', 'nice'], ['friendlier', 'friendly'], ['remediated', 'remediate'], ['optimizing', 'optimize'], ['enumerated', 'enumerate'], ['sandboxed', 'sandbox'], ['obfuscating', 'obfuscate'], ['containerized', 'containerize'],
+  ['hoped', 'hope'], ['hoping', 'hope'], ['used', 'use'], ['using', 'use'], ['saved', 'save'], ['lives', 'life'], ["it's", 'it'], ['meetings', 'meeting'], ['settings', 'setting'], ['nothing', 'nothing'], ['thing', 'thing'], ['stated', 'state'], ['fastest', 'fast'], ['nicer', 'nice'], ['friendlier', 'friendly'], ['remediated', 'remediate'], ['biases', 'bias'], ['lenses', 'lens'], ['cases', 'case'], ['optimizing', 'optimize'], ['enumerated', 'enumerate'], ['sandboxed', 'sandbox'], ['obfuscating', 'obfuscate'], ['containerized', 'containerize'],
 ];
 let fail = 0;
 for (const [w, want] of cases) { const got = L.lemmatise(w); if (got !== want) { fail++; console.log(`FAIL ${w} → ${got} (want ${want})`); } }

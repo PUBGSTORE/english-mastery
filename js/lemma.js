@@ -87,7 +87,7 @@ function plural(w) {
   for (const c of cands) if (inLexicon(c)) return c;
   if (inLexicon(w)) return w; // a real word in its own right (e.g. "bus" handled above, "canvas", "atlas")
   if (w.endsWith('ies') && w.length > 4) return w.slice(0, -3) + 'y';
-  if (/(ches|shes|sses|xes|zes)$/.test(w)) return w.slice(0, -2);
+  if (/(ches|shes|sses|xes|zes|ses)$/.test(w)) return w.slice(0, -2);
   return w.slice(0, -1);
 }
 
