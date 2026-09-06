@@ -1,6 +1,8 @@
 // youtube.js — video id parsing, metadata, transcript chain (proxy → direct → paste/file), caption parsing.
 import { getSetting } from './db.js';
 
+export const DEFAULT_PROXY = 'https://square-moon-caa9.0x0doteth.workers.dev';
+
 export function parseVideoId(input) {
   const s = String(input || '').trim();
   if (/^[\w-]{11}$/.test(s)) return s;
@@ -39,7 +41,8 @@ export async function fetchMeta(id) {
  * Transcript chain. Resolves { segments, source: 'proxy'|'direct' } or throws Error with .code = 'NO_PROXY'|'CORS'|'NO_CAPTIONS'|'PROXY'.
  */
 export async function fetchTranscript(id) {
-  const proxy = ((await getSetting('transcriptProxy', '')) || '').trim().replace(/\/$/, '');
+  let proxy = ((await getSetting('transcriptProxy', '')) || '').trim().replace(/\/$/, '');
+  if (!proxy && (await getSetting('transcriptProxyDisabled', false)) !== true) proxy = DEFAULT_PROXY;
   if (proxy) {
     const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 20000);
     let r;
@@ -48,7 +51,8 @@ export async function fetchTranscript(id) {
     let j = null; try { j = await r.json(); } catch { /* ignore */ }
     if (r.status === 404 || (j && /no captions/i.test(j.error || ''))) throw Object.assign(new Error('This video has no captions.'), { code: 'NO_CAPTIONS', title: j && j.title });
     if (!r.ok || !j || !Array.isArray(j.segments)) throw Object.assign(new Error(`Proxy error: ${(j && j.error) || r.status}`), { code: 'PROXY' });
-    return { segments: j.segments, source: 'proxy', title: j.title || '', auto: !!j.auto, lang: j.lang };
+    if (!j.segments.length) throw Object.assign(new Error('The proxy returned an empty transcript. If this keeps happening, redeploy the worker from worker/youtube-transcript.js (YouTube changed its caption endpoint).'), { code: 'PROXY', title: j.title });
+    return { segments: j.segments, source: 'proxy', title: j.title || '', channel: j.channel || '', auto: !!j.auto, lang: j.lang };
   }
   // Direct attempt: YouTube sends no CORS headers, so this fails in normal browsers. Fail fast, quietly.
   try {

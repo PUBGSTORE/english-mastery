@@ -108,7 +108,7 @@ Paste any YouTube link (or a video id, or a `youtu.be` short link) on the **Vide
 
 **How the transcript is obtained.** A static site cannot fetch YouTube transcripts directly (YouTube sends no CORS headers), so there is a chain:
 
-1. **Transcript proxy (best, optional).** `worker/youtube-transcript.js` is a ~60-line Cloudflare Worker. Deploy it once: dash.cloudflare.com → Workers & Pages → Create → paste the file → Deploy (free tier). Copy the worker URL into **Settings → Video miner → Transcript proxy URL** and tap Test. After that, pasting a link just works.
+1. **Transcript proxy (built in).** `worker/youtube-transcript.js` is a small Cloudflare Worker that calls YouTube's player API the way the mobile apps do (the caption URLs embedded in the web page return empty bodies to non-browser clients since 2025). The app ships with Balvant's worker URL as the default; to use your own, deploy it once (dash.cloudflare.com → Workers & Pages → Create → Start with Hello World → Edit code → paste the file → Deploy) and put the URL into **Settings → Video miner**. If YouTube changes its endpoint again, redeploy the latest worker file.
 2. **Direct attempt.** Without a proxy the app still tries once and fails fast.
 3. **Paste (always works).** Open the video → `…more` → Show transcript → select all → copy → paste into the box the app shows. Timestamps are kept. `.srt`, `.vtt` and `.txt` files can be dropped in too.
 

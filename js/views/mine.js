@@ -20,7 +20,7 @@ export async function render(container, params) {
 async function renderHub(container) {
   const videos = (await db.getAll('videos', { index: 'ts' })).reverse();
   const key = await ai.hasKey();
-  const proxy = await db.getSetting('transcriptProxy', '');
+  const proxy = (await db.getSetting('transcriptProxy', '')) || yt.DEFAULT_PROXY;
   const cap = await db.getSetting('mineCap', 40);
   const channels = await content.load('channels').catch(() => []);
   const harvested = videos.reduce((a, v) => a + (v.cardsAdded || 0), 0);
@@ -30,7 +30,7 @@ async function renderHub(container) {
       <form id="mine-form" autocomplete="off">
         <div class="row"><input class="input" id="url" placeholder="https://youtu.be/… or a video id" inputmode="url" autocapitalize="off" style="flex:1;min-width:220px"><select class="select" id="cap" style="width:auto"><option value="20" ${cap == 20 ? 'selected' : ''}>20 words</option><option value="40" ${cap == 40 ? 'selected' : ''}>40 words</option><option value="60" ${cap == 60 ? 'selected' : ''}>60 words</option></select><button class="btn btn-primary" type="submit" id="go">${icon('search')} Mine</button></div>
       </form>
-      <p class="xs muted mt mb-0">${proxy ? html`Transcript proxy set — links just work.` : html`No transcript proxy yet: after tapping Mine you'll paste the transcript (30 seconds, works everywhere). Or set up the free proxy in <a href="#/settings">Settings</a> once.`} ${key ? '' : html`No DeepSeek key: you'll get the word list and video sentences without meanings.`}</p>
+      <p class="xs muted mt mb-0">${proxy ? html`Transcript proxy connected — paste a link and it just works. If a video has no captions you'll be offered the paste box.` : html`No transcript proxy: after tapping Mine you'll paste the transcript.`} ${key ? '' : html`No DeepSeek key: you'll get the word list and video sentences without meanings.`}</p>
       <div id="mine-status" class="mt"></div>
     </div>
     <details class="card compact"><summary class="small muted" style="cursor:pointer">${icon('note')} Paste a transcript or any text instead (or drop a .srt / .vtt / .txt file)</summary>
@@ -63,7 +63,7 @@ async function startFromUrl(container, input) {
   mount(status, html`<div class="row"><img src="${meta.thumb}" alt="" style="width:96px;border-radius:8px"><div class="grow"><strong>${meta.title || id}</strong><div class="xs muted">${meta.channel}</div><div class="xs muted mt" id="fetch-msg"><span class="spinner"></span> Getting the transcript…</div></div></div><div id="fallback"></div>`);
   try {
     const t = await yt.fetchTranscript(id);
-    await processSegments(container, { id, kind: 'youtube', title: meta.title || t.title || id, channel: meta.channel, thumb: meta.thumb, url: yt.watchUrl(id) }, t.segments, { auto: t.auto });
+    await processSegments(container, { id, kind: 'youtube', title: meta.title || t.title || id, channel: meta.channel || t.channel || '', thumb: meta.thumb, url: yt.watchUrl(id) }, t.segments, { auto: t.auto });
   } catch (e) {
     const msg = $('#fetch-msg', container);
     if (e.code === 'NO_CAPTIONS') { msg.innerHTML = 'This video has no captions, so there is nothing to mine. Pick another one, or paste the text if you have it.'; }

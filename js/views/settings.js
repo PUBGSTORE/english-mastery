@@ -6,6 +6,7 @@ import * as tts from '../tts.js';
 import * as ai from '../ai.js';
 import * as audio from '../audio.js';
 import * as sync from '../sync.js';
+import { DEFAULT_PROXY } from '../youtube.js';
 import { download, readFileText, CEFR } from '../utils.js';
 import { getTheme, setTheme } from '../app.js';
 import { isHindi, setHindi } from '../i18n.js';
@@ -77,9 +78,9 @@ export async function render(container) {
     </div>
 
     <div class="card"><h3>Video miner</h3>
-      <div class="field"><label for="transcriptProxy">Transcript proxy URL (optional)</label><input class="input" id="transcriptProxy" type="url" autocapitalize="off" spellcheck="false" placeholder="https://yt-transcript.yourname.workers.dev" value="${transcriptProxy}">
-        <span class="help">Browsers cannot fetch YouTube transcripts directly. Without a proxy you paste the transcript (works everywhere). With the free Cloudflare Worker in <code>worker/youtube-transcript.js</code> deployed (two minutes, see README), pasting a link just works.</span></div>
-      <div class="btn-row"><button class="btn btn-sm" id="test-proxy" ${transcriptProxy ? '' : 'disabled'}>Test proxy</button><span class="xs muted">Word cache: ${wordCacheCount} words looked up (free forever).</span></div>
+      <div class="field"><label for="transcriptProxy">Transcript proxy URL</label><input class="input" id="transcriptProxy" type="url" autocapitalize="off" spellcheck="false" placeholder="${DEFAULT_PROXY}" value="${transcriptProxy}">
+        <span class="help">Your Cloudflare Worker is built in as the default (<code>${DEFAULT_PROXY}</code>), so pasting a link just works. Leave this blank to use it, or enter another worker URL. The worker source is <code>worker/youtube-transcript.js</code>.</span></div>
+      <div class="btn-row"><button class="btn btn-sm" id="test-proxy">Test proxy</button><span class="xs muted">Word cache: ${wordCacheCount} words looked up (free forever).</span></div>
     </div>
 
     <div class="card accent"><h3>Backup</h3>
@@ -139,10 +140,10 @@ export async function render(container) {
   $('#reset-usage', container).onclick = async () => { await ai.resetUsage(); render(container); };
   $('#monthlyCap', container).onchange = (e) => save('monthlyCapUsd', Math.max(0, parseFloat(e.target.value) || 0));
   $('#inrRate', container).onchange = (e) => save('inrRate', Math.max(1, parseFloat(e.target.value) || 84));
-  $('#transcriptProxy', container).onchange = async (e) => { const v = e.target.value.trim().replace(/\/$/, ''); await save('transcriptProxy', v); $('#test-proxy', container).disabled = !v; };
+  $('#transcriptProxy', container).onchange = async (e) => { const v = e.target.value.trim().replace(/\/$/, ''); await save('transcriptProxy', v); };
   $('#test-proxy', container).onclick = async (e) => {
     const b = e.currentTarget; b.disabled = true; b.textContent = 'Testing…';
-    try { const yt = await import('../youtube.js'); const r = await yt.fetchTranscript('jNQXAC9IVRw'); toast(`Proxy works: ${r.segments.length} caption segments received.`, 'ok'); }
+    try { const yt = await import('../youtube.js'); const r = await yt.fetchTranscript('dQw4w9WgXcQ'); toast(`Proxy works: ${r.segments.length} caption segments received for “${r.title || 'test video'}”.`, 'ok', { timeout: 5000 }); }
     catch (err) { toast(err.code === 'NO_CAPTIONS' ? 'Proxy reachable (test video has no captions).' : `Proxy failed: ${err.message}`, err.code === 'NO_CAPTIONS' ? 'ok' : 'err', { timeout: 7000 }); }
     b.disabled = false; b.textContent = 'Test proxy';
   };
