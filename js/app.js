@@ -50,6 +50,10 @@ route('/progress', V('progress'), { title: 'Progress' });
 route('/placement', V('placement'), { title: 'Placement test' });
 route('/settings', V('settings'), { title: 'Settings' });
 route('/translate', V('translate'), { title: 'Translate' });
+route('/mine', V('mine'), { title: 'Video miner' });
+route('/mine/:id', V('mine'), { title: 'Mined video' });
+route('/read', V('reader'), { title: 'Reader' });
+route('/read/:id', V('reader'), { title: 'Reader' });
 route('/learn', V('hub'), { title: 'Learn' });
 route('/practice', V('hub'), { title: 'Practice' });
 
@@ -63,7 +67,7 @@ const TABS = [
 ];
 const SIDE = [
   { title: '', items: [{ href: '#/', label: 'Home', icon: 'home' }, { href: '#/review', label: 'Review', icon: 'zap', badge: 'due' }] },
-  { title: 'Learn', items: [{ href: '#/vocab', label: 'Vocabulary', icon: 'layers' }, { href: '#/daily', label: 'Daily 5', icon: 'calendar' }, { href: '#/grammar', label: 'Grammar', icon: 'book' }, { href: '#/notes', label: 'Notes', icon: 'note' }] },
+  { title: 'Learn', items: [{ href: '#/vocab', label: 'Vocabulary', icon: 'layers' }, { href: '#/daily', label: 'Daily 5', icon: 'calendar' }, { href: '#/grammar', label: 'Grammar', icon: 'book' }, { href: '#/mine', label: 'Video miner', icon: 'play' }, { href: '#/read', label: 'Reader', icon: 'eye' }, { href: '#/notes', label: 'Notes', icon: 'note' }] },
   { title: 'Practice', items: [{ href: '#/pron', label: 'Pronunciation', icon: 'wave' }, { href: '#/shadow', label: 'Shadowing', icon: 'ear' }, { href: '#/listen', label: 'Listening', icon: 'speaker' }, { href: '#/speak', label: 'Speaking', icon: 'mic' }, { href: '#/write', label: 'Writing', icon: 'pen' }, { href: '#/translate', label: 'Translate', icon: 'refresh' }, { href: '#/mistakes', label: 'Mistakes', icon: 'alert' }] },
   { title: 'More', items: [{ href: '#/chat', label: 'AI Tutor', icon: 'chat' }, { href: '#/progress', label: 'Progress', icon: 'chart' }, { href: '#/settings', label: 'Settings', icon: 'settings' }] },
 ];

@@ -23,6 +23,11 @@ export async function render(container) {
   const gistId = await sync.getGistId();
   const lastCloud = await db.getSetting('lastCloudBackup', null);
   const lastCloudBytes = await db.getSetting('lastCloudBackupBytes', 0);
+  const monthlyCap = await db.getSetting('monthlyCapUsd', 0);
+  const inrRate = await db.getSetting('inrRate', 84);
+  const month = await ai.monthSpend();
+  const transcriptProxy = await db.getSetting('transcriptProxy', '');
+  const wordCacheCount = await db.count('wordCache');
   mount(container, html`
     <div class="page-head"><div><h1>Settings</h1><p class="sub">Everything is stored on this device only.</p></div></div>
 
@@ -63,7 +68,17 @@ export async function render(container) {
         <div class="field"><label for="priceIn">Price per 1M input tokens ($)</label><input class="input" id="priceIn" type="number" step="0.01" value="${prices.input}"></div>
         <div class="field"><label for="priceOut">Price per 1M output tokens ($)</label><input class="input" id="priceOut" type="number" step="0.01" value="${prices.output}"></div>
       </div>
+      <div class="grid-2 mt">
+        <div class="field"><label for="monthlyCap">Monthly spend cap ($, 0 = none)</label><input class="input" id="monthlyCap" type="number" step="0.5" min="0" value="${monthlyCap}"><span class="help">This month: $${month.usd.toFixed(3)} (₹${(month.usd * inrRate).toFixed(2)}) across ${month.calls} calls. Calls are blocked once the cap is hit.</span></div>
+        <div class="field"><label for="inrRate">₹ per $ (for estimates)</label><input class="input" id="inrRate" type="number" step="0.5" value="${inrRate}"></div>
+      </div>
       <button class="btn btn-ghost btn-sm" id="reset-usage">Reset counter</button>
+    </div>
+
+    <div class="card"><h3>Video miner</h3>
+      <div class="field"><label for="transcriptProxy">Transcript proxy URL (optional)</label><input class="input" id="transcriptProxy" type="url" autocapitalize="off" spellcheck="false" placeholder="https://yt-transcript.yourname.workers.dev" value="${transcriptProxy}">
+        <span class="help">Browsers cannot fetch YouTube transcripts directly. Without a proxy you paste the transcript (works everywhere). With the free Cloudflare Worker in <code>worker/youtube-transcript.js</code> deployed (two minutes, see README), pasting a link just works.</span></div>
+      <div class="btn-row"><button class="btn btn-sm" id="test-proxy" ${transcriptProxy ? '' : 'disabled'}>Test proxy</button><span class="xs muted">Word cache: ${wordCacheCount} words looked up (free forever).</span></div>
     </div>
 
     <div class="card accent"><h3>Backup</h3>
@@ -114,6 +129,15 @@ export async function render(container) {
   const savePrices = () => store.setSetting('prices', { input: parseFloat($('#priceIn', container).value) || 0, output: parseFloat($('#priceOut', container).value) || 0 });
   $('#priceIn', container).onchange = savePrices; $('#priceOut', container).onchange = savePrices;
   $('#reset-usage', container).onclick = async () => { await ai.resetUsage(); render(container); };
+  $('#monthlyCap', container).onchange = (e) => save('monthlyCapUsd', Math.max(0, parseFloat(e.target.value) || 0));
+  $('#inrRate', container).onchange = (e) => save('inrRate', Math.max(1, parseFloat(e.target.value) || 84));
+  $('#transcriptProxy', container).onchange = async (e) => { const v = e.target.value.trim().replace(/\/$/, ''); await save('transcriptProxy', v); $('#test-proxy', container).disabled = !v; };
+  $('#test-proxy', container).onclick = async (e) => {
+    const b = e.currentTarget; b.disabled = true; b.textContent = 'Testing…';
+    try { const yt = await import('../youtube.js'); const r = await yt.fetchTranscript('jNQXAC9IVRw'); toast(`Proxy works: ${r.segments.length} caption segments received.`, 'ok'); }
+    catch (err) { toast(err.code === 'NO_CAPTIONS' ? 'Proxy reachable (test video has no captions).' : `Proxy failed: ${err.message}`, err.code === 'NO_CAPTIONS' ? 'ok' : 'err', { timeout: 7000 }); }
+    b.disabled = false; b.textContent = 'Test proxy';
+  };
 
   $('#export', container).onclick = async () => {
     try {

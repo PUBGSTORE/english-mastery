@@ -171,6 +171,55 @@ def v_placement(f, arr):
     for lvl in ('A1','A2','B1','B2','C1'):
         if by.get(lvl,0) < 10: err(f, f'need 10+ items at {lvl}, have {by.get(lvl,0)}')
 
+def v_simple(f, arr, min_count, keys, hi_keys=()):
+    if not isinstance(arr, list): return err(f, 'must be array')
+    if len(arr) < min_count: err(f, f'only {len(arr)}, need {min_count}')
+    for e in arr:
+        uid(f, e.get('id','?')); need(f, e, keys, e.get('id','?'))
+        for k in hi_keys:
+            if not has_hindi(e.get(k,'')): err(f, f'{e.get("id")}: {k} not Devanagari')
+
+def v_chunks(f, arr):
+    v_simple(f, arr, 300, ['id','function','chunk','hi','register','examples','clumsy','note_en','note_hi'], ['hi','note_hi'])
+    funcs = {e.get('function') for e in arr}
+    if len(funcs) < 12: err(f, f'only {len(funcs)} functions, need 12+')
+    for e in arr:
+        if len(e.get('examples',[])) != 3: err(f, f'{e.get("id")}: need exactly 3 examples')
+
+def v_morphology(f, arr):
+    v_simple(f, arr, 120, ['id','part','type','origin','meaning_en','meaning_hi','derived','decode','note_en','note_hi'], ['meaning_hi','note_hi'])
+    for e in arr:
+        if not (6 <= len(e.get('derived',[])) <= 8): err(f, f'{e.get("id")}: derived must have 6-8 items')
+        if len(e.get('decode',[])) < 2: err(f, f'{e.get("id")}: need 2 decode items')
+
+def v_confusables(f, arr):
+    v_simple(f, arr, 100, ['id','a','b','rule_en','rule_hi','examples','quiz','trap_en'], ['rule_hi'])
+    for e in arr:
+        if len(e.get('quiz',[])) != 3 or any('___' not in q.get('sentence','') for q in e.get('quiz',[])): err(f, f'{e.get("id")}: quiz needs 3 items with ___')
+
+def v_phrases(f, arr):
+    v_simple(f, arr, 200, ['id','phrase','hi','when_en','when_hi','register','stiff','examples','topic'], ['hi','when_hi'])
+
+def v_scenarios(f, arr):
+    v_simple(f, arr, 10, ['id','title','role_ai','role_me','opening','goals','vocab','turns','hi'], ['hi'])
+
+def v_frequency(f, arr):
+    if len(arr) != 5000: err(f, f'{len(arr)} lemmas, need exactly 5000')
+    seen=set()
+    for i,e in enumerate(arr):
+        if e.get('r') != i+1: err(f, f'rank mismatch at {i}'); break
+        if e['l'] in seen: err(f, f'duplicate lemma {e["l"]}')
+        seen.add(e['l'])
+        if e.get('b') != i//1000+1: err(f, f'band mismatch at {i}'); break
+
+def v_irregular(f, arr):
+    forms=[e.get('form') for e in arr]
+    if len(forms) != len(set(forms)): err(f, 'duplicate forms')
+    if len(arr) < 200: err(f, f'only {len(arr)} forms, need 200+')
+
+def v_tenses(f, arr):
+    v_simple(f, arr, 12, ['id','name','time','aspect','form','use_en','use_hi','signals','examples','hindi_trap'], ['use_hi'])
+
 def v_indianisms(f, arr):
     if len(arr) < 40: err(f, f'only {len(arr)}, need 40')
     for e in arr:
@@ -185,6 +234,10 @@ VALIDATORS = {
     'phonemes.json': v_phonemes, 'minimal-pairs.json': v_pairs, 'stress.json': v_stress,
     'tongue-twisters.json': v_twisters, 'shadowing.json': v_shadowing, 'listening.json': v_listening,
     'writing-prompts.json': v_writing, 'speaking-prompts.json': v_speaking, 'placement.json': v_placement,
+    'vocab-everyday.json': lambda f,d: v_vocab(f,d,600), 'chunks.json': v_chunks, 'morphology.json': v_morphology, 'confusables.json': v_confusables,
+    'daily-phrases.json': v_phrases, 'scenarios.json': v_scenarios, 'frequency-5000.json': v_frequency, 'irregular-verbs.json': v_irregular,
+    'tenses.json': v_tenses, 'stoplist.json': lambda f,d: None if isinstance(d, list) and len(d) >= 200 else err(f, 'stoplist too short'),
+    'channels.json': lambda f,d: None if isinstance(d, list) and len(d) >= 8 else err(f, 'channels too short'),
 }
 
 def main():

@@ -23,6 +23,7 @@ export function tutorSystem(level = 'A2', context = null) {
 export async function chat({ messages, system, temperature = 0.7, onToken, signal, json = false, maxTokens = 1200 }) {
   const key = await getKey();
   if (!key) throw new Error('NO_KEY');
+  await checkCap(0);
   const body = {
     model: MODEL, temperature, stream: !json, max_tokens: maxTokens,
     messages: [{ role: 'system', content: system }, ...messages],
@@ -80,6 +81,11 @@ async function addUsage(u) {
   const cur = (await getSetting('usage', null)) || { input: 0, output: 0, calls: 0 };
   cur.input += u.input || 0; cur.output += u.output || 0; cur.calls += 1;
   await setSetting('usage', cur);
+  const byMonth = (await getSetting('usageByMonth', null)) || {};
+  const k = new Date().toISOString().slice(0, 7);
+  const m = byMonth[k] || { input: 0, output: 0, calls: 0 };
+  m.input += u.input || 0; m.output += u.output || 0; m.calls += 1; byMonth[k] = m;
+  await setSetting('usageByMonth', byMonth);
 }
 export async function usageSummary() {
   const u = (await getSetting('usage', null)) || { input: 0, output: 0, calls: 0 };
@@ -221,4 +227,34 @@ export async function gradeTranslation(hindi, reference, typed, level) {
     messages: [{ role: 'user', content: `Hindi: ${hindi}\nReference: ${reference}\nLearner: ${typed}` }],
   });
   return parseJSON(r.content);
+}
+
+/* ---------------- Phase 7: monthly spend cap + word enrichment ---------------- */
+export const monthKey = () => new Date().toISOString().slice(0, 7);
+export async function monthSpend() {
+  const m = (await getSetting('usageByMonth', null)) || {};
+  const u = m[monthKey()] || { input: 0, output: 0, calls: 0 };
+  const p = await getPrices();
+  return { ...u, usd: (u.input / 1e6) * p.input + (u.output / 1e6) * p.output };
+}
+export async function checkCap(projectedUsd = 0) {
+  const cap = +(await getSetting('monthlyCapUsd', 0)) || 0;
+  if (!cap) return true;
+  const { usd } = await monthSpend();
+  if (usd + projectedUsd > cap) throw new Error('CAP_REACHED');
+  return true;
+}
+/** Look up a batch of lemmas (≤ 40). Returns an object keyed by lemma. */
+export async function enrichWords(lemmasList, level = 'B1', sentences = {}) {
+  await checkCap(0.01);
+  const ctx = lemmasList.map((l) => sentences[l] ? `${l}: "${String(sentences[l]).slice(0, 140)}"` : l).join('\n');
+  const r = await chat({
+    json: true, temperature: 0.2, maxTokens: 4000,
+    system: `You are a dictionary for a Hindi-speaking English learner (level ${level}). For EVERY word in the list return an entry. Respond with JSON only: {"<word>": {"word": "dictionary headword (lemma)", "ipa": "/…/", "pos": "noun|verb|adjective|adverb|phrase|other", "cefr": "A1|A2|B1|B2|C1|C2", "en_def": "simple English, A2 vocabulary, under 15 words, matching the sense used in the quoted sentence if given", "hi_def": "natural Devanagari Hindi meaning (not transliteration)", "hi_nuance": "one short sentence for Hindi speakers, or empty", "example_en": "one natural example sentence", "example_hi": "its Devanagari translation", "synonyms": ["up to 3"], "register": "formal|neutral|informal|technical|slang"}}. Keys must be exactly the words given.`,
+    messages: [{ role: 'user', content: ctx }],
+  });
+  const j = parseJSON(r.content);
+  // tolerate {"words":[...]} shape
+  if (Array.isArray(j.words)) { const o = {}; for (const e of j.words) if (e && e.word) o[String(e.word).toLowerCase()] = e; return o; }
+  const out = {}; for (const [k, v] of Object.entries(j)) out[String(k).toLowerCase().trim()] = v; return out;
 }

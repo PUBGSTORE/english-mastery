@@ -183,7 +183,13 @@ export async function daily5(day = todayKey()) {
   if (candidates.length < 5) candidates = pool.filter((w) => !used.has(w.id));
   if (candidates.length < 5) candidates = pool;
   const rng = mulberry32(hashStr(`${day}|${s.level}`));
-  const picked = shuffle(candidates, rng).slice(0, 5).map((w) => w.id);
+  // Everyday English first: until that deck is exhausted, 3 of the 5 daily words come from it (weighted ahead of rarer words).
+  const everyday = candidates.filter((w) => (w.tags || []).includes('everyday'));
+  const rest = candidates.filter((w) => !(w.tags || []).includes('everyday'));
+  const fromEveryday = shuffle(everyday, rng).slice(0, Math.min(3, everyday.length));
+  const fromRest = shuffle(rest, rng).slice(0, 5 - fromEveryday.length);
+  const picked = shuffle([...fromEveryday, ...fromRest], rng).slice(0, 5).map((w) => w.id);
+  if (picked.length < 5) picked.push(...shuffle(candidates, rng).map((w) => w.id).filter((id) => !picked.includes(id)).slice(0, 5 - picked.length));
   const rec = { day, wordIds: picked, completed: false, completedAt: null, level: s.level, createdAt: nowISO() };
   await db.put('daily', rec);
   if (picked.length) await ensureVocabCards(picked, { priority: 2 });

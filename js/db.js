@@ -4,7 +4,7 @@ import { toast } from './ui.js';
 import { nowISO, hashStr } from './utils.js';
 
 export const DB_NAME = 'english-mastery';
-export const DB_VERSION = 2;
+export const DB_VERSION = 3;
 export const EXPORT_FORMAT = 1;
 
 // Store definitions. Adding a store or index = bump DB_VERSION and add a case to migrate().
@@ -23,9 +23,20 @@ const STORES = {
   settings: { keyPath: 'key', indexes: [] },
   meta:     { keyPath: 'key', indexes: [] },
   custom:   { keyPath: 'id', indexes: [['kind', 'kind'], ['deck', 'deck']] }, // v2: user- and AI-generated content
+  // v3 (Phase 7 — Infinite Input)
+  lemmas:    { keyPath: 'lemma', indexes: [['state', 'state'], ['updatedAt', 'updatedAt']] },
+  wordCache: { keyPath: 'lemma', indexes: [['cefr', 'cefr'], ['ts', 'ts']] },
+  videos:    { keyPath: 'id', indexes: [['ts', 'ts'], ['status', 'status']] },
+  texts:     { keyPath: 'id', indexes: [['ts', 'ts']] },
+  generated: { keyPath: 'id', indexes: [['kind', 'kind'], ['refId', 'refId'], ['ts', 'ts']] },
+  sessions:  { keyPath: 'id', indexes: [['day', 'day']] },
+  tests:     { keyPath: 'id', indexes: [['kind', 'kind'], ['ts', 'ts']] },
+  diary:     { keyPath: 'id', indexes: [['ts', 'ts']] },
+  backups:   { keyPath: 'id', indexes: [['ts', 'ts']] },
 };
 export const STORE_NAMES = Object.keys(STORES);
-const EXPORT_STORES = STORE_NAMES.filter((s) => s !== 'audio');
+// audio + diary hold Blobs (excluded from JSON export, documented in the UI); backups would nest exports.
+const EXPORT_STORES = STORE_NAMES.filter((s) => !['audio', 'diary', 'backups'].includes(s));
 
 let dbPromise = null;
 

@@ -31,3 +31,4 @@ export async function render_(container, isLearn) {
 }
 export function render(container) { return render_(container, current() === '/learn'); }
 PRACTICE.splice(5, 0, { href: '#/translate', icon: 'refresh', title: 'Translate', sub: 'Hindi → English, graded by AI' });
+LEARN.splice(4, 0, { href: '#/mine', icon: 'play', title: 'Video miner', sub: 'Turn any YouTube video into a word deck' }, { href: '#/read', icon: 'eye', title: 'Reader', sub: 'Paste any text, tap any word, read aloud' });

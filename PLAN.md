@@ -359,3 +359,79 @@ Each phase ends with: what works, how to test on iPad, what's next.
 - App loads with network off after first visit (from P6 onward; shell-only from P1).
 - All DB failures surface as toasts.
 - No `/absolute` paths anywhere; `grep -rn '"/' index.html js css` returns nothing load-bearing.
+
+---
+
+# Phase 7 — "Infinite Input"
+
+Extends v1.1 without replacing anything. All ids stay stable; the IndexedDB migration is additive (v2 → v3).
+
+## P7.1 New IndexedDB stores (DB_VERSION 3)
+
+| Store | keyPath | Indexes | Purpose |
+|---|---|---|---|
+| `lemmas` | `lemma` | `state`, `updatedAt` | Word state model: `{ lemma, state: 0 unknown / 1 learning / 2 familiar / 3 known / -1 ignored, source: 'srs'|'deck'|'user'|'mine', updatedAt }`. Seeded from cards (interval ≥ 21 → known, else learning) and from every shipped deck (known only once the card is mastered; deck words start `familiar` because they have an entry). |
+| `wordCache` | `lemma` | `cefr`, `ts` | Permanent DeepSeek enrichment cache: `{ lemma, word, ipa, pos, cefr, en_def, hi_def, hi_nuance, example_en, example_hi, synonyms[], register, ts, model }`. Looked up once, ever. |
+| `videos` | `id` (videoId or `text:<hash>`) | `ts`, `status` | Mined videos/texts: `{ id, kind: 'youtube'|'text', title, channel, duration, thumb, url, ts, transcript (normalised, with optional timestamps), stats { tokens, uniqueLemmas, known, unknown, density }, words: [{ lemma, count, sentence, ts, rank, decision: 'added'|'known'|'ignored'|null }], protocol { preTaught, watched, reviewed1, reviewed3, questionsDone, summaryDone, closed }, cardsAdded }`. |
+| `texts` | `id` | `ts` | Reader-mode saved passages: `{ id, title, source, text, sentences[], position, wordsRead, ts }` (mined videos also open in Reader via `videos`). |
+| `generated` | `id` | `kind`, `refId`, `ts` | §3 generated material: cloze sets, passages, dialogues, practice items, quizzes. Validated against the same shapes as `grammar.practice`, `vocab.examples`, etc. |
+| `sessions` | `id` | `day` | §7 Today sessions: preset, plan[], completed[], durations. |
+| `tests` | `id` | `kind`, `ts` | §10: weekly cumulative test results and 30-day CEFR re-assessments. |
+| `diary` | `id` | `ts` | §10 voice diary: `{ id, month, topic, blob, mime, seconds, ts }`. Excluded from JSON export (documented in UI). |
+| `backups` | `id` | `ts` | §11 auto-backup: last 3 exports as JSON strings. Excluded from export (would nest). |
+| `custom` (v2) | — | — | now also holds §5b user additions to chunks/phrases. |
+
+`EXPORT_STORES` = all except `audio`, `diary`, `backups`. Import validates unknown stores gracefully (skipped with a note).
+
+## P7.2 New content files
+
+| File | Count | Validator |
+|---|---|---|
+| `data/frequency-5000.json` | 5,000 lemmas `[{ "l": "the", "r": 1, "b": 1 }]` (rank, band 1–5) | exact 5000, unique, bands monotonic |
+| `data/irregular-verbs.json` | ~200 `{ "form": "went", "lemma": "go" }` pairs (all inflections) | unique forms |
+| `data/stoplist.json` | 300 function words | array |
+| `data/channels.json` | starter YouTube channels, two groups | array |
+| `data/chunks.json` | 300 functional frames `{ id, function, chunk, hi, register, examples[3]{en,hi}, clumsy, note_en }` | ≥300, ≥12 functions |
+| `data/morphology.json` | 120 roots/prefixes/suffixes `{ id, part, type: root|prefix|suffix, origin, meaning_en, meaning_hi, derived[6-8]{word, def_en, def_hi}, decode[{word, parts[], meaning}] }` | ≥120 |
+| `data/confusables.json` | 100 pairs `{ id, a, b, rule_en, rule_hi, examples[{en,hi,uses}], quiz[3]{sentence with ___, answer} }` | ≥100 |
+| `data/vocab-everyday.json` | 600 entries, full vocab schema, `tags` include the topic | ≥600 |
+| `data/daily-phrases.json` | 200 `{ id, phrase, hi, when_en, when_hi, register, stiff, examples[2]{en,hi} }` | ≥200 |
+| `data/scenarios.json` | 10 roleplay scenarios `{ id, title, role_ai, role_me, opening, goals[], vocab[] }` | ≥10 |
+
+## P7.3 Modules
+
+```
+js/lemma.js        tokenise, proper-noun drop, rule stemmer + irregular map, stoplist
+js/youtube.js      id parsing, transcript chain (proxy → direct → paste/file), oEmbed metadata, srt/vtt parsing
+js/mine.js         pipeline: normalise → tokens → lemmas → subtract → rank → cap → sentences; enrichment with cache, batching, cost estimate, monthly cap
+js/lemmas.js       lemma state store: seed from cards/decks, set state, stats per band, coverage estimate
+js/generate.js     §3 generators with schema validation + cache
+js/pitch.js        §9 autocorrelation f0, syllable-rate, pauses
+js/commute.js      §8 audio queue + Media Session + wake lock
+js/search.js       §11 global search index
+views/mine.js      §1 input → verdict → word list → protocol → library
+views/reader.js    §1.8 reader mode + read-aloud
+views/coverage.js  §2
+views/chunks.js    §4 (+ §5b phrases share the deck browser)
+views/roots.js     §5 roots decode drill + confusables quiz
+views/converse.js  §6
+views/today.js     §7 (new landing; Home stays reachable)
+views/commute.js   §8
+views/proof.js     §10 weekly test, CEFR trajectory, voice diary
+worker/youtube-transcript.js   Cloudflare Worker (optional proxy)
+```
+
+## P7.4 Key algorithms
+
+- **Tokeniser:** split on non-letters (keep apostrophes inside words), lowercase; drop tokens with digits; drop capitalised tokens not at sentence start (proper nouns); drop tokens < 2 chars.
+- **Lemmatiser:** irregular map first; then suffix rules in order: `ies→y`, `sses→ss`, `ches/shes/xes/zes→-es`, `s→∅` (not `ss`, `us`, `is`); `ied→y`, `ed` (double-consonant undo, `e` restore via lexicon check); `ying→ie`? no; `ing` (undo doubling, restore `e` when the stem exists in the known lexicon); `er/est` for adjectives only when the stem is in the lexicon; `ly` when stem in lexicon. The lexicon = frequency-5000 + all deck headwords. Tested against a fixture list in `tools/test-lemma.mjs`.
+- **Rank:** `score = count × bandWeight` where bandWeight = 1.0 (band 1–2), 1.3 (3), 1.6 (4), 2.0 (5), 2.4 (not in 5000). Ties by first appearance.
+- **Difficulty verdict:** density = known tokens / total content tokens (stoplist counts as known). ≥ 0.95 comfortable, 0.90–0.95 listening OK, < 0.90 too hard.
+- **Cost estimate:** prompt tokens ≈ 90 + 6·N words; output ≈ 110·N; price from Settings; shown in ₹ using an editable USD→INR rate (default 84).
+- **Monthly cap:** `usage.month` bucket keyed by `YYYY-MM`; calls throw `CAP_REACHED` when projected spend exceeds the cap.
+- **Coverage:** known share per band × standard weights: general text (band1 .72, b2 .08, b3 .04, b4 .025, b5 .02, rest .115), news (.65,.10,.06,.04,.03,.12), academic (.58,.10,.07,.05,.04,.16).
+- **Pitch:** 2048-sample frames, 50% hop, ACF over lags for 75–350 Hz, peak with clarity > 0.3, median-filter, normalise to semitones around median; syllable rate from energy peaks; pauses = energy < −40 dB for > 250 ms.
+
+## P7.5 Build order
+
+1 miner (+ reader) → 2 coverage → 5b everyday decks → 4 chunks → 5 roots/confusables → 3 generate → 6 conversation → 7 today → 8 commute → 9 pitch → 10 proof → 11 safety → 12 close-the-loop, weak-sound detector, say-the-word face.

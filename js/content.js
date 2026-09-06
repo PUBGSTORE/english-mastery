@@ -6,6 +6,7 @@ const cache = new Map();
 const inflight = new Map();
 
 export const VOCAB_DECKS = [
+  { id: 'vocab-everyday', file: 'vocab-everyday', name: 'Everyday English', cefr: 'A2', desc: 'Home, shopping, transport, phone, doctor, work, small talk — the 600 items daily life runs on', everyday: true },
   { id: 'vocab-a1', file: 'vocab-a1', name: 'Core A1', cefr: 'A1', desc: 'The 200 most useful beginner words' },
   { id: 'vocab-a2', file: 'vocab-a2', name: 'Core A2', cefr: 'A2', desc: 'Everyday life, work, travel, feelings' },
   { id: 'vocab-b1', file: 'vocab-b1', name: 'Core B1', cefr: 'B1', desc: 'Opinions, abstract nouns, work life' },
@@ -140,7 +141,7 @@ export async function grammarSorted() {
 }
 export async function phonemeById(id) { return (await phonemes()).find((p) => p.id === id); }
 export async function pairById(id) { return (await minimalPairs()).find((p) => p.id === id); }
-export async function shadowById(id) { return (await shadowing()).find((p) => p.id === id); }
+export async function shadowById(id) { if (id.startsWith('sh:cu:')) return db.get('custom', id); return (await shadowing()).find((p) => p.id === id); }
 export async function collocationById(id) { return (await collocations()).find((p) => p.id === id); }
 
 /** Resolve any content id to a display object { title, sub, href } */

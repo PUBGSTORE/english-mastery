@@ -102,6 +102,26 @@ Then update the counts in `data/index.json` (or regenerate it with the snippet a
 
 To add a whole new vocabulary deck, add it to `VOCAB_DECKS` in `js/content.js`, add the filename to `DATA` in `sw.js`, and add a validator entry in `tools/validate.py`.
 
+## Video miner (Phase 7)
+
+Paste any YouTube link (or a video id, or a `youtu.be` short link) on the **Video miner** screen. The app pulls the transcript, finds every word you do not already know, ranks them by how often they appear in that video times how rare they are, keeps the exact sentence each word first appeared in, and hands you a 20/40/60-word lesson with IPA, English and Hindi meanings from DeepSeek. Each word you add becomes a normal review card whose cloze sentence is the line from the video.
+
+**How the transcript is obtained.** A static site cannot fetch YouTube transcripts directly (YouTube sends no CORS headers), so there is a chain:
+
+1. **Transcript proxy (best, optional).** `worker/youtube-transcript.js` is a ~60-line Cloudflare Worker. Deploy it once: dash.cloudflare.com → Workers & Pages → Create → paste the file → Deploy (free tier). Copy the worker URL into **Settings → Video miner → Transcript proxy URL** and tap Test. After that, pasting a link just works.
+2. **Direct attempt.** Without a proxy the app still tries once and fails fast.
+3. **Paste (always works).** Open the video → `…more` → Show transcript → select all → copy → paste into the box the app shows. Timestamps are kept. `.srt`, `.vtt` and `.txt` files can be dropped in too.
+
+Auto-captions arrive without punctuation. If a DeepSeek key is set, the app offers to re-punctuate the text for a few paise so the cloze sentences are real sentences; otherwise each caption line is used as a sentence.
+
+**Cost control.** Every looked-up word is cached forever in your browser (and in your exports), so a word costs money once and never again. Before any lookup you see the estimate in rupees, Settings shows this month's spend, and a monthly cap blocks calls when reached. DeepSeek prices per million tokens and the ₹/$ rate are editable in Settings. Without a key, you still get the word list and the video sentences.
+
+**The protocol.** For each mined video the app walks you through pre-teaching the ten hardest words, watching, then reviewing on day 1 and re-watching on day 3. Re-watching known content is far more effective than chasing new videos.
+
+**Reader mode.** The same engine runs on any pasted text: unknown words are highlighted, tapping one shows the meaning and adds it to reviews, and read-aloud plays sentence by sentence with a "Shadow this" button that hands the line to the shadowing engine.
+
+Transcripts are fetched for your personal study only; keep it that way.
+
 ## Keyboard shortcuts (desktop)
 
 | Key | Action |
@@ -132,6 +152,8 @@ js/ai.js                 DeepSeek streaming client, tutor prompts, structured gr
 js/charts.js             SVG heatmap, line, radar, bars, intonation curve
 js/i18n.js               Hindi toggle and tap-to-reveal
 js/sync.js               cloud backup to a private GitHub Gist
+js/lemma.js  js/lemmas.js  js/mine.js  js/youtube.js   tokeniser + lemmatiser, word-state model, mining pipeline, transcript chain
+worker/youtube-transcript.js   optional Cloudflare Worker transcript proxy
 js/views/*.js            one module per screen
 data/*.json              all content
 tools/validate.py        content validator;  tools/merge.py merges part files

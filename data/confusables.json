@@ -1,0 +1,4522 @@
+[
+ {
+  "id": "cf:affect-effect",
+  "a": "affect",
+  "b": "effect",
+  "c": null,
+  "rule_en": "Affect is usually a verb meaning to influence or change something; effect is usually a noun meaning the result of a change.",
+  "rule_hi": "Affect सामान्यतः एक क्रिया (verb) है जिसका अर्थ है प्रभावित करना या बदलना; effect सामान्यतः एक संज्ञा (noun) है जिसका अर्थ है परिणाम या असर।",
+  "examples": [
+   {
+    "en": "The outage affected 300 users.",
+    "hi": "उस आउटेज ने 300 उपयोगकर्ताओं को प्रभावित किया।",
+    "uses": "affect"
+   },
+   {
+    "en": "The patch had no effect on performance.",
+    "hi": "उस पैच का प्रदर्शन पर कोई असर नहीं पड़ा।",
+    "uses": "effect"
+   },
+   {
+    "en": "Lack of sleep can affect your concentration.",
+    "hi": "नींद की कमी आपकी एकाग्रता को प्रभावित कर सकती है।",
+    "uses": "affect"
+   },
+   {
+    "en": "The new policy will take effect next month.",
+    "hi": "नई नीति अगले महीने से लागू होगी।",
+    "uses": "effect"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The patch had no ___ on performance.",
+    "answer": "effect"
+   },
+   {
+    "sentence": "Heavy rain can ___ flight schedules.",
+    "answer": "affect"
+   },
+   {
+    "sentence": "The medicine takes ___ within an hour.",
+    "answer": "effect"
+   }
+  ],
+  "trap_en": "Hindi has one common word (असर/प्रभाव) that covers both the action of influencing and the resulting outcome, so learners don't feel a natural verb/noun split the way English demands with affect/effect."
+ },
+ {
+  "id": "cf:since-for",
+  "a": "since",
+  "b": "for",
+  "c": null,
+  "rule_en": "Use 'since' with a specific starting point in time (a date, event, or moment); use 'for' with a duration or length of time.",
+  "rule_hi": "'Since' का प्रयोग किसी निश्चित समय-बिंदु (तारीख, घटना) के साथ होता है; 'for' का प्रयोग किसी समयावधि (कितनी देर) के साथ होता है।",
+  "examples": [
+   {
+    "en": "I have worked here since 2019.",
+    "hi": "मैं यहाँ 2019 से काम कर रहा हूँ।",
+    "uses": "since"
+   },
+   {
+    "en": "I have worked here for five years.",
+    "hi": "मैं यहाँ पाँच साल से काम कर रहा हूँ।",
+    "uses": "for"
+   },
+   {
+    "en": "She has been awake since midnight.",
+    "hi": "वह आधी रात से जाग रही है।",
+    "uses": "since"
+   },
+   {
+    "en": "The server has been down for two hours.",
+    "hi": "सर्वर दो घंटे से बंद है।",
+    "uses": "for"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "He has lived in Pune ___ 2015.",
+    "answer": "since"
+   },
+   {
+    "sentence": "We waited ___ twenty minutes.",
+    "answer": "for"
+   },
+   {
+    "sentence": "I haven't slept well ___ last week.",
+    "answer": "since"
+   }
+  ],
+  "trap_en": "Hindi uses the same postposition 'से' for both 'since' and 'for' in time expressions (2019 से, पाँच साल से), so learners don't sense any difference between a point in time and a duration."
+ },
+ {
+  "id": "cf:lay-lie",
+  "a": "lay",
+  "b": "lie",
+  "c": null,
+  "rule_en": "'Lie' (lay, lain) is intransitive and means to recline or be in a flat position; 'lay' (laid, laid) is transitive and means to put or place something down.",
+  "rule_hi": "'Lie' (lay, lain) अकर्मक (intransitive) क्रिया है जिसका अर्थ है लेटना या किसी स्थिति में होना; 'lay' (laid, laid) सकर्मक (transitive) क्रिया है जिसका अर्थ है किसी चीज़ को रखना।",
+  "examples": [
+   {
+    "en": "I need to lie down for a while.",
+    "hi": "मुझे थोड़ी देर लेटने की ज़रूरत है।",
+    "uses": "lie"
+   },
+   {
+    "en": "Please lay the documents on the table.",
+    "hi": "कृपया दस्तावेज़ों को मेज़ पर रखिए।",
+    "uses": "lay"
+   },
+   {
+    "en": "The cat lies in the sun every afternoon.",
+    "hi": "बिल्ली हर दोपहर धूप में लेटती है।",
+    "uses": "lie"
+   },
+   {
+    "en": "She laid the baby in the crib.",
+    "hi": "उसने बच्चे को पालने में लिटाया।",
+    "uses": "lay"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "I always ___ down after lunch.",
+    "answer": "lie"
+   },
+   {
+    "sentence": "Please ___ the keys on the desk.",
+    "answer": "lay"
+   },
+   {
+    "sentence": "The dog likes to ___ near the door.",
+    "answer": "lie"
+   }
+  ],
+  "trap_en": "Hindi's single verb 'लेटना/रखना' distinction doesn't map onto an intransitive/transitive verb pair the way English does, and learners have no equivalent grammatical category to alert them to the difference."
+ },
+ {
+  "id": "cf:its-it's",
+  "a": "its",
+  "b": "it's",
+  "c": null,
+  "rule_en": "'Its' is a possessive pronoun (belonging to it); 'it's' is a contraction of 'it is' or 'it has'.",
+  "rule_hi": "'Its' एक स्वामित्वसूचक सर्वनाम (possessive pronoun) है जिसका अर्थ है 'उसका/उसकी'; 'it's' 'it is' या 'it has' का संक्षिप्त रूप है।",
+  "examples": [
+   {
+    "en": "The company updated its security policy.",
+    "hi": "कंपनी ने अपनी सुरक्षा नीति को अपडेट किया।",
+    "uses": "its"
+   },
+   {
+    "en": "It's raining heavily outside.",
+    "hi": "बाहर बहुत बारिश हो रही है।",
+    "uses": "it's"
+   },
+   {
+    "en": "The system lost its connection.",
+    "hi": "सिस्टम ने अपना कनेक्शन खो दिया।",
+    "uses": "its"
+   },
+   {
+    "en": "It's been a long day.",
+    "hi": "आज बहुत लंबा दिन रहा है।",
+    "uses": "it's"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ almost time for the meeting.",
+    "answer": "It's"
+   },
+   {
+    "sentence": "The dog wagged ___ tail.",
+    "answer": "its"
+   },
+   {
+    "sentence": "___ not working properly.",
+    "answer": "It's"
+   }
+  ],
+  "trap_en": "Hindi has no apostrophe-based contractions, so the visual similarity of 'its' and 'it's' carries no natural cue for Hindi speakers, who must memorise the rule as a pure spelling convention."
+ },
+ {
+  "id": "cf:principal-principle",
+  "a": "principal",
+  "b": "principle",
+  "c": null,
+  "rule_en": "'Principal' is usually a noun meaning the head of a school/organisation or an adjective meaning 'main'; 'principle' is a noun meaning a fundamental rule or belief.",
+  "rule_hi": "'Principal' का अर्थ है प्रधानाचार्य/मुखिया, या विशेषण के रूप में 'मुख्य'; 'principle' का अर्थ है मूल सिद्धांत या नियम।",
+  "examples": [
+   {
+    "en": "The principal called a staff meeting.",
+    "hi": "प्रधानाचार्य ने स्टाफ मीटिंग बुलाई।",
+    "uses": "principal"
+   },
+   {
+    "en": "Encryption is based on a simple principle.",
+    "hi": "एन्क्रिप्शन एक सरल सिद्धांत पर आधारित है।",
+    "uses": "principle"
+   },
+   {
+    "en": "The principal reason for the delay was funding.",
+    "hi": "देरी का मुख्य कारण फंडिंग था।",
+    "uses": "principal"
+   },
+   {
+    "en": "He never compromises on his principles.",
+    "hi": "वह अपने सिद्धांतों से कभी समझौता नहीं करता।",
+    "uses": "principle"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Least privilege is a core security ___.",
+    "answer": "principle"
+   },
+   {
+    "sentence": "The ___ approved the new curriculum.",
+    "answer": "principal"
+   },
+   {
+    "sentence": "That was the ___ cause of the outage.",
+    "answer": "principal"
+   }
+  ],
+  "trap_en": "Both words are pronounced almost identically in Hindi-accented English and have no distinguishing feature in Hindi, so learners rely entirely on rote spelling rules like 'principal = pal'."
+ },
+ {
+  "id": "cf:advice-advise",
+  "a": "advice",
+  "b": "advise",
+  "c": null,
+  "rule_en": "'Advice' is a noun (uncountable) meaning a suggestion; 'advise' is a verb meaning to give a suggestion.",
+  "rule_hi": "'Advice' एक संज्ञा (uncountable noun) है जिसका अर्थ है सलाह; 'advise' एक क्रिया है जिसका अर्थ है सलाह देना।",
+  "examples": [
+   {
+    "en": "Can you give me some advice?",
+    "hi": "क्या आप मुझे कुछ सलाह दे सकते हैं?",
+    "uses": "advice"
+   },
+   {
+    "en": "The consultant will advise us on the migration.",
+    "hi": "सलाहकार हमें माइग्रेशन के बारे में सलाह देगा।",
+    "uses": "advise"
+   },
+   {
+    "en": "I need your advice on this contract.",
+    "hi": "मुझे इस अनुबंध पर आपकी सलाह चाहिए।",
+    "uses": "advice"
+   },
+   {
+    "en": "She advised me to change my password.",
+    "hi": "उसने मुझे अपना पासवर्ड बदलने की सलाह दी।",
+    "uses": "advise"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "He gave me useful ___ about the interview.",
+    "answer": "advice"
+   },
+   {
+    "sentence": "I would ___ you to back up your files.",
+    "answer": "advise"
+   },
+   {
+    "sentence": "Her ___ helped me a lot.",
+    "answer": "advice"
+   }
+  ],
+  "trap_en": "Hindi uses the same word 'सलाह' for both the noun and the verb sense, so the English noun/verb split marked only by a c/s spelling change feels arbitrary to Hindi speakers."
+ },
+ {
+  "id": "cf:lose-loose",
+  "a": "lose",
+  "b": "loose",
+  "c": null,
+  "rule_en": "'Lose' (rhymes with 'choose') is a verb meaning to misplace or fail to win; 'loose' (rhymes with 'goose') is an adjective meaning not tight.",
+  "rule_hi": "'Lose' एक क्रिया है जिसका अर्थ है खोना या हारना; 'loose' एक विशेषण है जिसका अर्थ है ढीला।",
+  "examples": [
+   {
+    "en": "Don't lose your access card.",
+    "hi": "अपना एक्सेस कार्ड मत खोइए।",
+    "uses": "lose"
+   },
+   {
+    "en": "This cable connection is loose.",
+    "hi": "यह केबल कनेक्शन ढीला है।",
+    "uses": "loose"
+   },
+   {
+    "en": "We might lose the match.",
+    "hi": "हम मैच हार सकते हैं।",
+    "uses": "lose"
+   },
+   {
+    "en": "The screw on the laptop is loose.",
+    "hi": "लैपटॉप का पेंच ढीला है।",
+    "uses": "loose"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Please don't ___ your badge.",
+    "answer": "lose"
+   },
+   {
+    "sentence": "The rope was too ___ to hold the weight.",
+    "answer": "loose"
+   },
+   {
+    "sentence": "We could ___ all our progress if the server crashes.",
+    "answer": "lose"
+   }
+  ],
+  "trap_en": "The spelling difference (one 'o' vs two) doesn't correspond to any sound distinction Hindi speakers instinctively notice, since both look and sound similar when read carefully."
+ },
+ {
+  "id": "cf:fewer-less",
+  "a": "fewer",
+  "b": "less",
+  "c": null,
+  "rule_en": "Use 'fewer' with plural countable nouns; use 'less' with uncountable/singular mass nouns.",
+  "rule_hi": "'Fewer' का प्रयोग गणनीय (countable) बहुवचन संज्ञाओं के साथ होता है; 'less' का प्रयोग अगणनीय (uncountable) संज्ञाओं के साथ होता है।",
+  "examples": [
+   {
+    "en": "We received fewer complaints this month.",
+    "hi": "इस महीने हमें कम शिकायतें मिलीं।",
+    "uses": "fewer"
+   },
+   {
+    "en": "There is less traffic on Sundays.",
+    "hi": "रविवार को कम ट्रैफ़िक होता है।",
+    "uses": "less"
+   },
+   {
+    "en": "Fewer employees joined the training.",
+    "hi": "प्रशिक्षण में कम कर्मचारी शामिल हुए।",
+    "uses": "fewer"
+   },
+   {
+    "en": "This process uses less memory.",
+    "hi": "यह प्रक्रिया कम मेमोरी का उपयोग करती है।",
+    "uses": "less"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "There are ___ bugs in this release.",
+    "answer": "fewer"
+   },
+   {
+    "sentence": "We have ___ time than I thought.",
+    "answer": "less"
+   },
+   {
+    "sentence": "___ people attended the workshop this year.",
+    "answer": "Fewer"
+   }
+  ],
+  "trap_en": "Hindi's word 'कम' means both 'fewer' and 'less' regardless of whether the noun is countable, so the countable/uncountable distinction that governs English usage has no parallel in Hindi."
+ },
+ {
+  "id": "cf:borrow-lend",
+  "a": "borrow",
+  "b": "lend",
+  "c": null,
+  "rule_en": "'Borrow' means to take something temporarily from someone (the receiver's action); 'lend' means to give something temporarily to someone (the giver's action).",
+  "rule_hi": "'Borrow' का अर्थ है किसी से अस्थायी रूप से कुछ लेना; 'lend' का अर्थ है किसी को अस्थायी रूप से कुछ देना।",
+  "examples": [
+   {
+    "en": "Can I borrow your charger?",
+    "hi": "क्या मैं आपका चार्जर उधार ले सकता हूँ?",
+    "uses": "borrow"
+   },
+   {
+    "en": "I can lend you my charger.",
+    "hi": "मैं आपको अपना चार्जर उधार दे सकता हूँ।",
+    "uses": "lend"
+   },
+   {
+    "en": "He borrowed money from the bank.",
+    "hi": "उसने बैंक से पैसे उधार लिए।",
+    "uses": "borrow"
+   },
+   {
+    "en": "The bank lent him a large sum.",
+    "hi": "बैंक ने उसे एक बड़ी रकम उधार दी।",
+    "uses": "lend"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Could I ___ your laptop for an hour?",
+    "answer": "borrow"
+   },
+   {
+    "sentence": "I'll ___ you my notes after class.",
+    "answer": "lend"
+   },
+   {
+    "sentence": "She ___ ten dollars from her colleague.",
+    "answer": "borrowed"
+   }
+  ],
+  "trap_en": "Hindi uses one verb, 'उधार लेना/देना', built from the same root 'उधार' with only 'लेना' (take) or 'देना' (give) changing, so learners often pick the wrong English verb since both feel like variations of the same idea."
+ },
+ {
+  "id": "cf:say-tell",
+  "a": "say",
+  "b": "tell",
+  "c": null,
+  "rule_en": "'Say' does not take a personal object directly (say something / say to someone); 'tell' requires a personal object (tell someone something).",
+  "rule_hi": "'Say' के बाद सीधे व्यक्ति नहीं आता (say something / say to someone); 'tell' के बाद व्यक्ति आना ज़रूरी है (tell someone something)।",
+  "examples": [
+   {
+    "en": "She said the deployment was successful.",
+    "hi": "उसने कहा कि डिप्लॉयमेंट सफल रहा।",
+    "uses": "say"
+   },
+   {
+    "en": "She told me the deployment was successful.",
+    "hi": "उसने मुझे बताया कि डिप्लॉयमेंट सफल रहा।",
+    "uses": "tell"
+   },
+   {
+    "en": "He said sorry to the client.",
+    "hi": "उसने ग्राहक से माफी माँगी।",
+    "uses": "say"
+   },
+   {
+    "en": "He told the client about the delay.",
+    "hi": "उसने ग्राहक को देरी के बारे में बताया।",
+    "uses": "tell"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Please ___ me the truth.",
+    "answer": "tell"
+   },
+   {
+    "sentence": "He didn't ___ anything during the meeting.",
+    "answer": "say"
+   },
+   {
+    "sentence": "Can you ___ them the server is down?",
+    "answer": "tell"
+   }
+  ],
+  "trap_en": "Hindi's verb 'बताना/कहना' distinction is looser than English, and since Hindi sentence structure allows the listener to appear or disappear freely, learners often insert 'say' with a direct personal object, producing 'say me' errors."
+ },
+ {
+  "id": "cf:do-make",
+  "a": "do",
+  "b": "make",
+  "c": null,
+  "rule_en": "'Do' is generally used for actions, duties, and general activities; 'make' is generally used for creating or producing something.",
+  "rule_hi": "'Do' का प्रयोग सामान्यतः कार्य, ज़िम्मेदारी या सामान्य गतिविधियों के लिए होता है; 'make' का प्रयोग किसी चीज़ को बनाने या उत्पन्न करने के लिए होता है।",
+  "examples": [
+   {
+    "en": "I need to do my homework.",
+    "hi": "मुझे अपना होमवर्क करना है।",
+    "uses": "do"
+   },
+   {
+    "en": "Let's make a backup before the update.",
+    "hi": "अपडेट से पहले चलिए एक बैकअप बना लेते हैं।",
+    "uses": "make"
+   },
+   {
+    "en": "She does a lot of research.",
+    "hi": "वह बहुत शोध करती है।",
+    "uses": "do"
+   },
+   {
+    "en": "The team made a big decision.",
+    "hi": "टीम ने एक बड़ा फैसला लिया।",
+    "uses": "make"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Can you ___ me a favour?",
+    "answer": "do"
+   },
+   {
+    "sentence": "We need to ___ a decision quickly.",
+    "answer": "make"
+   },
+   {
+    "sentence": "Did you ___ the dishes?",
+    "answer": "do"
+   }
+  ],
+  "trap_en": "Hindi's single verb 'करना' covers the meanings of both 'do' and 'make', so Hindi speakers have no built-in signal for when English requires a switch to 'make'."
+ },
+ {
+  "id": "cf:come-go",
+  "a": "come",
+  "b": "go",
+  "c": null,
+  "rule_en": "'Come' expresses movement toward the speaker's or listener's location; 'go' expresses movement away from it.",
+  "rule_hi": "'Come' का प्रयोग वक्ता या श्रोता की ओर आने के लिए होता है; 'go' का प्रयोग वहाँ से दूर जाने के लिए होता है।",
+  "examples": [
+   {
+    "en": "Can you come to my desk for a minute?",
+    "hi": "क्या आप एक मिनट के लिए मेरी डेस्क पर आ सकते हैं?",
+    "uses": "come"
+   },
+   {
+    "en": "I need to go to the server room.",
+    "hi": "मुझे सर्वर रूम जाना है।",
+    "uses": "go"
+   },
+   {
+    "en": "She is coming to the office tomorrow.",
+    "hi": "वह कल ऑफिस आ रही है।",
+    "uses": "come"
+   },
+   {
+    "en": "They went to the client's site.",
+    "hi": "वे ग्राहक के साइट पर गए।",
+    "uses": "go"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Please ___ here right now.",
+    "answer": "come"
+   },
+   {
+    "sentence": "I have to ___ to the airport.",
+    "answer": "go"
+   },
+   {
+    "sentence": "Are you ___ to the party tonight?",
+    "answer": "going"
+   }
+  ],
+  "trap_en": "Hindi's 'आना/जाना' distinction exists but is applied relative to a fixed viewpoint less strictly than English, especially when talking about a listener's location on the phone, causing mismatched 'come' and 'go' choices."
+ },
+ {
+  "id": "cf:remember-remind",
+  "a": "remember",
+  "b": "remind",
+  "c": null,
+  "rule_en": "'Remember' means to recall something yourself; 'remind' means to make someone else recall something (it takes a person as the object).",
+  "rule_hi": "'Remember' का अर्थ है खुद कुछ याद रखना; 'remind' का अर्थ है किसी और को याद दिलाना (इसके बाद व्यक्ति आता है)।",
+  "examples": [
+   {
+    "en": "I remember the password now.",
+    "hi": "अब मुझे पासवर्ड याद है।",
+    "uses": "remember"
+   },
+   {
+    "en": "Please remind me to update the certificate.",
+    "hi": "कृपया मुझे सर्टिफिकेट अपडेट करने की याद दिलाइए।",
+    "uses": "remind"
+   },
+   {
+    "en": "Do you remember our first meeting?",
+    "hi": "क्या आपको हमारी पहली मीटिंग याद है?",
+    "uses": "remember"
+   },
+   {
+    "en": "This bug reminds me of last year's issue.",
+    "hi": "यह बग मुझे पिछले साल की समस्या की याद दिलाता है।",
+    "uses": "remind"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "I can't ___ his name.",
+    "answer": "remember"
+   },
+   {
+    "sentence": "Can you ___ me to call the client?",
+    "answer": "remind"
+   },
+   {
+    "sentence": "She always ___ to lock the door.",
+    "answer": "remembers"
+   }
+  ],
+  "trap_en": "Hindi uses one verb, 'याद करना/याद दिलाना', built from the same root 'याद' with only the helper verb changing, so learners frequently pick 'remember' when English needs the causative 'remind'."
+ },
+ {
+  "id": "cf:hear-listen",
+  "a": "hear",
+  "b": "listen",
+  "c": null,
+  "rule_en": "'Hear' means sounds reach your ears, often without effort; 'listen' means paying deliberate attention to a sound (listen to something).",
+  "rule_hi": "'Hear' का अर्थ है बिना प्रयास के आवाज़ कानों तक पहुँचना; 'listen' का अर्थ है ध्यान से सुनना (listen to के साथ प्रयोग होता है)।",
+  "examples": [
+   {
+    "en": "I heard a loud noise from the server room.",
+    "hi": "मुझे सर्वर रूम से तेज़ आवाज़ सुनाई दी।",
+    "uses": "hear"
+   },
+   {
+    "en": "Please listen to the client's concerns carefully.",
+    "hi": "कृपया ग्राहक की चिंताओं को ध्यान से सुनिए।",
+    "uses": "listen"
+   },
+   {
+    "en": "Can you hear me on the call?",
+    "hi": "क्या आप कॉल पर मुझे सुन पा रहे हैं?",
+    "uses": "hear"
+   },
+   {
+    "en": "He listens to podcasts during his commute.",
+    "hi": "वह आने-जाने के दौरान पॉडकास्ट सुनता है।",
+    "uses": "listen"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "I didn't ___ the alarm last night.",
+    "answer": "hear"
+   },
+   {
+    "sentence": "Please ___ to the instructions carefully.",
+    "answer": "listen"
+   },
+   {
+    "sentence": "Did you ___ what she just said?",
+    "answer": "hear"
+   }
+  ],
+  "trap_en": "Hindi's verb 'सुनना' covers both passively hearing and actively listening, so Hindi speakers don't naturally separate the two English verbs by effort or intention."
+ },
+ {
+  "id": "cf:watch-see-look",
+  "a": "watch",
+  "b": "see",
+  "c": "look",
+  "rule_en": "'See' means something enters your vision without effort; 'look' means directing your eyes deliberately (look at); 'watch' means observing something moving or changing over time.",
+  "rule_hi": "'See' का अर्थ है बिना प्रयास के कुछ दिखना; 'look' का अर्थ है जानबूझकर देखना (look at); 'watch' का अर्थ है किसी बदलती या चलती चीज़ को ध्यान से देखना।",
+  "examples": [
+   {
+    "en": "I can see the dashboard from here.",
+    "hi": "मुझे यहाँ से डैशबोर्ड दिख रहा है।",
+    "uses": "see"
+   },
+   {
+    "en": "Look at this error message.",
+    "hi": "इस एरर संदेश को देखिए।",
+    "uses": "look"
+   },
+   {
+    "en": "We watched the deployment progress on screen.",
+    "hi": "हमने स्क्रीन पर डिप्लॉयमेंट की प्रगति देखी।",
+    "uses": "watch"
+   },
+   {
+    "en": "Did you see the notification?",
+    "hi": "क्या आपने सूचना देखी?",
+    "uses": "see"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ at the logs before you deploy.",
+    "answer": "Look"
+   },
+   {
+    "sentence": "I ___ smoke coming from the router.",
+    "answer": "saw"
+   },
+   {
+    "sentence": "We ___ the match live on TV.",
+    "answer": "watched"
+   }
+  ],
+  "trap_en": "Hindi's single verb 'देखना' covers seeing, looking, and watching, so learners must consciously learn the English distinctions of effort and duration that Hindi does not mark grammatically."
+ },
+ {
+  "id": "cf:home-house",
+  "a": "home",
+  "b": "house",
+  "c": null,
+  "rule_en": "'House' is the physical building; 'home' refers to the place where you live and feel you belong, often used without 'to' after verbs like 'go'.",
+  "rule_hi": "'House' एक भौतिक इमारत है; 'home' उस जगह को कहते हैं जहाँ आप रहते हैं और जिससे आपका जुड़ाव है, और 'go home' जैसे वाक्यों में 'to' नहीं लगता।",
+  "examples": [
+   {
+    "en": "They bought a new house last year.",
+    "hi": "उन्होंने पिछले साल एक नया घर (इमारत) खरीदा।",
+    "uses": "house"
+   },
+   {
+    "en": "I want to go home early today.",
+    "hi": "मैं आज जल्दी घर जाना चाहता हूँ।",
+    "uses": "home"
+   },
+   {
+    "en": "The house has three bedrooms.",
+    "hi": "उस मकान में तीन बेडरूम हैं।",
+    "uses": "house"
+   },
+   {
+    "en": "She works from home on Fridays.",
+    "hi": "वह शुक्रवार को घर से काम करती है।",
+    "uses": "home"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "I'm going ___ now, see you tomorrow.",
+    "answer": "home"
+   },
+   {
+    "sentence": "They are painting their ___ this weekend.",
+    "answer": "house"
+   },
+   {
+    "sentence": "Make yourself at ___.",
+    "answer": "home"
+   }
+  ],
+  "trap_en": "Hindi uses one word, 'घर', for both the building and the sense of belonging, so learners naturally add 'to' before 'home' (as with 'house') and don't distinguish the physical structure from the feeling of belonging."
+ },
+ {
+  "id": "cf:cost-price",
+  "a": "cost",
+  "b": "price",
+  "c": null,
+  "rule_en": "'Cost' is what it takes (money, effort, resources) to produce or obtain something, often used as a verb; 'price' is the specific amount a buyer pays, usually a noun.",
+  "rule_hi": "'Cost' वह है जो किसी चीज़ को बनाने या पाने में खर्च होता है (अक्सर क्रिया के रूप में प्रयोग होता है); 'price' वह विशिष्ट राशि है जो खरीदार चुकाता है (आमतौर पर संज्ञा)।",
+  "examples": [
+   {
+    "en": "The server upgrade cost us a lot of time.",
+    "hi": "सर्वर अपग्रेड में हमारा बहुत समय खर्च हुआ।",
+    "uses": "cost"
+   },
+   {
+    "en": "What is the price of this license?",
+    "hi": "इस लाइसेंस की कीमत क्या है?",
+    "uses": "price"
+   },
+   {
+    "en": "This mistake could cost the company its reputation.",
+    "hi": "यह गलती कंपनी की प्रतिष्ठा को नुकसान पहुँचा सकती है।",
+    "uses": "cost"
+   },
+   {
+    "en": "The price of the subscription increased this year.",
+    "hi": "इस साल सब्सक्रिप्शन की कीमत बढ़ गई।",
+    "uses": "price"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "How much does this software ___?",
+    "answer": "cost"
+   },
+   {
+    "sentence": "The ___ of the laptop dropped last week.",
+    "answer": "price"
+   },
+   {
+    "sentence": "Downtime can ___ a business millions.",
+    "answer": "cost"
+   }
+  ],
+  "trap_en": "Hindi's word 'कीमत' is used loosely for both the amount charged and the general expense involved, so learners don't automatically separate 'cost' (as an action/consequence) from 'price' (as a fixed figure)."
+ },
+ {
+  "id": "cf:job-work",
+  "a": "job",
+  "b": "work",
+  "c": null,
+  "rule_en": "'Job' is a countable noun meaning a specific position or task; 'work' is generally uncountable, referring to the activity or effort of working in general.",
+  "rule_hi": "'Job' एक गणनीय संज्ञा है जिसका अर्थ है कोई विशिष्ट पद या कार्य; 'work' सामान्यतः अगणनीय है, जो सामान्य रूप से काम करने की गतिविधि को दर्शाता है।",
+  "examples": [
+   {
+    "en": "She got a new job at a security firm.",
+    "hi": "उसे एक सुरक्षा कंपनी में नई नौकरी मिली।",
+    "uses": "job"
+   },
+   {
+    "en": "I have a lot of work to finish today.",
+    "hi": "मुझे आज बहुत सारा काम खत्म करना है।",
+    "uses": "work"
+   },
+   {
+    "en": "He applied for three jobs this month.",
+    "hi": "उसने इस महीने तीन नौकरियों के लिए आवेदन किया।",
+    "uses": "job"
+   },
+   {
+    "en": "Work keeps me busy most weekdays.",
+    "hi": "काम मुझे ज्यादातर हफ्ते के दिनों में व्यस्त रखता है।",
+    "uses": "work"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "I found a great ___ in cybersecurity.",
+    "answer": "job"
+   },
+   {
+    "sentence": "There's too much ___ to finish by Friday.",
+    "answer": "work"
+   },
+   {
+    "sentence": "He has had several ___ over the years.",
+    "answer": "jobs"
+   }
+  ],
+  "trap_en": "Hindi's word 'काम' covers both a specific job and general work, so learners often say 'many works' instead of 'a lot of work' or 'many jobs', missing the countable/uncountable split."
+ },
+ {
+  "id": "cf:bring-take",
+  "a": "bring",
+  "b": "take",
+  "c": null,
+  "rule_en": "'Bring' means moving something toward the speaker's or listener's current location; 'take' means moving something away from it.",
+  "rule_hi": "'Bring' का अर्थ है किसी चीज़ को वक्ता या श्रोता के वर्तमान स्थान की ओर लाना; 'take' का अर्थ है उसे वहाँ से दूर ले जाना।",
+  "examples": [
+   {
+    "en": "Please bring your laptop to the meeting.",
+    "hi": "कृपया मीटिंग में अपना लैपटॉप लाइए।",
+    "uses": "bring"
+   },
+   {
+    "en": "Take these documents to the manager's office.",
+    "hi": "ये दस्तावेज़ मैनेजर के ऑफिस ले जाइए।",
+    "uses": "take"
+   },
+   {
+    "en": "He brought snacks for the whole team.",
+    "hi": "वह पूरी टीम के लिए स्नैक्स लाया।",
+    "uses": "bring"
+   },
+   {
+    "en": "Don't forget to take your badge when you leave.",
+    "hi": "जाते समय अपना बैज ले जाना मत भूलिए।",
+    "uses": "take"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Can you ___ me a coffee?",
+    "answer": "bring"
+   },
+   {
+    "sentence": "Please ___ this report to the client.",
+    "answer": "take"
+   },
+   {
+    "sentence": "She always ___ her umbrella to work.",
+    "answer": "brings"
+   }
+  ],
+  "trap_en": "Hindi's verb 'लाना/ले जाना' distinction exists but Hindi speakers apply it based on the object's origin rather than the speaker's or listener's fixed viewpoint, which is how English determines bring versus take."
+ },
+ {
+  "id": "cf:teach-learn",
+  "a": "teach",
+  "b": "learn",
+  "c": null,
+  "rule_en": "'Teach' means to give knowledge or skills to someone else; 'learn' means to gain knowledge or skills yourself.",
+  "rule_hi": "'Teach' का अर्थ है किसी और को ज्ञान या कौशल सिखाना; 'learn' का अर्थ है खुद ज्ञान या कौशल सीखना।",
+  "examples": [
+   {
+    "en": "She teaches network security at the college.",
+    "hi": "वह कॉलेज में नेटवर्क सुरक्षा पढ़ाती है।",
+    "uses": "teach"
+   },
+   {
+    "en": "I am learning Python this year.",
+    "hi": "मैं इस साल पाइथन सीख रहा हूँ।",
+    "uses": "learn"
+   },
+   {
+    "en": "He taught me how to use the firewall.",
+    "hi": "उसने मुझे फ़ायरवॉल का उपयोग करना सिखाया।",
+    "uses": "teach"
+   },
+   {
+    "en": "You can learn a lot from failed audits.",
+    "hi": "आप असफल ऑडिट से बहुत कुछ सीख सकते हैं।",
+    "uses": "learn"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Can you ___ me how to configure this?",
+    "answer": "teach"
+   },
+   {
+    "sentence": "I want to ___ more about cryptography.",
+    "answer": "learn"
+   },
+   {
+    "sentence": "She ___ English to beginners.",
+    "answer": "teaches"
+   }
+  ],
+  "trap_en": "Hindi's verb 'सिखाना/सीखना' looks similar and comes from the same root, so learners occasionally swap 'teach' and 'learn' the way the Hindi forms differ only by a small suffix change."
+ },
+ {
+  "id": "cf:than-then",
+  "a": "than",
+  "b": "then",
+  "c": null,
+  "rule_en": "'Than' is used for comparisons; 'then' refers to time, sequence, or consequence.",
+  "rule_hi": "'Than' का प्रयोग तुलना (comparison) के लिए होता है; 'then' का प्रयोग समय, क्रम या परिणाम बताने के लिए होता है।",
+  "examples": [
+   {
+    "en": "This server is faster than the old one.",
+    "hi": "यह सर्वर पुराने वाले से तेज़ है।",
+    "uses": "than"
+   },
+   {
+    "en": "First back up the data, then run the update.",
+    "hi": "पहले डेटा का बैकअप लीजिए, फिर अपडेट चलाइए।",
+    "uses": "then"
+   },
+   {
+    "en": "She is more experienced than her manager.",
+    "hi": "वह अपने मैनेजर से ज़्यादा अनुभवी है।",
+    "uses": "than"
+   },
+   {
+    "en": "We finished the audit, then submitted the report.",
+    "hi": "हमने ऑडिट पूरा किया, फिर रिपोर्ट जमा की।",
+    "uses": "then"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "This laptop is cheaper ___ that one.",
+    "answer": "than"
+   },
+   {
+    "sentence": "Save your work, ___ close the program.",
+    "answer": "then"
+   },
+   {
+    "sentence": "He is taller ___ his brother.",
+    "answer": "than"
+   }
+  ],
+  "trap_en": "In Hindi-accented English pronunciation, 'than' and 'then' sound almost identical, and there is no vowel distinction in Hindi to help learners tell the spellings and uses apart."
+ },
+ {
+  "id": "cf:their-there-they're",
+  "a": "their",
+  "b": "there",
+  "c": "they're",
+  "rule_en": "'Their' shows possession (belonging to them); 'there' refers to a place or is used with 'is/are' to state existence; 'they're' is a contraction of 'they are'.",
+  "rule_hi": "'Their' स्वामित्व दिखाता है (उनका/उनकी); 'there' किसी स्थान को दर्शाता है या 'is/are' के साथ अस्तित्व बताने के लिए प्रयोग होता है; 'they're' 'they are' का संक्षिप्त रूप है।",
+  "examples": [
+   {
+    "en": "Their servers are located in Mumbai.",
+    "hi": "उनके सर्वर मुंबई में स्थित हैं।",
+    "uses": "their"
+   },
+   {
+    "en": "The logs are stored there.",
+    "hi": "लॉग वहाँ संग्रहीत हैं।",
+    "uses": "there"
+   },
+   {
+    "en": "They're planning to migrate next week.",
+    "hi": "वे अगले हफ्ते माइग्रेट करने की योजना बना रहे हैं।",
+    "uses": "they're"
+   },
+   {
+    "en": "There is a bug in their code.",
+    "hi": "उनके कोड में एक बग है।",
+    "uses": "there"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ working on a new feature.",
+    "answer": "They're"
+   },
+   {
+    "sentence": "Put the backup drive over ___.",
+    "answer": "there"
+   },
+   {
+    "sentence": "___ passwords were leaked in the breach.",
+    "answer": "Their"
+   }
+  ],
+  "trap_en": "All three words sound identical in speech, and Hindi has no equivalent homophone trap, so learners must memorise the spelling-to-meaning mapping purely by rote rather than by ear."
+ },
+ {
+  "id": "cf:your-you're",
+  "a": "your",
+  "b": "you're",
+  "c": null,
+  "rule_en": "'Your' is a possessive pronoun (belonging to you); 'you're' is a contraction of 'you are'.",
+  "rule_hi": "'Your' एक स्वामित्वसूचक सर्वनाम है (तुम्हारा/आपका); 'you're' 'you are' का संक्षिप्त रूप है।",
+  "examples": [
+   {
+    "en": "Is this your laptop?",
+    "hi": "क्या यह आपका लैपटॉप है?",
+    "uses": "your"
+   },
+   {
+    "en": "You're going to love this new feature.",
+    "hi": "आपको यह नया फीचर बहुत पसंद आएगा।",
+    "uses": "you're"
+   },
+   {
+    "en": "Please update your password regularly.",
+    "hi": "कृपया अपना पासवर्ड नियमित रूप से अपडेट करें।",
+    "uses": "your"
+   },
+   {
+    "en": "You're right about the vulnerability.",
+    "hi": "आप उस कमज़ोरी के बारे में सही हैं।",
+    "uses": "you're"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ almost done with the setup.",
+    "answer": "You're"
+   },
+   {
+    "sentence": "Don't forget ___ badge tomorrow.",
+    "answer": "your"
+   },
+   {
+    "sentence": "___ report was very thorough.",
+    "answer": "Your"
+   }
+  ],
+  "trap_en": "As with its/it's, Hindi has no apostrophe contractions, so the identical pronunciation of 'your' and 'you're' gives Hindi speakers no auditory clue to choose the correct spelling."
+ },
+ {
+  "id": "cf:whose-who's",
+  "a": "whose",
+  "b": "who's",
+  "c": null,
+  "rule_en": "'Whose' is a possessive question word or relative pronoun (belonging to whom); 'who's' is a contraction of 'who is' or 'who has'.",
+  "rule_hi": "'Whose' एक स्वामित्वसूचक प्रश्नवाचक शब्द है (किसका/किसकी); 'who's' 'who is' या 'who has' का संक्षिप्त रूप है।",
+  "examples": [
+   {
+    "en": "Whose laptop is this?",
+    "hi": "यह किसका लैपटॉप है?",
+    "uses": "whose"
+   },
+   {
+    "en": "Who's responsible for this server?",
+    "hi": "इस सर्वर की ज़िम्मेदारी किसकी है?",
+    "uses": "who's"
+   },
+   {
+    "en": "The engineer whose code caused the bug apologised.",
+    "hi": "जिस इंजीनियर के कोड से बग हुआ, उसने माफी माँगी।",
+    "uses": "whose"
+   },
+   {
+    "en": "Who's joining the call today?",
+    "hi": "आज कॉल में कौन शामिल हो रहा है?",
+    "uses": "who's"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ turn is it to deploy?",
+    "answer": "Whose"
+   },
+   {
+    "sentence": "___ going to fix this bug?",
+    "answer": "Who's"
+   },
+   {
+    "sentence": "I don't know ___ account this is.",
+    "answer": "whose"
+   }
+  ],
+  "trap_en": "The identical sound of 'whose' and 'who's' combined with Hindi's lack of apostrophe contractions means learners cannot rely on pronunciation to pick the correct written form."
+ },
+ {
+  "id": "cf:accept-except",
+  "a": "accept",
+  "b": "except",
+  "c": null,
+  "rule_en": "'Accept' is a verb meaning to agree to receive or believe something; 'except' is usually a preposition meaning excluding or apart from.",
+  "rule_hi": "'Accept' एक क्रिया है जिसका अर्थ है किसी चीज़ को स्वीकार करना; 'except' आमतौर पर एक पूर्वसर्ग (preposition) है जिसका अर्थ है 'को छोड़कर'।",
+  "examples": [
+   {
+    "en": "Please accept the terms and conditions.",
+    "hi": "कृपया नियम और शर्तें स्वीकार करें।",
+    "uses": "accept"
+   },
+   {
+    "en": "Everyone attended except the manager.",
+    "hi": "मैनेजर को छोड़कर सभी उपस्थित थे।",
+    "uses": "except"
+   },
+   {
+    "en": "The team accepted the new policy.",
+    "hi": "टीम ने नई नीति स्वीकार की।",
+    "uses": "accept"
+   },
+   {
+    "en": "All servers are patched except one.",
+    "hi": "एक को छोड़कर सभी सर्वर पैच किए गए हैं।",
+    "uses": "except"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "I ___ your apology.",
+    "answer": "accept"
+   },
+   {
+    "sentence": "Everyone was there ___ him.",
+    "answer": "except"
+   },
+   {
+    "sentence": "We ___ the risk assessment report.",
+    "answer": "accepted"
+   }
+  ],
+  "trap_en": "The two words sound very similar in Hindi-accented speech and share the same initial syllable, so learners often confuse them despite their unrelated meanings."
+ },
+ {
+  "id": "cf:complement-compliment",
+  "a": "complement",
+  "b": "compliment",
+  "c": null,
+  "rule_en": "'Complement' means something that completes or goes well with something else; 'compliment' means an expression of praise.",
+  "rule_hi": "'Complement' का अर्थ है कोई ऐसी चीज़ जो किसी और चीज़ को पूरा करती है या उसके साथ अच्छी लगती है; 'compliment' का अर्थ है प्रशंसा का शब्द।",
+  "examples": [
+   {
+    "en": "This tool complements our existing security stack.",
+    "hi": "यह टूल हमारे मौजूदा सुरक्षा ढाँचे को पूरा करता है।",
+    "uses": "complement"
+   },
+   {
+    "en": "She gave me a nice compliment on my presentation.",
+    "hi": "उसने मेरे प्रेजेंटेशन की तारीफ़ की।",
+    "uses": "compliment"
+   },
+   {
+    "en": "The new firewall complements the existing IDS.",
+    "hi": "नया फ़ायरवॉल मौजूदा IDS के साथ अच्छी तरह काम करता है।",
+    "uses": "complement"
+   },
+   {
+    "en": "He complimented the team on their quick response.",
+    "hi": "उसने टीम की त्वरित प्रतिक्रिया की तारीफ़ की।",
+    "uses": "compliment"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "These two tools ___ each other well.",
+    "answer": "complement"
+   },
+   {
+    "sentence": "Thank you for the ___, I appreciate it.",
+    "answer": "compliment"
+   },
+   {
+    "sentence": "The wine ___ the meal perfectly.",
+    "answer": "complements"
+   }
+  ],
+  "trap_en": "The near-identical spelling and pronunciation of these words has no counterpart in Hindi, where 'तारीफ़' (praise) and 'पूरक' (complement) sound nothing alike, so English learners must memorise this pair as an isolated spelling trap."
+ },
+ {
+  "id": "cf:stationary-stationery",
+  "a": "stationary",
+  "b": "stationery",
+  "c": null,
+  "rule_en": "'Stationary' is an adjective meaning not moving; 'stationery' is a noun meaning writing materials like paper and pens.",
+  "rule_hi": "'Stationary' एक विशेषण है जिसका अर्थ है स्थिर, न हिलने वाला; 'stationery' एक संज्ञा है जिसका अर्थ है लेखन सामग्री जैसे कागज़ और पेन।",
+  "examples": [
+   {
+    "en": "The car remained stationary in traffic.",
+    "hi": "गाड़ी ट्रैफ़िक में स्थिर खड़ी रही।",
+    "uses": "stationary"
+   },
+   {
+    "en": "We need to order more stationery for the office.",
+    "hi": "हमें ऑफिस के लिए और स्टेशनरी मँगानी होगी।",
+    "uses": "stationery"
+   },
+   {
+    "en": "The sensor detects whether the vehicle is stationary.",
+    "hi": "सेंसर यह पता लगाता है कि वाहन स्थिर है या नहीं।",
+    "uses": "stationary"
+   },
+   {
+    "en": "The stationery cupboard has pens and notebooks.",
+    "hi": "स्टेशनरी की अलमारी में पेन और नोटबुक हैं।",
+    "uses": "stationery"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Please keep the drone ___ during the test.",
+    "answer": "stationary"
+   },
+   {
+    "sentence": "I bought some new ___ for the meeting notes.",
+    "answer": "stationery"
+   },
+   {
+    "sentence": "A parked, ___ car was blocking the entrance.",
+    "answer": "stationary"
+   }
+  ],
+  "trap_en": "These two words are pronounced identically and differ only in one letter, and Hindi has no similar spelling trap, so the distinction has to be memorised with the mnemonic 'e for envelope' rather than learned by ear."
+ },
+ {
+  "id": "cf:quite-quiet",
+  "a": "quite",
+  "b": "quiet",
+  "c": null,
+  "rule_en": "'Quite' is an adverb meaning 'rather' or 'completely'; 'quiet' is an adjective meaning making little or no noise.",
+  "rule_hi": "'Quite' एक क्रियाविशेषण (adverb) है जिसका अर्थ है 'काफ़ी' या 'पूरी तरह'; 'quiet' एक विशेषण है जिसका अर्थ है शांत, कम आवाज़ वाला।",
+  "examples": [
+   {
+    "en": "The office is quite busy today.",
+    "hi": "ऑफिस आज काफ़ी व्यस्त है।",
+    "uses": "quite"
+   },
+   {
+    "en": "Please keep the server room quiet.",
+    "hi": "कृपया सर्वर रूम को शांत रखिए।",
+    "uses": "quiet"
+   },
+   {
+    "en": "This is quite a complex vulnerability.",
+    "hi": "यह काफ़ी जटिल कमज़ोरी है।",
+    "uses": "quite"
+   },
+   {
+    "en": "The datacenter was surprisingly quiet at night.",
+    "hi": "डेटा सेंटर रात में आश्चर्यजनक रूप से शांत था।",
+    "uses": "quiet"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "It's ___ cold in the server room.",
+    "answer": "quite"
+   },
+   {
+    "sentence": "Please be ___ during the presentation.",
+    "answer": "quiet"
+   },
+   {
+    "sentence": "That was ___ an achievement.",
+    "answer": "quite"
+   }
+  ],
+  "trap_en": "The spelling difference of just one transposed letter, combined with similar pronunciation, makes this a common typo-level confusion that Hindi's very different sound system doesn't help resolve."
+ },
+ {
+  "id": "cf:later-latter",
+  "a": "later",
+  "b": "latter",
+  "c": null,
+  "rule_en": "'Later' refers to a time after the present or after another time; 'latter' refers to the second of two things previously mentioned.",
+  "rule_hi": "'Later' का अर्थ है वर्तमान या किसी अन्य समय के बाद; 'latter' का अर्थ है पहले बताई गई दो चीज़ों में से दूसरी।",
+  "examples": [
+   {
+    "en": "We can discuss this later this afternoon.",
+    "hi": "हम इस पर आज दोपहर बाद बात कर सकते हैं।",
+    "uses": "later"
+   },
+   {
+    "en": "Of the two servers, the latter has more storage.",
+    "hi": "दोनों सर्वरों में से, दूसरे वाले में ज़्यादा स्टोरेज है।",
+    "uses": "latter"
+   },
+   {
+    "en": "I'll send the report later today.",
+    "hi": "मैं आज बाद में रिपोर्ट भेज दूँगा।",
+    "uses": "later"
+   },
+   {
+    "en": "Between Python and Java, the latter is used less here.",
+    "hi": "पाइथन और जावा में से, यहाँ दूसरी वाली भाषा कम प्रयोग होती है।",
+    "uses": "latter"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "See you ___ this evening.",
+    "answer": "later"
+   },
+   {
+    "sentence": "Of the two options, I prefer the ___.",
+    "answer": "latter"
+   },
+   {
+    "sentence": "We'll fix this bug ___.",
+    "answer": "later"
+   }
+  ],
+  "trap_en": "The words differ by only one letter and are often mispronounced identically by Hindi speakers, since Hindi doesn't distinguish the vowel length that separates 'later' from 'latter' in careful English speech."
+ },
+ {
+  "id": "cf:lend-loan",
+  "a": "lend",
+  "b": "loan",
+  "c": null,
+  "rule_en": "'Lend' is a verb (to lend something to someone); 'loan' is primarily a noun (a sum of money lent), though it is also used informally as a verb in American English.",
+  "rule_hi": "'Lend' एक क्रिया है (किसी को कुछ उधार देना); 'loan' मुख्यतः एक संज्ञा है (उधार दी गई राशि), हालाँकि अमेरिकी अंग्रेज़ी में इसे अनौपचारिक रूप से क्रिया के रूप में भी प्रयोग किया जाता है।",
+  "examples": [
+   {
+    "en": "Can you lend me your access token for testing?",
+    "hi": "क्या आप परीक्षण के लिए मुझे अपना एक्सेस टोकन उधार दे सकते हैं?",
+    "uses": "lend"
+   },
+   {
+    "en": "He took out a loan to buy a house.",
+    "hi": "उसने घर खरीदने के लिए ऋण लिया।",
+    "uses": "loan"
+   },
+   {
+    "en": "The bank refused to lend more money.",
+    "hi": "बैंक ने और पैसे उधार देने से मना कर दिया।",
+    "uses": "lend"
+   },
+   {
+    "en": "The loan was approved within a week.",
+    "hi": "ऋण एक हफ़्ते के भीतर मंज़ूर हो गया।",
+    "uses": "loan"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Could you ___ me your ID card for a moment?",
+    "answer": "lend"
+   },
+   {
+    "sentence": "They applied for a home ___.",
+    "answer": "loan"
+   },
+   {
+    "sentence": "The bank agreed to ___ him the funds.",
+    "answer": "lend"
+   }
+  ],
+  "trap_en": "Hindi's 'उधार देना' (to lend) and 'ऋण' (a loan) are already distinct in Hindi, but learners still mix the English verb 'lend' with the noun 'loan' because informal Indian English commonly uses 'loan' as a verb too."
+ },
+ {
+  "id": "cf:raise-rise",
+  "a": "raise",
+  "b": "rise",
+  "c": null,
+  "rule_en": "'Raise' is transitive and takes an object (to raise something); 'rise' is intransitive and does not take an object (something rises by itself).",
+  "rule_hi": "'Raise' सकर्मक (transitive) क्रिया है और इसके साथ कर्म (object) आता है (किसी चीज़ को उठाना); 'rise' अकर्मक (intransitive) क्रिया है और इसके साथ कर्म नहीं आता (कोई चीज़ खुद ऊपर उठती है)।",
+  "examples": [
+   {
+    "en": "Please raise your concerns during the review.",
+    "hi": "कृपया समीक्षा के दौरान अपनी चिंताएँ उठाइए।",
+    "uses": "raise"
+   },
+   {
+    "en": "CPU usage rose sharply after the update.",
+    "hi": "अपडेट के बाद CPU उपयोग तेज़ी से बढ़ा।",
+    "uses": "rise"
+   },
+   {
+    "en": "They raised the alarm about the breach.",
+    "hi": "उन्होंने उल्लंघन के बारे में अलार्म बजाया।",
+    "uses": "raise"
+   },
+   {
+    "en": "Prices rise every year due to inflation.",
+    "hi": "महंगाई के कारण हर साल कीमतें बढ़ती हैं।",
+    "uses": "rise"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Please ___ your hand if you have a question.",
+    "answer": "raise"
+   },
+   {
+    "sentence": "Temperatures ___ quickly in summer.",
+    "answer": "rise"
+   },
+   {
+    "sentence": "The company plans to ___ salaries next year.",
+    "answer": "raise"
+   }
+  ],
+  "trap_en": "Hindi's verb 'उठाना/उठना' pair marks the transitive/intransitive distinction with a suffix change learners recognise in Hindi but often fail to map correctly onto the unrelated-looking English words raise and rise."
+ },
+ {
+  "id": "cf:lie-lay-past",
+  "a": "lie",
+  "b": "lay",
+  "c": null,
+  "rule_en": "The past tense of 'lie' (to recline) is 'lay', which is easily confused with the base form 'lay' (to place something), even though they are two different verbs.",
+  "rule_hi": "'Lie' (लेटना) का भूतकाल (past tense) 'lay' होता है, जो 'lay' के मूल रूप (किसी चीज़ को रखना) से आसानी से भ्रमित हो जाता है, जबकि ये दोनों अलग-अलग क्रियाएँ हैं।",
+  "examples": [
+   {
+    "en": "Yesterday I lay on the sofa all afternoon.",
+    "hi": "कल मैं पूरी दोपहर सोफ़े पर लेटा रहा।",
+    "uses": "lie"
+   },
+   {
+    "en": "She laid the report on his desk this morning.",
+    "hi": "उसने आज सुबह रिपोर्ट उसके डेस्क पर रखी।",
+    "uses": "lay"
+   },
+   {
+    "en": "He lay awake thinking about the incident report.",
+    "hi": "वह घटना रिपोर्ट के बारे में सोचते हुए जागते हुए लेटा रहा।",
+    "uses": "lie"
+   },
+   {
+    "en": "The technician laid the cables carefully along the wall.",
+    "hi": "तकनीशियन ने केबलों को दीवार के साथ सावधानी से बिछाया।",
+    "uses": "lay"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Last night I ___ awake for hours worrying about the audit.",
+    "answer": "lay"
+   },
+   {
+    "sentence": "He carefully ___ the new hard drive on the table.",
+    "answer": "laid"
+   },
+   {
+    "sentence": "The dog ___ down by the fireplace all evening.",
+    "answer": "lay"
+   }
+  ],
+  "trap_en": "English irregular verbs overlap here in a way Hindi's regular verb conjugation never does, so Hindi speakers have no intuition that a past-tense form of one verb can be spelled identically to the base form of a completely different verb."
+ },
+ {
+  "id": "cf:sit-seat",
+  "a": "sit",
+  "b": "seat",
+  "c": null,
+  "rule_en": "'Sit' is a verb meaning to lower yourself onto a surface; 'seat' is usually a noun meaning a place to sit, though it can be a verb meaning to place someone in a seat.",
+  "rule_hi": "'Sit' एक क्रिया है जिसका अर्थ है बैठना; 'seat' आमतौर पर एक संज्ञा है जिसका अर्थ है बैठने की जगह, हालाँकि यह क्रिया के रूप में भी प्रयोग हो सकता है जिसका अर्थ है किसी को बैठाना।",
+  "examples": [
+   {
+    "en": "Please sit down and start the review.",
+    "hi": "कृपया बैठ जाइए और समीक्षा शुरू कीजिए।",
+    "uses": "sit"
+   },
+   {
+    "en": "Is this seat available in the conference room?",
+    "hi": "क्या कॉन्फ़्रेंस रूम में यह सीट खाली है?",
+    "uses": "seat"
+   },
+   {
+    "en": "He sat quietly through the whole audit.",
+    "hi": "वह पूरे ऑडिट के दौरान चुपचाप बैठा रहा।",
+    "uses": "sit"
+   },
+   {
+    "en": "The usher seated the guests near the front.",
+    "hi": "उशर ने मेहमानों को आगे की ओर बिठाया।",
+    "uses": "seat"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Please ___ down and relax.",
+    "answer": "sit"
+   },
+   {
+    "sentence": "Is this ___ taken?",
+    "answer": "seat"
+   },
+   {
+    "sentence": "He ___ in the back row during the meeting.",
+    "answer": "sat"
+   }
+  ],
+  "trap_en": "Hindi's verb 'बैठना' covers sitting in general, so the English split between the action 'sit' and the object/place 'seat' feels like an unnecessary extra word to learners."
+ },
+ {
+  "id": "cf:wear-put-on",
+  "a": "wear",
+  "b": "put on",
+  "c": null,
+  "rule_en": "'Wear' describes the state of having clothing/accessories on your body; 'put on' describes the action of placing clothing/accessories onto your body.",
+  "rule_hi": "'Wear' कपड़े/सामान शरीर पर होने की अवस्था बताता है; 'put on' कपड़े/सामान शरीर पर पहनने की क्रिया बताता है।",
+  "examples": [
+   {
+    "en": "She wears a badge every day at the office.",
+    "hi": "वह हर दिन ऑफिस में बैज पहनती है।",
+    "uses": "wear"
+   },
+   {
+    "en": "Please put on your safety helmet before entering.",
+    "hi": "अंदर जाने से पहले कृपया अपना सुरक्षा हेलमेट पहन लीजिए।",
+    "uses": "put on"
+   },
+   {
+    "en": "He was wearing a formal suit for the interview.",
+    "hi": "वह इंटरव्यू के लिए एक औपचारिक सूट पहने हुए था।",
+    "uses": "wear"
+   },
+   {
+    "en": "I put on my glasses to read the fine print.",
+    "hi": "मैंने बारीक अक्षर पढ़ने के लिए अपना चश्मा पहना।",
+    "uses": "put on"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "You should ___ your ID badge before entering.",
+    "answer": "put on"
+   },
+   {
+    "sentence": "He always ___ a watch to meetings.",
+    "answer": "wears"
+   },
+   {
+    "sentence": "She ___ a mask while cleaning the server racks.",
+    "answer": "put on"
+   }
+  ],
+  "trap_en": "Hindi's verb 'पहनना' covers both the action of dressing and the resulting state of wearing something, so learners don't feel a natural need to separate 'put on' (action) from 'wear' (state) in English."
+ },
+ {
+  "id": "cf:marry-get-married",
+  "a": "marry",
+  "b": "get married",
+  "c": null,
+  "rule_en": "'Marry' is a transitive verb usually followed directly by a person (to marry someone), without a preposition; 'get married' is used without a direct object, often with 'to' before the person.",
+  "rule_hi": "'Marry' सकर्मक क्रिया है जिसके बाद सीधे व्यक्ति आता है (बिना किसी पूर्वसर्ग के); 'get married' बिना कर्म के प्रयोग होता है, और व्यक्ति से पहले अक्सर 'to' लगता है।",
+  "examples": [
+   {
+    "en": "He married his college sweetheart.",
+    "hi": "उसने अपनी कॉलेज की प्रेमिका से शादी की।",
+    "uses": "marry"
+   },
+   {
+    "en": "They got married last December.",
+    "hi": "उन्होंने पिछले दिसंबर में शादी की।",
+    "uses": "get married"
+   },
+   {
+    "en": "She is going to marry her colleague next year.",
+    "hi": "वह अगले साल अपने सहकर्मी से शादी करने वाली है।",
+    "uses": "marry"
+   },
+   {
+    "en": "They are getting married to each other in Goa.",
+    "hi": "वे एक-दूसरे से गोवा में शादी कर रहे हैं।",
+    "uses": "get married"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "She wants to ___ him next spring.",
+    "answer": "marry"
+   },
+   {
+    "sentence": "They ___ married in a small ceremony.",
+    "answer": "got"
+   },
+   {
+    "sentence": "He is ___ to a doctor.",
+    "answer": "married"
+   }
+  ],
+  "trap_en": "Hindi's phrase 'शादी करना' always pairs with the postposition 'से' (with), so learners routinely insert 'with' after the English verb 'marry', producing the common error 'marry with someone'."
+ },
+ {
+  "id": "cf:reach-arrive",
+  "a": "reach",
+  "b": "arrive",
+  "c": null,
+  "rule_en": "'Reach' is transitive and takes a place directly (reach a place); 'arrive' is intransitive and needs a preposition before a place (arrive at/in a place).",
+  "rule_hi": "'Reach' सकर्मक है और इसके बाद सीधे स्थान आता है (reach a place); 'arrive' अकर्मक है और स्थान से पहले पूर्वसर्ग चाहिए (arrive at/in a place)।",
+  "examples": [
+   {
+    "en": "We reached the office by nine.",
+    "hi": "हम नौ बजे तक ऑफिस पहुँच गए।",
+    "uses": "reach"
+   },
+   {
+    "en": "The team arrived at the client's site on time.",
+    "hi": "टीम समय पर ग्राहक के स्थान पर पहुँची।",
+    "uses": "arrive"
+   },
+   {
+    "en": "The package finally reached its destination.",
+    "hi": "पैकेज आखिरकार अपने गंतव्य तक पहुँच गया।",
+    "uses": "reach"
+   },
+   {
+    "en": "She arrived in Delhi late at night.",
+    "hi": "वह देर रात दिल्ली पहुँची।",
+    "uses": "arrive"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "What time will you ___ the venue?",
+    "answer": "reach"
+   },
+   {
+    "sentence": "The flight ___ in Mumbai at 6 pm.",
+    "answer": "arrives"
+   },
+   {
+    "sentence": "We ___ home just before the storm.",
+    "answer": "reached"
+   }
+  ],
+  "trap_en": "Hindi's verb 'पहुँचना' takes a place directly without any equivalent to a preposition, so learners frequently add 'at/in' after 'reach' by analogy with 'arrive at/in', producing the error 'reach at the office'."
+ },
+ {
+  "id": "cf:enter-enter-into",
+  "a": "enter",
+  "b": "enter into",
+  "c": null,
+  "rule_en": "'Enter' a physical place is used directly without a preposition (enter the room); 'enter into' is used with abstract nouns like agreements or discussions.",
+  "rule_hi": "किसी भौतिक स्थान में 'enter' सीधे बिना पूर्वसर्ग के प्रयोग होता है (enter the room); 'enter into' अमूर्त संज्ञाओं जैसे समझौते या चर्चा के साथ प्रयोग होता है।",
+  "examples": [
+   {
+    "en": "Please enter the conference room quietly.",
+    "hi": "कृपया कॉन्फ़्रेंस रूम में चुपचाप प्रवेश कीजिए।",
+    "uses": "enter"
+   },
+   {
+    "en": "Both companies entered into a partnership agreement.",
+    "hi": "दोनों कंपनियों ने एक साझेदारी समझौते में प्रवेश किया।",
+    "uses": "enter into"
+   },
+   {
+    "en": "You need a badge to enter the datacenter.",
+    "hi": "डेटा सेंटर में प्रवेश करने के लिए बैज चाहिए।",
+    "uses": "enter"
+   },
+   {
+    "en": "They entered into negotiations over the contract.",
+    "hi": "उन्होंने अनुबंध पर बातचीत शुरू की।",
+    "uses": "enter into"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Please ___ your password to log in.",
+    "answer": "enter"
+   },
+   {
+    "sentence": "The two firms ___ into a merger agreement.",
+    "answer": "entered"
+   },
+   {
+    "sentence": "You cannot ___ the building without an ID card.",
+    "answer": "enter"
+   }
+  ],
+  "trap_en": "Hindi's verb 'प्रवेश करना' is used the same way for both physical spaces and abstract situations, so learners either drop 'into' where it's needed or add it where it isn't, since Hindi marks no such distinction."
+ },
+ {
+  "id": "cf:discuss-discuss-about",
+  "a": "discuss",
+  "b": "discuss about",
+  "c": null,
+  "rule_en": "'Discuss' is already transitive and directly takes the topic as its object; standard English never adds 'about' after it (discuss the issue, not discuss about the issue).",
+  "rule_hi": "'Discuss' पहले से ही सकर्मक क्रिया है और विषय सीधे इसके बाद आता है; मानक अंग्रेज़ी में इसके बाद कभी 'about' नहीं लगाया जाता।",
+  "examples": [
+   {
+    "en": "Let's discuss the incident report tomorrow.",
+    "hi": "चलिए कल घटना रिपोर्ट पर चर्चा करते हैं।",
+    "uses": "discuss"
+   },
+   {
+    "en": "Incorrect: We need to discuss about the vulnerability.",
+    "hi": "गलत: हमें कमज़ोरी के बारे में चर्चा करने की ज़रूरत है (गलत वाक्य रचना)।",
+    "uses": "discuss about"
+   },
+   {
+    "en": "Correct: We need to discuss the vulnerability.",
+    "hi": "सही: हमें कमज़ोरी पर चर्चा करने की ज़रूरत है।",
+    "uses": "discuss"
+   },
+   {
+    "en": "The team discussed the new firewall policy at length.",
+    "hi": "टीम ने नई फ़ायरवॉल नीति पर विस्तार से चर्चा की।",
+    "uses": "discuss"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "We should ___ this issue before the deadline.",
+    "answer": "discuss"
+   },
+   {
+    "sentence": "They ___ the budget for over an hour.",
+    "answer": "discussed"
+   },
+   {
+    "sentence": "Let's ___ the report in tomorrow's meeting.",
+    "answer": "discuss"
+   }
+  ],
+  "trap_en": "Hindi's equivalent phrase 'के बारे में चर्चा करना' literally includes a word meaning 'about', so Hindi speakers naturally translate that structure and add 'about' after the already-transitive English verb 'discuss'."
+ },
+ {
+  "id": "cf:order-order-for",
+  "a": "order",
+  "b": "order for",
+  "c": null,
+  "rule_en": "'Order' something is transitive and takes the item directly as its object; standard English does not add 'for' after it (order a pizza, not order for a pizza).",
+  "rule_hi": "किसी चीज़ का 'order' देना सकर्मक क्रिया है और वस्तु सीधे इसके बाद आती है; मानक अंग्रेज़ी में इसके बाद 'for' नहीं जोड़ा जाता।",
+  "examples": [
+   {
+    "en": "I ordered a new keyboard online.",
+    "hi": "मैंने ऑनलाइन एक नया कीबोर्ड मँगाया।",
+    "uses": "order"
+   },
+   {
+    "en": "Incorrect: Let's order for lunch now.",
+    "hi": "गलत: चलिए अभी दोपहर के खाने का ऑर्डर करते हैं (गलत वाक्य रचना)।",
+    "uses": "order for"
+   },
+   {
+    "en": "Correct: Let's order lunch now.",
+    "hi": "सही: चलिए अभी दोपहर का खाना ऑर्डर करते हैं।",
+    "uses": "order"
+   },
+   {
+    "en": "She ordered replacement parts for the router.",
+    "hi": "उसने राउटर के लिए बदलने वाले पुर्ज़े मँगाए।",
+    "uses": "order"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Can we ___ some coffee for the meeting?",
+    "answer": "order"
+   },
+   {
+    "sentence": "He already ___ the new laptops last week.",
+    "answer": "ordered"
+   },
+   {
+    "sentence": "I need to ___ a replacement cable.",
+    "answer": "order"
+   }
+  ],
+  "trap_en": "Hindi's phrase 'के लिए ऑर्डर करना' includes a word meaning 'for', so Hindi speakers translate that structure directly and insert 'for' after the English verb 'order', which is already transitive."
+ },
+ {
+  "id": "cf:ask-ask-to",
+  "a": "ask",
+  "b": "ask to",
+  "c": null,
+  "rule_en": "'Ask' someone a question or for something takes the person directly, without 'to' (ask him a question); 'ask someone to do something' uses 'to' before the following verb, not before the person.",
+  "rule_hi": "किसी से प्रश्न पूछना या कुछ माँगना बिना 'to' के प्रयोग होता है (ask him a question); 'ask someone to do something' में 'to' अगली क्रिया से पहले आता है, व्यक्ति से पहले नहीं।",
+  "examples": [
+   {
+    "en": "I asked her a question about the report.",
+    "hi": "मैंने उससे रिपोर्ट के बारे में एक सवाल पूछा।",
+    "uses": "ask"
+   },
+   {
+    "en": "She asked him to fix the bug quickly.",
+    "hi": "उसने उससे बग जल्दी ठीक करने के लिए कहा।",
+    "uses": "ask to"
+   },
+   {
+    "en": "Incorrect: I asked to him about the meeting.",
+    "hi": "गलत: मैंने उससे मीटिंग के बारे में पूछा (गलत वाक्य रचना, 'to' अनावश्यक है)।",
+    "uses": "ask"
+   },
+   {
+    "en": "They asked the client to confirm the requirements.",
+    "hi": "उन्होंने ग्राहक से आवश्यकताओं की पुष्टि करने के लिए कहा।",
+    "uses": "ask to"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Can I ___ you a quick question?",
+    "answer": "ask"
+   },
+   {
+    "sentence": "He ___ me to review the code.",
+    "answer": "asked"
+   },
+   {
+    "sentence": "She ___ the manager for more time.",
+    "answer": "asked"
+   }
+  ],
+  "trap_en": "Hindi's postposition 'से' (from/to) attaches after the person in phrases like 'उससे पूछना', so Hindi speakers often insert an unnecessary 'to' before the person after the English verb 'ask'."
+ },
+ {
+  "id": "cf:explain-explain-me",
+  "a": "explain",
+  "b": "explain me",
+  "c": null,
+  "rule_en": "'Explain' something to someone requires 'to' before the person; standard English never says 'explain me something' directly.",
+  "rule_hi": "किसी को कुछ 'explain' करने के लिए व्यक्ति से पहले 'to' ज़रूरी है; मानक अंग्रेज़ी में कभी सीधे 'explain me something' नहीं कहा जाता।",
+  "examples": [
+   {
+    "en": "Please explain this error to me.",
+    "hi": "कृपया यह त्रुटि मुझे समझाइए।",
+    "uses": "explain"
+   },
+   {
+    "en": "Incorrect: Please explain me this error.",
+    "hi": "गलत: कृपया मुझे यह त्रुटि समझाइए (गलत वाक्य रचना, 'to' गायब है)।",
+    "uses": "explain me"
+   },
+   {
+    "en": "Correct: Please explain this process to the new intern.",
+    "hi": "सही: कृपया यह प्रक्रिया नए इंटर्न को समझाइए।",
+    "uses": "explain"
+   },
+   {
+    "en": "He explained the vulnerability to the security team.",
+    "hi": "उसने सुरक्षा टीम को उस कमज़ोरी के बारे में समझाया।",
+    "uses": "explain"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Can you ___ this diagram to me?",
+    "answer": "explain"
+   },
+   {
+    "sentence": "She ___ the process to the new hires yesterday.",
+    "answer": "explained"
+   },
+   {
+    "sentence": "Please ___ the risk to the client clearly.",
+    "answer": "explain"
+   }
+  ],
+  "trap_en": "Hindi's verb 'समझाना' takes the listener directly without any equivalent to 'to' ('मुझे समझाइए' = literally 'explain me'), so learners transfer that structure straight into English and drop the required preposition."
+ },
+ {
+  "id": "cf:open-switch-on",
+  "a": "open",
+  "b": "switch on",
+  "c": null,
+  "rule_en": "'Open' is used for things that physically open like a door, file, or app; 'switch on' (or 'turn on') is used for starting electronic devices or power.",
+  "rule_hi": "'Open' उन चीज़ों के लिए प्रयोग होता है जो भौतिक रूप से खुलती हैं जैसे दरवाज़ा, फ़ाइल या ऐप; 'switch on' (या 'turn on') बिजली से चलने वाले उपकरणों को चालू करने के लिए प्रयोग होता है।",
+  "examples": [
+   {
+    "en": "Please open the document before the meeting.",
+    "hi": "कृपया मीटिंग से पहले दस्तावेज़ खोलिए।",
+    "uses": "open"
+   },
+   {
+    "en": "Switch on the monitor before you start.",
+    "hi": "शुरू करने से पहले मॉनिटर चालू कीजिए।",
+    "uses": "switch on"
+   },
+   {
+    "en": "Incorrect: Please open the light in the server room.",
+    "hi": "गलत: कृपया सर्वर रूम में लाइट खोलिए (गलत वाक्य रचना)।",
+    "uses": "open"
+   },
+   {
+    "en": "Correct: Please switch on the light in the server room.",
+    "hi": "सही: कृपया सर्वर रूम में लाइट चालू कीजिए।",
+    "uses": "switch on"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Please ___ the router before troubleshooting.",
+    "answer": "switch on"
+   },
+   {
+    "sentence": "Can you ___ this file for me?",
+    "answer": "open"
+   },
+   {
+    "sentence": "She forgot to ___ the projector.",
+    "answer": "switch on"
+   }
+  ],
+  "trap_en": "Hindi's verb 'खोलना' covers both opening a physical object and turning on electricity or lights, so learners often say 'open the light' by directly translating a single Hindi verb that English splits into two."
+ },
+ {
+  "id": "cf:close-switch-off",
+  "a": "close",
+  "b": "switch off",
+  "c": null,
+  "rule_en": "'Close' is used for things that physically shut like a door, file, or app; 'switch off' (or 'turn off') is used for stopping electronic devices or power.",
+  "rule_hi": "'Close' उन चीज़ों के लिए प्रयोग होता है जो भौतिक रूप से बंद होती हैं जैसे दरवाज़ा, फ़ाइल या ऐप; 'switch off' (या 'turn off') बिजली से चलने वाले उपकरणों को बंद करने के लिए प्रयोग होता है।",
+  "examples": [
+   {
+    "en": "Please close the tab when you're done.",
+    "hi": "काम खत्म होने पर कृपया टैब बंद कर दीजिए।",
+    "uses": "close"
+   },
+   {
+    "en": "Switch off the server before maintenance.",
+    "hi": "रखरखाव से पहले सर्वर बंद कर दीजिए।",
+    "uses": "switch off"
+   },
+   {
+    "en": "Incorrect: Please close the fan, it's cold.",
+    "hi": "गलत: कृपया पंखा बंद कर दीजिए, ठंड है (गलत वाक्य रचना)।",
+    "uses": "close"
+   },
+   {
+    "en": "Correct: Please switch off the fan, it's cold.",
+    "hi": "सही: कृपया पंखा बंद कर दीजिए, ठंड है।",
+    "uses": "switch off"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Remember to ___ the lights before leaving.",
+    "answer": "switch off"
+   },
+   {
+    "sentence": "Please ___ the browser window.",
+    "answer": "close"
+   },
+   {
+    "sentence": "She forgot to ___ the AC last night.",
+    "answer": "switch off"
+   }
+  ],
+  "trap_en": "Hindi's verb 'बंद करना' covers both closing a physical object and switching off electricity, so learners frequently say 'close the fan' instead of 'switch off the fan', mirroring the single Hindi verb."
+ },
+ {
+  "id": "cf:hair-hairs",
+  "a": "hair",
+  "b": "hairs",
+  "c": null,
+  "rule_en": "'Hair' referring to all the hair on your head is uncountable (no plural); 'hairs' as a countable plural refers to individual strands, which is rarely how the word is used in everyday speech.",
+  "rule_hi": "सिर के सारे बालों के लिए 'hair' अगणनीय (uncountable) है (कोई बहुवचन नहीं); 'hairs' गणनीय बहुवचन है और अलग-अलग बालों के धागों को दर्शाता है, जिसका दैनिक बातचीत में बहुत कम प्रयोग होता है।",
+  "examples": [
+   {
+    "en": "Her hair is very long.",
+    "hi": "उसके बाल बहुत लंबे हैं।",
+    "uses": "hair"
+   },
+   {
+    "en": "I found two grey hairs on my desk chair.",
+    "hi": "मुझे अपनी डेस्क कुर्सी पर दो सफ़ेद बाल मिले।",
+    "uses": "hairs"
+   },
+   {
+    "en": "Incorrect: My hairs are falling a lot these days.",
+    "hi": "गलत: आजकल मेरे बाल बहुत झड़ रहे हैं (गलत वाक्य रचना, 'hairs' नहीं होना चाहिए)।",
+    "uses": "hairs"
+   },
+   {
+    "en": "Correct: My hair is falling a lot these days.",
+    "hi": "सही: आजकल मेरे बाल बहुत झड़ रहे हैं।",
+    "uses": "hair"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Her ___ was tied up in a bun.",
+    "answer": "hair"
+   },
+   {
+    "sentence": "I noticed a few grey ___ near his temple.",
+    "answer": "hairs"
+   },
+   {
+    "sentence": "His ___ is much shorter than before.",
+    "answer": "hair"
+   }
+  ],
+  "trap_en": "Hindi's word 'बाल' is naturally plural in form for the general mass of hair on the head, so learners assume the English equivalent must also be plural, producing the common error 'my hairs'."
+ },
+ {
+  "id": "cf:furniture-furnitures",
+  "a": "furniture",
+  "b": "furnitures",
+  "c": null,
+  "rule_en": "'Furniture' is an uncountable noun in English and has no plural form; to count individual items you must say 'pieces of furniture'.",
+  "rule_hi": "'Furniture' अंग्रेज़ी में एक अगणनीय (uncountable) संज्ञा है और इसका कोई बहुवचन रूप नहीं है; अलग-अलग वस्तुओं की गिनती के लिए 'pieces of furniture' कहना पड़ता है।",
+  "examples": [
+   {
+    "en": "We bought new furniture for the office.",
+    "hi": "हमने ऑफिस के लिए नया फर्नीचर खरीदा।",
+    "uses": "furniture"
+   },
+   {
+    "en": "Incorrect: They ordered several furnitures for the lobby.",
+    "hi": "गलत: उन्होंने लॉबी के लिए कई फर्नीचर मँगाए (गलत वाक्य रचना, 'furnitures' गलत है)।",
+    "uses": "furnitures"
+   },
+   {
+    "en": "Correct: They ordered several pieces of furniture for the lobby.",
+    "hi": "सही: उन्होंने लॉबी के लिए फर्नीचर की कई वस्तुएँ मँगाईं।",
+    "uses": "furniture"
+   },
+   {
+    "en": "The furniture in this room is quite old.",
+    "hi": "इस कमरे का फर्नीचर काफ़ी पुराना है।",
+    "uses": "furniture"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "This ___ was made from recycled wood.",
+    "answer": "furniture"
+   },
+   {
+    "sentence": "We need three more pieces of ___ for the new office.",
+    "answer": "furniture"
+   },
+   {
+    "sentence": "The ___ hasn't arrived yet.",
+    "answer": "furniture"
+   }
+  ],
+  "trap_en": "Hindi's word 'फर्नीचर' behaves like a normal countable noun and can be pluralised naturally in Hindi speech, so learners transfer that habit and add an 's' to the uncountable English word."
+ },
+ {
+  "id": "cf:staff-staffs",
+  "a": "staff",
+  "b": "staffs",
+  "c": null,
+  "rule_en": "'Staff' referring to a group of employees is normally treated as a collective noun without an 's' for plural; 'staffs' is rarely correct in this everyday sense.",
+  "rule_hi": "कर्मचारियों के समूह के अर्थ में 'staff' सामान्यतः एक सामूहिक संज्ञा (collective noun) है और इसमें बहुवचन के लिए 's' नहीं जोड़ा जाता; इस सामान्य अर्थ में 'staffs' शायद ही कभी सही होता है।",
+  "examples": [
+   {
+    "en": "The staff worked overtime to fix the outage.",
+    "hi": "कर्मचारियों ने आउटेज ठीक करने के लिए ओवरटाइम काम किया।",
+    "uses": "staff"
+   },
+   {
+    "en": "Incorrect: All the staffs attended the training.",
+    "hi": "गलत: सभी कर्मचारी प्रशिक्षण में शामिल हुए (गलत वाक्य रचना, 'staffs' गलत है)।",
+    "uses": "staffs"
+   },
+   {
+    "en": "Correct: All the staff attended the training.",
+    "hi": "सही: सभी कर्मचारी प्रशिक्षण में शामिल हुए।",
+    "uses": "staff"
+   },
+   {
+    "en": "Our security staff monitors the network 24/7.",
+    "hi": "हमारे सुरक्षा कर्मचारी नेटवर्क की चौबीसों घंटे निगरानी करते हैं।",
+    "uses": "staff"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The ___ is responsible for onboarding new hires.",
+    "answer": "staff"
+   },
+   {
+    "sentence": "Most of the ___ left early on Friday.",
+    "answer": "staff"
+   },
+   {
+    "sentence": "We need more ___ to cover the night shift.",
+    "answer": "staff"
+   }
+  ],
+  "trap_en": "Hindi routinely pluralises collective nouns like 'स्टाफ़' when referring to many individuals, so learners naturally add an English plural 's' where standard usage keeps the collective noun unchanged."
+ },
+ {
+  "id": "cf:few-a-few",
+  "a": "few",
+  "b": "a few",
+  "c": null,
+  "rule_en": "'Few' (without 'a') has a negative meaning, emphasising a small, insufficient number; 'a few' has a positive meaning, emphasising a small but adequate number.",
+  "rule_hi": "'Few' (बिना 'a' के) का नकारात्मक अर्थ होता है, यानी संख्या कम और अपर्याप्त है; 'a few' का सकारात्मक अर्थ होता है, यानी संख्या कम लेकिन पर्याप्त है।",
+  "examples": [
+   {
+    "en": "Few people understood the technical report.",
+    "hi": "बहुत कम लोगों को तकनीकी रिपोर्ट समझ आई (लगभग किसी को नहीं)।",
+    "uses": "few"
+   },
+   {
+    "en": "A few colleagues helped me review the code.",
+    "hi": "कुछ सहकर्मियों ने मुझे कोड की समीक्षा करने में मदद की (कुछ लोग थे)।",
+    "uses": "a few"
+   },
+   {
+    "en": "Few servers survived the attack undamaged.",
+    "hi": "बहुत कम सर्वर हमले से बिना नुकसान के बचे।",
+    "uses": "few"
+   },
+   {
+    "en": "I found a few bugs in the latest build.",
+    "hi": "मुझे नवीनतम बिल्ड में कुछ बग मिले।",
+    "uses": "a few"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Only ___ candidates passed the exam.",
+    "answer": "few"
+   },
+   {
+    "sentence": "I have ___ questions about the new policy.",
+    "answer": "a few"
+   },
+   {
+    "sentence": "___ companies survived the market crash.",
+    "answer": "Few"
+   }
+  ],
+  "trap_en": "Hindi's word 'कुछ' can mean both 'a few' and 'few' depending only on tone or context rather than a fixed grammatical article, so Hindi speakers can't rely on the word itself to signal the positive/negative difference English marks with the article 'a'."
+ },
+ {
+  "id": "cf:little-a-little",
+  "a": "little",
+  "b": "a little",
+  "c": null,
+  "rule_en": "'Little' (without 'a') has a negative meaning, emphasising almost none of an uncountable thing; 'a little' has a positive meaning, emphasising a small but sufficient amount.",
+  "rule_hi": "'Little' (बिना 'a' के) का नकारात्मक अर्थ होता है, यानी लगभग न के बराबर मात्रा; 'a little' का सकारात्मक अर्थ होता है, यानी कम लेकिन पर्याप्त मात्रा।",
+  "examples": [
+   {
+    "en": "We have little time left before the deadline.",
+    "hi": "डेडलाइन से पहले हमारे पास बहुत कम समय बचा है (लगभग नहीं के बराबर)।",
+    "uses": "little"
+   },
+   {
+    "en": "There's a little coffee left in the pot.",
+    "hi": "बर्तन में थोड़ी कॉफ़ी बची है (थोड़ी सी है)।",
+    "uses": "a little"
+   },
+   {
+    "en": "He showed little interest in the security training.",
+    "hi": "उसने सुरक्षा प्रशिक्षण में बहुत कम रुचि दिखाई।",
+    "uses": "little"
+   },
+   {
+    "en": "Add a little salt to the recipe.",
+    "hi": "व्यंजन में थोड़ा नमक डालिए।",
+    "uses": "a little"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "There is ___ hope of recovering the deleted files.",
+    "answer": "little"
+   },
+   {
+    "sentence": "Can I have ___ more time to finish this?",
+    "answer": "a little"
+   },
+   {
+    "sentence": "She has ___ experience with cloud security.",
+    "answer": "little"
+   }
+  ],
+  "trap_en": "As with few/a few, Hindi's word 'थोड़ा' expresses both meanings through tone rather than a grammatical article, so learners can't hear the positive/negative distinction that the English article 'a' signals."
+ },
+ {
+  "id": "cf:much-many",
+  "a": "much",
+  "b": "many",
+  "c": null,
+  "rule_en": "Use 'much' with uncountable nouns; use 'many' with plural countable nouns.",
+  "rule_hi": "'Much' का प्रयोग अगणनीय (uncountable) संज्ञाओं के साथ होता है; 'many' का प्रयोग गणनीय बहुवचन संज्ञाओं के साथ होता है।",
+  "examples": [
+   {
+    "en": "We don't have much time before the release.",
+    "hi": "रिलीज़ से पहले हमारे पास ज़्यादा समय नहीं है।",
+    "uses": "much"
+   },
+   {
+    "en": "Many employees reported the phishing email.",
+    "hi": "कई कर्मचारियों ने फ़िशिंग ईमेल की रिपोर्ट की।",
+    "uses": "many"
+   },
+   {
+    "en": "There isn't much information about this vulnerability yet.",
+    "hi": "इस कमज़ोरी के बारे में अभी ज़्यादा जानकारी नहीं है।",
+    "uses": "much"
+   },
+   {
+    "en": "Many companies faced similar outages last year.",
+    "hi": "पिछले साल कई कंपनियों को इसी तरह की समस्या हुई।",
+    "uses": "many"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "How ___ memory does this process use?",
+    "answer": "much"
+   },
+   {
+    "sentence": "How ___ servers are affected?",
+    "answer": "many"
+   },
+   {
+    "sentence": "There isn't ___ evidence to support that claim.",
+    "answer": "much"
+   }
+  ],
+  "trap_en": "Hindi's word 'बहुत' works for both countable and uncountable amounts without changing form, so learners have no natural cue telling them to switch between 'much' and 'many' based on the noun type."
+ },
+ {
+  "id": "cf:some-any",
+  "a": "some",
+  "b": "any",
+  "c": null,
+  "rule_en": "'Some' is generally used in positive statements and offers; 'any' is generally used in negative statements and questions.",
+  "rule_hi": "'Some' सामान्यतः सकारात्मक वाक्यों और प्रस्तावों में प्रयोग होता है; 'any' सामान्यतः नकारात्मक वाक्यों और प्रश्नों में प्रयोग होता है।",
+  "examples": [
+   {
+    "en": "I have some questions about the report.",
+    "hi": "मेरे पास रिपोर्ट के बारे में कुछ सवाल हैं।",
+    "uses": "some"
+   },
+   {
+    "en": "Do you have any updates on the incident?",
+    "hi": "क्या आपके पास घटना के बारे में कोई अपडेट है?",
+    "uses": "any"
+   },
+   {
+    "en": "Would you like some coffee?",
+    "hi": "क्या आप थोड़ी कॉफ़ी लेना चाहेंगे?",
+    "uses": "some"
+   },
+   {
+    "en": "We don't have any backups of that database.",
+    "hi": "हमारे पास उस डेटाबेस का कोई बैकअप नहीं है।",
+    "uses": "any"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "There isn't ___ evidence of a breach yet.",
+    "answer": "any"
+   },
+   {
+    "sentence": "Can I get ___ help with this configuration?",
+    "answer": "some"
+   },
+   {
+    "sentence": "Do you have ___ questions before we start?",
+    "answer": "any"
+   }
+  ],
+  "trap_en": "Hindi's word 'कुछ' is used in both positive and negative or question contexts without switching form, so learners struggle to remember why English requires swapping to 'any' in negatives and questions."
+ },
+ {
+  "id": "cf:other-another",
+  "a": "other",
+  "b": "another",
+  "c": null,
+  "rule_en": "'Another' means one more or a different one (singular, used with singular countable nouns or alone); 'other' means additional or different ones and is used with plural nouns or 'the' (the other).",
+  "rule_hi": "'Another' का अर्थ है एक और या कोई अलग एक (एकवचन संज्ञाओं के साथ); 'other' का अर्थ है अतिरिक्त या अलग वस्तुएँ और यह बहुवचन संज्ञाओं या 'the' के साथ प्रयोग होता है।",
+  "examples": [
+   {
+    "en": "Can you check another server for the same issue?",
+    "hi": "क्या आप इसी समस्या के लिए किसी दूसरे सर्वर की जाँच कर सकते हैं?",
+    "uses": "another"
+   },
+   {
+    "en": "The other servers are working fine.",
+    "hi": "बाकी सर्वर ठीक से काम कर रहे हैं।",
+    "uses": "other"
+   },
+   {
+    "en": "We need another approach to fix this bug.",
+    "hi": "इस बग को ठीक करने के लिए हमें एक और तरीका चाहिए।",
+    "uses": "another"
+   },
+   {
+    "en": "Some employees liked the new tool; other employees didn't.",
+    "hi": "कुछ कर्मचारियों को नया टूल पसंद आया; बाकी कर्मचारियों को नहीं।",
+    "uses": "other"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Let's try ___ approach to this problem.",
+    "answer": "another"
+   },
+   {
+    "sentence": "Where are the ___ documents?",
+    "answer": "other"
+   },
+   {
+    "sentence": "I need ___ minute to finish this.",
+    "answer": "another"
+   }
+  ],
+  "trap_en": "Hindi's word 'दूसरा' covers both 'another' and 'other' without a singular/plural distinction, so learners struggle to know when English requires switching between the two forms."
+ },
+ {
+  "id": "cf:each-every",
+  "a": "each",
+  "b": "every",
+  "c": null,
+  "rule_en": "'Each' focuses on individual members of a group considered separately, often used for smaller groups; 'every' focuses on all members of a group as a whole, often used for larger or general groups.",
+  "rule_hi": "'Each' समूह के प्रत्येक सदस्य पर अलग-अलग ध्यान केंद्रित करता है, आमतौर पर छोटे समूहों के लिए प्रयोग होता है; 'every' पूरे समूह के सभी सदस्यों पर ध्यान केंद्रित करता है, आमतौर पर बड़े या सामान्य समूहों के लिए।",
+  "examples": [
+   {
+    "en": "Each engineer reviewed a different module.",
+    "hi": "हर इंजीनियर ने एक अलग मॉड्यूल की समीक्षा की।",
+    "uses": "each"
+   },
+   {
+    "en": "Every employee must complete the security training.",
+    "hi": "हर कर्मचारी को सुरक्षा प्रशिक्षण पूरा करना होगा।",
+    "uses": "every"
+   },
+   {
+    "en": "Each of the three servers has a different configuration.",
+    "hi": "तीनों सर्वरों में से प्रत्येक की अलग कॉन्फ़िगरेशन है।",
+    "uses": "each"
+   },
+   {
+    "en": "Every request is logged for auditing purposes.",
+    "hi": "ऑडिट के लिए हर अनुरोध लॉग किया जाता है।",
+    "uses": "every"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ team member has a specific role.",
+    "answer": "Each"
+   },
+   {
+    "sentence": "___ password must be changed every 90 days.",
+    "answer": "Every"
+   },
+   {
+    "sentence": "___ of us checked a separate log file.",
+    "answer": "Each"
+   }
+  ],
+  "trap_en": "Hindi's word 'हर' covers both meanings without distinguishing individual attention from collective generalisation, so learners rarely feel a need to choose between 'each' and 'every'."
+ },
+ {
+  "id": "cf:either-neither",
+  "a": "either",
+  "b": "neither",
+  "c": null,
+  "rule_en": "'Either' means one or the other of two options, usually in a positive or choice context; 'neither' means not one nor the other, used in a negative context, and already carries a built-in negative meaning.",
+  "rule_hi": "'Either' का अर्थ है दो में से कोई एक, आमतौर पर सकारात्मक या विकल्प के संदर्भ में; 'neither' का अर्थ है दोनों में से कोई नहीं, नकारात्मक संदर्भ में प्रयोग होता है और इसमें पहले से ही नकारात्मक भाव शामिल है।",
+  "examples": [
+   {
+    "en": "You can use either server for the test.",
+    "hi": "आप परीक्षण के लिए दोनों में से कोई भी सर्वर इस्तेमाल कर सकते हैं।",
+    "uses": "either"
+   },
+   {
+    "en": "Neither option fixes the underlying vulnerability.",
+    "hi": "दोनों में से कोई भी विकल्प मूल कमज़ोरी को ठीक नहीं करता।",
+    "uses": "neither"
+   },
+   {
+    "en": "I don't like either of these passwords.",
+    "hi": "मुझे इन दोनों में से कोई भी पासवर्ड पसंद नहीं है।",
+    "uses": "either"
+   },
+   {
+    "en": "Neither of the engineers noticed the bug.",
+    "hi": "इंजीनियरों में से किसी ने भी बग नहीं देखा।",
+    "uses": "neither"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ approach should work for this problem.",
+    "answer": "Either"
+   },
+   {
+    "sentence": "___ of the two servers is responding.",
+    "answer": "Neither"
+   },
+   {
+    "sentence": "You can choose ___ option, it doesn't matter.",
+    "answer": "either"
+   }
+  ],
+  "trap_en": "Hindi's phrase 'दोनों में से कोई नहीं' explicitly spells out the negative with a separate word 'नहीं', so learners often add an extra 'not' before 'neither' in English, forgetting that 'neither' is already inherently negative."
+ },
+ {
+  "id": "cf:between-among",
+  "a": "between",
+  "b": "among",
+  "c": null,
+  "rule_en": "Use 'between' for two distinct things (or people) considered individually; use 'among' for three or more things considered as a group.",
+  "rule_hi": "between का प्रयोग दो चीज़ों या व्यक्तियों के लिए होता है जिन्हें अलग-अलग गिना जाता है; among का प्रयोग तीन या अधिक चीज़ों के लिए होता है जिन्हें एक समूह के रूप में देखा जाता है।",
+  "examples": [
+   {
+    "en": "The password is shared between the two admins.",
+    "hi": "पासवर्ड दोनों एडमिन के बीच साझा किया गया है।",
+    "uses": "between"
+   },
+   {
+    "en": "The budget was divided among the five team members.",
+    "hi": "बजट पांचों टीम सदस्यों के बीच बांटा गया था।",
+    "uses": "among"
+   },
+   {
+    "en": "Choose between TLS 1.2 and TLS 1.3 for this connection.",
+    "hi": "इस कनेक्शन के लिए TLS 1.2 और TLS 1.3 के बीच चुनें।",
+    "uses": "between"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The server load is distributed ___ four data centers.",
+    "answer": "among"
+   },
+   {
+    "sentence": "There is a clear difference ___ a bug and a vulnerability.",
+    "answer": "between"
+   },
+   {
+    "sentence": "The prize money was split ___ the three winners.",
+    "answer": "among"
+   }
+  ],
+  "trap_en": "Hindi's postposition 'के बीच' covers both 'between' and 'among' without distinguishing two versus three-or-more, so learners use 'between' for any number of items."
+ },
+ {
+  "id": "cf:in-at-on-time",
+  "a": "in",
+  "b": "at",
+  "c": "on",
+  "rule_en": "For time: use 'in' with longer periods (months, years, seasons), 'on' with days and dates, and 'at' with precise clock times.",
+  "rule_hi": "समय के लिए: लंबी अवधियों (महीने, साल, मौसम) के साथ 'in', दिनों और तारीखों के साथ 'on', और सटीक घड़ी के समय के साथ 'at' का प्रयोग होता है।",
+  "examples": [
+   {
+    "en": "The audit report is due in March.",
+    "hi": "ऑडिट रिपोर्ट मार्च में देय है।",
+    "uses": "in"
+   },
+   {
+    "en": "The server maintenance is scheduled on Sunday.",
+    "hi": "सर्वर रखरखाव रविवार को निर्धारित है।",
+    "uses": "on"
+   },
+   {
+    "en": "The stand-up meeting starts at 9 a.m.",
+    "hi": "स्टैंड-अप मीटिंग सुबह 9 बजे शुरू होती है।",
+    "uses": "at"
+   },
+   {
+    "en": "We rotate the API keys in 2026.",
+    "hi": "हम 2026 में एपीआई कुंजियाँ बदलते हैं।",
+    "uses": "in"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The certificate expires ___ midnight.",
+    "answer": "at"
+   },
+   {
+    "sentence": "We released the patch ___ Friday.",
+    "answer": "on"
+   },
+   {
+    "sentence": "The company was founded ___ 2015.",
+    "answer": "in"
+   }
+  ],
+  "trap_en": "Hindi uses one flexible postposition (में/को) for most time expressions, so learners don't naturally split time prepositions into three separate categories like English does."
+ },
+ {
+  "id": "cf:in-at-on-place",
+  "a": "in",
+  "b": "at",
+  "c": "on",
+  "rule_en": "For place: use 'in' for enclosed spaces (a room, a city, a country), 'at' for specific points (a door, an address, an event), and 'on' for surfaces (a table, a wall, a floor).",
+  "rule_hi": "स्थान के लिए: घिरे हुए स्थानों (कमरा, शहर, देश) के लिए 'in', किसी विशेष बिंदु (दरवाज़ा, पता, कार्यक्रम) के लिए 'at', और सतहों (मेज़, दीवार, फ़र्श) के लिए 'on' का प्रयोग होता है।",
+  "examples": [
+   {
+    "en": "The logs are stored in the database.",
+    "hi": "लॉग डेटाबेस में संग्रहीत हैं।",
+    "uses": "in"
+   },
+   {
+    "en": "She is waiting at the reception.",
+    "hi": "वह रिसेप्शन पर इंतज़ार कर रही है।",
+    "uses": "at"
+   },
+   {
+    "en": "The sticker is on the laptop.",
+    "hi": "स्टिकर लैपटॉप पर है।",
+    "uses": "on"
+   },
+   {
+    "en": "He works in Bengaluru.",
+    "hi": "वह बेंगलुरु में काम करता है।",
+    "uses": "in"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Meet me ___ the office entrance.",
+    "answer": "at"
+   },
+   {
+    "sentence": "The keys are ___ the drawer.",
+    "answer": "in"
+   },
+   {
+    "sentence": "The report is ___ your desk.",
+    "answer": "on"
+   }
+  ],
+  "trap_en": "Hindi typically uses one postposition (में) for both enclosed spaces and general location, so learners default to 'in' everywhere instead of switching to 'at' or 'on'."
+ },
+ {
+  "id": "cf:by-until",
+  "a": "by",
+  "b": "until",
+  "c": null,
+  "rule_en": "'By' means 'no later than a point in time' (a deadline); 'until' means 'up to that point and then stopping' (continuing action).",
+  "rule_hi": "'By' का अर्थ है 'किसी समय तक या उससे पहले' (एक समय-सीमा); 'until' का अर्थ है 'उस समय तक लगातार चलते रहना और फिर रुक जाना'।",
+  "examples": [
+   {
+    "en": "Submit the vulnerability report by Friday.",
+    "hi": "शुक्रवार तक भेद्यता रिपोर्ट जमा करें।",
+    "uses": "by"
+   },
+   {
+    "en": "The system will stay in maintenance mode until 6 p.m.",
+    "hi": "सिस्टम शाम 6 बजे तक रखरखाव मोड में रहेगा।",
+    "uses": "until"
+   },
+   {
+    "en": "We must patch the server by tomorrow morning.",
+    "hi": "हमें कल सुबह तक सर्वर को पैच करना होगा।",
+    "uses": "by"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The offer is valid ___ the end of the month.",
+    "answer": "until"
+   },
+   {
+    "sentence": "Please finish the code review ___ 5 p.m.",
+    "answer": "by"
+   },
+   {
+    "sentence": "He worked ___ midnight to fix the outage.",
+    "answer": "until"
+   }
+  ],
+  "trap_en": "Hindi's 'तक' is used both for deadlines and continuous duration, so learners use 'until' where English requires the deadline sense of 'by'."
+ },
+ {
+  "id": "cf:during-while",
+  "a": "during",
+  "b": "while",
+  "c": null,
+  "rule_en": "'During' is a preposition followed by a noun (an event/period); 'while' is a conjunction followed by a clause (subject + verb).",
+  "rule_hi": "'During' एक पूर्वसर्ग है जिसके बाद संज्ञा (घटना/अवधि) आती है; 'while' एक संयोजक है जिसके बाद उपवाक्य (कर्ता + क्रिया) आता है।",
+  "examples": [
+   {
+    "en": "The intrusion happened during the night shift.",
+    "hi": "घुसपैठ रात की शिफ्ट के दौरान हुई।",
+    "uses": "during"
+   },
+   {
+    "en": "While the scan was running, the analyst reviewed old tickets.",
+    "hi": "जब स्कैन चल रहा था, विश्लेषक ने पुराने टिकट देखे।",
+    "uses": "while"
+   },
+   {
+    "en": "Please stay muted during the presentation.",
+    "hi": "प्रस्तुति के दौरान कृपया म्यूट रहें।",
+    "uses": "during"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ the deployment, do not restart the service.",
+    "answer": "During"
+   },
+   {
+    "sentence": "___ he was writing the report, the alert fired again.",
+    "answer": "While"
+   },
+   {
+    "sentence": "The firewall rules changed ___ the incident.",
+    "answer": "during"
+   }
+  ],
+  "trap_en": "Hindi's 'के दौरान' works with both nouns and clauses, so learners often follow 'during' with a full clause the way English requires for 'while'."
+ },
+ {
+  "id": "cf:although-despite",
+  "a": "although",
+  "b": "despite",
+  "c": null,
+  "rule_en": "'Although' is a conjunction followed by a clause (subject + verb); 'despite' is a preposition followed by a noun or gerund.",
+  "rule_hi": "'Although' एक संयोजक है जिसके बाद उपवाक्य (कर्ता + क्रिया) आता है; 'despite' एक पूर्वसर्ग है जिसके बाद संज्ञा या gerund आता है।",
+  "examples": [
+   {
+    "en": "Although the patch was tested, it still caused a crash.",
+    "hi": "हालांकि पैच का परीक्षण किया गया था, फिर भी इसने क्रैश कर दिया।",
+    "uses": "although"
+   },
+   {
+    "en": "Despite the patch, the crash still occurred.",
+    "hi": "पैच के बावजूद, क्रैश फिर भी हुआ।",
+    "uses": "despite"
+   },
+   {
+    "en": "Despite fixing the bug, users kept reporting errors.",
+    "hi": "बग ठीक करने के बावजूद, उपयोगकर्ता त्रुटियों की शिकायत करते रहे।",
+    "uses": "despite"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ the outage, the team stayed calm.",
+    "answer": "Despite"
+   },
+   {
+    "sentence": "___ we reviewed the code twice, a bug slipped through.",
+    "answer": "Although"
+   },
+   {
+    "sentence": "___ having 2FA enabled, his account was compromised.",
+    "answer": "Despite"
+   }
+  ],
+  "trap_en": "Hindi's 'हालांकि' and 'के बावजूद' can both loosely translate as 'even though', so learners follow 'despite' with a full clause instead of a noun phrase."
+ },
+ {
+  "id": "cf:so-such",
+  "a": "so",
+  "b": "such",
+  "c": null,
+  "rule_en": "'So' modifies an adjective or adverb alone ('so + adjective/adverb'); 'such' modifies a noun phrase, often with 'a/an' before a singular countable noun ('such a/an + adjective + noun').",
+  "rule_hi": "'So' अकेले किसी विशेषण या क्रिया-विशेषण को modify करता है ('so + adjective/adverb'); 'such' किसी संज्ञा वाक्यांश को modify करता है, अक्सर एकवचन गणनीय संज्ञा से पहले 'a/an' के साथ ('such a/an + adjective + noun')।",
+  "examples": [
+   {
+    "en": "The exploit was so dangerous that we shut down the server.",
+    "hi": "यह एक्सप्लॉइट इतना खतरनाक था कि हमने सर्वर बंद कर दिया।",
+    "uses": "so"
+   },
+   {
+    "en": "It was such a dangerous exploit that we shut down the server.",
+    "hi": "यह इतना खतरनाक एक्सप्लॉइट था कि हमने सर्वर बंद कर दिया।",
+    "uses": "such"
+   },
+   {
+    "en": "He gave such a clear explanation of the vulnerability.",
+    "hi": "उसने भेद्यता की इतनी स्पष्ट व्याख्या दी।",
+    "uses": "such"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The log file was ___ large that it crashed the viewer.",
+    "answer": "so"
+   },
+   {
+    "sentence": "It was ___ a complex attack that even seniors were confused.",
+    "answer": "such"
+   },
+   {
+    "sentence": "She is ___ careful with production access.",
+    "answer": "so"
+   }
+  ],
+  "trap_en": "Hindi's intensifier 'इतना/ऐसा' works before both adjectives and nouns without changing form, so learners use 'so' before nouns where English requires 'such'."
+ },
+ {
+  "id": "cf:too-very",
+  "a": "too",
+  "b": "very",
+  "c": null,
+  "rule_en": "'Very' simply intensifies a quality (neutral, can be positive or negative); 'too' means 'more than necessary or wanted', usually implying a problem.",
+  "rule_hi": "'Very' किसी गुण को केवल तीव्र करता है (तटस्थ, सकारात्मक या नकारात्मक दोनों हो सकता है); 'too' का अर्थ है 'ज़रूरत या इच्छा से अधिक', जो आमतौर पर किसी समस्या की ओर इशारा करता है।",
+  "examples": [
+   {
+    "en": "The new dashboard is very fast.",
+    "hi": "नया डैशबोर्ड बहुत तेज़ है।",
+    "uses": "very"
+   },
+   {
+    "en": "The new dashboard is too fast for the old browser to render.",
+    "hi": "नया डैशबोर्ड पुराने ब्राउज़र के लिए render करने के लिए बहुत ज़्यादा तेज़ है।",
+    "uses": "too"
+   },
+   {
+    "en": "This password is too weak to pass the policy.",
+    "hi": "यह पासवर्ड नीति पास करने के लिए बहुत कमज़ोर है।",
+    "uses": "too"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The report is ___ detailed for a five-minute meeting.",
+    "answer": "too"
+   },
+   {
+    "sentence": "She is ___ skilled at penetration testing.",
+    "answer": "very"
+   },
+   {
+    "sentence": "The connection is ___ slow to load the page in time.",
+    "answer": "too"
+   }
+  ],
+  "trap_en": "Hindi's 'बहुत' is used for both simple intensity and excess, so learners use 'very' even when English needs 'too' to signal a problem."
+ },
+ {
+  "id": "cf:very-enough",
+  "a": "very",
+  "b": "enough",
+  "c": null,
+  "rule_en": "'Very' comes before the adjective ('very hot'); 'enough' comes after the adjective to mean 'sufficient for a purpose' ('hot enough').",
+  "rule_hi": "'Very' विशेषण से पहले आता है ('very hot'); 'enough' विशेषण के बाद आता है और इसका अर्थ है 'किसी उद्देश्य के लिए पर्याप्त' ('hot enough')।",
+  "examples": [
+   {
+    "en": "The server is very powerful.",
+    "hi": "सर्वर बहुत शक्तिशाली है।",
+    "uses": "very"
+   },
+   {
+    "en": "The server is not powerful enough to handle this load.",
+    "hi": "सर्वर इस लोड को संभालने के लिए पर्याप्त शक्तिशाली नहीं है।",
+    "uses": "enough"
+   },
+   {
+    "en": "Is the encryption strong enough for compliance?",
+    "hi": "क्या एन्क्रिप्शन अनुपालन के लिए पर्याप्त मज़बूत है?",
+    "uses": "enough"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The bandwidth is ___ to stream video smoothly.",
+    "answer": "enough"
+   },
+   {
+    "sentence": "This bug is ___ serious to fix immediately.",
+    "answer": "very"
+   },
+   {
+    "sentence": "Is his Hindi good ___ to translate the manual?",
+    "answer": "enough"
+   }
+  ],
+  "trap_en": "Hindi's 'काफी/पर्याप्त' can be placed flexibly around the adjective, so learners often place English 'enough' before the adjective like 'very' instead of after it."
+ },
+ {
+  "id": "cf:still-yet-already",
+  "a": "still",
+  "b": "yet",
+  "c": "already",
+  "rule_en": "'Still' shows an action continuing longer than expected (often in positive/continuous sentences); 'yet' asks or states something hasn't happened, usually in questions and negatives; 'already' shows something happened sooner than expected, usually in positive sentences.",
+  "rule_hi": "'Still' दिखाता है कि कोई कार्य अपेक्षा से अधिक समय तक जारी है (आमतौर पर सकारात्मक/निरंतर वाक्यों में); 'yet' पूछता या बताता है कि कुछ अभी तक नहीं हुआ, आमतौर पर प्रश्नों और नकारात्मक वाक्यों में; 'already' दिखाता है कि कुछ अपेक्षा से पहले हो गया, आमतौर पर सकारात्मक वाक्यों में।",
+  "examples": [
+   {
+    "en": "The server is still down after two hours.",
+    "hi": "दो घंटे बाद भी सर्वर अभी तक बंद है।",
+    "uses": "still"
+   },
+   {
+    "en": "Has the patch been deployed yet?",
+    "hi": "क्या पैच अभी तक तैनात किया गया है?",
+    "uses": "yet"
+   },
+   {
+    "en": "We have already fixed the vulnerability.",
+    "hi": "हमने भेद्यता को पहले ही ठीक कर दिया है।",
+    "uses": "already"
+   },
+   {
+    "en": "He hasn't replied yet, but he's still online.",
+    "hi": "उसने अभी तक जवाब नहीं दिया, लेकिन वह अभी भी ऑनलाइन है।",
+    "uses": "yet"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "I have ___ submitted the incident report.",
+    "answer": "already"
+   },
+   {
+    "sentence": "Are you ___ working on the same ticket?",
+    "answer": "still"
+   },
+   {
+    "sentence": "They haven't responded ___.",
+    "answer": "yet"
+   }
+  ],
+  "trap_en": "Hindi's 'अभी' and 'अभी तक' overlap for still/yet/already, so learners often pick one Hindi-derived word like 'still' for all three situations."
+ },
+ {
+  "id": "cf:ago-before",
+  "a": "ago",
+  "b": "before",
+  "c": null,
+  "rule_en": "'Ago' counts back from now and always follows a time period ('two years ago'); 'before' counts back from another point in the past or simply means 'earlier than', and can be used without a specific duration.",
+  "rule_hi": "'Ago' अभी (now) से पीछे गिनता है और हमेशा एक समयावधि के बाद आता है ('two years ago'); 'before' अतीत के किसी अन्य बिंदु से पीछे गिनता है या केवल 'से पहले' का अर्थ रखता है, और बिना किसी विशेष अवधि के भी इस्तेमाल हो सकता है।",
+  "examples": [
+   {
+    "en": "We patched this server two months ago.",
+    "hi": "हमने इस सर्वर को दो महीने पहले पैच किया था।",
+    "uses": "ago"
+   },
+   {
+    "en": "He had left the company before the breach happened.",
+    "hi": "वह भंग होने से पहले ही कंपनी छोड़ चुका था।",
+    "uses": "before"
+   },
+   {
+    "en": "I had never seen this error before.",
+    "hi": "मैंने इस त्रुटि को पहले कभी नहीं देखा था।",
+    "uses": "before"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The incident occurred three days ___.",
+    "answer": "ago"
+   },
+   {
+    "sentence": "Please back up the database ___ you run the migration.",
+    "answer": "before"
+   },
+   {
+    "sentence": "She joined the security team a year ___.",
+    "answer": "ago"
+   }
+  ],
+  "trap_en": "Hindi's 'पहले' covers both 'ago' and 'before', so learners use 'before' after a time period where English requires 'ago'."
+ },
+ {
+  "id": "cf:used-to-be-used-to",
+  "a": "used to",
+  "b": "be used to",
+  "c": null,
+  "rule_en": "'Used to + base verb' describes a past habit that no longer happens; 'be/get used to + noun/gerund' describes being familiar or comfortable with something.",
+  "rule_hi": "'Used to + base verb' किसी ऐसी अतीत की आदत को बताता है जो अब नहीं होती; 'be/get used to + noun/gerund' किसी चीज़ से परिचित या सहज होने को बताता है।",
+  "examples": [
+   {
+    "en": "I used to write code in Perl.",
+    "hi": "मैं पहले Perl में कोड लिखता था।",
+    "uses": "used to"
+   },
+   {
+    "en": "I am used to working night shifts now.",
+    "hi": "अब मैं रात की शिफ्ट में काम करने का आदी हूं।",
+    "uses": "be used to"
+   },
+   {
+    "en": "She got used to reading logs quickly.",
+    "hi": "उसे जल्दी लॉग पढ़ने की आदत हो गई।",
+    "uses": "be used to"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "He ___ work as a network admin before he moved to security.",
+    "answer": "used to"
+   },
+   {
+    "sentence": "I am ___ handling multiple incidents at once.",
+    "answer": "used to"
+   },
+   {
+    "sentence": "They ___ deploy manually before they adopted CI/CD.",
+    "answer": "used to"
+   }
+  ],
+  "trap_en": "Hindi's habitual past marker (करता था) matches only the first meaning, so learners can't intuitively feel why 'used to' sometimes needs '+ing' and an auxiliary 'be'."
+ },
+ {
+  "id": "cf:must-have-to",
+  "a": "must",
+  "b": "have to",
+  "c": null,
+  "rule_en": "'Must' often expresses the speaker's own strong opinion or an internal obligation/rule, and is also used for logical certainty; 'have to' expresses an obligation imposed by an outside authority or circumstance.",
+  "rule_hi": "'Must' अक्सर बोलने वाले की अपनी राय या आंतरिक ज़िम्मेदारी को व्यक्त करता है, और तार्किक निश्चितता के लिए भी उपयोग होता है; 'have to' किसी बाहरी अधिकार या परिस्थिति द्वारा थोपे गए दायित्व को व्यक्त करता है।",
+  "examples": [
+   {
+    "en": "You must change your password every 90 days.",
+    "hi": "आपको हर 90 दिन में अपना पासवर्ड बदलना ही होगा।",
+    "uses": "must"
+   },
+   {
+    "en": "I have to submit my compliance form by company policy.",
+    "hi": "कंपनी की नीति के अनुसार मुझे अपना अनुपालन फॉर्म जमा करना होता है।",
+    "uses": "have to"
+   },
+   {
+    "en": "There must be a misconfiguration somewhere.",
+    "hi": "कहीं न कहीं गलत कॉन्फ़िगरेशन ज़रूर होगा।",
+    "uses": "must"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Employees ___ wear their ID badges inside the office (company rule).",
+    "answer": "have to"
+   },
+   {
+    "sentence": "You ___ be joking — this bug has been open for a year!",
+    "answer": "must"
+   },
+   {
+    "sentence": "I ___ finish this ticket before the sprint ends (external deadline).",
+    "answer": "have to"
+   }
+  ],
+  "trap_en": "Hindi's obligation marker 'चाहिए/पड़ता है' doesn't separate an internal sense of 'must' from an external 'have to', so learners use them interchangeably."
+ },
+ {
+  "id": "cf:can-could",
+  "a": "can",
+  "b": "could",
+  "c": null,
+  "rule_en": "'Can' expresses present ability or permission; 'could' expresses past ability, a more polite or tentative request, or present possibility.",
+  "rule_hi": "'Can' वर्तमान क्षमता या अनुमति को व्यक्त करता है; 'could' अतीत की क्षमता, अधिक विनम्र/झिझक भरे अनुरोध, या वर्तमान संभावना को व्यक्त करता है।",
+  "examples": [
+   {
+    "en": "I can access the production server.",
+    "hi": "मैं प्रोडक्शन सर्वर तक पहुंच सकता हूं।",
+    "uses": "can"
+   },
+   {
+    "en": "When I was junior, I could barely read a stack trace.",
+    "hi": "जब मैं जूनियर था, तब मैं मुश्किल से स्टैक ट्रेस पढ़ पाता था।",
+    "uses": "could"
+   },
+   {
+    "en": "Could you review my pull request, please?",
+    "hi": "क्या आप कृपया मेरा पुल रिक्वेस्ट देख सकते हैं?",
+    "uses": "could"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ you please restart the service? (polite request)",
+    "answer": "Could"
+   },
+   {
+    "sentence": "She ___ debug this in minutes; she's very skilled.",
+    "answer": "can"
+   },
+   {
+    "sentence": "Ten years ago, he ___ barely use a command line.",
+    "answer": "could"
+   }
+  ],
+  "trap_en": "Hindi's 'सकना' doesn't grammatically shift for politeness or tense the way English modals do, so learners don't naturally reach for 'could' to sound more polite."
+ },
+ {
+  "id": "cf:will-would",
+  "a": "will",
+  "b": "would",
+  "c": null,
+  "rule_en": "'Will' expresses a decision, promise, or prediction about the future made now; 'would' expresses a hypothetical result, a past habit, or a more polite/indirect version of 'will'.",
+  "rule_hi": "'Will' अभी लिए गए निर्णय, वादे, या भविष्य की भविष्यवाणी को व्यक्त करता है; 'would' किसी काल्पनिक परिणाम, अतीत की आदत, या 'will' के अधिक विनम्र/अप्रत्यक्ष रूप को व्यक्त करता है।",
+  "examples": [
+   {
+    "en": "I will deploy the fix tonight.",
+    "hi": "मैं आज रात फिक्स तैनात करूंगा।",
+    "uses": "will"
+   },
+   {
+    "en": "If we had more budget, we would hire a second analyst.",
+    "hi": "अगर हमारे पास ज़्यादा बजट होता, तो हम एक और विश्लेषक रखते।",
+    "uses": "would"
+   },
+   {
+    "en": "Would you mind sharing the logs with me?",
+    "hi": "क्या आप मेरे साथ लॉग साझा करने में बुरा तो नहीं मानेंगे?",
+    "uses": "would"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "If the server crashed, what ___ you do first?",
+    "answer": "would"
+   },
+   {
+    "sentence": "I promise I ___ fix this by Monday.",
+    "answer": "will"
+   },
+   {
+    "sentence": "___ you like some coffee?",
+    "answer": "Would"
+   }
+  ],
+  "trap_en": "Hindi conditional sentences don't require a separate modal shift like will to would, so learners keep using 'will' even inside hypothetical 'if' clauses."
+ },
+ {
+  "id": "cf:may-might",
+  "a": "may",
+  "b": "might",
+  "c": null,
+  "rule_en": "Both express possibility, but 'may' suggests a slightly higher likelihood or is used for formal permission, while 'might' suggests a more remote or hypothetical possibility.",
+  "rule_hi": "दोनों संभावना व्यक्त करते हैं, लेकिन 'may' थोड़ी अधिक संभावना दिखाता है या औपचारिक अनुमति के लिए उपयोग होता है, जबकि 'might' अधिक दूर या काल्पनिक संभावना दिखाता है।",
+  "examples": [
+   {
+    "en": "May I access the audit logs?",
+    "hi": "क्या मैं ऑडिट लॉग देख सकता हूं? (औपचारिक अनुमति)",
+    "uses": "may"
+   },
+   {
+    "en": "This vulnerability may allow remote code execution.",
+    "hi": "यह भेद्यता दूरस्थ कोड निष्पादन की अनुमति दे सकती है।",
+    "uses": "may"
+   },
+   {
+    "en": "If we're unlucky, the attacker might already be inside the network.",
+    "hi": "अगर हम बदकिस्मत रहे, तो हमलावर पहले से ही नेटवर्क के अंदर हो सकता है।",
+    "uses": "might"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ I use your laptop for the demo?",
+    "answer": "May"
+   },
+   {
+    "sentence": "It ___ rain, though the forecast is unclear (low certainty).",
+    "answer": "might"
+   },
+   {
+    "sentence": "The fix ___ solve the problem, but we should still test it.",
+    "answer": "may"
+   }
+  ],
+  "trap_en": "Hindi's 'शायद' (perhaps) covers all shades of possibility, so learners rarely distinguish the slightly higher likelihood of 'may' from the more remote 'might'."
+ },
+ {
+  "id": "cf:shall-should",
+  "a": "shall",
+  "b": "should",
+  "c": null,
+  "rule_en": "'Shall' is a formal way to make suggestions or promises (mostly with I/we, rare in modern speech); 'should' expresses advice, recommendation, or mild obligation.",
+  "rule_hi": "'Shall' सुझाव या वादे देने का एक औपचारिक तरीका है (मुख्यतः I/we के साथ, आधुनिक बोलचाल में दुर्लभ); 'should' सलाह, सिफारिश, या हल्के दायित्व को व्यक्त करता है।",
+  "examples": [
+   {
+    "en": "Shall we schedule the penetration test for next week?",
+    "hi": "क्या हम अगले हफ्ते के लिए पेनेट्रेशन टेस्ट शेड्यूल करें?",
+    "uses": "shall"
+   },
+   {
+    "en": "You should rotate your credentials regularly.",
+    "hi": "आपको नियमित रूप से अपनी क्रेडेंशियल बदलनी चाहिए।",
+    "uses": "should"
+   },
+   {
+    "en": "We should review the firewall rules before the audit.",
+    "hi": "हमें ऑडिट से पहले फ़ायरवॉल नियमों की समीक्षा करनी चाहिए।",
+    "uses": "should"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "You ___ enable two-factor authentication (advice).",
+    "answer": "should"
+   },
+   {
+    "sentence": "___ I close the ticket now?",
+    "answer": "Shall"
+   },
+   {
+    "sentence": "The team ___ document every incident.",
+    "answer": "should"
+   }
+  ],
+  "trap_en": "Hindi's advice marker 'चाहिए' maps naturally onto 'should', so 'shall' feels like an unnecessary extra word learners rarely reach for."
+ },
+ {
+  "id": "cf:who-whom",
+  "a": "who",
+  "b": "whom",
+  "c": null,
+  "rule_en": "'Who' is used as the subject of a verb (does the action); 'whom' is used as the object of a verb or preposition (receives the action).",
+  "rule_hi": "'Who' किसी क्रिया के कर्ता (subject) के रूप में उपयोग होता है (जो कार्य करता है); 'whom' किसी क्रिया या पूर्वसर्ग की वस्तु (object) के रूप में उपयोग होता है (जिस पर कार्य होता है)।",
+  "examples": [
+   {
+    "en": "Who reported this bug?",
+    "hi": "इस बग की रिपोर्ट किसने की?",
+    "uses": "who"
+   },
+   {
+    "en": "To whom should I send the incident report?",
+    "hi": "मुझे घटना रिपोर्ट किसे भेजनी चाहिए?",
+    "uses": "whom"
+   },
+   {
+    "en": "The engineer whom we hired last month found the vulnerability.",
+    "hi": "वह इंजीनियर जिसे हमने पिछले महीने नियुक्त किया था, उसने भेद्यता खोजी।",
+    "uses": "whom"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ fixed this issue?",
+    "answer": "Who"
+   },
+   {
+    "sentence": "___ did you send the alert to?",
+    "answer": "Whom"
+   },
+   {
+    "sentence": "The analyst ___ found the leak got promoted.",
+    "answer": "who"
+   }
+  ],
+  "trap_en": "Hindi's question word 'कौन' doesn't change form for subject versus object, so learners rarely feel the need for a separate object form like 'whom'."
+ },
+ {
+  "id": "cf:which-that",
+  "a": "which",
+  "b": "that",
+  "c": null,
+  "rule_en": "'That' introduces a defining (restrictive) clause that identifies which thing you mean, with no comma; 'which' introduces a non-defining (non-restrictive) clause that adds extra information, set off by commas.",
+  "rule_hi": "'That' एक defining (restrictive) उपवाक्य शुरू करता है जो बताता है कि आप किस चीज़ की बात कर रहे हैं, बिना अल्पविराम के; 'which' एक non-defining (non-restrictive) उपवाक्य शुरू करता है जो अतिरिक्त जानकारी जोड़ता है, अल्पविराम के साथ।",
+  "examples": [
+   {
+    "en": "The server that crashed last night has been restarted.",
+    "hi": "जो सर्वर पिछली रात क्रैश हुआ था, उसे फिर से चालू कर दिया गया है।",
+    "uses": "that"
+   },
+   {
+    "en": "The main server, which was installed in 2020, crashed last night.",
+    "hi": "मुख्य सर्वर, जिसे 2020 में स्थापित किया गया था, पिछली रात क्रैश हो गया।",
+    "uses": "which"
+   },
+   {
+    "en": "This is the bug that caused the outage.",
+    "hi": "यह वही बग है जिसने आउटेज पैदा किया।",
+    "uses": "that"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The laptop ___ I use for testing is old.",
+    "answer": "that"
+   },
+   {
+    "sentence": "My laptop, ___ is three years old, still runs fine.",
+    "answer": "which"
+   },
+   {
+    "sentence": "This is the ticket ___ needs urgent review.",
+    "answer": "that"
+   }
+  ],
+  "trap_en": "Hindi's relative pronoun 'जो' works the same way regardless of whether the clause is defining or extra information, so learners don't naturally choose between 'that' and 'which'."
+ },
+ {
+  "id": "cf:what-which",
+  "a": "what",
+  "b": "which",
+  "c": null,
+  "rule_en": "Use 'what' when choosing from an open, unlimited set of options; use 'which' when choosing from a limited, known set of options.",
+  "rule_hi": "जब विकल्पों का कोई खुला, असीमित समूह हो तो 'what' का प्रयोग करें; जब विकल्पों का एक सीमित, ज्ञात समूह हो तो 'which' का प्रयोग करें।",
+  "examples": [
+   {
+    "en": "What programming language do you prefer?",
+    "hi": "आपको कौन सी प्रोग्रामिंग भाषा पसंद है? (कोई भी भाषा हो सकती है)",
+    "uses": "what"
+   },
+   {
+    "en": "Which of these two servers should we patch first?",
+    "hi": "इन दोनों में से किस सर्वर को पहले पैच करना चाहिए?",
+    "uses": "which"
+   },
+   {
+    "en": "Which browser — Chrome, Firefox, or Edge — showed the bug?",
+    "hi": "कौन सा ब्राउज़र — क्रोम, फ़ायरफ़ॉक्स, या एज — में बग दिखा?",
+    "uses": "which"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ is your favourite programming language?",
+    "answer": "What"
+   },
+   {
+    "sentence": "___ of these three passwords is the strongest?",
+    "answer": "Which"
+   },
+   {
+    "sentence": "___ do you want for lunch?",
+    "answer": "What"
+   }
+  ],
+  "trap_en": "Hindi's 'कौन सा' is used for both open and limited choices, so learners default to one English word for every kind of question."
+ },
+ {
+  "id": "cf:how-what-like",
+  "a": "how",
+  "b": "what ... like",
+  "c": null,
+  "rule_en": "'How is X?' usually asks about temporary state, health, or quality; 'What is X like?' asks for a description of general character or nature.",
+  "rule_hi": "'How is X?' आमतौर पर अस्थायी स्थिति, स्वास्थ्य, या गुणवत्ता के बारे में पूछता है; 'What is X like?' सामान्य स्वभाव या प्रकृति का विवरण मांगता है।",
+  "examples": [
+   {
+    "en": "How is the new server performing today?",
+    "hi": "आज नया सर्वर कैसा प्रदर्शन कर रहा है?",
+    "uses": "how"
+   },
+   {
+    "en": "What is your new manager like?",
+    "hi": "आपका नया मैनेजर कैसा है (स्वभाव से)?",
+    "uses": "what ... like"
+   },
+   {
+    "en": "What was the security conference like?",
+    "hi": "सुरक्षा सम्मेलन कैसा था (अनुभव में)?",
+    "uses": "what ... like"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "___ is the weather in Bengaluru right now?",
+    "answer": "How"
+   },
+   {
+    "sentence": "___ is your new team lead ___?",
+    "answer": "What ... like"
+   },
+   {
+    "sentence": "___ was your first day at the new job?",
+    "answer": "How"
+   }
+  ],
+  "trap_en": "Hindi's 'कैसा' translates directly to 'how', so learners say 'How is your manager?' when asking about personality, missing the 'What ... like?' pattern English uses for description."
+ },
+ {
+  "id": "cf:been-gone",
+  "a": "been",
+  "b": "gone",
+  "c": null,
+  "rule_en": "'Been' (as past participle of 'be' in this context) implies the person went somewhere and has returned; 'gone' implies the person went somewhere and is still there and has not returned.",
+  "rule_hi": "'Been' (इस संदर्भ में 'be' के भूतकालिक कृदंत के रूप में) दर्शाता है कि व्यक्ति कहीं गया और वापस आ गया; 'gone' दर्शाता है कि व्यक्ति कहीं गया और अभी तक वहीं है, वापस नहीं आया।",
+  "examples": [
+   {
+    "en": "She has been to the client's office; she's back now.",
+    "hi": "वह क्लाइंट के ऑफिस गई थी; अब वह वापस आ गई है।",
+    "uses": "been"
+   },
+   {
+    "en": "He has gone to the client's office; he's still there.",
+    "hi": "वह क्लाइंट के ऑफिस गया है; वह अभी भी वहीं है।",
+    "uses": "gone"
+   },
+   {
+    "en": "Have you ever been to a security conference?",
+    "hi": "क्या आप कभी किसी सुरक्षा सम्मेलन में गए हैं?",
+    "uses": "been"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "He has ___ to the data center; he'll be back soon.",
+    "answer": "been"
+   },
+   {
+    "sentence": "She has ___ to Delhi for the audit; she's not back yet.",
+    "answer": "gone"
+   },
+   {
+    "sentence": "I have never ___ to that vendor's office.",
+    "answer": "been"
+   }
+  ],
+  "trap_en": "Hindi's 'गया है/गई है' doesn't distinguish whether the person has returned, so learners can't automatically pick between 'been' and 'gone'."
+ },
+ {
+  "id": "cf:dead-died-death",
+  "a": "dead",
+  "b": "died",
+  "c": "death",
+  "rule_en": "'Dead' is an adjective describing a state ('the server is dead'); 'died' is the past-tense verb describing the event of dying ('the server died last night'); 'death' is the noun for the event or state itself ('the death of the project').",
+  "rule_hi": "'Dead' एक विशेषण है जो एक स्थिति बताता है ('the server is dead'); 'died' मरने की घटना बताने वाली भूतकालिक क्रिया है ('the server died last night'); 'death' उस घटना या स्थिति के लिए संज्ञा है ('the death of the project')।",
+  "examples": [
+   {
+    "en": "The old database server is dead now.",
+    "hi": "पुराना डेटाबेस सर्वर अब मृत यानी काम न करने वाला है।",
+    "uses": "dead"
+   },
+   {
+    "en": "The connection died right in the middle of the transfer.",
+    "hi": "कनेक्शन ट्रांसफर के बीच में ही टूट गया।",
+    "uses": "died"
+   },
+   {
+    "en": "The death of that startup was caused by a data breach.",
+    "hi": "उस स्टार्टअप का अंत एक डेटा उल्लंघन के कारण हुआ था।",
+    "uses": "death"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The hard drive is completely ___; nothing can be recovered.",
+    "answer": "dead"
+   },
+   {
+    "sentence": "The process ___ unexpectedly after the update.",
+    "answer": "died"
+   },
+   {
+    "sentence": "The ___ of the old framework opened the door for new tools.",
+    "answer": "death"
+   }
+  ],
+  "trap_en": "Hindi's मरना/मृत्यु family doesn't map cleanly onto separate adjective, verb, and noun forms the way English dead/died/death does, so learners mix the three."
+ },
+ {
+  "id": "cf:boring-bored",
+  "a": "boring",
+  "b": "bored",
+  "c": null,
+  "rule_en": "The '-ing' adjective ('boring') describes the thing that causes the feeling; the '-ed' adjective ('bored') describes the person who experiences the feeling.",
+  "rule_hi": "'-ing' विशेषण ('boring') उस चीज़ को बताता है जो भावना पैदा करती है; '-ed' विशेषण ('bored') उस व्यक्ति को बताता है जो वह भावना महसूस करता है।",
+  "examples": [
+   {
+    "en": "This compliance training is so boring.",
+    "hi": "यह अनुपालन प्रशिक्षण बहुत उबाऊ है।",
+    "uses": "boring"
+   },
+   {
+    "en": "I am bored during this compliance training.",
+    "hi": "मैं इस अनुपालन प्रशिक्षण के दौरान ऊब गया हूं।",
+    "uses": "bored"
+   },
+   {
+    "en": "Reading the same log format all day is boring.",
+    "hi": "पूरे दिन एक ही तरह के लॉग पढ़ना उबाऊ है।",
+    "uses": "boring"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The meeting was so ___ that people started checking their phones.",
+    "answer": "boring"
+   },
+   {
+    "sentence": "I felt ___ during the long meeting.",
+    "answer": "bored"
+   },
+   {
+    "sentence": "Writing the same report every week is ___.",
+    "answer": "boring"
+   }
+  ],
+  "trap_en": "Hindi adjectives like उबाऊ don't split into a cause-form and a feeler-form the way English -ing/-ed pairs do, so learners often say 'I am boring' meaning 'I am bored'."
+ },
+ {
+  "id": "cf:interesting-interested",
+  "a": "interesting",
+  "b": "interested",
+  "c": null,
+  "rule_en": "'Interesting' describes the thing that creates interest; 'interested' describes the person who feels interest.",
+  "rule_hi": "'Interesting' उस चीज़ को बताता है जो रुचि पैदा करती है; 'interested' उस व्यक्ति को बताता है जो रुचि महसूस करता है।",
+  "examples": [
+   {
+    "en": "This talk on zero-day exploits is interesting.",
+    "hi": "ज़ीरो-डे एक्सप्लॉइट्स पर यह टॉक दिलचस्प है।",
+    "uses": "interesting"
+   },
+   {
+    "en": "I am interested in learning more about cryptography.",
+    "hi": "मुझे क्रिप्टोग्राफी के बारे में और जानने में दिलचस्पी है।",
+    "uses": "interested"
+   },
+   {
+    "en": "He found the vulnerability report very interesting.",
+    "hi": "उसे भेद्यता रिपोर्ट बहुत दिलचस्प लगी।",
+    "uses": "interesting"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "I'm really ___ in threat intelligence.",
+    "answer": "interested"
+   },
+   {
+    "sentence": "That was an ___ presentation on malware analysis.",
+    "answer": "interesting"
+   },
+   {
+    "sentence": "She seemed ___ in the new tool we demoed.",
+    "answer": "interested"
+   }
+  ],
+  "trap_en": "As with boring/bored, Hindi doesn't split adjectives into a cause-form versus a feeler-form, so learners confuse the '-ing' and '-ed' endings here too."
+ },
+ {
+  "id": "cf:sensible-sensitive",
+  "a": "sensible",
+  "b": "sensitive",
+  "c": null,
+  "rule_en": "'Sensible' means showing good judgment or being practical; 'sensitive' means easily affected emotionally or physically, or, for data, requiring careful handling.",
+  "rule_hi": "'Sensible' का अर्थ है अच्छा निर्णय दिखाना या व्यावहारिक होना; 'sensitive' का अर्थ है भावनात्मक या शारीरिक रूप से आसानी से प्रभावित होना, या डेटा के लिए सावधानी से संभाले जाने की ज़रूरत।",
+  "examples": [
+   {
+    "en": "It was sensible to back up the database before the migration.",
+    "hi": "माइग्रेशन से पहले डेटाबेस का बैकअप लेना समझदारी भरा था।",
+    "uses": "sensible"
+   },
+   {
+    "en": "This file contains sensitive customer data.",
+    "hi": "इस फ़ाइल में संवेदनशील ग्राहक डेटा है।",
+    "uses": "sensitive"
+   },
+   {
+    "en": "He gave sensible advice about password policy.",
+    "hi": "उसने पासवर्ड नीति के बारे में समझदारी भरी सलाह दी।",
+    "uses": "sensible"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Encrypt any ___ information before sending it by email.",
+    "answer": "sensitive"
+   },
+   {
+    "sentence": "It's ___ to test the patch in staging first.",
+    "answer": "sensible"
+   },
+   {
+    "sentence": "Personal health records are considered ___ data.",
+    "answer": "sensitive"
+   }
+  ],
+  "trap_en": "The two words look almost identical to Hindi speakers and Hindi has no single close cognate for either, so learners swap 'sensible' and 'sensitive' based on spelling similarity alone."
+ },
+ {
+  "id": "cf:economic-economical",
+  "a": "economic",
+  "b": "economical",
+  "c": null,
+  "rule_en": "'Economic' relates to the economy or economics as a field; 'economical' means cost-effective or not wasteful.",
+  "rule_hi": "'Economic' अर्थव्यवस्था या अर्थशास्त्र के क्षेत्र से संबंधित है; 'economical' का अर्थ है किफायती या फिजूलखर्ची न करने वाला।",
+  "examples": [
+   {
+    "en": "The economic impact of the ransomware attack was huge.",
+    "hi": "रैनसमवेयर हमले का आर्थिक प्रभाव बहुत बड़ा था।",
+    "uses": "economic"
+   },
+   {
+    "en": "Using open-source tools is a more economical choice for a small team.",
+    "hi": "छोटी टीम के लिए ओपन-सोर्स टूल का उपयोग करना अधिक किफायती विकल्प है।",
+    "uses": "economical"
+   },
+   {
+    "en": "Cloud pricing depends on broader economic conditions.",
+    "hi": "क्लाउड की कीमतें व्यापक आर्थिक परिस्थितियों पर निर्भर करती हैं।",
+    "uses": "economic"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Renting servers monthly is more ___ than buying hardware outright.",
+    "answer": "economical"
+   },
+   {
+    "sentence": "The government released new ___ policies this year.",
+    "answer": "economic"
+   },
+   {
+    "sentence": "A used laptop is a more ___ option for testing.",
+    "answer": "economical"
+   }
+  ],
+  "trap_en": "Both words come from the same Hindi-familiar root अर्थ (economy), so learners can't hear a meaningful difference between the two English suffix forms."
+ },
+ {
+  "id": "cf:historic-historical",
+  "a": "historic",
+  "b": "historical",
+  "c": null,
+  "rule_en": "'Historic' means important or famous in history; 'historical' simply means relating to history or the past, without implying importance.",
+  "rule_hi": "'Historic' का अर्थ है इतिहास में महत्वपूर्ण या प्रसिद्ध; 'historical' का अर्थ केवल इतिहास या अतीत से संबंधित है, बिना महत्व का कोई संकेत दिए।",
+  "examples": [
+   {
+    "en": "The launch of the first webcam was a historic moment for the internet.",
+    "hi": "पहले वेबकैम का लॉन्च इंटरनेट के लिए एक ऐतिहासिक और महत्वपूर्ण पल था।",
+    "uses": "historic"
+   },
+   {
+    "en": "We analyzed historical login data from the past five years.",
+    "hi": "हमने पिछले पांच सालों का पुराना यानी ऐतिहासिक लॉगिन डेटा विश्लेषित किया।",
+    "uses": "historical"
+   },
+   {
+    "en": "This is a historic building in the old city.",
+    "hi": "यह पुराने शहर की एक ऐतिहासिक और महत्वपूर्ण इमारत है।",
+    "uses": "historic"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The company keeps ___ records of every server change.",
+    "answer": "historical"
+   },
+   {
+    "sentence": "Fixing the Y2K bug was a ___ challenge for programmers.",
+    "answer": "historic"
+   },
+   {
+    "sentence": "We reviewed the ___ traffic patterns before the attack.",
+    "answer": "historical"
+   }
+  ],
+  "trap_en": "Both English words translate to the same Hindi word ऐतिहासिक, so learners cannot tell from Hindi alone which one implies importance."
+ },
+ {
+  "id": "cf:classic-classical",
+  "a": "classic",
+  "b": "classical",
+  "c": null,
+  "rule_en": "'Classic' means a well-known, high-quality example of its kind, often timeless; 'classical' relates to a traditional, established style or period, such as classical music or classical mechanics.",
+  "rule_hi": "'Classic' का अर्थ है अपनी तरह का एक प्रसिद्ध, उच्च-गुणवत्ता वाला उदाहरण, अक्सर कालातीत; 'classical' किसी पारंपरिक, स्थापित शैली या काल से संबंधित है, जैसे शास्त्रीय संगीत या शास्त्रीय भौतिकी।",
+  "examples": [
+   {
+    "en": "SQL injection is a classic web application vulnerability.",
+    "hi": "SQL इंजेक्शन एक क्लासिक यानी जाना-पहचाना वेब एप्लिकेशन भेद्यता है।",
+    "uses": "classic"
+   },
+   {
+    "en": "He studied classical cryptography before modern algorithms.",
+    "hi": "उसने आधुनिक एल्गोरिदम से पहले शास्त्रीय क्रिप्टोग्राफी पढ़ी।",
+    "uses": "classical"
+   },
+   {
+    "en": "That is a classic mistake beginners make.",
+    "hi": "यह एक क्लासिक गलती है जो शुरुआती लोग करते हैं।",
+    "uses": "classic"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Buffer overflow is a ___ example of a memory-safety bug.",
+    "answer": "classic"
+   },
+   {
+    "sentence": "She prefers ___ Indian music over Bollywood songs.",
+    "answer": "classical"
+   },
+   {
+    "sentence": "This is a ___ phishing technique.",
+    "answer": "classic"
+   }
+  ],
+  "trap_en": "Both words are borrowed into Hindi with similar pronunciation, क्लासिक, so learners don't hear the difference between 'timeless example' and 'traditional style'."
+ },
+ {
+  "id": "cf:alone-lonely",
+  "a": "alone",
+  "b": "lonely",
+  "c": null,
+  "rule_en": "'Alone' simply describes being physically by oneself, with no emotional judgment; 'lonely' describes the unhappy feeling of being isolated, whether or not a person is physically alone.",
+  "rule_hi": "'Alone' केवल शारीरिक रूप से अकेले होने का वर्णन करता है, बिना किसी भावनात्मक अर्थ के; 'lonely' अकेलेपन के दुखी एहसास का वर्णन करता है, चाहे व्यक्ति शारीरिक रूप से अकेला हो या न हो।",
+  "examples": [
+   {
+    "en": "I like working alone late at night; it helps me focus.",
+    "hi": "मुझे देर रात अकेले काम करना पसंद है; इससे मुझे ध्यान केंद्रित करने में मदद मिलती है।",
+    "uses": "alone"
+   },
+   {
+    "en": "He felt lonely after moving to a new city for the job.",
+    "hi": "नौकरी के लिए नए शहर जाने के बाद वह अकेलापन महसूस करने लगा।",
+    "uses": "lonely"
+   },
+   {
+    "en": "She can be in a crowded office and still feel lonely.",
+    "hi": "वह भरे-पूरे ऑफिस में भी अकेलापन महसूस कर सकती है।",
+    "uses": "lonely"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "He prefers to debug ___ without any distractions.",
+    "answer": "alone"
+   },
+   {
+    "sentence": "Working remotely can make some people feel ___.",
+    "answer": "lonely"
+   },
+   {
+    "sentence": "I was ___ in the server room for two hours.",
+    "answer": "alone"
+   }
+  ],
+  "trap_en": "Hindi's अकेला covers both the physical state and the emotional feeling, so learners use 'alone' even when they mean the sadness of 'lonely'."
+ },
+ {
+  "id": "cf:last-latest",
+  "a": "last",
+  "b": "latest",
+  "c": null,
+  "rule_en": "'Last' means final in a series, or 'most recent before now' when nothing has come after it; 'latest' means the most recent or newest, but implies more may follow.",
+  "rule_hi": "'Last' का अर्थ है किसी श्रृंखला में अंतिम, या 'अभी तक का सबसे हालिया' जब उसके बाद कुछ न आया हो; 'latest' का अर्थ है सबसे नया, लेकिन यह संकेत देता है कि और भी आ सकते हैं।",
+  "examples": [
+   {
+    "en": "This is the last version of the app; we're discontinuing it.",
+    "hi": "यह ऐप का आखिरी संस्करण है; हम इसे बंद कर रहे हैं।",
+    "uses": "last"
+   },
+   {
+    "en": "Have you installed the latest security patch?",
+    "hi": "क्या आपने नवीनतम सुरक्षा पैच स्थापित किया है?",
+    "uses": "latest"
+   },
+   {
+    "en": "The latest version fixes three known bugs.",
+    "hi": "नवीनतम संस्करण तीन ज्ञात बग ठीक करता है।",
+    "uses": "latest"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "This was the ___ meeting of the quarter (final one).",
+    "answer": "last"
+   },
+   {
+    "sentence": "Download the ___ update before the demo.",
+    "answer": "latest"
+   },
+   {
+    "sentence": "He gave his ___ presentation before retiring.",
+    "answer": "last"
+   }
+  ],
+  "trap_en": "Hindi's आखिरी versus नवीनतम distinction isn't reinforced in daily speech, so learners use 'last' for 'most recent' even when more updates are expected."
+ },
+ {
+  "id": "cf:near-nearby",
+  "a": "near",
+  "b": "nearby",
+  "c": null,
+  "rule_en": "'Near' is usually a preposition ('near the office') or adjective before a noun ('the near future'); 'nearby' is an adjective/adverb meaning 'a short distance away', often standing alone or before a noun.",
+  "rule_hi": "'Near' आमतौर पर एक पूर्वसर्ग है ('near the office') या संज्ञा से पहले विशेषण ('the near future'); 'nearby' एक विशेषण या क्रिया-विशेषण है जिसका अर्थ है 'थोड़ी दूरी पर', जो अक्सर अकेले या संज्ञा से पहले खड़ा होता है।",
+  "examples": [
+   {
+    "en": "The data center is near the airport.",
+    "hi": "डेटा सेंटर एयरपोर्ट के पास है।",
+    "uses": "near"
+   },
+   {
+    "en": "There is a nearby cafe where we discuss architecture over coffee.",
+    "hi": "पास में एक कैफे है जहां हम कॉफी पर आर्किटेक्चर पर चर्चा करते हैं।",
+    "uses": "nearby"
+   },
+   {
+    "en": "Is there a printer nearby?",
+    "hi": "क्या पास में कोई प्रिंटर है?",
+    "uses": "nearby"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Our office is ___ the metro station.",
+    "answer": "near"
+   },
+   {
+    "sentence": "There's a ___ restaurant we always order from.",
+    "answer": "nearby"
+   },
+   {
+    "sentence": "Is there a backup server ___?",
+    "answer": "nearby"
+   }
+  ],
+  "trap_en": "Hindi's पास works both as a preposition and as a standalone adjective, so learners don't feel the grammatical need to switch between 'near' and 'nearby'."
+ },
+ {
+  "id": "cf:hard-hardly",
+  "a": "hard",
+  "b": "hardly",
+  "c": null,
+  "rule_en": "'Hard' as an adverb means 'with great effort or force' (works hard); 'hardly' means 'almost not at all' and is not the adverb form of 'hard'.",
+  "rule_hi": "क्रिया-विशेषण के रूप में 'hard' का अर्थ है 'बहुत मेहनत या ज़ोर से' (works hard); 'hardly' का अर्थ है 'लगभग बिल्कुल नहीं' — यह 'hard' का क्रिया-विशेषण रूप नहीं है।",
+  "examples": [
+   {
+    "en": "She works hard to keep the systems secure.",
+    "hi": "वह सिस्टम को सुरक्षित रखने के लिए कड़ी मेहनत करती है।",
+    "uses": "hard"
+   },
+   {
+    "en": "I could hardly read the corrupted log file.",
+    "hi": "मैं भ्रष्ट लॉग फ़ाइल को लगभग बिल्कुल नहीं पढ़ पाया।",
+    "uses": "hardly"
+   },
+   {
+    "en": "He hardly ever misses a deployment window.",
+    "hi": "वह लगभग कभी भी डिप्लॉयमेंट विंडो नहीं चूकता।",
+    "uses": "hardly"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The team worked ___ to fix the outage before the deadline.",
+    "answer": "hard"
+   },
+   {
+    "sentence": "I ___ slept last night because of the on-call alerts.",
+    "answer": "hardly"
+   },
+   {
+    "sentence": "This puzzle is really ___ to solve.",
+    "answer": "hard"
+   }
+  ],
+  "trap_en": "Learners assume 'hardly' is simply 'hard + ly' the way most Hindi-taught adverb rules suggest, such as quick to quickly, so they wrongly use it to mean 'with great effort'."
+ },
+ {
+  "id": "cf:late-lately",
+  "a": "late",
+  "b": "lately",
+  "c": null,
+  "rule_en": "'Late' means after the expected time, or in the final part of a period; 'lately' means 'recently' and is used with the present perfect tense.",
+  "rule_hi": "'Late' का अर्थ है अपेक्षित समय के बाद, या किसी अवधि के अंतिम भाग में; 'lately' का अर्थ है 'हाल ही में' और इसका प्रयोग present perfect काल के साथ होता है।",
+  "examples": [
+   {
+    "en": "He arrived late for the incident call.",
+    "hi": "वह घटना कॉल के लिए देर से पहुंचा।",
+    "uses": "late"
+   },
+   {
+    "en": "We have had a lot of false alerts lately.",
+    "hi": "हाल ही में हमें बहुत सारे झूठे अलर्ट मिले हैं।",
+    "uses": "lately"
+   },
+   {
+    "en": "I've been working late every night this week.",
+    "hi": "मैं इस हफ्ते हर रात देर तक काम कर रहा हूं।",
+    "uses": "late"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Have you seen any suspicious logins ___?",
+    "answer": "lately"
+   },
+   {
+    "sentence": "Sorry I'm ___; the traffic was bad.",
+    "answer": "late"
+   },
+   {
+    "sentence": "She has been reviewing more pull requests ___.",
+    "answer": "lately"
+   }
+  ],
+  "trap_en": "Because 'lately' looks like the '-ly' adverb form of 'late', learners assume it simply means 'in a late manner' instead of 'recently'."
+ },
+ {
+  "id": "cf:fun-funny",
+  "a": "fun",
+  "b": "funny",
+  "c": null,
+  "rule_en": "'Fun' means enjoyable or pleasant; 'funny' means causing laughter, or sometimes strange or suspicious.",
+  "rule_hi": "'Fun' का अर्थ है आनंददायक या सुखद; 'funny' का अर्थ है हंसी पैदा करने वाला, या कभी-कभी अजीब या संदिग्ध।",
+  "examples": [
+   {
+    "en": "Solving CTF challenges is really fun.",
+    "hi": "CTF चुनौतियों को हल करना वाकई मज़ेदार है।",
+    "uses": "fun"
+   },
+   {
+    "en": "He told a funny joke about password managers.",
+    "hi": "उसने पासवर्ड मैनेजर के बारे में एक मज़ाकिया चुटकुला सुनाया।",
+    "uses": "funny"
+   },
+   {
+    "en": "Something funny is happening with this login attempt.",
+    "hi": "इस लॉगिन प्रयास में कुछ अजीब हो रहा है।",
+    "uses": "funny"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "That escape room was so ___ to solve with the team.",
+    "answer": "fun"
+   },
+   {
+    "sentence": "He always tells ___ stories about his first job.",
+    "answer": "funny"
+   },
+   {
+    "sentence": "There's something ___ about this traffic pattern; let's investigate.",
+    "answer": "funny"
+   }
+  ],
+  "trap_en": "Hindi's मज़ेदार covers both 'enjoyable' and 'amusing', so learners use 'funny' to mean 'fun' and accidentally imply something is comical."
+ },
+ {
+  "id": "cf:travel-trip-journey",
+  "a": "travel",
+  "b": "trip",
+  "c": "journey",
+  "rule_en": "'Travel' is usually a verb or an uncountable noun for the general activity; 'trip' is a countable noun for a single short visit somewhere, there and back; 'journey' is a countable noun that emphasizes the process of going a long distance.",
+  "rule_hi": "'Travel' आमतौर पर एक क्रिया या सामान्य गतिविधि के लिए अगणनीय संज्ञा है; 'trip' किसी एक स्थान की छोटी यात्रा, जाना और आना, के लिए गणनीय संज्ञा है; 'journey' एक गणनीय संज्ञा है जो लंबी दूरी तय करने की प्रक्रिया पर ज़ोर देती है।",
+  "examples": [
+   {
+    "en": "I love to travel for security conferences.",
+    "hi": "मुझे सुरक्षा सम्मेलनों के लिए यात्रा करना पसंद है।",
+    "uses": "travel"
+   },
+   {
+    "en": "We took a short trip to the client's office in Pune.",
+    "hi": "हमने पुणे में क्लाइंट के ऑफिस की एक छोटी यात्रा की।",
+    "uses": "trip"
+   },
+   {
+    "en": "The journey from Mumbai to the conference took ten hours.",
+    "hi": "मुंबई से सम्मेलन तक की यात्रा में दस घंटे लगे।",
+    "uses": "journey"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Our team is planning a business ___ to the Singapore office.",
+    "answer": "trip"
+   },
+   {
+    "sentence": "The long ___ across three time zones left everyone tired.",
+    "answer": "journey"
+   },
+   {
+    "sentence": "He loves to ___ during his vacations.",
+    "answer": "travel"
+   }
+  ],
+  "trap_en": "Hindi's यात्रा covers travel, trip, and journey without distinguishing countable single visits from the general activity, so learners pick one English word for all three."
+ },
+ {
+  "id": "cf:good-well",
+  "a": "good",
+  "b": "well",
+  "c": null,
+  "rule_en": "'Good' is an adjective describing a noun; 'well' is usually an adverb describing how an action is done, though 'well' can also be an adjective meaning 'healthy'.",
+  "rule_hi": "'Good' एक विशेषण है जो किसी संज्ञा का वर्णन करता है; 'well' आमतौर पर एक क्रिया-विशेषण है जो बताता है कि कोई कार्य कैसे किया गया, हालांकि 'well' एक विशेषण के रूप में 'स्वस्थ' भी अर्थ रख सकता है।",
+  "examples": [
+   {
+    "en": "She is a good developer.",
+    "hi": "वह एक अच्छी डेवलपर है।",
+    "uses": "good"
+   },
+   {
+    "en": "She codes well under pressure.",
+    "hi": "वह दबाव में अच्छे से कोड करती है।",
+    "uses": "well"
+   },
+   {
+    "en": "He doesn't feel well today, so he's working from home.",
+    "hi": "आज उसकी तबीयत ठीक नहीं है, इसलिए वह घर से काम कर रहा है।",
+    "uses": "well"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "He performed ___ during the incident response drill.",
+    "answer": "well"
+   },
+   {
+    "sentence": "That was a ___ solution to a tricky bug.",
+    "answer": "good"
+   },
+   {
+    "sentence": "The new hire writes ___ documentation.",
+    "answer": "good"
+   }
+  ],
+  "trap_en": "Hindi's अच्छा is used for both the adjective and adverb sense, so learners say 'She codes good' instead of switching to the adverb 'well'."
+ },
+ {
+  "id": "cf:fast-quick-quickly",
+  "a": "fast",
+  "b": "quick",
+  "c": "quickly",
+  "rule_en": "'Fast' and 'quick' are both adjectives, and 'fast' can also be an adverb, meaning rapid, with 'quick' often implying something done in a short time rather than at high speed; 'quickly' is the adverb form used to describe how an action is performed.",
+  "rule_hi": "'Fast' और 'quick' दोनों विशेषण हैं, और 'fast' क्रिया-विशेषण भी हो सकता है, जिनका अर्थ है तेज़, जिसमें 'quick' अक्सर कम समय में होने वाले काम की ओर इशारा करता है; 'quickly' क्रिया-विशेषण रूप है जो बताता है कि कोई कार्य कैसे किया गया।",
+  "examples": [
+   {
+    "en": "He typed the command fast.",
+    "hi": "उसने कमांड तेज़ी से टाइप की।",
+    "uses": "fast"
+   },
+   {
+    "en": "That was a quick fix for the bug.",
+    "hi": "वह बग के लिए एक झटपट समाधान था।",
+    "uses": "quick"
+   },
+   {
+    "en": "She quickly patched the vulnerability before the scan finished.",
+    "hi": "स्कैन खत्म होने से पहले ही उसने भेद्यता को जल्दी से ठीक कर दिया।",
+    "uses": "quickly"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "He responded ___ to the security alert.",
+    "answer": "quickly"
+   },
+   {
+    "sentence": "This is a ___ way to check for open ports.",
+    "answer": "quick"
+   },
+   {
+    "sentence": "The new SSD makes the laptop run much ___.",
+    "answer": "faster"
+   }
+  ],
+  "trap_en": "Hindi's जल्दी works as both adjective and adverb without a form change, so learners often use 'quick' as an adverb, like 'he did it quick', instead of 'quickly'."
+ },
+ {
+  "id": "cf:big-great",
+  "a": "big",
+  "b": "great",
+  "c": null,
+  "rule_en": "'Big' describes physical size or scale and is neutral; 'great' expresses high quality, importance, or excellence and is evaluative.",
+  "rule_hi": "'Big' भौतिक आकार या पैमाने का वर्णन करता है और तटस्थ है; 'great' उच्च गुणवत्ता, महत्व, या उत्कृष्टता को व्यक्त करता है और मूल्यांकनात्मक है।",
+  "examples": [
+   {
+    "en": "This is a big codebase with millions of lines.",
+    "hi": "यह लाखों लाइनों वाला एक बड़ा कोडबेस है।",
+    "uses": "big"
+   },
+   {
+    "en": "That was a great presentation on threat modeling.",
+    "hi": "वह खतरा मॉडलिंग पर एक शानदार प्रस्तुति थी।",
+    "uses": "great"
+   },
+   {
+    "en": "We found a big security hole in the API.",
+    "hi": "हमें एपीआई में एक बड़ा सुरक्षा छेद मिला।",
+    "uses": "big"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "That's a ___ idea for improving our incident response.",
+    "answer": "great"
+   },
+   {
+    "sentence": "They migrated a ___ database to the new cloud provider.",
+    "answer": "big"
+   },
+   {
+    "sentence": "He did a ___ job explaining the vulnerability to management.",
+    "answer": "great"
+   }
+  ],
+  "trap_en": "Hindi's बड़ा covers both physical size and general excellence, so learners use 'big' where English requires the evaluative 'great'."
+ },
+ {
+  "id": "cf:small-little",
+  "a": "small",
+  "b": "little",
+  "c": null,
+  "rule_en": "'Small' is a neutral, objective description of size; 'little' often adds an emotional or subjective tone, such as affection, in addition to size.",
+  "rule_hi": "'Small' आकार का एक तटस्थ, वस्तुनिष्ठ वर्णन है; 'little' अक्सर आकार के साथ-साथ एक भावनात्मक या व्यक्तिपरक स्वर, जैसे स्नेह, भी जोड़ता है।",
+  "examples": [
+   {
+    "en": "This is a small startup with ten employees.",
+    "hi": "यह दस कर्मचारियों वाला एक छोटा स्टार्टअप है।",
+    "uses": "small"
+   },
+   {
+    "en": "He made a poor little script that somehow runs the whole pipeline.",
+    "hi": "उसने एक बेचारा सा छोटा स्क्रिप्ट बनाया जो किसी तरह पूरी पाइपलाइन चलाता है।",
+    "uses": "little"
+   },
+   {
+    "en": "There's a small chance the patch breaks compatibility.",
+    "hi": "पैच के संगतता तोड़ने की एक छोटी सी संभावना है।",
+    "uses": "small"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "They started with just a ___ team of three engineers.",
+    "answer": "small"
+   },
+   {
+    "sentence": "He wrote a cute ___ tool to automate backups.",
+    "answer": "little"
+   },
+   {
+    "sentence": "The bug caused only a ___ delay in processing.",
+    "answer": "small"
+   }
+  ],
+  "trap_en": "Hindi's छोटा doesn't separate neutral size from affectionate smallness, so learners can't judge when English speakers reach for 'little' instead of plain 'small'."
+ },
+ {
+  "id": "cf:tall-high",
+  "a": "tall",
+  "b": "high",
+  "c": null,
+  "rule_en": "'Tall' describes the height of people, animals, and narrow upright things like buildings and trees; 'high' describes the distance from the ground or base for most other things, and also abstract levels such as high priority or high risk.",
+  "rule_hi": "'Tall' लोगों, जानवरों, और संकरी खड़ी चीज़ों जैसे इमारतें और पेड़ों की ऊंचाई का वर्णन करता है; 'high' अधिकांश अन्य चीज़ों के लिए ज़मीन या आधार से दूरी का वर्णन करता है, और अमूर्त स्तरों जैसे उच्च प्राथमिकता या उच्च जोखिम के लिए भी।",
+  "examples": [
+   {
+    "en": "He is a tall developer who plays basketball.",
+    "hi": "वह एक लंबा डेवलपर है जो बास्केटबॉल खेलता है।",
+    "uses": "tall"
+   },
+   {
+    "en": "This vulnerability has a high severity score.",
+    "hi": "इस भेद्यता का गंभीरता स्कोर उच्च है।",
+    "uses": "high"
+   },
+   {
+    "en": "The office building is quite tall, with 20 floors.",
+    "hi": "ऑफिस की इमारत काफी ऊंची है, जिसमें 20 मंज़िलें हैं।",
+    "uses": "tall"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "This bug has a ___ priority; fix it first.",
+    "answer": "high"
+   },
+   {
+    "sentence": "She is the ___est person on our team.",
+    "answer": "tall"
+   },
+   {
+    "sentence": "The server rack is quite ___.",
+    "answer": "tall"
+   }
+  ],
+  "trap_en": "Hindi's ऊंचा covers both people's height and abstract levels, so learners say 'tall risk' instead of 'high risk'."
+ },
+ {
+  "id": "cf:thin-slim-skinny",
+  "a": "thin",
+  "b": "slim",
+  "c": "skinny",
+  "rule_en": "'Thin' is a neutral word for having little body fat or width; 'slim' is a more positive, complimentary word for a slender, attractive build; 'skinny' often has a slightly negative or blunt tone, suggesting too thin.",
+  "rule_hi": "'Thin' शरीर में कम चर्बी या कम चौड़ाई के लिए एक तटस्थ शब्द है; 'slim' एक पतले, आकर्षक शरीर के लिए अधिक सकारात्मक और प्रशंसात्मक शब्द है; 'skinny' में अक्सर हल्का नकारात्मक या सीधा स्वर होता है, जो बहुत ज़्यादा दुबलेपन की ओर इशारा करता है।",
+  "examples": [
+   {
+    "en": "The wire is very thin and can break easily.",
+    "hi": "यह तार बहुत पतला है और आसानी से टूट सकता है।",
+    "uses": "thin"
+   },
+   {
+    "en": "She looks slim and fit after joining the gym.",
+    "hi": "जिम जॉइन करने के बाद वह पतली और फिट दिखती है।",
+    "uses": "slim"
+   },
+   {
+    "en": "He was so skinny after being sick for a month.",
+    "hi": "एक महीने बीमार रहने के बाद वह बहुत दुबला-पतला हो गया था।",
+    "uses": "skinny"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The laptop has a ___ new design, very sleek.",
+    "answer": "slim"
+   },
+   {
+    "sentence": "This cable is too ___ to carry that much current.",
+    "answer": "thin"
+   },
+   {
+    "sentence": "He looked ___ after skipping meals during the crunch week.",
+    "answer": "skinny"
+   }
+  ],
+  "trap_en": "Hindi's पतला applies to thin, slim, and skinny alike without any positive or negative shading, so learners can accidentally sound rude by calling someone 'skinny' when 'slim' was intended as a compliment."
+ },
+ {
+  "id": "cf:fat-overweight",
+  "a": "fat",
+  "b": "overweight",
+  "c": null,
+  "rule_en": "'Fat' is a direct, blunt word for having a lot of body fat and can sound rude in casual conversation; 'overweight' is a more polite, clinical term meaning heavier than a healthy range.",
+  "rule_hi": "'Fat' शरीर में अधिक चर्बी के लिए एक सीधा, बेबाक शब्द है और सामान्य बातचीत में असभ्य लग सकता है; 'overweight' एक अधिक विनम्र, चिकित्सकीय शब्द है जिसका अर्थ है स्वस्थ सीमा से भारी।",
+  "examples": [
+   {
+    "en": "Don't call your colleague fat; it's rude.",
+    "hi": "अपने सहकर्मी को fat मत कहिए; यह असभ्य है।",
+    "uses": "fat"
+   },
+   {
+    "en": "The doctor said he was slightly overweight and suggested more exercise.",
+    "hi": "डॉक्टर ने कहा कि उसका वज़न थोड़ा अधिक है और उसे और व्यायाम करना चाहिए।",
+    "uses": "overweight"
+   },
+   {
+    "en": "Sitting all day writing code can make people overweight.",
+    "hi": "पूरे दिन बैठकर कोड लिखने से लोगों का वज़न बढ़ सकता है।",
+    "uses": "overweight"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The health app flagged him as slightly ___ (polite term).",
+    "answer": "overweight"
+   },
+   {
+    "sentence": "It's rude to call someone ___ directly.",
+    "answer": "fat"
+   },
+   {
+    "sentence": "Long hours at the desk contributed to him becoming ___.",
+    "answer": "overweight"
+   }
+  ],
+  "trap_en": "Hindi's मोटा is used casually without the same social taboo as English 'fat', so learners don't realize how blunt 'fat' can sound and use it where 'overweight' is safer."
+ },
+ {
+  "id": "cf:old-elder-older",
+  "a": "old",
+  "b": "elder",
+  "c": "older",
+  "rule_en": "'Old' is the general adjective for age; 'older' is its comparative form for comparing ages directly; 'elder' is used mainly for family members to show relative age within a family, such as elder brother or sister, or as a noun for a respected senior person.",
+  "rule_hi": "'Old' उम्र के लिए सामान्य विशेषण है; 'older' इसका तुलनात्मक रूप है जो सीधे उम्र की तुलना करता है; 'elder' मुख्य रूप से परिवार के सदस्यों के लिए उपयोग होता है ताकि परिवार में सापेक्ष उम्र दिखाई जा सके, जैसे elder brother/sister, या किसी सम्मानित वरिष्ठ व्यक्ति के लिए संज्ञा के रूप में।",
+  "examples": [
+   {
+    "en": "He is an old friend from college.",
+    "hi": "वह कॉलेज का एक पुराना दोस्त है।",
+    "uses": "old"
+   },
+   {
+    "en": "My elder sister works as a network engineer.",
+    "hi": "मेरी बड़ी बहन एक नेटवर्क इंजीनियर के रूप में काम करती है।",
+    "uses": "elder"
+   },
+   {
+    "en": "He is three years older than me.",
+    "hi": "वह मुझसे तीन साल बड़ा है।",
+    "uses": "older"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "My ___ brother taught me how to code.",
+    "answer": "elder"
+   },
+   {
+    "sentence": "This server is much ___ than the new one we bought.",
+    "answer": "older"
+   },
+   {
+    "sentence": "That is a really ___ laptop; it still runs Windows 7.",
+    "answer": "old"
+   }
+  ],
+  "trap_en": "Hindi's बड़ा is used for both family seniority and general comparative age, so learners use 'elder' even for non-family comparisons where English needs 'older'."
+ },
+ {
+  "id": "cf:expensive-costly",
+  "a": "expensive",
+  "b": "costly",
+  "c": null,
+  "rule_en": "'Expensive' is the common, everyday word for a high price; 'costly' is more formal or literary, and often implies a high price paid in effort, consequences, or resources, not just money.",
+  "rule_hi": "'Expensive' उच्च मूल्य के लिए सामान्य, रोज़मर्रा का शब्द है; 'costly' अधिक औपचारिक या साहित्यिक है, और अक्सर सिर्फ पैसे ही नहीं बल्कि प्रयास, परिणाम, या संसाधनों में चुकाई गई ऊंची कीमत का संकेत देता है।",
+  "examples": [
+   {
+    "en": "This laptop is quite expensive.",
+    "hi": "यह लैपटॉप काफी महंगा है।",
+    "uses": "expensive"
+   },
+   {
+    "en": "Ignoring that vulnerability turned out to be a costly mistake.",
+    "hi": "उस भेद्यता को नज़रअंदाज़ करना एक महंगी गलती साबित हुई।",
+    "uses": "costly"
+   },
+   {
+    "en": "Enterprise licenses can be very expensive for small teams.",
+    "hi": "एंटरप्राइज़ लाइसेंस छोटी टीमों के लिए बहुत महंगे हो सकते हैं।",
+    "uses": "expensive"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Skipping the code review was a ___ mistake for the whole project.",
+    "answer": "costly"
+   },
+   {
+    "sentence": "That security tool is too ___ for our budget.",
+    "answer": "expensive"
+   },
+   {
+    "sentence": "A data breach can be a very ___ event for a company.",
+    "answer": "costly"
+   }
+  ],
+  "trap_en": "Both words translate to the same Hindi word महंगा, so learners cannot hear the more formal, consequence-focused tone that 'costly' carries in English."
+ },
+ {
+  "id": "cf:cheap-inexpensive",
+  "a": "cheap",
+  "b": "inexpensive",
+  "c": null,
+  "rule_en": "'Cheap' can mean low-priced, but often also implies low quality; 'inexpensive' is a neutral, more polite word that means low-priced without suggesting poor quality.",
+  "rule_hi": "'Cheap' का अर्थ कम कीमत हो सकता है, लेकिन अक्सर यह निम्न गुणवत्ता का भी संकेत देता है; 'inexpensive' एक तटस्थ, अधिक विनम्र शब्द है जिसका अर्थ है कम कीमत, बिना खराब गुणवत्ता का संकेत दिए।",
+  "examples": [
+   {
+    "en": "This cheap router keeps disconnecting.",
+    "hi": "यह सस्ता राउटर बार-बार डिस्कनेक्ट हो जाता है।",
+    "uses": "cheap"
+   },
+   {
+    "en": "We found an inexpensive but reliable hosting provider.",
+    "hi": "हमें एक किफायती लेकिन भरोसेमंद होस्टिंग प्रदाता मिला।",
+    "uses": "inexpensive"
+   },
+   {
+    "en": "Don't use a cheap padlock for a server room door.",
+    "hi": "सर्वर रूम के दरवाज़े के लिए सस्ता ताला मत लगाइए।",
+    "uses": "cheap"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "We chose an ___ but well-reviewed monitor for the office.",
+    "answer": "inexpensive"
+   },
+   {
+    "sentence": "That ___ keyboard broke within a week.",
+    "answer": "cheap"
+   },
+   {
+    "sentence": "There are many ___ VPN services, but check their privacy policy first.",
+    "answer": "inexpensive"
+   }
+  ],
+  "trap_en": "Hindi's सस्ता doesn't carry the negative quality implication that English 'cheap' often does, so learners use 'cheap' neutrally and unintentionally insult a product."
+ },
+ {
+  "id": "cf:rob-steal",
+  "a": "rob",
+  "b": "steal",
+  "c": null,
+  "rule_en": "'Rob' takes a person or place as its object, as in rob a bank or rob someone; 'steal' takes the thing that is taken as its object, as in steal money or steal data.",
+  "rule_hi": "'Rob' का ऑब्जेक्ट व्यक्ति या स्थान होता है, जैसे rob a bank; 'steal' का ऑब्जेक्ट वह चीज़ होती है जिसे चुराया गया, जैसे steal money या steal data।",
+  "examples": [
+   {
+    "en": "The attacker stole customer credit card numbers.",
+    "hi": "हमलावर ने ग्राहकों के क्रेडिट कार्ड नंबर चुरा लिए।",
+    "uses": "steal"
+   },
+   {
+    "en": "They robbed the bank by exploiting a weak API.",
+    "hi": "उन्होंने एक कमज़ोर एपीआई का फायदा उठाकर बैंक को लूट लिया।",
+    "uses": "rob"
+   },
+   {
+    "en": "Someone stole his laptop from the cafe.",
+    "hi": "किसी ने कैफे से उसका लैपटॉप चुरा लिया।",
+    "uses": "steal"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Hackers ___ millions of user passwords in the breach.",
+    "answer": "stole"
+   },
+   {
+    "sentence": "The gang planned to ___ the jewellery store.",
+    "answer": "rob"
+   },
+   {
+    "sentence": "Someone tried to ___ session tokens using this script.",
+    "answer": "steal"
+   }
+  ],
+  "trap_en": "Hindi's चोरी करना versus लूटना distinction exists but isn't tied strictly to person-versus-thing objects, so learners mix up which noun follows 'rob' and which follows 'steal'."
+ },
+ {
+  "id": "cf:kill-murder",
+  "a": "kill",
+  "b": "murder",
+  "c": null,
+  "rule_en": "'Kill' is a general, neutral verb for causing death by any cause, intentional or not; 'murder' specifically means to kill a person unlawfully and intentionally.",
+  "rule_hi": "'Kill' मृत्यु का कारण बनने के लिए एक सामान्य, तटस्थ क्रिया है, चाहे इरादतन हो या अनजाने में; 'murder' विशेष रूप से किसी व्यक्ति को गैरकानूनी और जानबूझकर मार डालने का अर्थ रखता है।",
+  "examples": [
+   {
+    "en": "The crash killed the connection instantly.",
+    "hi": "क्रैश ने कनेक्शन को तुरंत खत्म कर दिया।",
+    "uses": "kill"
+   },
+   {
+    "en": "Police are investigating the murder case downtown.",
+    "hi": "पुलिस शहर में हुई हत्या के मामले की जांच कर रही है।",
+    "uses": "murder"
+   },
+   {
+    "en": "The mosquito was killed with a single spray.",
+    "hi": "मच्छर एक ही स्प्रे से मार दिया गया।",
+    "uses": "kill"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Please ___ that background process; it's using too much CPU.",
+    "answer": "kill"
+   },
+   {
+    "sentence": "The suspect was arrested for ___.",
+    "answer": "murder"
+   },
+   {
+    "sentence": "The frost ___ed all the plants overnight.",
+    "answer": "kill"
+   }
+  ],
+  "trap_en": "Hindi has मारना versus हत्या करना as two distinct words too, but learners often generalize 'murder' to any kind of killing because it sounds more dramatic in English media."
+ },
+ {
+  "id": "cf:shade-shadow",
+  "a": "shade",
+  "b": "shadow",
+  "c": null,
+  "rule_en": "'Shade' is the general area protected from direct sunlight, cooler and comfortable; 'shadow' is the specific dark shape cast by an object blocking light.",
+  "rule_hi": "'Shade' सीधी धूप से सुरक्षित सामान्य क्षेत्र है, ठंडा और आरामदायक; 'shadow' किसी वस्तु द्वारा प्रकाश को रोकने से बनने वाला विशिष्ट अंधेरा आकार है।",
+  "examples": [
+   {
+    "en": "Let's sit in the shade; it's too hot outside.",
+    "hi": "चलो छाया में बैठते हैं; बाहर बहुत गर्मी है।",
+    "uses": "shade"
+   },
+   {
+    "en": "I saw a shadow move across the wall.",
+    "hi": "मैंने दीवार पर एक परछाई हिलते हुए देखी।",
+    "uses": "shadow"
+   },
+   {
+    "en": "The tree provides good shade in summer.",
+    "hi": "वह पेड़ गर्मियों में अच्छी छाया देता है।",
+    "uses": "shade"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Park the car in the ___ so it doesn't get too hot.",
+    "answer": "shade"
+   },
+   {
+    "sentence": "The building casts a long ___ in the evening.",
+    "answer": "shadow"
+   },
+   {
+    "sentence": "There's not much ___ near the office entrance.",
+    "answer": "shade"
+   }
+  ],
+  "trap_en": "Hindi's छाया covers both the general cool area and the dark shape cast by an object, so learners don't naturally separate 'shade' from 'shadow'."
+ },
+ {
+  "id": "cf:sky-heaven",
+  "a": "sky",
+  "b": "heaven",
+  "c": null,
+  "rule_en": "'Sky' is the physical space above the earth that you can see, including clouds, stars, and planes; 'heaven' is the religious or spiritual place believed to be where good souls go after death.",
+  "rule_hi": "'Sky' पृथ्वी के ऊपर का भौतिक आकाश है जिसे आप देख सकते हैं, जैसे बादल, तारे, हवाई जहाज़; 'heaven' वह धार्मिक या आध्यात्मिक स्थान है जहां माना जाता है कि मृत्यु के बाद अच्छी आत्माएं जाती हैं।",
+  "examples": [
+   {
+    "en": "The sky turned orange during the sunset.",
+    "hi": "सूर्यास्त के समय आसमान नारंगी हो गया।",
+    "uses": "sky"
+   },
+   {
+    "en": "Many religions believe good people go to heaven.",
+    "hi": "कई धर्म मानते हैं कि अच्छे लोग स्वर्ग जाते हैं।",
+    "uses": "heaven"
+   },
+   {
+    "en": "We watched the drone fly high in the sky.",
+    "hi": "हमने ड्रोन को आसमान में ऊंचा उड़ते देखा।",
+    "uses": "sky"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "The stars are visible in a clear night ___.",
+    "answer": "sky"
+   },
+   {
+    "sentence": "He believes his grandmother is in ___ now.",
+    "answer": "heaven"
+   },
+   {
+    "sentence": "The plane disappeared into the ___.",
+    "answer": "sky"
+   }
+  ],
+  "trap_en": "Hindi's आकाश and आसमान can sometimes carry the poetic or spiritual overtone that 'heaven' has, causing learners to use 'sky' and 'heaven' interchangeably in translated speech."
+ },
+ {
+  "id": "cf:salary-wage-pay",
+  "a": "salary",
+  "b": "wage",
+  "c": "pay",
+  "rule_en": "'Salary' is a fixed regular payment, usually monthly or annual, for professional or office jobs; 'wage' is payment calculated by the hour or by output, typically for manual or hourly work; 'pay' is the general, informal word covering any money earned for work.",
+  "rule_hi": "'Salary' एक निश्चित नियमित भुगतान है, आमतौर पर मासिक या वार्षिक, पेशेवर या कार्यालय नौकरियों के लिए; 'wage' प्रति घंटा या उत्पादन के अनुसार गणना किया गया भुगतान है, आमतौर पर शारीरिक श्रम या घंटे के काम के लिए; 'pay' काम के बदले कमाए गए किसी भी पैसे को कवर करने वाला सामान्य, अनौपचारिक शब्द है।",
+  "examples": [
+   {
+    "en": "Her salary as a security analyst increased this year.",
+    "hi": "इस साल सुरक्षा विश्लेषक के रूप में उसकी तनख्वाह बढ़ गई।",
+    "uses": "salary"
+   },
+   {
+    "en": "The factory workers are paid an hourly wage.",
+    "hi": "फैक्ट्री के मज़दूरों को प्रति घंटा मज़दूरी दी जाती है।",
+    "uses": "wage"
+   },
+   {
+    "en": "Is the pay good at your new company?",
+    "hi": "क्या आपकी नई कंपनी में वेतन अच्छा है?",
+    "uses": "pay"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "He negotiated a higher ___ before accepting the job offer.",
+    "answer": "salary"
+   },
+   {
+    "sentence": "Minimum ___ laws protect hourly workers.",
+    "answer": "wage"
+   },
+   {
+    "sentence": "The ___ for freelance security consulting can vary a lot.",
+    "answer": "pay"
+   }
+  ],
+  "trap_en": "Hindi's तनख्वाह and वेतन are used loosely for any kind of earnings, so learners don't distinguish the fixed monthly 'salary' from hourly 'wage'."
+ },
+ {
+  "id": "cf:revert-reply",
+  "a": "revert",
+  "b": "reply",
+  "c": null,
+  "rule_en": "In standard English, 'revert' means to go back to a previous state or condition and does not mean 'reply'. 'Reply' means to answer a message or question. Indian English commonly, but non-standardly, uses 'revert' to mean 'reply', which can confuse readers outside India.",
+  "rule_hi": "मानक अंग्रेज़ी में, 'revert' का अर्थ है किसी पिछली स्थिति में वापस जाना; इसका अर्थ 'जवाब देना' नहीं होता। 'Reply' का अर्थ है किसी संदेश या प्रश्न का उत्तर देना। भारतीय अंग्रेज़ी में आमतौर पर, गैर-मानक रूप से, 'revert' का उपयोग 'reply' के अर्थ में किया जाता है, जो भारत के बाहर के पाठकों को भ्रमित कर सकता है।",
+  "examples": [
+   {
+    "en": "Indian English (non-standard): I will revert to you by tomorrow with the report.",
+    "hi": "भारतीय अंग्रेज़ी (गैर-मानक): मैं कल तक आपको रिपोर्ट के साथ जवाब दूंगा।",
+    "uses": "revert"
+   },
+   {
+    "en": "Standard English: Please reply to my email with the report.",
+    "hi": "मानक अंग्रेज़ी: कृपया मेरे ईमेल का उत्तर रिपोर्ट के साथ दें।",
+    "uses": "reply"
+   },
+   {
+    "en": "Standard English: After the failed test, the system reverted to the previous configuration.",
+    "hi": "मानक अंग्रेज़ी: विफल परीक्षण के बाद, सिस्टम पिछली कॉन्फ़िगरेशन पर वापस चला गया।",
+    "uses": "revert"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "Please ___ to this email once you've reviewed the ticket (standard English).",
+    "answer": "reply"
+   },
+   {
+    "sentence": "If the deployment fails, the script will ___ to the last stable version.",
+    "answer": "revert"
+   },
+   {
+    "sentence": "I'll ___ back with an update by end of day (Indian English usage).",
+    "answer": "revert"
+   }
+  ],
+  "trap_en": "Indian corporate English loosely translated the Hindi phrase वापस भेजना/वापस आना into 'revert', creating a widely used but non-standard sense that differs from international English."
+ },
+ {
+  "id": "cf:prepone-bring-forward",
+  "a": "prepone",
+  "b": "bring forward",
+  "c": null,
+  "rule_en": "'Prepone', meaning to move an event to an earlier time, is an Indian English coinage, the opposite of 'postpone', but it is not standard in British or American English; standard English instead uses phrases like 'bring forward' or 'move up' to express the same idea.",
+  "rule_hi": "'Prepone', जिसका अर्थ है किसी कार्यक्रम को पहले के समय पर ले जाना, एक भारतीय अंग्रेज़ी शब्द है, जो 'postpone' का विपरीत है, लेकिन यह ब्रिटिश या अमेरिकी अंग्रेज़ी में मानक नहीं है; मानक अंग्रेज़ी में इसी विचार को व्यक्त करने के लिए 'bring forward' या 'move up' जैसे वाक्यांशों का उपयोग किया जाता है।",
+  "examples": [
+   {
+    "en": "Indian English: Can we prepone the meeting to Monday instead of Wednesday?",
+    "hi": "भारतीय अंग्रेज़ी: क्या हम मीटिंग को बुधवार की जगह सोमवार को पहले कर सकते हैं?",
+    "uses": "prepone"
+   },
+   {
+    "en": "Standard English: Can we bring the meeting forward to Monday instead of Wednesday?",
+    "hi": "मानक अंग्रेज़ी: क्या हम मीटिंग को बुधवार की जगह सोमवार पर आगे ला सकते हैं?",
+    "uses": "bring forward"
+   },
+   {
+    "en": "Standard English: We had to move the release date up by a week.",
+    "hi": "मानक अंग्रेज़ी: हमें रिलीज़ की तारीख एक हफ्ते पहले करनी पड़ी।",
+    "uses": "bring forward"
+   }
+  ],
+  "quiz": [
+   {
+    "sentence": "In a global email thread, it's safer to write 'let's ___ the demo' than 'let's prepone the demo'.",
+    "answer": "bring forward"
+   },
+   {
+    "sentence": "Indian colleagues might casually ask to ___ the sprint review by two days.",
+    "answer": "prepone"
+   },
+   {
+    "sentence": "We need to ___ the deadline since the client wants an early launch.",
+    "answer": "bring forward"
+   }
+  ],
+  "trap_en": "Since 'postpone' has an antonym pattern with 'pre-', Indian English speakers logically created 'prepone', but this word never became standard internationally, so it can confuse non-Indian colleagues."
+ }
+]

@@ -1,0 +1,4002 @@
+[
+ {
+  "id": "dp:001",
+  "phrase": "Could you keep an eye on this?",
+  "hi": "क्या आप इस पर नज़र रख सकते हैं?",
+  "when_en": "You say this when asking someone to casually monitor something without handing over full responsibility.",
+  "when_hi": "जब आप किसी से किसी चीज़ पर हल्की नज़र रखने के लिए कहते हैं, बिना पूरी ज़िम्मेदारी दिए।",
+  "register": "neutral",
+  "stiff": "Kindly monitor the same.",
+  "examples": [
+   {
+    "en": "Could you keep an eye on this ticket while I'm at lunch?",
+    "hi": "जब मैं लंच पर हूँ, क्या आप इस टिकट पर नज़र रख सकते हैं?"
+   },
+   {
+    "en": "Keep an eye on the deployment, I'll be back in ten minutes.",
+    "hi": "डिप्लॉयमेंट पर नज़र रखना, मैं दस मिनट में वापस आता हूँ।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:002",
+  "phrase": "I'll get back to you.",
+  "hi": "मैं आपको बाद में बताता हूँ।",
+  "when_en": "You say this when you need time before giving a proper answer.",
+  "when_hi": "जब आपको जवाब देने से पहले कुछ समय चाहिए।",
+  "register": "neutral",
+  "stiff": "I shall revert on the same shortly.",
+  "examples": [
+   {
+    "en": "Let me check the numbers and I'll get back to you by evening.",
+    "hi": "मुझे आंकड़े देखने दो, शाम तक बता दूँगा।"
+   },
+   {
+    "en": "I'll get back to you once I've spoken to the client.",
+    "hi": "क्लाइंट से बात करने के बाद मैं आपको बताऊँगा।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:003",
+  "phrase": "That works for me.",
+  "hi": "यह मेरे लिए ठीक है।",
+  "when_en": "You say this to agree to a suggested plan or time.",
+  "when_hi": "जब आप किसी सुझाए गए प्लान या समय से सहमत होते हैं।",
+  "register": "neutral",
+  "stiff": "The same is acceptable to me.",
+  "examples": [
+   {
+    "en": "Three o'clock? That works for me.",
+    "hi": "तीन बजे? मेरे लिए ठीक है।"
+   },
+   {
+    "en": "If you want to shift the call to Monday, that works for me.",
+    "hi": "अगर आप कॉल को सोमवार तक शिफ्ट करना चाहते हैं, तो मेरे लिए ठीक है।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:004",
+  "phrase": "Let me check and confirm.",
+  "hi": "मुझे जांच कर बताने दो।",
+  "when_en": "You say this when you're not sure and need to verify before answering.",
+  "when_hi": "जब आप निश्चित नहीं हैं और जवाब देने से पहले पुष्टि करनी है।",
+  "register": "neutral",
+  "stiff": "Kindly allow me to verify and revert.",
+  "examples": [
+   {
+    "en": "I'm not sure if that's live yet, let me check and confirm.",
+    "hi": "मुझे यकीन नहीं कि यह लाइव हुआ है या नहीं, जांच कर बताता हूँ।"
+   },
+   {
+    "en": "Let me check and confirm the exact numbers before the meeting.",
+    "hi": "मीटिंग से पहले मुझे सही आंकड़े जांच कर बताने दो।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:005",
+  "phrase": "Just double-checking.",
+  "hi": "बस दोबारा जांच कर रहा हूँ।",
+  "when_en": "You say this to explain that you are verifying something already known, just to be safe.",
+  "when_hi": "जब आप कुछ पहले से जानी हुई बात को फिर से पुष्टि कर रहे हों, सिर्फ सावधानी के लिए।",
+  "register": "neutral",
+  "stiff": "This is merely for reconfirmation purposes.",
+  "examples": [
+   {
+    "en": "Just double-checking, the meeting is at 4, right?",
+    "hi": "बस दोबारा पूछ रहा हूँ, मीटिंग चार बजे है ना?"
+   },
+   {
+    "en": "I know you said yes already, just double-checking before I book it.",
+    "hi": "मुझे पता है आपने पहले ही हाँ कहा है, बुक करने से पहले बस दोबारा पूछ रहा हूँ।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:006",
+  "phrase": "I'm on it.",
+  "hi": "मैं इस पर काम कर रहा हूँ।",
+  "when_en": "You say this to reassure someone that you have already started working on a task.",
+  "when_hi": "जब आप किसी को यह भरोसा दिलाना चाहते हैं कि आपने काम शुरू कर दिया है।",
+  "register": "informal",
+  "stiff": "I have commenced action on the same.",
+  "examples": [
+   {
+    "en": "Can you fix that bug before the release? — I'm on it.",
+    "hi": "क्या तुम रिलीज़ से पहले वह बग ठीक कर सकते हो? — मैं इस पर काम कर रहा हूँ।"
+   },
+   {
+    "en": "Don't worry about the report, I'm on it.",
+    "hi": "रिपोर्ट की चिंता मत करो, मैं इस पर काम कर रहा हूँ।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:007",
+  "phrase": "Can I get back to you on that?",
+  "hi": "क्या मैं आपको इसके बारे में बाद में बता सकता हूँ?",
+  "when_en": "You say this when you're asked something you can't answer right away.",
+  "when_hi": "जब आपसे कुछ ऐसा पूछा जाए जिसका जवाब आप तुरंत नहीं दे सकते।",
+  "register": "neutral",
+  "stiff": "May I revert to you regarding the aforementioned matter.",
+  "examples": [
+   {
+    "en": "That's a good question, can I get back to you on that?",
+    "hi": "यह अच्छा सवाल है, क्या मैं इस पर बाद में बता सकता हूँ?"
+   },
+   {
+    "en": "I need to check with my manager, can I get back to you on that tomorrow?",
+    "hi": "मुझे अपने मैनेजर से पूछना होगा, क्या मैं कल इस बारे में बता सकता हूँ?"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:008",
+  "phrase": "I'll keep you posted.",
+  "hi": "मैं आपको अपडेट देता रहूँगा।",
+  "when_en": "You say this to promise ongoing updates on a situation.",
+  "when_hi": "जब आप किसी स्थिति पर लगातार जानकारी देने का वादा करते हैं।",
+  "register": "neutral",
+  "stiff": "I shall keep you apprised of the developments.",
+  "examples": [
+   {
+    "en": "The server issue is still being investigated, I'll keep you posted.",
+    "hi": "सर्वर की समस्या की अभी जांच चल रही है, मैं आपको अपडेट देता रहूँगा।"
+   },
+   {
+    "en": "We're waiting on approval, I'll keep you posted once it comes through.",
+    "hi": "हम मंज़ूरी का इंतज़ार कर रहे हैं, मिलते ही मैं आपको बताऊँगा।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:009",
+  "phrase": "Does that make sense?",
+  "hi": "क्या यह बात समझ में आई?",
+  "when_en": "You say this after explaining something, to check the other person followed you.",
+  "when_hi": "जब आप कुछ समझाने के बाद यह जांचना चाहते हैं कि सामने वाले को समझ आया या नहीं।",
+  "register": "neutral",
+  "stiff": "Is the aforementioned point comprehensible to you?",
+  "examples": [
+   {
+    "en": "So we deploy first, then run the tests. Does that make sense?",
+    "hi": "तो हम पहले डिप्लॉय करेंगे, फिर टेस्ट चलाएंगे। क्या यह समझ आया?"
+   },
+   {
+    "en": "I've explained the process twice now, does that make sense so far?",
+    "hi": "मैंने प्रक्रिया दो बार समझाई है, अब तक क्या समझ आया?"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:010",
+  "phrase": "Let's take this offline.",
+  "hi": "चलो इस पर अलग से बात करते हैं।",
+  "when_en": "You say this to suggest discussing something outside the current meeting or thread, usually one-on-one.",
+  "when_hi": "जब आप किसी विषय पर मीटिंग या ग्रुप चैट के बाहर, अलग से बात करने का सुझाव देते हैं।",
+  "register": "neutral",
+  "stiff": "Let us discuss the same in a separate forum.",
+  "examples": [
+   {
+    "en": "This is getting into details only two of us need, let's take this offline.",
+    "hi": "यह बात सिर्फ हम दोनों के लिए ज़रूरी है, चलो इस पर अलग से बात करते हैं।"
+   },
+   {
+    "en": "We're running out of time, let's take this offline and sync tomorrow.",
+    "hi": "समय कम है, चलो इस पर अलग से बात करते हैं और कल मिलते हैं।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:011",
+  "phrase": "Let me know if anything comes up.",
+  "hi": "अगर कुछ भी नई बात हो तो बता देना।",
+  "when_en": "You say this to invite someone to update you if the situation changes.",
+  "when_hi": "जब आप किसी को कहते हैं कि अगर स्थिति में कोई बदलाव हो तो आपको सूचित करें।",
+  "register": "neutral",
+  "stiff": "Please do inform the undersigned should any development arise.",
+  "examples": [
+   {
+    "en": "I'll be offline for an hour, let me know if anything comes up.",
+    "hi": "मैं एक घंटे के लिए ऑफलाइन रहूँगा, अगर कुछ नई बात हो तो बता देना।"
+   },
+   {
+    "en": "The client seems fine with the plan, but let me know if anything comes up.",
+    "hi": "क्लाइंट को प्लान से कोई दिक्कत नहीं लगती, पर अगर कुछ नया हो तो बता देना।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:012",
+  "phrase": "Can you loop me in on that?",
+  "hi": "क्या आप मुझे भी इसमें शामिल कर सकते हैं?",
+  "when_en": "You say this to ask to be included in an email thread, meeting, or discussion.",
+  "when_hi": "जब आप चाहते हैं कि आपको भी किसी ईमेल, मीटिंग या चर्चा में शामिल किया जाए।",
+  "register": "neutral",
+  "stiff": "Kindly include the undersigned in the said correspondence.",
+  "examples": [
+   {
+    "en": "If there's a call with the vendor, can you loop me in on that?",
+    "hi": "अगर वेंडर के साथ कोई कॉल हो, तो क्या मुझे भी शामिल कर सकते हैं?"
+   },
+   {
+    "en": "Loop me in on the thread so I can follow along.",
+    "hi": "मुझे भी उस थ्रेड में शामिल कर दो ताकि मैं भी देख सकूँ।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:013",
+  "phrase": "Let's circle back to this later.",
+  "hi": "चलो इस पर बाद में फिर से बात करते हैं।",
+  "when_en": "You say this to postpone a discussion point without dropping it entirely.",
+  "when_hi": "जब आप किसी बात को पूरी तरह छोड़े बिना, उस पर बाद में चर्चा करना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "We shall revisit the aforesaid matter subsequently.",
+  "examples": [
+   {
+    "en": "We don't have the data yet, let's circle back to this later.",
+    "hi": "हमारे पास अभी डेटा नहीं है, चलो इस पर बाद में फिर बात करते हैं।"
+   },
+   {
+    "en": "Good point, let's circle back to this after the demo.",
+    "hi": "अच्छी बात है, डेमो के बाद इस पर फिर बात करते हैं।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:014",
+  "phrase": "I'm swamped right now.",
+  "hi": "मैं अभी बहुत ज़्यादा काम में डूबा हूँ।",
+  "when_en": "You say this to explain you have too much work to take on something new immediately.",
+  "when_hi": "जब आप बताना चाहते हैं कि अभी आपके पास इतना काम है कि नया काम तुरंत नहीं ले सकते।",
+  "register": "informal",
+  "stiff": "I am currently inundated with multiple deliverables.",
+  "examples": [
+   {
+    "en": "I'm swamped right now, can this wait till tomorrow?",
+    "hi": "मैं अभी बहुत काम में डूबा हूँ, क्या यह कल तक रुक सकता है?"
+   },
+   {
+    "en": "Sorry for the late reply, I've been swamped this week.",
+    "hi": "देर से जवाब देने के लिए माफ़ी, इस हफ्ते बहुत काम था।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:015",
+  "phrase": "Can you send that over?",
+  "hi": "क्या आप वह भेज सकते हैं?",
+  "when_en": "You say this to casually ask someone to send you a file, link, or document.",
+  "when_hi": "जब आप किसी से कोई फाइल, लिंक या दस्तावेज़ भेजने के लिए कहते हैं।",
+  "register": "informal",
+  "stiff": "Kindly forward the same at your earliest convenience.",
+  "examples": [
+   {
+    "en": "Once the report is ready, can you send that over?",
+    "hi": "रिपोर्ट तैयार होते ही, क्या आप वह भेज सकते हैं?"
+   },
+   {
+    "en": "Can you send that over on the team channel?",
+    "hi": "क्या आप वह टीम चैनल पर भेज सकते हैं?"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:016",
+  "phrase": "I'll flag it if there's an issue.",
+  "hi": "अगर कोई समस्या हुई तो मैं बता दूँगा।",
+  "when_en": "You say this to reassure someone you will raise a concern if one appears.",
+  "when_hi": "जब आप किसी को भरोसा दिलाते हैं कि कोई समस्या आने पर आप उन्हें सूचित करेंगे।",
+  "register": "neutral",
+  "stiff": "The same shall be escalated in the event of any discrepancy.",
+  "examples": [
+   {
+    "en": "Go ahead and deploy it, I'll flag it if there's an issue.",
+    "hi": "जाओ और इसे डिप्लॉय करो, अगर कोई समस्या हुई तो मैं बता दूँगा।"
+   },
+   {
+    "en": "I'll flag it if there's an issue with the login flow.",
+    "hi": "अगर लॉगिन फ्लो में कोई समस्या हुई तो मैं बता दूँगा।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:017",
+  "phrase": "Let's sync up tomorrow.",
+  "hi": "चलो कल मिलकर बात करते हैं।",
+  "when_en": "You say this to arrange a short meeting or call the next day to align.",
+  "when_hi": "जब आप अगले दिन एक छोटी मीटिंग या कॉल तय करना चाहते हैं ताकि सब एक जैसी जानकारी में रहें।",
+  "register": "neutral",
+  "stiff": "Let us convene for alignment on the morrow.",
+  "examples": [
+   {
+    "en": "It's late, let's sync up tomorrow morning instead.",
+    "hi": "देर हो गई है, चलो कल सुबह मिलकर बात करते हैं।"
+   },
+   {
+    "en": "Let's sync up tomorrow before the client call.",
+    "hi": "क्लाइंट कॉल से पहले कल मिलकर बात करते हैं।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:018",
+  "phrase": "I'm stuck on this one.",
+  "hi": "मैं इसमें अटक गया हूँ।",
+  "when_en": "You say this to admit you can't solve a particular problem and may need help.",
+  "when_hi": "जब आप मानते हैं कि किसी खास समस्या को हल नहीं कर पा रहे और मदद चाहिए।",
+  "register": "informal",
+  "stiff": "I am experiencing difficulty with the aforementioned issue.",
+  "examples": [
+   {
+    "en": "I'm stuck on this one, can you take a look?",
+    "hi": "मैं इसमें अटक गया हूँ, क्या तुम एक बार देख सकते हो?"
+   },
+   {
+    "en": "This bug is weird, I'm stuck on this one since morning.",
+    "hi": "यह बग अजीब है, मैं सुबह से इसमें अटका हूँ।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:019",
+  "phrase": "Can we push the meeting by an hour?",
+  "hi": "क्या हम मीटिंग को एक घंटे के लिए टाल सकते हैं?",
+  "when_en": "You say this to ask for a meeting to be rescheduled slightly later.",
+  "when_hi": "जब आप मीटिंग को थोड़ी देर बाद के लिए टालना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly reschedule the said meeting by an hour.",
+  "examples": [
+   {
+    "en": "Something came up, can we push the meeting by an hour?",
+    "hi": "अचानक कुछ आ गया, क्या हम मीटिंग को एक घंटे के लिए टाल सकते हैं?"
+   },
+   {
+    "en": "Can we push the meeting by an hour, I'm stuck on a call?",
+    "hi": "क्या हम मीटिंग को एक घंटे टाल सकते हैं, मैं एक कॉल में फंसा हूँ?"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:020",
+  "phrase": "I'll take it from here.",
+  "hi": "अब मैं इसे संभाल लूँगा।",
+  "when_en": "You say this to tell someone you'll handle the rest of a task yourself.",
+  "when_hi": "जब आप किसी को बताते हैं कि बाकी का काम अब आप खुद संभालेंगे।",
+  "register": "neutral",
+  "stiff": "I shall assume responsibility for the remainder of the same.",
+  "examples": [
+   {
+    "en": "Thanks for starting the draft, I'll take it from here.",
+    "hi": "ड्राफ्ट शुरू करने के लिए धन्यवाद, अब मैं इसे संभाल लूँगा।"
+   },
+   {
+    "en": "You've done the hard part, I'll take it from here.",
+    "hi": "तुमने मुश्किल हिस्सा कर दिया, अब आगे मैं देख लूँगा।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:021",
+  "phrase": "That's not my call.",
+  "hi": "यह मेरा फैसला नहीं है।",
+  "when_en": "You say this when a decision is outside your authority.",
+  "when_hi": "जब कोई फैसला आपके अधिकार क्षेत्र में नहीं है।",
+  "register": "neutral",
+  "stiff": "The decision in question does not fall within my purview.",
+  "examples": [
+   {
+    "en": "I get why you're upset, but that's not my call to make.",
+    "hi": "मुझे समझ आता है कि तुम नाराज़ क्यों हो, पर यह फैसला मेरे हाथ में नहीं है।"
+   },
+   {
+    "en": "That's not my call, you'll have to check with the manager.",
+    "hi": "यह मेरा फैसला नहीं है, तुम्हें मैनेजर से पूछना होगा।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:022",
+  "phrase": "Let's park that for now.",
+  "hi": "चलो इसे अभी के लिए रोक कर रखते हैं।",
+  "when_en": "You say this to set a topic aside temporarily during a discussion.",
+  "when_hi": "जब आप चर्चा के दौरान किसी विषय को अस्थायी रूप से रोकना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "Let us table the aforementioned item for the time being.",
+  "examples": [
+   {
+    "en": "We're not aligned on this, let's park that for now and move on.",
+    "hi": "इस पर हम सहमत नहीं हैं, चलो इसे अभी रोक कर आगे बढ़ते हैं।"
+   },
+   {
+    "en": "Let's park that for now, we can revisit it next sprint.",
+    "hi": "अभी इसे रोक कर रखते हैं, अगले स्प्रिंट में देख लेंगे।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:023",
+  "phrase": "I owe you one.",
+  "hi": "मैं तुम्हारा एहसानमंद रहूँगा।",
+  "when_en": "You say this informally to thank someone for a favour, implying you'll return it.",
+  "when_hi": "जब आप किसी की मदद के लिए अनौपचारिक रूप से धन्यवाद कहते हैं और बदले में मदद करने का भाव रखते हैं।",
+  "register": "informal",
+  "stiff": "I remain obliged to you for the aforementioned favour.",
+  "examples": [
+   {
+    "en": "Thanks for covering my shift, I owe you one.",
+    "hi": "मेरी शिफ्ट संभालने के लिए धन्यवाद, मैं तुम्हारा एहसानमंद हूँ।"
+   },
+   {
+    "en": "You saved me today, I owe you one.",
+    "hi": "आज तुमने मुझे बचा लिया, मैं तुम्हारा एहसानमंद हूँ।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:024",
+  "phrase": "Can you walk me through it?",
+  "hi": "क्या आप मुझे इसे विस्तार से समझा सकते हैं?",
+  "when_en": "You say this to ask someone to explain a process step by step.",
+  "when_hi": "जब आप किसी से किसी प्रक्रिया को कदम दर कदम समझाने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Could you elucidate the process for my benefit.",
+  "examples": [
+   {
+    "en": "I've never used this tool, can you walk me through it?",
+    "hi": "मैंने यह टूल कभी इस्तेमाल नहीं किया, क्या आप इसे समझा सकते हैं?"
+   },
+   {
+    "en": "Can you walk me through the deployment steps once?",
+    "hi": "क्या आप मुझे एक बार डिप्लॉयमेंट के स्टेप्स समझा सकते हैं?"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:025",
+  "phrase": "I'll shoot you an email.",
+  "hi": "मैं तुम्हें एक ईमेल भेज दूँगा।",
+  "when_en": "You say this to tell someone you'll send them details in writing over email.",
+  "when_hi": "जब आप किसी को बताते हैं कि आप उसे विवरण ईमेल में भेजेंगे।",
+  "register": "informal",
+  "stiff": "I shall dispatch an electronic mail communication to you.",
+  "examples": [
+   {
+    "en": "I don't have the file with me, I'll shoot you an email tonight.",
+    "hi": "फाइल अभी मेरे पास नहीं है, आज रात ईमेल भेज दूँगा।"
+   },
+   {
+    "en": "I'll shoot you an email with all the details after the call.",
+    "hi": "कॉल के बाद मैं तुम्हें सारी जानकारी के साथ ईमेल भेज दूँगा।"
+   }
+  ],
+  "topic": "work"
+ },
+ {
+  "id": "dp:026",
+  "phrase": "Sorry, my line is breaking up.",
+  "hi": "माफ़ करें, मेरी लाइन कट-कट कर रही है।",
+  "when_en": "You say this to explain that the call audio is unclear or cutting out.",
+  "when_hi": "जब आप बताना चाहते हैं कि कॉल की आवाज़ ठीक से नहीं आ रही या बीच-बीच में कट रही है।",
+  "register": "neutral",
+  "stiff": "Kindly excuse the disturbance, the connectivity is suboptimal.",
+  "examples": [
+   {
+    "en": "Sorry, my line is breaking up, can you say that again?",
+    "hi": "माफ़ करें, मेरी लाइन कट-कट कर रही है, क्या आप फिर से कह सकते हैं?"
+   },
+   {
+    "en": "My line is breaking up, let me move to a better spot.",
+    "hi": "मेरी लाइन कट रही है, मुझे बेहतर जगह जाने दो।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:027",
+  "phrase": "Can you spell that for me?",
+  "hi": "क्या आप इसे मेरे लिए स्पेल कर सकते हैं?",
+  "when_en": "You say this to ask someone to say a word letter by letter, usually a name or email.",
+  "when_hi": "जब आप किसी शब्द, नाम या ईमेल को अक्षर-दर-अक्षर सुनना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "Please provide the spelling of the same, letter by letter.",
+  "examples": [
+   {
+    "en": "Is it 'Shreya' with an 'e' or an 'i'? Can you spell that for me?",
+    "hi": "क्या यह 'श्रेया' 'ई' से है या 'आई' से? क्या आप स्पेल कर सकते हैं?"
+   },
+   {
+    "en": "Can you spell that for me, I want to note it down correctly.",
+    "hi": "क्या आप इसे स्पेल कर सकते हैं, मैं इसे सही तरीके से लिख लेना चाहता हूँ।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:028",
+  "phrase": "I didn't catch that.",
+  "hi": "मैं वह सुन नहीं पाया।",
+  "when_en": "You say this when you missed part of what someone said and want it repeated.",
+  "when_hi": "जब आप किसी की कही बात का कुछ हिस्सा सुन नहीं पाए और उसे दोहराने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "I was unable to comprehend the aforesaid statement.",
+  "examples": [
+   {
+    "en": "Sorry, I didn't catch that, could you repeat the last part?",
+    "hi": "माफ़ करें, मैं वह सुन नहीं पाया, क्या आप आखिरी हिस्सा दोहरा सकते हैं?"
+   },
+   {
+    "en": "I didn't catch your name, sorry.",
+    "hi": "मुझे आपका नाम समझ नहीं आया, माफ़ करें।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:029",
+  "phrase": "Bear with me a second.",
+  "hi": "एक सेकंड रुकिए, मैं अभी आता हूँ।",
+  "when_en": "You say this to ask someone to wait briefly while you do something.",
+  "when_hi": "जब आप किसी से कुछ देर रुकने के लिए कहते हैं जब तक आप कोई काम कर रहे हों।",
+  "register": "neutral",
+  "stiff": "Kindly grant me a moment's patience.",
+  "examples": [
+   {
+    "en": "Bear with me a second, let me pull up the document.",
+    "hi": "एक सेकंड रुकिए, मुझे दस्तावेज़ खोलने दीजिए।"
+   },
+   {
+    "en": "Bear with me a second, I'm switching to a quieter room.",
+    "hi": "एक सेकंड रुकिए, मैं एक शांत कमरे में जा रहा हूँ।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:030",
+  "phrase": "Are you free for a quick call?",
+  "hi": "क्या आप एक छोटी कॉल के लिए फ्री हैं?",
+  "when_en": "You say this to ask if someone has time for a brief phone conversation now.",
+  "when_hi": "जब आप पूछना चाहते हैं कि क्या सामने वाला अभी एक छोटी कॉल के लिए समय निकाल सकता है।",
+  "register": "neutral",
+  "stiff": "Would you be available for a brief telephonic discussion.",
+  "examples": [
+   {
+    "en": "Are you free for a quick call in the next ten minutes?",
+    "hi": "क्या आप अगले दस मिनट में एक छोटी कॉल के लिए फ्री हैं?"
+   },
+   {
+    "en": "Are you free for a quick call, I have a couple of questions.",
+    "hi": "क्या आप एक छोटी कॉल के लिए फ्री हैं, मेरे कुछ सवाल हैं।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:031",
+  "phrase": "Can you hear me okay?",
+  "hi": "क्या आपको मेरी आवाज़ ठीक से सुनाई दे रही है?",
+  "when_en": "You say this to check if the other person can hear your audio clearly.",
+  "when_hi": "जब आप जांचना चाहते हैं कि सामने वाले को आपकी आवाज़ साफ सुनाई दे रही है या नहीं।",
+  "register": "neutral",
+  "stiff": "Is my audio being received clearly at your end.",
+  "examples": [
+   {
+    "en": "Can you hear me okay now? I switched to headphones.",
+    "hi": "क्या अब आपको ठीक से सुनाई दे रहा है? मैंने हेडफोन लगा लिया।"
+   },
+   {
+    "en": "Can you hear me okay, or should I call again?",
+    "hi": "क्या आपको ठीक से सुनाई दे रहा है, या मैं फिर से कॉल करूँ?"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:032",
+  "phrase": "You're on mute.",
+  "hi": "आपका माइक म्यूट है।",
+  "when_en": "You say this to tell someone their microphone is muted and no one can hear them.",
+  "when_hi": "जब आप किसी को बताते हैं कि उसका माइक म्यूट है और कोई उसे सुन नहीं पा रहा।",
+  "register": "informal",
+  "stiff": "Your microphone appears to be in muted state.",
+  "examples": [
+   {
+    "en": "You're on mute, we can't hear anything.",
+    "hi": "आपका माइक म्यूट है, हमें कुछ सुनाई नहीं दे रहा।"
+   },
+   {
+    "en": "I think you're on mute, can you check?",
+    "hi": "मुझे लगता है आपका माइक म्यूट है, क्या आप चेक कर सकते हैं?"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:033",
+  "phrase": "Could you say that again?",
+  "hi": "क्या आप वह दोबारा कह सकते हैं?",
+  "when_en": "You say this to politely ask someone to repeat something you missed.",
+  "when_hi": "जब आप किसी से विनम्रता से कुछ दोहराने के लिए कहते हैं जो आपने सुना नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly reiterate the same for my comprehension.",
+  "examples": [
+   {
+    "en": "Could you say that again? The connection cut out for a second.",
+    "hi": "क्या आप वह दोबारा कह सकते हैं? कनेक्शन एक सेकंड के लिए कट गया था।"
+   },
+   {
+    "en": "Could you say that again, a bit slower this time?",
+    "hi": "क्या आप इसे दोबारा, थोड़ा धीरे कह सकते हैं?"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:034",
+  "phrase": "I think we got cut off.",
+  "hi": "लगता है हमारी कॉल कट गई थी।",
+  "when_en": "You say this after reconnecting a call that dropped, or when noticing silence on the line.",
+  "when_hi": "जब कॉल अचानक कट जाए और आप उसे फिर से समझाना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "It appears the connection was disrupted.",
+  "examples": [
+   {
+    "en": "Hi, sorry, I think we got cut off, where were we?",
+    "hi": "हैलो, माफ़ करें, लगता है हमारी कॉल कट गई थी, हम कहाँ थे?"
+   },
+   {
+    "en": "We got cut off midway, let me call you back.",
+    "hi": "हमारी कॉल बीच में कट गई, मैं तुम्हें वापस कॉल करता हूँ।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:035",
+  "phrase": "Let me call you right back.",
+  "hi": "मैं तुम्हें अभी वापस कॉल करता हूँ।",
+  "when_en": "You say this to end a call briefly with a promise to call again very soon.",
+  "when_hi": "जब आप कॉल को थोड़ी देर के लिए खत्म करते हुए, जल्द ही फिर कॉल करने का वादा करते हैं।",
+  "register": "informal",
+  "stiff": "I shall return your call momentarily.",
+  "examples": [
+   {
+    "en": "Someone's at the door, let me call you right back.",
+    "hi": "दरवाज़े पर कोई है, मैं तुम्हें अभी वापस कॉल करता हूँ।"
+   },
+   {
+    "en": "My battery's low, let me call you right back from another phone.",
+    "hi": "मेरी बैटरी कम है, मैं तुम्हें दूसरे फोन से वापस कॉल करता हूँ।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:036",
+  "phrase": "Can you hear me now?",
+  "hi": "क्या अब आपको सुनाई दे रहा है?",
+  "when_en": "You say this after adjusting something, to check if the audio issue is resolved.",
+  "when_hi": "जब आप कुछ ठीक करने के बाद यह जांचना चाहते हैं कि आवाज़ अब सही आ रही है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly confirm if the audio is now audible.",
+  "examples": [
+   {
+    "en": "I moved closer to the router, can you hear me now?",
+    "hi": "मैं राउटर के पास आ गया हूँ, क्या अब आपको सुनाई दे रहा है?"
+   },
+   {
+    "en": "Can you hear me now? I restarted the call.",
+    "hi": "क्या अब आपको सुनाई दे रहा है? मैंने कॉल फिर से शुरू की है।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:037",
+  "phrase": "I'll put you on speaker.",
+  "hi": "मैं तुम्हें स्पीकर पर डाल रहा हूँ।",
+  "when_en": "You say this to let someone know you're switching the call to speaker mode.",
+  "when_hi": "जब आप किसी को बताते हैं कि आप कॉल को स्पीकर मोड पर डाल रहे हैं।",
+  "register": "informal",
+  "stiff": "I am placing you on the loudspeaker function.",
+  "examples": [
+   {
+    "en": "I'll put you on speaker, my hands are full.",
+    "hi": "मैं तुम्हें स्पीकर पर डाल रहा हूँ, मेरे दोनों हाथ भरे हुए हैं।"
+   },
+   {
+    "en": "Let me put you on speaker, the whole team wants to hear this.",
+    "hi": "मैं तुम्हें स्पीकर पर डाल देता हूँ, पूरी टीम यह सुनना चाहती है।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:038",
+  "phrase": "Sorry, who am I speaking with?",
+  "hi": "माफ़ करें, मैं किससे बात कर रहा हूँ?",
+  "when_en": "You say this to politely ask the identity of the person on the other end of the call.",
+  "when_hi": "जब आप विनम्रता से पूछना चाहते हैं कि कॉल पर सामने कौन है।",
+  "register": "formal",
+  "stiff": "May I know the identity of the person I am conversing with.",
+  "examples": [
+   {
+    "en": "Sorry, who am I speaking with? This number isn't saved.",
+    "hi": "माफ़ करें, मैं किससे बात कर रहा हूँ? यह नंबर सेव नहीं है।"
+   },
+   {
+    "en": "Sorry, who am I speaking with, and how can I help you?",
+    "hi": "माफ़ करें, मैं किससे बात कर रहा हूँ, और मैं आपकी क्या मदद कर सकता हूँ?"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:039",
+  "phrase": "Can you say that a bit slower?",
+  "hi": "क्या आप इसे थोड़ा धीरे कह सकते हैं?",
+  "when_en": "You say this when someone is speaking too fast for you to follow.",
+  "when_hi": "जब कोई इतनी तेज़ी से बोल रहा हो कि आप समझ नहीं पा रहे।",
+  "register": "neutral",
+  "stiff": "Kindly reduce the pace of your speech for better comprehension.",
+  "examples": [
+   {
+    "en": "Can you say that a bit slower? I want to note the address.",
+    "hi": "क्या आप इसे थोड़ा धीरे कह सकते हैं? मुझे पता लिखना है।"
+   },
+   {
+    "en": "You're talking pretty fast, can you say that a bit slower?",
+    "hi": "आप काफी तेज़ बोल रहे हैं, क्या थोड़ा धीरे कह सकते हैं?"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:040",
+  "phrase": "I'm losing you.",
+  "hi": "आपकी आवाज़ बीच-बीच में कट रही है।",
+  "when_en": "You say this when the other person's voice keeps breaking up or fading.",
+  "when_hi": "जब सामने वाले की आवाज़ बार-बार टूट रही हो या कम हो रही हो।",
+  "register": "neutral",
+  "stiff": "The audio signal from your end is intermittent.",
+  "examples": [
+   {
+    "en": "I'm losing you, can you move to a spot with better signal?",
+    "hi": "आपकी आवाज़ कट रही है, क्या आप बेहतर सिग्नल वाली जगह जा सकते हैं?"
+   },
+   {
+    "en": "I'm losing you, let's try a video call instead.",
+    "hi": "आपकी आवाज़ कट रही है, चलो वीडियो कॉल पर कोशिश करते हैं।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:041",
+  "phrase": "Let me put you on hold for a second.",
+  "hi": "मैं आपको एक सेकंड के लिए होल्ड पर रखता हूँ।",
+  "when_en": "You say this to pause a call briefly while you attend to something else.",
+  "when_hi": "जब आप कॉल को थोड़ी देर के लिए रोककर कोई दूसरा काम करना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly remain on hold momentarily.",
+  "examples": [
+   {
+    "en": "Let me put you on hold for a second, I have another call.",
+    "hi": "मैं आपको एक सेकंड होल्ड पर रखता हूँ, मेरे पास एक और कॉल है।"
+   },
+   {
+    "en": "Let me put you on hold while I check with my colleague.",
+    "hi": "मैं आपको होल्ड पर रखता हूँ जब तक मैं अपने सहकर्मी से पूछूँ।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:042",
+  "phrase": "Is this a good time to talk?",
+  "hi": "क्या अभी बात करने का सही समय है?",
+  "when_en": "You say this at the start of a call to check if the person is free to talk.",
+  "when_hi": "जब आप कॉल की शुरुआत में यह पूछना चाहते हैं कि सामने वाला अभी बात करने के लिए फ्री है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly confirm if this is an opportune moment for discussion.",
+  "examples": [
+   {
+    "en": "Hi, is this a good time to talk, or should I call later?",
+    "hi": "हैलो, क्या अभी बात करने का सही समय है, या मैं बाद में कॉल करूँ?"
+   },
+   {
+    "en": "Is this a good time to talk about the invoice?",
+    "hi": "क्या इनवॉइस के बारे में बात करने का यह सही समय है?"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:043",
+  "phrase": "I'll text you instead, the connection's bad.",
+  "hi": "कनेक्शन खराब है, मैं तुम्हें टेक्स्ट कर देता हूँ।",
+  "when_en": "You say this to switch from a poor voice call to a text message.",
+  "when_hi": "जब कॉल की आवाज़ ठीक से नहीं आ रही हो और आप टेक्स्ट पर स्विच करना चाहते हैं।",
+  "register": "informal",
+  "stiff": "In light of the poor connectivity, I shall communicate via text.",
+  "examples": [
+   {
+    "en": "I can barely hear you, I'll text you instead, the connection's bad.",
+    "hi": "मुझे मुश्किल से सुनाई दे रहा है, कनेक्शन खराब है, मैं तुम्हें टेक्स्ट कर देता हूँ।"
+   },
+   {
+    "en": "The call keeps dropping, I'll text you instead.",
+    "hi": "कॉल बार-बार कट रही है, मैं तुम्हें टेक्स्ट कर देता हूँ।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:044",
+  "phrase": "My battery's about to die, let me call you back.",
+  "hi": "मेरी बैटरी खत्म होने वाली है, मैं तुम्हें वापस कॉल करता हूँ।",
+  "when_en": "You say this to end a call because your phone is about to run out of charge.",
+  "when_hi": "जब आपका फोन चार्ज खत्म होने वाला है और आप कॉल खत्म करना चाहते हैं।",
+  "register": "informal",
+  "stiff": "My device's power is critically low, I shall reconnect subsequently.",
+  "examples": [
+   {
+    "en": "My battery's about to die, let me call you back in ten minutes.",
+    "hi": "मेरी बैटरी खत्म होने वाली है, मैं दस मिनट में वापस कॉल करता हूँ।"
+   },
+   {
+    "en": "Sorry, my battery's about to die, can we finish this on chat?",
+    "hi": "माफ़ करें, मेरी बैटरी खत्म होने वाली है, क्या हम यह चैट पर पूरा कर सकते हैं?"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:045",
+  "phrase": "Can you repeat the last part?",
+  "hi": "क्या आप आखिरी हिस्सा दोहरा सकते हैं?",
+  "when_en": "You say this when you followed most of what was said but missed the ending.",
+  "when_hi": "जब आपने ज़्यादातर बात समझ ली हो पर आखिरी हिस्सा छूट गया हो।",
+  "register": "neutral",
+  "stiff": "Kindly reiterate the concluding portion of the same.",
+  "examples": [
+   {
+    "en": "Can you repeat the last part? I missed the date you mentioned.",
+    "hi": "क्या आप आखिरी हिस्सा दोहरा सकते हैं? मुझे वह तारीख समझ नहीं आई।"
+   },
+   {
+    "en": "Everything's clear except the last part, can you repeat that?",
+    "hi": "आखिरी हिस्से को छोड़कर सब कुछ समझ आया, क्या आप उसे दोहरा सकते हैं?"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:046",
+  "phrase": "Hang on, I have another call coming in.",
+  "hi": "रुको, एक और कॉल आ रही है।",
+  "when_en": "You say this when a second call interrupts the one you're on.",
+  "when_hi": "जब बात करते समय कोई दूसरी कॉल आ जाए।",
+  "register": "informal",
+  "stiff": "Kindly hold, I am receiving another incoming call.",
+  "examples": [
+   {
+    "en": "Hang on, I have another call coming in, give me a second.",
+    "hi": "रुको, एक और कॉल आ रही है, एक सेकंड दो।"
+   },
+   {
+    "en": "Hang on, I have another call coming in, it might be work.",
+    "hi": "रुको, एक और कॉल आ रही है, शायद ऑफिस से है।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:047",
+  "phrase": "I'll call you from a landline instead.",
+  "hi": "मैं तुम्हें लैंडलाइन से कॉल करता हूँ।",
+  "when_en": "You say this when mobile signal is poor and you plan to use a landline instead.",
+  "when_hi": "जब मोबाइल का सिग्नल खराब हो और आप लैंडलाइन से कॉल करने की योजना बना रहे हों।",
+  "register": "neutral",
+  "stiff": "I shall place the call via a fixed-line connection instead.",
+  "examples": [
+   {
+    "en": "The mobile network here is terrible, I'll call you from a landline instead.",
+    "hi": "यहाँ मोबाइल नेटवर्क बहुत खराब है, मैं तुम्हें लैंडलाइन से कॉल करता हूँ।"
+   },
+   {
+    "en": "Let me call you from a landline instead, this signal is unreliable.",
+    "hi": "मुझे लैंडलाइन से कॉल करने दो, यह सिग्नल भरोसेमंद नहीं है।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:048",
+  "phrase": "The reception's really bad here.",
+  "hi": "यहाँ नेटवर्क बहुत खराब है।",
+  "when_en": "You say this to explain poor call quality due to your location.",
+  "when_hi": "जब आप बताना चाहते हैं कि आपकी जगह की वजह से कॉल की क्वालिटी खराब है।",
+  "register": "neutral",
+  "stiff": "The signal reception at this location is markedly poor.",
+  "examples": [
+   {
+    "en": "The reception's really bad here, let me step outside.",
+    "hi": "यहाँ नेटवर्क बहुत खराब है, मुझे बाहर आने दो।"
+   },
+   {
+    "en": "Sorry for the noise, the reception's really bad here.",
+    "hi": "आवाज़ के लिए माफ़ी, यहाँ नेटवर्क बहुत खराब है।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:049",
+  "phrase": "Give me one second, I'm switching to Wi-Fi calling.",
+  "hi": "एक सेकंड दो, मैं वाई-फाई कॉलिंग पर स्विच कर रहा हूँ।",
+  "when_en": "You say this when you're changing from mobile network to Wi-Fi to improve call quality.",
+  "when_hi": "जब आप कॉल की क्वालिटी सुधारने के लिए मोबाइल नेटवर्क से वाई-फाई पर स्विच कर रहे हों।",
+  "register": "informal",
+  "stiff": "Kindly allow a moment while I transition to a Wi-Fi based connection.",
+  "examples": [
+   {
+    "en": "Give me one second, I'm switching to Wi-Fi calling, the signal here is weak.",
+    "hi": "एक सेकंड दो, मैं वाई-फाई कॉलिंग पर स्विच कर रहा हूँ, यहाँ सिग्नल कमज़ोर है।"
+   },
+   {
+    "en": "Give me one second, I'm switching to Wi-Fi calling so we don't get cut off again.",
+    "hi": "एक सेकंड दो, मैं वाई-फाई कॉलिंग पर स्विच कर रहा हूँ ताकि कॉल फिर न कटे।"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:050",
+  "phrase": "Can you send that as a message instead?",
+  "hi": "क्या आप वह मुझे मैसेज में भेज सकते हैं?",
+  "when_en": "You say this to ask for information in text form instead of over a call, often for accuracy.",
+  "when_hi": "जब आप कॉल की बजाय जानकारी टेक्स्ट में चाहते हैं, अक्सर सटीकता के लिए।",
+  "register": "neutral",
+  "stiff": "Kindly transmit the said information via a written message.",
+  "examples": [
+   {
+    "en": "The address is complicated, can you send that as a message instead?",
+    "hi": "पता थोड़ा जटिल है, क्या आप वह मुझे मैसेज में भेज सकते हैं?"
+   },
+   {
+    "en": "Can you send that as a message instead, so I don't forget the details?",
+    "hi": "क्या आप वह मैसेज में भेज सकते हैं, ताकि मैं विवरण न भूलूँ?"
+   }
+  ],
+  "topic": "phone"
+ },
+ {
+  "id": "dp:051",
+  "phrase": "It's up to you.",
+  "hi": "यह तुम्हारे ऊपर है।",
+  "when_en": "You say this when you're leaving a decision entirely to the other person.",
+  "when_hi": "जब आप कोई फैसला पूरी तरह सामने वाले पर छोड़ देते हैं।",
+  "register": "informal",
+  "stiff": "The decision rests entirely with you.",
+  "examples": [
+   {
+    "en": "Do you want pizza or biryani tonight? — It's up to you.",
+    "hi": "आज रात पिज़्ज़ा चाहिए या बिरयानी? — यह तुम्हारे ऊपर है।"
+   },
+   {
+    "en": "I don't mind either option, it's up to you.",
+    "hi": "मुझे दोनों में से कोई भी विकल्प ठीक है, यह तुम्हारे ऊपर है।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:052",
+  "phrase": "Never mind.",
+  "hi": "कोई बात नहीं, छोड़ो।",
+  "when_en": "You say this to tell someone not to worry about something, or to drop a topic.",
+  "when_hi": "जब आप किसी को कहते हैं कि किसी बात की चिंता न करें, या किसी विषय को छोड़ दें।",
+  "register": "informal",
+  "stiff": "Kindly disregard the aforementioned point.",
+  "examples": [
+   {
+    "en": "What did you say? — Never mind, it wasn't important.",
+    "hi": "तुमने क्या कहा? — कोई बात नहीं, ज़रूरी नहीं था।"
+   },
+   {
+    "en": "Never mind, I'll figure it out myself.",
+    "hi": "कोई बात नहीं, मैं खुद समझ लूँगा।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:053",
+  "phrase": "Take your time.",
+  "hi": "आराम से करो, जल्दी नहीं है।",
+  "when_en": "You say this to tell someone there's no rush and they can do something at their own pace.",
+  "when_hi": "जब आप किसी को बताते हैं कि जल्दी नहीं है और वे अपनी गति से काम कर सकते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly proceed at your own convenience without haste.",
+  "examples": [
+   {
+    "en": "No rush at all, take your time with the decision.",
+    "hi": "कोई जल्दी नहीं है, फैसला आराम से लो।"
+   },
+   {
+    "en": "Take your time, I'll wait outside.",
+    "hi": "आराम से करो, मैं बाहर इंतज़ार करता हूँ।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:054",
+  "phrase": "It slipped my mind.",
+  "hi": "मेरे दिमाग से निकल गया।",
+  "when_en": "You say this to admit you forgot something.",
+  "when_hi": "जब आप मानते हैं कि आप कुछ भूल गए।",
+  "register": "informal",
+  "stiff": "The same had inadvertently escaped my memory.",
+  "examples": [
+   {
+    "en": "I was supposed to call you back, sorry, it slipped my mind.",
+    "hi": "मुझे तुम्हें वापस कॉल करना था, माफ़ करना, दिमाग से निकल गया।"
+   },
+   {
+    "en": "It slipped my mind that today was your birthday.",
+    "hi": "मेरे दिमाग से निकल गया कि आज तुम्हारा जन्मदिन है।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:055",
+  "phrase": "No worries.",
+  "hi": "कोई बात नहीं।",
+  "when_en": "You say this casually to reassure someone that something isn't a problem.",
+  "when_hi": "जब आप किसी को अनौपचारिक रूप से भरोसा दिलाते हैं कि कोई समस्या नहीं है।",
+  "register": "informal",
+  "stiff": "Please do not concern yourself with the matter.",
+  "examples": [
+   {
+    "en": "Sorry I'm late! — No worries, we just started.",
+    "hi": "माफ़ करना, मुझे देर हो गई! — कोई बात नहीं, हमने अभी शुरू किया है।"
+   },
+   {
+    "en": "I can't make it tonight. — No worries, some other time then.",
+    "hi": "मैं आज रात नहीं आ पाऊँगा। — कोई बात नहीं, फिर कभी सही।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:056",
+  "phrase": "Let's play it by ear.",
+  "hi": "चलो जैसा माहौल होगा वैसा देख लेंगे।",
+  "when_en": "You say this when you'd rather decide something spontaneously later than plan it now.",
+  "when_hi": "जब आप अभी योजना बनाने की बजाय बाद में स्थिति देखकर फैसला लेना चाहते हैं।",
+  "register": "informal",
+  "stiff": "Let us determine the course of action as circumstances unfold.",
+  "examples": [
+   {
+    "en": "We're not sure if it'll rain, let's just play it by ear.",
+    "hi": "पता नहीं बारिश होगी या नहीं, चलो जैसा माहौल होगा वैसा देख लेंगे।"
+   },
+   {
+    "en": "No fixed plan for the evening, let's play it by ear.",
+    "hi": "शाम के लिए कोई तय प्लान नहीं है, चलो देख लेंगे।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:057",
+  "phrase": "Fair enough.",
+  "hi": "ठीक है, मान लिया।",
+  "when_en": "You say this to accept someone's point or reasoning, even if you didn't fully agree at first.",
+  "when_hi": "जब आप किसी की बात या तर्क को मान लेते हैं, भले ही शुरू में पूरी तरह सहमत न हों।",
+  "register": "informal",
+  "stiff": "That is a reasonable assertion, duly noted.",
+  "examples": [
+   {
+    "en": "I couldn't finish it, I had a family emergency. — Fair enough.",
+    "hi": "मैं इसे पूरा नहीं कर पाया, घर में इमरजेंसी थी। — ठीक है, मान लिया।"
+   },
+   {
+    "en": "You have a point there, fair enough.",
+    "hi": "तुम्हारी बात में दम है, ठीक है मान लिया।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:058",
+  "phrase": "Sounds good.",
+  "hi": "ठीक लग रहा है।",
+  "when_en": "You say this to casually agree with a plan or suggestion.",
+  "when_hi": "जब आप किसी प्लान या सुझाव से अनौपचारिक रूप से सहमत होते हैं।",
+  "register": "informal",
+  "stiff": "The proposal is agreeable to me.",
+  "examples": [
+   {
+    "en": "Let's meet at the coffee shop at five. — Sounds good.",
+    "hi": "पांच बजे कॉफी शॉप पर मिलते हैं। — ठीक लग रहा है।"
+   },
+   {
+    "en": "We'll finalise it tomorrow. — Sounds good to me.",
+    "hi": "हम इसे कल फाइनल कर लेंगे। — मुझे ठीक लग रहा है।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:059",
+  "phrase": "My bad.",
+  "hi": "मेरी गलती थी।",
+  "when_en": "You say this casually to admit a small mistake was your fault.",
+  "when_hi": "जब आप अनौपचारिक रूप से मानते हैं कि कोई छोटी गलती आपकी थी।",
+  "register": "informal",
+  "stiff": "The error was attributable to my oversight.",
+  "examples": [
+   {
+    "en": "I sent that to the wrong group, my bad.",
+    "hi": "मैंने वह गलत ग्रुप में भेज दिया, मेरी गलती थी।"
+   },
+   {
+    "en": "My bad, I forgot to mention that earlier.",
+    "hi": "मेरी गलती थी, मैं यह पहले बताना भूल गया।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:060",
+  "phrase": "What's the plan?",
+  "hi": "क्या प्लान है?",
+  "when_en": "You say this to ask what has been decided or arranged for an event or outing.",
+  "when_hi": "जब आप पूछना चाहते हैं कि किसी कार्यक्रम या आउटिंग के लिए क्या तय हुआ है।",
+  "register": "informal",
+  "stiff": "Kindly apprise me of the proposed itinerary.",
+  "examples": [
+   {
+    "en": "So what's the plan for the weekend?",
+    "hi": "तो वीकेंड के लिए क्या प्लान है?"
+   },
+   {
+    "en": "What's the plan, are we meeting at your place or mine?",
+    "hi": "क्या प्लान है, हम तुम्हारे यहाँ मिलें या मेरे यहाँ?"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:061",
+  "phrase": "Long time no see!",
+  "hi": "कितने दिनों बाद मिले!",
+  "when_en": "You say this casually when meeting someone you haven't seen in a while.",
+  "when_hi": "जब आप किसी से लंबे समय बाद मिलते हैं और अनौपचारिक रूप से यह कहते हैं।",
+  "register": "informal",
+  "stiff": "It has been an extended duration since our last meeting.",
+  "examples": [
+   {
+    "en": "Hey, long time no see! How's everything?",
+    "hi": "अरे, कितने दिनों बाद मिले! सब कैसा चल रहा है?"
+   },
+   {
+    "en": "Long time no see, you look great!",
+    "hi": "कितने दिनों बाद मिले, तुम बहुत अच्छे लग रहे हो!"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:062",
+  "phrase": "How have you been?",
+  "hi": "तुम कैसे हो, हाल क्या है?",
+  "when_en": "You say this to casually ask how someone's life has been recently.",
+  "when_hi": "जब आप किसी से अनौपचारिक रूप से पूछते हैं कि हाल ही में उसकी ज़िंदगी कैसी रही।",
+  "register": "informal",
+  "stiff": "Kindly apprise me of your general wellbeing of late.",
+  "examples": [
+   {
+    "en": "It's been ages, how have you been?",
+    "hi": "बहुत समय हो गया, तुम कैसे हो?"
+   },
+   {
+    "en": "How have you been since you moved cities?",
+    "hi": "जब से तुम शहर बदल के आए हो, कैसे हो?"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:063",
+  "phrase": "Let's catch up sometime.",
+  "hi": "कभी मिलकर बातें करते हैं।",
+  "when_en": "You say this to suggest meeting up casually in the future without fixing exact details.",
+  "when_hi": "जब आप बिना ठीक विवरण तय किए, भविष्य में कभी मिलने का सुझाव देते हैं।",
+  "register": "informal",
+  "stiff": "Let us arrange a meeting at a mutually convenient time in the future.",
+  "examples": [
+   {
+    "en": "We should really catch up sometime, it's been too long.",
+    "hi": "हमें सच में कभी मिलना चाहिए, बहुत समय हो गया है।"
+   },
+   {
+    "en": "Let's catch up sometime this month over coffee.",
+    "hi": "इस महीने कभी कॉफी पर मिलते हैं।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:064",
+  "phrase": "I owe you an apology.",
+  "hi": "मुझे तुमसे माफी मांगनी चाहिए।",
+  "when_en": "You say this to formally admit you were wrong and need to apologise.",
+  "when_hi": "जब आप औपचारिक रूप से मानते हैं कि आप गलत थे और माफी मांगना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "I hereby tender my sincerest apologies for the same.",
+  "examples": [
+   {
+    "en": "I overreacted yesterday, I owe you an apology.",
+    "hi": "कल मैंने ज़्यादा प्रतिक्रिया दी, मुझे तुमसे माफी मांगनी चाहिए।"
+   },
+   {
+    "en": "I owe you an apology for missing your call earlier.",
+    "hi": "पहले तुम्हारा कॉल मिस करने के लिए मुझे माफी मांगनी चाहिए।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:065",
+  "phrase": "That's really thoughtful of you.",
+  "hi": "यह तुम्हारी तरफ से बहुत सोच-समझ कर किया गया काम है।",
+  "when_en": "You say this to express appreciation for someone's kind or considerate gesture.",
+  "when_hi": "जब आप किसी के दयालु या विचारशील व्यवहार की सराहना करते हैं।",
+  "register": "neutral",
+  "stiff": "That gesture reflects considerable thoughtfulness on your part.",
+  "examples": [
+   {
+    "en": "You remembered my allergy, that's really thoughtful of you.",
+    "hi": "तुम्हें मेरी एलर्जी याद रही, यह बहुत सोच-समझ कर किया गया काम है।"
+   },
+   {
+    "en": "Thanks for checking in, that's really thoughtful of you.",
+    "hi": "हालचाल पूछने के लिए धन्यवाद, यह तुम्हारी तरफ से बहुत अच्छा है।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:066",
+  "phrase": "I'll pass, thanks.",
+  "hi": "मैं नहीं लूँगा, धन्यवाद।",
+  "when_en": "You say this to politely decline an offer or invitation.",
+  "when_hi": "जब आप विनम्रता से किसी प्रस्ताव या निमंत्रण को अस्वीकार करते हैं।",
+  "register": "informal",
+  "stiff": "I shall respectfully decline the same.",
+  "examples": [
+   {
+    "en": "Want to join us for drinks? — I'll pass, thanks, early start tomorrow.",
+    "hi": "हमारे साथ ड्रिंक्स के लिए चलोगे? — मैं नहीं लूँगा, धन्यवाद, कल जल्दी उठना है।"
+   },
+   {
+    "en": "I'll pass, thanks, I'm not really a fan of spicy food.",
+    "hi": "मैं नहीं लूँगा, धन्यवाद, मुझे मसालेदार खाना पसंद नहीं।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:067",
+  "phrase": "Maybe some other time.",
+  "hi": "शायद किसी और समय।",
+  "when_en": "You say this to politely postpone or decline a plan without fully rejecting it.",
+  "when_hi": "जब आप किसी योजना को पूरी तरह से अस्वीकार किए बिना, विनम्रता से टालते हैं।",
+  "register": "neutral",
+  "stiff": "Perhaps on a subsequent occasion.",
+  "examples": [
+   {
+    "en": "I can't make it today, maybe some other time.",
+    "hi": "आज नहीं आ पाऊँगा, शायद किसी और समय।"
+   },
+   {
+    "en": "Maybe some other time, I'm not feeling too well today.",
+    "hi": "शायद किसी और समय, आज मेरी तबीयत ठीक नहीं है।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:068",
+  "phrase": "I'm not really in the mood tonight.",
+  "hi": "आज रात मेरा मन नहीं है।",
+  "when_en": "You say this to explain you don't feel like doing something this evening.",
+  "when_hi": "जब आप बताना चाहते हैं कि आज शाम आपका किसी काम को करने का मन नहीं है।",
+  "register": "informal",
+  "stiff": "I am not particularly inclined this evening.",
+  "examples": [
+   {
+    "en": "Want to watch a movie? — I'm not really in the mood tonight.",
+    "hi": "मूवी देखनी है? — आज रात मेरा मन नहीं है।"
+   },
+   {
+    "en": "I'm not really in the mood tonight, can we do it tomorrow instead?",
+    "hi": "आज रात मेरा मन नहीं है, क्या हम कल कर सकते हैं?"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:069",
+  "phrase": "Let's make it a plan.",
+  "hi": "चलो इसे पक्का प्लान बना लेते हैं।",
+  "when_en": "You say this to confirm turning a loose idea into a fixed plan.",
+  "when_hi": "जब आप किसी अस्थायी विचार को पक्की योजना में बदलना चाहते हैं।",
+  "register": "informal",
+  "stiff": "Let us formalise this into a definite arrangement.",
+  "examples": [
+   {
+    "en": "We keep saying we'll go, let's make it a plan this weekend.",
+    "hi": "हम बस कहते रहते हैं जाएंगे, चलो इस वीकेंड इसे पक्का प्लान बना लेते हैं।"
+   },
+   {
+    "en": "Let's make it a plan, I'll book the tickets tonight.",
+    "hi": "चलो इसे पक्का प्लान बना लेते हैं, मैं आज रात टिकट बुक कर लूँगा।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:070",
+  "phrase": "I'll bring something along.",
+  "hi": "मैं अपने साथ कुछ लेकर आऊँगा।",
+  "when_en": "You say this to offer to bring food, drinks, or an item to a gathering.",
+  "when_hi": "जब आप किसी मिलन-समारोह में खाना, पेय या कोई सामान लाने की पेशकश करते हैं।",
+  "register": "informal",
+  "stiff": "I shall procure and bring an item for the occasion.",
+  "examples": [
+   {
+    "en": "Don't worry about snacks, I'll bring something along.",
+    "hi": "स्नैक्स की चिंता मत करो, मैं अपने साथ कुछ लेकर आऊँगा।"
+   },
+   {
+    "en": "I'll bring something along for dessert.",
+    "hi": "मैं मिठाई के लिए कुछ लेकर आऊँगा।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:071",
+  "phrase": "Don't mention it.",
+  "hi": "कोई बात नहीं, इसका ज़िक्र मत करो।",
+  "when_en": "You say this casually in response to thanks, to say it was no trouble.",
+  "when_hi": "जब आप किसी के धन्यवाद के जवाब में कहते हैं कि यह कोई बड़ी बात नहीं थी।",
+  "register": "informal",
+  "stiff": "It was no trouble at all, I assure you.",
+  "examples": [
+   {
+    "en": "Thanks so much for helping me move. — Don't mention it.",
+    "hi": "शिफ्टिंग में मदद के लिए बहुत धन्यवाद। — कोई बात नहीं।"
+   },
+   {
+    "en": "Don't mention it, that's what friends are for.",
+    "hi": "कोई बात नहीं, दोस्त इसी के लिए होते हैं।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:072",
+  "phrase": "I appreciate you thinking of me.",
+  "hi": "तुमने मेरे बारे में सोचा, इसकी मुझे कद्र है।",
+  "when_en": "You say this to thank someone for including or remembering you.",
+  "when_hi": "जब आप किसी को उसमें आपको शामिल करने या याद रखने के लिए धन्यवाद देते हैं।",
+  "register": "neutral",
+  "stiff": "I am grateful that you took my interests into consideration.",
+  "examples": [
+   {
+    "en": "You didn't have to invite me, but I appreciate you thinking of me.",
+    "hi": "तुम्हें मुझे बुलाना ज़रूरी नहीं था, पर तुमने मेरे बारे में सोचा, इसकी मुझे कद्र है।"
+   },
+   {
+    "en": "I appreciate you thinking of me for this opportunity.",
+    "hi": "इस मौके के लिए तुमने मेरे बारे में सोचा, इसकी मुझे कद्र है।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:073",
+  "phrase": "It's the thought that counts.",
+  "hi": "बात नीयत की होती है, चीज़ की नहीं।",
+  "when_en": "You say this to reassure someone that the intention behind a gesture matters more than its size or perfection.",
+  "when_hi": "जब आप किसी को भरोसा दिलाते हैं कि किसी काम की नीयत, उसके आकार या पूर्णता से ज़्यादा मायने रखती है।",
+  "register": "informal",
+  "stiff": "It is the underlying intention that holds significance.",
+  "examples": [
+   {
+    "en": "Sorry, it's not much of a gift. — It's the thought that counts.",
+    "hi": "माफ़ करना, यह ज़्यादा बड़ा तोहफा नहीं है। — बात नीयत की होती है।"
+   },
+   {
+    "en": "The card was handmade, but it's the thought that counts.",
+    "hi": "कार्ड हाथ से बनाया गया था, पर बात नीयत की होती है।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:074",
+  "phrase": "Let's not make a big deal out of it.",
+  "hi": "चलो इसे बड़ा मुद्दा मत बनाओ।",
+  "when_en": "You say this to suggest keeping a small mistake or event low-key rather than dramatic.",
+  "when_hi": "जब आप किसी छोटी गलती या घटना को बड़ा मुद्दा नहीं बनाना चाहते।",
+  "register": "informal",
+  "stiff": "Let us refrain from escalating this matter unduly.",
+  "examples": [
+   {
+    "en": "It was just a small mix-up, let's not make a big deal out of it.",
+    "hi": "यह बस एक छोटी सी गड़बड़ थी, चलो इसे बड़ा मुद्दा मत बनाओ।"
+   },
+   {
+    "en": "Let's not make a big deal out of it, it happens to everyone.",
+    "hi": "चलो इसे बड़ा मुद्दा मत बनाओ, ऐसा सबके साथ होता है।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:075",
+  "phrase": "I'll see how I feel.",
+  "hi": "देखते हैं मन कैसा रहता है।",
+  "when_en": "You say this when you don't want to commit firmly to a plan in advance.",
+  "when_hi": "जब आप किसी प्लान के लिए पहले से पक्का वादा नहीं करना चाहते।",
+  "register": "informal",
+  "stiff": "I shall determine my disposition closer to the time.",
+  "examples": [
+   {
+    "en": "Are you coming to the party? — I'll see how I feel, been a long week.",
+    "hi": "पार्टी में आ रहे हो? — देखते हैं मन कैसा रहता है, हफ्ता लंबा रहा।"
+   },
+   {
+    "en": "I'll see how I feel tomorrow before deciding on the trek.",
+    "hi": "ट्रेक के बारे में फैसला करने से पहले कल देखते हैं मन कैसा रहता है।"
+   }
+  ],
+  "topic": "social"
+ },
+ {
+  "id": "dp:076",
+  "phrase": "I'm running a bit late.",
+  "hi": "मुझे थोड़ी देर हो रही है।",
+  "when_en": "You say this to warn someone you won't arrive exactly on time.",
+  "when_hi": "जब आप किसी को बताते हैं कि आप ठीक समय पर नहीं पहुंच पाएंगे।",
+  "register": "neutral",
+  "stiff": "I am experiencing a slight delay in my arrival.",
+  "examples": [
+   {
+    "en": "I'm running a bit late, traffic is heavy today.",
+    "hi": "मुझे थोड़ी देर हो रही है, आज ट्रैफिक बहुत है।"
+   },
+   {
+    "en": "I'm running a bit late, please start without me.",
+    "hi": "मुझे थोड़ी देर हो रही है, कृपया मेरे बिना शुरू कर दें।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:077",
+  "phrase": "I'll be there in five minutes.",
+  "hi": "मैं पांच मिनट में पहुंच जाऊँगा।",
+  "when_en": "You say this to give a short, reassuring estimate of your arrival time.",
+  "when_hi": "जब आप अपने पहुंचने के समय का एक छोटा, भरोसेमंद अनुमान देते हैं।",
+  "register": "informal",
+  "stiff": "I shall arrive within a duration of five minutes.",
+  "examples": [
+   {
+    "en": "I'm just around the corner, I'll be there in five minutes.",
+    "hi": "मैं बस नज़दीक ही हूँ, पांच मिनट में पहुंच जाऊँगा।"
+   },
+   {
+    "en": "I'll be there in five minutes, save me a seat.",
+    "hi": "मैं पांच मिनट में पहुंच जाऊँगा, मेरे लिए एक सीट रख देना।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:078",
+  "phrase": "Give me a couple of minutes.",
+  "hi": "मुझे दो मिनट दो।",
+  "when_en": "You say this to ask for a short pause before you can do or finish something.",
+  "when_hi": "जब आप किसी काम को करने या पूरा करने से पहले थोड़ा समय मांगते हैं।",
+  "register": "informal",
+  "stiff": "Kindly grant me a brief interval.",
+  "examples": [
+   {
+    "en": "Give me a couple of minutes, I'm just wrapping up something.",
+    "hi": "मुझे दो मिनट दो, मैं बस कुछ खत्म कर रहा हूँ।"
+   },
+   {
+    "en": "Give me a couple of minutes before we start the call.",
+    "hi": "कॉल शुरू करने से पहले मुझे दो मिनट दो।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:079",
+  "phrase": "I'm running behind schedule.",
+  "hi": "मैं अपने शेड्यूल से पीछे चल रहा हूँ।",
+  "when_en": "You say this to explain that you are behind your planned timeline for the day.",
+  "when_hi": "जब आप बताना चाहते हैं कि आप दिन की अपनी तय योजना से पीछे चल रहे हैं।",
+  "register": "neutral",
+  "stiff": "I find myself in arrears with respect to my schedule.",
+  "examples": [
+   {
+    "en": "I'm running behind schedule today, can we push the call?",
+    "hi": "आज मैं शेड्यूल से पीछे चल रहा हूँ, क्या हम कॉल टाल सकते हैं?"
+   },
+   {
+    "en": "Sorry, I'm running behind schedule because of the traffic.",
+    "hi": "माफ़ करें, ट्रैफिक की वजह से मैं शेड्यूल से पीछे चल रहा हूँ।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:080",
+  "phrase": "Let's meet halfway.",
+  "hi": "चलो बीच के रास्ते में मिलते हैं।",
+  "when_en": "You say this to suggest meeting at a location or compromise convenient to both people.",
+  "when_hi": "जब आप दोनों के लिए सुविधाजनक जगह या समझौते पर मिलने का सुझाव देते हैं।",
+  "register": "informal",
+  "stiff": "Let us convene at a mutually convenient midpoint.",
+  "examples": [
+   {
+    "en": "Your place is too far, let's meet halfway instead.",
+    "hi": "तुम्हारा घर बहुत दूर है, चलो बीच के रास्ते में मिलते हैं।"
+   },
+   {
+    "en": "Let's meet halfway on the time, say 6:30?",
+    "hi": "समय के मामले में बीच का रास्ता निकालते हैं, साढ़े छह बजे कैसा रहेगा?"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:081",
+  "phrase": "Can we push it to next week?",
+  "hi": "क्या हम इसे अगले हफ्ते तक टाल सकते हैं?",
+  "when_en": "You say this to ask for something to be postponed to a later week.",
+  "when_hi": "जब आप किसी काम को अगले हफ्ते तक टालने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly reschedule the same to the following week.",
+  "examples": [
+   {
+    "en": "I'm not fully prepared, can we push it to next week?",
+    "hi": "मैं पूरी तरह तैयार नहीं हूँ, क्या हम इसे अगले हफ्ते तक टाल सकते हैं?"
+   },
+   {
+    "en": "Can we push it to next week, this week's a bit packed?",
+    "hi": "क्या हम इसे अगले हफ्ते तक टाल सकते हैं, यह हफ्ता थोड़ा व्यस्त है?"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:082",
+  "phrase": "I need a rain check.",
+  "hi": "मुझे इसे किसी और दिन के लिए टालना पड़ेगा।",
+  "when_en": "You say this to politely postpone a plan to another time, implying you still want to do it later.",
+  "when_hi": "जब आप विनम्रता से किसी योजना को दूसरे समय के लिए टालते हैं, यह बताते हुए कि आप बाद में ज़रूर करना चाहते हैं।",
+  "register": "informal",
+  "stiff": "I must request a postponement of the same to a later date.",
+  "examples": [
+   {
+    "en": "I'm not feeling well today, can I take a rain check?",
+    "hi": "आज मेरी तबीयत ठीक नहीं है, क्या मैं इसे किसी और दिन के लिए टाल सकता हूँ?"
+   },
+   {
+    "en": "I need a rain check on dinner tonight, something came up.",
+    "hi": "आज रात के डिनर को मुझे टालना पड़ेगा, कुछ काम आ गया।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:083",
+  "phrase": "I'll be there right on time.",
+  "hi": "मैं ठीक समय पर पहुंच जाऊँगा।",
+  "when_en": "You say this to assure someone you will not be late.",
+  "when_hi": "जब आप किसी को भरोसा दिलाते हैं कि आप देर नहीं करेंगे।",
+  "register": "neutral",
+  "stiff": "I shall arrive punctually as scheduled.",
+  "examples": [
+   {
+    "en": "Don't worry, I'll be there right on time.",
+    "hi": "चिंता मत करो, मैं ठीक समय पर पहुंच जाऊँगा।"
+   },
+   {
+    "en": "The train usually runs on time, I'll be there right on time.",
+    "hi": "ट्रेन आमतौर पर समय पर चलती है, मैं ठीक समय पर पहुंच जाऊँगा।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:084",
+  "phrase": "Let's not leave it till the last minute.",
+  "hi": "चलो इसे आखिरी समय के लिए मत छोड़ो।",
+  "when_en": "You say this to suggest starting or finishing something with enough time to spare.",
+  "when_hi": "जब आप किसी काम को समय रहते शुरू या खत्म करने का सुझाव देते हैं।",
+  "register": "neutral",
+  "stiff": "Let us avoid deferring this to the eleventh hour.",
+  "examples": [
+   {
+    "en": "The submission is due Friday, let's not leave it till the last minute.",
+    "hi": "जमा करने की तारीख शुक्रवार है, चलो इसे आखिरी समय के लिए मत छोड़ो।"
+   },
+   {
+    "en": "Let's book the tickets now, let's not leave it till the last minute.",
+    "hi": "अभी टिकट बुक कर लेते हैं, चलो इसे आखिरी समय के लिए मत छोड़ो।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:085",
+  "phrase": "I lost track of time.",
+  "hi": "मुझे समय का ध्यान ही नहीं रहा।",
+  "when_en": "You say this to explain you were so absorbed that you didn't notice how much time had passed.",
+  "when_hi": "जब आप बताना चाहते हैं कि आप इतने व्यस्त थे कि समय का पता ही नहीं चला।",
+  "register": "informal",
+  "stiff": "I regret that I was inattentive to the passage of time.",
+  "examples": [
+   {
+    "en": "Sorry I'm late, I was reading and lost track of time.",
+    "hi": "माफ़ करना देर हो गई, मैं पढ़ रहा था और समय का ध्यान ही नहीं रहा।"
+   },
+   {
+    "en": "I lost track of time while debugging that issue.",
+    "hi": "उस समस्या को ठीक करते हुए मुझे समय का ध्यान ही नहीं रहा।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:086",
+  "phrase": "Time got away from me.",
+  "hi": "समय का पता ही नहीं चला।",
+  "when_en": "You say this casually when you unexpectedly ran out of time for something.",
+  "when_hi": "जब आप अनौपचारिक रूप से बताते हैं कि आपको अचानक किसी काम के लिए समय की कमी पड़ गई।",
+  "register": "informal",
+  "stiff": "The available time elapsed without my notice.",
+  "examples": [
+   {
+    "en": "I meant to reply sooner, but time got away from me.",
+    "hi": "मैं जल्दी जवाब देना चाहता था, पर समय का पता ही नहीं चला।"
+   },
+   {
+    "en": "Time got away from me, I still haven't packed for the trip.",
+    "hi": "समय का पता ही नहीं चला, अभी तक मैंने ट्रिप के लिए सामान भी नहीं पैक किया।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:087",
+  "phrase": "Can we make it a bit earlier?",
+  "hi": "क्या हम इसे थोड़ा जल्दी कर सकते हैं?",
+  "when_en": "You say this to ask for a scheduled time to be moved to sooner than planned.",
+  "when_hi": "जब आप तय किए गए समय को पहले से जल्दी करना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly advance the scheduled time somewhat.",
+  "examples": [
+   {
+    "en": "I have another appointment later, can we make it a bit earlier?",
+    "hi": "मुझे बाद में एक और अपॉइंटमेंट है, क्या हम इसे थोड़ा जल्दी कर सकते हैं?"
+   },
+   {
+    "en": "Can we make it a bit earlier, say around nine?",
+    "hi": "क्या हम इसे थोड़ा जल्दी कर सकते हैं, लगभग नौ बजे?"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:088",
+  "phrase": "I'm free after six.",
+  "hi": "मैं छह बजे के बाद फ्री हूँ।",
+  "when_en": "You say this to tell someone your availability starts from a certain time.",
+  "when_hi": "जब आप किसी को बताते हैं कि आप एक निश्चित समय के बाद से फ्री हैं।",
+  "register": "neutral",
+  "stiff": "I shall be available subsequent to six o'clock.",
+  "examples": [
+   {
+    "en": "I have meetings all day, but I'm free after six.",
+    "hi": "आज दिन भर मीटिंग हैं, पर मैं छह बजे के बाद फ्री हूँ।"
+   },
+   {
+    "en": "I'm free after six if you want to grab a coffee.",
+    "hi": "अगर तुम कॉफी पीने चलना चाहो तो मैं छह बजे के बाद फ्री हूँ।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:089",
+  "phrase": "Let's pencil it in for Friday.",
+  "hi": "चलो इसे शुक्रवार के लिए अस्थायी रूप से तय कर लेते हैं।",
+  "when_en": "You say this to tentatively schedule something, subject to change later.",
+  "when_hi": "जब आप किसी बात को अस्थायी रूप से तय करते हैं, जो बाद में बदल सकती है।",
+  "register": "neutral",
+  "stiff": "Let us provisionally schedule the same for Friday.",
+  "examples": [
+   {
+    "en": "Nothing's confirmed yet, let's pencil it in for Friday.",
+    "hi": "अभी कुछ पक्का नहीं है, चलो इसे शुक्रवार के लिए अस्थायी रूप से तय कर लेते हैं।"
+   },
+   {
+    "en": "Let's pencil it in for Friday and confirm closer to the date.",
+    "hi": "चलो इसे शुक्रवार के लिए अस्थायी रूप से रख लेते हैं और तारीख नज़दीक आने पर पक्का करते हैं।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:090",
+  "phrase": "I'll set a reminder.",
+  "hi": "मैं एक रिमाइंडर लगा दूँगा।",
+  "when_en": "You say this to note that you'll create an alert so you don't forget something.",
+  "when_hi": "जब आप बताते हैं कि आप कुछ न भूलने के लिए एक अलर्ट लगाएंगे।",
+  "register": "informal",
+  "stiff": "I shall configure a notification for the same.",
+  "examples": [
+   {
+    "en": "I'll set a reminder so I don't forget to call you tonight.",
+    "hi": "मैं एक रिमाइंडर लगा दूँगा ताकि आज रात तुम्हें कॉल करना न भूलूँ।"
+   },
+   {
+    "en": "I'll set a reminder for the appointment tomorrow.",
+    "hi": "मैं कल के अपॉइंटमेंट के लिए रिमाइंडर लगा दूँगा।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:091",
+  "phrase": "It's just around the corner.",
+  "hi": "यह बस पास ही है।",
+  "when_en": "You say this to mean something is very close by in time or distance.",
+  "when_hi": "जब आप कहते हैं कि कोई चीज़ समय या दूरी के लिहाज़ से बहुत नज़दीक है।",
+  "register": "informal",
+  "stiff": "The same is in close proximity.",
+  "examples": [
+   {
+    "en": "The exam is just around the corner, we should start revising.",
+    "hi": "परीक्षा बस पास ही है, हमें रिवीज़न शुरू कर देना चाहिए।"
+   },
+   {
+    "en": "The station is just around the corner from here.",
+    "hi": "स्टेशन यहाँ से बस पास ही है।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:092",
+  "phrase": "We're cutting it close.",
+  "hi": "हमारे पास समय बहुत कम बचा है।",
+  "when_en": "You say this when there's very little time left before a deadline or event.",
+  "when_hi": "जब किसी डेडलाइन या कार्यक्रम से पहले बहुत कम समय बचा हो।",
+  "register": "informal",
+  "stiff": "We are operating with minimal time margin.",
+  "examples": [
+   {
+    "en": "The flight leaves in twenty minutes, we're cutting it close.",
+    "hi": "फ्लाइट बीस मिनट में है, हमारे पास समय बहुत कम बचा है।"
+   },
+   {
+    "en": "We're cutting it close with this deadline, let's hurry.",
+    "hi": "इस डेडलाइन के लिए हमारे पास समय बहुत कम बचा है, चलो जल्दी करते हैं।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:093",
+  "phrase": "Let's not rush this.",
+  "hi": "चलो इसमें जल्दबाज़ी मत करो।",
+  "when_en": "You say this to suggest taking adequate time rather than hurrying a decision or task.",
+  "when_hi": "जब आप किसी फैसले या काम को जल्दबाज़ी में करने की बजाय, ठीक से समय लेने का सुझाव देते हैं।",
+  "register": "neutral",
+  "stiff": "Let us proceed without undue haste.",
+  "examples": [
+   {
+    "en": "This is an important decision, let's not rush this.",
+    "hi": "यह एक ज़रूरी फैसला है, चलो इसमें जल्दबाज़ी मत करो।"
+   },
+   {
+    "en": "Let's not rush this, we have enough time.",
+    "hi": "चलो इसमें जल्दबाज़ी मत करो, हमारे पास पर्याप्त समय है।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:094",
+  "phrase": "I need more time to think it over.",
+  "hi": "मुझे इस पर सोचने के लिए और समय चाहिए।",
+  "when_en": "You say this when you're not ready to give a final decision yet.",
+  "when_hi": "जब आप अभी अंतिम फैसला देने के लिए तैयार नहीं हैं।",
+  "register": "neutral",
+  "stiff": "I require additional time for deliberation on the same.",
+  "examples": [
+   {
+    "en": "It's a big decision, I need more time to think it over.",
+    "hi": "यह एक बड़ा फैसला है, मुझे सोचने के लिए और समय चाहिए।"
+   },
+   {
+    "en": "Can I get back to you next week? I need more time to think it over.",
+    "hi": "क्या मैं अगले हफ्ते बता सकता हूँ? मुझे सोचने के लिए और समय चाहिए।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:095",
+  "phrase": "That's ages away.",
+  "hi": "अभी तो बहुत समय है।",
+  "when_en": "You say this casually about something that will happen far in the future.",
+  "when_hi": "जब आप अनौपचारिक रूप से किसी ऐसी बात के बारे में कहते हैं जो भविष्य में बहुत दूर होगी।",
+  "register": "informal",
+  "stiff": "The same is at a considerable temporal distance.",
+  "examples": [
+   {
+    "en": "The exam's in March? That's ages away, don't worry yet.",
+    "hi": "परीक्षा मार्च में है? अभी तो बहुत समय है, अभी चिंता मत करो।"
+   },
+   {
+    "en": "His wedding is next year, that's ages away.",
+    "hi": "उसकी शादी अगले साल है, अभी तो बहुत समय है।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:096",
+  "phrase": "I'll be there in a jiffy.",
+  "hi": "मैं अभी आया।",
+  "when_en": "You say this casually to mean you'll arrive or finish something very quickly.",
+  "when_hi": "जब आप अनौपचारिक रूप से कहते हैं कि आप बहुत जल्दी पहुंचेंगे या कुछ खत्म करेंगे।",
+  "register": "informal",
+  "stiff": "I shall arrive momentarily.",
+  "examples": [
+   {
+    "en": "Just grabbing my keys, I'll be there in a jiffy.",
+    "hi": "बस अपनी चाबियां ले रहा हूँ, मैं अभी आया।"
+   },
+   {
+    "en": "Hold on, I'll be there in a jiffy.",
+    "hi": "रुको, मैं अभी आया।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:097",
+  "phrase": "Let's wrap this up quickly.",
+  "hi": "चलो इसे जल्दी खत्म करते हैं।",
+  "when_en": "You say this to suggest finishing a discussion or task efficiently, without dragging it out.",
+  "when_hi": "जब आप किसी चर्चा या काम को बिना लंबा खींचे, जल्दी खत्म करने का सुझाव देते हैं।",
+  "register": "neutral",
+  "stiff": "Let us conclude this expeditiously.",
+  "examples": [
+   {
+    "en": "We're running out of time, let's wrap this up quickly.",
+    "hi": "समय कम बचा है, चलो इसे जल्दी खत्म करते हैं।"
+   },
+   {
+    "en": "Let's wrap this up quickly so people can head home.",
+    "hi": "चलो इसे जल्दी खत्म करते हैं ताकि लोग घर जा सकें।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:098",
+  "phrase": "I'm in no hurry.",
+  "hi": "मुझे कोई जल्दी नहीं है।",
+  "when_en": "You say this to reassure someone that you don't mind waiting.",
+  "when_hi": "जब आप किसी को भरोसा दिलाते हैं कि आपको इंतज़ार करने में कोई दिक्कत नहीं है।",
+  "register": "informal",
+  "stiff": "I am under no compulsion of time.",
+  "examples": [
+   {
+    "en": "Take your time with the order, I'm in no hurry.",
+    "hi": "ऑर्डर आराम से लो, मुझे कोई जल्दी नहीं है।"
+   },
+   {
+    "en": "I'm in no hurry, finish what you're doing first.",
+    "hi": "मुझे कोई जल्दी नहीं है, पहले अपना काम खत्म करो।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:099",
+  "phrase": "Can we do it at short notice?",
+  "hi": "क्या हम इसे बिना ज़्यादा पहले बताए कर सकते हैं?",
+  "when_en": "You say this to ask if something can be arranged quickly, without much advance planning.",
+  "when_hi": "जब आप पूछते हैं कि क्या किसी काम को बिना पहले से ज़्यादा योजना बनाए, जल्दी किया जा सकता है।",
+  "register": "neutral",
+  "stiff": "Kindly advise if arrangements can be expedited on short notice.",
+  "examples": [
+   {
+    "en": "I know it's sudden, but can we do it at short notice?",
+    "hi": "मुझे पता है यह अचानक है, पर क्या हम इसे बिना ज़्यादा पहले बताए कर सकते हैं?"
+   },
+   {
+    "en": "Can we do it at short notice, the client wants it this week?",
+    "hi": "क्या हम इसे बिना ज़्यादा पहले बताए कर सकते हैं, क्लाइंट इसे इस हफ्ते चाहता है?"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:100",
+  "phrase": "Let's stick to the schedule.",
+  "hi": "चलो तय समय पर ही चलते हैं।",
+  "when_en": "You say this to insist on following the planned timeline rather than deviating.",
+  "when_hi": "जब आप योजना से हटने की बजाय, तय समय-सीमा का पालन करने पर ज़ोर देते हैं।",
+  "register": "neutral",
+  "stiff": "Let us adhere strictly to the predetermined schedule.",
+  "examples": [
+   {
+    "en": "We've already delayed twice, let's stick to the schedule this time.",
+    "hi": "हम पहले ही दो बार देर कर चुके हैं, इस बार तय समय पर ही चलते हैं।"
+   },
+   {
+    "en": "Let's stick to the schedule so we don't fall further behind.",
+    "hi": "चलो तय समय पर ही चलते हैं ताकि हम और पीछे न रहें।"
+   }
+  ],
+  "topic": "time"
+ },
+ {
+  "id": "dp:101",
+  "phrase": "Could you pass me that?",
+  "hi": "क्या आप वह मुझे दे सकते हैं?",
+  "when_en": "You say this to casually ask someone to hand you an item nearby.",
+  "when_hi": "जब आप किसी से पास रखी कोई चीज़ देने के लिए कहते हैं।",
+  "register": "informal",
+  "stiff": "Kindly hand over the same to me.",
+  "examples": [
+   {
+    "en": "Could you pass me that remote?",
+    "hi": "क्या आप वह रिमोट मुझे दे सकते हैं?"
+   },
+   {
+    "en": "Could you pass me that towel, please?",
+    "hi": "क्या आप वह तौलिया मुझे दे सकते हैं?"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:102",
+  "phrase": "Mind if I turn the fan on?",
+  "hi": "अगर मैं पंखा चला दूँ तो कोई दिक्कत तो नहीं?",
+  "when_en": "You say this to politely check before switching on a fan in a shared space.",
+  "when_hi": "जब आप साझा जगह में पंखा चलाने से पहले विनम्रता से पूछते हैं।",
+  "register": "neutral",
+  "stiff": "Would it be permissible for me to activate the fan.",
+  "examples": [
+   {
+    "en": "It's a bit warm, mind if I turn the fan on?",
+    "hi": "थोड़ी गर्मी है, अगर मैं पंखा चला दूँ तो कोई दिक्कत तो नहीं?"
+   },
+   {
+    "en": "Mind if I turn the fan on, or is it too cold for you?",
+    "hi": "अगर मैं पंखा चला दूँ तो कोई दिक्कत तो नहीं, या तुम्हें ठंड लगेगी?"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:103",
+  "phrase": "Whose turn is it to do the dishes?",
+  "hi": "आज बर्तन धोने की बारी किसकी है?",
+  "when_en": "You say this to ask who is responsible for a household chore today.",
+  "when_hi": "जब आप पूछते हैं कि आज किसी घरेलू काम की ज़िम्मेदारी किसकी है।",
+  "register": "informal",
+  "stiff": "May I ascertain whose responsibility the dishwashing is today.",
+  "examples": [
+   {
+    "en": "Whose turn is it to do the dishes tonight?",
+    "hi": "आज रात बर्तन धोने की बारी किसकी है?"
+   },
+   {
+    "en": "I did them yesterday, whose turn is it to do the dishes?",
+    "hi": "मैंने कल किए थे, आज बर्तन धोने की बारी किसकी है?"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:104",
+  "phrase": "Can you keep it down a little?",
+  "hi": "क्या आप थोड़ी आवाज़ कम कर सकते हैं?",
+  "when_en": "You say this to politely ask someone to be less noisy.",
+  "when_hi": "जब आप विनम्रता से किसी से शोर कम करने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly moderate the volume somewhat.",
+  "examples": [
+   {
+    "en": "Can you keep it down a little, the baby's sleeping?",
+    "hi": "क्या आप थोड़ी आवाज़ कम कर सकते हैं, बच्चा सो रहा है?"
+   },
+   {
+    "en": "Can you keep it down a little, I'm on a call?",
+    "hi": "क्या आप थोड़ी आवाज़ कम कर सकते हैं, मैं कॉल पर हूँ?"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:105",
+  "phrase": "The power's gone again.",
+  "hi": "फिर से बिजली चली गई।",
+  "when_en": "You say this when the electricity supply has cut out.",
+  "when_hi": "जब बिजली की आपूर्ति अचानक बंद हो जाए।",
+  "register": "informal",
+  "stiff": "The power supply has been interrupted once more.",
+  "examples": [
+   {
+    "en": "The power's gone again, let me light a candle.",
+    "hi": "फिर से बिजली चली गई, मुझे एक मोमबत्ती जलाने दो।"
+   },
+   {
+    "en": "The power's gone again, I hope it comes back soon.",
+    "hi": "फिर से बिजली चली गई, उम्मीद है जल्दी आ जाएगी।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:106",
+  "phrase": "I'll put the kettle on.",
+  "hi": "मैं चाय के लिए पानी गरम कर देता हूँ।",
+  "when_en": "You say this to offer to start making tea or hot water for guests or family.",
+  "when_hi": "जब आप मेहमानों या परिवार के लिए चाय बनाने की पेशकश करते हैं।",
+  "register": "informal",
+  "stiff": "I shall proceed to heat water for the beverage.",
+  "examples": [
+   {
+    "en": "You look tired, I'll put the kettle on.",
+    "hi": "तुम थके हुए लग रहे हो, मैं चाय के लिए पानी गरम कर देता हूँ।"
+   },
+   {
+    "en": "I'll put the kettle on, do you want tea or coffee?",
+    "hi": "मैं पानी गरम कर देता हूँ, तुम्हें चाय चाहिए या कॉफी?"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:107",
+  "phrase": "Can you grab the door?",
+  "hi": "क्या आप दरवाज़ा खोल सकते हैं?",
+  "when_en": "You say this to ask someone nearby to answer or open the door.",
+  "when_hi": "जब आप पास खड़े किसी व्यक्ति से दरवाज़ा खोलने के लिए कहते हैं।",
+  "register": "informal",
+  "stiff": "Could you kindly attend to the door.",
+  "examples": [
+   {
+    "en": "Can you grab the door? My hands are full.",
+    "hi": "क्या आप दरवाज़ा खोल सकते हैं? मेरे हाथ भरे हुए हैं।"
+   },
+   {
+    "en": "Can you grab the door, that's probably the delivery guy.",
+    "hi": "क्या आप दरवाज़ा खोल सकते हैं, शायद डिलीवरी वाला होगा।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:108",
+  "phrase": "Let's order in tonight.",
+  "hi": "आज रात बाहर से खाना मंगवा लेते हैं।",
+  "when_en": "You say this to suggest getting food delivered instead of cooking.",
+  "when_hi": "जब आप खाना बनाने की बजाय बाहर से मंगवाने का सुझाव देते हैं।",
+  "register": "informal",
+  "stiff": "Let us procure our meal via delivery this evening.",
+  "examples": [
+   {
+    "en": "I'm too tired to cook, let's order in tonight.",
+    "hi": "मैं इतना थका हूँ कि खाना नहीं बना सकता, आज रात बाहर से मंगवा लेते हैं।"
+   },
+   {
+    "en": "Let's order in tonight, I've been craving biryani.",
+    "hi": "आज रात बाहर से मंगवा लेते हैं, मेरा बिरयानी खाने का मन है।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:109",
+  "phrase": "I need to run a few errands.",
+  "hi": "मुझे कुछ ज़रूरी काम निपटाने हैं।",
+  "when_en": "You say this to explain you have small outside tasks to complete, like shopping or paying bills.",
+  "when_hi": "जब आप बताना चाहते हैं कि आपको बाहर के कुछ छोटे-छोटे काम, जैसे सामान खरीदना या बिल भरना, निपटाने हैं।",
+  "register": "neutral",
+  "stiff": "I must attend to several outstanding tasks.",
+  "examples": [
+   {
+    "en": "I need to run a few errands before it gets dark.",
+    "hi": "अंधेरा होने से पहले मुझे कुछ ज़रूरी काम निपटाने हैं।"
+   },
+   {
+    "en": "I need to run a few errands, I'll be back by evening.",
+    "hi": "मुझे कुछ ज़रूरी काम निपटाने हैं, शाम तक वापस आ जाऊँगा।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:110",
+  "phrase": "Can you keep an eye on the kids for a bit?",
+  "hi": "क्या आप थोड़ी देर बच्चों को देख सकते हैं?",
+  "when_en": "You say this to ask someone to briefly supervise children.",
+  "when_hi": "जब आप किसी से थोड़ी देर के लिए बच्चों की देखभाल करने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Could you kindly supervise the children momentarily.",
+  "examples": [
+   {
+    "en": "Can you keep an eye on the kids for a bit while I take this call?",
+    "hi": "क्या आप थोड़ी देर बच्चों को देख सकते हैं जब तक मैं यह कॉल लेता हूँ?"
+   },
+   {
+    "en": "Can you keep an eye on the kids for a bit, I need to step out?",
+    "hi": "क्या आप थोड़ी देर बच्चों को देख सकते हैं, मुझे बाहर जाना है?"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:111",
+  "phrase": "The Wi-Fi's acting up again.",
+  "hi": "वाई-फाई फिर से दिक्कत दे रहा है।",
+  "when_en": "You say this when your home internet connection is behaving unreliably.",
+  "when_hi": "जब घर का इंटरनेट कनेक्शन ठीक से काम नहीं कर रहा हो।",
+  "register": "informal",
+  "stiff": "The wireless connection is again malfunctioning.",
+  "examples": [
+   {
+    "en": "The Wi-Fi's acting up again, let me restart the router.",
+    "hi": "वाई-फाई फिर से दिक्कत दे रहा है, मुझे राउटर रीस्टार्ट करने दो।"
+   },
+   {
+    "en": "The Wi-Fi's acting up again, my video keeps buffering.",
+    "hi": "वाई-फाई फिर से दिक्कत दे रहा है, मेरा वीडियो बार-बार रुक रहा है।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:112",
+  "phrase": "I'll take out the trash.",
+  "hi": "मैं कचरा बाहर फेंक देता हूँ।",
+  "when_en": "You say this to offer to dispose of the household garbage.",
+  "when_hi": "जब आप घर का कचरा बाहर फेंकने की पेशकश करते हैं।",
+  "register": "informal",
+  "stiff": "I shall dispose of the refuse.",
+  "examples": [
+   {
+    "en": "I'll take out the trash on my way down.",
+    "hi": "मैं नीचे जाते समय कचरा बाहर फेंक दूँगा।"
+   },
+   {
+    "en": "Don't worry, I'll take out the trash tonight.",
+    "hi": "चिंता मत करो, मैं आज रात कचरा बाहर फेंक दूँगा।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:113",
+  "phrase": "Can you top up the water bottle?",
+  "hi": "क्या आप पानी की बोतल भर सकते हैं?",
+  "when_en": "You say this to ask someone to refill a water bottle.",
+  "when_hi": "जब आप किसी से पानी की बोतल भरने के लिए कहते हैं।",
+  "register": "informal",
+  "stiff": "Could you kindly replenish the water bottle.",
+  "examples": [
+   {
+    "en": "Can you top up the water bottle before we leave?",
+    "hi": "जाने से पहले क्या आप पानी की बोतल भर सकते हैं?"
+   },
+   {
+    "en": "Can you top up the water bottle, it's almost empty?",
+    "hi": "क्या आप पानी की बोतल भर सकते हैं, यह लगभग खाली है?"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:114",
+  "phrase": "Let's tidy up before guests arrive.",
+  "hi": "मेहमानों के आने से पहले सफाई कर लेते हैं।",
+  "when_en": "You say this to suggest cleaning up the house before visitors come.",
+  "when_hi": "जब आप मेहमानों के आने से पहले घर साफ करने का सुझाव देते हैं।",
+  "register": "neutral",
+  "stiff": "Let us undertake tidying prior to the guests' arrival.",
+  "examples": [
+   {
+    "en": "They'll be here in an hour, let's tidy up before guests arrive.",
+    "hi": "वे एक घंटे में आ जाएंगे, मेहमानों के आने से पहले सफाई कर लेते हैं।"
+   },
+   {
+    "en": "Let's tidy up before guests arrive, the living room's a mess.",
+    "hi": "मेहमानों के आने से पहले सफाई कर लेते हैं, लिविंग रूम बिखरा हुआ है।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:115",
+  "phrase": "I forgot to lock the gate.",
+  "hi": "मैं गेट लॉक करना भूल गया।",
+  "when_en": "You say this to admit you forgot to secure the entrance.",
+  "when_hi": "जब आप मानते हैं कि आप प्रवेश द्वार बंद करना भूल गए।",
+  "register": "informal",
+  "stiff": "I neglected to secure the entrance gate.",
+  "examples": [
+   {
+    "en": "I forgot to lock the gate last night, let me go check.",
+    "hi": "मैं कल रात गेट लॉक करना भूल गया, मुझे जाकर देखने दो।"
+   },
+   {
+    "en": "I forgot to lock the gate, can you check it before bed?",
+    "hi": "मैं गेट लॉक करना भूल गया, क्या तुम सोने से पहले चेक कर सकते हो?"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:116",
+  "phrase": "Can you switch off the lights when you leave the room?",
+  "hi": "क्या आप कमरे से जाते वक्त लाइट बंद कर सकते हैं?",
+  "when_en": "You say this to remind someone to turn off lights to save electricity.",
+  "when_hi": "जब आप बिजली बचाने के लिए किसी को लाइट बंद करने की याद दिलाते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly extinguish the lighting upon vacating the room.",
+  "examples": [
+   {
+    "en": "Can you switch off the lights when you leave the room? The bill's already high.",
+    "hi": "क्या आप कमरे से जाते वक्त लाइट बंद कर सकते हैं? बिल पहले से ही ज़्यादा है।"
+   },
+   {
+    "en": "Please switch off the lights when you leave the room from now on.",
+    "hi": "अब से कृपया कमरे से जाते वक्त लाइट बंद कर दिया करें।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:117",
+  "phrase": "We're out of milk again.",
+  "hi": "फिर से दूध खत्म हो गया।",
+  "when_en": "You say this when a household item has run out and needs replenishing.",
+  "when_hi": "जब घर का कोई सामान खत्म हो जाए और उसे दोबारा लाना पड़े।",
+  "register": "informal",
+  "stiff": "The milk supply is once more exhausted.",
+  "examples": [
+   {
+    "en": "We're out of milk again, can you grab some on your way back?",
+    "hi": "फिर से दूध खत्म हो गया, क्या तुम वापस आते वक्त ला सकते हो?"
+   },
+   {
+    "en": "We're out of milk again, I'll have my tea black today.",
+    "hi": "फिर से दूध खत्म हो गया, आज मैं बिना दूध की चाय पी लूँगा।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:118",
+  "phrase": "Let's split the chores this week.",
+  "hi": "चलो इस हफ्ते घर के काम बांट लेते हैं।",
+  "when_en": "You say this to suggest dividing household tasks between people.",
+  "when_hi": "जब आप घर के कामों को लोगों के बीच बांटने का सुझाव देते हैं।",
+  "register": "neutral",
+  "stiff": "Let us apportion the domestic duties for this week.",
+  "examples": [
+   {
+    "en": "You've been doing everything, let's split the chores this week.",
+    "hi": "तुम सब कुछ खुद कर रहे हो, चलो इस हफ्ते घर के काम बांट लेते हैं।"
+   },
+   {
+    "en": "Let's split the chores this week, I'll handle the cooking.",
+    "hi": "चलो इस हफ्ते घर के काम बांट लेते हैं, मैं खाना बनाने का काम संभाल लूँगा।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:119",
+  "phrase": "Can you keep the noise down, I'm on a call.",
+  "hi": "क्या आप थोड़ी शांति रखेंगे, मैं कॉल पर हूँ।",
+  "when_en": "You say this to ask family members at home to be quiet while you're on a phone or video call.",
+  "when_hi": "जब आप फोन या वीडियो कॉल पर होने के दौरान घर के लोगों से शांत रहने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly maintain silence, I am engaged in a call.",
+  "examples": [
+   {
+    "en": "Can you keep the noise down, I'm on a call with a client?",
+    "hi": "क्या आप थोड़ी शांति रखेंगे, मैं क्लाइंट के साथ कॉल पर हूँ?"
+   },
+   {
+    "en": "Can you keep the noise down for ten minutes, I'm on a call?",
+    "hi": "क्या आप दस मिनट के लिए थोड़ी शांति रखेंगे, मैं कॉल पर हूँ?"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:120",
+  "phrase": "I'll be in my room if you need me.",
+  "hi": "अगर ज़रूरत हो तो मैं अपने कमरे में हूँ।",
+  "when_en": "You say this to let household members know where to find you.",
+  "when_hi": "जब आप घर के सदस्यों को बताते हैं कि ज़रूरत पड़ने पर आप कहाँ मिलेंगे।",
+  "register": "informal",
+  "stiff": "Should you require my presence, I shall be in my chamber.",
+  "examples": [
+   {
+    "en": "I'll be in my room if you need me, just knock.",
+    "hi": "अगर ज़रूरत हो तो मैं अपने कमरे में हूँ, बस दस्तक दे देना।"
+   },
+   {
+    "en": "I'll be in my room if you need me, I have a call in ten minutes.",
+    "hi": "अगर ज़रूरत हो तो मैं अपने कमरे में हूँ, दस मिनट में मेरी एक कॉल है।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:121",
+  "phrase": "Someone's at the door.",
+  "hi": "दरवाज़े पर कोई है।",
+  "when_en": "You say this to alert someone that a visitor has arrived or knocked.",
+  "when_hi": "जब आप किसी को बताते हैं कि दरवाज़े पर कोई आया है या दस्तक दी है।",
+  "register": "informal",
+  "stiff": "There appears to be a visitor at the entrance.",
+  "examples": [
+   {
+    "en": "Someone's at the door, can you check who it is?",
+    "hi": "दरवाज़े पर कोई है, क्या आप देख सकते हैं कौन है?"
+   },
+   {
+    "en": "Someone's at the door, I think it's the courier.",
+    "hi": "दरवाज़े पर कोई है, लगता है कूरियर वाला है।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:122",
+  "phrase": "Let's not waste food.",
+  "hi": "चलो खाना बर्बाद मत करो।",
+  "when_en": "You say this to encourage finishing food or not throwing it away unnecessarily.",
+  "when_hi": "जब आप खाना खत्म करने या उसे बेवजह न फेंकने के लिए प्रोत्साहित करते हैं।",
+  "register": "neutral",
+  "stiff": "Let us refrain from the wastage of food.",
+  "examples": [
+   {
+    "en": "We made too much, let's not waste food, I'll pack the rest.",
+    "hi": "हमने बहुत ज़्यादा बना लिया, चलो खाना बर्बाद मत करो, मैं बाकी पैक कर लेता हूँ।"
+   },
+   {
+    "en": "Let's not waste food, finish what's on your plate.",
+    "hi": "चलो खाना बर्बाद मत करो, अपनी थाली में जो है वह खत्म करो।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:123",
+  "phrase": "Can you check if the gas is off?",
+  "hi": "क्या आप देख सकते हैं गैस बंद है या नहीं?",
+  "when_en": "You say this to ask someone to verify the stove or gas cylinder is switched off.",
+  "when_hi": "जब आप किसी से चूल्हा या गैस सिलेंडर बंद है या नहीं, यह जांचने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly verify that the gas supply has been deactivated.",
+  "examples": [
+   {
+    "en": "Before we leave, can you check if the gas is off?",
+    "hi": "जाने से पहले, क्या आप देख सकते हैं गैस बंद है या नहीं?"
+   },
+   {
+    "en": "Can you check if the gas is off, I smell something?",
+    "hi": "क्या आप देख सकते हैं गैस बंद है या नहीं, मुझे कुछ गंध आ रही है?"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:124",
+  "phrase": "I'll do a load of laundry.",
+  "hi": "मैं कपड़े धोने डाल दूँगा।",
+  "when_en": "You say this to say you'll wash a batch of clothes.",
+  "when_hi": "जब आप बताते हैं कि आप कपड़ों का एक ढेर धोने डालेंगे।",
+  "register": "informal",
+  "stiff": "I shall undertake a cycle of laundering.",
+  "examples": [
+   {
+    "en": "I'll do a load of laundry this afternoon.",
+    "hi": "मैं आज दोपहर कपड़े धोने डाल दूँगा।"
+   },
+   {
+    "en": "I'll do a load of laundry, do you have anything to add?",
+    "hi": "मैं कपड़े धोने डाल दूँगा, तुम्हारा कुछ डालना है क्या?"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:125",
+  "phrase": "Let's air out the room for a bit.",
+  "hi": "चलो कमरे में थोड़ी देर हवा आने दो।",
+  "when_en": "You say this to suggest opening windows to freshen a stuffy room.",
+  "when_hi": "जब आप बंद कमरे को ताज़ा करने के लिए खिड़कियां खोलने का सुझाव देते हैं।",
+  "register": "neutral",
+  "stiff": "Let us ventilate the room momentarily.",
+  "examples": [
+   {
+    "en": "It's a bit stuffy in here, let's air out the room for a bit.",
+    "hi": "यहाँ थोड़ी घुटन है, चलो कमरे में थोड़ी देर हवा आने दो।"
+   },
+   {
+    "en": "Let's air out the room for a bit before the guests arrive.",
+    "hi": "मेहमानों के आने से पहले कमरे में थोड़ी देर हवा आने दो।"
+   }
+  ],
+  "topic": "home"
+ },
+ {
+  "id": "dp:126",
+  "phrase": "Do you have this in a different size?",
+  "hi": "क्या यह किसी और साइज़ में है?",
+  "when_en": "You say this in a shop to ask if an item comes in another size.",
+  "when_hi": "जब आप दुकान में पूछते हैं कि कोई सामान किसी और साइज़ में उपलब्ध है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly inform if the same is available in an alternate size.",
+  "examples": [
+   {
+    "en": "This is a bit tight, do you have this in a different size?",
+    "hi": "यह थोड़ा टाइट है, क्या यह किसी और साइज़ में है?"
+   },
+   {
+    "en": "Do you have this in a different size, maybe a medium?",
+    "hi": "क्या यह किसी और साइज़ में है, शायद मीडियम?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:127",
+  "phrase": "Can I try this on?",
+  "hi": "क्या मैं इसे पहन कर देख सकता हूँ?",
+  "when_en": "You say this to ask permission to try on a clothing item before buying.",
+  "when_hi": "जब आप खरीदने से पहले किसी कपड़े को पहन कर देखने की अनुमति मांगते हैं।",
+  "register": "neutral",
+  "stiff": "May I be permitted to try the same on.",
+  "examples": [
+   {
+    "en": "This looks nice, can I try this on?",
+    "hi": "यह अच्छा लग रहा है, क्या मैं इसे पहन कर देख सकता हूँ?"
+   },
+   {
+    "en": "Can I try this on in a smaller size as well?",
+    "hi": "क्या मैं इसे एक छोटे साइज़ में भी पहन कर देख सकता हूँ?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:128",
+  "phrase": "Is this on sale?",
+  "hi": "क्या इस पर छूट है?",
+  "when_en": "You say this to check if an item is discounted.",
+  "when_hi": "जब आप जांचते हैं कि किसी सामान पर छूट है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly confirm if the same is currently discounted.",
+  "examples": [
+   {
+    "en": "Is this on sale, or is that the regular price?",
+    "hi": "क्या इस पर छूट है, या यह सामान्य कीमत है?"
+   },
+   {
+    "en": "Is this on sale this week?",
+    "hi": "क्या इस हफ्ते इस पर छूट है?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:129",
+  "phrase": "Do you take cards?",
+  "hi": "क्या आप कार्ड लेते हैं?",
+  "when_en": "You say this to ask if a shop accepts card payments.",
+  "when_hi": "जब आप पूछते हैं कि दुकान कार्ड से भुगतान लेती है या नहीं।",
+  "register": "neutral",
+  "stiff": "Do you accept payment via card at this establishment.",
+  "examples": [
+   {
+    "en": "Do you take cards, or is it cash only?",
+    "hi": "क्या आप कार्ड लेते हैं, या सिर्फ नकद?"
+   },
+   {
+    "en": "Do you take cards? I don't have cash on me.",
+    "hi": "क्या आप कार्ड लेते हैं? मेरे पास नकद नहीं है।"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:130",
+  "phrase": "Can I get a bag for this?",
+  "hi": "क्या इसके लिए मुझे एक बैग मिल सकता है?",
+  "when_en": "You say this to ask for a carry bag for your purchase.",
+  "when_hi": "जब आप अपनी खरीदारी के लिए एक कैरी बैग मांगते हैं।",
+  "register": "informal",
+  "stiff": "Could I be provided with a carry bag for the same.",
+  "examples": [
+   {
+    "en": "Can I get a bag for this, it's a bit heavy?",
+    "hi": "क्या इसके लिए मुझे एक बैग मिल सकता है, यह थोड़ा भारी है?"
+   },
+   {
+    "en": "Can I get a bag for this, I forgot to bring mine?",
+    "hi": "क्या इसके लिए मुझे एक बैग मिल सकता है, मैं अपना लाना भूल गया?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:131",
+  "phrase": "Is there a warranty on this?",
+  "hi": "क्या इस पर वारंटी है?",
+  "when_en": "You say this to check if a product comes with a warranty.",
+  "when_hi": "जब आप जांचते हैं कि किसी उत्पाद के साथ वारंटी मिलती है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly clarify if a warranty is applicable to the same.",
+  "examples": [
+   {
+    "en": "Is there a warranty on this, and how long does it last?",
+    "hi": "क्या इस पर वारंटी है, और यह कितने समय की है?"
+   },
+   {
+    "en": "Is there a warranty on this in case it stops working?",
+    "hi": "अगर यह काम करना बंद कर दे तो क्या इस पर वारंटी है?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:132",
+  "phrase": "Can you gift-wrap this?",
+  "hi": "क्या आप इसे गिफ्ट रैप कर सकते हैं?",
+  "when_en": "You say this to ask a shop to wrap an item as a present.",
+  "when_hi": "जब आप दुकान से किसी सामान को उपहार की तरह पैक करने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Could you kindly wrap this item as a gift.",
+  "examples": [
+   {
+    "en": "It's for a birthday, can you gift-wrap this?",
+    "hi": "यह जन्मदिन के लिए है, क्या आप इसे गिफ्ट रैप कर सकते हैं?"
+   },
+   {
+    "en": "Can you gift-wrap this separately from the rest?",
+    "hi": "क्या आप इसे बाकी सामान से अलग गिफ्ट रैप कर सकते हैं?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:133",
+  "phrase": "I'm just browsing, thanks.",
+  "hi": "मैं बस देख रहा हूँ, धन्यवाद।",
+  "when_en": "You say this to a shop assistant to say you're looking around without a specific purchase in mind yet.",
+  "when_hi": "जब आप दुकान के कर्मचारी को बताते हैं कि आप बस देख रहे हैं, अभी कुछ खास खरीदने का इरादा नहीं है।",
+  "register": "neutral",
+  "stiff": "I am merely surveying the merchandise at present, thank you.",
+  "examples": [
+   {
+    "en": "Do you need help finding anything? — I'm just browsing, thanks.",
+    "hi": "क्या आपको कुछ ढूंढने में मदद चाहिए? — मैं बस देख रहा हूँ, धन्यवाद।"
+   },
+   {
+    "en": "I'm just browsing, thanks, I'll call you if I need anything.",
+    "hi": "मैं बस देख रहा हूँ, धन्यवाद, ज़रूरत होने पर बुला लूँगा।"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:134",
+  "phrase": "Do you have this in another colour?",
+  "hi": "क्या यह किसी और रंग में है?",
+  "when_en": "You say this to ask if an item is available in a different colour.",
+  "when_hi": "जब आप पूछते हैं कि कोई सामान किसी और रंग में उपलब्ध है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly inform if the same is available in another hue.",
+  "examples": [
+   {
+    "en": "I like the design, do you have this in another colour?",
+    "hi": "मुझे डिज़ाइन पसंद है, क्या यह किसी और रंग में है?"
+   },
+   {
+    "en": "Do you have this in another colour, maybe black?",
+    "hi": "क्या यह किसी और रंग में है, शायद काले रंग में?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:135",
+  "phrase": "Can I get a refund on this?",
+  "hi": "क्या मुझे इसका रिफंड मिल सकता है?",
+  "when_en": "You say this to ask for money back on a returned item.",
+  "when_hi": "जब आप किसी लौटाए गए सामान के पैसे वापस मांगते हैं।",
+  "register": "neutral",
+  "stiff": "Could a refund be processed for the same.",
+  "examples": [
+   {
+    "en": "This doesn't work, can I get a refund on this?",
+    "hi": "यह काम नहीं कर रहा, क्या मुझे इसका रिफंड मिल सकता है?"
+   },
+   {
+    "en": "Can I get a refund on this, I have the receipt.",
+    "hi": "क्या मुझे इसका रिफंड मिल सकता है, मेरे पास रसीद है।"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:136",
+  "phrase": "Is this the final price?",
+  "hi": "क्या यह आखिरी कीमत है?",
+  "when_en": "You say this to check if a quoted price is negotiable or fixed.",
+  "when_hi": "जब आप जांचते हैं कि बताई गई कीमत तय है या उसमें मोलभाव हो सकता है।",
+  "register": "neutral",
+  "stiff": "Kindly confirm if the quoted amount is non-negotiable.",
+  "examples": [
+   {
+    "en": "Is this the final price, or can we settle for less?",
+    "hi": "क्या यह आखिरी कीमत है, या इससे कम में हो सकता है?"
+   },
+   {
+    "en": "Is this the final price after the discount?",
+    "hi": "क्या छूट के बाद यह आखिरी कीमत है?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:137",
+  "phrase": "Can you hold this for me?",
+  "hi": "क्या आप इसे मेरे लिए रोक कर रख सकते हैं?",
+  "when_en": "You say this to ask a shop to reserve an item for you to collect or buy later.",
+  "when_hi": "जब आप दुकान से किसी सामान को बाद में लेने के लिए रोक कर रखने को कहते हैं।",
+  "register": "neutral",
+  "stiff": "Could you kindly reserve the same on my behalf.",
+  "examples": [
+   {
+    "en": "I'll be back in an hour, can you hold this for me?",
+    "hi": "मैं एक घंटे में वापस आऊँगा, क्या आप इसे मेरे लिए रोक कर रख सकते हैं?"
+   },
+   {
+    "en": "Can you hold this for me till tomorrow?",
+    "hi": "क्या आप इसे कल तक मेरे लिए रोक कर रख सकते हैं?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:138",
+  "phrase": "Do you deliver to this address?",
+  "hi": "क्या आप इस पते पर डिलीवरी करते हैं?",
+  "when_en": "You say this to check if a store delivers to your location.",
+  "when_hi": "जब आप जांचते हैं कि कोई दुकान आपके पते पर सामान भेजती है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly confirm if delivery services extend to this location.",
+  "examples": [
+   {
+    "en": "Do you deliver to this address, it's a bit outside the city?",
+    "hi": "क्या आप इस पते पर डिलीवरी करते हैं, यह शहर से थोड़ा बाहर है?"
+   },
+   {
+    "en": "Do you deliver to this address, and how long does it take?",
+    "hi": "क्या आप इस पते पर डिलीवरी करते हैं, और इसमें कितना समय लगता है?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:139",
+  "phrase": "I'll take this one instead.",
+  "hi": "मैं इसकी जगह यह ले लूँगा।",
+  "when_en": "You say this to change your choice to a different item.",
+  "when_hi": "जब आप अपनी पसंद बदलकर किसी और सामान को चुनते हैं।",
+  "register": "informal",
+  "stiff": "I shall opt for this alternative instead.",
+  "examples": [
+   {
+    "en": "That one's out of stock, I'll take this one instead.",
+    "hi": "वह स्टॉक में नहीं है, मैं इसकी जगह यह ले लूँगा।"
+   },
+   {
+    "en": "I'll take this one instead, it's a better fit.",
+    "hi": "मैं इसकी जगह यह ले लूँगा, यह ज़्यादा फिट है।"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:140",
+  "phrase": "Can I exchange this if it doesn't fit?",
+  "hi": "अगर यह फिट नहीं हुआ तो क्या मैं इसे बदल सकता हूँ?",
+  "when_en": "You say this to check the exchange policy before buying clothing or footwear.",
+  "when_hi": "जब आप कपड़े या जूते खरीदने से पहले एक्सचेंज पॉलिसी जानना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly clarify the exchange policy in the event of an improper fit.",
+  "examples": [
+   {
+    "en": "I'm not sure about the size, can I exchange this if it doesn't fit?",
+    "hi": "मुझे साइज़ को लेकर यकीन नहीं, अगर यह फिट नहीं हुआ तो क्या मैं इसे बदल सकता हूँ?"
+   },
+   {
+    "en": "Can I exchange this if it doesn't fit, within how many days?",
+    "hi": "अगर यह फिट नहीं हुआ तो क्या मैं इसे बदल सकता हूँ, कितने दिनों के अंदर?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:141",
+  "phrase": "Is there a discount for paying cash?",
+  "hi": "क्या नकद भुगतान करने पर छूट मिलती है?",
+  "when_en": "You say this to check if paying in cash gets you a lower price.",
+  "when_hi": "जब आप जांचते हैं कि नकद भुगतान करने पर कीमत कम होती है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly advise if a rebate applies for cash transactions.",
+  "examples": [
+   {
+    "en": "Is there a discount for paying cash instead of card?",
+    "hi": "क्या कार्ड की जगह नकद भुगतान करने पर छूट मिलती है?"
+   },
+   {
+    "en": "Is there a discount for paying cash on this item?",
+    "hi": "क्या इस सामान पर नकद भुगतान करने पर छूट मिलती है?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:142",
+  "phrase": "Can you show me something similar but cheaper?",
+  "hi": "क्या आप मुझे इससे मिलता-जुलता पर सस्ता कुछ दिखा सकते हैं?",
+  "when_en": "You say this to ask for a more affordable alternative to an item you liked.",
+  "when_hi": "जब आप पसंद आए सामान के लिए एक सस्ता विकल्प मांगते हैं।",
+  "register": "neutral",
+  "stiff": "Could you present an equivalent option at a lower price point.",
+  "examples": [
+   {
+    "en": "This is a bit over my budget, can you show me something similar but cheaper?",
+    "hi": "यह मेरे बजट से थोड़ा ज़्यादा है, क्या आप मुझे मिलता-जुलता पर सस्ता कुछ दिखा सकते हैं?"
+   },
+   {
+    "en": "Can you show me something similar but cheaper, in the same colour?",
+    "hi": "क्या आप मुझे इसी रंग में मिलता-जुलता पर सस्ता कुछ दिखा सकते हैं?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:143",
+  "phrase": "I'll come back for this later.",
+  "hi": "मैं इसे बाद में लेने आऊँगा।",
+  "when_en": "You say this to leave an item for now with the intention of buying it another time.",
+  "when_hi": "जब आप किसी सामान को अभी छोड़कर बाद में खरीदने का इरादा रखते हैं।",
+  "register": "informal",
+  "stiff": "I shall return for this item at a subsequent time.",
+  "examples": [
+   {
+    "en": "I don't have enough cash right now, I'll come back for this later.",
+    "hi": "मेरे पास अभी पर्याप्त नकद नहीं है, मैं इसे बाद में लेने आऊँगा।"
+   },
+   {
+    "en": "I need to think about it, I'll come back for this later.",
+    "hi": "मुझे इस पर सोचना है, मैं इसे बाद में लेने आऊँगा।"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:144",
+  "phrase": "Do you have a smaller pack of this?",
+  "hi": "क्या इसका छोटा पैक है?",
+  "when_en": "You say this to ask for a smaller quantity or size of a packaged product.",
+  "when_hi": "जब आप किसी पैक किए गए सामान की छोटी मात्रा या साइज़ मांगते हैं।",
+  "register": "neutral",
+  "stiff": "Is a smaller packaging option available for the same.",
+  "examples": [
+   {
+    "en": "This is too much for one person, do you have a smaller pack of this?",
+    "hi": "यह एक व्यक्ति के लिए बहुत ज़्यादा है, क्या इसका छोटा पैक है?"
+   },
+   {
+    "en": "Do you have a smaller pack of this, just to try it first?",
+    "hi": "क्या इसका छोटा पैक है, पहले सिर्फ ट्राई करने के लिए?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:145",
+  "phrase": "Can I pay in installments?",
+  "hi": "क्या मैं इसे किस्तों में भर सकता हूँ?",
+  "when_en": "You say this to ask if you can split a payment over time.",
+  "when_hi": "जब आप पूछते हैं कि क्या भुगतान को समय के साथ किस्तों में बांटा जा सकता है।",
+  "register": "neutral",
+  "stiff": "Is it possible to remit payment in periodic installments.",
+  "examples": [
+   {
+    "en": "This is a big purchase, can I pay in installments?",
+    "hi": "यह एक बड़ी खरीदारी है, क्या मैं इसे किस्तों में भर सकता हूँ?"
+   },
+   {
+    "en": "Can I pay in installments over three months?",
+    "hi": "क्या मैं इसे तीन महीनों की किस्तों में भर सकता हूँ?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:146",
+  "phrase": "Is this genuine leather?",
+  "hi": "क्या यह असली चमड़ा है?",
+  "when_en": "You say this to verify the authenticity of a leather product.",
+  "when_hi": "जब आप किसी चमड़े के सामान की असलियत जांचना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly confirm whether this material is authentic leather.",
+  "examples": [
+   {
+    "en": "Is this genuine leather, or is it synthetic?",
+    "hi": "क्या यह असली चमड़ा है, या यह नकली है?"
+   },
+   {
+    "en": "Is this genuine leather? It feels a bit too smooth.",
+    "hi": "क्या यह असली चमड़ा है? यह थोड़ा ज़्यादा ही चिकना लग रहा है।"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:147",
+  "phrase": "Can you check if you have more in stock?",
+  "hi": "क्या आप देख सकते हैं इसका और स्टॉक है या नहीं?",
+  "when_en": "You say this to ask if more units of an item are available, perhaps in the back or another store.",
+  "when_hi": "जब आप पूछते हैं कि किसी सामान की और यूनिट्स उपलब्ध हैं या नहीं, शायद गोदाम में या दूसरी दुकान में।",
+  "register": "neutral",
+  "stiff": "Could you kindly ascertain the availability of additional stock.",
+  "examples": [
+   {
+    "en": "There's only one left, can you check if you have more in stock?",
+    "hi": "सिर्फ एक बचा है, क्या आप देख सकते हैं इसका और स्टॉक है या नहीं?"
+   },
+   {
+    "en": "Can you check if you have more in stock at another branch?",
+    "hi": "क्या आप देख सकते हैं किसी और शाखा में इसका स्टॉक है या नहीं?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:148",
+  "phrase": "I'd like a receipt for this, please.",
+  "hi": "कृपया इसकी रसीद दे दीजिए।",
+  "when_en": "You say this to formally ask for proof of purchase.",
+  "when_hi": "जब आप औपचारिक रूप से खरीद की रसीद मांगते हैं।",
+  "register": "formal",
+  "stiff": "Kindly furnish a receipt for this transaction.",
+  "examples": [
+   {
+    "en": "I'd like a receipt for this, please, for reimbursement.",
+    "hi": "कृपया इसकी रसीद दे दीजिए, रीइंबर्समेंट के लिए चाहिए।"
+   },
+   {
+    "en": "I'd like a receipt for this, please, and a bag as well.",
+    "hi": "कृपया इसकी रसीद दे दीजिए, और एक बैग भी।"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:149",
+  "phrase": "Do you accept returns without a receipt?",
+  "hi": "क्या आप बिना रसीद के भी सामान वापस लेते हैं?",
+  "when_en": "You say this to check a store's return policy when you don't have the receipt.",
+  "when_hi": "जब आप बिना रसीद के दुकान की रिटर्न पॉलिसी जानना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly clarify the return policy in the absence of a receipt.",
+  "examples": [
+   {
+    "en": "I lost the receipt, do you accept returns without a receipt?",
+    "hi": "मुझसे रसीद खो गई, क्या आप बिना रसीद के भी सामान वापस लेते हैं?"
+   },
+   {
+    "en": "Do you accept returns without a receipt, if it's still tagged?",
+    "hi": "अगर टैग अभी भी लगा है, तो क्या आप बिना रसीद के सामान वापस लेते हैं?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:150",
+  "phrase": "Can you throw in a discount?",
+  "hi": "क्या आप थोड़ी छूट दे सकते हैं?",
+  "when_en": "You say this casually to ask a seller for a lower price.",
+  "when_hi": "जब आप अनौपचारिक रूप से विक्रेता से कीमत कम करने के लिए कहते हैं।",
+  "register": "informal",
+  "stiff": "Could a concession on price be extended.",
+  "examples": [
+   {
+    "en": "I'm buying three of these, can you throw in a discount?",
+    "hi": "मैं इनमें से तीन खरीद रहा हूँ, क्या आप थोड़ी छूट दे सकते हैं?"
+   },
+   {
+    "en": "Can you throw in a discount if I pay in cash?",
+    "hi": "अगर मैं नकद भुगतान करूँ तो क्या आप थोड़ी छूट दे सकते हैं?"
+   }
+  ],
+  "topic": "shopping"
+ },
+ {
+  "id": "dp:151",
+  "phrase": "Is this seat taken?",
+  "hi": "क्या यह सीट खाली है?",
+  "when_en": "You say this to politely check if an empty-looking seat is available.",
+  "when_hi": "जब आप विनम्रता से पूछते हैं कि खाली दिख रही सीट उपलब्ध है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly confirm if this seat is unoccupied.",
+  "examples": [
+   {
+    "en": "Excuse me, is this seat taken?",
+    "hi": "माफ़ कीजिए, क्या यह सीट खाली है?"
+   },
+   {
+    "en": "Is this seat taken, or can I sit here?",
+    "hi": "क्या यह सीट खाली है, या मैं यहाँ बैठ सकता हूँ?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:152",
+  "phrase": "Could you help me with my bag?",
+  "hi": "क्या आप मेरे बैग में मेरी मदद कर सकते हैं?",
+  "when_en": "You say this to ask for help lifting or carrying luggage.",
+  "when_hi": "जब आप सामान उठाने या ले जाने में मदद मांगते हैं।",
+  "register": "neutral",
+  "stiff": "Could you kindly assist me with my luggage.",
+  "examples": [
+   {
+    "en": "This is quite heavy, could you help me with my bag?",
+    "hi": "यह काफी भारी है, क्या आप मेरे बैग में मेरी मदद कर सकते हैं?"
+   },
+   {
+    "en": "Could you help me with my bag, the overhead bin is a bit high?",
+    "hi": "क्या आप मेरे बैग में मेरी मदद कर सकते हैं, ऊपर वाला केबिन थोड़ा ऊँचा है?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:153",
+  "phrase": "What time do we land?",
+  "hi": "हम कितने बजे उतरेंगे?",
+  "when_en": "You say this to ask the arrival time of a flight.",
+  "when_hi": "जब आप फ्लाइट के पहुंचने का समय पूछते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly advise the estimated time of arrival.",
+  "examples": [
+   {
+    "en": "What time do we land in Delhi?",
+    "hi": "हम दिल्ली में कितने बजे उतरेंगे?"
+   },
+   {
+    "en": "What time do we land, I have a connecting flight?",
+    "hi": "हम कितने बजे उतरेंगे, मेरी एक कनेक्टिंग फ्लाइट है?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:154",
+  "phrase": "Is there a layover on this flight?",
+  "hi": "क्या इस फ्लाइट में लेओवर है?",
+  "when_en": "You say this to check if a flight includes a stopover.",
+  "when_hi": "जब आप जांचते हैं कि किसी फ्लाइट में बीच में रुकना पड़ता है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly clarify if this flight involves an intermediate stop.",
+  "examples": [
+   {
+    "en": "Is there a layover on this flight, or is it direct?",
+    "hi": "क्या इस फ्लाइट में लेओवर है, या यह सीधी है?"
+   },
+   {
+    "en": "Is there a layover on this flight, how long is it?",
+    "hi": "क्या इस फ्लाइट में लेओवर है, यह कितनी देर का है?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:155",
+  "phrase": "Can I get a window seat?",
+  "hi": "क्या मुझे खिड़की वाली सीट मिल सकती है?",
+  "when_en": "You say this to request a seat by the window.",
+  "when_hi": "जब आप खिड़की के पास वाली सीट मांगते हैं।",
+  "register": "neutral",
+  "stiff": "May I be allotted a seat adjacent to the window.",
+  "examples": [
+   {
+    "en": "Can I get a window seat if it's available?",
+    "hi": "अगर उपलब्ध हो तो क्या मुझे खिड़की वाली सीट मिल सकती है?"
+   },
+   {
+    "en": "Can I get a window seat for this flight?",
+    "hi": "क्या इस फ्लाइट में मुझे खिड़की वाली सीट मिल सकती है?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:156",
+  "phrase": "How far is it from here?",
+  "hi": "यहाँ से यह कितनी दूर है?",
+  "when_en": "You say this to ask the distance to a place from your current location.",
+  "when_hi": "जब आप वर्तमान स्थान से किसी जगह की दूरी पूछते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly advise the distance of the same from this location.",
+  "examples": [
+   {
+    "en": "How far is it from here to the museum?",
+    "hi": "यहाँ से संग्रहालय कितनी दूर है?"
+   },
+   {
+    "en": "How far is it from here, can we walk?",
+    "hi": "यहाँ से यह कितनी दूर है, क्या हम पैदल जा सकते हैं?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:157",
+  "phrase": "Can you recommend a good place to eat nearby?",
+  "hi": "क्या आप पास में खाने के लिए कोई अच्छी जगह बता सकते हैं?",
+  "when_en": "You say this to ask a local or hotel staff for a nearby restaurant recommendation.",
+  "when_hi": "जब आप किसी स्थानीय व्यक्ति या होटल स्टाफ से पास की किसी अच्छी रेस्टोरेंट के बारे में पूछते हैं।",
+  "register": "neutral",
+  "stiff": "Could you kindly suggest a suitable dining establishment in proximity.",
+  "examples": [
+   {
+    "en": "Can you recommend a good place to eat nearby that's not too expensive?",
+    "hi": "क्या आप पास में खाने के लिए कोई अच्छी जगह बता सकते हैं जो ज़्यादा महंगी न हो?"
+   },
+   {
+    "en": "Can you recommend a good place to eat nearby for vegetarian food?",
+    "hi": "क्या आप पास में शाकाहारी खाने के लिए कोई अच्छी जगह बता सकते हैं?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:158",
+  "phrase": "Is this the right platform for the airport?",
+  "hi": "क्या हवाई अड्डे के लिए यही प्लेटफॉर्म है?",
+  "when_en": "You say this to confirm you're at the correct train platform for your destination.",
+  "when_hi": "जब आप सुनिश्चित करना चाहते हैं कि आप अपने गंतव्य के लिए सही प्लेटफॉर्म पर हैं।",
+  "register": "neutral",
+  "stiff": "Kindly confirm if this is the correct platform for the airport.",
+  "examples": [
+   {
+    "en": "Excuse me, is this the right platform for the airport?",
+    "hi": "माफ़ कीजिए, क्या हवाई अड्डे के लिए यही प्लेटफॉर्म है?"
+   },
+   {
+    "en": "Is this the right platform for the airport express?",
+    "hi": "क्या एयरपोर्ट एक्सप्रेस के लिए यही प्लेटफॉर्म है?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:159",
+  "phrase": "Do I need to change trains?",
+  "hi": "क्या मुझे ट्रेन बदलनी पड़ेगी?",
+  "when_en": "You say this to ask if your journey requires switching trains.",
+  "when_hi": "जब आप पूछते हैं कि आपकी यात्रा में ट्रेन बदलनी पड़ेगी या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly clarify if a change of train is necessitated.",
+  "examples": [
+   {
+    "en": "Do I need to change trains to get to the old city?",
+    "hi": "पुराने शहर पहुंचने के लिए क्या मुझे ट्रेन बदलनी पड़ेगी?"
+   },
+   {
+    "en": "Do I need to change trains, or is it a direct route?",
+    "hi": "क्या मुझे ट्रेन बदलनी पड़ेगी, या यह सीधा रास्ता है?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:160",
+  "phrase": "Can I check in early?",
+  "hi": "क्या मैं जल्दी चेक-इन कर सकता हूँ?",
+  "when_en": "You say this to ask a hotel if you can check in before the standard time.",
+  "when_hi": "जब आप होटल से सामान्य समय से पहले चेक-इन करने के लिए पूछते हैं।",
+  "register": "neutral",
+  "stiff": "May early check-in be accommodated.",
+  "examples": [
+   {
+    "en": "My flight lands early, can I check in early?",
+    "hi": "मेरी फ्लाइट जल्दी उतरेगी, क्या मैं जल्दी चेक-इन कर सकता हूँ?"
+   },
+   {
+    "en": "Can I check in early, even if it's just an hour?",
+    "hi": "क्या मैं जल्दी चेक-इन कर सकता हूँ, भले ही सिर्फ एक घंटा पहले हो?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:161",
+  "phrase": "Is breakfast included?",
+  "hi": "क्या नाश्ता शामिल है?",
+  "when_en": "You say this to check if breakfast is part of a hotel booking.",
+  "when_hi": "जब आप जांचते हैं कि होटल बुकिंग में नाश्ता शामिल है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly confirm if breakfast forms part of the package.",
+  "examples": [
+   {
+    "en": "Is breakfast included in this rate?",
+    "hi": "क्या इस कीमत में नाश्ता शामिल है?"
+   },
+   {
+    "en": "Is breakfast included, and what time does it start?",
+    "hi": "क्या नाश्ता शामिल है, और यह कितने बजे शुरू होता है?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:162",
+  "phrase": "Could you call me a cab?",
+  "hi": "क्या आप मेरे लिए एक टैक्सी बुला सकते हैं?",
+  "when_en": "You say this to ask hotel or restaurant staff to arrange a taxi.",
+  "when_hi": "जब आप होटल या रेस्टोरेंट के स्टाफ से टैक्सी बुलाने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Could you kindly arrange a taxi on my behalf.",
+  "examples": [
+   {
+    "en": "Could you call me a cab to the airport?",
+    "hi": "क्या आप हवाई अड्डे के लिए मेरे लिए एक टैक्सी बुला सकते हैं?"
+   },
+   {
+    "en": "Could you call me a cab, I need to leave in ten minutes?",
+    "hi": "क्या आप मेरे लिए एक टैक्सी बुला सकते हैं, मुझे दस मिनट में निकलना है?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:163",
+  "phrase": "What's the best way to get around the city?",
+  "hi": "शहर में घूमने का सबसे अच्छा तरीका क्या है?",
+  "when_en": "You say this to ask locals or staff for advice on local transport options.",
+  "when_hi": "जब आप स्थानीय लोगों या स्टाफ से शहर में यातायात के तरीकों के बारे में सलाह मांगते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly advise the most efficient mode of transport within the city.",
+  "examples": [
+   {
+    "en": "What's the best way to get around the city, the metro or taxis?",
+    "hi": "शहर में घूमने का सबसे अच्छा तरीका क्या है, मेट्रो या टैक्सी?"
+   },
+   {
+    "en": "What's the best way to get around the city on a budget?",
+    "hi": "कम बजट में शहर में घूमने का सबसे अच्छा तरीका क्या है?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:164",
+  "phrase": "Can you keep my luggage till checkout?",
+  "hi": "क्या आप मेरा सामान चेकआउट तक रख सकते हैं?",
+  "when_en": "You say this to ask a hotel to store your bags after you've checked out but before you leave.",
+  "when_hi": "जब आप होटल से चेकआउट के बाद भी अपना सामान कुछ देर के लिए रखने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Could the luggage be stored until the departure time.",
+  "examples": [
+   {
+    "en": "My flight is at night, can you keep my luggage till checkout?",
+    "hi": "मेरी फ्लाइट रात को है, क्या आप मेरा सामान चेकआउट तक रख सकते हैं?"
+   },
+   {
+    "en": "Can you keep my luggage till checkout, I'll collect it by six?",
+    "hi": "क्या आप मेरा सामान चेकआउट तक रख सकते हैं, मैं इसे छह बजे तक ले लूँगा?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:165",
+  "phrase": "Is there Wi-Fi in the room?",
+  "hi": "क्या कमरे में वाई-फाई है?",
+  "when_en": "You say this to check if a hotel room has internet access.",
+  "when_hi": "जब आप जांचते हैं कि होटल के कमरे में इंटरनेट है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly confirm if wireless internet is available in the room.",
+  "examples": [
+   {
+    "en": "Is there Wi-Fi in the room, and is it free?",
+    "hi": "क्या कमरे में वाई-फाई है, और क्या यह मुफ्त है?"
+   },
+   {
+    "en": "Is there Wi-Fi in the room? I need it for work.",
+    "hi": "क्या कमरे में वाई-फाई है? मुझे काम के लिए चाहिए।"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:166",
+  "phrase": "I'd like to extend my stay by a day.",
+  "hi": "मैं अपना ठहराव एक दिन के लिए बढ़ाना चाहता हूँ।",
+  "when_en": "You say this to ask a hotel to add an extra night to your booking.",
+  "when_hi": "जब आप होटल से अपनी बुकिंग में एक अतिरिक्त रात जोड़ने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "I wish to extend my duration of stay by one additional day.",
+  "examples": [
+   {
+    "en": "I'd like to extend my stay by a day, is that possible?",
+    "hi": "मैं अपना ठहराव एक दिन के लिए बढ़ाना चाहता हूँ, क्या यह संभव है?"
+   },
+   {
+    "en": "I'd like to extend my stay by a day, my meetings got extended.",
+    "hi": "मैं अपना ठहराव एक दिन के लिए बढ़ाना चाहता हूँ, मेरी मीटिंग्स बढ़ गई हैं।"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:167",
+  "phrase": "Can you wake me up at six?",
+  "hi": "क्या आप मुझे छह बजे जगा सकते हैं?",
+  "when_en": "You say this to request a wake-up call from hotel staff.",
+  "when_hi": "जब आप होटल स्टाफ से वेक-अप कॉल के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Could a wake-up call be arranged for six o'clock.",
+  "examples": [
+   {
+    "en": "I have an early flight, can you wake me up at six?",
+    "hi": "मेरी फ्लाइट जल्दी है, क्या आप मुझे छह बजे जगा सकते हैं?"
+   },
+   {
+    "en": "Can you wake me up at six with a phone call?",
+    "hi": "क्या आप फोन कॉल करके मुझे छह बजे जगा सकते हैं?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:168",
+  "phrase": "Is it a long walk from here?",
+  "hi": "क्या यहाँ से पैदल जाना ज़्यादा दूर है?",
+  "when_en": "You say this to check if a place is within comfortable walking distance.",
+  "when_hi": "जब आप जांचते हैं कि कोई जगह पैदल आराम से पहुंचने लायक है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly clarify if the distance is considerable on foot.",
+  "examples": [
+   {
+    "en": "Is it a long walk from here to the beach?",
+    "hi": "क्या यहाँ से समुद्र तट तक पैदल जाना ज़्यादा दूर है?"
+   },
+   {
+    "en": "Is it a long walk from here, or should we take a cab?",
+    "hi": "क्या यहाँ से पैदल जाना ज़्यादा दूर है, या हमें टैक्सी लेनी चाहिए?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:169",
+  "phrase": "Can I get a late checkout?",
+  "hi": "क्या मुझे लेट चेकआउट मिल सकता है?",
+  "when_en": "You say this to ask a hotel for extra time before you must vacate the room.",
+  "when_hi": "जब आप होटल से कमरा खाली करने के लिए अतिरिक्त समय मांगते हैं।",
+  "register": "neutral",
+  "stiff": "Could a late checkout be arranged.",
+  "examples": [
+   {
+    "en": "My flight is in the evening, can I get a late checkout?",
+    "hi": "मेरी फ्लाइट शाम को है, क्या मुझे लेट चेकआउट मिल सकता है?"
+   },
+   {
+    "en": "Can I get a late checkout, even an extra hour would help?",
+    "hi": "क्या मुझे लेट चेकआउट मिल सकता है, एक अतिरिक्त घंटा भी काम आएगा?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:170",
+  "phrase": "Do you have any rooms available tonight?",
+  "hi": "क्या आज रात के लिए कोई कमरा उपलब्ध है?",
+  "when_en": "You say this to ask a hotel if they have vacancy for the current night.",
+  "when_hi": "जब आप होटल से पूछते हैं कि आज रात के लिए कोई कमरा खाली है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly advise if accommodation is available for tonight.",
+  "examples": [
+   {
+    "en": "Do you have any rooms available tonight, just for one person?",
+    "hi": "क्या आज रात के लिए कोई कमरा उपलब्ध है, सिर्फ एक व्यक्ति के लिए?"
+   },
+   {
+    "en": "Do you have any rooms available tonight, our plans changed?",
+    "hi": "क्या आज रात के लिए कोई कमरा उपलब्ध है, हमारी योजना बदल गई?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:171",
+  "phrase": "How long is the ride from here?",
+  "hi": "यहाँ से जाने में कितना समय लगेगा?",
+  "when_en": "You say this to ask the travel time to a destination by vehicle.",
+  "when_hi": "जब आप किसी गंतव्य तक वाहन से जाने में लगने वाले समय के बारे में पूछते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly advise the estimated travel duration from this location.",
+  "examples": [
+   {
+    "en": "How long is the ride from here to the airport?",
+    "hi": "यहाँ से हवाई अड्डे तक जाने में कितना समय लगेगा?"
+   },
+   {
+    "en": "How long is the ride from here in evening traffic?",
+    "hi": "शाम के ट्रैफिक में यहाँ से जाने में कितना समय लगेगा?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:172",
+  "phrase": "Can you show me on the map?",
+  "hi": "क्या आप मुझे नक्शे पर दिखा सकते हैं?",
+  "when_en": "You say this to ask someone to point out a location on a map for clarity.",
+  "when_hi": "जब आप किसी से किसी जगह को नक्शे पर दिखाने के लिए कहते हैं ताकि साफ समझ आए।",
+  "register": "neutral",
+  "stiff": "Could you kindly indicate the location on the map.",
+  "examples": [
+   {
+    "en": "I'm a bit confused, can you show me on the map?",
+    "hi": "मैं थोड़ा उलझन में हूँ, क्या आप मुझे नक्शे पर दिखा सकते हैं?"
+   },
+   {
+    "en": "Can you show me on the map where the hotel is?",
+    "hi": "क्या आप मुझे नक्शे पर दिखा सकते हैं होटल कहाँ है?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:173",
+  "phrase": "Is this area safe to walk around at night?",
+  "hi": "क्या रात को इस इलाके में पैदल घूमना सुरक्षित है?",
+  "when_en": "You say this to check about safety before walking somewhere after dark.",
+  "when_hi": "जब आप अंधेरे में कहीं पैदल जाने से पहले सुरक्षा के बारे में पूछते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly advise whether this locality is safe for pedestrians after nightfall.",
+  "examples": [
+   {
+    "en": "Is this area safe to walk around at night, or should we take a cab?",
+    "hi": "क्या रात को इस इलाके में पैदल घूमना सुरक्षित है, या हमें टैक्सी लेनी चाहिए?"
+   },
+   {
+    "en": "Is this area safe to walk around at night for a woman alone?",
+    "hi": "क्या रात को इस इलाके में अकेली महिला के लिए पैदल घूमना सुरक्षित है?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:174",
+  "phrase": "My flight's been delayed.",
+  "hi": "मेरी फ्लाइट लेट हो गई है।",
+  "when_en": "You say this to inform someone that your flight departure or arrival has been pushed back.",
+  "when_hi": "जब आप किसी को बताते हैं कि आपकी फ्लाइट के जाने या आने का समय टल गया है।",
+  "register": "neutral",
+  "stiff": "My flight has been subject to a delay.",
+  "examples": [
+   {
+    "en": "My flight's been delayed by two hours, I'll reach late.",
+    "hi": "मेरी फ्लाइट दो घंटे लेट हो गई है, मुझे पहुंचने में देर होगी।"
+   },
+   {
+    "en": "My flight's been delayed, can you check the new timing?",
+    "hi": "मेरी फ्लाइट लेट हो गई है, क्या आप नया समय देख सकते हैं?"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:175",
+  "phrase": "I need to reschedule my ticket.",
+  "hi": "मुझे अपनी टिकट फिर से शेड्यूल करनी है।",
+  "when_en": "You say this to ask for a change in the date or time of a booked ticket.",
+  "when_hi": "जब आप बुक की गई टिकट की तारीख या समय बदलवाना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "I require the rescheduling of my booked ticket.",
+  "examples": [
+   {
+    "en": "Something came up, I need to reschedule my ticket.",
+    "hi": "अचानक कुछ आ गया, मुझे अपनी टिकट फिर से शेड्यूल करनी है।"
+   },
+   {
+    "en": "I need to reschedule my ticket to next Monday.",
+    "hi": "मुझे अपनी टिकट अगले सोमवार के लिए फिर से शेड्यूल करनी है।"
+   }
+  ],
+  "topic": "travel"
+ },
+ {
+  "id": "dp:176",
+  "phrase": "I haven't been feeling well lately.",
+  "hi": "मैं हाल ही में ठीक महसूस नहीं कर रहा।",
+  "when_en": "You say this to a doctor or others to explain general unwellness over recent days.",
+  "when_hi": "जब आप डॉक्टर या दूसरों को बताते हैं कि आप हाल के दिनों में सामान्य रूप से अस्वस्थ महसूस कर रहे हैं।",
+  "register": "neutral",
+  "stiff": "I have been experiencing indisposition of late.",
+  "examples": [
+   {
+    "en": "I haven't been feeling well lately, I keep getting tired easily.",
+    "hi": "मैं हाल ही में ठीक महसूस नहीं कर रहा, जल्दी थक जाता हूँ।"
+   },
+   {
+    "en": "I haven't been feeling well lately, so I booked an appointment.",
+    "hi": "मैं हाल ही में ठीक महसूस नहीं कर रहा, इसलिए मैंने अपॉइंटमेंट बुक की।"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:177",
+  "phrase": "Can I get an appointment this week?",
+  "hi": "क्या मुझे इस हफ्ते अपॉइंटमेंट मिल सकती है?",
+  "when_en": "You say this to a clinic to ask for a booking soon.",
+  "when_hi": "जब आप क्लिनिक से जल्दी अपॉइंटमेंट पाने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Could an appointment be scheduled within this week.",
+  "examples": [
+   {
+    "en": "Can I get an appointment this week, preferably in the morning?",
+    "hi": "क्या मुझे इस हफ्ते अपॉइंटमेंट मिल सकती है, सुबह के समय हो तो अच्छा है?"
+   },
+   {
+    "en": "Can I get an appointment this week with Dr. Sharma?",
+    "hi": "क्या मुझे इस हफ्ते डॉ. शर्मा के साथ अपॉइंटमेंट मिल सकती है?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:178",
+  "phrase": "I've had this cough for a few days.",
+  "hi": "मुझे कुछ दिनों से खांसी है।",
+  "when_en": "You say this to a doctor to describe how long a symptom has persisted.",
+  "when_hi": "जब आप डॉक्टर को बताते हैं कि कोई लक्षण कितने समय से है।",
+  "register": "neutral",
+  "stiff": "I have been afflicted with this cough for several days.",
+  "examples": [
+   {
+    "en": "I've had this cough for a few days, it's not going away.",
+    "hi": "मुझे कुछ दिनों से खांसी है, यह जा नहीं रही।"
+   },
+   {
+    "en": "I've had this cough for a few days, along with a mild fever.",
+    "hi": "मुझे कुछ दिनों से खांसी है, साथ ही हल्का बुखार भी है।"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:179",
+  "phrase": "Is it something serious?",
+  "hi": "क्या यह कोई गंभीर बात है?",
+  "when_en": "You say this to a doctor to ask if your condition is a cause for concern.",
+  "when_hi": "जब आप डॉक्टर से पूछते हैं कि आपकी स्थिति चिंता की बात है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly advise if this condition warrants serious concern.",
+  "examples": [
+   {
+    "en": "Is it something serious, or is it just a minor infection?",
+    "hi": "क्या यह कोई गंभीर बात है, या यह बस एक मामूली संक्रमण है?"
+   },
+   {
+    "en": "Is it something serious? Should I be worried?",
+    "hi": "क्या यह कोई गंभीर बात है? क्या मुझे चिंता करनी चाहिए?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:180",
+  "phrase": "Do I need to get any tests done?",
+  "hi": "क्या मुझे कोई टेस्ट करवाने की ज़रूरत है?",
+  "when_en": "You say this to ask a doctor if diagnostic tests are needed.",
+  "when_hi": "जब आप डॉक्टर से पूछते हैं कि क्या कोई जांच करवानी ज़रूरी है।",
+  "register": "neutral",
+  "stiff": "Kindly advise if any diagnostic tests are indicated.",
+  "examples": [
+   {
+    "en": "Do I need to get any tests done before the next visit?",
+    "hi": "अगली विज़िट से पहले क्या मुझे कोई टेस्ट करवाने की ज़रूरत है?"
+   },
+   {
+    "en": "Do I need to get any tests done, like a blood test?",
+    "hi": "क्या मुझे कोई टेस्ट करवाने की ज़रूरत है, जैसे ब्लड टेस्ट?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:181",
+  "phrase": "Can you prescribe something for this?",
+  "hi": "क्या आप इसके लिए कुछ दवा लिख सकते हैं?",
+  "when_en": "You say this to ask a doctor for medication for a specific symptom.",
+  "when_hi": "जब आप डॉक्टर से किसी खास लक्षण के लिए दवा लिखने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "Could you kindly prescribe a remedy for the same.",
+  "examples": [
+   {
+    "en": "Can you prescribe something for this headache?",
+    "hi": "क्या आप इस सिरदर्द के लिए कुछ दवा लिख सकते हैं?"
+   },
+   {
+    "en": "Can you prescribe something for this, it's been bothering me all week?",
+    "hi": "क्या आप इसके लिए कुछ दवा लिख सकते हैं, यह पूरे हफ्ते परेशान कर रहा है?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:182",
+  "phrase": "I'm allergic to this medicine.",
+  "hi": "मुझे इस दवा से एलर्जी है।",
+  "when_en": "You say this to warn a doctor or pharmacist about a medication you can't take.",
+  "when_hi": "जब आप डॉक्टर या फार्मासिस्ट को किसी दवा से एलर्जी के बारे में आगाह करते हैं।",
+  "register": "neutral",
+  "stiff": "I have a documented allergy to this medication.",
+  "examples": [
+   {
+    "en": "I'm allergic to this medicine, can you suggest an alternative?",
+    "hi": "मुझे इस दवा से एलर्जी है, क्या आप कोई विकल्प बता सकते हैं?"
+   },
+   {
+    "en": "I'm allergic to this medicine, it gave me a rash last time.",
+    "hi": "मुझे इस दवा से एलर्जी है, पिछली बार इससे मुझे चकत्ते हो गए थे।"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:183",
+  "phrase": "How often should I take this?",
+  "hi": "मुझे यह कितनी बार लेना चाहिए?",
+  "when_en": "You say this to ask the dosage frequency of a medicine.",
+  "when_hi": "जब आप किसी दवा को लेने की आवृत्ति के बारे में पूछते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly specify the frequency of administration for the same.",
+  "examples": [
+   {
+    "en": "How often should I take this, twice a day?",
+    "hi": "मुझे यह कितनी बार लेना चाहिए, दिन में दो बार?"
+   },
+   {
+    "en": "How often should I take this until the symptoms go away?",
+    "hi": "जब तक लक्षण ठीक न हों, मुझे यह कितनी बार लेना चाहिए?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:184",
+  "phrase": "Should I take this on an empty stomach?",
+  "hi": "क्या मुझे यह खाली पेट लेना चाहिए?",
+  "when_en": "You say this to check the timing of medicine relative to meals.",
+  "when_hi": "जब आप खाने के संबंध में दवा लेने का सही समय जानना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly advise if this should be consumed prior to meals.",
+  "examples": [
+   {
+    "en": "Should I take this on an empty stomach or after food?",
+    "hi": "क्या मुझे यह खाली पेट लेना चाहिए या खाने के बाद?"
+   },
+   {
+    "en": "Should I take this on an empty stomach in the morning?",
+    "hi": "क्या मुझे यह सुबह खाली पेट लेना चाहिए?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:185",
+  "phrase": "I've been having trouble sleeping.",
+  "hi": "मुझे नींद न आने की समस्या हो रही है।",
+  "when_en": "You say this to describe ongoing sleep difficulty to a doctor or others.",
+  "when_hi": "जब आप डॉक्टर या दूसरों को नींद न आने की लगातार समस्या के बारे में बताते हैं।",
+  "register": "neutral",
+  "stiff": "I have been experiencing insomnia of late.",
+  "examples": [
+   {
+    "en": "I've been having trouble sleeping for the past couple of weeks.",
+    "hi": "पिछले कुछ हफ्तों से मुझे नींद न आने की समस्या हो रही है।"
+   },
+   {
+    "en": "I've been having trouble sleeping, my mind keeps racing.",
+    "hi": "मुझे नींद न आने की समस्या हो रही है, दिमाग में विचार चलते रहते हैं।"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:186",
+  "phrase": "Is this covered under insurance?",
+  "hi": "क्या यह इंश्योरेंस के तहत कवर होता है?",
+  "when_en": "You say this to check if a treatment or medicine is covered by your health insurance.",
+  "when_hi": "जब आप जांचते हैं कि कोई इलाज या दवा आपके स्वास्थ्य बीमा में शामिल है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly clarify if the same falls within the insurance coverage.",
+  "examples": [
+   {
+    "en": "Is this covered under insurance, or do I need to pay out of pocket?",
+    "hi": "क्या यह इंश्योरेंस के तहत कवर होता है, या मुझे खुद भुगतान करना होगा?"
+   },
+   {
+    "en": "Is this covered under insurance, should I submit the bill?",
+    "hi": "क्या यह इंश्योरेंस के तहत कवर होता है, क्या मुझे बिल जमा करना चाहिए?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:187",
+  "phrase": "Can you recommend a good physiotherapist?",
+  "hi": "क्या आप कोई अच्छा फिजियोथेरेपिस्ट बता सकते हैं?",
+  "when_en": "You say this to ask for a referral to a physiotherapy specialist.",
+  "when_hi": "जब आप किसी फिजियोथेरेपी विशेषज्ञ के लिए रेफरल मांगते हैं।",
+  "register": "neutral",
+  "stiff": "Could you kindly recommend a competent physiotherapist.",
+  "examples": [
+   {
+    "en": "My back's been bothering me, can you recommend a good physiotherapist?",
+    "hi": "मेरी पीठ में दर्द हो रहा है, क्या आप कोई अच्छा फिजियोथेरेपिस्ट बता सकते हैं?"
+   },
+   {
+    "en": "Can you recommend a good physiotherapist near my area?",
+    "hi": "क्या आप मेरे इलाके के पास कोई अच्छा फिजियोथेरेपिस्ट बता सकते हैं?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:188",
+  "phrase": "I twisted my ankle yesterday.",
+  "hi": "कल मेरा टखना मुड़ गया था।",
+  "when_en": "You say this to explain a recent minor injury.",
+  "when_hi": "जब आप हाल ही में हुई किसी छोटी चोट के बारे में बताते हैं।",
+  "register": "informal",
+  "stiff": "I sustained an ankle sprain yesterday.",
+  "examples": [
+   {
+    "en": "I twisted my ankle yesterday while running.",
+    "hi": "दौड़ते समय कल मेरा टखना मुड़ गया था।"
+   },
+   {
+    "en": "I twisted my ankle yesterday, it's still swollen.",
+    "hi": "कल मेरा टखना मुड़ गया था, अभी भी सूजन है।"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:189",
+  "phrase": "It hurts when I press here.",
+  "hi": "जब मैं यहाँ दबाता हूँ तो दर्द होता है।",
+  "when_en": "You say this to a doctor to point out a specific area of pain.",
+  "when_hi": "जब आप डॉक्टर को दर्द वाली विशेष जगह के बारे में बताते हैं।",
+  "register": "neutral",
+  "stiff": "I experience pain upon palpation of this area.",
+  "examples": [
+   {
+    "en": "It hurts when I press here, right below the ribs.",
+    "hi": "जब मैं यहाँ दबाता हूँ तो दर्द होता है, पसलियों के ठीक नीचे।"
+   },
+   {
+    "en": "It hurts when I press here, is that normal?",
+    "hi": "जब मैं यहाँ दबाता हूँ तो दर्द होता है, क्या यह सामान्य है?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:190",
+  "phrase": "I've been under a lot of stress lately.",
+  "hi": "मैं हाल ही में बहुत तनाव में हूँ।",
+  "when_en": "You say this to explain ongoing mental or emotional pressure affecting you.",
+  "when_hi": "जब आप बताते हैं कि हाल ही में आप मानसिक या भावनात्मक दबाव में हैं।",
+  "register": "neutral",
+  "stiff": "I have been subjected to considerable stress of late.",
+  "examples": [
+   {
+    "en": "I've been under a lot of stress lately because of work.",
+    "hi": "काम की वजह से मैं हाल ही में बहुत तनाव में हूँ।"
+   },
+   {
+    "en": "I've been under a lot of stress lately, it's affecting my sleep.",
+    "hi": "मैं हाल ही में बहुत तनाव में हूँ, इसका असर मेरी नींद पर पड़ रहा है।"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:191",
+  "phrase": "Should I come back for a follow-up?",
+  "hi": "क्या मुझे फॉलो-अप के लिए फिर आना चाहिए?",
+  "when_en": "You say this to ask a doctor if a subsequent visit is needed.",
+  "when_hi": "जब आप डॉक्टर से पूछते हैं कि क्या दोबारा विज़िट करना ज़रूरी है।",
+  "register": "neutral",
+  "stiff": "Kindly advise if a subsequent consultation is required.",
+  "examples": [
+   {
+    "en": "Should I come back for a follow-up in a week?",
+    "hi": "क्या मुझे एक हफ्ते बाद फॉलो-अप के लिए फिर आना चाहिए?"
+   },
+   {
+    "en": "Should I come back for a follow-up, or is this it?",
+    "hi": "क्या मुझे फॉलो-अप के लिए फिर आना चाहिए, या यह आखिरी विज़िट है?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:192",
+  "phrase": "Is it contagious?",
+  "hi": "क्या यह संक्रामक है?",
+  "when_en": "You say this to ask if an illness can spread to others.",
+  "when_hi": "जब आप पूछते हैं कि कोई बीमारी दूसरों में फैल सकती है या नहीं।",
+  "register": "neutral",
+  "stiff": "Kindly clarify if this condition is communicable.",
+  "examples": [
+   {
+    "en": "Is it contagious? Should I stay away from my family?",
+    "hi": "क्या यह संक्रामक है? क्या मुझे परिवार से दूर रहना चाहिए?"
+   },
+   {
+    "en": "Is it contagious, or is it safe to go to work?",
+    "hi": "क्या यह संक्रामक है, या ऑफिस जाना सुरक्षित है?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:193",
+  "phrase": "I forgot to bring my previous reports.",
+  "hi": "मैं अपनी पिछली रिपोर्ट्स लाना भूल गया।",
+  "when_en": "You say this to a doctor to explain you don't have earlier test results with you.",
+  "when_hi": "जब आप डॉक्टर को बताते हैं कि आप अपनी पहले की जांच रिपोर्ट्स साथ लाना भूल गए।",
+  "register": "neutral",
+  "stiff": "I have inadvertently omitted to bring my prior medical reports.",
+  "examples": [
+   {
+    "en": "I forgot to bring my previous reports, I can email them later.",
+    "hi": "मैं अपनी पिछली रिपोर्ट्स लाना भूल गया, मैं बाद में ईमेल कर सकता हूँ।"
+   },
+   {
+    "en": "I forgot to bring my previous reports, sorry about that.",
+    "hi": "मैं अपनी पिछली रिपोर्ट्स लाना भूल गया, इसके लिए माफी।"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:194",
+  "phrase": "Can I get a second opinion?",
+  "hi": "क्या मैं किसी और डॉक्टर से भी राय ले सकता हूँ?",
+  "when_en": "You say this to ask about consulting another doctor before deciding on treatment.",
+  "when_hi": "जब आप इलाज का फैसला लेने से पहले किसी और डॉक्टर से भी सलाह लेना चाहते हैं।",
+  "register": "neutral",
+  "stiff": "May I seek an additional professional opinion on the same.",
+  "examples": [
+   {
+    "en": "This is a big decision, can I get a second opinion?",
+    "hi": "यह एक बड़ा फैसला है, क्या मैं किसी और डॉक्टर से भी राय ले सकता हूँ?"
+   },
+   {
+    "en": "Can I get a second opinion before we go ahead with the surgery?",
+    "hi": "सर्जरी से पहले क्या मैं किसी और डॉक्टर से भी राय ले सकता हूँ?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:195",
+  "phrase": "I've been feeling a bit under the weather.",
+  "hi": "मैं थोड़ा अस्वस्थ महसूस कर रहा हूँ।",
+  "when_en": "You say this casually to mean you're feeling slightly unwell, without giving specifics.",
+  "when_hi": "जब आप अनौपचारिक रूप से कहते हैं कि आप थोड़ा अस्वस्थ महसूस कर रहे हैं, बिना विवरण दिए।",
+  "register": "informal",
+  "stiff": "I have been experiencing mild indisposition.",
+  "examples": [
+   {
+    "en": "I've been feeling a bit under the weather since yesterday.",
+    "hi": "कल से मैं थोड़ा अस्वस्थ महसूस कर रहा हूँ।"
+   },
+   {
+    "en": "I've been feeling a bit under the weather, I might skip the gym today.",
+    "hi": "मैं थोड़ा अस्वस्थ महसूस कर रहा हूँ, आज शायद जिम नहीं जाऊँगा।"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:196",
+  "phrase": "Is there a generic version of this medicine?",
+  "hi": "क्या इस दवा का जेनेरिक वर्ज़न भी है?",
+  "when_en": "You say this to ask for a cheaper, non-branded version of a prescribed medicine.",
+  "when_hi": "जब आप किसी दवा का सस्ता, बिना ब्रांड वाला वर्ज़न मांगते हैं।",
+  "register": "neutral",
+  "stiff": "Kindly advise if a generic equivalent of this medication exists.",
+  "examples": [
+   {
+    "en": "This brand is expensive, is there a generic version of this medicine?",
+    "hi": "यह ब्रांड महंगा है, क्या इस दवा का जेनेरिक वर्ज़न भी है?"
+   },
+   {
+    "en": "Is there a generic version of this medicine available at the pharmacy?",
+    "hi": "क्या फार्मेसी में इस दवा का जेनेरिक वर्ज़न उपलब्ध है?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:197",
+  "phrase": "I need to renew my prescription.",
+  "hi": "मुझे अपनी दवा का पर्चा फिर से बनवाना है।",
+  "when_en": "You say this to ask a doctor to issue a fresh prescription for ongoing medication.",
+  "when_hi": "जब आप डॉक्टर से चल रही दवा के लिए नया पर्चा बनवाने के लिए कहते हैं।",
+  "register": "neutral",
+  "stiff": "I require the renewal of my prescription.",
+  "examples": [
+   {
+    "en": "My medicine is running out, I need to renew my prescription.",
+    "hi": "मेरी दवा खत्म हो रही है, मुझे पर्चा फिर से बनवाना है।"
+   },
+   {
+    "en": "I need to renew my prescription for another three months.",
+    "hi": "मुझे अगले तीन महीनों के लिए पर्चा फिर से बनवाना है।"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:198",
+  "phrase": "Can you suggest something for a headache?",
+  "hi": "क्या आप सिरदर्द के लिए कुछ सुझा सकते हैं?",
+  "when_en": "You say this, often at a pharmacy, to ask for medicine for a headache.",
+  "when_hi": "जब आप अक्सर फार्मेसी में सिरदर्द के लिए दवा मांगते हैं।",
+  "register": "informal",
+  "stiff": "Could you recommend a remedy for cephalalgia.",
+  "examples": [
+   {
+    "en": "Can you suggest something for a headache, nothing too strong?",
+    "hi": "क्या आप सिरदर्द के लिए कुछ सुझा सकते हैं, ज़्यादा तेज़ न हो?"
+   },
+   {
+    "en": "Can you suggest something for a headache that works quickly?",
+    "hi": "क्या आप सिरदर्द के लिए कुछ ऐसा सुझा सकते हैं जो जल्दी असर करे?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:199",
+  "phrase": "I'm due for a check-up.",
+  "hi": "मुझे नियमित जांच करवानी है।",
+  "when_en": "You say this to mean it's time for your routine medical examination.",
+  "when_hi": "जब आप बताते हैं कि आपकी नियमित मेडिकल जांच का समय आ गया है।",
+  "register": "neutral",
+  "stiff": "I am scheduled for a routine medical examination.",
+  "examples": [
+   {
+    "en": "I'm due for a check-up, it's been almost a year.",
+    "hi": "मुझे नियमित जांच करवानी है, लगभग एक साल हो गया है।"
+   },
+   {
+    "en": "I'm due for a check-up, can I book one for next week?",
+    "hi": "मुझे नियमित जांच करवानी है, क्या मैं अगले हफ्ते के लिए बुक कर सकता हूँ?"
+   }
+  ],
+  "topic": "health"
+ },
+ {
+  "id": "dp:200",
+  "phrase": "I've been trying to cut down on sugar.",
+  "hi": "मैं चीनी कम करने की कोशिश कर रहा हूँ।",
+  "when_en": "You say this to mention you're reducing sugar intake for health reasons.",
+  "when_hi": "जब आप बताते हैं कि स्वास्थ्य कारणों से आप चीनी का सेवन कम कर रहे हैं।",
+  "register": "informal",
+  "stiff": "I have been endeavouring to reduce my sugar consumption.",
+  "examples": [
+   {
+    "en": "I've been trying to cut down on sugar since my last check-up.",
+    "hi": "अपनी पिछली जांच के बाद से मैं चीनी कम करने की कोशिश कर रहा हूँ।"
+   },
+   {
+    "en": "I've been trying to cut down on sugar, so no dessert for me.",
+    "hi": "मैं चीनी कम करने की कोशिश कर रहा हूँ, इसलिए मेरे लिए कोई मिठाई नहीं।"
+   }
+  ],
+  "topic": "health"
+ }
+]

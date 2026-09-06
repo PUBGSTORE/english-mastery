@@ -1,0 +1,93 @@
+[
+ {
+  "group": "Everyday English",
+  "name": "VOA Learning English",
+  "url": "https://www.youtube.com/@voalearningenglish",
+  "why": "Slow, clear news English with captions. Ideal first channel to mine.",
+  "level": "A2–B1"
+ },
+ {
+  "group": "Everyday English",
+  "name": "BBC Learning English",
+  "url": "https://www.youtube.com/@bbclearningenglish",
+  "why": "6 Minute English, pronunciation, everyday phrases.",
+  "level": "B1–B2"
+ },
+ {
+  "group": "Everyday English",
+  "name": "EnglishClass101",
+  "url": "https://www.youtube.com/@EnglishClass101",
+  "why": "Daily-life vocabulary and listening drills.",
+  "level": "A2–B1"
+ },
+ {
+  "group": "Everyday English",
+  "name": "TED-Ed",
+  "url": "https://www.youtube.com/@TEDEd",
+  "why": "Five-minute explainers with perfect captions; great for cloze sentences.",
+  "level": "B2"
+ },
+ {
+  "group": "Everyday English",
+  "name": "Easy English",
+  "url": "https://www.youtube.com/@EasyEnglishVideos",
+  "why": "Street interviews: real accents, real speed, subtitles.",
+  "level": "B1–B2"
+ },
+ {
+  "group": "Everyday English",
+  "name": "TED",
+  "url": "https://www.youtube.com/@TED",
+  "why": "Long talks for narrow listening once you are at B2.",
+  "level": "B2–C1"
+ },
+ {
+  "group": "Your field",
+  "name": "LiveOverflow",
+  "url": "https://www.youtube.com/@LiveOverflow",
+  "why": "Security concepts explained clearly by a non-native speaker with excellent English.",
+  "level": "B2"
+ },
+ {
+  "group": "Your field",
+  "name": "John Hammond",
+  "url": "https://www.youtube.com/@_JohnHammond",
+  "why": "CTF walkthroughs; fast, natural American English about tooling.",
+  "level": "B2–C1"
+ },
+ {
+  "group": "Your field",
+  "name": "IppSec",
+  "url": "https://www.youtube.com/@ippsec",
+  "why": "Hack The Box walkthroughs; the vocabulary of enumeration and exploitation.",
+  "level": "B2–C1"
+ },
+ {
+  "group": "Your field",
+  "name": "DEF CON",
+  "url": "https://www.youtube.com/@DEFCONConference",
+  "why": "Conference talks; formal register, slides, Q&A.",
+  "level": "C1"
+ },
+ {
+  "group": "Your field",
+  "name": "Black Hat",
+  "url": "https://www.youtube.com/@BlackHatOfficialYT",
+  "why": "Research talks; the language of reports and disclosure.",
+  "level": "C1"
+ },
+ {
+  "group": "Your field",
+  "name": "NetworkChuck",
+  "url": "https://www.youtube.com/@NetworkChuck",
+  "why": "Energetic, idiomatic explanations of networking and security basics.",
+  "level": "B1–B2"
+ },
+ {
+  "group": "Your field",
+  "name": "Computerphile",
+  "url": "https://www.youtube.com/@Computerphile",
+  "why": "British academics explaining CS and crypto; great for hedging language.",
+  "level": "B2–C1"
+ }
+]

@@ -421,3 +421,14 @@ hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
 .list-item > .ic.arrow, .list-item .arrow { color: var(--text-3); width: 18px; height: 18px; }
 .empty .ic { width: 40px; height: 40px; }
 h1 .ic, h2 .ic, h3 .ic { width: 1em; height: 1em; }
+
+/* Reader mode */
+.rs { position: relative; }
+.rs-play { border: none; background: none; color: var(--text-3); cursor: pointer; padding: 0 4px; font-size: .8em; min-height: 0; }
+.rs-play:hover { color: var(--accent); }
+.rs-current { background: var(--accent-soft); border-radius: 6px; box-shadow: 0 0 0 4px var(--accent-soft); }
+.rw { cursor: pointer; border-radius: 3px; }
+.rw-unknown { background: var(--accent-soft); border-bottom: 2px solid var(--accent); }
+.rw-learning { background: var(--amber-soft); }
+.rw:hover { outline: 1px solid var(--accent); }
+mark { background: var(--accent-soft); color: inherit; }

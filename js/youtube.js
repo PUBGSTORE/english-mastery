@@ -1,0 +1,140 @@
+// youtube.js — video id parsing, metadata, transcript chain (proxy → direct → paste/file), caption parsing.
+import { getSetting } from './db.js';
+
+export function parseVideoId(input) {
+  const s = String(input || '').trim();
+  if (/^[\w-]{11}$/.test(s)) return s;
+  try {
+    const u = new URL(s.startsWith('http') ? s : 'https://' + s);
+    const host = u.hostname.replace(/^www\.|^m\./, '');
+    if (host === 'youtu.be') return u.pathname.slice(1, 12) || null;
+    if (host.endsWith('youtube.com') || host.endsWith('youtube-nocookie.com')) {
+      if (u.searchParams.get('v')) return u.searchParams.get('v').slice(0, 11);
+      const m = u.pathname.match(/\/(?:shorts|embed|live|v)\/([\w-]{11})/);
+      if (m) return m[1];
+    }
+  } catch { /* not a url */ }
+  return null;
+}
+export const watchUrl = (id, t = 0) => `https://www.youtube.com/watch?v=${id}${t ? `&t=${Math.floor(t)}s` : ''}`;
+export const thumbUrl = (id) => `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+
+/** Title/channel via oEmbed (YouTube's endpoint allows CORS on most browsers; noembed is the fallback). */
+export async function fetchMeta(id) {
+  const target = encodeURIComponent(`https://www.youtube.com/watch?v=${id}`);
+  const tries = [`https://www.youtube.com/oembed?url=${target}&format=json`, `https://noembed.com/embed?url=${target}`];
+  for (const u of tries) {
+    try {
+      const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 6000);
+      const r = await fetch(u, { signal: ctrl.signal }); clearTimeout(t);
+      if (!r.ok) continue;
+      const j = await r.json();
+      if (j && j.title) return { title: j.title, channel: j.author_name || '', thumb: j.thumbnail_url || thumbUrl(id) };
+    } catch { /* next */ }
+  }
+  return { title: '', channel: '', thumb: thumbUrl(id) };
+}
+
+/**
+ * Transcript chain. Resolves { segments, source: 'proxy'|'direct' } or throws Error with .code = 'NO_PROXY'|'CORS'|'NO_CAPTIONS'|'PROXY'.
+ */
+export async function fetchTranscript(id) {
+  const proxy = ((await getSetting('transcriptProxy', '')) || '').trim().replace(/\/$/, '');
+  if (proxy) {
+    const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 20000);
+    let r;
+    try { r = await fetch(`${proxy}/?v=${id}`, { signal: ctrl.signal }); } catch (e) { clearTimeout(t); throw Object.assign(new Error(`Could not reach the transcript proxy (${e.message}).`), { code: 'PROXY' }); }
+    clearTimeout(t);
+    let j = null; try { j = await r.json(); } catch { /* ignore */ }
+    if (r.status === 404 || (j && /no captions/i.test(j.error || ''))) throw Object.assign(new Error('This video has no captions.'), { code: 'NO_CAPTIONS', title: j && j.title });
+    if (!r.ok || !j || !Array.isArray(j.segments)) throw Object.assign(new Error(`Proxy error: ${(j && j.error) || r.status}`), { code: 'PROXY' });
+    return { segments: j.segments, source: 'proxy', title: j.title || '', auto: !!j.auto, lang: j.lang };
+  }
+  // Direct attempt: YouTube sends no CORS headers, so this fails in normal browsers. Fail fast, quietly.
+  try {
+    const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 4000);
+    const r = await fetch(`https://www.youtube.com/watch?v=${id}`, { signal: ctrl.signal, mode: 'cors' }); clearTimeout(t);
+    const page = await r.text();
+    const m = page.match(/"captionTracks":(\[.*?\])/);
+    if (!m) throw Object.assign(new Error('No captions'), { code: 'NO_CAPTIONS' });
+    const track = JSON.parse(m[1]).find((x) => (x.languageCode || '').startsWith('en')) || JSON.parse(m[1])[0];
+    const xml = await (await fetch(track.baseUrl)).text();
+    return { segments: parseTimedText(xml), source: 'direct', auto: !!track.kind };
+  } catch (e) {
+    if (e.code) throw e;
+    throw Object.assign(new Error('The browser cannot fetch YouTube transcripts directly (no CORS). Use the paste fallback or set up the free proxy.'), { code: 'CORS' });
+  }
+}
+function parseTimedText(xml) {
+  const out = []; let x;
+  const re = /<text start="([\d.]+)"(?: dur="([\d.]+)")?[^>]*>([\s\S]*?)<\/text>/g;
+  while ((x = re.exec(xml))) { const text = decodeEntities(x[3].replace(/<[^>]+>/g, '')).replace(/\s+/g, ' ').trim(); if (text) out.push({ t: +x[1], d: +(x[2] || 0), text }); }
+  return out;
+}
+function decodeEntities(s) { const t = document.createElement('textarea'); t.innerHTML = s; return t.value; }
+
+const NOISE = /\[(?:music|applause|laughter|inaudible|noise|cheering|silence|foreign|__)[^\]]*\]|\((?:music|applause|laughter|inaudible)\)|♪/gi;
+
+/**
+ * Parse anything the user pastes or drops: SRT, VTT, YouTube "Show transcript" copy (timestamps on their own lines), or plain text.
+ * Returns segments [{ t, d, text }] (t = null when no timestamps).
+ */
+export function parseCaptions(raw) {
+  const text = String(raw || '').replace(/\r/g, '');
+  if (/-->/.test(text)) {
+    const out = []; const blocks = text.split(/\n\s*\n/);
+    for (const b of blocks) {
+      const m = b.match(/(\d{1,2}:)?(\d{2}):(\d{2})[.,](\d{3})\s*-->\s*(\d{1,2}:)?(\d{2}):(\d{2})[.,](\d{3})/);
+      if (!m) continue;
+      const toS = (h, mi, s, ms) => (+(h || '0').replace(':', '')) * 3600 + +mi * 60 + +s + +ms / 1000;
+      const t = toS(m[1], m[2], m[3], m[4]); const end = toS(m[5], m[6], m[7], m[8]);
+      const lines = b.split('\n').filter((l) => !/-->/.test(l) && !/^\d+$/.test(l.trim()) && !/^WEBVTT|^NOTE|^Kind:|^Language:/.test(l));
+      const body = lines.join(' ').replace(/<[^>]+>/g, '').replace(NOISE, '').replace(/\s+/g, ' ').trim();
+      if (body) out.push({ t, d: Math.max(0, end - t), text: body });
+    }
+    return dedupeRolling(out);
+  }
+  const lines = text.split('\n').map((l) => l.trim()).filter(Boolean);
+  const isStamp = (l) => /^(\d{1,2}:)?\d{1,2}:\d{2}$/.test(l);
+  if (lines.filter(isStamp).length >= 2) {
+    const out = []; let cur = null;
+    for (const l of lines) {
+      if (isStamp(l)) { const p = l.split(':').map(Number); const t = p.length === 3 ? p[0] * 3600 + p[1] * 60 + p[2] : p[0] * 60 + p[1]; cur = { t, d: 0, text: '' }; out.push(cur); }
+      else if (cur) cur.text += (cur.text ? ' ' : '') + l.replace(NOISE, '').trim();
+      else out.push({ t: null, d: 0, text: l.replace(NOISE, '').trim() });
+    }
+    for (let i = 0; i < out.length - 1; i++) if (out[i].t != null && out[i + 1].t != null) out[i].d = Math.max(0, out[i + 1].t - out[i].t);
+    return out.filter((s) => s.text);
+  }
+  // Plain text: keep line breaks as segment boundaries; a single unpunctuated blob is chunked into ~22-word pieces.
+  if (lines.length > 1) return lines.map((l) => ({ t: null, d: 0, text: l.replace(NOISE, '').replace(/\s+/g, ' ').trim() })).filter((s) => s.text);
+  const flat = text.replace(NOISE, '').replace(/\s+/g, ' ').trim();
+  if ((flat.match(/[.!?]/g) || []).length >= Math.max(3, flat.split(' ').length / 40)) return [{ t: null, d: 0, text: flat }];
+  const w = flat.split(' '); const out = [];
+  for (let i = 0; i < w.length; i += 22) out.push({ t: null, d: 0, text: w.slice(i, i + 22).join(' ') });
+  return out;
+}
+/** Auto-captions in VTT often repeat the previous line as a rolling window; drop exact repeats. */
+function dedupeRolling(segs) {
+  const out = [];
+  for (const s of segs) {
+    const prev = out[out.length - 1];
+    if (prev && (prev.text === s.text || s.text.startsWith(prev.text) && prev.text.length > 20)) { prev.text = s.text; prev.d += s.d; continue; }
+    if (prev && prev.text.endsWith(s.text) && s.text.length > 20) continue;
+    out.push({ ...s });
+  }
+  return out;
+}
+
+/** Join segments into text; report whether punctuation exists. */
+export function segmentsToText(segments) {
+  const lines = segments.map((s) => s.text.replace(NOISE, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
+  const joined = lines.join(' ');
+  const words = joined.split(' ').length;
+  const stops = (joined.match(/[.!?]/g) || []).length;
+  const hasPunctuation = stops >= Math.max(3, words / 40);
+  // Without punctuation, keep caption lines as the sentence units (one per line) so cloze sentences stay short.
+  const text = hasPunctuation ? joined : lines.join('\n');
+  return { text, words, hasPunctuation, timed: segments.some((s) => s.t != null) };
+}
+export function fmtTime(sec) { if (sec == null) return ''; const m = Math.floor(sec / 60), s = Math.floor(sec % 60); const h = Math.floor(m / 60); return h ? `${h}:${String(m % 60).padStart(2, '0')}:${String(s).padStart(2, '0')}` : `${m}:${String(s).padStart(2, '0')}`; }
