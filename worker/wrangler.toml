@@ -1,0 +1,5 @@
+# Deploy from a terminal instead of the dashboard:
+#   cd worker && npx wrangler login && npx wrangler deploy
+name = "square-moon-caa9"
+main = "youtube-transcript.js"
+compatibility_date = "2025-09-01"
