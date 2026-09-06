@@ -1,0 +1,1442 @@
+[
+ {
+  "id": "sh:a1:001",
+  "cefr": "A1",
+  "title": "Morning greeting",
+  "text": "Good morning. How are you today?",
+  "hi": "सुप्रभात। आज आप कैसे हैं?",
+  "focus": [
+   "intonation"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 6,
+  "notes_en": "Rising tone on 'today' — it's a friendly question.",
+  "notes_hi": "'today' पर आवाज़ ऊपर जाए — यह दोस्ताना सवाल है।"
+ },
+ {
+  "id": "sh:a1:002",
+  "cefr": "A1",
+  "title": "Introducing myself",
+  "text": "Hi, I'm Balvant. I work as a security engineer.",
+  "hi": "नमस्ते, मैं बलवंत हूँ। मैं सिक्योरिटी इंजीनियर के रूप में काम करता हूँ।",
+  "focus": [
+   "contractions",
+   "stress"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 9,
+  "notes_en": "Say 'I'm', not 'I am'. Stress se-CU-ri-ty.",
+  "notes_hi": "'I am' नहीं, 'I'm' बोलें। se-CU-ri-ty पर ज़ोर।"
+ },
+ {
+  "id": "sh:a1:003",
+  "cefr": "A1",
+  "title": "Ordering coffee",
+  "text": "Can I have a coffee with milk, please?",
+  "hi": "क्या मुझे दूध वाली एक कॉफ़ी मिल सकती है?",
+  "focus": [
+   "weak-forms",
+   "intonation"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 8,
+  "notes_en": "'Can I' sounds like 'k'nai'. Voice rises at the end.",
+  "notes_hi": "'Can I' 'क'नाई' जैसा सुनाई देता है। अंत में आवाज़ ऊपर।"
+ },
+ {
+  "id": "sh:a1:004",
+  "cefr": "A1",
+  "title": "Where is the station",
+  "text": "Excuse me, where is the train station?",
+  "hi": "माफ़ कीजिए, ट्रेन स्टेशन कहाँ है?",
+  "focus": [
+   "th",
+   "intonation"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 7,
+  "notes_en": "Wh-question: voice falls on 'station'.",
+  "notes_hi": "Wh-सवाल: 'station' पर आवाज़ नीचे आए।"
+ },
+ {
+  "id": "sh:a1:005",
+  "cefr": "A1",
+  "title": "Asking for time",
+  "text": "What time does the meeting start?",
+  "hi": "मीटिंग किस समय शुरू होती है?",
+  "focus": [
+   "clusters",
+   "weak-forms"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 6,
+  "notes_en": "'does the' becomes 'duzthe'. Keep the -ts in 'starts' clean.",
+  "notes_hi": "'does the' 'डज़्द' जैसा जुड़ता है।"
+ },
+ {
+  "id": "sh:a1:006",
+  "cefr": "A1",
+  "title": "Not today",
+  "text": "Sorry, I can't come today. I'm busy.",
+  "hi": "माफ़ करना, मैं आज नहीं आ सकता। मैं व्यस्त हूँ।",
+  "focus": [
+   "contractions",
+   "v-w"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 7,
+  "notes_en": "'can't' has a long vowel and a clear final t; 'can' does not.",
+  "notes_hi": "'can't' में लंबा स्वर और साफ़ t; 'can' में नहीं।"
+ },
+ {
+  "id": "sh:a1:007",
+  "cefr": "A1",
+  "title": "On the phone",
+  "text": "Hello, this is Balvant. Can I speak to Priya?",
+  "hi": "हैलो, मैं बलवंत बोल रहा हूँ। क्या मैं प्रिया से बात कर सकता हूँ?",
+  "focus": [
+   "th",
+   "intonation"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 9,
+  "notes_en": "'this' starts with a soft /ð/ — tongue between teeth.",
+  "notes_hi": "'this' की शुरुआत नरम /ð/ से — जीभ दाँतों के बीच।"
+ },
+ {
+  "id": "sh:a1:008",
+  "cefr": "A1",
+  "title": "Weekend plan",
+  "text": "I want to visit my brother this weekend.",
+  "hi": "मैं इस सप्ताहांत अपने भाई से मिलने जाना चाहता हूँ।",
+  "focus": [
+   "weak-forms",
+   "v-w"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 8,
+  "notes_en": "'want to' becomes 'wanna' in fast speech. Clear /v/ in 'visit'.",
+  "notes_hi": "तेज़ बोलने में 'want to' 'wanna' बन जाता है। 'visit' में साफ़ /v/।"
+ },
+ {
+  "id": "sh:a1:009",
+  "cefr": "A1",
+  "title": "Vegetables please",
+  "text": "We have very good vegetables in the market.",
+  "hi": "हमारे बाज़ार में बहुत अच्छी सब्ज़ियाँ मिलती हैं।",
+  "focus": [
+   "v-w"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 8,
+  "notes_en": "Three /v/ sounds: 'have', 'very', 'vegetables' — teeth on lip.",
+  "notes_hi": "तीन /v/ ध्वनियाँ — दाँत होंठ पर।"
+ },
+ {
+  "id": "sh:a1:010",
+  "cefr": "A1",
+  "title": "Thank you",
+  "text": "Thank you very much for your help.",
+  "hi": "आपकी मदद के लिए बहुत-बहुत धन्यवाद।",
+  "focus": [
+   "th",
+   "v-w"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 7,
+  "notes_en": "'Thank' is /θ/ — air only, no voice, not 'tank'.",
+  "notes_hi": "'Thank' में /θ/ — सिर्फ़ हवा, 'tank' नहीं।"
+ },
+ {
+  "id": "sh:a1:011",
+  "cefr": "A1",
+  "title": "Working from home",
+  "text": "I usually work from home on Fridays.",
+  "hi": "मैं आमतौर पर शुक्रवार को घर से काम करता हूँ।",
+  "focus": [
+   "stress",
+   "weak-forms"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 7,
+  "notes_en": "'from' is weak: /frəm/. Stress USually and FRIdays.",
+  "notes_hi": "'from' कमज़ोर /frəm/। USually और FRIdays पर ज़ोर।"
+ },
+ {
+  "id": "sh:a1:012",
+  "cefr": "A1",
+  "title": "Late again",
+  "text": "The bus was late, so I walked to the office.",
+  "hi": "बस देर से आई, इसलिए मैं पैदल ऑफ़िस गया।",
+  "focus": [
+   "linking",
+   "clusters"
+  ],
+  "target_wps": [
+   1.6,
+   2.2
+  ],
+  "words": 10,
+  "notes_en": "'walked' is one syllable: /wɔːkt/, not 'walk-ed'.",
+  "notes_hi": "'walked' एक ही अक्षर: /wɔːkt/, 'walk-ed' नहीं।"
+ },
+ {
+  "id": "sh:a2:001",
+  "cefr": "A2",
+  "title": "Daily stand-up",
+  "text": "Yesterday I fixed two bugs. Today I'm reviewing the login code.",
+  "hi": "कल मैंने दो बग ठीक किए। आज मैं लॉगिन कोड की समीक्षा कर रहा हूँ।",
+  "focus": [
+   "contractions",
+   "stress"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 11,
+  "notes_en": "Stress the content words: FIXED, TWO BUGS, reVIEWing, LOGin CODE.",
+  "notes_hi": "मुख्य शब्दों पर ज़ोर: FIXED, TWO BUGS, reVIEWing।"
+ },
+ {
+  "id": "sh:a2:002",
+  "cefr": "A2",
+  "title": "Running late",
+  "text": "I'm running a bit late. Can we start at ten fifteen instead?",
+  "hi": "मुझे थोड़ी देर हो रही है। क्या हम दस पंद्रह पर शुरू कर सकते हैं?",
+  "focus": [
+   "contractions",
+   "linking"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 12,
+  "notes_en": "'a bit late' links smoothly: 'a-bit-late'. Rising tone on 'instead'.",
+  "notes_hi": "'a bit late' जुड़कर बोलें। 'instead' पर आवाज़ ऊपर।"
+ },
+ {
+  "id": "sh:a2:003",
+  "cefr": "A2",
+  "title": "Asking directions",
+  "text": "Go straight for two blocks, then turn left at the bank. It's next to the pharmacy.",
+  "hi": "दो ब्लॉक सीधे जाइए, फिर बैंक के पास बाएँ मुड़िए। यह फ़ार्मेसी के बगल में है।",
+  "focus": [
+   "linking",
+   "clusters"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 16,
+  "notes_en": "'turn left at' → 'tur-nlef-tat'. 'next to' → the t's merge.",
+  "notes_hi": "'turn left at' जुड़ता है। 'next to' में t आपस में मिल जाते हैं।"
+ },
+ {
+  "id": "sh:a2:004",
+  "cefr": "A2",
+  "title": "Weather chat",
+  "text": "It's been raining all week, hasn't it? I hope it clears up by Saturday.",
+  "hi": "पूरे हफ़्ते बारिश हो रही है, है न? उम्मीद है शनिवार तक मौसम साफ़ हो जाएगा।",
+  "focus": [
+   "intonation",
+   "contractions"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 14,
+  "notes_en": "Tag question 'hasn't it?' falls — you expect agreement.",
+  "notes_hi": "'hasn't it?' पर आवाज़ नीचे — आप सहमति की उम्मीद करते हैं।"
+ },
+ {
+  "id": "sh:a2:005",
+  "cefr": "A2",
+  "title": "Explaining a delay",
+  "text": "The update took longer than we expected because the server was slow.",
+  "hi": "अपडेट में हमारी उम्मीद से ज़्यादा समय लगा क्योंकि सर्वर धीमा था।",
+  "focus": [
+   "th",
+   "weak-forms"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 12,
+  "notes_en": "'than' is weak /ðən/. 'because' is often 'cuz'.",
+  "notes_hi": "'than' कमज़ोर /ðən/। 'because' अक्सर 'cuz'।"
+ },
+ {
+  "id": "sh:a2:006",
+  "cefr": "A2",
+  "title": "At the restaurant",
+  "text": "Could we get the bill, please? And could you split it between the two of us?",
+  "hi": "क्या हमें बिल मिल सकता है? और क्या आप इसे हम दोनों में बाँट सकते हैं?",
+  "focus": [
+   "weak-forms",
+   "clusters"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 16,
+  "notes_en": "'Could you' → 'cudja'. 'between the' — soft th twice.",
+  "notes_hi": "'Could you' → 'कुज्या'। 'between the' — दो बार नरम th।"
+ },
+ {
+  "id": "sh:a2:007",
+  "cefr": "A2",
+  "title": "Weekend story",
+  "text": "We went to a small village near Surat. The food was amazing and the people were very friendly.",
+  "hi": "हम सूरत के पास एक छोटे गाँव गए। खाना कमाल का था और लोग बहुत मिलनसार थे।",
+  "focus": [
+   "v-w",
+   "linking"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 18,
+  "notes_en": "Contrast 'went'/'village'/'very': w with round lips, v with teeth.",
+  "notes_hi": "'went' गोल होंठ, 'village' और 'very' दाँत-होंठ।"
+ },
+ {
+  "id": "sh:a2:008",
+  "cefr": "A2",
+  "title": "Polite refusal",
+  "text": "Thanks for the invite, but I don't think I can make it on Friday.",
+  "hi": "निमंत्रण के लिए धन्यवाद, लेकिन मुझे नहीं लगता कि मैं शुक्रवार को आ पाऊँगा।",
+  "focus": [
+   "contractions",
+   "th"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 14,
+  "notes_en": "'don't think' → the t almost disappears before 'th'.",
+  "notes_hi": "'don't think' में t लगभग गायब हो जाता है।"
+ },
+ {
+  "id": "sh:a2:009",
+  "cefr": "A2",
+  "title": "Describing my job",
+  "text": "I test websites and apps to find security problems before hackers do.",
+  "hi": "मैं वेबसाइट और ऐप्स का परीक्षण करता हूँ ताकि हैकर्स से पहले सुरक्षा समस्याएँ मिल जाएँ।",
+  "focus": [
+   "clusters",
+   "stress"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 12,
+  "notes_en": "'websites' and 'apps' end in clear -ts/-ps clusters.",
+  "notes_hi": "'websites' और 'apps' के अंत में साफ़ -ts/-ps।"
+ },
+ {
+  "id": "sh:a2:010",
+  "cefr": "A2",
+  "title": "Phone: bad line",
+  "text": "Sorry, you're breaking up. Could you say that again a little more slowly?",
+  "hi": "माफ़ कीजिए, आवाज़ कट रही है। क्या आप उसे थोड़ा धीरे फिर से कह सकते हैं?",
+  "focus": [
+   "linking",
+   "intonation"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 13,
+  "notes_en": "'say that again' → 'say-tha-ta-gain'.",
+  "notes_hi": "'say that again' एक साथ जुड़कर बोलें।"
+ },
+ {
+  "id": "sh:a2:011",
+  "cefr": "A2",
+  "title": "Doctor's appointment",
+  "text": "I'd like to book an appointment for tomorrow morning, if possible.",
+  "hi": "अगर संभव हो तो मैं कल सुबह के लिए अपॉइंटमेंट बुक करना चाहूँगा।",
+  "focus": [
+   "contractions",
+   "weak-forms"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 11,
+  "notes_en": "'I'd like to' — 'to' is /tə/. 'an appointment' → 'a-nappointment'.",
+  "notes_hi": "'to' /tə/। 'an appointment' → 'अ-नपॉइंटमेंट'।"
+ },
+ {
+  "id": "sh:a2:012",
+  "cefr": "A2",
+  "title": "Asking for help",
+  "text": "Do you have a minute? I'm stuck on something and I could use your advice.",
+  "hi": "क्या आपके पास एक मिनट है? मैं किसी चीज़ में अटका हूँ और आपकी सलाह चाहिए।",
+  "focus": [
+   "weak-forms",
+   "intonation"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 15,
+  "notes_en": "'Do you' → 'dya'. 'advice' has stress on -VICE.",
+  "notes_hi": "'Do you' → 'ड्या'। 'adVICE' पर ज़ोर।"
+ },
+ {
+  "id": "sh:a2:013",
+  "cefr": "A2",
+  "title": "Talking about family",
+  "text": "My parents live in Gujarat. I call them every Sunday evening.",
+  "hi": "मेरे माता-पिता गुजरात में रहते हैं। मैं हर रविवार शाम उन्हें फ़ोन करता हूँ।",
+  "focus": [
+   "th",
+   "linking"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 11,
+  "notes_en": "'them' is weak: /ðəm/ or even 'em'.",
+  "notes_hi": "'them' कमज़ोर /ðəm/ या सिर्फ़ 'em'।"
+ },
+ {
+  "id": "sh:a2:014",
+  "cefr": "A2",
+  "title": "Small talk",
+  "text": "How was your weekend? Did you do anything interesting?",
+  "hi": "आपका सप्ताहांत कैसा रहा? कुछ दिलचस्प किया?",
+  "focus": [
+   "intonation",
+   "linking"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 9,
+  "notes_en": "First question falls, second rises. 'Did you' → 'didja'.",
+  "notes_hi": "पहला सवाल नीचे, दूसरा ऊपर। 'Did you' → 'डिज्या'।"
+ },
+ {
+  "id": "sh:a2:015",
+  "cefr": "A2",
+  "title": "Shopping",
+  "text": "Do you have this in a larger size? The medium is a bit tight.",
+  "hi": "क्या यह बड़े साइज़ में है? मीडियम थोड़ा तंग है।",
+  "focus": [
+   "th",
+   "weak-forms"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 14,
+  "notes_en": "'this in a' links into one chunk.",
+  "notes_hi": "'this in a' एक ही झोंके में।"
+ },
+ {
+  "id": "sh:a2:016",
+  "cefr": "A2",
+  "title": "Ending a call",
+  "text": "Okay, thanks for your time. I'll send you the details by email. Bye for now.",
+  "hi": "ठीक है, आपके समय के लिए धन्यवाद। मैं आपको ईमेल से विवरण भेज दूँगा। अभी के लिए अलविदा।",
+  "focus": [
+   "contractions",
+   "stress"
+  ],
+  "target_wps": [
+   1.8,
+   2.5
+  ],
+  "words": 15,
+  "notes_en": "'I'll' is one short syllable. Stress DEtails (UK) or deTAILS (US) — both fine.",
+  "notes_hi": "'I'll' एक छोटा अक्षर। DEtails या deTAILS दोनों ठीक।"
+ },
+ {
+  "id": "sh:b1:001",
+  "cefr": "B1",
+  "title": "Explaining a bug",
+  "text": "The login form accepts an empty password if you submit it twice quickly. I think it's a race condition.",
+  "hi": "अगर आप लॉगिन फ़ॉर्म को दो बार जल्दी सबमिट करें तो वह खाली पासवर्ड स्वीकार कर लेता है। मुझे लगता है यह रेस कंडीशन है।",
+  "focus": [
+   "clusters",
+   "contractions"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 19,
+  "notes_en": "'accepts' has a -pts cluster. 'it's a' → 'itsa'.",
+  "notes_hi": "'accepts' में -pts गुच्छा। 'it's a' → 'इट्सा'।"
+ },
+ {
+  "id": "sh:b1:002",
+  "cefr": "B1",
+  "title": "Reporting to a manager",
+  "text": "We found a vulnerability in the payment API. It's not critical yet, but we should fix it this sprint.",
+  "hi": "हमें पेमेंट API में एक कमज़ोरी मिली। यह अभी गंभीर नहीं है, लेकिन हमें इसी स्प्रिंट में ठीक करना चाहिए।",
+  "focus": [
+   "v-w",
+   "stress"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 19,
+  "notes_en": "vulneraBILity — five syllables, stress on BIL.",
+  "notes_hi": "vulneraBILity — पाँच अक्षर, BIL पर ज़ोर।"
+ },
+ {
+  "id": "sh:b1:003",
+  "cefr": "B1",
+  "title": "Disagreeing politely",
+  "text": "I see your point, but I'm not sure that's the best approach. Could we try the simpler option first?",
+  "hi": "मैं आपकी बात समझता हूँ, लेकिन मुझे यकीन नहीं कि यह सबसे अच्छा तरीका है। क्या हम पहले आसान विकल्प आज़मा सकते हैं?",
+  "focus": [
+   "intonation",
+   "th"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 19,
+  "notes_en": "'but' is where your voice pauses and resets. Keep the tone warm.",
+  "notes_hi": "'but' पर हल्का विराम। स्वर गर्मजोशी भरा रखें।"
+ },
+ {
+  "id": "sh:b1:004",
+  "cefr": "B1",
+  "title": "Stand-up with blocker",
+  "text": "I'm blocked on the staging environment. Nobody can deploy until DevOps resets the credentials.",
+  "hi": "मैं स्टेजिंग एनवायरनमेंट पर अटका हूँ। जब तक DevOps क्रेडेंशियल रीसेट नहीं करता, कोई डिप्लॉय नहीं कर सकता।",
+  "focus": [
+   "weak-forms",
+   "clusters"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 14,
+  "notes_en": "'until' is weak /ənˈtɪl/. 'credentials' — cre-DEN-tials.",
+  "notes_hi": "'until' कमज़ोर। cre-DEN-tials।"
+ },
+ {
+  "id": "sh:b1:005",
+  "cefr": "B1",
+  "title": "A short story",
+  "text": "Last month my laptop died the night before a client demo. I borrowed my neighbour's, installed everything at 2 a.m., and somehow it worked.",
+  "hi": "पिछले महीने क्लाइंट डेमो से एक रात पहले मेरा लैपटॉप बंद हो गया। मैंने पड़ोसी का उधार लिया, रात दो बजे सब इंस्टॉल किया, और किसी तरह चल गया।",
+  "focus": [
+   "linking",
+   "stress"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 24,
+  "notes_en": "'installed everything at' flows as one chunk. 'somehow' gets extra stress for effect.",
+  "notes_hi": "'installed everything at' एक झोंके में। 'somehow' पर अतिरिक्त ज़ोर।"
+ },
+ {
+  "id": "sh:b1:006",
+  "cefr": "B1",
+  "title": "Giving feedback",
+  "text": "Your report was clear, but the summary is a bit too long. Try to keep it to three sentences.",
+  "hi": "आपकी रिपोर्ट स्पष्ट थी, लेकिन सारांश थोड़ा लंबा है। इसे तीन वाक्यों तक रखने की कोशिश करें।",
+  "focus": [
+   "intonation",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 19,
+  "notes_en": "Praise first with a rising 'clear', then fall on 'long'.",
+  "notes_hi": "'clear' पर आवाज़ ऊपर, 'long' पर नीचे।"
+ },
+ {
+  "id": "sh:b1:007",
+  "cefr": "B1",
+  "title": "Asking clarifying questions",
+  "text": "Just to make sure I understand — do you want this done by Friday, or is next week okay?",
+  "hi": "बस यह पक्का करने के लिए — क्या आप इसे शुक्रवार तक चाहते हैं, या अगला हफ़्ता ठीक है?",
+  "focus": [
+   "intonation",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 19,
+  "notes_en": "'or' choice question: rise on 'Friday', fall on 'okay'.",
+  "notes_hi": "विकल्प वाला सवाल: 'Friday' पर ऊपर, 'okay' पर नीचे।"
+ },
+ {
+  "id": "sh:b1:008",
+  "cefr": "B1",
+  "title": "Explaining to a developer",
+  "text": "When the user changes their email, the old session stays active. We need to invalidate it on every profile update.",
+  "hi": "जब उपयोगकर्ता अपना ईमेल बदलता है, पुराना सेशन सक्रिय रहता है। हमें हर प्रोफ़ाइल अपडेट पर उसे अमान्य करना होगा।",
+  "focus": [
+   "th",
+   "clusters"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 20,
+  "notes_en": "'their' and 'the' are voiced /ð/. 'changes' ends in /dʒɪz/.",
+  "notes_hi": "'their' और 'the' में सस्वर /ð/।"
+ },
+ {
+  "id": "sh:b1:009",
+  "cefr": "B1",
+  "title": "Complaining nicely",
+  "text": "I ordered this two weeks ago and it still hasn't arrived. Could you check what's going on?",
+  "hi": "मैंने यह दो हफ़्ते पहले ऑर्डर किया था और अभी तक नहीं आया। क्या आप देख सकते हैं कि क्या हो रहा है?",
+  "focus": [
+   "contractions",
+   "linking"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 17,
+  "notes_en": "'hasn't arrived' → 'haz-n-tarrived'. 'what's going on' → one chunk.",
+  "notes_hi": "'hasn't arrived' जुड़कर। 'what's going on' एक झोंके में।"
+ },
+ {
+  "id": "sh:b1:010",
+  "cefr": "B1",
+  "title": "Job interview answer",
+  "text": "I enjoy finding problems before they become incidents. That's why I moved from development into security.",
+  "hi": "मुझे समस्याओं को घटना बनने से पहले खोजना पसंद है। इसीलिए मैं डेवलपमेंट से सिक्योरिटी में आया।",
+  "focus": [
+   "th",
+   "stress"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 16,
+  "notes_en": "'That's why' — strong stress on WHY.",
+  "notes_hi": "'That's why' — WHY पर ज़ोर।"
+ },
+ {
+  "id": "sh:b1:011",
+  "cefr": "B1",
+  "title": "Weekend plans",
+  "text": "We're thinking of driving to the hills on Saturday, as long as the weather holds up.",
+  "hi": "हम शनिवार को पहाड़ों पर गाड़ी से जाने की सोच रहे हैं, बशर्ते मौसम ठीक रहे।",
+  "focus": [
+   "v-w",
+   "th"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 16,
+  "notes_en": "'We're', 'weather' with round lips; 'driving' with /v/.",
+  "notes_hi": "'We're', 'weather' गोल होंठ; 'driving' में /v/।"
+ },
+ {
+  "id": "sh:b1:012",
+  "cefr": "B1",
+  "title": "Voicemail",
+  "text": "Hi, this is Balvant from the security team. I'm calling about the access request you sent. Please call me back when you get a chance.",
+  "hi": "नमस्ते, मैं सिक्योरिटी टीम से बलवंत। मैं आपके भेजे एक्सेस रिक्वेस्ट के बारे में फ़ोन कर रहा हूँ। मौका मिले तो कॉल बैक करें।",
+  "focus": [
+   "th",
+   "linking"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 25,
+  "notes_en": "'when you get a chance' → 'when-ya-ge-ta-chance'.",
+  "notes_hi": "'when you get a chance' पूरा एक ही गति में।"
+ },
+ {
+  "id": "sh:b1:013",
+  "cefr": "B1",
+  "title": "Explaining a process",
+  "text": "First, we scan the code. Then we review anything the scanner flags. Finally, we write up the findings.",
+  "hi": "पहले हम कोड स्कैन करते हैं। फिर स्कैनर जो भी फ़्लैग करे उसकी समीक्षा करते हैं। अंत में, निष्कर्ष लिखते हैं।",
+  "focus": [
+   "intonation",
+   "stress"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 18,
+  "notes_en": "List intonation: rise on 'First', rise on 'Then', fall on 'Finally'.",
+  "notes_hi": "सूची का स्वर: 'First' ऊपर, 'Then' ऊपर, 'Finally' नीचे।"
+ },
+ {
+  "id": "sh:b1:014",
+  "cefr": "B1",
+  "title": "Agreeing",
+  "text": "That makes sense. Let's go with your plan and see how it works out.",
+  "hi": "बात सही है। चलिए आपकी योजना पर चलते हैं और देखते हैं कैसा रहता है।",
+  "focus": [
+   "contractions",
+   "clusters"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 14,
+  "notes_en": "'Let's go' — the ts-g is quick. 'works out' → 'wor-ksout'.",
+  "notes_hi": "'Let's go' तेज़। 'works out' जुड़कर।"
+ },
+ {
+  "id": "sh:b1:015",
+  "cefr": "B1",
+  "title": "Talking about habits",
+  "text": "I've been trying to read for twenty minutes every night, but I usually fall asleep after ten.",
+  "hi": "मैं हर रात बीस मिनट पढ़ने की कोशिश कर रहा हूँ, लेकिन आमतौर पर दस मिनट बाद सो जाता हूँ।",
+  "focus": [
+   "contractions",
+   "th"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 17,
+  "notes_en": "'I've been' → 'ivbin'. Watch 'twenty' — 'twenny' is fine in fast speech.",
+  "notes_hi": "'I've been' → 'आइव्बिन'।"
+ },
+ {
+  "id": "sh:b1:016",
+  "cefr": "B1",
+  "title": "Meeting request",
+  "text": "Would you be free for a quick call tomorrow afternoon? Half an hour should be enough.",
+  "hi": "क्या आप कल दोपहर एक छोटे कॉल के लिए खाली होंगे? आधा घंटा काफ़ी होगा।",
+  "focus": [
+   "weak-forms",
+   "v-w"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 16,
+  "notes_en": "'Would you' → 'wudja'. 'Half an hour' → 'ha-fa-nour'.",
+  "notes_hi": "'Would you' → 'वुज्या'। 'Half an hour' जुड़कर।"
+ },
+ {
+  "id": "sh:b1:017",
+  "cefr": "B1",
+  "title": "Apologising",
+  "text": "Sorry about the confusion earlier. I should have checked the ticket before replying.",
+  "hi": "पहले हुई उलझन के लिए माफ़ी। मुझे जवाब देने से पहले टिकट देख लेना चाहिए था।",
+  "focus": [
+   "weak-forms",
+   "clusters"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 13,
+  "notes_en": "'should have' → 'shoulda'. 'checked' is one syllable.",
+  "notes_hi": "'should have' → 'शुडा'। 'checked' एक ही अक्षर।"
+ },
+ {
+  "id": "sh:b1:018",
+  "cefr": "B1",
+  "title": "Encouraging a colleague",
+  "text": "Don't worry about the mistake. Everyone breaks the build at least once. Just fix it and move on.",
+  "hi": "गलती की चिंता मत करो। हर कोई कम से कम एक बार बिल्ड तोड़ता है। बस ठीक करो और आगे बढ़ो।",
+  "focus": [
+   "contractions",
+   "stress"
+  ],
+  "target_wps": [
+   2.0,
+   2.8
+  ],
+  "words": 18,
+  "notes_en": "'Don't worry' — falling, reassuring. Stress EVeryone and ONCE.",
+  "notes_hi": "'Don't worry' — नीचे जाता, दिलासा देता स्वर।"
+ },
+ {
+  "id": "sh:b2:001",
+  "cefr": "B2",
+  "title": "Security finding to a manager",
+  "text": "The issue is that anyone with a valid session can view other users' invoices by changing the ID in the URL. It's straightforward to exploit, so I'd rate it high severity.",
+  "hi": "समस्या यह है कि कोई भी वैध सेशन वाला व्यक्ति URL में ID बदलकर दूसरों के इनवॉइस देख सकता है। इसका फ़ायदा उठाना आसान है, इसलिए मैं इसे उच्च गंभीरता दूँगा।",
+  "focus": [
+   "clusters",
+   "stress",
+   "v-w"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 31,
+  "notes_en": "'straightforward' — STRAIGHT-forward. 'exploit' as a verb: ex-PLOIT.",
+  "notes_hi": "'straightforward' में STRAIGHT पर ज़ोर। क्रिया 'exPLOIT'।"
+ },
+ {
+  "id": "sh:b2:002",
+  "cefr": "B2",
+  "title": "Pushing back on a deadline",
+  "text": "I understand the pressure, but if we ship this on Friday without the fix, we're knowingly releasing a known vulnerability. I'd rather delay by two days.",
+  "hi": "मैं दबाव समझता हूँ, लेकिन अगर हम शुक्रवार को बिना फ़िक्स के इसे रिलीज़ करते हैं, तो जानबूझकर ज्ञात कमज़ोरी छोड़ रहे हैं। मैं दो दिन की देरी पसंद करूँगा।",
+  "focus": [
+   "intonation",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 26,
+  "notes_en": "'I'd rather' — strong contrast stress on RATHER.",
+  "notes_hi": "'I'd rather' में RATHER पर ज़ोर।"
+ },
+ {
+  "id": "sh:b2:003",
+  "cefr": "B2",
+  "title": "Explaining a trade-off",
+  "text": "We could encrypt everything at rest, but that adds latency. Honestly, for this data, access controls matter more than encryption.",
+  "hi": "हम सब कुछ रेस्ट पर एन्क्रिप्ट कर सकते हैं, लेकिन इससे लेटेंसी बढ़ती है। ईमानदारी से, इस डेटा के लिए एक्सेस कंट्रोल एन्क्रिप्शन से ज़्यादा मायने रखते हैं।",
+  "focus": [
+   "th",
+   "stress"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 20,
+  "notes_en": "'that adds' → 'tha-tadds'. Contrast stress: ACCESS controls vs enCRYPtion.",
+  "notes_hi": "विरोध का ज़ोर: ACCESS controls बनाम enCRYPtion।"
+ },
+ {
+  "id": "sh:b2:004",
+  "cefr": "B2",
+  "title": "Telling a story",
+  "text": "I once spent three days hunting a bug that turned out to be a single missing semicolon in a config file. I still get a bit annoyed thinking about it.",
+  "hi": "एक बार मैंने तीन दिन ऐसे बग को ढूँढ़ने में लगाए जो आखिर में कॉन्फ़िग फ़ाइल का एक छूटा हुआ सेमीकोलन निकला। अब भी सोचकर थोड़ा चिढ़ जाता हूँ।",
+  "focus": [
+   "linking",
+   "th"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 30,
+  "notes_en": "'turned out to be' — 'tur-ndou-ttabe'. 'thinking' /θ/.",
+  "notes_hi": "'turned out to be' लगातार बहता हुआ।"
+ },
+ {
+  "id": "sh:b2:005",
+  "cefr": "B2",
+  "title": "Handling an angry customer",
+  "text": "I completely understand why you're frustrated. Let me look into this right now and get back to you within the hour.",
+  "hi": "मैं पूरी तरह समझता हूँ कि आप क्यों परेशान हैं। मुझे अभी इसे देखने दीजिए और एक घंटे के भीतर आपको जवाब देता हूँ।",
+  "focus": [
+   "intonation",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 21,
+  "notes_en": "Slow, low, steady pitch = calm authority. 'get back to you' → 'ge-back-tya'.",
+  "notes_hi": "धीमा, नीचा, स्थिर स्वर = शांत आत्मविश्वास।"
+ },
+ {
+  "id": "sh:b2:006",
+  "cefr": "B2",
+  "title": "Interview: strengths",
+  "text": "I'd say my main strength is that I stay calm under pressure. During incidents, people tend to panic, and someone has to keep asking the boring questions.",
+  "hi": "मैं कहूँगा कि मेरी मुख्य ताकत यह है कि मैं दबाव में शांत रहता हूँ। घटनाओं के दौरान लोग घबराते हैं, और किसी को उबाऊ सवाल पूछते रहना होता है।",
+  "focus": [
+   "stress",
+   "clusters"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 27,
+  "notes_en": "'strength' has a hard -ngths cluster: /streŋθs/.",
+  "notes_hi": "'strength' में कठिन -ngths गुच्छा।"
+ },
+ {
+  "id": "sh:b2:007",
+  "cefr": "B2",
+  "title": "Recommending a tool",
+  "text": "If you haven't tried it yet, I'd really recommend setting up automated scanning in the pipeline. It catches the obvious stuff so we can focus on the interesting bugs.",
+  "hi": "अगर आपने अभी तक नहीं आज़माया, तो मैं पाइपलाइन में ऑटोमेटेड स्कैनिंग सेट करने की सिफ़ारिश करूँगा। यह स्पष्ट चीज़ें पकड़ लेता है ताकि हम दिलचस्प बग पर ध्यान दें।",
+  "focus": [
+   "contractions",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 29,
+  "notes_en": "'haven't tried it yet' — t's link. 'so we can' → 'so-we-k'n'.",
+  "notes_hi": "'so we can' में 'can' कमज़ोर।"
+ },
+ {
+  "id": "sh:b2:008",
+  "cefr": "B2",
+  "title": "Describing a graph",
+  "text": "As you can see, failed login attempts spiked around midnight and dropped off sharply by six. That pattern usually points to an automated attack.",
+  "hi": "जैसा आप देख सकते हैं, असफल लॉगिन प्रयास आधी रात के आसपास बढ़े और छह बजे तक तेज़ी से गिर गए। यह पैटर्न आमतौर पर ऑटोमेटेड हमले की ओर इशारा करता है।",
+  "focus": [
+   "clusters",
+   "stress"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 24,
+  "notes_en": "'attempts spiked' — -mpts sp- is a tough cluster; slow it down.",
+  "notes_hi": "'attempts spiked' — कठिन गुच्छा; धीरे बोलें।"
+ },
+ {
+  "id": "sh:b2:009",
+  "cefr": "B2",
+  "title": "Negotiating scope",
+  "text": "We can include the mobile app in the test, but that would push the delivery back a week. Which would you prefer?",
+  "hi": "हम मोबाइल ऐप को टेस्ट में शामिल कर सकते हैं, लेकिन इससे डिलीवरी एक हफ़्ता पीछे जाएगी। आप क्या पसंद करेंगे?",
+  "focus": [
+   "intonation",
+   "v-w"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 22,
+  "notes_en": "'Which would you prefer?' — falls; it's a wh-question, not yes/no.",
+  "notes_hi": "'Which would you prefer?' नीचे जाता है।"
+ },
+ {
+  "id": "sh:b2:010",
+  "cefr": "B2",
+  "title": "Explaining a concept",
+  "text": "Think of a token like a hotel key card. It opens your room for a while, and when it expires, you have to go back to reception.",
+  "hi": "टोकन को होटल के की-कार्ड की तरह समझिए। यह कुछ समय तक आपका कमरा खोलता है, और जब यह समाप्त होता है, आपको रिसेप्शन पर वापस जाना पड़ता है।",
+  "focus": [
+   "th",
+   "linking"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 27,
+  "notes_en": "'Think of a' → 'thin-ko-va'. 'have to' → 'hafta'.",
+  "notes_hi": "'have to' → 'हाफ़्टा'।"
+ },
+ {
+  "id": "sh:b2:011",
+  "cefr": "B2",
+  "title": "Turning down a request",
+  "text": "I appreciate you thinking of me, but I don't have the bandwidth to take that on right now. Could we revisit it next quarter?",
+  "hi": "मुझे खुशी है कि आपने मेरे बारे में सोचा, लेकिन अभी मेरे पास इसे लेने की क्षमता नहीं है। क्या हम अगली तिमाही में इस पर फिर बात करें?",
+  "focus": [
+   "th",
+   "intonation"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 24,
+  "notes_en": "Soft 'but' with a small pause before it. 'that on' → 'tha-ton'.",
+  "notes_hi": "'but' से पहले हल्का विराम।"
+ },
+ {
+  "id": "sh:b2:012",
+  "cefr": "B2",
+  "title": "Sharing an opinion",
+  "text": "To be honest, I think we over-engineer things. Half of our microservices could probably be one well-written module.",
+  "hi": "सच कहूँ तो मुझे लगता है हम चीज़ों को ज़रूरत से ज़्यादा जटिल बनाते हैं। हमारे आधे माइक्रोसर्विस शायद एक अच्छे मॉड्यूल में समा सकते हैं।",
+  "focus": [
+   "th",
+   "stress"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 18,
+  "notes_en": "'over-engineer' — stress on -NEER. 'well-written' — both parts stressed.",
+  "notes_hi": "'over-engiNEER' पर ज़ोर।"
+ },
+ {
+  "id": "sh:b2:013",
+  "cefr": "B2",
+  "title": "Describing a routine",
+  "text": "On a typical day I check the alerts first, then triage anything new, and only after that do I open my email. Otherwise the inbox eats the whole morning.",
+  "hi": "एक आम दिन में मैं पहले अलर्ट देखता हूँ, फिर नई चीज़ों की छँटाई करता हूँ, और उसके बाद ही ईमेल खोलता हूँ। वरना इनबॉक्स पूरी सुबह खा जाता है।",
+  "focus": [
+   "intonation",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 29,
+  "notes_en": "List rhythm: first... then... and only after that. 'do I' is stressed for emphasis.",
+  "notes_hi": "सूची की लय: first… then… only after that।"
+ },
+ {
+  "id": "sh:b2:014",
+  "cefr": "B2",
+  "title": "Talking about a mistake",
+  "text": "I misread the scope document and tested the wrong environment for a full day. Embarrassing, but it taught me to confirm the target before I start.",
+  "hi": "मैंने स्कोप दस्तावेज़ गलत पढ़ा और पूरे दिन गलत एनवायरनमेंट का टेस्ट किया। शर्मिंदगी हुई, लेकिन इसने सिखाया कि शुरू करने से पहले लक्ष्य की पुष्टि करूँ।",
+  "focus": [
+   "clusters",
+   "linking"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 26,
+  "notes_en": "'misread' (past) rhymes with 'red'. 'taught me' → the t's blend.",
+  "notes_hi": "'misread' (भूतकाल) 'red' जैसा।"
+ },
+ {
+  "id": "sh:b2:015",
+  "cefr": "B2",
+  "title": "Presenting a result",
+  "text": "After the patch, the scanner reported zero critical findings and only three medium ones, all of which are false positives we've already documented.",
+  "hi": "पैच के बाद स्कैनर ने शून्य गंभीर निष्कर्ष और सिर्फ़ तीन मध्यम रिपोर्ट किए, जो सभी झूठे सकारात्मक हैं जिन्हें हम पहले ही दर्ज कर चुके हैं।",
+  "focus": [
+   "stress",
+   "clusters"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 23,
+  "notes_en": "'zero critical findings' — three strong beats. 'we've already' → 'wi-vaw-ready'.",
+  "notes_hi": "'zero critical findings' — तीन मज़बूत ताल।"
+ },
+ {
+  "id": "sh:b2:016",
+  "cefr": "B2",
+  "title": "Making a suggestion",
+  "text": "How about we run the workshop online instead? We'd save on travel and more people could join from other offices.",
+  "hi": "क्यों न हम वर्कशॉप ऑनलाइन करें? यात्रा का खर्च बचेगा और दूसरे दफ़्तरों से ज़्यादा लोग जुड़ सकेंगे।",
+  "focus": [
+   "v-w",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 20,
+  "notes_en": "'How about we' → 'how-bout-we'. Clear /v/ in 'save' and 'travel'.",
+  "notes_hi": "'save' और 'travel' में साफ़ /v/।"
+ },
+ {
+  "id": "sh:b2:017",
+  "cefr": "B2",
+  "title": "Catching up with a friend",
+  "text": "It's been ages! What have you been up to? Last I heard you were moving to Pune.",
+  "hi": "बहुत समय हो गया! तुम क्या कर रहे हो आजकल? आखिरी बार सुना था तुम पुणे जा रहे थे।",
+  "focus": [
+   "contractions",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 17,
+  "notes_en": "'What have you been up to' → 'wha-dav-ya-bin-up-ta'.",
+  "notes_hi": "'What have you been up to' पूरा घुलकर।"
+ },
+ {
+  "id": "sh:b2:018",
+  "cefr": "B2",
+  "title": "Closing a meeting",
+  "text": "So, to sum up: I'll draft the report, Priya will validate the fix, and we'll reconvene on Thursday. Anything I've missed?",
+  "hi": "तो संक्षेप में: मैं रिपोर्ट का ड्राफ़्ट बनाऊँगा, प्रिया फ़िक्स की पुष्टि करेगी, और हम गुरुवार को फिर मिलेंगे। कुछ छूट गया?",
+  "focus": [
+   "intonation",
+   "contractions"
+  ],
+  "target_wps": [
+   2.3,
+   3.1
+  ],
+  "words": 21,
+  "notes_en": "Three-part list: rise, rise, fall. Final question rises.",
+  "notes_hi": "तीन हिस्सों की सूची: ऊपर, ऊपर, नीचे। अंतिम सवाल ऊपर।"
+ },
+ {
+  "id": "sh:c1:001",
+  "cefr": "C1",
+  "title": "Briefing leadership",
+  "text": "In short, the exposure was limited to internal metadata, and we have no evidence of exfiltration. That said, the root cause is a misconfiguration we could easily repeat elsewhere, so I'd like budget for a broader audit.",
+  "hi": "संक्षेप में, जोखिम आंतरिक मेटाडेटा तक सीमित था, और हमारे पास डेटा चोरी का कोई प्रमाण नहीं है। फिर भी, मूल कारण एक गलत कॉन्फ़िगरेशन है जिसे हम कहीं और दोहरा सकते हैं, इसलिए मैं व्यापक ऑडिट के लिए बजट चाहूँगा।",
+  "focus": [
+   "stress",
+   "th",
+   "clusters"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 37,
+  "notes_en": "'That said' is a pivot — pause after it. 'exfiltration' — ex-fil-TRA-tion.",
+  "notes_hi": "'That said' के बाद विराम। ex-fil-TRA-tion।"
+ },
+ {
+  "id": "sh:c1:002",
+  "cefr": "C1",
+  "title": "Defending a decision",
+  "text": "I'm aware this approach looks conservative, but given what we know about the threat model, I'd argue caution is entirely justified. If new evidence emerges, I'm happy to revisit it.",
+  "hi": "मैं जानता हूँ यह तरीका रूढ़िवादी लगता है, लेकिन थ्रेट मॉडल के बारे में जो हम जानते हैं उसे देखते हुए, मैं कहूँगा सावधानी पूरी तरह उचित है। नए प्रमाण आएँ तो मैं इस पर फिर विचार करूँगा।",
+  "focus": [
+   "intonation",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 30,
+  "notes_en": "'I'd argue' — the d links into 'argue'. Keep 'entirely' low and firm.",
+  "notes_hi": "'I'd argue' में d जुड़ता है। 'entirely' नीचा और दृढ़।"
+ },
+ {
+  "id": "sh:c1:003",
+  "cefr": "C1",
+  "title": "A TED-style remark",
+  "text": "Most security failures aren't clever attacks. They're ordinary mistakes that nobody caught because everyone assumed someone else was looking.",
+  "hi": "ज़्यादातर सुरक्षा विफलताएँ चतुर हमले नहीं होतीं। वे साधारण गलतियाँ होती हैं जिन्हें किसी ने नहीं पकड़ा क्योंकि सबने मान लिया कि कोई और देख रहा है।",
+  "focus": [
+   "stress",
+   "contractions"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 19,
+  "notes_en": "Contrast stress: CLEVER attacks vs ORDINARY mistakes. Slow down on the last clause.",
+  "notes_hi": "विरोध ज़ोर: CLEVER बनाम ORDINARY।"
+ },
+ {
+  "id": "sh:c1:004",
+  "cefr": "C1",
+  "title": "Diplomatic disagreement",
+  "text": "With respect, I think we're solving the wrong problem. The question isn't whether the firewall rules are correct; it's whether anyone would notice if they weren't.",
+  "hi": "सम्मान सहित, मुझे लगता है हम गलत समस्या हल कर रहे हैं। सवाल यह नहीं कि फ़ायरवॉल नियम सही हैं या नहीं; सवाल यह है कि गलत हों तो किसी को पता चलेगा या नहीं।",
+  "focus": [
+   "th",
+   "intonation"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 26,
+  "notes_en": "'isn't whether' and 'it's whether' — parallel structure, so parallel intonation.",
+  "notes_hi": "'isn't whether' और 'it's whether' — समानांतर स्वर।"
+ },
+ {
+  "id": "sh:c1:005",
+  "cefr": "C1",
+  "title": "Mentoring a junior",
+  "text": "Don't chase every alert. Ask yourself what an attacker would actually want here, and work backwards from that. Nine times out of ten, that's where the real issue is.",
+  "hi": "हर अलर्ट के पीछे मत भागो। खुद से पूछो कि हमलावर यहाँ असल में क्या चाहेगा, और वहाँ से पीछे की ओर काम करो। दस में से नौ बार, असली समस्या वहीं होती है।",
+  "focus": [
+   "weak-forms",
+   "linking"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 29,
+  "notes_en": "'would actually want' — 'wu-dak-chuh-lee'. 'out of ten' → 'ou-də-ten'.",
+  "notes_hi": "'out of ten' → 'आउ-ड-टेन'।"
+ },
+ {
+  "id": "sh:c1:006",
+  "cefr": "C1",
+  "title": "Describing an incident",
+  "text": "At 03:14 the on-call engineer noticed unusual outbound traffic from a build server. Within twenty minutes we'd isolated the host, rotated the affected keys, and begun the forensic capture.",
+  "hi": "03:14 पर ऑन-कॉल इंजीनियर ने बिल्ड सर्वर से असामान्य आउटबाउंड ट्रैफ़िक देखा। बीस मिनट के भीतर हमने होस्ट को अलग किया, प्रभावित कुंजियाँ बदलीं, और फ़ोरेंसिक कैप्चर शुरू किया।",
+  "focus": [
+   "clusters",
+   "stress"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 29,
+  "notes_en": "'we'd isolated' — past perfect contraction. Three-verb list: isolated, rotated, begun — steady rhythm.",
+  "notes_hi": "'we'd isolated' — तीन क्रियाओं की सूची, स्थिर लय।"
+ },
+ {
+  "id": "sh:c1:007",
+  "cefr": "C1",
+  "title": "Reflecting on a career",
+  "text": "When I started out, I thought security was about knowing more tricks than the attacker. Now I think it's mostly about communication — getting busy people to care about a risk they can't see.",
+  "hi": "जब मैंने शुरुआत की, मुझे लगता था सुरक्षा हमलावर से ज़्यादा तरकीबें जानने के बारे में है। अब लगता है यह ज़्यादातर संवाद के बारे में है — व्यस्त लोगों को उस जोखिम की परवाह कराना जो वे देख नहीं सकते।",
+  "focus": [
+   "th",
+   "intonation"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 34,
+  "notes_en": "'thought' /θ/ vs 'think' — same sound. Long fall on 'see'.",
+  "notes_hi": "'thought' और 'think' में एक ही /θ/।"
+ },
+ {
+  "id": "sh:c1:008",
+  "cefr": "C1",
+  "title": "Handling a tough question",
+  "text": "That's a fair challenge. I don't have a precise number, but I can tell you the order of magnitude and get you the exact figure by tomorrow.",
+  "hi": "यह उचित चुनौती है। मेरे पास सटीक संख्या नहीं है, लेकिन मैं आपको परिमाण का क्रम बता सकता हूँ और कल तक सही आँकड़ा दे सकता हूँ।",
+  "focus": [
+   "th",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 27,
+  "notes_en": "'order of magnitude' → 'or-də-rəv-MAG-ni-tude'.",
+  "notes_hi": "'order of magnitude' → 'ऑर-डरव-MAG-नि-ट्यूड'।"
+ },
+ {
+  "id": "sh:c1:009",
+  "cefr": "C1",
+  "title": "Explaining nuance",
+  "text": "'Plausible' and 'feasible' aren't quite the same. Something is plausible if it could reasonably be true; it's feasible if we could actually do it. An attack can be one without the other.",
+  "hi": "'Plausible' और 'feasible' बिल्कुल एक जैसे नहीं हैं। कोई बात plausible है अगर वह तर्कसंगत रूप से सच हो सकती है; feasible है अगर हम उसे वास्तव में कर सकते हैं। हमला एक हो सकता है दूसरे के बिना।",
+  "focus": [
+   "stress",
+   "clusters"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 32,
+  "notes_en": "PLAU-si-ble, FEA-si-ble — stress on the first syllable of both.",
+  "notes_hi": "दोनों में पहले अक्षर पर ज़ोर।"
+ },
+ {
+  "id": "sh:c1:010",
+  "cefr": "C1",
+  "title": "Persuading a team",
+  "text": "I know nobody enjoys writing documentation. But the next person who touches this system will be us, in six months, with no memory of why we did any of it.",
+  "hi": "मैं जानता हूँ दस्तावेज़ लिखना किसी को पसंद नहीं। लेकिन इस सिस्टम को अगली बार छूने वाला व्यक्ति हम ही होंगे, छह महीने बाद, बिना याद के कि हमने यह सब क्यों किया।",
+  "focus": [
+   "intonation",
+   "stress"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 30,
+  "notes_en": "Emphatic 'us' — high pitch then fall. Pauses after 'us' and 'months'.",
+  "notes_hi": "'us' पर ऊँचा स्वर फिर नीचे।"
+ },
+ {
+  "id": "sh:c1:011",
+  "cefr": "C1",
+  "title": "Summarising research",
+  "text": "The paper's main claim is that memory-safety bugs account for roughly seventy percent of severe vulnerabilities, which is consistent with what Microsoft and Google have reported independently.",
+  "hi": "पेपर का मुख्य दावा यह है कि मेमोरी-सेफ़्टी बग लगभग सत्तर प्रतिशत गंभीर कमज़ोरियों के लिए ज़िम्मेदार हैं, जो Microsoft और Google की स्वतंत्र रिपोर्टों से मेल खाता है।",
+  "focus": [
+   "clusters",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 27,
+  "notes_en": "'account for roughly' — smooth. 'seventy' — SEV-en-ty, not 'seventeen'.",
+  "notes_hi": "'seventy' — SEV-en-ty, 'seventeen' नहीं।"
+ },
+ {
+  "id": "sh:c1:012",
+  "cefr": "C1",
+  "title": "Setting expectations",
+  "text": "Realistically, a full penetration test of this scope takes three weeks, not one. We can do a lighter review in a week, but I want to be clear about what that does and doesn't cover.",
+  "hi": "वास्तविक रूप से, इस दायरे का पूरा पेनेट्रेशन टेस्ट तीन हफ़्ते लेता है, एक नहीं। हम एक हफ़्ते में हल्की समीक्षा कर सकते हैं, लेकिन मैं स्पष्ट करना चाहता हूँ कि वह क्या कवर करती है और क्या नहीं।",
+  "focus": [
+   "contractions",
+   "stress"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 35,
+  "notes_en": "Contrast: THREE weeks, not ONE. 'does and doesn't' — both stressed.",
+  "notes_hi": "विरोध: THREE बनाम ONE।"
+ },
+ {
+  "id": "sh:c1:013",
+  "cefr": "C1",
+  "title": "Narrating a decision",
+  "text": "We debated it for an hour and eventually decided to disclose publicly, partly because the vendor had gone quiet and partly because users deserved to know.",
+  "hi": "हमने एक घंटे बहस की और अंत में सार्वजनिक रूप से खुलासा करने का फ़ैसला किया, आंशिक रूप से क्योंकि विक्रेता चुप हो गया था और आंशिक रूप से क्योंकि उपयोगकर्ता जानने के हक़दार थे।",
+  "focus": [
+   "linking",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 26,
+  "notes_en": "'for an hour' → 'fə-rə-nour'. 'partly because... partly because' — parallel rhythm.",
+  "notes_hi": "'for an hour' → 'फ़-र-नावर'।"
+ },
+ {
+  "id": "sh:c1:014",
+  "cefr": "C1",
+  "title": "Introducing a talk",
+  "text": "Good afternoon, everyone. Over the next twenty minutes I'm going to walk you through one incident, what went wrong, and the three changes we made so it can't happen again.",
+  "hi": "सबको नमस्कार। अगले बीस मिनट में मैं आपको एक घटना के बारे में बताऊँगा, क्या गलत हुआ, और वे तीन बदलाव जो हमने किए ताकि यह दोबारा न हो।",
+  "focus": [
+   "intonation",
+   "weak-forms"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 30,
+  "notes_en": "'I'm going to' → 'I'm gonna' (fine in a talk). Three-item list with rising, rising, falling.",
+  "notes_hi": "'I'm going to' → 'I'm gonna'।"
+ },
+ {
+  "id": "sh:c1:015",
+  "cefr": "C1",
+  "title": "Expressing uncertainty",
+  "text": "It's likely, though not certain, that the credentials were harvested from an earlier phishing campaign. We're treating that as the working hypothesis until the logs say otherwise.",
+  "hi": "संभावना है, हालाँकि निश्चित नहीं, कि क्रेडेंशियल पहले के फ़िशिंग अभियान से चुराए गए थे। जब तक लॉग कुछ और न कहें, हम इसे कार्यकारी परिकल्पना मान रहे हैं।",
+  "focus": [
+   "th",
+   "stress"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 27,
+  "notes_en": "'though not certain' is an aside — lower pitch, faster. hy-POTH-e-sis.",
+  "notes_hi": "'though not certain' — नीचा, तेज़। hy-POTH-e-sis।"
+ },
+ {
+  "id": "sh:c1:016",
+  "cefr": "C1",
+  "title": "Thanking a team",
+  "text": "I just want to say thank you. You stayed late, you stayed calm, and you fixed something ugly without pointing fingers. That's what a good team looks like.",
+  "hi": "मैं बस धन्यवाद कहना चाहता हूँ। आप देर तक रुके, शांत रहे, और बिना दोषारोपण के कुछ बदसूरत ठीक किया। एक अच्छी टीम ऐसी ही दिखती है।",
+  "focus": [
+   "stress",
+   "th"
+  ],
+  "target_wps": [
+   2.5,
+   3.3
+  ],
+  "words": 28,
+  "notes_en": "Three parallel 'you stayed/you fixed' — even beat. Warm fall on 'looks like'.",
+  "notes_hi": "तीन समानांतर वाक्यांश — समान ताल।"
+ }
+]

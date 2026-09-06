@@ -1,0 +1,2699 @@
+[
+ {
+  "id": "mp:v-w:01",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "vine",
+   "ipa": "/vaɪn/"
+  },
+  "b": {
+   "word": "wine",
+   "ipa": "/waɪn/"
+  },
+  "sentence_a": "The vine grew along the garden wall.",
+  "sentence_b": "The wine was served cold at dinner.",
+  "tip_en": "For 'vine', bite your lower lip gently with your top teeth and buzz. For 'wine', no teeth: round the lips into a tight circle.",
+  "tip_hi": "'vine' के लिए ऊपर के दाँत निचले होंठ पर हल्के से रखें और भिनभिनाएँ। 'wine' के लिए दाँत नहीं: होंठों को कसकर गोल करें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:v-w:02",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "vest",
+   "ipa": "/vest/"
+  },
+  "b": {
+   "word": "west",
+   "ipa": "/west/"
+  },
+  "sentence_a": "He wore a grey vest under his jacket.",
+  "sentence_b": "The sun sets in the west every evening.",
+  "tip_en": "'Vest' starts with teeth on lip. 'West' starts with lips pushed forward like a whistle. Look in a mirror: your teeth should be visible on V, hidden on W.",
+  "tip_hi": "'vest' दाँत होंठ पर रखकर शुरू होता है। 'west' होंठों को सीटी की तरह आगे करके। आईने में देखें: V पर दाँत दिखें, W पर छिपे रहें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:v-w:03",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "vet",
+   "ipa": "/vet/"
+  },
+  "b": {
+   "word": "wet",
+   "ipa": "/wet/"
+  },
+  "sentence_a": "We took the dog to the vet this morning.",
+  "sentence_b": "My shoes got wet in the rain.",
+  "tip_en": "Say a long 'vvvv' first, feel the lip buzz, then add 'et'. For 'wet', say 'oo' first, then quickly 'et'.",
+  "tip_hi": "पहले लंबा 'vvvv' कहें, होंठ का कंपन महसूस करें, फिर 'et' जोड़ें। 'wet' के लिए पहले 'ऊ' कहें, फिर तेज़ी से 'et'।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:v-w:04",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "veil",
+   "ipa": "/veɪl/"
+  },
+  "b": {
+   "word": "whale",
+   "ipa": "/weɪl/"
+  },
+  "sentence_a": "The bride lifted her veil and smiled.",
+  "sentence_b": "A huge whale surfaced near the boat.",
+  "tip_en": "'Whale' is pronounced exactly like 'wail' with a /w/. The 'wh' spelling is just /w/ for most speakers. 'Veil' needs the teeth.",
+  "tip_hi": "'whale' बिल्कुल /w/ वाले 'wail' जैसा बोला जाता है। 'wh' spelling ज़्यादातर लोगों के लिए बस /w/ है। 'veil' में दाँत चाहिए।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:v-w:05",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "vary",
+   "ipa": "/ˈveəri/"
+  },
+  "b": {
+   "word": "wary",
+   "ipa": "/ˈweəri/"
+  },
+  "sentence_a": "Prices vary from shop to shop.",
+  "sentence_b": "Be wary of emails asking for your password.",
+  "tip_en": "Both are common in professional English. 'Vary' = change; 'wary' = cautious. A merged pronunciation makes 'be wary of' sound like 'be vary of'.",
+  "tip_hi": "दोनों professional English में आम हैं। 'vary' = बदलना; 'wary' = सावधान। मिली-जुली आवाज़ से 'be wary of' 'be vary of' जैसा सुनाई देता है।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:v-w:06",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "vent",
+   "ipa": "/vent/"
+  },
+  "b": {
+   "word": "went",
+   "ipa": "/went/"
+  },
+  "sentence_a": "Warm air came out of the vent.",
+  "sentence_b": "She went home early yesterday.",
+  "tip_en": "'Went' is one of the most frequent words in English. If it sounds like 'vent', every past-tense story you tell is affected. Round the lips, no teeth.",
+  "tip_hi": "'went' अंग्रेज़ी के सबसे आम शब्दों में से है। अगर यह 'vent' जैसा लगे तो आपकी हर past-tense कहानी प्रभावित होती है। होंठ गोल, दाँत नहीं।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:v-w:07",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "verse",
+   "ipa": "/vɜːrs/"
+  },
+  "b": {
+   "word": "worse",
+   "ipa": "/wɜːrs/"
+  },
+  "sentence_a": "She read the first verse of the poem aloud.",
+  "sentence_b": "The traffic is worse on Mondays.",
+  "tip_en": "'Worse' with a /v/ sounds like 'verse' (poetry). The vowel is a long, central /ɜː/; do not roll the r.",
+  "tip_hi": "'worse' /v/ के साथ 'verse' (कविता) जैसा लगता है। स्वर लंबा केंद्रीय /ɜː/ है; r को न रोलें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:v-w:08",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "vile",
+   "ipa": "/vaɪl/"
+  },
+  "b": {
+   "word": "while",
+   "ipa": "/waɪl/"
+  },
+  "sentence_a": "The smell from the drain was vile.",
+  "sentence_b": "Please wait here while I check.",
+  "tip_en": "'While' appears constantly in speech ('while I was working'). Make it clearly /w/ so it never sounds like 'vile' (disgusting).",
+  "tip_hi": "'while' बोलचाल में लगातार आता है ('while I was working')। इसे साफ़ /w/ बनाएँ ताकि यह कभी 'vile' (घिनौना) जैसा न लगे।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:v-w:09",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "viper",
+   "ipa": "/ˈvaɪpər/"
+  },
+  "b": {
+   "word": "wiper",
+   "ipa": "/ˈwaɪpər/"
+  },
+  "sentence_a": "A viper is a venomous snake.",
+  "sentence_b": "The wiper cleared the rain from the windscreen.",
+  "tip_en": "Two-syllable words: the V/W is at the start of the stressed syllable, so it is very audible. Exaggerate the lip shape.",
+  "tip_hi": "दो-syllable शब्द: V/W stressed syllable की शुरुआत में है, इसलिए बहुत साफ़ सुनाई देता है। होंठों के आकार को बढ़ा-चढ़ाकर बनाएँ।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:v-w:10",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "vow",
+   "ipa": "/vaʊ/"
+  },
+  "b": {
+   "word": "wow",
+   "ipa": "/waʊ/"
+  },
+  "sentence_a": "They made a vow to support each other.",
+  "sentence_b": "Wow, that was a great presentation!",
+  "tip_en": "'Wow' is pure lip rounding from start to finish. 'Vow' starts with a lip-teeth buzz and then opens wide.",
+  "tip_hi": "'wow' शुरू से अंत तक सिर्फ़ होंठों का गोलपन है। 'vow' होंठ-दाँत के कंपन से शुरू होकर चौड़ा खुलता है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:v-w:11",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "vane",
+   "ipa": "/veɪn/"
+  },
+  "b": {
+   "word": "wane",
+   "ipa": "/weɪn/"
+  },
+  "sentence_a": "The weather vane turned in the wind.",
+  "sentence_b": "His interest began to wane after a month.",
+  "tip_en": "Note that 'vane', 'vain' and 'vein' all sound the same (/veɪn/) and 'wane' and 'Wayne' sound the same (/weɪn/). Only the first sound separates the two groups.",
+  "tip_hi": "'vane', 'vain', 'vein' सब एक जैसे बोले जाते हैं (/veɪn/) और 'wane', 'Wayne' एक जैसे (/weɪn/)। सिर्फ़ पहली आवाज़ दोनों समूहों को अलग करती है।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:v-w:12",
+  "contrast": "v-w",
+  "contrast_label": "/v/ vs /w/",
+  "phonemes": [
+   "ph:v",
+   "ph:w"
+  ],
+  "a": {
+   "word": "veal",
+   "ipa": "/viːl/"
+  },
+  "b": {
+   "word": "wheel",
+   "ipa": "/wiːl/"
+  },
+  "sentence_a": "Veal is meat from a young calf.",
+  "sentence_b": "The front wheel of my bike is flat.",
+  "tip_en": "The vowel /iː/ spreads the lips, which fights against the rounding needed for /w/. Round first for 'wheel', then spread. For 'veal', teeth first, then spread.",
+  "tip_hi": "स्वर /iː/ होंठों को फैलाता है, जो /w/ के गोलपन के खिलाफ़ जाता है। 'wheel' के लिए पहले गोल करें, फिर फैलाएँ। 'veal' के लिए पहले दाँत, फिर फैलाएँ।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:th-t:01",
+  "contrast": "th-t",
+  "contrast_label": "/θ/ vs /t/",
+  "phonemes": [
+   "ph:th",
+   "ph:t"
+  ],
+  "a": {
+   "word": "three",
+   "ipa": "/θriː/"
+  },
+  "b": {
+   "word": "tree",
+   "ipa": "/triː/"
+  },
+  "sentence_a": "I have three meetings today.",
+  "sentence_b": "The old tree fell in the storm.",
+  "tip_en": "Tongue tip between the teeth for 'three', with air hissing past. For 'tree', the tongue taps the ridge behind the teeth and the air stops. 'Three' can be stretched; 'tree' cannot.",
+  "tip_hi": "'three' के लिए जीभ की नोक दाँतों के बीच, हवा फुसफुसाती हुई। 'tree' के लिए जीभ दाँतों के पीछे की ridge को छूती है और हवा रुकती है। 'three' को खींचा जा सकता है; 'tree' को नहीं।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:th-t:02",
+  "contrast": "th-t",
+  "contrast_label": "/θ/ vs /t/",
+  "phonemes": [
+   "ph:th",
+   "ph:t"
+  ],
+  "a": {
+   "word": "thin",
+   "ipa": "/θɪn/"
+  },
+  "b": {
+   "word": "tin",
+   "ipa": "/tɪn/"
+  },
+  "sentence_a": "The walls are very thin in this flat.",
+  "sentence_b": "She opened a tin of beans.",
+  "tip_en": "Hold 'thhhh' for two seconds before saying 'in'. If you cannot hold the sound, you are making a Hindi थ stop, not English /θ/.",
+  "tip_hi": "'in' कहने से पहले 'thhhh' को दो सेकंड रोकें। अगर आप आवाज़ रोक नहीं सकते, तो आप हिंदी थ (stop) बना रहे हैं, अंग्रेज़ी /θ/ नहीं।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:th-t:03",
+  "contrast": "th-t",
+  "contrast_label": "/θ/ vs /t/",
+  "phonemes": [
+   "ph:th",
+   "ph:t"
+  ],
+  "a": {
+   "word": "thank",
+   "ipa": "/θæŋk/"
+  },
+  "b": {
+   "word": "tank",
+   "ipa": "/tæŋk/"
+  },
+  "sentence_a": "I want to thank everyone for coming.",
+  "sentence_b": "The water tank on the roof is empty.",
+  "tip_en": "'Thank you' is said dozens of times a day. With a stop /t/ it becomes 'tank you'. Let the air flow over the tongue tip.",
+  "tip_hi": "'thank you' दिन में दर्जनों बार बोला जाता है। stop /t/ के साथ यह 'tank you' बन जाता है। जीभ की नोक के ऊपर से हवा बहने दें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:th-t:04",
+  "contrast": "th-t",
+  "contrast_label": "/θ/ vs /t/",
+  "phonemes": [
+   "ph:th",
+   "ph:t"
+  ],
+  "a": {
+   "word": "thought",
+   "ipa": "/θɔːt/"
+  },
+  "b": {
+   "word": "taught",
+   "ipa": "/tɔːt/"
+  },
+  "sentence_a": "I thought the meeting was cancelled.",
+  "sentence_b": "She taught English for ten years.",
+  "tip_en": "Both end in /t/; only the first sound differs. Start 'thought' with the tongue visible between your teeth.",
+  "tip_hi": "दोनों /t/ पर खत्म होते हैं; सिर्फ़ पहली आवाज़ अलग है। 'thought' की शुरुआत जीभ को दाँतों के बीच दिखाते हुए करें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:th-t:05",
+  "contrast": "th-t",
+  "contrast_label": "/θ/ vs /t/",
+  "phonemes": [
+   "ph:th",
+   "ph:t"
+  ],
+  "a": {
+   "word": "thick",
+   "ipa": "/θɪk/"
+  },
+  "b": {
+   "word": "tick",
+   "ipa": "/tɪk/"
+  },
+  "sentence_a": "The fog was so thick we could not see.",
+  "sentence_b": "Put a tick next to your name.",
+  "tip_en": "Keep the tongue soft and flat for 'thick'. A hard, retroflex tongue produces the Indian ट sound and makes it 'tick'.",
+  "tip_hi": "'thick' के लिए जीभ नरम और चपटी रखें। सख़्त, मुड़ी हुई जीभ भारतीय ट बनाती है और इसे 'tick' बना देती है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:th-t:06",
+  "contrast": "th-t",
+  "contrast_label": "/θ/ vs /t/",
+  "phonemes": [
+   "ph:th",
+   "ph:t"
+  ],
+  "a": {
+   "word": "thorn",
+   "ipa": "/θɔːrn/"
+  },
+  "b": {
+   "word": "torn",
+   "ipa": "/tɔːrn/"
+  },
+  "sentence_a": "A thorn from the rose bush cut my finger.",
+  "sentence_b": "The page was torn out of the book.",
+  "tip_en": "Same vowel and ending; the whole difference is friction versus a stop at the start.",
+  "tip_hi": "एक ही स्वर और अंत; पूरा अंतर शुरुआत में रगड़ बनाम stop का है।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:th-t:07",
+  "contrast": "th-t",
+  "contrast_label": "/θ/ vs /t/",
+  "phonemes": [
+   "ph:th",
+   "ph:t"
+  ],
+  "a": {
+   "word": "bath",
+   "ipa": "/bɑːθ/"
+  },
+  "b": {
+   "word": "bat",
+   "ipa": "/bæt/"
+  },
+  "sentence_a": "I take a hot bath every night.",
+  "sentence_b": "He hit the ball with a cricket bat.",
+  "tip_en": "Final position: 'bath' ends with air still flowing between tongue and teeth. 'Bat' ends with the tongue stopping the air completely.",
+  "tip_hi": "अंतिम स्थिति: 'bath' का अंत जीभ और दाँतों के बीच बहती हवा के साथ होता है। 'bat' का अंत जीभ के हवा को पूरी तरह रोकने से।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:th-t:08",
+  "contrast": "th-t",
+  "contrast_label": "/θ/ vs /t/",
+  "phonemes": [
+   "ph:th",
+   "ph:t"
+  ],
+  "a": {
+   "word": "path",
+   "ipa": "/pɑːθ/"
+  },
+  "b": {
+   "word": "pat",
+   "ipa": "/pæt/"
+  },
+  "sentence_a": "Follow the path down to the river.",
+  "sentence_b": "She gave the dog a gentle pat.",
+  "tip_en": "In security writing you will say 'path' constantly ('file path', 'attack path'). Do not let it become 'pat' or 'paath-uh'.",
+  "tip_hi": "security लेखन में आप 'path' लगातार कहेंगे ('file path', 'attack path')। इसे 'pat' या 'paath-अ' न बनने दें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:th-t:09",
+  "contrast": "th-t",
+  "contrast_label": "/θ/ vs /t/",
+  "phonemes": [
+   "ph:th",
+   "ph:t"
+  ],
+  "a": {
+   "word": "faith",
+   "ipa": "/feɪθ/"
+  },
+  "b": {
+   "word": "fate",
+   "ipa": "/feɪt/"
+  },
+  "sentence_a": "She has great faith in her team.",
+  "sentence_b": "The fate of the project is uncertain.",
+  "tip_en": "After the diphthong /eɪ/, slide the tongue forward to the teeth and hiss for 'faith'; for 'fate' bring it up to the ridge and stop.",
+  "tip_hi": "diphthong /eɪ/ के बाद 'faith' के लिए जीभ को आगे दाँतों तक ले जाकर फुसफुसाएँ; 'fate' के लिए ridge तक ऊपर ले जाकर रोकें।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:th-t:10",
+  "contrast": "th-t",
+  "contrast_label": "/θ/ vs /t/",
+  "phonemes": [
+   "ph:th",
+   "ph:t"
+  ],
+  "a": {
+   "word": "death",
+   "ipa": "/deθ/"
+  },
+  "b": {
+   "word": "debt",
+   "ipa": "/det/"
+  },
+  "sentence_a": "The news of his death shocked us all.",
+  "sentence_b": "They paid off their debt last year.",
+  "tip_en": "'Debt' has a silent b and ends in a clean /t/. 'Death' ends in the soft hiss. Do not add an extra vowel after either.",
+  "tip_hi": "'debt' में b मौन है और यह साफ़ /t/ पर खत्म होता है। 'death' नरम फुसफुसाहट पर खत्म होता है। किसी के बाद अतिरिक्त स्वर न जोड़ें।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:dh-d:01",
+  "contrast": "dh-d",
+  "contrast_label": "/ð/ vs /d/",
+  "phonemes": [
+   "ph:dh",
+   "ph:d"
+  ],
+  "a": {
+   "word": "they",
+   "ipa": "/ðeɪ/"
+  },
+  "b": {
+   "word": "day",
+   "ipa": "/deɪ/"
+  },
+  "sentence_a": "They arrived late for the meeting.",
+  "sentence_b": "It was a long day at work.",
+  "tip_en": "'They' starts with the tongue between the teeth and the voice buzzing through. 'Day' starts with the tongue blocking the air on the ridge. Say 'they day they day' slowly and feel the difference.",
+  "tip_hi": "'they' जीभ दाँतों के बीच रखकर और आवाज़ के कंपन के साथ शुरू होता है। 'day' जीभ के ridge पर हवा रोकने से। 'they day they day' धीरे-धीरे कहें और अंतर महसूस करें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:dh-d:02",
+  "contrast": "dh-d",
+  "contrast_label": "/ð/ vs /d/",
+  "phonemes": [
+   "ph:dh",
+   "ph:d"
+  ],
+  "a": {
+   "word": "then",
+   "ipa": "/ðen/"
+  },
+  "b": {
+   "word": "den",
+   "ipa": "/den/"
+  },
+  "sentence_a": "First we eat, then we talk.",
+  "sentence_b": "The fox returned to its den.",
+  "tip_en": "'Then' is a function word, so it is quick and light, but the tongue must still touch the teeth, not the ridge.",
+  "tip_hi": "'then' एक function word है, इसलिए तेज़ और हल्का है, लेकिन जीभ फिर भी दाँतों को छुए, ridge को नहीं।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:dh-d:03",
+  "contrast": "dh-d",
+  "contrast_label": "/ð/ vs /d/",
+  "phonemes": [
+   "ph:dh",
+   "ph:d"
+  ],
+  "a": {
+   "word": "than",
+   "ipa": "/ðæn/"
+  },
+  "b": {
+   "word": "Dan",
+   "ipa": "/dæn/"
+  },
+  "sentence_a": "This laptop is faster than my old one.",
+  "sentence_b": "Dan is joining the team next week.",
+  "tip_en": "Comparatives use 'than' constantly. Said with /d/ it sounds like the name 'Dan'. Keep the vowel open /æ/ and the start soft.",
+  "tip_hi": "comparative में 'than' लगातार आता है। /d/ के साथ यह नाम 'Dan' जैसा लगता है। स्वर खुला /æ/ रखें और शुरुआत नरम।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:dh-d:04",
+  "contrast": "dh-d",
+  "contrast_label": "/ð/ vs /d/",
+  "phonemes": [
+   "ph:dh",
+   "ph:d"
+  ],
+  "a": {
+   "word": "there",
+   "ipa": "/ðeər/"
+  },
+  "b": {
+   "word": "dare",
+   "ipa": "/deər/"
+  },
+  "sentence_a": "Put the box over there, please.",
+  "sentence_b": "I would not dare to argue with her.",
+  "tip_en": "'There / their / they're' all begin with /ð/. Practise 'there' with the tongue visible, then 'dare' with the tongue hidden.",
+  "tip_hi": "'there / their / they're' सब /ð/ से शुरू होते हैं। 'there' जीभ दिखाते हुए अभ्यास करें, फिर 'dare' जीभ छिपाकर।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:dh-d:05",
+  "contrast": "dh-d",
+  "contrast_label": "/ð/ vs /d/",
+  "phonemes": [
+   "ph:dh",
+   "ph:d"
+  ],
+  "a": {
+   "word": "those",
+   "ipa": "/ðoʊz/"
+  },
+  "b": {
+   "word": "doze",
+   "ipa": "/doʊz/"
+  },
+  "sentence_a": "Those files need to be encrypted.",
+  "sentence_b": "I tend to doze off after lunch.",
+  "tip_en": "Both end in /z/ (buzzing, not ज). Focus on the start: soft friction for 'those', hard stop for 'doze'.",
+  "tip_hi": "दोनों /z/ पर खत्म होते हैं (भिनभिनाहट, ज नहीं)। शुरुआत पर ध्यान दें: 'those' के लिए नरम रगड़, 'doze' के लिए सख़्त stop।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:dh-d:06",
+  "contrast": "dh-d",
+  "contrast_label": "/ð/ vs /d/",
+  "phonemes": [
+   "ph:dh",
+   "ph:d"
+  ],
+  "a": {
+   "word": "though",
+   "ipa": "/ðoʊ/"
+  },
+  "b": {
+   "word": "dough",
+   "ipa": "/doʊ/"
+  },
+  "sentence_a": "It was expensive, though it was worth it.",
+  "sentence_b": "Leave the dough to rise for an hour.",
+  "tip_en": "Same vowel /oʊ/ (with a closing glide). 'Though' = /ð/, 'dough' = /d/. Note the 'gh' is silent in both.",
+  "tip_hi": "एक ही स्वर /oʊ/ (बंद होते glide के साथ)। 'though' = /ð/, 'dough' = /d/। दोनों में 'gh' मौन है।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:dh-d:07",
+  "contrast": "dh-d",
+  "contrast_label": "/ð/ vs /d/",
+  "phonemes": [
+   "ph:dh",
+   "ph:d"
+  ],
+  "a": {
+   "word": "breathe",
+   "ipa": "/briːð/"
+  },
+  "b": {
+   "word": "breed",
+   "ipa": "/briːd/"
+  },
+  "sentence_a": "Try to breathe slowly and relax.",
+  "sentence_b": "What breed is your dog?",
+  "tip_en": "Final position. 'Breathe' ends with a soft voiced hiss; 'breed' ends with a stop. Also note 'breathe' (verb, /iː/) versus 'breath' (noun, /e/ and /θ/).",
+  "tip_hi": "अंतिम स्थिति। 'breathe' नरम voiced फुसफुसाहट पर खत्म; 'breed' stop पर। ध्यान दें 'breathe' (क्रिया, /iː/) बनाम 'breath' (संज्ञा, /e/ और /θ/)।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:dh-d:08",
+  "contrast": "dh-d",
+  "contrast_label": "/ð/ vs /d/",
+  "phonemes": [
+   "ph:dh",
+   "ph:d"
+  ],
+  "a": {
+   "word": "lather",
+   "ipa": "/ˈlɑːðər/"
+  },
+  "b": {
+   "word": "ladder",
+   "ipa": "/ˈlædər/"
+  },
+  "sentence_a": "Work the soap into a thick lather.",
+  "sentence_b": "He climbed the ladder to fix the light.",
+  "tip_en": "Middle position. The vowels also differ slightly (/ɑː/ vs /æ/), but concentrate on the consonant: tongue to teeth for 'lather', tongue to ridge for 'ladder'.",
+  "tip_hi": "बीच की स्थिति। स्वर भी थोड़े अलग हैं (/ɑː/ बनाम /æ/), लेकिन व्यंजन पर ध्यान दें: 'lather' में जीभ दाँतों पर, 'ladder' में ridge पर।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:ae-e:01",
+  "contrast": "ae-e",
+  "contrast_label": "/æ/ vs /e/",
+  "phonemes": [
+   "ph:ae",
+   "ph:e"
+  ],
+  "a": {
+   "word": "bad",
+   "ipa": "/bæd/"
+  },
+  "b": {
+   "word": "bed",
+   "ipa": "/bed/"
+  },
+  "sentence_a": "That was a bad decision.",
+  "sentence_b": "I went to bed at midnight.",
+  "tip_en": "Drop your jaw much lower for 'bad'; you should be able to fit a finger between your teeth. 'Bed' is half closed and short.",
+  "tip_hi": "'bad' के लिए जबड़ा बहुत नीचे गिराएँ; दाँतों के बीच एक उँगली आनी चाहिए। 'bed' आधा बंद और छोटा है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:ae-e:02",
+  "contrast": "ae-e",
+  "contrast_label": "/æ/ vs /e/",
+  "phonemes": [
+   "ph:ae",
+   "ph:e"
+  ],
+  "a": {
+   "word": "man",
+   "ipa": "/mæn/"
+  },
+  "b": {
+   "word": "men",
+   "ipa": "/men/"
+  },
+  "sentence_a": "A man was waiting at the door.",
+  "sentence_b": "Three men were waiting at the door.",
+  "tip_en": "Singular/plural depends only on this vowel. Open wide for 'man' (one), half close for 'men' (many).",
+  "tip_hi": "एकवचन/बहुवचन सिर्फ़ इस स्वर पर निर्भर है। 'man' (एक) के लिए चौड़ा खोलें, 'men' (कई) के लिए आधा बंद।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:ae-e:03",
+  "contrast": "ae-e",
+  "contrast_label": "/æ/ vs /e/",
+  "phonemes": [
+   "ph:ae",
+   "ph:e"
+  ],
+  "a": {
+   "word": "pan",
+   "ipa": "/pæn/"
+  },
+  "b": {
+   "word": "pen",
+   "ipa": "/pen/"
+  },
+  "sentence_a": "Heat some oil in a pan.",
+  "sentence_b": "Can I borrow your pen?",
+  "tip_en": "Smile and stretch the mouth corners for 'pan'. Keep it relaxed and shorter for 'pen'.",
+  "tip_hi": "'pan' के लिए मुस्कुराएँ और मुँह के कोने खींचें। 'pen' के लिए ढीला और छोटा रखें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:ae-e:04",
+  "contrast": "ae-e",
+  "contrast_label": "/æ/ vs /e/",
+  "phonemes": [
+   "ph:ae",
+   "ph:e"
+  ],
+  "a": {
+   "word": "sad",
+   "ipa": "/sæd/"
+  },
+  "b": {
+   "word": "said",
+   "ipa": "/sed/"
+  },
+  "sentence_a": "She felt sad when the project ended.",
+  "sentence_b": "He said the fix would ship on Friday.",
+  "tip_en": "'Said' is spelled with 'ai' but has the short /e/ vowel. 'Sad' is open /æ/. Reported speech uses 'said' constantly, so get this one right.",
+  "tip_hi": "'said' की spelling 'ai' है लेकिन स्वर छोटा /e/ है। 'sad' खुला /æ/ है। reported speech में 'said' लगातार आता है, इसे सही करें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:ae-e:05",
+  "contrast": "ae-e",
+  "contrast_label": "/æ/ vs /e/",
+  "phonemes": [
+   "ph:ae",
+   "ph:e"
+  ],
+  "a": {
+   "word": "bat",
+   "ipa": "/bæt/"
+  },
+  "b": {
+   "word": "bet",
+   "ipa": "/bet/"
+  },
+  "sentence_a": "The bat flew out of the cave at dusk.",
+  "sentence_b": "I bet the server will be back up soon.",
+  "tip_en": "Short words make the vowel difference very clear. Exaggerate: 'baaat' with a wide mouth, 'bet' quick and narrow.",
+  "tip_hi": "छोटे शब्द स्वर के अंतर को बहुत साफ़ करते हैं। बढ़ा-चढ़ाकर: 'baaat' चौड़े मुँह से, 'bet' तेज़ और संकरा।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:ae-e:06",
+  "contrast": "ae-e",
+  "contrast_label": "/æ/ vs /e/",
+  "phonemes": [
+   "ph:ae",
+   "ph:e"
+  ],
+  "a": {
+   "word": "had",
+   "ipa": "/hæd/"
+  },
+  "b": {
+   "word": "head",
+   "ipa": "/hed/"
+  },
+  "sentence_a": "We had a good result last quarter.",
+  "sentence_b": "She nodded her head in agreement.",
+  "tip_en": "'Head' is spelled 'ea' but is short /e/. 'Had' is open /æ/. Watch the spelling trap.",
+  "tip_hi": "'head' की spelling 'ea' है लेकिन छोटा /e/ है। 'had' खुला /æ/ है। spelling के जाल से बचें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:ae-e:07",
+  "contrast": "ae-e",
+  "contrast_label": "/æ/ vs /e/",
+  "phonemes": [
+   "ph:ae",
+   "ph:e"
+  ],
+  "a": {
+   "word": "land",
+   "ipa": "/lænd/"
+  },
+  "b": {
+   "word": "lend",
+   "ipa": "/lend/"
+  },
+  "sentence_a": "The plane will land in ten minutes.",
+  "sentence_b": "Could you lend me your charger?",
+  "tip_en": "Both are verbs you will use. 'Lend me' with an open vowel sounds like 'land me'. Keep 'lend' tight and short.",
+  "tip_hi": "दोनों क्रियाएँ आप इस्तेमाल करेंगे। खुले स्वर के साथ 'lend me' 'land me' जैसा लगता है। 'lend' को कसा और छोटा रखें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:ae-e:08",
+  "contrast": "ae-e",
+  "contrast_label": "/æ/ vs /e/",
+  "phonemes": [
+   "ph:ae",
+   "ph:e"
+  ],
+  "a": {
+   "word": "sat",
+   "ipa": "/sæt/"
+  },
+  "b": {
+   "word": "set",
+   "ipa": "/set/"
+  },
+  "sentence_a": "We sat at the back of the room.",
+  "sentence_b": "Please set a strong password.",
+  "tip_en": "'Set' is a very common tech verb ('set the flag', 'set up'). Make it clearly /e/ so it does not become 'sat'.",
+  "tip_hi": "'set' बहुत आम tech क्रिया है ('set the flag', 'set up')। इसे साफ़ /e/ बनाएँ ताकि यह 'sat' न बने।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:ae-e:09",
+  "contrast": "ae-e",
+  "contrast_label": "/æ/ vs /e/",
+  "phonemes": [
+   "ph:ae",
+   "ph:e"
+  ],
+  "a": {
+   "word": "dad",
+   "ipa": "/dæd/"
+  },
+  "b": {
+   "word": "dead",
+   "ipa": "/ded/"
+  },
+  "sentence_a": "My dad taught me to ride a bike.",
+  "sentence_b": "The phone battery is completely dead.",
+  "tip_en": "A painful mix-up if you get it wrong. 'Dad' is wide and open; 'dead' (spelled 'ea') is short /e/.",
+  "tip_hi": "गलत होने पर दर्दनाक गड़बड़। 'dad' चौड़ा और खुला है; 'dead' ('ea' spelling) छोटा /e/ है।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:ae-e:10",
+  "contrast": "ae-e",
+  "contrast_label": "/æ/ vs /e/",
+  "phonemes": [
+   "ph:ae",
+   "ph:e"
+  ],
+  "a": {
+   "word": "gas",
+   "ipa": "/ɡæs/"
+  },
+  "b": {
+   "word": "guess",
+   "ipa": "/ɡes/"
+  },
+  "sentence_a": "There was a smell of gas in the kitchen.",
+  "sentence_b": "I guess we should restart the service.",
+  "tip_en": "'I guess' is a common conversational phrase. With an open vowel it sounds like 'I gas'. Keep the vowel short and half closed.",
+  "tip_hi": "'I guess' आम बोलचाल का वाक्यांश है। खुले स्वर के साथ यह 'I gas' जैसा लगता है। स्वर छोटा और आधा बंद रखें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:i-ii:01",
+  "contrast": "i-ii",
+  "contrast_label": "/ɪ/ vs /iː/",
+  "phonemes": [
+   "ph:i",
+   "ph:ii"
+  ],
+  "a": {
+   "word": "ship",
+   "ipa": "/ʃɪp/"
+  },
+  "b": {
+   "word": "sheep",
+   "ipa": "/ʃiːp/"
+  },
+  "sentence_a": "The ship left the harbour at dawn.",
+  "sentence_b": "The sheep were grazing on the hill.",
+  "tip_en": "'Ship' is short and relaxed: a quick tap of a vowel. 'Sheep' is long and tense with a wide smile. Count: 'ship' = 1 beat, 'sheep' = 2 beats.",
+  "tip_hi": "'ship' छोटा और ढीला है: स्वर की तेज़ टैप। 'sheep' लंबा और तना हुआ, चौड़ी मुस्कान के साथ। गिनें: 'ship' = 1 ताल, 'sheep' = 2 ताल।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:i-ii:02",
+  "contrast": "i-ii",
+  "contrast_label": "/ɪ/ vs /iː/",
+  "phonemes": [
+   "ph:i",
+   "ph:ii"
+  ],
+  "a": {
+   "word": "sit",
+   "ipa": "/sɪt/"
+  },
+  "b": {
+   "word": "seat",
+   "ipa": "/siːt/"
+  },
+  "sentence_a": "Please sit anywhere you like.",
+  "sentence_b": "Is this seat taken?",
+  "tip_en": "'Sit' (verb, short) versus 'seat' (noun, long). Relax the tongue for 'sit'; tighten and smile for 'seat'.",
+  "tip_hi": "'sit' (क्रिया, छोटा) बनाम 'seat' (संज्ञा, लंबा)। 'sit' के लिए जीभ ढीली; 'seat' के लिए कसें और मुस्कुराएँ।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:i-ii:03",
+  "contrast": "i-ii",
+  "contrast_label": "/ɪ/ vs /iː/",
+  "phonemes": [
+   "ph:i",
+   "ph:ii"
+  ],
+  "a": {
+   "word": "fill",
+   "ipa": "/fɪl/"
+  },
+  "b": {
+   "word": "feel",
+   "ipa": "/fiːl/"
+  },
+  "sentence_a": "Please fill in the form.",
+  "sentence_b": "I feel much better today.",
+  "tip_en": "Both end in dark /l/. 'Fill in the form' with a long vowel becomes 'feel in the form'. Keep 'fill' clipped.",
+  "tip_hi": "दोनों dark /l/ पर खत्म होते हैं। लंबे स्वर के साथ 'fill in the form' 'feel in the form' बन जाता है। 'fill' को छोटा रखें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:i-ii:04",
+  "contrast": "i-ii",
+  "contrast_label": "/ɪ/ vs /iː/",
+  "phonemes": [
+   "ph:i",
+   "ph:ii"
+  ],
+  "a": {
+   "word": "bit",
+   "ipa": "/bɪt/"
+  },
+  "b": {
+   "word": "beat",
+   "ipa": "/biːt/"
+  },
+  "sentence_a": "Wait a bit; the page is still loading.",
+  "sentence_b": "Our team beat them in the final.",
+  "tip_en": "'A bit' is extremely common in British speech. Make it very short. 'Beat' stretches and the lips spread.",
+  "tip_hi": "'a bit' British बोलचाल में बेहद आम है। इसे बहुत छोटा बनाएँ। 'beat' खिंचता है और होंठ फैलते हैं।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:i-ii:05",
+  "contrast": "i-ii",
+  "contrast_label": "/ɪ/ vs /iː/",
+  "phonemes": [
+   "ph:i",
+   "ph:ii"
+  ],
+  "a": {
+   "word": "live",
+   "ipa": "/lɪv/"
+  },
+  "b": {
+   "word": "leave",
+   "ipa": "/liːv/"
+  },
+  "sentence_a": "I live near the station.",
+  "sentence_b": "I leave for the office at eight.",
+  "tip_en": "'Live' (verb, short /ɪ/) is different from 'leave' (long /iː/) and also from 'live' the adjective (/laɪv/, 'live stream'). Keep the verb short.",
+  "tip_hi": "'live' (क्रिया, छोटा /ɪ/) 'leave' (लंबा /iː/) से अलग है और विशेषण 'live' (/laɪv/, 'live stream') से भी। क्रिया को छोटा रखें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:i-ii:06",
+  "contrast": "i-ii",
+  "contrast_label": "/ɪ/ vs /iː/",
+  "phonemes": [
+   "ph:i",
+   "ph:ii"
+  ],
+  "a": {
+   "word": "hit",
+   "ipa": "/hɪt/"
+  },
+  "b": {
+   "word": "heat",
+   "ipa": "/hiːt/"
+  },
+  "sentence_a": "The car hit a pothole.",
+  "sentence_b": "The heat in May is unbearable.",
+  "tip_en": "Short /ɪ/ in 'hit'; long /iː/ in 'heat'. The 'ea' spelling usually signals the long vowel.",
+  "tip_hi": "'hit' में छोटा /ɪ/; 'heat' में लंबा /iː/। 'ea' spelling आमतौर पर लंबे स्वर का संकेत है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:i-ii:07",
+  "contrast": "i-ii",
+  "contrast_label": "/ɪ/ vs /iː/",
+  "phonemes": [
+   "ph:i",
+   "ph:ii"
+  ],
+  "a": {
+   "word": "chip",
+   "ipa": "/tʃɪp/"
+  },
+  "b": {
+   "word": "cheap",
+   "ipa": "/tʃiːp/"
+  },
+  "sentence_a": "The chip on the motherboard overheated.",
+  "sentence_b": "Flights are cheap in the off-season.",
+  "tip_en": "'Cheap' with a short vowel sounds like 'chip'. Stretch the vowel and smile for 'cheap'.",
+  "tip_hi": "छोटे स्वर के साथ 'cheap' 'chip' जैसा लगता है। 'cheap' के लिए स्वर खींचें और मुस्कुराएँ।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:i-ii:08",
+  "contrast": "i-ii",
+  "contrast_label": "/ɪ/ vs /iː/",
+  "phonemes": [
+   "ph:i",
+   "ph:ii"
+  ],
+  "a": {
+   "word": "slip",
+   "ipa": "/slɪp/"
+  },
+  "b": {
+   "word": "sleep",
+   "ipa": "/sliːp/"
+  },
+  "sentence_a": "Be careful not to slip on the wet floor.",
+  "sentence_b": "I need at least seven hours of sleep.",
+  "tip_en": "'I need sleep' with a short vowel becomes 'I need slip'. Make 'sleep' long and tense.",
+  "tip_hi": "छोटे स्वर के साथ 'I need sleep' 'I need slip' बन जाता है। 'sleep' को लंबा और तना हुआ बनाएँ।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:i-ii:09",
+  "contrast": "i-ii",
+  "contrast_label": "/ɪ/ vs /iː/",
+  "phonemes": [
+   "ph:i",
+   "ph:ii"
+  ],
+  "a": {
+   "word": "rich",
+   "ipa": "/rɪtʃ/"
+  },
+  "b": {
+   "word": "reach",
+   "ipa": "/riːtʃ/"
+  },
+  "sentence_a": "The soil here is rich and dark.",
+  "sentence_b": "I could not reach the top shelf.",
+  "tip_en": "Same start and end; only vowel length and tension differ. Do not tap the r in either word.",
+  "tip_hi": "एक ही शुरुआत और अंत; सिर्फ़ स्वर की लंबाई और तनाव अलग है। किसी भी शब्द में r को टैप न करें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:i-ii:10",
+  "contrast": "i-ii",
+  "contrast_label": "/ɪ/ vs /iː/",
+  "phonemes": [
+   "ph:i",
+   "ph:ii"
+  ],
+  "a": {
+   "word": "still",
+   "ipa": "/stɪl/"
+  },
+  "b": {
+   "word": "steel",
+   "ipa": "/stiːl/"
+  },
+  "sentence_a": "The bug is still open.",
+  "sentence_b": "The bridge is made of steel.",
+  "tip_en": "'Still' is a very frequent adverb. Short vowel, dark /l/, and no extra vowel before the 's' ('is-still' is wrong).",
+  "tip_hi": "'still' बहुत आम adverb है। छोटा स्वर, dark /l/, और 's' से पहले कोई अतिरिक्त स्वर नहीं ('is-still' गलत है)।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:z-j:01",
+  "contrast": "z-j",
+  "contrast_label": "/z/ vs /dʒ/",
+  "phonemes": [
+   "ph:z",
+   "ph:j"
+  ],
+  "a": {
+   "word": "zest",
+   "ipa": "/zest/"
+  },
+  "b": {
+   "word": "jest",
+   "ipa": "/dʒest/"
+  },
+  "sentence_a": "Add some lemon zest to the cake.",
+  "sentence_b": "He said it in jest, not seriously.",
+  "tip_en": "'Zest' starts like a bee buzzing with the tongue touching nothing. 'Jest' starts with the tongue pressed to the ridge and then released. Hindi ज is the second sound, never the first.",
+  "tip_hi": "'zest' मधुमक्खी की भिनभिनाहट जैसे शुरू होता है, जीभ कहीं नहीं छूती। 'jest' जीभ को ridge पर दबाकर छोड़ने से शुरू होता है। हिंदी ज दूसरी आवाज़ है, पहली कभी नहीं।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:z-j:02",
+  "contrast": "z-j",
+  "contrast_label": "/z/ vs /dʒ/",
+  "phonemes": [
+   "ph:z",
+   "ph:j"
+  ],
+  "a": {
+   "word": "buzz",
+   "ipa": "/bʌz/"
+  },
+  "b": {
+   "word": "budge",
+   "ipa": "/bʌdʒ/"
+  },
+  "sentence_a": "I heard my phone buzz in my pocket.",
+  "sentence_b": "The door would not budge.",
+  "tip_en": "Final position. 'Buzz' ends with a long buzzing sound you can hold. 'Budge' ends with a quick contact and release.",
+  "tip_hi": "अंतिम स्थिति। 'buzz' लंबी भिनभिनाहट पर खत्म होता है जिसे आप रोक सकते हैं। 'budge' तेज़ स्पर्श और रिहाई पर।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:z-j:03",
+  "contrast": "z-j",
+  "contrast_label": "/z/ vs /dʒ/",
+  "phonemes": [
+   "ph:z",
+   "ph:j"
+  ],
+  "a": {
+   "word": "fuzz",
+   "ipa": "/fʌz/"
+  },
+  "b": {
+   "word": "fudge",
+   "ipa": "/fʌdʒ/"
+  },
+  "sentence_a": "Fuzz testing found three crashes in the parser.",
+  "sentence_b": "She brought homemade fudge to the office.",
+  "tip_en": "'Fuzz' and 'fuzzing' are security vocabulary. If you say 'fudging', it means something completely different (faking numbers).",
+  "tip_hi": "'fuzz' और 'fuzzing' security शब्दावली हैं। अगर आप 'fudging' कहते हैं, तो इसका मतलब बिल्कुल अलग है (आँकड़े गढ़ना)।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:z-j:04",
+  "contrast": "z-j",
+  "contrast_label": "/z/ vs /dʒ/",
+  "phonemes": [
+   "ph:z",
+   "ph:j"
+  ],
+  "a": {
+   "word": "raise",
+   "ipa": "/reɪz/"
+  },
+  "b": {
+   "word": "rage",
+   "ipa": "/reɪdʒ/"
+  },
+  "sentence_a": "I want to raise a concern about the timeline.",
+  "sentence_b": "He slammed the door in a rage.",
+  "tip_en": "'Raise a concern', 'raise a ticket': if the ending is ज, it becomes 'rage'. Let the ending buzz with no tongue contact.",
+  "tip_hi": "'raise a concern', 'raise a ticket': अगर अंत ज है, तो यह 'rage' बन जाता है। अंत को बिना जीभ के स्पर्श के भिनभिनाने दें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:z-j:05",
+  "contrast": "z-j",
+  "contrast_label": "/z/ vs /dʒ/",
+  "phonemes": [
+   "ph:z",
+   "ph:j"
+  ],
+  "a": {
+   "word": "ways",
+   "ipa": "/weɪz/"
+  },
+  "b": {
+   "word": "wage",
+   "ipa": "/weɪdʒ/"
+  },
+  "sentence_a": "There are several ways to fix this.",
+  "sentence_b": "The minimum wage went up in April.",
+  "tip_en": "Plural 's' after a vowel is /z/. 'Ways', 'days', 'keys' all end in a buzz, not in ज and not in स.",
+  "tip_hi": "स्वर के बाद बहुवचन 's' /z/ है। 'ways', 'days', 'keys' सब भिनभिनाहट पर खत्म होते हैं, ज पर नहीं और स पर भी नहीं।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:z-j:06",
+  "contrast": "z-j",
+  "contrast_label": "/z/ vs /dʒ/",
+  "phonemes": [
+   "ph:z",
+   "ph:j"
+  ],
+  "a": {
+   "word": "seize",
+   "ipa": "/siːz/"
+  },
+  "b": {
+   "word": "siege",
+   "ipa": "/siːdʒ/"
+  },
+  "sentence_a": "Police can seize devices with a warrant.",
+  "sentence_b": "The castle survived a long siege.",
+  "tip_en": "Long vowel /iː/ then the ending. Hold the 'zzz' for 'seize'; snap the 'dj' for 'siege'.",
+  "tip_hi": "लंबा स्वर /iː/ फिर अंत। 'seize' के लिए 'zzz' रोकें; 'siege' के लिए 'dj' झटके से।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:z-j:07",
+  "contrast": "z-j",
+  "contrast_label": "/z/ vs /dʒ/",
+  "phonemes": [
+   "ph:z",
+   "ph:j"
+  ],
+  "a": {
+   "word": "pays",
+   "ipa": "/peɪz/"
+  },
+  "b": {
+   "word": "page",
+   "ipa": "/peɪdʒ/"
+  },
+  "sentence_a": "The company pays on the last Friday of the month.",
+  "sentence_b": "The login page is not loading.",
+  "tip_en": "Third-person 's' after a vowel is /z/: 'pays', 'says', 'goes'. 'Page' has the tongue-contact ending.",
+  "tip_hi": "स्वर के बाद third-person 's' /z/ है: 'pays', 'says', 'goes'। 'page' में जीभ-स्पर्श वाला अंत है।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:z-j:08",
+  "contrast": "z-j",
+  "contrast_label": "/z/ vs /dʒ/",
+  "phonemes": [
+   "ph:z",
+   "ph:j"
+  ],
+  "a": {
+   "word": "stays",
+   "ipa": "/steɪz/"
+  },
+  "b": {
+   "word": "stage",
+   "ipa": "/steɪdʒ/"
+  },
+  "sentence_a": "The data stays encrypted at rest.",
+  "sentence_b": "The bug was found at the testing stage.",
+  "tip_en": "'Stays' ends in a buzz; 'stage' ends in a stop-plus-friction. Both begin with 'st' and no extra vowel before it.",
+  "tip_hi": "'stays' भिनभिनाहट पर खत्म; 'stage' stop-और-रगड़ पर। दोनों 'st' से शुरू होते हैं और उससे पहले कोई अतिरिक्त स्वर नहीं।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:s-sh:01",
+  "contrast": "s-sh",
+  "contrast_label": "/s/ vs /ʃ/",
+  "phonemes": [
+   "ph:s",
+   "ph:sh"
+  ],
+  "a": {
+   "word": "sip",
+   "ipa": "/sɪp/"
+  },
+  "b": {
+   "word": "ship",
+   "ipa": "/ʃɪp/"
+  },
+  "sentence_a": "Take a small sip of water.",
+  "sentence_b": "The ship arrived a day late.",
+  "tip_en": "Spread the lips and hiss sharply for 'sip'. Push the lips forward and round them for 'ship'; the sound is lower and softer.",
+  "tip_hi": "'sip' के लिए होंठ फैलाएँ और तेज़ फुसफुसाएँ। 'ship' के लिए होंठ आगे करके गोल करें; आवाज़ नीची और नरम है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:s-sh:02",
+  "contrast": "s-sh",
+  "contrast_label": "/s/ vs /ʃ/",
+  "phonemes": [
+   "ph:s",
+   "ph:sh"
+  ],
+  "a": {
+   "word": "see",
+   "ipa": "/siː/"
+  },
+  "b": {
+   "word": "she",
+   "ipa": "/ʃiː/"
+  },
+  "sentence_a": "I can see the screen from here.",
+  "sentence_b": "She is leading the incident response.",
+  "tip_en": "'She' is a core pronoun. If it comes out as 'see', listeners lose track of who you mean. Round the lips before the vowel.",
+  "tip_hi": "'she' एक मुख्य सर्वनाम है। अगर यह 'see' निकले, तो सुनने वाले समझ नहीं पाते आप किसकी बात कर रहे हैं। स्वर से पहले होंठ गोल करें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:s-sh:03",
+  "contrast": "s-sh",
+  "contrast_label": "/s/ vs /ʃ/",
+  "phonemes": [
+   "ph:s",
+   "ph:sh"
+  ],
+  "a": {
+   "word": "sell",
+   "ipa": "/sel/"
+  },
+  "b": {
+   "word": "shell",
+   "ipa": "/ʃel/"
+  },
+  "sentence_a": "They sell laptops and phones.",
+  "sentence_b": "The attacker got a reverse shell on the host.",
+  "tip_en": "'Shell' is a word you use daily in security work. Make it clearly /ʃ/ with rounded lips.",
+  "tip_hi": "'shell' security काम में रोज़ इस्तेमाल होने वाला शब्द है। इसे गोल होंठों से साफ़ /ʃ/ बनाएँ।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:s-sh:04",
+  "contrast": "s-sh",
+  "contrast_label": "/s/ vs /ʃ/",
+  "phonemes": [
+   "ph:s",
+   "ph:sh"
+  ],
+  "a": {
+   "word": "same",
+   "ipa": "/seɪm/"
+  },
+  "b": {
+   "word": "shame",
+   "ipa": "/ʃeɪm/"
+  },
+  "sentence_a": "We use the same password policy everywhere.",
+  "sentence_b": "It is a shame you cannot come.",
+  "tip_en": "'What a shame' versus 'the same': only the lip rounding at the start separates them.",
+  "tip_hi": "'what a shame' बनाम 'the same': सिर्फ़ शुरुआत में होंठों का गोलपन इन्हें अलग करता है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:s-sh:05",
+  "contrast": "s-sh",
+  "contrast_label": "/s/ vs /ʃ/",
+  "phonemes": [
+   "ph:s",
+   "ph:sh"
+  ],
+  "a": {
+   "word": "sock",
+   "ipa": "/sɒk/"
+  },
+  "b": {
+   "word": "shock",
+   "ipa": "/ʃɒk/"
+  },
+  "sentence_a": "I lost one sock in the wash.",
+  "sentence_b": "The news came as a shock to everyone.",
+  "tip_en": "Short vowel /ɒ/ in both. Sharp hiss for 'sock', broad hush for 'shock'.",
+  "tip_hi": "दोनों में छोटा स्वर /ɒ/। 'sock' के लिए तेज़ फुसफुसाहट, 'shock' के लिए चौड़ी 'शश'।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:s-sh:06",
+  "contrast": "s-sh",
+  "contrast_label": "/s/ vs /ʃ/",
+  "phonemes": [
+   "ph:s",
+   "ph:sh"
+  ],
+  "a": {
+   "word": "seat",
+   "ipa": "/siːt/"
+  },
+  "b": {
+   "word": "sheet",
+   "ipa": "/ʃiːt/"
+  },
+  "sentence_a": "Take a seat; the meeting starts soon.",
+  "sentence_b": "Open the spreadsheet on the second sheet.",
+  "tip_en": "Long vowel spreads the lips, which makes /ʃ/ harder. Round first for 'sheet', then spread for the vowel.",
+  "tip_hi": "लंबा स्वर होंठों को फैलाता है, जिससे /ʃ/ कठिन हो जाता है। 'sheet' के लिए पहले गोल करें, फिर स्वर के लिए फैलाएँ।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:s-sh:07",
+  "contrast": "s-sh",
+  "contrast_label": "/s/ vs /ʃ/",
+  "phonemes": [
+   "ph:s",
+   "ph:sh"
+  ],
+  "a": {
+   "word": "save",
+   "ipa": "/seɪv/"
+  },
+  "b": {
+   "word": "shave",
+   "ipa": "/ʃeɪv/"
+  },
+  "sentence_a": "Remember to save the file before closing.",
+  "sentence_b": "I shave every other morning.",
+  "tip_en": "Both end in /v/ (teeth on lip). 'Save the file' with a rounded start becomes 'shave the file'.",
+  "tip_hi": "दोनों /v/ पर खत्म (दाँत होंठ पर)। गोल शुरुआत के साथ 'save the file' 'shave the file' बन जाता है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:s-sh:08",
+  "contrast": "s-sh",
+  "contrast_label": "/s/ vs /ʃ/",
+  "phonemes": [
+   "ph:s",
+   "ph:sh"
+  ],
+  "a": {
+   "word": "class",
+   "ipa": "/klɑːs/"
+  },
+  "b": {
+   "word": "clash",
+   "ipa": "/klæʃ/"
+  },
+  "sentence_a": "The class starts at nine.",
+  "sentence_b": "There was a clash between the two teams.",
+  "tip_en": "Final position. 'Class' ends in a spread-lip hiss; 'clash' ends in a rounded hush. The vowels also differ (/ɑː/ vs /æ/) in British English.",
+  "tip_hi": "अंतिम स्थिति। 'class' फैले होंठों की फुसफुसाहट पर खत्म; 'clash' गोल 'शश' पर। British English में स्वर भी अलग हैं (/ɑː/ बनाम /æ/)।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:o-ou:01",
+  "contrast": "o-ou",
+  "contrast_label": "/ɒ/ vs /oʊ/",
+  "phonemes": [
+   "ph:o",
+   "ph:ou"
+  ],
+  "a": {
+   "word": "cot",
+   "ipa": "/kɒt/"
+  },
+  "b": {
+   "word": "coat",
+   "ipa": "/koʊt/"
+  },
+  "sentence_a": "The baby is asleep in the cot.",
+  "sentence_b": "Take a coat; it is cold outside.",
+  "tip_en": "'Cot' is short with the mouth open and the lips only slightly rounded. 'Coat' is longer and the lips close into 'oo' at the end.",
+  "tip_hi": "'cot' छोटा है, मुँह खुला और होंठ बस थोड़े गोल। 'coat' लंबा है और अंत में होंठ 'ऊ' में बंद होते हैं।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:o-ou:02",
+  "contrast": "o-ou",
+  "contrast_label": "/ɒ/ vs /oʊ/",
+  "phonemes": [
+   "ph:o",
+   "ph:ou"
+  ],
+  "a": {
+   "word": "not",
+   "ipa": "/nɒt/"
+  },
+  "b": {
+   "word": "note",
+   "ipa": "/noʊt/"
+  },
+  "sentence_a": "That is not what I meant.",
+  "sentence_b": "Please make a note of the ticket number.",
+  "tip_en": "'Not' is one of the most common words. With a Hindi ओ it sounds like 'note'. Keep it short and open.",
+  "tip_hi": "'not' सबसे आम शब्दों में से है। हिंदी ओ के साथ यह 'note' जैसा लगता है। इसे छोटा और खुला रखें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:o-ou:03",
+  "contrast": "o-ou",
+  "contrast_label": "/ɒ/ vs /oʊ/",
+  "phonemes": [
+   "ph:o",
+   "ph:ou"
+  ],
+  "a": {
+   "word": "hop",
+   "ipa": "/hɒp/"
+  },
+  "b": {
+   "word": "hope",
+   "ipa": "/hoʊp/"
+  },
+  "sentence_a": "The rabbit gave a little hop.",
+  "sentence_b": "I hope the deployment goes smoothly.",
+  "tip_en": "'I hope' needs the closing glide at the end of the vowel. Without it, it sounds like 'I hop'.",
+  "tip_hi": "'I hope' में स्वर के अंत में बंद होता glide चाहिए। इसके बिना यह 'I hop' जैसा लगता है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:o-ou:04",
+  "contrast": "o-ou",
+  "contrast_label": "/ɒ/ vs /oʊ/",
+  "phonemes": [
+   "ph:o",
+   "ph:ou"
+  ],
+  "a": {
+   "word": "rod",
+   "ipa": "/rɒd/"
+  },
+  "b": {
+   "word": "road",
+   "ipa": "/roʊd/"
+  },
+  "sentence_a": "He bent the metal rod in half.",
+  "sentence_b": "The road was closed for repairs.",
+  "tip_en": "Short open /ɒ/ for 'rod'; long gliding /oʊ/ for 'road'. Keep the r untapped in both.",
+  "tip_hi": "'rod' के लिए छोटा खुला /ɒ/; 'road' के लिए लंबा फिसलता /oʊ/। दोनों में r को टैप न करें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:o-ou:05",
+  "contrast": "o-ou",
+  "contrast_label": "/ɒ/ vs /oʊ/",
+  "phonemes": [
+   "ph:o",
+   "ph:ou"
+  ],
+  "a": {
+   "word": "cod",
+   "ipa": "/kɒd/"
+  },
+  "b": {
+   "word": "code",
+   "ipa": "/koʊd/"
+  },
+  "sentence_a": "Cod is a popular fish in Britain.",
+  "sentence_b": "The code review found two bugs.",
+  "tip_en": "'Code' is a word you say all day. A flat Hindi ओ makes it sound clipped; a short open vowel makes it 'cod' (fish). Glide the lips closed.",
+  "tip_hi": "'code' आप पूरे दिन बोलते हैं। सपाट हिंदी ओ इसे कटा हुआ बनाता है; छोटा खुला स्वर इसे 'cod' (मछली) बना देता है। होंठों को बंद करते हुए glide करें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:o-ou:06",
+  "contrast": "o-ou",
+  "contrast_label": "/ɒ/ vs /oʊ/",
+  "phonemes": [
+   "ph:o",
+   "ph:ou"
+  ],
+  "a": {
+   "word": "got",
+   "ipa": "/ɡɒt/"
+  },
+  "b": {
+   "word": "goat",
+   "ipa": "/ɡoʊt/"
+  },
+  "sentence_a": "I got your message this morning.",
+  "sentence_b": "A goat was eating the neighbour's plants.",
+  "tip_en": "'Got' short, jaw open. 'Goat' longer, lips closing at the end. 'I got it' should never sound like 'I goat it'.",
+  "tip_hi": "'got' छोटा, जबड़ा खुला। 'goat' लंबा, अंत में होंठ बंद होते हुए। 'I got it' कभी 'I goat it' जैसा न लगे।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:o-ou:07",
+  "contrast": "o-ou",
+  "contrast_label": "/ɒ/ vs /oʊ/",
+  "phonemes": [
+   "ph:o",
+   "ph:ou"
+  ],
+  "a": {
+   "word": "sock",
+   "ipa": "/sɒk/"
+  },
+  "b": {
+   "word": "soak",
+   "ipa": "/soʊk/"
+  },
+  "sentence_a": "There is a hole in my sock.",
+  "sentence_b": "Soak the beans overnight.",
+  "tip_en": "Same consonants; only the vowel changes. Practise 'sock–soak–sock–soak' feeling the lips close on 'soak'.",
+  "tip_hi": "एक जैसे व्यंजन; सिर्फ़ स्वर बदलता है। 'sock–soak–sock–soak' का अभ्यास करें और 'soak' पर होंठों को बंद होता महसूस करें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:o-ou:08",
+  "contrast": "o-ou",
+  "contrast_label": "/ɒ/ vs /oʊ/",
+  "phonemes": [
+   "ph:o",
+   "ph:ou"
+  ],
+  "a": {
+   "word": "rob",
+   "ipa": "/rɒb/"
+  },
+  "b": {
+   "word": "robe",
+   "ipa": "/roʊb/"
+  },
+  "sentence_a": "Someone tried to rob the shop last night.",
+  "sentence_b": "He wore a long white robe.",
+  "tip_en": "Final /b/ stays voiced in both. The silent 'e' in 'robe' signals the long gliding vowel.",
+  "tip_hi": "दोनों में अंतिम /b/ voiced रहता है। 'robe' में मौन 'e' लंबे फिसलते स्वर का संकेत है।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:uh-aa:01",
+  "contrast": "uh-aa",
+  "contrast_label": "/ʌ/ vs /ɑː/",
+  "phonemes": [
+   "ph:uh",
+   "ph:aa"
+  ],
+  "a": {
+   "word": "cut",
+   "ipa": "/kʌt/"
+  },
+  "b": {
+   "word": "cart",
+   "ipa": "/kɑːrt/"
+  },
+  "sentence_a": "I cut my finger on the paper.",
+  "sentence_b": "Put the items in the shopping cart.",
+  "tip_en": "'Cut' is a short central 'uh' like Hindi अ. 'Cart' is a long open 'aah' like Hindi आ; in British English the r is silent.",
+  "tip_hi": "'cut' छोटा केंद्रीय 'अ' है, हिंदी अ जैसा। 'cart' लंबा खुला 'आ' है, हिंदी आ जैसा; British English में r मौन है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:uh-aa:02",
+  "contrast": "uh-aa",
+  "contrast_label": "/ʌ/ vs /ɑː/",
+  "phonemes": [
+   "ph:uh",
+   "ph:aa"
+  ],
+  "a": {
+   "word": "hut",
+   "ipa": "/hʌt/"
+  },
+  "b": {
+   "word": "heart",
+   "ipa": "/hɑːrt/"
+  },
+  "sentence_a": "They lived in a small hut by the river.",
+  "sentence_b": "Exercise is good for your heart.",
+  "tip_en": "Length is the key: 'hut' is one quick beat, 'heart' is stretched.",
+  "tip_hi": "लंबाई ही कुंजी है: 'hut' एक तेज़ ताल है, 'heart' खींचा हुआ है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:uh-aa:03",
+  "contrast": "uh-aa",
+  "contrast_label": "/ʌ/ vs /ɑː/",
+  "phonemes": [
+   "ph:uh",
+   "ph:aa"
+  ],
+  "a": {
+   "word": "come",
+   "ipa": "/kʌm/"
+  },
+  "b": {
+   "word": "calm",
+   "ipa": "/kɑːm/"
+  },
+  "sentence_a": "Please come to my desk when you are free.",
+  "sentence_b": "Stay calm during the incident.",
+  "tip_en": "'Come' is spelled with 'o' but has /ʌ/ (अ). 'Calm' has a silent 'l' and long /ɑː/ (आ).",
+  "tip_hi": "'come' की spelling में 'o' है लेकिन स्वर /ʌ/ (अ) है। 'calm' में 'l' मौन है और लंबा /ɑː/ (आ) है।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:uh-aa:04",
+  "contrast": "uh-aa",
+  "contrast_label": "/ʌ/ vs /ɑː/",
+  "phonemes": [
+   "ph:uh",
+   "ph:aa"
+  ],
+  "a": {
+   "word": "much",
+   "ipa": "/mʌtʃ/"
+  },
+  "b": {
+   "word": "march",
+   "ipa": "/mɑːrtʃ/"
+  },
+  "sentence_a": "Thank you so much for your help.",
+  "sentence_b": "The protesters will march through the city.",
+  "tip_en": "'Thank you so much' with a long आ sounds like 'so march'. Keep 'much' short.",
+  "tip_hi": "लंबे आ के साथ 'thank you so much' 'so march' जैसा लगता है। 'much' को छोटा रखें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:uh-aa:05",
+  "contrast": "uh-aa",
+  "contrast_label": "/ʌ/ vs /ɑː/",
+  "phonemes": [
+   "ph:uh",
+   "ph:aa"
+  ],
+  "a": {
+   "word": "duck",
+   "ipa": "/dʌk/"
+  },
+  "b": {
+   "word": "dark",
+   "ipa": "/dɑːrk/"
+  },
+  "sentence_a": "A duck swam across the pond.",
+  "sentence_b": "It gets dark early in winter.",
+  "tip_en": "Short अ for 'duck', long आ for 'dark'. Do not roll the r in 'dark'.",
+  "tip_hi": "'duck' के लिए छोटा अ, 'dark' के लिए लंबा आ। 'dark' में r को न रोलें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:uh-aa:06",
+  "contrast": "uh-aa",
+  "contrast_label": "/ʌ/ vs /ɑː/",
+  "phonemes": [
+   "ph:uh",
+   "ph:aa"
+  ],
+  "a": {
+   "word": "bun",
+   "ipa": "/bʌn/"
+  },
+  "b": {
+   "word": "barn",
+   "ipa": "/bɑːrn/"
+  },
+  "sentence_a": "I had a bun with my coffee.",
+  "sentence_b": "The horses sleep in the barn.",
+  "tip_en": "Same consonants; the vowel is short-central versus long-back. Feel the jaw drop further for 'barn'.",
+  "tip_hi": "एक जैसे व्यंजन; स्वर छोटा-केंद्रीय बनाम लंबा-पिछला। 'barn' के लिए जबड़ा ज़्यादा गिरता महसूस करें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:f-p:01",
+  "contrast": "f-p",
+  "contrast_label": "/f/ vs /p/",
+  "phonemes": [
+   "ph:f",
+   "ph:p"
+  ],
+  "a": {
+   "word": "fan",
+   "ipa": "/fæn/"
+  },
+  "b": {
+   "word": "pan",
+   "ipa": "/pæn/"
+  },
+  "sentence_a": "Turn on the fan; it is hot in here.",
+  "sentence_b": "Fry the eggs in a pan.",
+  "tip_en": "'Fan' = top teeth on lower lip, continuous air, no lip closure. 'Pan' = both lips closed, then a burst. Hindi फ is the second type; English /f/ is never a burst.",
+  "tip_hi": "'fan' = ऊपर के दाँत निचले होंठ पर, लगातार हवा, होंठ बंद नहीं। 'pan' = दोनों होंठ बंद, फिर झटका। हिंदी फ दूसरे प्रकार का है; अंग्रेज़ी /f/ कभी झटका नहीं है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:f-p:02",
+  "contrast": "f-p",
+  "contrast_label": "/f/ vs /p/",
+  "phonemes": [
+   "ph:f",
+   "ph:p"
+  ],
+  "a": {
+   "word": "fill",
+   "ipa": "/fɪl/"
+  },
+  "b": {
+   "word": "pill",
+   "ipa": "/pɪl/"
+  },
+  "sentence_a": "Fill the bottle with water.",
+  "sentence_b": "Take one pill after dinner.",
+  "tip_en": "Hold 'ffff' for two seconds before 'ill'. If your lips touch each other, it is wrong.",
+  "tip_hi": "'ill' से पहले 'ffff' को दो सेकंड रोकें। अगर आपके होंठ आपस में छूते हैं, तो गलत है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:f-p:03",
+  "contrast": "f-p",
+  "contrast_label": "/f/ vs /p/",
+  "phonemes": [
+   "ph:f",
+   "ph:p"
+  ],
+  "a": {
+   "word": "fine",
+   "ipa": "/faɪn/"
+  },
+  "b": {
+   "word": "pine",
+   "ipa": "/paɪn/"
+  },
+  "sentence_a": "I am fine, thanks for asking.",
+  "sentence_b": "The table is made of pine.",
+  "tip_en": "'I'm fine' is said daily. With a Hindi फ it becomes 'I'm phine', which natives hear as 'pine'.",
+  "tip_hi": "'I'm fine' रोज़ बोला जाता है। हिंदी फ के साथ यह 'I'm phine' बन जाता है, जिसे natives 'pine' सुनते हैं।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:f-p:04",
+  "contrast": "f-p",
+  "contrast_label": "/f/ vs /p/",
+  "phonemes": [
+   "ph:f",
+   "ph:p"
+  ],
+  "a": {
+   "word": "fool",
+   "ipa": "/fuːl/"
+  },
+  "b": {
+   "word": "pool",
+   "ipa": "/puːl/"
+  },
+  "sentence_a": "Do not let them fool you.",
+  "sentence_b": "The hotel has a rooftop pool.",
+  "tip_en": "The rounded vowel /uː/ pulls the lips together, which tempts you into /p/. Keep the teeth on the lip through the start of 'fool'.",
+  "tip_hi": "गोल स्वर /uː/ होंठों को साथ खींचता है, जो /p/ की ओर ले जाता है। 'fool' की शुरुआत में दाँत होंठ पर बनाए रखें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:f-p:05",
+  "contrast": "f-p",
+  "contrast_label": "/f/ vs /p/",
+  "phonemes": [
+   "ph:f",
+   "ph:p"
+  ],
+  "a": {
+   "word": "fair",
+   "ipa": "/feər/"
+  },
+  "b": {
+   "word": "pair",
+   "ipa": "/peər/"
+  },
+  "sentence_a": "That does not seem fair to the team.",
+  "sentence_b": "I bought a new pair of shoes.",
+  "tip_en": "'Fair' and 'pair' share the /eə/ vowel. Friction at the start for 'fair', burst for 'pair'.",
+  "tip_hi": "'fair' और 'pair' में /eə/ स्वर समान है। 'fair' की शुरुआत में रगड़, 'pair' में झटका।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:f-p:06",
+  "contrast": "f-p",
+  "contrast_label": "/f/ vs /p/",
+  "phonemes": [
+   "ph:f",
+   "ph:p"
+  ],
+  "a": {
+   "word": "cuff",
+   "ipa": "/kʌf/"
+  },
+  "b": {
+   "word": "cup",
+   "ipa": "/kʌp/"
+  },
+  "sentence_a": "The cuff of his shirt was frayed.",
+  "sentence_b": "Would you like a cup of tea?",
+  "tip_en": "Final position: 'cuff' ends with air still hissing between teeth and lip; 'cup' ends with the lips closed and no air.",
+  "tip_hi": "अंतिम स्थिति: 'cuff' दाँत और होंठ के बीच बहती हवा पर खत्म; 'cup' होंठ बंद और बिना हवा के।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:u-uu:01",
+  "contrast": "u-uu",
+  "contrast_label": "/ʊ/ vs /uː/",
+  "phonemes": [
+   "ph:u",
+   "ph:uu"
+  ],
+  "a": {
+   "word": "full",
+   "ipa": "/fʊl/"
+  },
+  "b": {
+   "word": "fool",
+   "ipa": "/fuːl/"
+  },
+  "sentence_a": "The disk is almost full.",
+  "sentence_b": "Only a fool would reuse that password.",
+  "tip_en": "'Full' is short with relaxed lips. 'Fool' is long with the lips pushed tightly forward. 'The disk is fool' is a real-sounding mistake.",
+  "tip_hi": "'full' छोटा है, होंठ ढीले। 'fool' लंबा है, होंठ कसकर आगे। 'the disk is fool' सच में सुनाई देने वाली गलती है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:u-uu:02",
+  "contrast": "u-uu",
+  "contrast_label": "/ʊ/ vs /uː/",
+  "phonemes": [
+   "ph:u",
+   "ph:uu"
+  ],
+  "a": {
+   "word": "pull",
+   "ipa": "/pʊl/"
+  },
+  "b": {
+   "word": "pool",
+   "ipa": "/puːl/"
+  },
+  "sentence_a": "Pull the latest changes before you start.",
+  "sentence_b": "The connection pool ran out of sockets.",
+  "tip_en": "Both are developer words. 'Pull request' has the short vowel; 'connection pool' has the long one.",
+  "tip_hi": "दोनों developer शब्द हैं। 'pull request' में छोटा स्वर; 'connection pool' में लंबा।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:u-uu:03",
+  "contrast": "u-uu",
+  "contrast_label": "/ʊ/ vs /uː/",
+  "phonemes": [
+   "ph:u",
+   "ph:uu"
+  ],
+  "a": {
+   "word": "soot",
+   "ipa": "/sʊt/"
+  },
+  "b": {
+   "word": "suit",
+   "ipa": "/suːt/"
+  },
+  "sentence_a": "The chimney was black with soot.",
+  "sentence_b": "He wore a dark suit to the interview.",
+  "tip_en": "'Soot' is short and relaxed; 'suit' is long and tense. The 'oo' spelling is not reliable: 'book', 'good', 'foot' are short but 'food', 'moon' are long.",
+  "tip_hi": "'soot' छोटा और ढीला; 'suit' लंबा और तना हुआ। 'oo' spelling भरोसेमंद नहीं: 'book', 'good', 'foot' छोटे हैं लेकिन 'food', 'moon' लंबे।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:u-uu:04",
+  "contrast": "u-uu",
+  "contrast_label": "/ʊ/ vs /uː/",
+  "phonemes": [
+   "ph:u",
+   "ph:uu"
+  ],
+  "a": {
+   "word": "stood",
+   "ipa": "/stʊd/"
+  },
+  "b": {
+   "word": "stewed",
+   "ipa": "/stuːd/"
+  },
+  "sentence_a": "We stood in the queue for an hour.",
+  "sentence_b": "She stewed the apples with cinnamon.",
+  "tip_en": "'Stood' is a quick, soft vowel; 'stewed' is long with tight lips. Do not add a vowel before 'st'.",
+  "tip_hi": "'stood' तेज़, नरम स्वर; 'stewed' लंबा, कसे होंठों के साथ। 'st' से पहले स्वर न जोड़ें।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:u-uu:05",
+  "contrast": "u-uu",
+  "contrast_label": "/ʊ/ vs /uː/",
+  "phonemes": [
+   "ph:u",
+   "ph:uu"
+  ],
+  "a": {
+   "word": "look",
+   "ipa": "/lʊk/"
+  },
+  "b": {
+   "word": "Luke",
+   "ipa": "/luːk/"
+  },
+  "sentence_a": "Look at the logs from last night.",
+  "sentence_b": "Luke is the new engineer on the team.",
+  "tip_en": "'Look' is one of the most common verbs and is SHORT. Indian speakers tend to lengthen it to 'Luke'. Say it quickly with loose lips.",
+  "tip_hi": "'look' सबसे आम क्रियाओं में से है और छोटा है। भारतीय बोलने वाले इसे लंबा करके 'Luke' बना देते हैं। ढीले होंठों से तेज़ी से कहें।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:u-uu:06",
+  "contrast": "u-uu",
+  "contrast_label": "/ʊ/ vs /uː/",
+  "phonemes": [
+   "ph:u",
+   "ph:uu"
+  ],
+  "a": {
+   "word": "wood",
+   "ipa": "/wʊd/"
+  },
+  "b": {
+   "word": "wooed",
+   "ipa": "/wuːd/"
+  },
+  "sentence_a": "The table is made of solid wood.",
+  "sentence_b": "The company wooed investors with big promises.",
+  "tip_en": "Also 'would' sounds exactly like 'wood' (short). 'Wooed' is long. The /w/ start already rounds the lips, so relax them quickly for 'wood'.",
+  "tip_hi": "'would' भी बिल्कुल 'wood' (छोटा) जैसा लगता है। 'wooed' लंबा है। /w/ की शुरुआत पहले ही होंठ गोल करती है, इसलिए 'wood' के लिए उन्हें जल्दी ढीला करें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:final-clusters:01",
+  "contrast": "final-clusters",
+  "contrast_label": "Final consonant clusters",
+  "phonemes": [
+   "ph:s",
+   "ph:k",
+   "ph:t"
+  ],
+  "a": {
+   "word": "ask",
+   "ipa": "/ɑːsk/"
+  },
+  "b": {
+   "word": "asked",
+   "ipa": "/ɑːskt/"
+  },
+  "sentence_a": "I always ask before I change anything.",
+  "sentence_b": "I asked before I changed anything.",
+  "tip_en": "'Asked' ends in three consonants: s-k-t. Indian speakers say 'ask-ed' with an extra syllable or drop the 't'. Say 'askt' as one syllable, no vowel between.",
+  "tip_hi": "'asked' तीन व्यंजनों पर खत्म होता है: s-k-t। भारतीय बोलने वाले 'ask-ed' अतिरिक्त syllable के साथ कहते हैं या 't' छोड़ देते हैं। 'askt' एक syllable में कहें, बीच में कोई स्वर नहीं।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:final-clusters:02",
+  "contrast": "final-clusters",
+  "contrast_label": "Final consonant clusters",
+  "phonemes": [
+   "ph:k",
+   "ph:s",
+   "ph:t"
+  ],
+  "a": {
+   "word": "text",
+   "ipa": "/tekst/"
+  },
+  "b": {
+   "word": "texts",
+   "ipa": "/teksts/"
+  },
+  "sentence_a": "Send me a text when you arrive.",
+  "sentence_b": "She sent three texts in a row.",
+  "tip_en": "'Texts' = k-s-t-s, four consonants. Do not say 'textes'. Whisper the final 's' right after the 't'.",
+  "tip_hi": "'texts' = k-s-t-s, चार व्यंजन। 'textes' न कहें। 't' के तुरंत बाद अंतिम 's' फुसफुसाएँ।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:final-clusters:03",
+  "contrast": "final-clusters",
+  "contrast_label": "Final consonant clusters",
+  "phonemes": [
+   "ph:k",
+   "ph:s",
+   "ph:th"
+  ],
+  "a": {
+   "word": "six",
+   "ipa": "/sɪks/"
+  },
+  "b": {
+   "word": "sixth",
+   "ipa": "/sɪksθ/"
+  },
+  "sentence_a": "There are six servers in the rack.",
+  "sentence_b": "This is the sixth incident this month.",
+  "tip_en": "'Sixth' ends with 'ks' followed by the tongue sliding to the teeth for /θ/. Do not say 'sikth' or 'sixt'.",
+  "tip_hi": "'sixth' का अंत 'ks' और फिर जीभ दाँतों तक खिसककर /θ/ से होता है। 'sikth' या 'sixt' न कहें।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:final-clusters:04",
+  "contrast": "final-clusters",
+  "contrast_label": "Final consonant clusters",
+  "phonemes": [
+   "ph:ch",
+   "ph:t"
+  ],
+  "a": {
+   "word": "watch",
+   "ipa": "/wɒtʃ/"
+  },
+  "b": {
+   "word": "watched",
+   "ipa": "/wɒtʃt/"
+  },
+  "sentence_a": "I watch the dashboard during releases.",
+  "sentence_b": "I watched the dashboard during the release.",
+  "tip_en": "After /tʃ/, the past '-ed' is a whispered /t/ with NO extra syllable: 'watcht'. Only after /t/ or /d/ ('wanted', 'needed') does '-ed' add a syllable.",
+  "tip_hi": "/tʃ/ के बाद past '-ed' फुसफुसाया हुआ /t/ है, बिना अतिरिक्त syllable के: 'watcht'। सिर्फ़ /t/ या /d/ के बाद ('wanted', 'needed') '-ed' syllable जोड़ता है।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:final-clusters:05",
+  "contrast": "final-clusters",
+  "contrast_label": "Final consonant clusters",
+  "phonemes": [
+   "ph:n",
+   "ph:th",
+   "ph:s"
+  ],
+  "a": {
+   "word": "month",
+   "ipa": "/mʌnθ/"
+  },
+  "b": {
+   "word": "months",
+   "ipa": "/mʌnθs/"
+  },
+  "sentence_a": "The report is due next month.",
+  "sentence_b": "We have three months to finish.",
+  "tip_en": "'Months' = n-th-s. Keep the tongue at the teeth for /θ/ and slide back for /s/ without a vowel. Many natives simplify it to 'munts'; that is acceptable.",
+  "tip_hi": "'months' = n-th-s। /θ/ के लिए जीभ दाँतों पर रखें और बिना स्वर के /s/ के लिए पीछे खिसकाएँ। कई natives इसे 'munts' कर देते हैं; वह स्वीकार्य है।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:final-clusters:06",
+  "contrast": "final-clusters",
+  "contrast_label": "Final consonant clusters",
+  "phonemes": [
+   "ph:l",
+   "ph:d",
+   "ph:z"
+  ],
+  "a": {
+   "word": "world",
+   "ipa": "/wɜːrld/"
+  },
+  "b": {
+   "word": "worlds",
+   "ipa": "/wɜːrldz/"
+  },
+  "sentence_a": "It is the biggest company in the world.",
+  "sentence_b": "The two teams live in different worlds.",
+  "tip_en": "'World' is already r-l-d; 'worlds' adds /z/. Dark /l/, then /d/, then a buzz, all without any vowel between.",
+  "tip_hi": "'world' पहले से r-l-d है; 'worlds' /z/ जोड़ता है। dark /l/, फिर /d/, फिर भिनभिनाहट, बीच में कोई स्वर नहीं।",
+  "difficulty": 3
+ },
+ {
+  "id": "mp:final-clusters:07",
+  "contrast": "final-clusters",
+  "contrast_label": "Final consonant clusters",
+  "phonemes": [
+   "ph:l",
+   "ph:p",
+   "ph:t"
+  ],
+  "a": {
+   "word": "help",
+   "ipa": "/help/"
+  },
+  "b": {
+   "word": "helped",
+   "ipa": "/helpt/"
+  },
+  "sentence_a": "Can you help me with this ticket?",
+  "sentence_b": "She helped me with the ticket.",
+  "tip_en": "'Helped' = l-p-t, one syllable. Do not say 'help-ed'. The /t/ is quiet but must be there.",
+  "tip_hi": "'helped' = l-p-t, एक syllable। 'help-ed' न कहें। /t/ शांत है लेकिन होना चाहिए।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:final-clusters:08",
+  "contrast": "final-clusters",
+  "contrast_label": "Final consonant clusters",
+  "phonemes": [
+   "ph:n",
+   "ph:d",
+   "ph:z"
+  ],
+  "a": {
+   "word": "mind",
+   "ipa": "/maɪnd/"
+  },
+  "b": {
+   "word": "minds",
+   "ipa": "/maɪndz/"
+  },
+  "sentence_a": "Do you mind if I open the window?",
+  "sentence_b": "Great minds think alike.",
+  "tip_en": "'Minds' ends in n-d-z. Voiced all the way: the /d/ must not turn into /t/ and the /z/ must buzz.",
+  "tip_hi": "'minds' n-d-z पर खत्म होता है। पूरी तरह voiced: /d/ को /t/ नहीं बनना चाहिए और /z/ भिनभिनाना चाहिए।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:silent-letters:01",
+  "contrast": "silent-letters",
+  "contrast_label": "Silent letters",
+  "phonemes": [
+   "ph:n",
+   "ph:ai"
+  ],
+  "a": {
+   "word": "knight",
+   "ipa": "/naɪt/"
+  },
+  "b": {
+   "word": "night",
+   "ipa": "/naɪt/"
+  },
+  "sentence_a": "The knight rode into the castle.",
+  "sentence_b": "I worked late last night.",
+  "tip_en": "These sound IDENTICAL. The 'k' and 'gh' in 'knight' are silent. Do not try to pronounce the k. Use this pair to learn the spelling, not to hear a difference.",
+  "tip_hi": "ये बिल्कुल एक जैसे बोले जाते हैं। 'knight' में 'k' और 'gh' मौन हैं। k बोलने की कोशिश न करें। इस जोड़ी से spelling सीखें, अंतर सुनने की कोशिश न करें।",
+  "difficulty": 1,
+  "homophone": true
+ },
+ {
+  "id": "mp:silent-letters:02",
+  "contrast": "silent-letters",
+  "contrast_label": "Silent letters",
+  "phonemes": [
+   "ph:h",
+   "ph:ou"
+  ],
+  "a": {
+   "word": "whole",
+   "ipa": "/hoʊl/"
+  },
+  "b": {
+   "word": "hole",
+   "ipa": "/hoʊl/"
+  },
+  "sentence_a": "I read the whole report in one sitting.",
+  "sentence_b": "There is a hole in the fence.",
+  "tip_en": "Identical pronunciation: the 'w' in 'whole' is silent. Both start with /h/ and have the gliding /oʊ/.",
+  "tip_hi": "एक जैसा उच्चारण: 'whole' में 'w' मौन है। दोनों /h/ से शुरू होते हैं और फिसलता /oʊ/ है।",
+  "difficulty": 1,
+  "homophone": true
+ },
+ {
+  "id": "mp:silent-letters:03",
+  "contrast": "silent-letters",
+  "contrast_label": "Silent letters",
+  "phonemes": [
+   "ph:r",
+   "ph:ae"
+  ],
+  "a": {
+   "word": "wrap",
+   "ipa": "/ræp/"
+  },
+  "b": {
+   "word": "rap",
+   "ipa": "/ræp/"
+  },
+  "sentence_a": "Wrap the gift before the party.",
+  "sentence_b": "He listens to rap on the way to work.",
+  "tip_en": "Identical: 'wr' is always just /r/ ('write', 'wrong', 'wrist'). Never say a /w/ before the r.",
+  "tip_hi": "एक जैसा: 'wr' हमेशा सिर्फ़ /r/ है ('write', 'wrong', 'wrist')। r से पहले कभी /w/ न कहें।",
+  "difficulty": 1,
+  "homophone": true
+ },
+ {
+  "id": "mp:silent-letters:04",
+  "contrast": "silent-letters",
+  "contrast_label": "Silent letters",
+  "phonemes": [
+   "ph:au",
+   "ph:schwa"
+  ],
+  "a": {
+   "word": "hour",
+   "ipa": "/aʊər/"
+  },
+  "b": {
+   "word": "our",
+   "ipa": "/aʊər/"
+  },
+  "sentence_a": "The meeting lasted an hour.",
+  "sentence_b": "This is our new office.",
+  "tip_en": "Identical: the 'h' in 'hour' is silent, which is why we say 'AN hour'. Same for 'honest', 'honour', 'heir'.",
+  "tip_hi": "एक जैसा: 'hour' में 'h' मौन है, इसीलिए हम 'AN hour' कहते हैं। 'honest', 'honour', 'heir' के लिए भी वही।",
+  "difficulty": 1,
+  "homophone": true
+ },
+ {
+  "id": "mp:silent-letters:05",
+  "contrast": "silent-letters",
+  "contrast_label": "Silent letters",
+  "phonemes": [
+   "ph:n",
+   "ph:ou"
+  ],
+  "a": {
+   "word": "know",
+   "ipa": "/noʊ/"
+  },
+  "b": {
+   "word": "no",
+   "ipa": "/noʊ/"
+  },
+  "sentence_a": "I know the answer to that.",
+  "sentence_b": "No, that is not correct.",
+  "tip_en": "Identical: 'kn' is just /n/ ('knife', 'knee', 'knock'). Both have the gliding /oʊ/, not a flat Hindi ओ.",
+  "tip_hi": "एक जैसा: 'kn' सिर्फ़ /n/ है ('knife', 'knee', 'knock')। दोनों में फिसलता /oʊ/ है, सपाट हिंदी ओ नहीं।",
+  "difficulty": 1,
+  "homophone": true
+ },
+ {
+  "id": "mp:silent-letters:06",
+  "contrast": "silent-letters",
+  "contrast_label": "Silent letters",
+  "phonemes": [
+   "ph:r",
+   "ph:ai"
+  ],
+  "a": {
+   "word": "write",
+   "ipa": "/raɪt/"
+  },
+  "b": {
+   "word": "right",
+   "ipa": "/raɪt/"
+  },
+  "sentence_a": "Please write a short summary.",
+  "sentence_b": "You were right about the root cause.",
+  "tip_en": "Identical: silent 'w' in 'write', silent 'gh' in 'right'. Start both with an untapped /r/ and lips slightly rounded.",
+  "tip_hi": "एक जैसा: 'write' में मौन 'w', 'right' में मौन 'gh'। दोनों की शुरुआत बिना टैप वाले /r/ और थोड़े गोल होंठों से करें।",
+  "difficulty": 1,
+  "homophone": true
+ },
+ {
+  "id": "mp:r-l:01",
+  "contrast": "r-l",
+  "contrast_label": "/r/ vs /l/",
+  "phonemes": [
+   "ph:r",
+   "ph:l"
+  ],
+  "a": {
+   "word": "right",
+   "ipa": "/raɪt/"
+  },
+  "b": {
+   "word": "light",
+   "ipa": "/laɪt/"
+  },
+  "sentence_a": "Turn right at the next junction.",
+  "sentence_b": "Turn on the light, please.",
+  "tip_en": "For 'right' the tongue floats and touches nothing, lips slightly rounded. For 'light' the tongue tip presses the ridge behind the teeth.",
+  "tip_hi": "'right' के लिए जीभ तैरती है और कुछ नहीं छूती, होंठ थोड़े गोल। 'light' के लिए जीभ की नोक दाँतों के पीछे की ridge को दबाती है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:r-l:02",
+  "contrast": "r-l",
+  "contrast_label": "/r/ vs /l/",
+  "phonemes": [
+   "ph:r",
+   "ph:l"
+  ],
+  "a": {
+   "word": "road",
+   "ipa": "/roʊd/"
+  },
+  "b": {
+   "word": "load",
+   "ipa": "/loʊd/"
+  },
+  "sentence_a": "The road to the airport is busy.",
+  "sentence_b": "The page took ages to load.",
+  "tip_en": "Do not tap or trill the 'r' in 'road'; it is a smooth glide. 'Load' has a clear tongue contact.",
+  "tip_hi": "'road' में 'r' को टैप या ट्रिल न करें; यह एक सहज glide है। 'load' में साफ़ जीभ का स्पर्श है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:r-l:03",
+  "contrast": "r-l",
+  "contrast_label": "/r/ vs /l/",
+  "phonemes": [
+   "ph:r",
+   "ph:l"
+  ],
+  "a": {
+   "word": "rock",
+   "ipa": "/rɒk/"
+  },
+  "b": {
+   "word": "lock",
+   "ipa": "/lɒk/"
+  },
+  "sentence_a": "The path was blocked by a rock.",
+  "sentence_b": "Always lock your screen when you leave.",
+  "tip_en": "'Lock' is common security vocabulary. Clear /l/ at the start. 'Rock' starts with the tongue curled slightly back and untouched.",
+  "tip_hi": "'lock' आम security शब्दावली है। शुरुआत में साफ़ /l/। 'rock' जीभ को थोड़ा पीछे मोड़कर बिना छुए शुरू होता है।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:r-l:04",
+  "contrast": "r-l",
+  "contrast_label": "/r/ vs /l/",
+  "phonemes": [
+   "ph:r",
+   "ph:l"
+  ],
+  "a": {
+   "word": "fry",
+   "ipa": "/fraɪ/"
+  },
+  "b": {
+   "word": "fly",
+   "ipa": "/flaɪ/"
+  },
+  "sentence_a": "Fry the onions until golden.",
+  "sentence_b": "We fly to Delhi on Sunday.",
+  "tip_en": "In a cluster after /f/ the difference is harder. Keep the teeth on the lip, then either float the tongue (fry) or touch the ridge (fly).",
+  "tip_hi": "/f/ के बाद cluster में अंतर कठिन है। दाँत होंठ पर रखें, फिर या तो जीभ तैराएँ (fry) या ridge छुएँ (fly)।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:n-ng:01",
+  "contrast": "n-ng",
+  "contrast_label": "/n/ vs /ŋ/",
+  "phonemes": [
+   "ph:n",
+   "ph:ng"
+  ],
+  "a": {
+   "word": "sin",
+   "ipa": "/sɪn/"
+  },
+  "b": {
+   "word": "sing",
+   "ipa": "/sɪŋ/"
+  },
+  "sentence_a": "Lying is a sin in most religions.",
+  "sentence_b": "She loves to sing in the shower.",
+  "tip_en": "'Sin' ends with the tongue tip on the ridge. 'Sing' ends with the BACK of the tongue up and NO /g/ released. Do not say 'sing-g'.",
+  "tip_hi": "'sin' जीभ की नोक ridge पर खत्म होता है। 'sing' जीभ के पिछले हिस्से को ऊपर रखकर और बिना /g/ छोड़े खत्म होता है। 'sing-g' न कहें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:n-ng:02",
+  "contrast": "n-ng",
+  "contrast_label": "/n/ vs /ŋ/",
+  "phonemes": [
+   "ph:n",
+   "ph:ng"
+  ],
+  "a": {
+   "word": "thin",
+   "ipa": "/θɪn/"
+  },
+  "b": {
+   "word": "thing",
+   "ipa": "/θɪŋ/"
+  },
+  "sentence_a": "The ice is too thin to walk on.",
+  "sentence_b": "One more thing before you go.",
+  "tip_en": "'Thing' is extremely common. The 'g' is silent; the word ends in the nasal /ŋ/ with the tongue held up. Bonus: the start is /θ/, not थ.",
+  "tip_hi": "'thing' बेहद आम है। 'g' मौन है; शब्द नासिका /ŋ/ पर जीभ ऊपर रखे हुए खत्म होता है। बोनस: शुरुआत /θ/ है, थ नहीं।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:n-ng:03",
+  "contrast": "n-ng",
+  "contrast_label": "/n/ vs /ŋ/",
+  "phonemes": [
+   "ph:n",
+   "ph:ng"
+  ],
+  "a": {
+   "word": "ran",
+   "ipa": "/ræn/"
+  },
+  "b": {
+   "word": "rang",
+   "ipa": "/ræŋ/"
+  },
+  "sentence_a": "He ran to catch the bus.",
+  "sentence_b": "The phone rang during the meeting.",
+  "tip_en": "Both are past tenses. Keep the vowel open /æ/; end 'rang' with the back of the tongue up and no 'g'.",
+  "tip_hi": "दोनों past tense हैं। स्वर खुला /æ/ रखें; 'rang' को जीभ के पिछले हिस्से को ऊपर रखकर और बिना 'g' के खत्म करें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:n-ng:04",
+  "contrast": "n-ng",
+  "contrast_label": "/n/ vs /ŋ/",
+  "phonemes": [
+   "ph:n",
+   "ph:ng"
+  ],
+  "a": {
+   "word": "win",
+   "ipa": "/wɪn/"
+  },
+  "b": {
+   "word": "wing",
+   "ipa": "/wɪŋ/"
+  },
+  "sentence_a": "I hope we win the contract.",
+  "sentence_b": "The bird hurt its wing.",
+  "tip_en": "Both start with /w/ (round lips, no teeth). 'Win' ends at the front of the mouth; 'wing' ends at the back.",
+  "tip_hi": "दोनों /w/ से शुरू (गोल होंठ, दाँत नहीं)। 'win' मुँह के आगे खत्म होता है; 'wing' पीछे।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:th-s:01",
+  "contrast": "th-s",
+  "contrast_label": "/θ/ vs /s/",
+  "phonemes": [
+   "ph:th",
+   "ph:s"
+  ],
+  "a": {
+   "word": "think",
+   "ipa": "/θɪŋk/"
+  },
+  "b": {
+   "word": "sink",
+   "ipa": "/sɪŋk/"
+  },
+  "sentence_a": "I think we should roll back.",
+  "sentence_b": "Put the dishes in the sink.",
+  "tip_en": "'Think' has the tongue tip visible between the teeth. 'Sink' keeps the tongue behind the teeth with a sharper hiss. Some speakers over-correct थ into /s/; check in a mirror.",
+  "tip_hi": "'think' में जीभ की नोक दाँतों के बीच दिखती है। 'sink' में जीभ दाँतों के पीछे रहती है, तेज़ फुसफुसाहट के साथ। कुछ लोग थ को सुधारते-सुधारते /s/ बना देते हैं; आईने में जाँचें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:th-s:02",
+  "contrast": "th-s",
+  "contrast_label": "/θ/ vs /s/",
+  "phonemes": [
+   "ph:th",
+   "ph:s"
+  ],
+  "a": {
+   "word": "thick",
+   "ipa": "/θɪk/"
+  },
+  "b": {
+   "word": "sick",
+   "ipa": "/sɪk/"
+  },
+  "sentence_a": "The report is two inches thick.",
+  "sentence_b": "He called in sick this morning.",
+  "tip_en": "The /θ/ is soft and dull; the /s/ is sharp and high-pitched. Listen for the pitch of the hiss.",
+  "tip_hi": "/θ/ नरम और मद्धम है; /s/ तेज़ और ऊँची। फुसफुसाहट की pitch सुनें।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:th-s:03",
+  "contrast": "th-s",
+  "contrast_label": "/θ/ vs /s/",
+  "phonemes": [
+   "ph:th",
+   "ph:s"
+  ],
+  "a": {
+   "word": "mouth",
+   "ipa": "/maʊθ/"
+  },
+  "b": {
+   "word": "mouse",
+   "ipa": "/maʊs/"
+  },
+  "sentence_a": "Open your mouth and say 'ah'.",
+  "sentence_b": "My mouse battery is dead again.",
+  "tip_en": "Final position. 'Mouth' ends with the tongue sliding forward to the teeth; 'mouse' ends behind the teeth.",
+  "tip_hi": "अंतिम स्थिति। 'mouth' जीभ को आगे दाँतों तक खिसकाकर खत्म होता है; 'mouse' दाँतों के पीछे।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:th-s:04",
+  "contrast": "th-s",
+  "contrast_label": "/θ/ vs /s/",
+  "phonemes": [
+   "ph:th",
+   "ph:s"
+  ],
+  "a": {
+   "word": "path",
+   "ipa": "/pɑːθ/"
+  },
+  "b": {
+   "word": "pass",
+   "ipa": "/pɑːs/"
+  },
+  "sentence_a": "Traverse the directory path carefully.",
+  "sentence_b": "All the tests pass now.",
+  "tip_en": "Both are everyday engineering words. 'Path' = tongue at the teeth; 'pass' = tongue behind the teeth. Same long /ɑː/.",
+  "tip_hi": "दोनों रोज़ के engineering शब्द हैं। 'path' = जीभ दाँतों पर; 'pass' = जीभ दाँतों के पीछे। एक ही लंबा /ɑː/।",
+  "difficulty": 2
+ },
+ {
+  "id": "mp:b-v:01",
+  "contrast": "b-v",
+  "contrast_label": "/b/ vs /v/",
+  "phonemes": [
+   "ph:b",
+   "ph:v"
+  ],
+  "a": {
+   "word": "best",
+   "ipa": "/best/"
+  },
+  "b": {
+   "word": "vest",
+   "ipa": "/vest/"
+  },
+  "sentence_a": "This is the best solution we have.",
+  "sentence_b": "He wore a vest under his shirt.",
+  "tip_en": "'Best' closes both lips completely. 'Vest' never closes the lips; the top teeth rest on the lower lip. Gujarati speakers sometimes merge these.",
+  "tip_hi": "'best' दोनों होंठ पूरी तरह बंद करता है। 'vest' होंठ कभी बंद नहीं करता; ऊपर के दाँत निचले होंठ पर टिकते हैं। गुजराती बोलने वाले कभी-कभी इन्हें मिला देते हैं।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:b-v:02",
+  "contrast": "b-v",
+  "contrast_label": "/b/ vs /v/",
+  "phonemes": [
+   "ph:b",
+   "ph:v"
+  ],
+  "a": {
+   "word": "berry",
+   "ipa": "/ˈberi/"
+  },
+  "b": {
+   "word": "very",
+   "ipa": "/ˈveri/"
+  },
+  "sentence_a": "A berry stained my shirt.",
+  "sentence_b": "Thank you very much.",
+  "tip_en": "'Very' is said constantly. If the lips close, it becomes 'berry'. Keep the teeth on the lip and the sound continuous.",
+  "tip_hi": "'very' लगातार बोला जाता है। अगर होंठ बंद हों, तो यह 'berry' बन जाता है। दाँत होंठ पर रखें और आवाज़ लगातार।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:b-v:03",
+  "contrast": "b-v",
+  "contrast_label": "/b/ vs /v/",
+  "phonemes": [
+   "ph:b",
+   "ph:v"
+  ],
+  "a": {
+   "word": "boat",
+   "ipa": "/boʊt/"
+  },
+  "b": {
+   "word": "vote",
+   "ipa": "/voʊt/"
+  },
+  "sentence_a": "We took a boat across the lake.",
+  "sentence_b": "Everyone should vote in the election.",
+  "tip_en": "Same gliding vowel /oʊ/ and same ending. Burst for 'boat', friction for 'vote'.",
+  "tip_hi": "एक ही फिसलता स्वर /oʊ/ और एक ही अंत। 'boat' के लिए झटका, 'vote' के लिए रगड़।",
+  "difficulty": 1
+ },
+ {
+  "id": "mp:b-v:04",
+  "contrast": "b-v",
+  "contrast_label": "/b/ vs /v/",
+  "phonemes": [
+   "ph:b",
+   "ph:v"
+  ],
+  "a": {
+   "word": "ban",
+   "ipa": "/bæn/"
+  },
+  "b": {
+   "word": "van",
+   "ipa": "/væn/"
+  },
+  "sentence_a": "The government may ban the app.",
+  "sentence_b": "The delivery van is outside.",
+  "tip_en": "Open /æ/ vowel in both. Watch the mirror: lips closed for 'ban', teeth visible on the lip for 'van'.",
+  "tip_hi": "दोनों में खुला /æ/ स्वर। आईना देखें: 'ban' के लिए होंठ बंद, 'van' के लिए दाँत होंठ पर दिखते हुए।",
+  "difficulty": 1
+ }
+]

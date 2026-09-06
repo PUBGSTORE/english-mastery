@@ -1,0 +1,1990 @@
+{
+ "dictation": [
+  {
+   "id": "ld:001",
+   "cefr": "A1",
+   "text": "I can't come to the office today.",
+   "hi": "मैं आज ऑफ़िस नहीं आ सकता।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:002",
+   "cefr": "A1",
+   "text": "She works in a bank.",
+   "hi": "वह एक बैंक में काम करती है।",
+   "trap": "plural-s"
+  },
+  {
+   "id": "ld:003",
+   "cefr": "A1",
+   "text": "He likes tea, but I like coffee.",
+   "hi": "उसे चाय पसंद है, लेकिन मुझे कॉफ़ी।",
+   "trap": "plural-s"
+  },
+  {
+   "id": "ld:004",
+   "cefr": "A1",
+   "text": "They're waiting outside the door.",
+   "hi": "वे बाहर इंतज़ार कर रहे हैं।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:005",
+   "cefr": "A1",
+   "text": "There are two cats in the garden.",
+   "hi": "बगीचे में दो बिल्लियाँ हैं।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:006",
+   "cefr": "A1",
+   "text": "It's three o'clock in the afternoon.",
+   "hi": "अभी तीन बजे हैं।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:007",
+   "cefr": "A1",
+   "text": "My brother is thirteen years old.",
+   "hi": "मेरा भाई तेरह साल का है।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:008",
+   "cefr": "A1",
+   "text": "We walked to the market.",
+   "hi": "हम बाज़ार तक पैदल गए।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:009",
+   "cefr": "A1",
+   "text": "I think it's cold outside.",
+   "hi": "मुझे लगता है बाहर ठंड है।",
+   "trap": "th"
+  },
+  {
+   "id": "ld:010",
+   "cefr": "A1",
+   "text": "This is my father and that is my mother.",
+   "hi": "यह मेरे पिता हैं और वह मेरी माँ।",
+   "trap": "th"
+  },
+  {
+   "id": "ld:011",
+   "cefr": "A1",
+   "text": "I have a very small car.",
+   "hi": "मेरे पास बहुत छोटी कार है।",
+   "trap": "v-w"
+  },
+  {
+   "id": "ld:012",
+   "cefr": "A1",
+   "text": "We want to watch a film.",
+   "hi": "हम एक फ़िल्म देखना चाहते हैं।",
+   "trap": "v-w"
+  },
+  {
+   "id": "ld:013",
+   "cefr": "A1",
+   "text": "The shop opens at nine.",
+   "hi": "दुकान नौ बजे खुलती है।",
+   "trap": "plural-s"
+  },
+  {
+   "id": "ld:014",
+   "cefr": "A1",
+   "text": "I don't have any money.",
+   "hi": "मेरे पास पैसे नहीं हैं।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:015",
+   "cefr": "A1",
+   "text": "Where do you live these days?",
+   "hi": "आप कहाँ रहते हैं?",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:016",
+   "cefr": "A1",
+   "text": "Can you help me, please?",
+   "hi": "क्या आप मेरी मदद कर सकते हैं?",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:017",
+   "cefr": "A1",
+   "text": "I need an apple and an egg.",
+   "hi": "मुझे एक सेब और एक अंडा चाहिए।",
+   "trap": "linking"
+  },
+  {
+   "id": "ld:018",
+   "cefr": "A1",
+   "text": "Turn it off before you leave.",
+   "hi": "जाने से पहले इसे बंद कर दो।",
+   "trap": "linking"
+  },
+  {
+   "id": "ld:019",
+   "cefr": "A1",
+   "text": "Her name is Anita, not Anika.",
+   "hi": "उसका नाम अनीता है।",
+   "trap": "names"
+  },
+  {
+   "id": "ld:020",
+   "cefr": "A1",
+   "text": "I'm from Ahmedabad, in Gujarat.",
+   "hi": "मैं अहमदाबाद से हूँ।",
+   "trap": "names"
+  },
+  {
+   "id": "ld:021",
+   "cefr": "A1",
+   "text": "We're going home right now.",
+   "hi": "हम अब घर जा रहे हैं।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:022",
+   "cefr": "A1",
+   "text": "It rained all night long.",
+   "hi": "पूरी रात बारिश हुई।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:023",
+   "cefr": "A1",
+   "text": "My sister has two children.",
+   "hi": "मेरी बहन के दो बच्चे हैं।",
+   "trap": "plural-s"
+  },
+  {
+   "id": "ld:024",
+   "cefr": "A1",
+   "text": "Please close the window and the door.",
+   "hi": "कृपया खिड़की बंद कर दें।",
+   "trap": "v-w"
+  },
+  {
+   "id": "ld:025",
+   "cefr": "A1",
+   "text": "Their house is near the river.",
+   "hi": "उनका घर नदी के पास है।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:026",
+   "cefr": "A1",
+   "text": "It's a nice day for a walk.",
+   "hi": "आज अच्छा दिन है।",
+   "trap": "linking"
+  },
+  {
+   "id": "ld:027",
+   "cefr": "A1",
+   "text": "I go to work by bus.",
+   "hi": "मैं बस से काम पर जाता हूँ।",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:028",
+   "cefr": "A1",
+   "text": "She isn't at home right now.",
+   "hi": "वह घर पर नहीं है।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:029",
+   "cefr": "A1",
+   "text": "The meeting is on Monday.",
+   "hi": "मीटिंग सोमवार को है।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:030",
+   "cefr": "A1",
+   "text": "Call me at half past six.",
+   "hi": "मुझे साढ़े छह बजे फ़ोन करना।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:031",
+   "cefr": "A2",
+   "text": "I can do it, but I can't do it today.",
+   "hi": "मैं कर सकता हूँ, लेकिन आज नहीं।",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:032",
+   "cefr": "A2",
+   "text": "We visited my aunt last weekend.",
+   "hi": "पिछले सप्ताहांत हम मेरी बुआ से मिलने गए।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:033",
+   "cefr": "A2",
+   "text": "He asked me to wait for fifteen minutes.",
+   "hi": "उसने मुझे पंद्रह मिनट रुकने को कहा।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:034",
+   "cefr": "A2",
+   "text": "There were fifty people at the party.",
+   "hi": "पार्टी में पचास लोग थे।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:035",
+   "cefr": "A2",
+   "text": "I've already sent you the file.",
+   "hi": "मैंने आपको फ़ाइल पहले ही भेज दी है।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:036",
+   "cefr": "A2",
+   "text": "She's been here since Tuesday.",
+   "hi": "वह मंगलवार से यहाँ है।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:037",
+   "cefr": "A2",
+   "text": "They didn't finish the work on time.",
+   "hi": "उन्होंने काम समय पर पूरा नहीं किया।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:038",
+   "cefr": "A2",
+   "text": "It's warmer than it was yesterday.",
+   "hi": "कल से आज ज़्यादा गर्म है।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:039",
+   "cefr": "A2",
+   "text": "I'd like to order the chicken, please.",
+   "hi": "मैं चिकन ऑर्डर करना चाहूँगा।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:040",
+   "cefr": "A2",
+   "text": "The train leaves at a quarter to eight.",
+   "hi": "ट्रेन पौने आठ बजे छूटती है।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:041",
+   "cefr": "A2",
+   "text": "We should leave early to avoid the traffic.",
+   "hi": "ट्रैफ़िक से बचने के लिए हमें जल्दी निकलना चाहिए।",
+   "trap": "v-w"
+  },
+  {
+   "id": "ld:042",
+   "cefr": "A2",
+   "text": "I watched a wonderful video last night.",
+   "hi": "कल रात मैंने एक शानदार वीडियो देखा।",
+   "trap": "v-w"
+  },
+  {
+   "id": "ld:043",
+   "cefr": "A2",
+   "text": "Both of them are thirty-three.",
+   "hi": "वे दोनों तैंतीस साल के हैं।",
+   "trap": "th"
+  },
+  {
+   "id": "ld:044",
+   "cefr": "A2",
+   "text": "I think they're through with the meeting.",
+   "hi": "मुझे लगता है उनकी मीटिंग खत्म हो गई।",
+   "trap": "th"
+  },
+  {
+   "id": "ld:045",
+   "cefr": "A2",
+   "text": "He picked it up and put it in the box.",
+   "hi": "उसने इसे उठाया और डिब्बे में रख दिया।",
+   "trap": "linking"
+  },
+  {
+   "id": "ld:046",
+   "cefr": "A2",
+   "text": "Take an umbrella; it might rain.",
+   "hi": "छाता ले लो; बारिश हो सकती है।",
+   "trap": "linking"
+  },
+  {
+   "id": "ld:047",
+   "cefr": "A2",
+   "text": "She lives in Vadodara with her parents.",
+   "hi": "वह अपने माता-पिता के साथ वडोदरा में रहती है।",
+   "trap": "names"
+  },
+  {
+   "id": "ld:048",
+   "cefr": "A2",
+   "text": "My manager's name is Rahul Mehta.",
+   "hi": "मेरे मैनेजर का नाम राहुल मेहता है।",
+   "trap": "names"
+  },
+  {
+   "id": "ld:049",
+   "cefr": "A2",
+   "text": "We're meeting on the twenty-second of June.",
+   "hi": "हम बाईस जून को मिल रहे हैं।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:050",
+   "cefr": "A2",
+   "text": "I was born in nineteen ninety-four.",
+   "hi": "मेरा जन्म उन्नीस सौ चौरानवे में हुआ।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:051",
+   "cefr": "A2",
+   "text": "The keys are on the table next to the phone.",
+   "hi": "चाबियाँ फ़ोन के बगल में मेज़ पर हैं।",
+   "trap": "plural-s"
+  },
+  {
+   "id": "ld:052",
+   "cefr": "A2",
+   "text": "My cousin speaks three languages.",
+   "hi": "मेरा चचेरा भाई तीन भाषाएँ बोलता है।",
+   "trap": "plural-s"
+  },
+  {
+   "id": "ld:053",
+   "cefr": "A2",
+   "text": "We stopped at a small café for lunch.",
+   "hi": "हम दोपहर के खाने के लिए एक छोटे कैफ़े पर रुके।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:054",
+   "cefr": "A2",
+   "text": "He wanted to buy a new laptop.",
+   "hi": "वह एक नया लैपटॉप खरीदना चाहता था।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:055",
+   "cefr": "A2",
+   "text": "You can park here for two hours.",
+   "hi": "आप यहाँ दो घंटे पार्क कर सकते हैं।",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:056",
+   "cefr": "A2",
+   "text": "What are you going to do at the weekend?",
+   "hi": "आप सप्ताहांत में क्या करने वाले हैं?",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:057",
+   "cefr": "A2",
+   "text": "It's too late to change the tickets.",
+   "hi": "टिकट बदलने के लिए बहुत देर हो गई।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:058",
+   "cefr": "A2",
+   "text": "Is that your bag or hers?",
+   "hi": "क्या यह आपका बैग है या उसका?",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:059",
+   "cefr": "A2",
+   "text": "I'll call you when I get there.",
+   "hi": "मैं वहाँ पहुँचकर आपको फ़ोन करूँगा।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:060",
+   "cefr": "A2",
+   "text": "The tests passed after the fix.",
+   "hi": "फ़िक्स के बाद टेस्ट पास हो गए।",
+   "trap": "clusters"
+  },
+  {
+   "id": "ld:061",
+   "cefr": "B1",
+   "text": "If I'd known, I would've told you earlier.",
+   "hi": "अगर मुझे पता होता, तो मैं आपको पहले बता देता।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:062",
+   "cefr": "B1",
+   "text": "You shouldn't have paid for that.",
+   "hi": "आपको उसके लिए पैसे नहीं देने चाहिए थे।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:063",
+   "cefr": "B1",
+   "text": "She's lived in Mumbai for seventeen years.",
+   "hi": "वह सत्रह साल से मुंबई में रहती है।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:064",
+   "cefr": "B1",
+   "text": "The invoice total was eight hundred and forty rupees.",
+   "hi": "इनवॉइस की कुल राशि आठ सौ चालीस रुपये थी।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:065",
+   "cefr": "B1",
+   "text": "We haven't received the report yet.",
+   "hi": "हमें अभी तक रिपोर्ट नहीं मिली है।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:066",
+   "cefr": "B1",
+   "text": "I can't tell whether it's a bug or a feature.",
+   "hi": "मैं नहीं बता सकता यह बग है या फ़ीचर।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:067",
+   "cefr": "B1",
+   "text": "They've been working on it since March.",
+   "hi": "वे मार्च से इस पर काम कर रहे हैं।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:068",
+   "cefr": "B1",
+   "text": "The deadline was moved to the thirtieth.",
+   "hi": "समय सीमा तीस तारीख तक बढ़ा दी गई।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:069",
+   "cefr": "B1",
+   "text": "He must've forgotten about the meeting.",
+   "hi": "वह मीटिंग के बारे में भूल गया होगा।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:070",
+   "cefr": "B1",
+   "text": "The old system crashed twice last week.",
+   "hi": "पुराना सिस्टम पिछले हफ़्ते दो बार क्रैश हुआ।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:071",
+   "cefr": "B1",
+   "text": "We've tested the app on several devices.",
+   "hi": "हमने ऐप को कई डिवाइस पर टेस्ट किया है।",
+   "trap": "plural-s"
+  },
+  {
+   "id": "ld:072",
+   "cefr": "B1",
+   "text": "Please send me the documents by Thursday.",
+   "hi": "कृपया गुरुवार तक मुझे दस्तावेज़ भेज दें।",
+   "trap": "th"
+  },
+  {
+   "id": "ld:073",
+   "cefr": "B1",
+   "text": "I thought the other option was better.",
+   "hi": "मुझे लगा दूसरा विकल्प बेहतर था।",
+   "trap": "th"
+  },
+  {
+   "id": "ld:074",
+   "cefr": "B1",
+   "text": "We've never had a problem with this vendor before.",
+   "hi": "इस विक्रेता के साथ हमें पहले कभी समस्या नहीं हुई।",
+   "trap": "v-w"
+  },
+  {
+   "id": "ld:075",
+   "cefr": "B1",
+   "text": "The website was down for a while yesterday.",
+   "hi": "वेबसाइट कल कुछ देर के लिए बंद थी।",
+   "trap": "v-w"
+  },
+  {
+   "id": "ld:076",
+   "cefr": "B1",
+   "text": "Could you pick up the printouts on your way in?",
+   "hi": "क्या आप आते समय प्रिंटआउट उठा सकते हैं?",
+   "trap": "linking"
+  },
+  {
+   "id": "ld:077",
+   "cefr": "B1",
+   "text": "It's an issue we've seen an awful lot of.",
+   "hi": "यह एक समस्या है जो हमने बहुत बार देखी है।",
+   "trap": "linking"
+  },
+  {
+   "id": "ld:078",
+   "cefr": "B1",
+   "text": "The client, Mr Deshpande, is arriving at noon.",
+   "hi": "क्लाइंट, श्री देशपांडे, दोपहर में आ रहे हैं।",
+   "trap": "names"
+  },
+  {
+   "id": "ld:079",
+   "cefr": "B1",
+   "text": "Our new colleague is called Siobhan.",
+   "hi": "हमारी नई सहकर्मी का नाम शवॉन है।",
+   "trap": "names"
+  },
+  {
+   "id": "ld:080",
+   "cefr": "B1",
+   "text": "She can swim, but she can't dive.",
+   "hi": "वह तैर सकती है, लेकिन गोता नहीं लगा सकती।",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:081",
+   "cefr": "B1",
+   "text": "What have you been doing all morning?",
+   "hi": "आप पूरी सुबह क्या करते रहे?",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:082",
+   "cefr": "B1",
+   "text": "Its battery lasts longer than the old one's.",
+   "hi": "इसकी बैटरी पुरानी वाली से ज़्यादा चलती है।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:083",
+   "cefr": "B1",
+   "text": "You're right; it's their responsibility.",
+   "hi": "आप सही हैं; यह उनकी ज़िम्मेदारी है।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:084",
+   "cefr": "B1",
+   "text": "He asked whether the tests had passed.",
+   "hi": "उसने पूछा कि क्या टेस्ट पास हुए थे।",
+   "trap": "clusters"
+  },
+  {
+   "id": "ld:085",
+   "cefr": "B1",
+   "text": "The scripts finished in under six seconds.",
+   "hi": "स्क्रिप्ट छह सेकंड से कम में पूरी हो गईं।",
+   "trap": "clusters"
+  },
+  {
+   "id": "ld:086",
+   "cefr": "B1",
+   "text": "I used to walk to school when I was a kid.",
+   "hi": "बचपन में मैं पैदल स्कूल जाता था।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:087",
+   "cefr": "B1",
+   "text": "We booked the tickets and packed our bags.",
+   "hi": "हमने टिकट बुक किए और बैग पैक किए।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:088",
+   "cefr": "B1",
+   "text": "Nobody's answering the support line.",
+   "hi": "सपोर्ट लाइन पर कोई जवाब नहीं दे रहा।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:089",
+   "cefr": "B1",
+   "text": "Almost forty percent of the users never log in.",
+   "hi": "लगभग चालीस प्रतिशत उपयोगकर्ता कभी लॉगिन नहीं करते।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:090",
+   "cefr": "B1",
+   "text": "The server restarted at ten past two this morning.",
+   "hi": "सर्वर आज सुबह दो बजकर दस मिनट पर रीस्टार्ट हुआ।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:091",
+   "cefr": "B2",
+   "text": "I'd've finished sooner if the build hadn't failed.",
+   "hi": "अगर बिल्ड फ़ेल न हुआ होता तो मैं पहले खत्म कर लेता।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:092",
+   "cefr": "B2",
+   "text": "They needn't have rewritten the whole module.",
+   "hi": "उन्हें पूरा मॉड्यूल दोबारा लिखने की ज़रूरत नहीं थी।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:093",
+   "cefr": "B2",
+   "text": "The patch reduced response time by roughly eighteen percent.",
+   "hi": "पैच ने प्रतिक्रिया समय लगभग अठारह प्रतिशत घटा दिया।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:094",
+   "cefr": "B2",
+   "text": "The outage affected about ninety thousand customers.",
+   "hi": "आउटेज ने लगभग नब्बे हज़ार ग्राहकों को प्रभावित किया।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:095",
+   "cefr": "B2",
+   "text": "We've scheduled the release for the fourteenth, not the fortieth day.",
+   "hi": "हमने रिलीज़ चौदह तारीख के लिए तय की है, चालीसवें दिन नहीं।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:096",
+   "cefr": "B2",
+   "text": "The contract expires at the end of the second quarter.",
+   "hi": "अनुबंध दूसरी तिमाही के अंत में समाप्त होता है।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:097",
+   "cefr": "B2",
+   "text": "Whoever wrote this didn't test it.",
+   "hi": "जिसने भी यह लिखा, उसने टेस्ट नहीं किया।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:098",
+   "cefr": "B2",
+   "text": "The audit revealed several unpatched servers.",
+   "hi": "ऑडिट में कई बिना पैच वाले सर्वर मिले।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:099",
+   "cefr": "B2",
+   "text": "Both the developers and the testers were surprised.",
+   "hi": "डेवलपर और टेस्टर दोनों हैरान थे।",
+   "trap": "th"
+  },
+  {
+   "id": "ld:100",
+   "cefr": "B2",
+   "text": "Neither of them thought it was worth the effort.",
+   "hi": "उन दोनों में से किसी को नहीं लगा कि यह प्रयास के लायक है।",
+   "trap": "th"
+  },
+  {
+   "id": "ld:101",
+   "cefr": "B2",
+   "text": "We've verified that the vulnerability is no longer exploitable.",
+   "hi": "हमने पुष्टि की है कि कमज़ोरी अब उपयोग योग्य नहीं है।",
+   "trap": "v-w"
+  },
+  {
+   "id": "ld:102",
+   "cefr": "B2",
+   "text": "The vendor wants a written waiver before Wednesday.",
+   "hi": "विक्रेता बुधवार से पहले लिखित छूट चाहता है।",
+   "trap": "v-w"
+  },
+  {
+   "id": "ld:103",
+   "cefr": "B2",
+   "text": "An ice cream truck was parked outside the office.",
+   "hi": "ऑफ़िस के बाहर एक आइसक्रीम ट्रक खड़ा था।",
+   "trap": "linking"
+  },
+  {
+   "id": "ld:104",
+   "cefr": "B2",
+   "text": "I'll look into it as soon as I get a chance.",
+   "hi": "मौका मिलते ही मैं इसे देखूँगा।",
+   "trap": "linking"
+  },
+  {
+   "id": "ld:105",
+   "cefr": "B2",
+   "text": "The request came from someone called Ngozi Okafor.",
+   "hi": "अनुरोध न्गोज़ी ओकाफ़ोर नामक किसी व्यक्ति से आया।",
+   "trap": "names"
+  },
+  {
+   "id": "ld:106",
+   "cefr": "B2",
+   "text": "Please cc Dr Bhattacharya on the thread.",
+   "hi": "कृपया थ्रेड में डॉ. भट्टाचार्य को cc करें।",
+   "trap": "names"
+  },
+  {
+   "id": "ld:107",
+   "cefr": "B2",
+   "text": "It's not that I can't; it's that I won't.",
+   "hi": "ऐसा नहीं कि मैं कर नहीं सकता; बात यह है कि मैं करूँगा नहीं।",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:108",
+   "cefr": "B2",
+   "text": "You could've asked me for the password.",
+   "hi": "आप मुझसे पासवर्ड माँग सकते थे।",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:109",
+   "cefr": "B2",
+   "text": "Whether or not we ship, the weather won't change.",
+   "hi": "हम रिलीज़ करें या न करें, मौसम नहीं बदलेगा।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:110",
+   "cefr": "B2",
+   "text": "It's clear that the system lost its state.",
+   "hi": "यह स्पष्ट है कि सिस्टम ने अपनी स्थिति खो दी।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:111",
+   "cefr": "B2",
+   "text": "The sixth attempt finally succeeded.",
+   "hi": "छठा प्रयास आखिरकार सफल हुआ।",
+   "trap": "clusters"
+  },
+  {
+   "id": "ld:112",
+   "cefr": "B2",
+   "text": "He asked the twelfth question in a row.",
+   "hi": "उसने लगातार बारहवाँ सवाल पूछा।",
+   "trap": "clusters"
+  },
+  {
+   "id": "ld:113",
+   "cefr": "B2",
+   "text": "The logs show the account was locked at midnight.",
+   "hi": "लॉग दिखाते हैं कि खाता आधी रात को लॉक किया गया था।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:114",
+   "cefr": "B2",
+   "text": "The attackers exploited a misconfigured storage bucket.",
+   "hi": "हमलावरों ने गलत कॉन्फ़िगर किए गए स्टोरेज बकेट का फ़ायदा उठाया।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:115",
+   "cefr": "B2",
+   "text": "Sixty of the seventy servers have been rebooted.",
+   "hi": "सत्तर में से साठ सर्वर रीबूट किए जा चुके हैं।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:116",
+   "cefr": "B2",
+   "text": "The findings were presented on the third of October.",
+   "hi": "निष्कर्ष तीन अक्टूबर को प्रस्तुत किए गए।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:117",
+   "cefr": "B2",
+   "text": "She'd rather we didn't mention it in the report.",
+   "hi": "वह चाहेगी कि हम रिपोर्ट में इसका ज़िक्र न करें।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:118",
+   "cefr": "B2",
+   "text": "The team's priorities shifted after the incident.",
+   "hi": "घटना के बाद टीम की प्राथमिकताएँ बदल गईं।",
+   "trap": "plural-s"
+  },
+  {
+   "id": "ld:119",
+   "cefr": "B2",
+   "text": "All three branches merged without conflicts.",
+   "hi": "तीनों ब्रांच बिना विवाद के मर्ज हो गईं।",
+   "trap": "plural-s"
+  },
+  {
+   "id": "ld:120",
+   "cefr": "B2",
+   "text": "It's worth double-checking the certificate expiry.",
+   "hi": "सर्टिफ़िकेट की समाप्ति की दोबारा जाँच करना उचित है।",
+   "trap": "clusters"
+  },
+  {
+   "id": "ld:121",
+   "cefr": "C1",
+   "text": "Had we known about the flaw, we'd never have shipped.",
+   "hi": "अगर हमें खामी पता होती, तो हम कभी रिलीज़ न करते।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:122",
+   "cefr": "C1",
+   "text": "It mightn't have mattered, but we couldn't be sure.",
+   "hi": "शायद फ़र्क न पड़ता, लेकिन हम निश्चित नहीं हो सकते थे।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:123",
+   "cefr": "C1",
+   "text": "Roughly one point three million records were exposed.",
+   "hi": "लगभग तेरह लाख रिकॉर्ड उजागर हुए।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:124",
+   "cefr": "C1",
+   "text": "The false-positive rate dropped from fifteen to under five percent.",
+   "hi": "झूठे सकारात्मक की दर पंद्रह से घटकर पाँच प्रतिशत से नीचे आ गई।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:125",
+   "cefr": "C1",
+   "text": "Disclosure is scheduled for the twenty-first, pending the vendor's response.",
+   "hi": "विक्रेता की प्रतिक्रिया के अधीन, खुलासा इक्कीस तारीख को निर्धारित है।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:126",
+   "cefr": "C1",
+   "text": "The certificate issued in twenty nineteen expired last month.",
+   "hi": "दो हज़ार उन्नीस में जारी सर्टिफ़िकेट पिछले महीने समाप्त हो गया।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:127",
+   "cefr": "C1",
+   "text": "The analysts concluded the breach originated with a third party.",
+   "hi": "विश्लेषकों ने निष्कर्ष निकाला कि उल्लंघन एक तीसरे पक्ष से शुरू हुआ।",
+   "trap": "th"
+  },
+  {
+   "id": "ld:128",
+   "cefr": "C1",
+   "text": "Thoroughness, though tedious, is what the audit demands.",
+   "hi": "पूर्णता, भले ही उबाऊ हो, ऑडिट की माँग है।",
+   "trap": "th"
+  },
+  {
+   "id": "ld:129",
+   "cefr": "C1",
+   "text": "We've validated every vector the reviewers identified.",
+   "hi": "हमने समीक्षकों द्वारा पहचाने गए हर वेक्टर की पुष्टि की है।",
+   "trap": "v-w"
+  },
+  {
+   "id": "ld:130",
+   "cefr": "C1",
+   "text": "The waiver was signed without the vice president's review.",
+   "hi": "छूट पर उपाध्यक्ष की समीक्षा के बिना हस्ताक्षर किए गए।",
+   "trap": "v-w"
+  },
+  {
+   "id": "ld:131",
+   "cefr": "C1",
+   "text": "They rolled it out in an hour and a half.",
+   "hi": "उन्होंने इसे डेढ़ घंटे में लागू कर दिया।",
+   "trap": "linking"
+  },
+  {
+   "id": "ld:132",
+   "cefr": "C1",
+   "text": "It's an old exploit that's been adapted for a newer kernel.",
+   "hi": "यह एक पुराना एक्सप्लॉइट है जिसे नए कर्नेल के लिए अनुकूलित किया गया है।",
+   "trap": "linking"
+  },
+  {
+   "id": "ld:133",
+   "cefr": "C1",
+   "text": "The report was authored by Ms Nakamura and Mr Oyelaran.",
+   "hi": "रिपोर्ट सुश्री नाकामुरा और श्री ओयेलारन द्वारा लिखी गई।",
+   "trap": "names"
+  },
+  {
+   "id": "ld:134",
+   "cefr": "C1",
+   "text": "Escalate anything unusual to Priyanka Raghunathan directly.",
+   "hi": "कुछ भी असामान्य हो तो सीधे प्रियंका रघुनाथन को बताएँ।",
+   "trap": "names"
+  },
+  {
+   "id": "ld:135",
+   "cefr": "C1",
+   "text": "We can mitigate it, but we can't eliminate it entirely.",
+   "hi": "हम इसे कम कर सकते हैं, लेकिन पूरी तरह खत्म नहीं।",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:136",
+   "cefr": "C1",
+   "text": "What would you have done in that situation?",
+   "hi": "उस स्थिति में आप क्या करते?",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:137",
+   "cefr": "C1",
+   "text": "Whether the effect was intended is beside the point.",
+   "hi": "प्रभाव इरादतन था या नहीं, यह मुद्दे से अलग है।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:138",
+   "cefr": "C1",
+   "text": "The principal risk lies in the principle itself.",
+   "hi": "मुख्य जोखिम सिद्धांत में ही निहित है।",
+   "trap": "homophones"
+  },
+  {
+   "id": "ld:139",
+   "cefr": "C1",
+   "text": "The sixth and twelfth hosts were compromised first.",
+   "hi": "छठे और बारहवें होस्ट पहले समझौता हुए।",
+   "trap": "clusters"
+  },
+  {
+   "id": "ld:140",
+   "cefr": "C1",
+   "text": "The texts were encrypted with strengthened keys.",
+   "hi": "संदेशों को मज़बूत कुंजियों से एन्क्रिप्ट किया गया था।",
+   "trap": "clusters"
+  },
+  {
+   "id": "ld:141",
+   "cefr": "C1",
+   "text": "The regulator requested that all affected parties be notified.",
+   "hi": "नियामक ने अनुरोध किया कि सभी प्रभावित पक्षों को सूचित किया जाए।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:142",
+   "cefr": "C1",
+   "text": "The compromised credentials had been rotated within minutes.",
+   "hi": "समझौता किए गए क्रेडेंशियल मिनटों के भीतर बदल दिए गए थे।",
+   "trap": "past-ed"
+  },
+  {
+   "id": "ld:143",
+   "cefr": "C1",
+   "text": "Two of the three auditors' reports contradict each other.",
+   "hi": "तीन में से दो ऑडिटरों की रिपोर्टें एक-दूसरे का खंडन करती हैं।",
+   "trap": "plural-s"
+  },
+  {
+   "id": "ld:144",
+   "cefr": "C1",
+   "text": "The board's concerns centre on the vendor's practices.",
+   "hi": "बोर्ड की चिंताएँ विक्रेता की प्रथाओं पर केंद्रित हैं।",
+   "trap": "plural-s"
+  },
+  {
+   "id": "ld:145",
+   "cefr": "C1",
+   "text": "The mean time to remediate fell to forty-eight hours.",
+   "hi": "सुधार का औसत समय अड़तालीस घंटे तक गिर गया।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:146",
+   "cefr": "C1",
+   "text": "Attempts peaked at seventeen hundred per minute.",
+   "hi": "प्रयास प्रति मिनट सत्रह सौ तक पहुँच गए।",
+   "trap": "numbers"
+  },
+  {
+   "id": "ld:147",
+   "cefr": "C1",
+   "text": "The policy takes effect from the first of the following month.",
+   "hi": "नीति अगले महीने की पहली तारीख से प्रभावी होती है।",
+   "trap": "dates"
+  },
+  {
+   "id": "ld:148",
+   "cefr": "C1",
+   "text": "There's little we can do until they've responded.",
+   "hi": "जब तक वे जवाब न दें, हम ज़्यादा कुछ नहीं कर सकते।",
+   "trap": "contractions"
+  },
+  {
+   "id": "ld:149",
+   "cefr": "C1",
+   "text": "We ought to have flagged this in the previous review.",
+   "hi": "हमें पिछली समीक्षा में इसे चिह्नित करना चाहिए था।",
+   "trap": "weak-forms"
+  },
+  {
+   "id": "ld:150",
+   "cefr": "C1",
+   "text": "Whatever the cause, the outcome was avoidable.",
+   "hi": "कारण जो भी हो, नतीजा टाला जा सकता था।",
+   "trap": "none"
+  }
+ ],
+ "numbers": [
+  {
+   "id": "ln:01",
+   "spoken": "thirteen",
+   "answer": "13",
+   "alt": [
+    "thirteen"
+   ],
+   "hi": "तेरह"
+  },
+  {
+   "id": "ln:02",
+   "spoken": "thirty",
+   "answer": "30",
+   "alt": [
+    "thirty"
+   ],
+   "hi": "तीस"
+  },
+  {
+   "id": "ln:03",
+   "spoken": "fourteen thousand",
+   "answer": "14000",
+   "alt": [
+    "14,000"
+   ],
+   "hi": "चौदह हज़ार"
+  },
+  {
+   "id": "ln:04",
+   "spoken": "forty thousand",
+   "answer": "40000",
+   "alt": [
+    "40,000"
+   ],
+   "hi": "चालीस हज़ार"
+  },
+  {
+   "id": "ln:05",
+   "spoken": "fifteen hundred",
+   "answer": "1500",
+   "alt": [
+    "1,500"
+   ],
+   "hi": "पंद्रह सौ"
+  },
+  {
+   "id": "ln:06",
+   "spoken": "fifty percent",
+   "answer": "50%",
+   "alt": [
+    "50 percent",
+    "50"
+   ],
+   "hi": "पचास प्रतिशत"
+  },
+  {
+   "id": "ln:07",
+   "spoken": "sixteen point five",
+   "answer": "16.5",
+   "alt": [],
+   "hi": "सोलह दशमलव पाँच"
+  },
+  {
+   "id": "ln:08",
+   "spoken": "sixty-six",
+   "answer": "66",
+   "alt": [
+    "66"
+   ],
+   "hi": "छियासठ"
+  },
+  {
+   "id": "ln:09",
+   "spoken": "seventeen seventy",
+   "answer": "1770",
+   "alt": [
+    "1,770",
+    "17 70"
+   ],
+   "hi": "सत्रह सौ सत्तर"
+  },
+  {
+   "id": "ln:10",
+   "spoken": "seventy-seven point seven",
+   "answer": "77.7",
+   "alt": [],
+   "hi": "सतहत्तर दशमलव सात"
+  },
+  {
+   "id": "ln:11",
+   "spoken": "eighteen eighty",
+   "answer": "1880",
+   "alt": [
+    "1,880"
+   ],
+   "hi": "अठारह सौ अस्सी"
+  },
+  {
+   "id": "ln:12",
+   "spoken": "eighty thousand and nineteen",
+   "answer": "80019",
+   "alt": [
+    "80,019"
+   ],
+   "hi": "अस्सी हज़ार उन्नीस"
+  },
+  {
+   "id": "ln:13",
+   "spoken": "nineteen ninety",
+   "answer": "1990",
+   "alt": [
+    "1,990"
+   ],
+   "hi": "उन्नीस सौ नब्बे"
+  },
+  {
+   "id": "ln:14",
+   "spoken": "ninety-nine point nine percent",
+   "answer": "99.9%",
+   "alt": [
+    "99.9 percent",
+    "99.9"
+   ],
+   "hi": "निन्यानवे दशमलव नौ प्रतिशत"
+  },
+  {
+   "id": "ln:15",
+   "spoken": "thirteen thousand and fifty",
+   "answer": "13050",
+   "alt": [
+    "13,050"
+   ],
+   "hi": "तेरह हज़ार पचास"
+  },
+  {
+   "id": "ln:16",
+   "spoken": "two million three hundred thousand",
+   "answer": "2300000",
+   "alt": [
+    "2,300,000",
+    "2.3 million"
+   ],
+   "hi": "तेईस लाख"
+  },
+  {
+   "id": "ln:17",
+   "spoken": "three point one four",
+   "answer": "3.14",
+   "alt": [],
+   "hi": "तीन दशमलव एक चार"
+  },
+  {
+   "id": "ln:18",
+   "spoken": "zero point zero five",
+   "answer": "0.05",
+   "alt": [
+    "0.05",
+    ".05"
+   ],
+   "hi": "शून्य दशमलव शून्य पाँच"
+  },
+  {
+   "id": "ln:19",
+   "spoken": "twelve and a half percent",
+   "answer": "12.5%",
+   "alt": [
+    "12.5 percent",
+    "12.5"
+   ],
+   "hi": "साढ़े बारह प्रतिशत"
+  },
+  {
+   "id": "ln:20",
+   "spoken": "a quarter to nine",
+   "answer": "8:45",
+   "alt": [
+    "08:45",
+    "8.45"
+   ],
+   "hi": "पौने नौ"
+  },
+  {
+   "id": "ln:21",
+   "spoken": "half past two",
+   "answer": "2:30",
+   "alt": [
+    "02:30",
+    "2.30"
+   ],
+   "hi": "ढाई बजे"
+  },
+  {
+   "id": "ln:22",
+   "spoken": "ten to seven",
+   "answer": "6:50",
+   "alt": [
+    "06:50",
+    "6.50"
+   ],
+   "hi": "सात बजने में दस मिनट"
+  },
+  {
+   "id": "ln:23",
+   "spoken": "twenty past eleven",
+   "answer": "11:20",
+   "alt": [
+    "11.20"
+   ],
+   "hi": "ग्यारह बजकर बीस मिनट"
+  },
+  {
+   "id": "ln:24",
+   "spoken": "oh nine double seven, three one five, double two four",
+   "answer": "0977315224",
+   "alt": [
+    "097 7315 224",
+    "0977 315 224"
+   ],
+   "hi": "फ़ोन नंबर: शून्य नौ सात सात तीन एक पाँच दो दो चार"
+  },
+  {
+   "id": "ln:25",
+   "spoken": "plus nine one, nine eight two five oh, four four one two three",
+   "answer": "+91 98250 44123",
+   "alt": [
+    "+919825044123",
+    "9825044123"
+   ],
+   "hi": "फ़ोन नंबर +91 98250 44123"
+  },
+  {
+   "id": "ln:26",
+   "spoken": "two thousand five hundred dollars",
+   "answer": "$2500",
+   "alt": [
+    "$2,500",
+    "2500 dollars",
+    "2500"
+   ],
+   "hi": "दो हज़ार पाँच सौ डॉलर"
+  },
+  {
+   "id": "ln:27",
+   "spoken": "forty-five thousand rupees",
+   "answer": "₹45000",
+   "alt": [
+    "₹45,000",
+    "45000 rupees",
+    "45000",
+    "Rs 45,000"
+   ],
+   "hi": "पैंतालीस हज़ार रुपये"
+  },
+  {
+   "id": "ln:28",
+   "spoken": "version two point oh point three",
+   "answer": "2.0.3",
+   "alt": [
+    "v2.0.3",
+    "version 2.0.3"
+   ],
+   "hi": "संस्करण 2.0.3"
+  },
+  {
+   "id": "ln:29",
+   "spoken": "version one point twelve",
+   "answer": "1.12",
+   "alt": [
+    "v1.12"
+   ],
+   "hi": "संस्करण 1.12"
+  },
+  {
+   "id": "ln:30",
+   "spoken": "port four four three",
+   "answer": "443",
+   "alt": [
+    "port 443"
+   ],
+   "hi": "पोर्ट 443"
+  },
+  {
+   "id": "ln:31",
+   "spoken": "port eighty eighty",
+   "answer": "8080",
+   "alt": [
+    "port 8080"
+   ],
+   "hi": "पोर्ट 8080"
+  },
+  {
+   "id": "ln:32",
+   "spoken": "port twenty-two",
+   "answer": "22",
+   "alt": [
+    "port 22"
+   ],
+   "hi": "पोर्ट 22"
+  },
+  {
+   "id": "ln:33",
+   "spoken": "C V E twenty twenty-four dash one two three four five",
+   "answer": "CVE-2024-12345",
+   "alt": [
+    "cve-2024-12345"
+   ],
+   "hi": "CVE-2024-12345"
+  },
+  {
+   "id": "ln:34",
+   "spoken": "C V E twenty twenty-one dash four four two two eight",
+   "answer": "CVE-2021-44228",
+   "alt": [
+    "cve-2021-44228"
+   ],
+   "hi": "CVE-2021-44228"
+  },
+  {
+   "id": "ln:35",
+   "spoken": "ten dot zero dot zero dot one",
+   "answer": "10.0.0.1",
+   "alt": [],
+   "hi": "आईपी पता 10.0.0.1"
+  },
+  {
+   "id": "ln:36",
+   "spoken": "one nine two dot one six eight dot one dot two five four",
+   "answer": "192.168.1.254",
+   "alt": [],
+   "hi": "आईपी पता 192.168.1.254"
+  },
+  {
+   "id": "ln:37",
+   "spoken": "seven hundred and fifteen milliseconds",
+   "answer": "715 ms",
+   "alt": [
+    "715ms",
+    "715 milliseconds",
+    "715"
+   ],
+   "hi": "सात सौ पंद्रह मिलीसेकंड"
+  },
+  {
+   "id": "ln:38",
+   "spoken": "a hundred and eight requests per second",
+   "answer": "108 rps",
+   "alt": [
+    "108/s",
+    "108 requests per second",
+    "108"
+   ],
+   "hi": "एक सौ आठ अनुरोध प्रति सेकंड"
+  },
+  {
+   "id": "ln:39",
+   "spoken": "nine thousand nine hundred and ninety-nine",
+   "answer": "9999",
+   "alt": [
+    "9,999"
+   ],
+   "hi": "नौ हज़ार नौ सौ निन्यानवे"
+  },
+  {
+   "id": "ln:40",
+   "spoken": "minus fourteen degrees",
+   "answer": "-14°",
+   "alt": [
+    "-14",
+    "minus 14",
+    "-14 degrees"
+   ],
+   "hi": "शून्य से चौदह डिग्री नीचे"
+  }
+ ],
+ "dates": [
+  {
+   "id": "ldt:01",
+   "spoken": "the third of March, twenty twenty-four",
+   "answer": "3 March 2024",
+   "alt": [
+    "03/03/2024",
+    "2024-03-03",
+    "March 3, 2024"
+   ],
+   "hi": "तीन मार्च दो हज़ार चौबीस"
+  },
+  {
+   "id": "ldt:02",
+   "spoken": "March third, twenty twenty-five",
+   "answer": "3 March 2025",
+   "alt": [
+    "03/03/2025",
+    "2025-03-03",
+    "March 3, 2025"
+   ],
+   "hi": "तीन मार्च दो हज़ार पच्चीस"
+  },
+  {
+   "id": "ldt:03",
+   "spoken": "the thirteenth of August",
+   "answer": "13 August",
+   "alt": [
+    "13 Aug",
+    "August 13"
+   ],
+   "hi": "तेरह अगस्त"
+  },
+  {
+   "id": "ldt:04",
+   "spoken": "the thirtieth of August",
+   "answer": "30 August",
+   "alt": [
+    "30 Aug",
+    "August 30"
+   ],
+   "hi": "तीस अगस्त"
+  },
+  {
+   "id": "ldt:05",
+   "spoken": "the twenty-first of January, twenty twenty-six",
+   "answer": "21 January 2026",
+   "alt": [
+    "21/01/2026",
+    "2026-01-21",
+    "January 21, 2026"
+   ],
+   "hi": "इक्कीस जनवरी दो हज़ार छब्बीस"
+  },
+  {
+   "id": "ldt:06",
+   "spoken": "the first of April",
+   "answer": "1 April",
+   "alt": [
+    "1 Apr",
+    "April 1"
+   ],
+   "hi": "एक अप्रैल"
+  },
+  {
+   "id": "ldt:07",
+   "spoken": "the twenty-second of November",
+   "answer": "22 November",
+   "alt": [
+    "22 Nov",
+    "November 22"
+   ],
+   "hi": "बाईस नवंबर"
+  },
+  {
+   "id": "ldt:08",
+   "spoken": "the fifteenth of the month",
+   "answer": "15th",
+   "alt": [
+    "15",
+    "the 15th"
+   ],
+   "hi": "महीने की पंद्रह तारीख"
+  },
+  {
+   "id": "ldt:09",
+   "spoken": "the fiftieth anniversary",
+   "answer": "50th anniversary",
+   "alt": [
+    "50th"
+   ],
+   "hi": "पचासवीं वर्षगाँठ"
+  },
+  {
+   "id": "ldt:10",
+   "spoken": "nineteen forty-seven",
+   "answer": "1947",
+   "alt": [],
+   "hi": "उन्नीस सौ सैंतालीस"
+  },
+  {
+   "id": "ldt:11",
+   "spoken": "two thousand and eight",
+   "answer": "2008",
+   "alt": [],
+   "hi": "दो हज़ार आठ"
+  },
+  {
+   "id": "ldt:12",
+   "spoken": "twenty twelve",
+   "answer": "2012",
+   "alt": [],
+   "hi": "दो हज़ार बारह"
+  },
+  {
+   "id": "ldt:13",
+   "spoken": "the nineteen nineties",
+   "answer": "1990s",
+   "alt": [
+    "the 1990s",
+    "90s"
+   ],
+   "hi": "उन्नीस सौ नब्बे का दशक"
+  },
+  {
+   "id": "ldt:14",
+   "spoken": "the mid-eighties",
+   "answer": "mid-1980s",
+   "alt": [
+    "mid 80s",
+    "mid-80s"
+   ],
+   "hi": "अस्सी के दशक का मध्य"
+  },
+  {
+   "id": "ldt:15",
+   "spoken": "the eleventh of the eleventh",
+   "answer": "11 November",
+   "alt": [
+    "11/11",
+    "November 11"
+   ],
+   "hi": "ग्यारह नवंबर"
+  },
+  {
+   "id": "ldt:16",
+   "spoken": "December twenty-fifth",
+   "answer": "25 December",
+   "alt": [
+    "December 25",
+    "25 Dec"
+   ],
+   "hi": "पच्चीस दिसंबर"
+  },
+  {
+   "id": "ldt:17",
+   "spoken": "Monday the ninth",
+   "answer": "Monday 9th",
+   "alt": [
+    "Monday, the 9th",
+    "Mon 9"
+   ],
+   "hi": "सोमवार, नौ तारीख"
+  },
+  {
+   "id": "ldt:18",
+   "spoken": "Friday week",
+   "answer": "Friday next week",
+   "alt": [
+    "next Friday",
+    "a week on Friday"
+   ],
+   "hi": "अगले हफ़्ते का शुक्रवार"
+  },
+  {
+   "id": "ldt:19",
+   "spoken": "the week after next",
+   "answer": "two weeks from now",
+   "alt": [
+    "in two weeks",
+    "the week after next"
+   ],
+   "hi": "अगले से अगला सप्ताह"
+  },
+  {
+   "id": "ldt:20",
+   "spoken": "end of day Friday",
+   "answer": "Friday EOD",
+   "alt": [
+    "EOD Friday",
+    "Friday end of day"
+   ],
+   "hi": "शुक्रवार दिन के अंत तक"
+  },
+  {
+   "id": "ldt:21",
+   "spoken": "close of business Wednesday",
+   "answer": "Wednesday COB",
+   "alt": [
+    "COB Wednesday",
+    "Wednesday close of business"
+   ],
+   "hi": "बुधवार कार्यदिवस के अंत तक"
+  },
+  {
+   "id": "ldt:22",
+   "spoken": "first thing Monday morning",
+   "answer": "Monday morning",
+   "alt": [
+    "Monday first thing",
+    "early Monday"
+   ],
+   "hi": "सोमवार सुबह सबसे पहले"
+  },
+  {
+   "id": "ldt:23",
+   "spoken": "a fortnight from today",
+   "answer": "in two weeks",
+   "alt": [
+    "two weeks from today",
+    "14 days from today"
+   ],
+   "hi": "आज से दो हफ़्ते बाद"
+  },
+  {
+   "id": "ldt:24",
+   "spoken": "the day before yesterday",
+   "answer": "two days ago",
+   "alt": [
+    "day before yesterday"
+   ],
+   "hi": "परसों (बीता हुआ)"
+  },
+  {
+   "id": "ldt:25",
+   "spoken": "the day after tomorrow",
+   "answer": "in two days",
+   "alt": [
+    "day after tomorrow"
+   ],
+   "hi": "परसों (आने वाला)"
+  },
+  {
+   "id": "ldt:26",
+   "spoken": "Q three twenty twenty-five",
+   "answer": "Q3 2025",
+   "alt": [
+    "Q3 2025",
+    "third quarter 2025"
+   ],
+   "hi": "2025 की तीसरी तिमाही"
+  },
+  {
+   "id": "ldt:27",
+   "spoken": "the end of Q one",
+   "answer": "end of Q1",
+   "alt": [
+    "Q1 end",
+    "end of the first quarter"
+   ],
+   "hi": "पहली तिमाही का अंत"
+  },
+  {
+   "id": "ldt:28",
+   "spoken": "H two next year",
+   "answer": "H2 next year",
+   "alt": [
+    "second half of next year"
+   ],
+   "hi": "अगले साल की दूसरी छमाही"
+  },
+  {
+   "id": "ldt:29",
+   "spoken": "the fourth of July, seventeen seventy-six",
+   "answer": "4 July 1776",
+   "alt": [
+    "04/07/1776",
+    "July 4, 1776",
+    "1776-07-04"
+   ],
+   "hi": "चार जुलाई सत्रह सौ छिहत्तर"
+  },
+  {
+   "id": "ldt:30",
+   "spoken": "the twenty-eighth of February, twenty twenty-three",
+   "answer": "28 February 2023",
+   "alt": [
+    "28/02/2023",
+    "2023-02-28",
+    "February 28, 2023"
+   ],
+   "hi": "अट्ठाईस फ़रवरी दो हज़ार तेईस"
+  },
+  {
+   "id": "ldt:31",
+   "spoken": "noon on the twelfth",
+   "answer": "12 pm on the 12th",
+   "alt": [
+    "12:00 on the 12th",
+    "midday on the 12th"
+   ],
+   "hi": "बारह तारीख को दोपहर बारह बजे"
+  },
+  {
+   "id": "ldt:32",
+   "spoken": "midnight on the thirty-first",
+   "answer": "12 am on the 31st",
+   "alt": [
+    "00:00 on the 31st",
+    "midnight on the 31st"
+   ],
+   "hi": "इकतीस तारीख की आधी रात"
+  }
+ ],
+ "spelling": [
+  {
+   "id": "ls:01",
+   "spoken": "B for bravo, A for alpha, L for lima, V for victor, A for alpha, N for november, T for tango",
+   "answer": "balvant",
+   "alt": [],
+   "hi": "नाम: balvant"
+  },
+  {
+   "id": "ls:02",
+   "spoken": "P for papa, R for romeo, I for india, Y for yankee, A for alpha",
+   "answer": "priya",
+   "alt": [],
+   "hi": "नाम: priya"
+  },
+  {
+   "id": "ls:03",
+   "spoken": "M for mike, E for echo, H for hotel, T for tango, A for alpha",
+   "answer": "mehta",
+   "alt": [],
+   "hi": "उपनाम: mehta"
+  },
+  {
+   "id": "ls:04",
+   "spoken": "D for delta, E for echo, S for sierra, H for hotel, P for papa, A for alpha, N for november, D for delta, E for echo",
+   "answer": "deshpande",
+   "alt": [],
+   "hi": "उपनाम: deshpande"
+  },
+  {
+   "id": "ls:05",
+   "spoken": "S, I, O, B, H, A, N",
+   "answer": "siobhan",
+   "alt": [],
+   "hi": "नाम: siobhan"
+  },
+  {
+   "id": "ls:06",
+   "spoken": "N, G, O, Z, I",
+   "answer": "ngozi",
+   "alt": [],
+   "hi": "नाम: ngozi"
+  },
+  {
+   "id": "ls:07",
+   "spoken": "J, O, H, N",
+   "answer": "john",
+   "alt": [],
+   "hi": "नाम: john"
+  },
+  {
+   "id": "ls:08",
+   "spoken": "G, E, M, M, A",
+   "answer": "gemma",
+   "alt": [],
+   "hi": "नाम: gemma"
+  },
+  {
+   "id": "ls:09",
+   "spoken": "J for juliet, A for alpha, I for india, M for mike, E for echo",
+   "answer": "jaime",
+   "alt": [],
+   "hi": "नाम: jaime"
+  },
+  {
+   "id": "ls:10",
+   "spoken": "E, M, I, L, Y",
+   "answer": "emily",
+   "alt": [],
+   "hi": "नाम: emily"
+  },
+  {
+   "id": "ls:11",
+   "spoken": "B for bravo, E for echo, N for november",
+   "answer": "ben",
+   "alt": [],
+   "hi": "नाम: ben — B और V का अंतर सुनें"
+  },
+  {
+   "id": "ls:12",
+   "spoken": "V for victor, E for echo, N for november",
+   "answer": "ven",
+   "alt": [],
+   "hi": "V और B का अंतर"
+  },
+  {
+   "id": "ls:13",
+   "spoken": "P for papa, E for echo, T for tango, E for echo, R for romeo",
+   "answer": "peter",
+   "alt": [],
+   "hi": "नाम: peter"
+  },
+  {
+   "id": "ls:14",
+   "spoken": "M, A, N, I, S, H",
+   "answer": "manish",
+   "alt": [],
+   "hi": "M/N का अंतर सुनें"
+  },
+  {
+   "id": "ls:15",
+   "spoken": "N, A, M, A, N",
+   "answer": "naman",
+   "alt": [],
+   "hi": "N/M का अंतर"
+  },
+  {
+   "id": "ls:16",
+   "spoken": "G, I, T, A",
+   "answer": "gita",
+   "alt": [],
+   "hi": "G/J का अंतर"
+  },
+  {
+   "id": "ls:17",
+   "spoken": "J, I, T, U",
+   "answer": "jitu",
+   "alt": [],
+   "hi": "J/G का अंतर"
+  },
+  {
+   "id": "ls:18",
+   "spoken": "F for foxtrot, A for alpha, R for romeo, H for hotel, A for alpha, N for november",
+   "answer": "farhan",
+   "alt": [],
+   "hi": "F/S का अंतर"
+  },
+  {
+   "id": "ls:19",
+   "spoken": "S for sierra, A for alpha, R for romeo, A for alpha",
+   "answer": "sara",
+   "alt": [],
+   "hi": "S/F का अंतर"
+  },
+  {
+   "id": "ls:20",
+   "spoken": "I, M, R, A, N",
+   "answer": "imran",
+   "alt": [],
+   "hi": "I/E का अंतर"
+  },
+  {
+   "id": "ls:21",
+   "spoken": "E, S, H, A",
+   "answer": "esha",
+   "alt": [],
+   "hi": "E/I का अंतर"
+  },
+  {
+   "id": "ls:22",
+   "spoken": "balvant dot patel at gmail dot com",
+   "answer": "balvant.patel@gmail.com",
+   "alt": [],
+   "hi": "ईमेल पता"
+  },
+  {
+   "id": "ls:23",
+   "spoken": "security dash team at example dot com",
+   "answer": "security-team@example.com",
+   "alt": [],
+   "hi": "ईमेल पता"
+  },
+  {
+   "id": "ls:24",
+   "spoken": "p underscore mehta at company dot co dot in",
+   "answer": "p_mehta@company.co.in",
+   "alt": [],
+   "hi": "ईमेल पता"
+  },
+  {
+   "id": "ls:25",
+   "spoken": "support at acme dash corp dot io",
+   "answer": "support@acme-corp.io",
+   "alt": [],
+   "hi": "ईमेल पता"
+  },
+  {
+   "id": "ls:26",
+   "spoken": "r dot sharma ninety-four at outlook dot com",
+   "answer": "r.sharma94@outlook.com",
+   "alt": [],
+   "hi": "ईमेल पता"
+  },
+  {
+   "id": "ls:27",
+   "spoken": "www dot example dash site dot com slash login",
+   "answer": "www.example-site.com/login",
+   "alt": [],
+   "hi": "वेब पता"
+  },
+  {
+   "id": "ls:28",
+   "spoken": "api dash gateway dot internal",
+   "answer": "api-gateway.internal",
+   "alt": [],
+   "hi": "होस्टनेम"
+  },
+  {
+   "id": "ls:29",
+   "spoken": "prod underscore db underscore zero one",
+   "answer": "prod_db_01",
+   "alt": [],
+   "hi": "होस्टनेम"
+  },
+  {
+   "id": "ls:30",
+   "spoken": "staging dash web dash two dot corp dot local",
+   "answer": "staging-web-2.corp.local",
+   "alt": [],
+   "hi": "होस्टनेम"
+  },
+  {
+   "id": "ls:31",
+   "spoken": "git hub dot com slash balvant slash english dash mastery",
+   "answer": "github.com/balvant/english-mastery",
+   "alt": [],
+   "hi": "वेब पता"
+  },
+  {
+   "id": "ls:32",
+   "spoken": "admin underscore user at localhost",
+   "answer": "admin_user@localhost",
+   "alt": [],
+   "hi": "उपयोगकर्ता नाम"
+  },
+  {
+   "id": "ls:33",
+   "spoken": "H for hotel, T for tango, T for tango, P for papa, S for sierra, colon, slash slash",
+   "answer": "https://",
+   "alt": [],
+   "hi": "प्रोटोकॉल"
+  },
+  {
+   "id": "ls:34",
+   "spoken": "capital A, lowercase b, one, exclamation mark, lowercase x, seven",
+   "answer": "Ab1!x7",
+   "alt": [],
+   "hi": "पासवर्ड जैसा स्ट्रिंग"
+  },
+  {
+   "id": "ls:35",
+   "spoken": "zero, capital O, lowercase l, one, capital I",
+   "answer": "0Ol1I",
+   "alt": [],
+   "hi": "मिलते-जुलते अक्षर 0/O और l/1/I"
+  }
+ ]
+}

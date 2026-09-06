@@ -1,0 +1,4295 @@
+[
+ {
+  "id": "col:001",
+  "phrase": "make a decision",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to choose what to do after thinking about it",
+  "hi_def": "निर्णय लेना, फ़ैसला करना",
+  "wrong": "take a decision",
+  "why_en": "In natural English you 'make' a decision. 'Take a decision' is understood but sounds bureaucratic and Indian.",
+  "why_hi": "अंग्रेज़ी में decision के साथ 'make' आता है। 'take a decision' सुनने में अस्वाभाविक लगता है।",
+  "examples": [
+   {
+    "en": "We need to make a decision by Friday.",
+    "hi": "हमें शुक्रवार तक फ़ैसला करना होगा।"
+   },
+   {
+    "en": "She made the right decision to leave the company.",
+    "hi": "उसने कंपनी छोड़ने का सही फ़ैसला किया।"
+   },
+   {
+    "en": "Don't make a decision when you are angry.",
+    "hi": "गुस्से में कोई फ़ैसला मत करो।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "work"
+  ]
+ },
+ {
+  "id": "col:002",
+  "phrase": "make a mistake",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to do something wrong by accident",
+  "hi_def": "गलती करना",
+  "wrong": "do a mistake",
+  "why_en": "'Do a mistake' is one of the most common Indian errors. Mistakes are always 'made'.",
+  "why_hi": "'do a mistake' गलत है। mistake के साथ हमेशा 'make' आता है।",
+  "examples": [
+   {
+    "en": "Everyone makes mistakes when they learn a new language.",
+    "hi": "नई भाषा सीखते समय हर कोई गलतियाँ करता है।"
+   },
+   {
+    "en": "I made a mistake in the report, sorry.",
+    "hi": "मैंने रिपोर्ट में एक गलती कर दी, माफ़ कीजिए।"
+   },
+   {
+    "en": "He admitted that he had made a serious mistake.",
+    "hi": "उसने माना कि उसने एक गंभीर गलती की थी।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "core"
+  ]
+ },
+ {
+  "id": "col:003",
+  "phrase": "do homework",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to complete the study tasks a teacher gives you",
+  "hi_def": "होमवर्क करना, गृहकार्य करना",
+  "wrong": "make homework",
+  "why_en": "Tasks and work are 'done', not 'made'. 'Make homework' is a direct translation error.",
+  "why_hi": "काम या टास्क 'do' किए जाते हैं, 'make' नहीं।",
+  "examples": [
+   {
+    "en": "Did you do your homework last night?",
+    "hi": "क्या तुमने कल रात अपना होमवर्क किया?"
+   },
+   {
+    "en": "I always do my homework before dinner.",
+    "hi": "मैं हमेशा खाने से पहले अपना होमवर्क करता हूँ।"
+   },
+   {
+    "en": "She does her homework at the library.",
+    "hi": "वह अपना होमवर्क लाइब्रेरी में करती है।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "core"
+  ]
+ },
+ {
+  "id": "col:004",
+  "phrase": "make progress",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to improve or move forward towards a goal",
+  "hi_def": "प्रगति करना, आगे बढ़ना",
+  "wrong": "do progress",
+  "why_en": "Progress is 'made'. Also note: 'progress' is uncountable, so never 'a progress' or 'progresses'.",
+  "why_hi": "progress के साथ 'make' आता है और यह अगणनीय है, इसलिए 'a progress' गलत है।",
+  "examples": [
+   {
+    "en": "You have made a lot of progress this month.",
+    "hi": "तुमने इस महीने बहुत प्रगति की है।"
+   },
+   {
+    "en": "We are making slow but steady progress on the project.",
+    "hi": "हम प्रोजेक्ट पर धीमी लेकिन स्थिर प्रगति कर रहे हैं।"
+   },
+   {
+    "en": "The team made good progress in the first sprint.",
+    "hi": "टीम ने पहले स्प्रिंट में अच्छी प्रगति की।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "work"
+  ]
+ },
+ {
+  "id": "col:005",
+  "phrase": "do business",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to trade or work with a company or person commercially",
+  "hi_def": "व्यापार करना, कारोबार करना",
+  "wrong": "make business",
+  "why_en": "'Do business with someone' is the fixed phrase. 'Make business' does not exist in English.",
+  "why_hi": "'do business with' निश्चित वाक्यांश है; 'make business' अंग्रेज़ी में नहीं है।",
+  "examples": [
+   {
+    "en": "We have done business with them for ten years.",
+    "hi": "हम उनके साथ दस साल से कारोबार कर रहे हैं।"
+   },
+   {
+    "en": "It is easy to do business in Singapore.",
+    "hi": "सिंगापुर में व्यापार करना आसान है।"
+   },
+   {
+    "en": "I refuse to do business with dishonest people.",
+    "hi": "मैं बेईमान लोगों के साथ कारोबार करने से इनकार करता हूँ।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "work"
+  ]
+ },
+ {
+  "id": "col:006",
+  "phrase": "make an effort",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to try hard to do something",
+  "hi_def": "प्रयास करना, कोशिश करना",
+  "wrong": "do an effort",
+  "why_en": "Effort is 'made'. 'Put in effort' is also correct; 'do effort' is not.",
+  "why_hi": "effort के साथ 'make' या 'put in' आता है, 'do' नहीं।",
+  "examples": [
+   {
+    "en": "Please make an effort to arrive on time.",
+    "hi": "कृपया समय पर पहुँचने की कोशिश करें।"
+   },
+   {
+    "en": "He made a real effort to improve his accent.",
+    "hi": "उसने अपने उच्चारण को सुधारने की सच्ची कोशिश की।"
+   },
+   {
+    "en": "She isn't making any effort to learn.",
+    "hi": "वह सीखने की कोई कोशिश नहीं कर रही है।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "core"
+  ]
+ },
+ {
+  "id": "col:007",
+  "phrase": "do research",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to study something carefully to discover new facts",
+  "hi_def": "शोध करना, अनुसंधान करना",
+  "wrong": "make a research",
+  "why_en": "Research is 'done' or 'carried out', and it is uncountable: never 'a research' or 'researches'.",
+  "why_hi": "research 'do' या 'carry out' किया जाता है और अगणनीय है, इसलिए 'a research' गलत है।",
+  "examples": [
+   {
+    "en": "I did some research before buying the laptop.",
+    "hi": "लैपटॉप खरीदने से पहले मैंने कुछ रिसर्च की।"
+   },
+   {
+    "en": "They are doing research into new vaccines.",
+    "hi": "वे नए टीकों पर शोध कर रहे हैं।"
+   },
+   {
+    "en": "Do your research before you accept the offer.",
+    "hi": "ऑफ़र स्वीकार करने से पहले अच्छी तरह पता कर लो।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "work"
+  ]
+ },
+ {
+  "id": "col:008",
+  "phrase": "make a phone call",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to telephone someone",
+  "hi_def": "फ़ोन करना",
+  "wrong": "do a phone call",
+  "why_en": "Calls are 'made'. You can also simply say 'call someone'.",
+  "why_hi": "call के साथ 'make' आता है। सीधे 'call someone' भी कह सकते हैं।",
+  "examples": [
+   {
+    "en": "I need to make a quick phone call.",
+    "hi": "मुझे एक छोटा-सा फ़ोन कॉल करना है।"
+   },
+   {
+    "en": "She made a call to the bank this morning.",
+    "hi": "उसने आज सुबह बैंक को फ़ोन किया।"
+   },
+   {
+    "en": "Can I make a call from your phone?",
+    "hi": "क्या मैं आपके फ़ोन से कॉल कर सकता हूँ?"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "core"
+  ]
+ },
+ {
+  "id": "col:009",
+  "phrase": "make money",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to earn money",
+  "hi_def": "पैसा कमाना",
+  "wrong": "earn a money",
+  "why_en": "'Make money' or 'earn money' are both natural. Money is uncountable, so 'a money' is wrong.",
+  "why_hi": "'make money' और 'earn money' दोनों सही हैं। money अगणनीय है, 'a money' गलत है।",
+  "examples": [
+   {
+    "en": "He makes good money as a freelancer.",
+    "hi": "वह फ्रीलांसर के रूप में अच्छा पैसा कमाता है।"
+   },
+   {
+    "en": "It takes time to make money from a new business.",
+    "hi": "नए बिज़नेस से पैसा कमाने में समय लगता है।"
+   },
+   {
+    "en": "They made a lot of money selling their app.",
+    "hi": "उन्होंने अपना ऐप बेचकर बहुत पैसा कमाया।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "core"
+  ]
+ },
+ {
+  "id": "col:010",
+  "phrase": "do the dishes",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to wash the plates and cups after a meal",
+  "hi_def": "बर्तन धोना",
+  "wrong": "wash the utensils",
+  "why_en": "'Do the dishes' or 'wash up' is natural. 'Utensils' in English means cooking tools, not plates.",
+  "why_hi": "'do the dishes' स्वाभाविक है। अंग्रेज़ी में utensils का मतलब खाना पकाने के औज़ार है, प्लेट नहीं।",
+  "examples": [
+   {
+    "en": "It is your turn to do the dishes.",
+    "hi": "बर्तन धोने की तुम्हारी बारी है।"
+   },
+   {
+    "en": "I did the dishes while she cooked.",
+    "hi": "जब वह खाना बना रही थी, मैंने बर्तन धोए।"
+   },
+   {
+    "en": "We usually do the dishes together after dinner.",
+    "hi": "हम आमतौर पर रात के खाने के बाद साथ में बर्तन धोते हैं।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "home"
+  ]
+ },
+ {
+  "id": "col:011",
+  "phrase": "make a plan",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to decide in detail what you will do",
+  "hi_def": "योजना बनाना",
+  "wrong": "do a plan",
+  "why_en": "Plans are 'made'. 'Do a plan' sounds wrong to native speakers.",
+  "why_hi": "plan के साथ 'make' आता है, 'do' नहीं।",
+  "examples": [
+   {
+    "en": "Let's make a plan for the weekend.",
+    "hi": "चलो वीकेंड के लिए योजना बनाते हैं।"
+   },
+   {
+    "en": "They made a plan to visit Goa in December.",
+    "hi": "उन्होंने दिसंबर में गोवा जाने की योजना बनाई।"
+   },
+   {
+    "en": "Before you start coding, make a plan.",
+    "hi": "कोड लिखने से पहले एक योजना बनाओ।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "core"
+  ]
+ },
+ {
+  "id": "col:012",
+  "phrase": "do a favour",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to do something kind to help someone",
+  "hi_def": "किसी की मदद करना, एहसान करना",
+  "wrong": "make a favour",
+  "why_en": "You 'do someone a favour'. American spelling is 'favor'.",
+  "why_hi": "'do someone a favour' सही है। अमेरिकी वर्तनी 'favor' है।",
+  "examples": [
+   {
+    "en": "Could you do me a favour and send this file?",
+    "hi": "क्या तुम मेरी एक मदद करके यह फ़ाइल भेज दोगे?"
+   },
+   {
+    "en": "He did me a big favour last year.",
+    "hi": "उसने पिछले साल मुझ पर बड़ा एहसान किया।"
+   },
+   {
+    "en": "I don't like asking people to do favours for me.",
+    "hi": "मुझे लोगों से एहसान माँगना पसंद नहीं है।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "core"
+  ]
+ },
+ {
+  "id": "col:013",
+  "phrase": "make a promise",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to say firmly that you will do something",
+  "hi_def": "वादा करना",
+  "wrong": "do a promise",
+  "why_en": "Promises are 'made' and then 'kept' or 'broken'. Never 'do a promise'.",
+  "why_hi": "promise के साथ 'make' आता है; फिर promise को 'keep' या 'break' किया जाता है।",
+  "examples": [
+   {
+    "en": "I made a promise to call her every week.",
+    "hi": "मैंने हर हफ़्ते उसे फ़ोन करने का वादा किया।"
+   },
+   {
+    "en": "Don't make promises you can't keep.",
+    "hi": "ऐसे वादे मत करो जो तुम निभा न सको।"
+   },
+   {
+    "en": "He made a promise and he kept it.",
+    "hi": "उसने वादा किया और उसे निभाया।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "core"
+  ]
+ },
+ {
+  "id": "col:014",
+  "phrase": "do exercise",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to move your body to stay healthy",
+  "hi_def": "व्यायाम करना, कसरत करना",
+  "wrong": "make exercise",
+  "why_en": "You 'do exercise' or 'work out'. 'Make exercise' is a translation error.",
+  "why_hi": "'do exercise' या 'work out' कहा जाता है, 'make exercise' नहीं।",
+  "examples": [
+   {
+    "en": "I do exercise every morning before work.",
+    "hi": "मैं हर सुबह काम से पहले व्यायाम करता हूँ।"
+   },
+   {
+    "en": "Doctors say we should do at least thirty minutes of exercise a day.",
+    "hi": "डॉक्टर कहते हैं कि हमें रोज़ कम से कम तीस मिनट व्यायाम करना चाहिए।"
+   },
+   {
+    "en": "She doesn't do much exercise these days.",
+    "hi": "वह आजकल ज़्यादा कसरत नहीं करती।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "health"
+  ]
+ },
+ {
+  "id": "col:015",
+  "phrase": "make sense",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to be clear and logical; to be a reasonable thing to do",
+  "hi_def": "समझ में आना, तर्कसंगत होना",
+  "wrong": "it is making sense",
+  "why_en": "'Make sense' is a fixed phrase, and it is stative: say 'it makes sense', not 'it is making sense'.",
+  "why_hi": "'make sense' निश्चित वाक्यांश है और यह continuous में नहीं आता: 'it makes sense' कहें।",
+  "examples": [
+   {
+    "en": "Your explanation makes sense now.",
+    "hi": "तुम्हारी व्याख्या अब समझ में आती है।"
+   },
+   {
+    "en": "It doesn't make sense to drive when the office is so close.",
+    "hi": "जब ऑफ़िस इतना पास है तो गाड़ी चलाना तर्कसंगत नहीं है।"
+   },
+   {
+    "en": "The error message didn't make any sense to me.",
+    "hi": "वह एरर मैसेज मुझे बिल्कुल समझ नहीं आया।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "core"
+  ]
+ },
+ {
+  "id": "col:016",
+  "phrase": "do your best",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to try as hard as you can",
+  "hi_def": "पूरी कोशिश करना, भरसक प्रयास करना",
+  "wrong": "give your best",
+  "why_en": "'Do your best' is the standard phrase. 'Give your best' is heard in India but sounds unnatural to most native speakers.",
+  "why_hi": "'do your best' मानक है; 'give your best' भारत में आम है पर अस्वाभाविक लगता है।",
+  "examples": [
+   {
+    "en": "Just do your best in the interview.",
+    "hi": "इंटरव्यू में बस अपनी पूरी कोशिश करो।"
+   },
+   {
+    "en": "She did her best, but the deadline was impossible.",
+    "hi": "उसने पूरी कोशिश की, लेकिन डेडलाइन असंभव थी।"
+   },
+   {
+    "en": "We will do our best to fix it today.",
+    "hi": "हम इसे आज ठीक करने की पूरी कोशिश करेंगे।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "core"
+  ]
+ },
+ {
+  "id": "col:017",
+  "phrase": "make a difference",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to have an important effect on something",
+  "hi_def": "फ़र्क डालना, असर डालना",
+  "wrong": "do a difference",
+  "why_en": "A difference is 'made'. 'Do a difference' is never used.",
+  "why_hi": "difference के साथ 'make' आता है, 'do' कभी नहीं।",
+  "examples": [
+   {
+    "en": "Small habits can make a big difference.",
+    "hi": "छोटी आदतें बड़ा फ़र्क डाल सकती हैं।"
+   },
+   {
+    "en": "Ten minutes of shadowing a day makes a real difference to your accent.",
+    "hi": "रोज़ दस मिनट शैडोइंग आपके उच्चारण में सच्चा फ़र्क डालती है।"
+   },
+   {
+    "en": "It doesn't make any difference which browser you use.",
+    "hi": "आप कौन-सा ब्राउज़र इस्तेमाल करते हैं, इससे कोई फ़र्क नहीं पड़ता।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "core"
+  ]
+ },
+ {
+  "id": "col:018",
+  "phrase": "do damage",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to harm something",
+  "hi_def": "नुकसान पहुँचाना",
+  "wrong": "make damage",
+  "why_en": "Damage is 'done' or 'caused'. It is uncountable: 'a lot of damage', not 'damages' (which means legal compensation).",
+  "why_hi": "damage 'do' या 'cause' किया जाता है और अगणनीय है; 'damages' का मतलब कानूनी मुआवज़ा होता है।",
+  "examples": [
+   {
+    "en": "The storm did a lot of damage to the roof.",
+    "hi": "तूफ़ान ने छत को बहुत नुकसान पहुँचाया।"
+   },
+   {
+    "en": "The malware did serious damage before we detected it.",
+    "hi": "पता चलने से पहले मैलवेयर ने गंभीर नुकसान पहुँचा दिया था।"
+   },
+   {
+    "en": "Luckily, the flood didn't do much damage.",
+    "hi": "सौभाग्य से बाढ़ ने ज़्यादा नुकसान नहीं किया।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "security"
+  ]
+ },
+ {
+  "id": "col:019",
+  "phrase": "make a complaint",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to formally say that you are unhappy about something",
+  "hi_def": "शिकायत करना",
+  "wrong": "do a complaint",
+  "why_en": "You 'make' or 'file' a complaint. 'Do a complaint' is wrong.",
+  "why_hi": "complaint के साथ 'make' या 'file' आता है, 'do' नहीं।",
+  "examples": [
+   {
+    "en": "I made a complaint about the noisy neighbours.",
+    "hi": "मैंने शोर करने वाले पड़ोसियों की शिकायत की।"
+   },
+   {
+    "en": "Customers can make a complaint online.",
+    "hi": "ग्राहक ऑनलाइन शिकायत कर सकते हैं।"
+   },
+   {
+    "en": "She made a formal complaint to HR.",
+    "hi": "उसने HR से औपचारिक शिकायत की।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "work"
+  ]
+ },
+ {
+  "id": "col:020",
+  "phrase": "do the shopping",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to buy the food and household things you need",
+  "hi_def": "ख़रीदारी करना, सामान लाना",
+  "wrong": "make shopping",
+  "why_en": "Shopping is 'done'. 'Go shopping' is also natural, especially for clothes.",
+  "why_hi": "shopping के साथ 'do' आता है। कपड़ों के लिए 'go shopping' भी स्वाभाविक है।",
+  "examples": [
+   {
+    "en": "I do the shopping on Saturday mornings.",
+    "hi": "मैं शनिवार सुबह ख़रीदारी करता हूँ।"
+   },
+   {
+    "en": "Who does the shopping in your house?",
+    "hi": "तुम्हारे घर में सामान कौन लाता है?"
+   },
+   {
+    "en": "We did the shopping online this week.",
+    "hi": "इस हफ़्ते हमने ऑनलाइन ख़रीदारी की।"
+   }
+  ],
+  "tags": [
+   "make-do",
+   "home"
+  ]
+ },
+ {
+  "id": "col:021",
+  "phrase": "take a shower",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to wash your body under running water",
+  "hi_def": "नहाना, शावर लेना",
+  "wrong": "do a bath",
+  "why_en": "You 'take' or 'have' a shower/bath. 'Do a bath' is wrong.",
+  "why_hi": "shower या bath के साथ 'take' या 'have' आता है, 'do' नहीं।",
+  "examples": [
+   {
+    "en": "I take a shower as soon as I wake up.",
+    "hi": "मैं उठते ही नहा लेता हूँ।"
+   },
+   {
+    "en": "He took a quick shower before the meeting.",
+    "hi": "उसने मीटिंग से पहले जल्दी से नहा लिया।"
+   },
+   {
+    "en": "Do you take a shower in the morning or at night?",
+    "hi": "तुम सुबह नहाते हो या रात को?"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "home"
+  ]
+ },
+ {
+  "id": "col:022",
+  "phrase": "have a look",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to look at something briefly",
+  "hi_def": "एक नज़र डालना, देखना",
+  "wrong": "see it once",
+  "why_en": "'Have a look' or 'take a look' is the natural way to ask someone to check something. 'See it once' is a Hindi translation ('एक बार देख लो').",
+  "why_hi": "'have a look' / 'take a look' स्वाभाविक है। 'see it once' हिंदी का सीधा अनुवाद है।",
+  "examples": [
+   {
+    "en": "Can you have a look at my code?",
+    "hi": "क्या तुम मेरा कोड एक बार देख सकते हो?"
+   },
+   {
+    "en": "I had a look at the report and it seems fine.",
+    "hi": "मैंने रिपोर्ट पर एक नज़र डाली और वह ठीक लगती है।"
+   },
+   {
+    "en": "Have a look at this error before we deploy.",
+    "hi": "डिप्लॉय करने से पहले इस एरर को देख लो।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "work"
+  ]
+ },
+ {
+  "id": "col:023",
+  "phrase": "have breakfast",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to eat the morning meal",
+  "hi_def": "नाश्ता करना",
+  "wrong": "take breakfast",
+  "why_en": "Meals are 'had' or 'eaten'. 'Take breakfast' sounds like medicine; use 'have breakfast'.",
+  "why_hi": "खाने के लिए 'have' या 'eat' आता है। 'take breakfast' दवाई लेने जैसा लगता है।",
+  "examples": [
+   {
+    "en": "I usually have breakfast at seven.",
+    "hi": "मैं आमतौर पर सात बजे नाश्ता करता हूँ।"
+   },
+   {
+    "en": "We had breakfast at the hotel.",
+    "hi": "हमने होटल में नाश्ता किया।"
+   },
+   {
+    "en": "Did you have breakfast today?",
+    "hi": "क्या तुमने आज नाश्ता किया?"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "core"
+  ]
+ },
+ {
+  "id": "col:024",
+  "phrase": "take a photo",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to use a camera to make a picture",
+  "hi_def": "फ़ोटो खींचना",
+  "wrong": "click a photo",
+  "why_en": "'Click a photo' is Indian English. Native speakers 'take' a photo or picture.",
+  "why_hi": "'click a photo' भारतीय अंग्रेज़ी है। native speakers 'take a photo' कहते हैं।",
+  "examples": [
+   {
+    "en": "Could you take a photo of us, please?",
+    "hi": "क्या आप हमारी एक फ़ोटो खींच सकते हैं?"
+   },
+   {
+    "en": "I took hundreds of photos in Kerala.",
+    "hi": "मैंने केरल में सैकड़ों फ़ोटो खींचीं।"
+   },
+   {
+    "en": "She takes a photo of every meal she eats.",
+    "hi": "वह हर खाने की फ़ोटो खींचती है।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "core"
+  ]
+ },
+ {
+  "id": "col:025",
+  "phrase": "have fun",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to enjoy yourself",
+  "hi_def": "मज़े करना, आनंद लेना",
+  "wrong": "do enjoy",
+  "why_en": "'Have fun' or 'enjoy yourself'. Indians often say 'enjoy' without an object, which sounds incomplete.",
+  "why_hi": "'have fun' या 'enjoy yourself' कहें। सिर्फ़ 'enjoy' अधूरा लगता है।",
+  "examples": [
+   {
+    "en": "Have fun at the party!",
+    "hi": "पार्टी में मज़े करो!"
+   },
+   {
+    "en": "We had a lot of fun at the beach.",
+    "hi": "हमने समुद्र तट पर बहुत मज़े किए।"
+   },
+   {
+    "en": "The kids are having fun in the garden.",
+    "hi": "बच्चे बगीचे में मज़े कर रहे हैं।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "core"
+  ]
+ },
+ {
+  "id": "col:026",
+  "phrase": "take responsibility",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to accept that you are the person who must deal with something",
+  "hi_def": "ज़िम्मेदारी लेना",
+  "wrong": "take the responsibility of",
+  "why_en": "Say 'take responsibility for something'. The preposition is 'for', not 'of'.",
+  "why_hi": "'take responsibility for' कहें। preposition 'for' है, 'of' नहीं।",
+  "examples": [
+   {
+    "en": "I take full responsibility for the outage.",
+    "hi": "मैं आउटेज की पूरी ज़िम्मेदारी लेता हूँ।"
+   },
+   {
+    "en": "Someone needs to take responsibility for this bug.",
+    "hi": "किसी को इस बग की ज़िम्मेदारी लेनी होगी।"
+   },
+   {
+    "en": "She took responsibility and apologised to the client.",
+    "hi": "उसने ज़िम्मेदारी ली और क्लाइंट से माफ़ी माँगी।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "work"
+  ]
+ },
+ {
+  "id": "col:027",
+  "phrase": "have a meeting",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to meet with people to discuss something",
+  "hi_def": "मीटिंग करना, बैठक करना",
+  "wrong": "do a meeting",
+  "why_en": "You 'have' or 'hold' a meeting. 'Do a meeting' is wrong.",
+  "why_hi": "meeting के साथ 'have' या 'hold' आता है, 'do' नहीं।",
+  "examples": [
+   {
+    "en": "We have a meeting with the client at ten.",
+    "hi": "दस बजे क्लाइंट के साथ हमारी मीटिंग है।"
+   },
+   {
+    "en": "I had three meetings this morning.",
+    "hi": "आज सुबह मेरी तीन मीटिंगें थीं।"
+   },
+   {
+    "en": "Let's have a quick meeting to plan the release.",
+    "hi": "रिलीज़ की योजना के लिए एक छोटी मीटिंग कर लेते हैं।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "work"
+  ]
+ },
+ {
+  "id": "col:028",
+  "phrase": "take a break",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to stop working for a short time and rest",
+  "hi_def": "थोड़ा आराम करना, ब्रेक लेना",
+  "wrong": "do a break",
+  "why_en": "Breaks are 'taken' or 'had'. 'Do a break' is wrong.",
+  "why_hi": "break के साथ 'take' या 'have' आता है।",
+  "examples": [
+   {
+    "en": "Let's take a break for ten minutes.",
+    "hi": "चलो दस मिनट का ब्रेक लेते हैं।"
+   },
+   {
+    "en": "You should take a break; you've been coding for hours.",
+    "hi": "तुम्हें ब्रेक लेना चाहिए; तुम घंटों से कोड लिख रहे हो।"
+   },
+   {
+    "en": "She took a short break and then continued.",
+    "hi": "उसने एक छोटा ब्रेक लिया और फिर काम जारी रखा।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "work"
+  ]
+ },
+ {
+  "id": "col:029",
+  "phrase": "have a headache",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to feel pain in your head",
+  "hi_def": "सिरदर्द होना",
+  "wrong": "my head is paining",
+  "why_en": "'My head is paining' is Indian English. Say 'I have a headache' or 'my head hurts'.",
+  "why_hi": "'my head is paining' भारतीय अंग्रेज़ी है। 'I have a headache' या 'my head hurts' कहें।",
+  "examples": [
+   {
+    "en": "I have a terrible headache today.",
+    "hi": "आज मुझे बहुत तेज़ सिरदर्द है।"
+   },
+   {
+    "en": "She had a headache, so she went home early.",
+    "hi": "उसे सिरदर्द था, इसलिए वह जल्दी घर चली गई।"
+   },
+   {
+    "en": "If you have a headache, drink some water and rest.",
+    "hi": "अगर सिरदर्द है तो थोड़ा पानी पियो और आराम करो।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "health"
+  ]
+ },
+ {
+  "id": "col:030",
+  "phrase": "take medicine",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to swallow a drug to treat an illness",
+  "hi_def": "दवाई लेना",
+  "wrong": "eat medicine",
+  "why_en": "'Eat medicine' is a translation of 'दवाई खाना'. In English you 'take' medicine.",
+  "why_hi": "'eat medicine' हिंदी 'दवाई खाना' का अनुवाद है। अंग्रेज़ी में 'take medicine' कहते हैं।",
+  "examples": [
+   {
+    "en": "Take this medicine twice a day after meals.",
+    "hi": "यह दवाई दिन में दो बार खाने के बाद लो।"
+   },
+   {
+    "en": "Did you take your medicine this morning?",
+    "hi": "क्या तुमने आज सुबह अपनी दवाई ली?"
+   },
+   {
+    "en": "He forgot to take his medicine.",
+    "hi": "वह अपनी दवाई लेना भूल गया।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "health"
+  ]
+ },
+ {
+  "id": "col:031",
+  "phrase": "take a test",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to sit an exam or test as a student",
+  "hi_def": "परीक्षा देना",
+  "wrong": "give an exam",
+  "why_en": "In Indian English students 'give' exams, but in standard English students 'take' or 'sit' exams and teachers 'give' or 'set' them.",
+  "why_hi": "भारत में छात्र 'give exam' कहते हैं, पर मानक अंग्रेज़ी में छात्र 'take/sit' exam करते हैं; शिक्षक exam 'give/set' करते हैं।",
+  "examples": [
+   {
+    "en": "I'm taking my IELTS test next month.",
+    "hi": "मैं अगले महीने IELTS की परीक्षा दे रहा हूँ।"
+   },
+   {
+    "en": "She took the driving test three times.",
+    "hi": "उसने तीन बार ड्राइविंग टेस्ट दिया।"
+   },
+   {
+    "en": "Students take a placement test on the first day.",
+    "hi": "छात्र पहले दिन प्लेसमेंट टेस्ट देते हैं।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "study"
+  ]
+ },
+ {
+  "id": "col:032",
+  "phrase": "have a chat",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to talk informally with someone",
+  "hi_def": "बातचीत करना, गपशप करना",
+  "wrong": "do a chat",
+  "why_en": "'Have a chat' or 'chat with someone'. 'Do a chat' is wrong.",
+  "why_hi": "'have a chat' या 'chat with' कहें, 'do a chat' नहीं।",
+  "examples": [
+   {
+    "en": "Let's have a chat about the new project.",
+    "hi": "नए प्रोजेक्ट के बारे में थोड़ी बात करते हैं।"
+   },
+   {
+    "en": "I had a nice chat with your manager.",
+    "hi": "मेरी तुम्हारे मैनेजर के साथ अच्छी बातचीत हुई।"
+   },
+   {
+    "en": "We had a quick chat over coffee.",
+    "hi": "हमने कॉफ़ी पर थोड़ी बात की।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "core"
+  ]
+ },
+ {
+  "id": "col:033",
+  "phrase": "take notes",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to write down important points while listening",
+  "hi_def": "नोट्स बनाना, नोट लेना",
+  "wrong": "make notes down",
+  "why_en": "'Take notes' is the most natural. 'Make notes' is also used. 'Note down' is fine, but 'make notes down' mixes two phrases.",
+  "why_hi": "'take notes' सबसे स्वाभाविक है। 'note down' भी सही है, पर 'make notes down' दो वाक्यांशों का मिश्रण है।",
+  "examples": [
+   {
+    "en": "I always take notes during meetings.",
+    "hi": "मैं मीटिंग के दौरान हमेशा नोट्स बनाता हूँ।"
+   },
+   {
+    "en": "Take notes while you watch the tutorial.",
+    "hi": "ट्यूटोरियल देखते समय नोट्स बनाओ।"
+   },
+   {
+    "en": "She took detailed notes at the conference.",
+    "hi": "उसने सम्मेलन में विस्तृत नोट्स बनाए।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "study"
+  ]
+ },
+ {
+  "id": "col:034",
+  "phrase": "have an argument",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to disagree angrily with someone",
+  "hi_def": "बहस करना, झगड़ा करना",
+  "wrong": "do a fight",
+  "why_en": "You 'have an argument' or 'have a fight'. 'Do a fight' is wrong.",
+  "why_hi": "'have an argument' या 'have a fight' कहें, 'do a fight' नहीं।",
+  "examples": [
+   {
+    "en": "They had an argument about money.",
+    "hi": "उनके बीच पैसों को लेकर बहस हुई।"
+   },
+   {
+    "en": "I don't want to have an argument with you.",
+    "hi": "मैं तुमसे बहस नहीं करना चाहता।"
+   },
+   {
+    "en": "We had a big argument, but we're fine now.",
+    "hi": "हमारी बड़ी बहस हुई थी, पर अब सब ठीक है।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "core"
+  ]
+ },
+ {
+  "id": "col:035",
+  "phrase": "take a seat",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to sit down (polite)",
+  "hi_def": "बैठिए, बैठ जाइए",
+  "wrong": "sit down please, take your seat",
+  "why_en": "'Please take a seat' is the polite form. 'Take your seat' is used for reserved seats (e.g., in a theatre).",
+  "why_hi": "'please take a seat' विनम्र रूप है। 'take your seat' आरक्षित सीट के लिए होता है।",
+  "examples": [
+   {
+    "en": "Please take a seat; the doctor will see you soon.",
+    "hi": "कृपया बैठिए; डॉक्टर जल्द ही आपको देखेंगे।"
+   },
+   {
+    "en": "He took a seat at the back of the room.",
+    "hi": "वह कमरे के पीछे बैठ गया।"
+   },
+   {
+    "en": "Take a seat, I'll be with you in a minute.",
+    "hi": "बैठिए, मैं एक मिनट में आता हूँ।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "core"
+  ]
+ },
+ {
+  "id": "col:036",
+  "phrase": "have a good time",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to enjoy yourself",
+  "hi_def": "अच्छा समय बिताना, मज़े करना",
+  "wrong": "pass a good time",
+  "why_en": "'Pass time' means to fill empty time, not to enjoy it. Say 'have a good time'.",
+  "why_hi": "'pass time' का मतलब खाली समय बिताना है, आनंद लेना नहीं। 'have a good time' कहें।",
+  "examples": [
+   {
+    "en": "We had a really good time in Jaipur.",
+    "hi": "हमने जयपुर में बहुत अच्छा समय बिताया।"
+   },
+   {
+    "en": "Have a good time at the wedding!",
+    "hi": "शादी में मज़े करना!"
+   },
+   {
+    "en": "Did you have a good time last night?",
+    "hi": "क्या कल रात तुमने अच्छा समय बिताया?"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "core"
+  ]
+ },
+ {
+  "id": "col:037",
+  "phrase": "take your time",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to do something slowly and carefully without hurrying",
+  "hi_def": "आराम से करना, जल्दी न करना",
+  "wrong": "take time and do",
+  "why_en": "'Take your time' is a fixed, friendly phrase meaning 'no need to hurry'.",
+  "why_hi": "'take your time' निश्चित और मित्रवत वाक्यांश है, जिसका अर्थ है 'जल्दी की ज़रूरत नहीं'।",
+  "examples": [
+   {
+    "en": "Take your time; there's no rush.",
+    "hi": "आराम से करो; कोई जल्दी नहीं है।"
+   },
+   {
+    "en": "He took his time answering the question.",
+    "hi": "उसने सवाल का जवाब सोच-समझकर धीरे से दिया।"
+   },
+   {
+    "en": "Take your time and read the contract carefully.",
+    "hi": "आराम से समय लेकर अनुबंध को ध्यान से पढ़ो।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "core"
+  ]
+ },
+ {
+  "id": "col:038",
+  "phrase": "have an accident",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to be involved in a crash or injury by chance",
+  "hi_def": "दुर्घटना होना",
+  "wrong": "meet with an accident",
+  "why_en": "'Meet with an accident' is old-fashioned and mostly Indian. Say 'have an accident'.",
+  "why_hi": "'meet with an accident' पुराना और मुख्यतः भारतीय प्रयोग है। 'have an accident' कहें।",
+  "examples": [
+   {
+    "en": "He had an accident on the highway last night.",
+    "hi": "कल रात हाईवे पर उसकी दुर्घटना हो गई।"
+   },
+   {
+    "en": "Drive slowly or you'll have an accident.",
+    "hi": "धीरे चलाओ वरना दुर्घटना हो जाएगी।"
+   },
+   {
+    "en": "She had a minor accident but nobody was hurt.",
+    "hi": "उसकी छोटी-सी दुर्घटना हुई, पर किसी को चोट नहीं आई।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "core"
+  ]
+ },
+ {
+  "id": "col:039",
+  "phrase": "take part in",
+  "pattern": "verb + noun + preposition",
+  "cefr": "B1",
+  "en_def": "to participate in an activity",
+  "hi_def": "भाग लेना, हिस्सा लेना",
+  "wrong": "take part of",
+  "why_en": "The preposition is 'in': 'take part in a competition'. 'Take part of' is wrong.",
+  "why_hi": "preposition 'in' है: 'take part in'। 'take part of' गलत है।",
+  "examples": [
+   {
+    "en": "Over 200 people took part in the hackathon.",
+    "hi": "हैकाथॉन में 200 से अधिक लोगों ने भाग लिया।"
+   },
+   {
+    "en": "I'd like to take part in the training.",
+    "hi": "मैं ट्रेनिंग में भाग लेना चाहूँगा।"
+   },
+   {
+    "en": "She took part in a bug bounty programme.",
+    "hi": "उसने बग बाउंटी प्रोग्राम में हिस्सा लिया।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "work"
+  ]
+ },
+ {
+  "id": "col:040",
+  "phrase": "have a cold",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to be ill with a blocked nose and cough",
+  "hi_def": "ज़ुकाम होना",
+  "wrong": "I am having cold",
+  "why_en": "'Have' for illness is stative: 'I have a cold', not 'I am having a cold'. Also, it needs the article 'a'.",
+  "why_hi": "बीमारी के लिए 'have' continuous में नहीं आता: 'I have a cold'। article 'a' ज़रूरी है।",
+  "examples": [
+   {
+    "en": "I have a cold, so I'm working from home.",
+    "hi": "मुझे ज़ुकाम है, इसलिए मैं घर से काम कर रहा हूँ।"
+   },
+   {
+    "en": "She has had a cold for a week.",
+    "hi": "उसे एक हफ़्ते से ज़ुकाम है।"
+   },
+   {
+    "en": "Everyone in the office has a cold this week.",
+    "hi": "इस हफ़्ते ऑफ़िस में सबको ज़ुकाम है।"
+   }
+  ],
+  "tags": [
+   "take-have",
+   "health"
+  ]
+ },
+ {
+  "id": "col:041",
+  "phrase": "give a presentation",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to speak formally to a group, often with slides",
+  "hi_def": "प्रस्तुति देना, प्रेज़ेंटेशन देना",
+  "wrong": "do a presentation",
+  "why_en": "'Give' or 'deliver' a presentation is the natural collocation. 'Do a presentation' is heard but weaker.",
+  "why_hi": "'give' या 'deliver a presentation' स्वाभाविक है।",
+  "examples": [
+   {
+    "en": "I'm giving a presentation on cloud security tomorrow.",
+    "hi": "मैं कल क्लाउड सुरक्षा पर प्रेज़ेंटेशन दे रहा हूँ।"
+   },
+   {
+    "en": "She gave an excellent presentation to the board.",
+    "hi": "उसने बोर्ड को बेहतरीन प्रेज़ेंटेशन दिया।"
+   },
+   {
+    "en": "Have you ever given a presentation in English?",
+    "hi": "क्या तुमने कभी अंग्रेज़ी में प्रेज़ेंटेशन दिया है?"
+   }
+  ],
+  "tags": [
+   "give-get",
+   "work"
+  ]
+ },
+ {
+  "id": "col:042",
+  "phrase": "get a promotion",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to be moved to a higher position at work",
+  "hi_def": "पदोन्नति पाना, प्रमोशन मिलना",
+  "wrong": "take a promotion",
+  "why_en": "You 'get' or 'receive' a promotion; your manager 'gives' you one.",
+  "why_hi": "promotion 'get' या 'receive' किया जाता है; मैनेजर promotion 'give' करता है।",
+  "examples": [
+   {
+    "en": "He got a promotion after two years.",
+    "hi": "दो साल बाद उसे प्रमोशन मिला।"
+   },
+   {
+    "en": "I'm hoping to get a promotion this year.",
+    "hi": "मुझे उम्मीद है कि इस साल मुझे प्रमोशन मिलेगा।"
+   },
+   {
+    "en": "She got a promotion and a pay rise.",
+    "hi": "उसे प्रमोशन और वेतन वृद्धि दोनों मिले।"
+   }
+  ],
+  "tags": [
+   "give-get",
+   "work"
+  ]
+ },
+ {
+  "id": "col:043",
+  "phrase": "give advice",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to tell someone what you think they should do",
+  "hi_def": "सलाह देना",
+  "wrong": "give an advice",
+  "why_en": "'Advice' is uncountable: 'some advice', 'a piece of advice', never 'an advice' or 'advices'.",
+  "why_hi": "advice अगणनीय है: 'some advice', 'a piece of advice'; 'an advice' या 'advices' गलत है।",
+  "examples": [
+   {
+    "en": "Can you give me some advice about my CV?",
+    "hi": "क्या तुम मेरे CV के बारे में कुछ सलाह दे सकते हो?"
+   },
+   {
+    "en": "My mentor gave me a useful piece of advice.",
+    "hi": "मेरे मेंटर ने मुझे एक उपयोगी सलाह दी।"
+   },
+   {
+    "en": "He gives good advice, but he never follows it.",
+    "hi": "वह अच्छी सलाह देता है, पर खुद कभी नहीं मानता।"
+   }
+  ],
+  "tags": [
+   "give-get",
+   "core"
+  ]
+ },
+ {
+  "id": "col:044",
+  "phrase": "get a job",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to be hired for work",
+  "hi_def": "नौकरी मिलना",
+  "wrong": "got a job in the company as a fresher",
+  "why_en": "'Get a job' is fine. Avoid 'fresher' (Indian); say 'as a graduate' or 'entry-level'.",
+  "why_hi": "'get a job' सही है। 'fresher' भारतीय शब्द है; 'graduate' या 'entry-level' कहें।",
+  "examples": [
+   {
+    "en": "She got a job at a security firm in Pune.",
+    "hi": "उसे पुणे की एक सिक्योरिटी फ़र्म में नौकरी मिल गई।"
+   },
+   {
+    "en": "It's hard to get a job without experience.",
+    "hi": "अनुभव के बिना नौकरी पाना मुश्किल है।"
+   },
+   {
+    "en": "I got my first job straight after university.",
+    "hi": "मुझे यूनिवर्सिटी के तुरंत बाद पहली नौकरी मिल गई।"
+   }
+  ],
+  "tags": [
+   "give-get",
+   "work"
+  ]
+ },
+ {
+  "id": "col:045",
+  "phrase": "give feedback",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to tell someone what was good and what could improve",
+  "hi_def": "प्रतिक्रिया देना, फ़ीडबैक देना",
+  "wrong": "give a feedback",
+  "why_en": "'Feedback' is uncountable: 'some feedback', 'a lot of feedback', never 'a feedback' or 'feedbacks'.",
+  "why_hi": "feedback अगणनीय है: 'some feedback'; 'a feedback' या 'feedbacks' गलत है।",
+  "examples": [
+   {
+    "en": "Could you give me some feedback on my draft?",
+    "hi": "क्या तुम मेरे ड्राफ़्ट पर कुछ फ़ीडबैक दे सकते हो?"
+   },
+   {
+    "en": "The reviewer gave detailed feedback on the pull request.",
+    "hi": "रिव्यूअर ने पुल रिक्वेस्ट पर विस्तृत फ़ीडबैक दिया।"
+   },
+   {
+    "en": "We give feedback at the end of every sprint.",
+    "hi": "हम हर स्प्रिंट के अंत में फ़ीडबैक देते हैं।"
+   }
+  ],
+  "tags": [
+   "give-get",
+   "work"
+  ]
+ },
+ {
+  "id": "col:046",
+  "phrase": "get in touch",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to contact someone",
+  "hi_def": "संपर्क करना",
+  "wrong": "do contact with",
+  "why_en": "'Get in touch with' or simply 'contact someone'. 'Do contact' is wrong.",
+  "why_hi": "'get in touch with' या 'contact someone' कहें, 'do contact' नहीं।",
+  "examples": [
+   {
+    "en": "I'll get in touch with you next week.",
+    "hi": "मैं अगले हफ़्ते आपसे संपर्क करूँगा।"
+   },
+   {
+    "en": "Please get in touch if you have any questions.",
+    "hi": "कोई सवाल हो तो कृपया संपर्क करें।"
+   },
+   {
+    "en": "She got in touch after five years.",
+    "hi": "उसने पाँच साल बाद संपर्क किया।"
+   }
+  ],
+  "tags": [
+   "give-get",
+   "work"
+  ]
+ },
+ {
+  "id": "col:047",
+  "phrase": "give someone a call",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to phone someone",
+  "hi_def": "फ़ोन करना",
+  "wrong": "give a ring to him",
+  "why_en": "'Give someone a call' or 'give someone a ring' (British). The person comes right after 'give'.",
+  "why_hi": "'give someone a call' या 'give someone a ring'। व्यक्ति 'give' के तुरंत बाद आता है।",
+  "examples": [
+   {
+    "en": "Give me a call when you land.",
+    "hi": "उतरते ही मुझे फ़ोन करना।"
+   },
+   {
+    "en": "I'll give the client a call this afternoon.",
+    "hi": "मैं आज दोपहर क्लाइंट को फ़ोन करूँगा।"
+   },
+   {
+    "en": "She gave him a call to confirm the time.",
+    "hi": "उसने समय की पुष्टि करने के लिए उसे फ़ोन किया।"
+   }
+  ],
+  "tags": [
+   "give-get",
+   "core"
+  ]
+ },
+ {
+  "id": "col:048",
+  "phrase": "get a chance",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to have an opportunity to do something",
+  "hi_def": "मौका मिलना",
+  "wrong": "get a chance for doing",
+  "why_en": "'Get a chance to do something' uses the to-infinitive, not 'for doing'.",
+  "why_hi": "'get a chance to do' में to-infinitive आता है, 'for doing' नहीं।",
+  "examples": [
+   {
+    "en": "I didn't get a chance to read your email.",
+    "hi": "मुझे तुम्हारा ईमेल पढ़ने का मौका नहीं मिला।"
+   },
+   {
+    "en": "If you get a chance, visit the old city.",
+    "hi": "अगर मौका मिले तो पुराने शहर में ज़रूर जाना।"
+   },
+   {
+    "en": "He finally got a chance to present his idea.",
+    "hi": "आख़िरकार उसे अपना आइडिया पेश करने का मौका मिला।"
+   }
+  ],
+  "tags": [
+   "give-get",
+   "core"
+  ]
+ },
+ {
+  "id": "col:049",
+  "phrase": "give an example",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to mention something that shows what you mean",
+  "hi_def": "उदाहरण देना",
+  "wrong": "tell an example",
+  "why_en": "Examples are 'given'. 'Tell an example' is wrong.",
+  "why_hi": "example के साथ 'give' आता है, 'tell' नहीं।",
+  "examples": [
+   {
+    "en": "Can you give me an example of a phishing email?",
+    "hi": "क्या तुम मुझे फ़िशिंग ईमेल का एक उदाहरण दे सकते हो?"
+   },
+   {
+    "en": "The teacher gave three examples of each rule.",
+    "hi": "शिक्षक ने हर नियम के तीन उदाहरण दिए।"
+   },
+   {
+    "en": "Let me give you an example.",
+    "hi": "मैं तुम्हें एक उदाहरण देता हूँ।"
+   }
+  ],
+  "tags": [
+   "give-get",
+   "study"
+  ]
+ },
+ {
+  "id": "col:050",
+  "phrase": "get married",
+  "pattern": "verb + adjective",
+  "cefr": "A2",
+  "en_def": "to become someone's husband or wife",
+  "hi_def": "शादी करना",
+  "wrong": "do marriage",
+  "why_en": "'Get married (to someone)' is natural. 'Do marriage' is a translation of 'शादी करना'.",
+  "why_hi": "'get married to' स्वाभाविक है। 'do marriage' हिंदी का सीधा अनुवाद है।",
+  "examples": [
+   {
+    "en": "They got married last December.",
+    "hi": "उनकी शादी पिछले दिसंबर में हुई।"
+   },
+   {
+    "en": "My sister is getting married to a doctor.",
+    "hi": "मेरी बहन की शादी एक डॉक्टर से हो रही है।"
+   },
+   {
+    "en": "When did you get married?",
+    "hi": "तुम्हारी शादी कब हुई?"
+   }
+  ],
+  "tags": [
+   "give-get",
+   "core"
+  ]
+ },
+ {
+  "id": "col:051",
+  "phrase": "meet a deadline",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to finish something by the required time",
+  "hi_def": "समय-सीमा पूरी करना, डेडलाइन पर काम पूरा करना",
+  "wrong": "complete the deadline",
+  "why_en": "You 'meet' or 'miss' a deadline. 'Complete a deadline' is wrong; you complete the work.",
+  "why_hi": "deadline 'meet' या 'miss' की जाती है। 'complete the deadline' गलत है; काम complete होता है।",
+  "examples": [
+   {
+    "en": "We worked late to meet the deadline.",
+    "hi": "डेडलाइन पूरी करने के लिए हमने देर तक काम किया।"
+   },
+   {
+    "en": "If we don't meet the deadline, the client will be unhappy.",
+    "hi": "अगर हम डेडलाइन नहीं पूरी करेंगे तो क्लाइंट नाराज़ होगा।"
+   },
+   {
+    "en": "She always meets her deadlines.",
+    "hi": "वह हमेशा अपनी डेडलाइन पर काम पूरा करती है।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:052",
+  "phrase": "raise an issue",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to bring a problem to someone's attention for discussion",
+  "hi_def": "मुद्दा उठाना",
+  "wrong": "rise an issue",
+  "why_en": "'Raise' (transitive) takes an object: raise an issue. 'Rise' is intransitive: prices rise.",
+  "why_hi": "'raise' सकर्मक है: raise an issue। 'rise' अकर्मक है: prices rise।",
+  "examples": [
+   {
+    "en": "I raised the issue with my manager yesterday.",
+    "hi": "मैंने कल अपने मैनेजर के सामने यह मुद्दा उठाया।"
+   },
+   {
+    "en": "Several customers have raised the same issue.",
+    "hi": "कई ग्राहकों ने यही मुद्दा उठाया है।"
+   },
+   {
+    "en": "Feel free to raise any issues in the retro.",
+    "hi": "रेट्रो में कोई भी मुद्दा बेझिझक उठाओ।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:053",
+  "phrase": "address a concern",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to deal with a worry that someone has raised",
+  "hi_def": "चिंता का समाधान करना",
+  "wrong": "solve the concern",
+  "why_en": "Concerns are 'addressed'; problems are 'solved'. 'Address' here means to deal with, not a postal address.",
+  "why_hi": "concern 'address' की जाती है; problem 'solve' की जाती है। यहाँ address का मतलब 'निपटना' है।",
+  "examples": [
+   {
+    "en": "The update addresses the security concerns raised in the audit.",
+    "hi": "यह अपडेट ऑडिट में उठाई गई सुरक्षा चिंताओं का समाधान करता है।"
+   },
+   {
+    "en": "We need to address the client's concerns before launch.",
+    "hi": "लॉन्च से पहले हमें क्लाइंट की चिंताओं का समाधान करना होगा।"
+   },
+   {
+    "en": "Thank you for addressing my concern so quickly.",
+    "hi": "मेरी चिंता का इतनी जल्दी समाधान करने के लिए धन्यवाद।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:054",
+  "phrase": "run a test",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to execute a test to check that something works",
+  "hi_def": "टेस्ट चलाना, परीक्षण करना",
+  "wrong": "do run the test",
+  "why_en": "'Run a test' is the standard engineering phrase. Don't add 'do' before it in a statement.",
+  "why_hi": "'run a test' मानक इंजीनियरिंग वाक्यांश है। कथन में उसके आगे 'do' न जोड़ें।",
+  "examples": [
+   {
+    "en": "Run the tests before you push the code.",
+    "hi": "कोड पुश करने से पहले टेस्ट चलाओ।"
+   },
+   {
+    "en": "We ran a load test on the new server.",
+    "hi": "हमने नए सर्वर पर लोड टेस्ट चलाया।"
+   },
+   {
+    "en": "All tests are run automatically in the pipeline.",
+    "hi": "सभी टेस्ट पाइपलाइन में अपने-आप चलते हैं।"
+   }
+  ],
+  "tags": [
+   "work",
+   "tech"
+  ]
+ },
+ {
+  "id": "col:055",
+  "phrase": "conduct an audit",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to carry out an official examination of records or systems",
+  "hi_def": "ऑडिट करना, लेखा-परीक्षा करना",
+  "wrong": "make an audit",
+  "why_en": "Audits are 'conducted', 'carried out', or 'performed'. 'Make an audit' is wrong.",
+  "why_hi": "audit 'conduct', 'carry out' या 'perform' किया जाता है, 'make' नहीं।",
+  "examples": [
+   {
+    "en": "An external firm conducted a security audit last quarter.",
+    "hi": "पिछली तिमाही में एक बाहरी फ़र्म ने सुरक्षा ऑडिट किया।"
+   },
+   {
+    "en": "We conduct an audit of user permissions every six months.",
+    "hi": "हम हर छह महीने में यूज़र अनुमतियों का ऑडिट करते हैं।"
+   },
+   {
+    "en": "The audit was conducted over three weeks.",
+    "hi": "ऑडिट तीन हफ़्तों में किया गया।"
+   }
+  ],
+  "tags": [
+   "work",
+   "security"
+  ]
+ },
+ {
+  "id": "col:056",
+  "phrase": "submit a report",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to formally hand in a written report",
+  "hi_def": "रिपोर्ट जमा करना",
+  "wrong": "send report to concerned person",
+  "why_en": "'Submit a report' is formal and clear. 'Concerned person' is Indian English; say 'the relevant person'.",
+  "why_hi": "'submit a report' औपचारिक और स्पष्ट है। 'concerned person' भारतीय अंग्रेज़ी है; 'the relevant person' कहें।",
+  "examples": [
+   {
+    "en": "Please submit your report by end of day Friday.",
+    "hi": "कृपया शुक्रवार शाम तक अपनी रिपोर्ट जमा करें।"
+   },
+   {
+    "en": "I submitted the pentest report to the client.",
+    "hi": "मैंने क्लाइंट को पेनटेस्ट रिपोर्ट जमा कर दी।"
+   },
+   {
+    "en": "Reports must be submitted through the portal.",
+    "hi": "रिपोर्ट पोर्टल के ज़रिए जमा करनी होंगी।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:057",
+  "phrase": "schedule a meeting",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to arrange a meeting for a particular time",
+  "hi_def": "मीटिंग तय करना, बैठक निर्धारित करना",
+  "wrong": "fix a meeting",
+  "why_en": "'Schedule', 'arrange', or 'set up' a meeting. 'Fix a meeting' is Indian English and sounds odd abroad.",
+  "why_hi": "'schedule', 'arrange' या 'set up a meeting'। 'fix a meeting' भारतीय प्रयोग है।",
+  "examples": [
+   {
+    "en": "Can we schedule a meeting for Monday morning?",
+    "hi": "क्या हम सोमवार सुबह के लिए मीटिंग तय कर सकते हैं?"
+   },
+   {
+    "en": "I've scheduled a meeting with the vendor at three.",
+    "hi": "मैंने तीन बजे वेंडर के साथ मीटिंग तय की है।"
+   },
+   {
+    "en": "Let's schedule a follow-up meeting next week.",
+    "hi": "अगले हफ़्ते फ़ॉलो-अप मीटिंग तय कर लेते हैं।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:058",
+  "phrase": "reach an agreement",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to finally agree after discussion",
+  "hi_def": "समझौते पर पहुँचना",
+  "wrong": "do an agreement",
+  "why_en": "You 'reach' or 'come to' an agreement. 'Do an agreement' is wrong.",
+  "why_hi": "agreement पर 'reach' या 'come to' किया जाता है, 'do' नहीं।",
+  "examples": [
+   {
+    "en": "After two hours, we reached an agreement.",
+    "hi": "दो घंटे बाद हम एक समझौते पर पहुँचे।"
+   },
+   {
+    "en": "The two teams failed to reach an agreement on the timeline.",
+    "hi": "दोनों टीमें समय-सीमा पर समझौते तक नहीं पहुँच सकीं।"
+   },
+   {
+    "en": "We finally reached an agreement about the budget.",
+    "hi": "आख़िरकार हम बजट पर सहमत हो गए।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:059",
+  "phrase": "draw a conclusion",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to decide what is true after considering the evidence",
+  "hi_def": "निष्कर्ष निकालना",
+  "wrong": "take a conclusion",
+  "why_en": "Conclusions are 'drawn' or 'reached'. 'Take a conclusion' is a direct translation of 'निष्कर्ष निकालना'.",
+  "why_hi": "conclusion 'draw' या 'reach' किया जाता है, 'take' नहीं।",
+  "examples": [
+   {
+    "en": "It's too early to draw a conclusion from the logs.",
+    "hi": "लॉग्स से निष्कर्ष निकालना अभी जल्दबाज़ी होगी।"
+   },
+   {
+    "en": "The investigators drew the conclusion that the breach was internal.",
+    "hi": "जाँचकर्ताओं ने निष्कर्ष निकाला कि सेंध अंदरूनी थी।"
+   },
+   {
+    "en": "What conclusion can we draw from this data?",
+    "hi": "इस डेटा से हम क्या निष्कर्ष निकाल सकते हैं?"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:060",
+  "phrase": "gain experience",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to get practical knowledge by doing something over time",
+  "hi_def": "अनुभव प्राप्त करना",
+  "wrong": "take experience",
+  "why_en": "Experience is 'gained' or 'got'. It is uncountable when it means skill: 'a lot of experience', not 'experiences'.",
+  "why_hi": "experience 'gain' किया जाता है। कौशल के अर्थ में यह अगणनीय है: 'a lot of experience'।",
+  "examples": [
+   {
+    "en": "I gained a lot of experience in my first job.",
+    "hi": "मैंने अपनी पहली नौकरी में बहुत अनुभव प्राप्त किया।"
+   },
+   {
+    "en": "Internships are a good way to gain experience.",
+    "hi": "इंटर्नशिप अनुभव प्राप्त करने का अच्छा तरीका है।"
+   },
+   {
+    "en": "He gained valuable experience working on incident response.",
+    "hi": "इंसिडेंट रिस्पॉन्स पर काम करके उसने मूल्यवान अनुभव हासिल किया।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:061",
+  "phrase": "lose track of",
+  "pattern": "verb + noun + preposition",
+  "cefr": "B2",
+  "en_def": "to no longer know what is happening with something",
+  "hi_def": "हिसाब न रख पाना, ध्यान से छूट जाना",
+  "wrong": "lose the track of",
+  "why_en": "No article: 'lose track of time', 'keep track of expenses'.",
+  "why_hi": "article नहीं आता: 'lose track of time', 'keep track of'।",
+  "examples": [
+   {
+    "en": "I lost track of time and missed the bus.",
+    "hi": "मुझे समय का ध्यान ही नहीं रहा और बस छूट गई।"
+   },
+   {
+    "en": "We lost track of how many tickets were open.",
+    "hi": "हमें पता ही नहीं रहा कि कितने टिकट खुले हैं।"
+   },
+   {
+    "en": "Use a spreadsheet so you don't lose track of your expenses.",
+    "hi": "स्प्रेडशीट इस्तेमाल करो ताकि ख़र्च का हिसाब न छूटे।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:062",
+  "phrase": "catch a cold",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to become ill with a cold",
+  "hi_def": "ज़ुकाम लग जाना",
+  "wrong": "get cold",
+  "why_en": "'Catch a cold' means to become ill. 'Get cold' means to feel cold (temperature).",
+  "why_hi": "'catch a cold' का मतलब बीमार पड़ना है। 'get cold' का मतलब ठंड लगना (तापमान) है।",
+  "examples": [
+   {
+    "en": "Wear a jacket or you'll catch a cold.",
+    "hi": "जैकेट पहनो वरना ज़ुकाम लग जाएगा।"
+   },
+   {
+    "en": "I caught a cold on the flight back.",
+    "hi": "वापसी की फ़्लाइट में मुझे ज़ुकाम लग गया।"
+   },
+   {
+    "en": "Kids catch colds easily at school.",
+    "hi": "बच्चों को स्कूल में आसानी से ज़ुकाम लग जाता है।"
+   }
+  ],
+  "tags": [
+   "health"
+  ]
+ },
+ {
+  "id": "col:063",
+  "phrase": "keep in touch",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to continue to communicate with someone",
+  "hi_def": "संपर्क में रहना",
+  "wrong": "be in contact always",
+  "why_en": "'Keep in touch' or 'stay in touch' is the natural friendly phrase when saying goodbye.",
+  "why_hi": "अलविदा कहते समय 'keep in touch' या 'stay in touch' स्वाभाविक है।",
+  "examples": [
+   {
+    "en": "Let's keep in touch after the course ends.",
+    "hi": "कोर्स ख़त्म होने के बाद संपर्क में रहते हैं।"
+   },
+   {
+    "en": "We kept in touch for years by email.",
+    "hi": "हम सालों तक ईमेल से संपर्क में रहे।"
+   },
+   {
+    "en": "It's hard to keep in touch with old colleagues.",
+    "hi": "पुराने सहकर्मियों के संपर्क में रहना मुश्किल है।"
+   }
+  ],
+  "tags": [
+   "core"
+  ]
+ },
+ {
+  "id": "col:064",
+  "phrase": "pay attention",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to listen or watch carefully",
+  "hi_def": "ध्यान देना",
+  "wrong": "give attention on",
+  "why_en": "'Pay attention to something'. The preposition is 'to', and the verb is 'pay', not 'give'.",
+  "why_hi": "'pay attention to' कहें। preposition 'to' है और verb 'pay' है, 'give' नहीं।",
+  "examples": [
+   {
+    "en": "Pay attention to the error messages in the console.",
+    "hi": "कंसोल में एरर मैसेज पर ध्यान दो।"
+   },
+   {
+    "en": "He wasn't paying attention during the demo.",
+    "hi": "वह डेमो के दौरान ध्यान नहीं दे रहा था।"
+   },
+   {
+    "en": "Pay attention to word stress when you shadow.",
+    "hi": "शैडोइंग करते समय word stress पर ध्यान दो।"
+   }
+  ],
+  "tags": [
+   "core",
+   "study"
+  ]
+ },
+ {
+  "id": "col:065",
+  "phrase": "break the rules",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to do something that is not allowed",
+  "hi_def": "नियम तोड़ना",
+  "wrong": "disobey the rules",
+  "why_en": "'Break the rules' is the everyday phrase. 'Disobey' is used for people or orders, not usually for rules.",
+  "why_hi": "'break the rules' रोज़मर्रा का वाक्यांश है। 'disobey' लोगों या आदेशों के लिए होता है।",
+  "examples": [
+   {
+    "en": "He was fired for breaking the rules.",
+    "hi": "नियम तोड़ने के कारण उसे नौकरी से निकाल दिया गया।"
+   },
+   {
+    "en": "You can't break the rules just because you're in a hurry.",
+    "hi": "जल्दी में हो, इसलिए नियम नहीं तोड़ सकते।"
+   },
+   {
+    "en": "Some hackers enjoy breaking the rules.",
+    "hi": "कुछ हैकरों को नियम तोड़ने में मज़ा आता है।"
+   }
+  ],
+  "tags": [
+   "core"
+  ]
+ },
+ {
+  "id": "col:066",
+  "phrase": "solve a problem",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to find an answer to a problem",
+  "hi_def": "समस्या हल करना",
+  "wrong": "solve out the problem",
+  "why_en": "'Solve a problem' or 'sort out a problem'. 'Solve out' does not exist.",
+  "why_hi": "'solve a problem' या 'sort out a problem'। 'solve out' नहीं होता।",
+  "examples": [
+   {
+    "en": "We solved the problem by restarting the service.",
+    "hi": "हमने सर्विस रीस्टार्ट करके समस्या हल कर दी।"
+   },
+   {
+    "en": "Engineers love solving hard problems.",
+    "hi": "इंजीनियरों को कठिन समस्याएँ हल करना पसंद है।"
+   },
+   {
+    "en": "This won't solve the underlying problem.",
+    "hi": "इससे मूल समस्या हल नहीं होगी।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:067",
+  "phrase": "ask a question",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to say something in order to get information",
+  "hi_def": "सवाल पूछना",
+  "wrong": "ask a doubt",
+  "why_en": "'Ask a doubt' is Indian English. In standard English you 'ask a question' or 'have a question'; 'doubt' means lack of belief.",
+  "why_hi": "'ask a doubt' भारतीय अंग्रेज़ी है। मानक अंग्रेज़ी में 'ask a question' कहें; 'doubt' का अर्थ अविश्वास है।",
+  "examples": [
+   {
+    "en": "Can I ask a question about the schedule?",
+    "hi": "क्या मैं शेड्यूल के बारे में एक सवाल पूछ सकता हूँ?"
+   },
+   {
+    "en": "She asked a lot of questions in the interview.",
+    "hi": "उसने इंटरव्यू में बहुत सारे सवाल पूछे।"
+   },
+   {
+    "en": "Don't be afraid to ask questions.",
+    "hi": "सवाल पूछने से डरो मत।"
+   }
+  ],
+  "tags": [
+   "core",
+   "study"
+  ]
+ },
+ {
+  "id": "col:068",
+  "phrase": "tell the truth",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to say what is really true",
+  "hi_def": "सच बोलना",
+  "wrong": "say the truth",
+  "why_en": "'Tell the truth', 'tell a lie', 'tell a story' use 'tell'. 'Say the truth' is wrong.",
+  "why_hi": "'tell the truth', 'tell a lie', 'tell a story' में 'tell' आता है। 'say the truth' गलत है।",
+  "examples": [
+   {
+    "en": "To tell the truth, I didn't finish the task.",
+    "hi": "सच कहूँ तो मैंने काम पूरा नहीं किया।"
+   },
+   {
+    "en": "Always tell the truth in an incident report.",
+    "hi": "इंसिडेंट रिपोर्ट में हमेशा सच लिखो।"
+   },
+   {
+    "en": "He finally told the truth about the missing files.",
+    "hi": "आख़िरकार उसने गायब फ़ाइलों के बारे में सच बता दिया।"
+   }
+  ],
+  "tags": [
+   "core"
+  ]
+ },
+ {
+  "id": "col:069",
+  "phrase": "save time",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to use less time than you expected",
+  "hi_def": "समय बचाना",
+  "wrong": "save the time",
+  "why_en": "No article in the general sense: 'this tool saves time'. 'Save the time' refers to a specific time.",
+  "why_hi": "सामान्य अर्थ में article नहीं: 'this tool saves time'।",
+  "examples": [
+   {
+    "en": "Automation saves a lot of time.",
+    "hi": "ऑटोमेशन से बहुत समय बचता है।"
+   },
+   {
+    "en": "We saved time by reusing the old script.",
+    "hi": "पुरानी स्क्रिप्ट दोबारा इस्तेमाल करके हमने समय बचाया।"
+   },
+   {
+    "en": "Keyboard shortcuts save time every day.",
+    "hi": "कीबोर्ड शॉर्टकट रोज़ समय बचाते हैं।"
+   }
+  ],
+  "tags": [
+   "core",
+   "work"
+  ]
+ },
+ {
+  "id": "col:070",
+  "phrase": "waste time",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to use time badly on something unimportant",
+  "hi_def": "समय बर्बाद करना",
+  "wrong": "waste the time in doing",
+  "why_en": "'Waste time on something' or 'waste time doing something'. No article, and the preposition is 'on'.",
+  "why_hi": "'waste time on' या 'waste time doing'। article नहीं, preposition 'on' है।",
+  "examples": [
+   {
+    "en": "Don't waste time on meetings that could be emails.",
+    "hi": "ऐसी मीटिंग पर समय बर्बाद मत करो जो ईमेल से हो सकती थी।"
+   },
+   {
+    "en": "I wasted an hour looking for that bug.",
+    "hi": "मैंने वह बग ढूँढने में एक घंटा बर्बाद किया।"
+   },
+   {
+    "en": "We're wasting time; let's decide.",
+    "hi": "हम समय बर्बाद कर रहे हैं; चलो फ़ैसला करते हैं।"
+   }
+  ],
+  "tags": [
+   "core",
+   "work"
+  ]
+ },
+ {
+  "id": "col:071",
+  "phrase": "spend money",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to use money to buy things",
+  "hi_def": "पैसा ख़र्च करना",
+  "wrong": "spend money for buying",
+  "why_en": "'Spend money on something': 'I spent ₹5000 on a keyboard'. Not 'for'.",
+  "why_hi": "'spend money on': 'I spent ₹5000 on a keyboard'। 'for' नहीं।",
+  "examples": [
+   {
+    "en": "I spend too much money on coffee.",
+    "hi": "मैं कॉफ़ी पर बहुत ज़्यादा पैसा ख़र्च करता हूँ।"
+   },
+   {
+    "en": "The company spent millions on new security tools.",
+    "hi": "कंपनी ने नए सुरक्षा टूल्स पर करोड़ों ख़र्च किए।"
+   },
+   {
+    "en": "How much did you spend on the trip?",
+    "hi": "तुमने यात्रा पर कितना ख़र्च किया?"
+   }
+  ],
+  "tags": [
+   "core"
+  ]
+ },
+ {
+  "id": "col:072",
+  "phrase": "follow instructions",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to do what you are told to do",
+  "hi_def": "निर्देशों का पालन करना",
+  "wrong": "obey the instructions given by concerned authority",
+  "why_en": "'Follow instructions' is standard. 'Obey' is stronger and used for orders or laws.",
+  "why_hi": "'follow instructions' मानक है। 'obey' आदेशों या कानूनों के लिए है।",
+  "examples": [
+   {
+    "en": "Follow the instructions in the README.",
+    "hi": "README में दिए गए निर्देशों का पालन करो।"
+   },
+   {
+    "en": "He didn't follow the instructions and broke the build.",
+    "hi": "उसने निर्देशों का पालन नहीं किया और बिल्ड टूट गया।"
+   },
+   {
+    "en": "Please follow these steps to reset your password.",
+    "hi": "अपना पासवर्ड रीसेट करने के लिए इन चरणों का पालन करें।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:073",
+  "phrase": "set an alarm",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to make an alarm clock ring at a certain time",
+  "hi_def": "अलार्म लगाना",
+  "wrong": "put an alarm",
+  "why_en": "'Set an alarm' is correct. 'Put an alarm' is a translation of 'अलार्म लगाना'.",
+  "why_hi": "'set an alarm' सही है। 'put an alarm' हिंदी 'लगाना' का अनुवाद है।",
+  "examples": [
+   {
+    "en": "I set an alarm for six every day.",
+    "hi": "मैं रोज़ छह बजे का अलार्म लगाता हूँ।"
+   },
+   {
+    "en": "Did you set an alarm for the early flight?",
+    "hi": "क्या तुमने सुबह की फ़्लाइट के लिए अलार्म लगाया?"
+   },
+   {
+    "en": "She set three alarms and still overslept.",
+    "hi": "उसने तीन अलार्म लगाए और फिर भी देर तक सोती रही।"
+   }
+  ],
+  "tags": [
+   "home"
+  ]
+ },
+ {
+  "id": "col:074",
+  "phrase": "turn on the light",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to switch a light on",
+  "hi_def": "बत्ती जलाना, लाइट चालू करना",
+  "wrong": "open the light",
+  "why_en": "'Open the light' comes from Hindi 'लाइट खोलो'. In English you 'turn on' or 'switch on' lights, fans and devices.",
+  "why_hi": "'open the light' हिंदी 'लाइट खोलो' से आता है। अंग्रेज़ी में 'turn on' / 'switch on' कहते हैं।",
+  "examples": [
+   {
+    "en": "Could you turn on the light? It's dark in here.",
+    "hi": "क्या तुम लाइट चालू कर सकते हो? यहाँ अँधेरा है।"
+   },
+   {
+    "en": "Turn off the fan when you leave.",
+    "hi": "जाते समय पंखा बंद कर देना।"
+   },
+   {
+    "en": "He turned on the laptop and started working.",
+    "hi": "उसने लैपटॉप चालू किया और काम शुरू कर दिया।"
+   }
+  ],
+  "tags": [
+   "home",
+   "core"
+  ]
+ },
+ {
+  "id": "col:075",
+  "phrase": "answer the phone",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to pick up a ringing phone and speak",
+  "hi_def": "फ़ोन उठाना",
+  "wrong": "pick the phone",
+  "why_en": "'Answer the phone' or 'pick up the phone'. 'Pick the phone' (without 'up') means to choose a phone.",
+  "why_hi": "'answer the phone' या 'pick up the phone'। 'pick the phone' का मतलब फ़ोन चुनना है।",
+  "examples": [
+   {
+    "en": "Can someone answer the phone, please?",
+    "hi": "कोई फ़ोन उठाएगा, प्लीज़?"
+   },
+   {
+    "en": "She didn't answer the phone all day.",
+    "hi": "उसने पूरे दिन फ़ोन नहीं उठाया।"
+   },
+   {
+    "en": "I answered the phone on the first ring.",
+    "hi": "मैंने पहली घंटी पर ही फ़ोन उठा लिया।"
+   }
+  ],
+  "tags": [
+   "core"
+  ]
+ },
+ {
+  "id": "col:076",
+  "phrase": "heavy rain",
+  "pattern": "adjective + noun",
+  "cefr": "A2",
+  "en_def": "a large amount of rain falling",
+  "hi_def": "तेज़ बारिश, मूसलाधार बारिश",
+  "wrong": "strong rain",
+  "why_en": "Rain is 'heavy' or 'light', never 'strong' or 'big'. Wind can be strong.",
+  "why_hi": "rain 'heavy' या 'light' होती है, 'strong' या 'big' नहीं। wind strong हो सकती है।",
+  "examples": [
+   {
+    "en": "Heavy rain is expected in Mumbai tonight.",
+    "hi": "आज रात मुंबई में भारी बारिश की संभावना है।"
+   },
+   {
+    "en": "The match was cancelled because of heavy rain.",
+    "hi": "भारी बारिश की वजह से मैच रद्द हो गया।"
+   },
+   {
+    "en": "We got stuck in heavy rain on the way home.",
+    "hi": "घर लौटते समय हम तेज़ बारिश में फँस गए।"
+   }
+  ],
+  "tags": [
+   "adj-noun"
+  ]
+ },
+ {
+  "id": "col:077",
+  "phrase": "strong coffee",
+  "pattern": "adjective + noun",
+  "cefr": "A2",
+  "en_def": "coffee with a lot of flavour and caffeine",
+  "hi_def": "कड़क कॉफ़ी",
+  "wrong": "powerful coffee",
+  "why_en": "Drinks and flavours are 'strong' or 'weak', not 'powerful' or 'heavy'.",
+  "why_hi": "पेय और स्वाद 'strong' या 'weak' होते हैं, 'powerful' या 'heavy' नहीं।",
+  "examples": [
+   {
+    "en": "I need a strong coffee before this meeting.",
+    "hi": "इस मीटिंग से पहले मुझे एक कड़क कॉफ़ी चाहिए।"
+   },
+   {
+    "en": "She likes her tea strong with no sugar.",
+    "hi": "उसे बिना चीनी की कड़क चाय पसंद है।"
+   },
+   {
+    "en": "The coffee here is too strong for me.",
+    "hi": "यहाँ की कॉफ़ी मेरे लिए बहुत कड़क है।"
+   }
+  ],
+  "tags": [
+   "adj-noun"
+  ]
+ },
+ {
+  "id": "col:078",
+  "phrase": "high priority",
+  "pattern": "adjective + noun",
+  "cefr": "B1",
+  "en_def": "very important and needing attention first",
+  "hi_def": "उच्च प्राथमिकता",
+  "wrong": "big priority",
+  "why_en": "Priority is 'high' or 'low', and a task is 'a high priority'. Not 'big/small priority'.",
+  "why_hi": "priority 'high' या 'low' होती है, 'big' या 'small' नहीं।",
+  "examples": [
+   {
+    "en": "Fixing the login bug is a high priority.",
+    "hi": "लॉगिन बग ठीक करना उच्च प्राथमिकता है।"
+   },
+   {
+    "en": "Mark this ticket as high priority.",
+    "hi": "इस टिकट को उच्च प्राथमिकता के रूप में मार्क करो।"
+   },
+   {
+    "en": "Security is a high priority for the company.",
+    "hi": "कंपनी के लिए सुरक्षा उच्च प्राथमिकता है।"
+   }
+  ],
+  "tags": [
+   "adj-noun",
+   "work"
+  ]
+ },
+ {
+  "id": "col:079",
+  "phrase": "close friend",
+  "pattern": "adjective + noun",
+  "cefr": "A2",
+  "en_def": "a friend you know very well and trust",
+  "hi_def": "घनिष्ठ मित्र, क़रीबी दोस्त",
+  "wrong": "near friend",
+  "why_en": "Friends are 'close' or 'good', not 'near'. 'Near' is only for physical distance.",
+  "why_hi": "friend 'close' या 'good' होता है, 'near' नहीं। 'near' सिर्फ़ दूरी के लिए है।",
+  "examples": [
+   {
+    "en": "Rahul is one of my closest friends.",
+    "hi": "राहुल मेरे सबसे क़रीबी दोस्तों में से एक है।"
+   },
+   {
+    "en": "We became close friends at university.",
+    "hi": "हम यूनिवर्सिटी में घनिष्ठ मित्र बन गए।"
+   },
+   {
+    "en": "Only close friends were invited to the dinner.",
+    "hi": "डिनर में सिर्फ़ क़रीबी दोस्तों को बुलाया गया था।"
+   }
+  ],
+  "tags": [
+   "adj-noun"
+  ]
+ },
+ {
+  "id": "col:080",
+  "phrase": "deep sleep",
+  "pattern": "adjective + noun",
+  "cefr": "B1",
+  "en_def": "sleep from which it is hard to wake someone",
+  "hi_def": "गहरी नींद",
+  "wrong": "heavy sleep",
+  "why_en": "Sleep is 'deep' or 'light'. A person can be 'a heavy sleeper', but the sleep itself is 'deep'.",
+  "why_hi": "sleep 'deep' या 'light' होती है। व्यक्ति 'heavy sleeper' हो सकता है, पर नींद 'deep' होती है।",
+  "examples": [
+   {
+    "en": "He was in a deep sleep and didn't hear the alarm.",
+    "hi": "वह गहरी नींद में था और अलार्म नहीं सुना।"
+   },
+   {
+    "en": "Deep sleep is important for memory.",
+    "hi": "याददाश्त के लिए गहरी नींद ज़रूरी है।"
+   },
+   {
+    "en": "After the long flight I fell into a deep sleep.",
+    "hi": "लंबी उड़ान के बाद मैं गहरी नींद में सो गया।"
+   }
+  ],
+  "tags": [
+   "adj-noun",
+   "health"
+  ]
+ },
+ {
+  "id": "col:081",
+  "phrase": "quick look",
+  "pattern": "adjective + noun",
+  "cefr": "A2",
+  "en_def": "a brief examination of something",
+  "hi_def": "सरसरी नज़र, झटपट देखना",
+  "wrong": "fast look",
+  "why_en": "'Quick look', 'quick question', 'quick call' use 'quick'. 'Fast' describes speed of movement, not brevity.",
+  "why_hi": "'quick look', 'quick question' में 'quick' आता है। 'fast' गति के लिए है, संक्षिप्तता के लिए नहीं।",
+  "examples": [
+   {
+    "en": "Let me have a quick look at the logs.",
+    "hi": "मुझे लॉग्स पर एक सरसरी नज़र डालने दो।"
+   },
+   {
+    "en": "I took a quick look and found the typo.",
+    "hi": "मैंने झटपट देखा और टाइपो मिल गया।"
+   },
+   {
+    "en": "Just a quick question before you go.",
+    "hi": "जाने से पहले बस एक छोटा-सा सवाल।"
+   }
+  ],
+  "tags": [
+   "adj-noun",
+   "work"
+  ]
+ },
+ {
+  "id": "col:082",
+  "phrase": "rough estimate",
+  "pattern": "adjective + noun",
+  "cefr": "B2",
+  "en_def": "an approximate calculation, not exact",
+  "hi_def": "मोटा अनुमान",
+  "wrong": "approximate idea",
+  "why_en": "'Rough estimate' or 'ballpark figure' is what native speakers say. 'Approximate idea' is understandable but unusual.",
+  "why_hi": "'rough estimate' या 'ballpark figure' स्वाभाविक है।",
+  "examples": [
+   {
+    "en": "Can you give me a rough estimate of the cost?",
+    "hi": "क्या तुम मुझे लागत का मोटा अनुमान दे सकते हो?"
+   },
+   {
+    "en": "As a rough estimate, it will take two weeks.",
+    "hi": "मोटे अनुमान के अनुसार इसमें दो हफ़्ते लगेंगे।"
+   },
+   {
+    "en": "This is only a rough estimate, not a quote.",
+    "hi": "यह सिर्फ़ मोटा अनुमान है, कोई कोटेशन नहीं।"
+   }
+  ],
+  "tags": [
+   "adj-noun",
+   "work"
+  ]
+ },
+ {
+  "id": "col:083",
+  "phrase": "valid point",
+  "pattern": "adjective + noun",
+  "cefr": "B2",
+  "en_def": "a reasonable argument that deserves consideration",
+  "hi_def": "वाजिब बात, सही तर्क",
+  "wrong": "correct point",
+  "why_en": "In discussions, say 'that's a valid point' or 'a good point'. 'Correct point' sounds unnatural.",
+  "why_hi": "चर्चा में 'that's a valid point' या 'a good point' कहें।",
+  "examples": [
+   {
+    "en": "That's a valid point; we haven't tested on Safari.",
+    "hi": "यह वाजिब बात है; हमने Safari पर टेस्ट नहीं किया।"
+   },
+   {
+    "en": "She raised a valid point about data privacy.",
+    "hi": "उसने डेटा गोपनीयता के बारे में सही बात उठाई।"
+   },
+   {
+    "en": "He made several valid points in the review.",
+    "hi": "उसने रिव्यू में कई सही बातें कहीं।"
+   }
+  ],
+  "tags": [
+   "adj-noun",
+   "work"
+  ]
+ },
+ {
+  "id": "col:084",
+  "phrase": "fair enough",
+  "pattern": "adjective + adverb",
+  "cefr": "B1",
+  "en_def": "used to say you accept what someone said as reasonable",
+  "hi_def": "ठीक है, मान गया",
+  "wrong": "okay, it is fair",
+  "why_en": "'Fair enough' is a fixed reply meaning 'I accept your point'. Very common in spoken English.",
+  "why_hi": "'fair enough' निश्चित जवाब है जिसका मतलब है 'तुम्हारी बात मान ली'। बोलचाल में बहुत आम।",
+  "examples": [
+   {
+    "en": "\"I can't come; I have a deadline.\" \"Fair enough.\"",
+    "hi": "\"मैं नहीं आ सकता; मेरी डेडलाइन है।\" \"ठीक है, समझ गया।\""
+   },
+   {
+    "en": "Fair enough, let's postpone the release.",
+    "hi": "ठीक है, रिलीज़ टाल देते हैं।"
+   },
+   {
+    "en": "If you need more time, fair enough.",
+    "hi": "अगर तुम्हें और समय चाहिए तो ठीक है।"
+   }
+  ],
+  "tags": [
+   "adj-noun",
+   "spoken"
+  ]
+ },
+ {
+  "id": "col:085",
+  "phrase": "heavy traffic",
+  "pattern": "adjective + noun",
+  "cefr": "A2",
+  "en_def": "a lot of vehicles on the road moving slowly",
+  "hi_def": "भारी ट्रैफ़िक, जाम",
+  "wrong": "too much traffic jam",
+  "why_en": "'Heavy traffic' or 'a traffic jam'. 'Too much traffic jam' mixes the two. Traffic is uncountable.",
+  "why_hi": "'heavy traffic' या 'a traffic jam'। 'too much traffic jam' गलत मिश्रण है। traffic अगणनीय है।",
+  "examples": [
+   {
+    "en": "I was late because of heavy traffic.",
+    "hi": "भारी ट्रैफ़िक की वजह से मुझे देर हो गई।"
+   },
+   {
+    "en": "There's always heavy traffic on this road at six.",
+    "hi": "छह बजे इस सड़क पर हमेशा भारी ट्रैफ़िक होता है।"
+   },
+   {
+    "en": "We avoided heavy traffic by leaving early.",
+    "hi": "जल्दी निकलकर हम भारी ट्रैफ़िक से बच गए।"
+   }
+  ],
+  "tags": [
+   "adj-noun"
+  ]
+ },
+ {
+  "id": "col:086",
+  "phrase": "big mistake",
+  "pattern": "adjective + noun",
+  "cefr": "A2",
+  "en_def": "a serious error",
+  "hi_def": "बड़ी गलती",
+  "wrong": "large mistake",
+  "why_en": "Mistakes are 'big', 'serious', 'silly' or 'careless'. 'Large mistake' is unusual.",
+  "why_hi": "mistake 'big', 'serious', 'silly' या 'careless' होती है, 'large' नहीं।",
+  "examples": [
+   {
+    "en": "Ignoring the warning was a big mistake.",
+    "hi": "चेतावनी को नज़रअंदाज़ करना बड़ी गलती थी।"
+   },
+   {
+    "en": "It would be a big mistake to skip testing.",
+    "hi": "टेस्टिंग छोड़ना बड़ी गलती होगी।"
+   },
+   {
+    "en": "I made a silly mistake in the config file.",
+    "hi": "मैंने कॉन्फ़िग फ़ाइल में एक मूर्खतापूर्ण गलती कर दी।"
+   }
+  ],
+  "tags": [
+   "adj-noun"
+  ]
+ },
+ {
+  "id": "col:087",
+  "phrase": "hard work",
+  "pattern": "adjective + noun",
+  "cefr": "A2",
+  "en_def": "a lot of effort",
+  "hi_def": "कड़ी मेहनत",
+  "wrong": "hard working is needed",
+  "why_en": "The noun phrase is 'hard work'. 'Hardworking' is an adjective for a person: 'a hardworking engineer'.",
+  "why_hi": "संज्ञा 'hard work' है। 'hardworking' व्यक्ति के लिए विशेषण है।",
+  "examples": [
+   {
+    "en": "Fluency takes hard work every day.",
+    "hi": "धाराप्रवाहिता के लिए रोज़ कड़ी मेहनत चाहिए।"
+   },
+   {
+    "en": "All that hard work finally paid off.",
+    "hi": "वह सारी कड़ी मेहनत आख़िरकार रंग लाई।"
+   },
+   {
+    "en": "She is a hardworking and reliable colleague.",
+    "hi": "वह एक मेहनती और भरोसेमंद सहकर्मी है।"
+   }
+  ],
+  "tags": [
+   "adj-noun",
+   "work"
+  ]
+ },
+ {
+  "id": "col:088",
+  "phrase": "good chance",
+  "pattern": "adjective + noun",
+  "cefr": "B1",
+  "en_def": "a strong possibility",
+  "hi_def": "अच्छी संभावना",
+  "wrong": "there are good chances",
+  "why_en": "Say 'there's a good chance (that)...'. Indian English often uses plural 'chances', which is unusual here.",
+  "why_hi": "'there's a good chance that...' कहें। भारतीय अंग्रेज़ी में बहुवचन 'chances' आम है, पर यहाँ असामान्य है।",
+  "examples": [
+   {
+    "en": "There's a good chance the fix will ship today.",
+    "hi": "अच्छी संभावना है कि फ़िक्स आज शिप हो जाएगा।"
+   },
+   {
+    "en": "You have a good chance of passing the interview.",
+    "hi": "तुम्हारे इंटरव्यू पास करने की अच्छी संभावना है।"
+   },
+   {
+    "en": "There's a good chance of rain this evening.",
+    "hi": "आज शाम बारिश की अच्छी संभावना है।"
+   }
+  ],
+  "tags": [
+   "adj-noun"
+  ]
+ },
+ {
+  "id": "col:089",
+  "phrase": "strong password",
+  "pattern": "adjective + noun",
+  "cefr": "B1",
+  "en_def": "a password that is hard to guess or crack",
+  "hi_def": "मज़बूत पासवर्ड",
+  "wrong": "hard password",
+  "why_en": "Passwords are 'strong' or 'weak'. 'Hard password' is not the standard security term.",
+  "why_hi": "password 'strong' या 'weak' होता है। 'hard password' मानक शब्द नहीं है।",
+  "examples": [
+   {
+    "en": "Always use a strong password with at least twelve characters.",
+    "hi": "हमेशा कम से कम बारह अक्षरों का मज़बूत पासवर्ड इस्तेमाल करो।"
+   },
+   {
+    "en": "Weak passwords are the easiest way in for attackers.",
+    "hi": "कमज़ोर पासवर्ड हमलावरों के लिए सबसे आसान रास्ता हैं।"
+   },
+   {
+    "en": "The policy requires a strong password and MFA.",
+    "hi": "नीति के अनुसार मज़बूत पासवर्ड और MFA ज़रूरी है।"
+   }
+  ],
+  "tags": [
+   "adj-noun",
+   "security"
+  ]
+ },
+ {
+  "id": "col:090",
+  "phrase": "short notice",
+  "pattern": "adjective + noun",
+  "cefr": "B2",
+  "en_def": "very little warning before something happens",
+  "hi_def": "कम समय की सूचना, अचानक",
+  "wrong": "in short time",
+  "why_en": "'At short notice' (British) or 'on short notice' (American). Not 'in short time'.",
+  "why_hi": "'at short notice' (ब्रिटिश) या 'on short notice' (अमेरिकी)। 'in short time' नहीं।",
+  "examples": [
+   {
+    "en": "Thanks for joining at such short notice.",
+    "hi": "इतनी कम सूचना पर शामिल होने के लिए धन्यवाद।"
+   },
+   {
+    "en": "The meeting was called at short notice.",
+    "hi": "मीटिंग अचानक बुलाई गई थी।"
+   },
+   {
+    "en": "I can't travel at such short notice.",
+    "hi": "मैं इतने कम समय की सूचना पर यात्रा नहीं कर सकता।"
+   }
+  ],
+  "tags": [
+   "adj-noun",
+   "work"
+  ]
+ },
+ {
+  "id": "col:091",
+  "phrase": "highly likely",
+  "pattern": "adverb + adjective",
+  "cefr": "B2",
+  "en_def": "very probable",
+  "hi_def": "बहुत संभव, अत्यधिक संभावित",
+  "wrong": "very much likely",
+  "why_en": "'Highly likely' / 'highly unlikely' is the natural intensifier. 'Very much likely' is awkward.",
+  "why_hi": "'highly likely' / 'highly unlikely' स्वाभाविक है। 'very much likely' अटपटा है।",
+  "examples": [
+   {
+    "en": "It's highly likely that the attacker used stolen credentials.",
+    "hi": "बहुत संभव है कि हमलावर ने चुराए गए क्रेडेंशियल्स का इस्तेमाल किया।"
+   },
+   {
+    "en": "A release this week is highly unlikely.",
+    "hi": "इस हफ़्ते रिलीज़ की संभावना बहुत कम है।"
+   },
+   {
+    "en": "It's highly likely we'll need more servers.",
+    "hi": "बहुत संभव है कि हमें और सर्वर चाहिए होंगे।"
+   }
+  ],
+  "tags": [
+   "adv-adj",
+   "work"
+  ]
+ },
+ {
+  "id": "col:092",
+  "phrase": "deeply concerned",
+  "pattern": "adverb + adjective",
+  "cefr": "B2",
+  "en_def": "very worried",
+  "hi_def": "गहराई से चिंतित",
+  "wrong": "very much tensed",
+  "why_en": "'Tensed' as an adjective is Indian English. Say 'deeply concerned', 'very worried' or 'tense'.",
+  "why_hi": "विशेषण के रूप में 'tensed' भारतीय अंग्रेज़ी है। 'deeply concerned', 'very worried' या 'tense' कहें।",
+  "examples": [
+   {
+    "en": "We are deeply concerned about the data leak.",
+    "hi": "हम डेटा लीक को लेकर गहराई से चिंतित हैं।"
+   },
+   {
+    "en": "Parents are deeply concerned about screen time.",
+    "hi": "माता-पिता स्क्रीन टाइम को लेकर बहुत चिंतित हैं।"
+   },
+   {
+    "en": "I was deeply concerned when the server went down.",
+    "hi": "जब सर्वर डाउन हुआ तो मैं बहुत चिंतित था।"
+   }
+  ],
+  "tags": [
+   "adv-adj",
+   "work"
+  ]
+ },
+ {
+  "id": "col:093",
+  "phrase": "fully aware",
+  "pattern": "adverb + adjective",
+  "cefr": "B2",
+  "en_def": "knowing something completely",
+  "hi_def": "पूरी तरह अवगत",
+  "wrong": "completely knowing",
+  "why_en": "'Fully aware of something'. 'Know' is not used in the continuous, and 'aware' takes 'of'.",
+  "why_hi": "'fully aware of' कहें। 'know' continuous में नहीं आता, और 'aware' के साथ 'of' आता है।",
+  "examples": [
+   {
+    "en": "We are fully aware of the risks involved.",
+    "hi": "हम इसमें शामिल जोखिमों से पूरी तरह अवगत हैं।"
+   },
+   {
+    "en": "He was fully aware that the deadline was tight.",
+    "hi": "वह पूरी तरह जानता था कि डेडलाइन सख़्त है।"
+   },
+   {
+    "en": "Make sure users are fully aware of the policy change.",
+    "hi": "सुनिश्चित करो कि यूज़र नीति बदलाव से पूरी तरह अवगत हैं।"
+   }
+  ],
+  "tags": [
+   "adv-adj",
+   "work"
+  ]
+ },
+ {
+  "id": "col:094",
+  "phrase": "widely used",
+  "pattern": "adverb + adjective",
+  "cefr": "B2",
+  "en_def": "used by many people or in many places",
+  "hi_def": "व्यापक रूप से प्रयुक्त",
+  "wrong": "very much used",
+  "why_en": "'Widely used', 'widely known', 'widely accepted' are the natural collocations.",
+  "why_hi": "'widely used', 'widely known', 'widely accepted' स्वाभाविक संयोजन हैं।",
+  "examples": [
+   {
+    "en": "Python is widely used in security automation.",
+    "hi": "Python सुरक्षा ऑटोमेशन में व्यापक रूप से प्रयुक्त होता है।"
+   },
+   {
+    "en": "This library is widely used but poorly maintained.",
+    "hi": "यह लाइब्रेरी व्यापक रूप से इस्तेमाल होती है पर ठीक से मेंटेन नहीं होती।"
+   },
+   {
+    "en": "The term is now widely accepted.",
+    "hi": "यह शब्द अब व्यापक रूप से स्वीकृत है।"
+   }
+  ],
+  "tags": [
+   "adv-adj",
+   "tech"
+  ]
+ },
+ {
+  "id": "col:095",
+  "phrase": "seriously injured",
+  "pattern": "adverb + adjective",
+  "cefr": "B1",
+  "en_def": "badly hurt",
+  "hi_def": "गंभीर रूप से घायल",
+  "wrong": "heavily injured",
+  "why_en": "People are 'seriously', 'badly' or 'slightly' injured. 'Heavily' is for rain, traffic and drinking.",
+  "why_hi": "लोग 'seriously', 'badly' या 'slightly' injured होते हैं। 'heavily' बारिश, ट्रैफ़िक के लिए है।",
+  "examples": [
+   {
+    "en": "Two people were seriously injured in the crash.",
+    "hi": "दुर्घटना में दो लोग गंभीर रूप से घायल हुए।"
+   },
+   {
+    "en": "Luckily, no one was seriously injured.",
+    "hi": "सौभाग्य से कोई गंभीर रूप से घायल नहीं हुआ।"
+   },
+   {
+    "en": "He was seriously injured while cycling.",
+    "hi": "साइकिल चलाते समय वह गंभीर रूप से घायल हो गया।"
+   }
+  ],
+  "tags": [
+   "adv-adj"
+  ]
+ },
+ {
+  "id": "col:096",
+  "phrase": "completely different",
+  "pattern": "adverb + adjective",
+  "cefr": "B1",
+  "en_def": "not similar in any way",
+  "hi_def": "बिल्कुल अलग",
+  "wrong": "totally different from than",
+  "why_en": "'Completely/totally different from'. Use one preposition, 'from' (or 'to' in British English), never 'than'.",
+  "why_hi": "'completely different from' कहें। एक ही preposition 'from' (ब्रिटिश में 'to'), 'than' कभी नहीं।",
+  "examples": [
+   {
+    "en": "The production setup is completely different from staging.",
+    "hi": "प्रोडक्शन सेटअप स्टेजिंग से बिल्कुल अलग है।"
+   },
+   {
+    "en": "Her approach was completely different from mine.",
+    "hi": "उसका तरीका मेरे तरीके से बिल्कुल अलग था।"
+   },
+   {
+    "en": "Living abroad is completely different from visiting.",
+    "hi": "विदेश में रहना घूमने जाने से बिल्कुल अलग है।"
+   }
+  ],
+  "tags": [
+   "adv-adj"
+  ]
+ },
+ {
+  "id": "col:097",
+  "phrase": "perfectly clear",
+  "pattern": "adverb + adjective",
+  "cefr": "B2",
+  "en_def": "very easy to understand; leaving no doubt",
+  "hi_def": "पूरी तरह स्पष्ट",
+  "wrong": "very much clear",
+  "why_en": "'Perfectly clear', 'crystal clear', 'absolutely clear'. Avoid 'very much' before adjectives.",
+  "why_hi": "'perfectly clear', 'crystal clear' कहें। विशेषणों से पहले 'very much' न लगाएँ।",
+  "examples": [
+   {
+    "en": "Let me be perfectly clear: this must not happen again.",
+    "hi": "मैं पूरी तरह स्पष्ट कर दूँ: यह दोबारा नहीं होना चाहिए।"
+   },
+   {
+    "en": "The instructions were perfectly clear.",
+    "hi": "निर्देश पूरी तरह स्पष्ट थे।"
+   },
+   {
+    "en": "Is that perfectly clear to everyone?",
+    "hi": "क्या यह सबको पूरी तरह स्पष्ट है?"
+   }
+  ],
+  "tags": [
+   "adv-adj",
+   "work"
+  ]
+ },
+ {
+  "id": "col:098",
+  "phrase": "strictly confidential",
+  "pattern": "adverb + adjective",
+  "cefr": "B2",
+  "en_def": "must be kept completely secret",
+  "hi_def": "पूर्णतः गोपनीय",
+  "wrong": "highly secret",
+  "why_en": "Documents are 'strictly confidential' or 'highly sensitive'. 'Highly secret' is not standard.",
+  "why_hi": "दस्तावेज़ 'strictly confidential' या 'highly sensitive' होते हैं।",
+  "examples": [
+   {
+    "en": "The pentest findings are strictly confidential.",
+    "hi": "पेनटेस्ट के निष्कर्ष पूर्णतः गोपनीय हैं।"
+   },
+   {
+    "en": "Please treat this email as strictly confidential.",
+    "hi": "कृपया इस ईमेल को पूर्णतः गोपनीय मानें।"
+   },
+   {
+    "en": "Salary details are strictly confidential.",
+    "hi": "वेतन विवरण पूर्णतः गोपनीय हैं।"
+   }
+  ],
+  "tags": [
+   "adv-adj",
+   "security"
+  ]
+ },
+ {
+  "id": "col:099",
+  "phrase": "badly damaged",
+  "pattern": "adverb + adjective",
+  "cefr": "B1",
+  "en_def": "harmed to a serious degree",
+  "hi_def": "बुरी तरह क्षतिग्रस्त",
+  "wrong": "heavily broken",
+  "why_en": "'Badly damaged', 'severely damaged'. 'Broken' does not take 'heavily'.",
+  "why_hi": "'badly damaged', 'severely damaged' कहें।",
+  "examples": [
+   {
+    "en": "The hard drive was badly damaged in the flood.",
+    "hi": "बाढ़ में हार्ड ड्राइव बुरी तरह क्षतिग्रस्त हो गई।"
+   },
+   {
+    "en": "The company's reputation was badly damaged by the breach.",
+    "hi": "सेंध से कंपनी की प्रतिष्ठा को बुरी तरह नुकसान पहुँचा।"
+   },
+   {
+    "en": "Several cars were badly damaged.",
+    "hi": "कई गाड़ियाँ बुरी तरह क्षतिग्रस्त हो गईं।"
+   }
+  ],
+  "tags": [
+   "adv-adj"
+  ]
+ },
+ {
+  "id": "col:100",
+  "phrase": "bitterly disappointed",
+  "pattern": "adverb + adjective",
+  "cefr": "C1",
+  "en_def": "extremely disappointed",
+  "hi_def": "बेहद निराश",
+  "wrong": "very much disappointed",
+  "why_en": "'Bitterly disappointed', 'deeply disappointed'. Native speakers use specific intensifiers rather than 'very much'.",
+  "why_hi": "'bitterly disappointed', 'deeply disappointed'। native speakers 'very much' की जगह विशिष्ट intensifier इस्तेमाल करते हैं।",
+  "examples": [
+   {
+    "en": "We were bitterly disappointed to lose the contract.",
+    "hi": "कॉन्ट्रैक्ट खोकर हम बेहद निराश हुए।"
+   },
+   {
+    "en": "Fans were bitterly disappointed by the result.",
+    "hi": "नतीजे से प्रशंसक बेहद निराश थे।"
+   },
+   {
+    "en": "He was bitterly disappointed not to get the role.",
+    "hi": "रोल न मिलने से वह बेहद निराश था।"
+   }
+  ],
+  "tags": [
+   "adv-adj"
+  ]
+ },
+ {
+  "id": "col:101",
+  "phrase": "depend on",
+  "pattern": "verb + preposition",
+  "cefr": "A2",
+  "en_def": "to be affected or decided by something; to rely on",
+  "hi_def": "निर्भर होना, पर निर्भर करना",
+  "wrong": "depend upon on",
+  "why_en": "'Depend on' (or 'depend upon', more formal). Never both, and never 'depend of' or 'depend to'.",
+  "why_hi": "'depend on' (या औपचारिक 'depend upon')। दोनों साथ नहीं, और 'depend of' / 'depend to' कभी नहीं।",
+  "examples": [
+   {
+    "en": "The release date depends on the test results.",
+    "hi": "रिलीज़ की तारीख टेस्ट के नतीजों पर निर्भर करती है।"
+   },
+   {
+    "en": "You can always depend on her.",
+    "hi": "तुम हमेशा उस पर भरोसा कर सकते हो।"
+   },
+   {
+    "en": "It depends on how much time we have.",
+    "hi": "यह इस पर निर्भर करता है कि हमारे पास कितना समय है।"
+   }
+  ],
+  "tags": [
+   "verb-prep"
+  ]
+ },
+ {
+  "id": "col:102",
+  "phrase": "consist of",
+  "pattern": "verb + preposition",
+  "cefr": "B1",
+  "en_def": "to be made up of parts",
+  "hi_def": "से बना होना, से मिलकर बनना",
+  "wrong": "consist in / is consisting of",
+  "why_en": "'Consist of' is stative: 'the team consists of five people', never 'is consisting of'.",
+  "why_hi": "'consist of' continuous में नहीं आता: 'the team consists of five people'।",
+  "examples": [
+   {
+    "en": "The team consists of three engineers and a designer.",
+    "hi": "टीम तीन इंजीनियरों और एक डिज़ाइनर से बनी है।"
+   },
+   {
+    "en": "The exam consists of four sections.",
+    "hi": "परीक्षा में चार खंड होते हैं।"
+   },
+   {
+    "en": "A strong password consists of letters, numbers and symbols.",
+    "hi": "एक मज़बूत पासवर्ड अक्षरों, अंकों और चिह्नों से बना होता है।"
+   }
+  ],
+  "tags": [
+   "verb-prep"
+  ]
+ },
+ {
+  "id": "col:103",
+  "phrase": "insist on",
+  "pattern": "verb + preposition",
+  "cefr": "B2",
+  "en_def": "to demand something firmly",
+  "hi_def": "पर ज़ोर देना, आग्रह करना",
+  "wrong": "insist for",
+  "why_en": "'Insist on (doing) something'. The preposition is 'on', not 'for' or 'to'.",
+  "why_hi": "'insist on (doing)' कहें। preposition 'on' है, 'for' या 'to' नहीं।",
+  "examples": [
+   {
+    "en": "The client insisted on a full retest.",
+    "hi": "क्लाइंट ने पूरे रीटेस्ट पर ज़ोर दिया।"
+   },
+   {
+    "en": "She insists on paying for lunch every time.",
+    "hi": "वह हर बार लंच का बिल देने पर ज़ोर देती है।"
+   },
+   {
+    "en": "I insist on seeing the logs before we close the ticket.",
+    "hi": "टिकट बंद करने से पहले मैं लॉग्स देखने पर ज़ोर देता हूँ।"
+   }
+  ],
+  "tags": [
+   "verb-prep"
+  ]
+ },
+ {
+  "id": "col:104",
+  "phrase": "apologise for",
+  "pattern": "verb + preposition",
+  "cefr": "B1",
+  "en_def": "to say sorry for something you did",
+  "hi_def": "के लिए माफ़ी माँगना",
+  "wrong": "apologise about / sorry for the inconvenience caused",
+  "why_en": "'Apologise for something' / 'apologise to someone'. American spelling: apologize.",
+  "why_hi": "'apologise for something' / 'apologise to someone'। अमेरिकी वर्तनी: apologize।",
+  "examples": [
+   {
+    "en": "I apologise for the delay in replying.",
+    "hi": "जवाब देने में देरी के लिए मैं माफ़ी माँगता हूँ।"
+   },
+   {
+    "en": "He apologised to the team for the outage.",
+    "hi": "उसने आउटेज के लिए टीम से माफ़ी माँगी।"
+   },
+   {
+    "en": "We apologise for any inconvenience.",
+    "hi": "किसी भी असुविधा के लिए हम क्षमा चाहते हैं।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "work"
+  ]
+ },
+ {
+  "id": "col:105",
+  "phrase": "agree with",
+  "pattern": "verb + preposition",
+  "cefr": "A2",
+  "en_def": "to have the same opinion as a person",
+  "hi_def": "से सहमत होना",
+  "wrong": "agree to him / I am agree",
+  "why_en": "'Agree with a person or opinion', 'agree on a topic', 'agree to a proposal'. And never 'I am agree'; 'agree' is a verb.",
+  "why_hi": "'agree with' व्यक्ति/राय के लिए, 'agree on' विषय के लिए, 'agree to' प्रस्ताव के लिए। 'I am agree' गलत है; agree क्रिया है।",
+  "examples": [
+   {
+    "en": "I agree with you about the design.",
+    "hi": "मैं डिज़ाइन के बारे में तुमसे सहमत हूँ।"
+   },
+   {
+    "en": "We agreed on a date for the launch.",
+    "hi": "हम लॉन्च की तारीख पर सहमत हुए।"
+   },
+   {
+    "en": "The vendor agreed to our terms.",
+    "hi": "वेंडर हमारी शर्तों पर सहमत हो गया।"
+   }
+  ],
+  "tags": [
+   "verb-prep"
+  ]
+ },
+ {
+  "id": "col:106",
+  "phrase": "discuss something",
+  "pattern": "verb + object (no preposition)",
+  "cefr": "A2",
+  "en_def": "to talk about something with someone",
+  "hi_def": "चर्चा करना",
+  "wrong": "discuss about the issue",
+  "why_en": "'Discuss' takes a direct object: 'discuss the issue'. 'Discuss about' is one of the most common Indian errors. Use 'about' only with 'talk' or 'have a discussion'.",
+  "why_hi": "'discuss' के बाद सीधे object आता है: 'discuss the issue'। 'discuss about' सबसे आम भारतीय गलतियों में से है। 'about' सिर्फ़ 'talk about' या 'have a discussion about' में।",
+  "examples": [
+   {
+    "en": "Let's discuss the roadmap on Monday.",
+    "hi": "चलो सोमवार को रोडमैप पर चर्चा करते हैं।"
+   },
+   {
+    "en": "We discussed the findings with the client.",
+    "hi": "हमने क्लाइंट के साथ निष्कर्षों पर चर्चा की।"
+   },
+   {
+    "en": "I'd like to discuss your proposal in detail.",
+    "hi": "मैं आपके प्रस्ताव पर विस्तार से चर्चा करना चाहूँगा।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "indianism"
+  ]
+ },
+ {
+  "id": "col:107",
+  "phrase": "listen to",
+  "pattern": "verb + preposition",
+  "cefr": "A1",
+  "en_def": "to pay attention to a sound or person",
+  "hi_def": "सुनना",
+  "wrong": "listen the music",
+  "why_en": "'Listen' always needs 'to' before its object: 'listen to music'. 'Hear' takes no preposition.",
+  "why_hi": "'listen' के बाद हमेशा 'to' आता है: 'listen to music'। 'hear' के साथ preposition नहीं।",
+  "examples": [
+   {
+    "en": "I listen to podcasts on my commute.",
+    "hi": "मैं सफ़र में पॉडकास्ट सुनता हूँ।"
+   },
+   {
+    "en": "Listen to the sentence, then repeat it.",
+    "hi": "वाक्य सुनो, फिर दोहराओ।"
+   },
+   {
+    "en": "Nobody listened to my warning.",
+    "hi": "किसी ने मेरी चेतावनी नहीं सुनी।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "core"
+  ]
+ },
+ {
+  "id": "col:108",
+  "phrase": "look forward to",
+  "pattern": "verb + preposition",
+  "cefr": "B1",
+  "en_def": "to feel happy about something that is going to happen",
+  "hi_def": "उत्सुकता से प्रतीक्षा करना",
+  "wrong": "looking forward to meet you",
+  "why_en": "'Look forward to' is followed by a noun or -ing form: 'looking forward to meeting you', not 'to meet'.",
+  "why_hi": "'look forward to' के बाद संज्ञा या -ing आता है: 'looking forward to meeting you', 'to meet' नहीं।",
+  "examples": [
+   {
+    "en": "I look forward to hearing from you.",
+    "hi": "मैं आपके उत्तर की प्रतीक्षा करता हूँ।"
+   },
+   {
+    "en": "We're looking forward to the holidays.",
+    "hi": "हम छुट्टियों का बेसब्री से इंतज़ार कर रहे हैं।"
+   },
+   {
+    "en": "She's looking forward to starting her new job.",
+    "hi": "वह अपनी नई नौकरी शुरू करने के लिए उत्सुक है।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "work"
+  ]
+ },
+ {
+  "id": "col:109",
+  "phrase": "arrive at / in",
+  "pattern": "verb + preposition",
+  "cefr": "A2",
+  "en_def": "to reach a place",
+  "hi_def": "पहुँचना",
+  "wrong": "arrive to / reach to",
+  "why_en": "'Arrive at' a building or event, 'arrive in' a city or country. 'Reach' takes no preposition: 'reach the office'.",
+  "why_hi": "'arrive at' इमारत/कार्यक्रम के लिए, 'arrive in' शहर/देश के लिए। 'reach' के साथ preposition नहीं।",
+  "examples": [
+   {
+    "en": "We arrived at the airport two hours early.",
+    "hi": "हम एयरपोर्ट दो घंटे पहले पहुँच गए।"
+   },
+   {
+    "en": "She arrived in London on Sunday.",
+    "hi": "वह रविवार को लंदन पहुँची।"
+   },
+   {
+    "en": "Call me when you reach the office.",
+    "hi": "ऑफ़िस पहुँचकर मुझे फ़ोन करना।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "core"
+  ]
+ },
+ {
+  "id": "col:110",
+  "phrase": "explain something to someone",
+  "pattern": "verb + object + preposition",
+  "cefr": "A2",
+  "en_def": "to make something clear to a person",
+  "hi_def": "किसी को समझाना",
+  "wrong": "explain me the rule",
+  "why_en": "'Explain' cannot take an indirect object directly: say 'explain the rule to me', not 'explain me the rule'.",
+  "why_hi": "'explain me' गलत है: 'explain the rule to me' कहें।",
+  "examples": [
+   {
+    "en": "Can you explain the process to me?",
+    "hi": "क्या तुम मुझे यह प्रक्रिया समझा सकते हो?"
+   },
+   {
+    "en": "She explained the vulnerability to the developers.",
+    "hi": "उसने डेवलपर्स को भेद्यता समझाई।"
+   },
+   {
+    "en": "Let me explain this to you step by step.",
+    "hi": "मैं तुम्हें यह चरण-दर-चरण समझाता हूँ।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "core"
+  ]
+ },
+ {
+  "id": "col:111",
+  "phrase": "patch a vulnerability",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to apply a fix that removes a security weakness",
+  "hi_def": "भेद्यता को पैच करना, सुरक्षा खामी ठीक करना",
+  "wrong": "solve the vulnerability",
+  "why_en": "Vulnerabilities are 'patched', 'fixed', 'remediated' or 'mitigated'. 'Solve' is for problems and puzzles.",
+  "why_hi": "vulnerability 'patch', 'fix', 'remediate' या 'mitigate' की जाती है। 'solve' problems के लिए है।",
+  "examples": [
+   {
+    "en": "The vendor patched the vulnerability within 48 hours.",
+    "hi": "वेंडर ने 48 घंटों के भीतर भेद्यता पैच कर दी।"
+   },
+   {
+    "en": "We must patch this vulnerability before the weekend.",
+    "hi": "हमें यह भेद्यता वीकेंड से पहले पैच करनी होगी।"
+   },
+   {
+    "en": "Unpatched vulnerabilities are a major risk.",
+    "hi": "बिना पैच की गई भेद्यताएँ बड़ा जोखिम हैं।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:112",
+  "phrase": "escalate privileges",
+  "pattern": "verb + noun",
+  "cefr": "C1",
+  "en_def": "to gain higher access rights than intended on a system",
+  "hi_def": "विशेषाधिकार बढ़ाना (अनधिकृत रूप से उच्च अधिकार पाना)",
+  "wrong": "increase the privileges by hacking",
+  "why_en": "The security term is 'privilege escalation' / 'escalate privileges'. Also note: 'escalate an issue' means to send it to a higher level.",
+  "why_hi": "सुरक्षा शब्द 'privilege escalation' / 'escalate privileges' है। 'escalate an issue' का मतलब मुद्दे को ऊपर भेजना है।",
+  "examples": [
+   {
+    "en": "The attacker escalated privileges to root via a kernel bug.",
+    "hi": "हमलावर ने कर्नेल बग के ज़रिए root तक विशेषाधिकार बढ़ा लिए।"
+   },
+   {
+    "en": "A local user could escalate privileges using this flaw.",
+    "hi": "एक स्थानीय यूज़र इस खामी से विशेषाधिकार बढ़ा सकता था।"
+   },
+   {
+    "en": "We escalated the issue to the on-call lead.",
+    "hi": "हमने मुद्दा ऑन-कॉल लीड तक पहुँचाया।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:113",
+  "phrase": "exfiltrate data",
+  "pattern": "verb + noun",
+  "cefr": "C1",
+  "en_def": "to secretly copy data out of a system without permission",
+  "hi_def": "डेटा चोरी करके बाहर निकालना",
+  "wrong": "steal out the data",
+  "why_en": "In reports, use 'exfiltrate data' or 'data exfiltration'. 'Steal out' is not English.",
+  "why_hi": "रिपोर्ट में 'exfiltrate data' या 'data exfiltration' लिखें। 'steal out' अंग्रेज़ी नहीं है।",
+  "examples": [
+   {
+    "en": "The malware exfiltrated customer data over DNS.",
+    "hi": "मैलवेयर ने DNS के ज़रिए ग्राहक डेटा बाहर भेजा।"
+   },
+   {
+    "en": "There is no evidence that any data was exfiltrated.",
+    "hi": "इसका कोई प्रमाण नहीं है कि कोई डेटा बाहर निकाला गया।"
+   },
+   {
+    "en": "Attackers often exfiltrate data slowly to avoid detection.",
+    "hi": "हमलावर अक्सर पकड़े जाने से बचने के लिए डेटा धीरे-धीरे निकालते हैं।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:114",
+  "phrase": "harden a server",
+  "pattern": "verb + noun",
+  "cefr": "C1",
+  "en_def": "to make a server more secure by reducing its attack surface",
+  "hi_def": "सर्वर को सुरक्षित बनाना, हार्डन करना",
+  "wrong": "make the server strong",
+  "why_en": "'Harden' is the precise verb: 'harden a server', 'system hardening'. 'Make strong' is vague.",
+  "why_hi": "'harden' सटीक क्रिया है: 'harden a server', 'system hardening'।",
+  "examples": [
+   {
+    "en": "We hardened the server by disabling unused services.",
+    "hi": "हमने अनावश्यक सर्विसें बंद करके सर्वर को हार्डन किया।"
+   },
+   {
+    "en": "Follow the CIS benchmark to harden the server.",
+    "hi": "सर्वर हार्डन करने के लिए CIS बेंचमार्क का पालन करो।"
+   },
+   {
+    "en": "Hardening the servers reduced our attack surface.",
+    "hi": "सर्वरों को हार्डन करने से हमारी अटैक सरफ़ेस कम हुई।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:115",
+  "phrase": "rotate credentials",
+  "pattern": "verb + noun",
+  "cefr": "C1",
+  "en_def": "to replace passwords or keys with new ones on a regular basis",
+  "hi_def": "क्रेडेंशियल्स बदलना, नियमित रूप से पासवर्ड/की बदलना",
+  "wrong": "change the passwords regularly by rotation",
+  "why_en": "'Rotate credentials/keys/secrets' is the standard term. Don't explain it with a longer phrase.",
+  "why_hi": "'rotate credentials/keys/secrets' मानक शब्द है। लंबे वाक्यांश से समझाने की ज़रूरत नहीं।",
+  "examples": [
+   {
+    "en": "Rotate all credentials immediately after a breach.",
+    "hi": "सेंध के तुरंत बाद सभी क्रेडेंशियल्स बदलो।"
+   },
+   {
+    "en": "API keys should be rotated every ninety days.",
+    "hi": "API keys हर नब्बे दिन में बदली जानी चाहिए।"
+   },
+   {
+    "en": "We rotated the database credentials last night.",
+    "hi": "हमने कल रात डेटाबेस क्रेडेंशियल्स बदल दिए।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:116",
+  "phrase": "trigger an alert",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to cause a monitoring system to send a warning",
+  "hi_def": "अलर्ट ट्रिगर करना, चेतावनी उत्पन्न करना",
+  "wrong": "give an alarm",
+  "why_en": "'Trigger', 'fire' or 'raise' an alert. 'Alarm' is a physical bell; monitoring uses 'alert'.",
+  "why_hi": "'trigger', 'fire' या 'raise an alert'। 'alarm' भौतिक घंटी है; मॉनिटरिंग में 'alert'।",
+  "examples": [
+   {
+    "en": "Five failed logins trigger an alert.",
+    "hi": "पाँच असफल लॉगिन एक अलर्ट ट्रिगर करते हैं।"
+   },
+   {
+    "en": "The scan triggered dozens of alerts.",
+    "hi": "स्कैन ने दर्जनों अलर्ट ट्रिगर किए।"
+   },
+   {
+    "en": "Why didn't this activity trigger an alert?",
+    "hi": "इस गतिविधि ने अलर्ट क्यों ट्रिगर नहीं किया?"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:117",
+  "phrase": "raise a ticket",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to create a support or issue record in a tracking system",
+  "hi_def": "टिकट बनाना, टिकट दर्ज करना",
+  "wrong": "make a ticket",
+  "why_en": "'Raise', 'open', 'create' or 'file' a ticket. 'Make a ticket' sounds like printing one.",
+  "why_hi": "'raise', 'open', 'create' या 'file a ticket'। 'make a ticket' प्रिंट करने जैसा लगता है।",
+  "examples": [
+   {
+    "en": "Please raise a ticket so we can track the issue.",
+    "hi": "कृपया टिकट बनाएँ ताकि हम मुद्दे को ट्रैक कर सकें।"
+   },
+   {
+    "en": "I raised a ticket with the cloud provider.",
+    "hi": "मैंने क्लाउड प्रोवाइडर के पास टिकट दर्ज किया।"
+   },
+   {
+    "en": "She opened a ticket for the failing backup.",
+    "hi": "उसने फ़ेल हो रहे बैकअप के लिए टिकट खोला।"
+   }
+  ],
+  "tags": [
+   "security",
+   "work"
+  ]
+ },
+ {
+  "id": "col:118",
+  "phrase": "ship a fix",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to release a correction to users",
+  "hi_def": "फ़िक्स रिलीज़ करना, सुधार जारी करना",
+  "wrong": "send the fix live",
+  "why_en": "'Ship a fix', 'deploy a fix', 'roll out a fix' are all natural engineering phrases.",
+  "why_hi": "'ship a fix', 'deploy a fix', 'roll out a fix' सभी स्वाभाविक इंजीनियरिंग वाक्यांश हैं।",
+  "examples": [
+   {
+    "en": "We shipped a fix for the XSS bug this morning.",
+    "hi": "हमने आज सुबह XSS बग का फ़िक्स रिलीज़ किया।"
+   },
+   {
+    "en": "Can we ship the fix before the demo?",
+    "hi": "क्या हम डेमो से पहले फ़िक्स रिलीज़ कर सकते हैं?"
+   },
+   {
+    "en": "The fix was shipped in version 2.3.1.",
+    "hi": "फ़िक्स वर्ज़न 2.3.1 में जारी किया गया।"
+   }
+  ],
+  "tags": [
+   "security",
+   "tech"
+  ]
+ },
+ {
+  "id": "col:119",
+  "phrase": "roll back a deployment",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to return a system to its previous version after a bad release",
+  "hi_def": "डिप्लॉयमेंट वापस लेना, पिछले वर्ज़न पर लौटना",
+  "wrong": "revert back the deployment",
+  "why_en": "'Roll back' or 'revert' a deployment. 'Revert back' is redundant; 'revert' already means go back.",
+  "why_hi": "'roll back' या 'revert a deployment'। 'revert back' में 'back' फ़ालतू है।",
+  "examples": [
+   {
+    "en": "We rolled back the deployment after errors spiked.",
+    "hi": "एरर बढ़ने पर हमने डिप्लॉयमेंट वापस ले लिया।"
+   },
+   {
+    "en": "If anything breaks, roll back immediately.",
+    "hi": "अगर कुछ टूटे तो तुरंत रोल बैक करो।"
+   },
+   {
+    "en": "The rollback took less than two minutes.",
+    "hi": "रोलबैक में दो मिनट से भी कम लगा।"
+   }
+  ],
+  "tags": [
+   "security",
+   "tech"
+  ]
+ },
+ {
+  "id": "col:120",
+  "phrase": "reproduce a bug",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to make a bug happen again in order to study it",
+  "hi_def": "बग को दोबारा उत्पन्न करना",
+  "wrong": "regenerate the bug",
+  "why_en": "'Reproduce a bug' and 'steps to reproduce' are standard. 'Regenerate' is for keys and reports.",
+  "why_hi": "'reproduce a bug' और 'steps to reproduce' मानक हैं। 'regenerate' keys और reports के लिए है।",
+  "examples": [
+   {
+    "en": "I couldn't reproduce the bug on my machine.",
+    "hi": "मैं अपनी मशीन पर बग दोबारा नहीं ला सका।"
+   },
+   {
+    "en": "Please include steps to reproduce in the report.",
+    "hi": "कृपया रिपोर्ट में reproduce करने के चरण शामिल करें।"
+   },
+   {
+    "en": "The bug only reproduces on iOS Safari.",
+    "hi": "यह बग सिर्फ़ iOS Safari पर दोबारा होता है।"
+   }
+  ],
+  "tags": [
+   "security",
+   "tech"
+  ]
+ },
+ {
+  "id": "col:121",
+  "phrase": "assess the impact",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to judge how serious the effect of something is",
+  "hi_def": "प्रभाव का आकलन करना",
+  "wrong": "check the impact level",
+  "why_en": "'Assess' or 'evaluate' the impact; 'impact assessment' is the noun. Precise report language.",
+  "why_hi": "'assess' या 'evaluate the impact'; संज्ञा 'impact assessment' है। रिपोर्ट की सटीक भाषा।",
+  "examples": [
+   {
+    "en": "We are still assessing the impact of the breach.",
+    "hi": "हम अभी भी सेंध के प्रभाव का आकलन कर रहे हैं।"
+   },
+   {
+    "en": "Assess the impact before you assign a severity.",
+    "hi": "गंभीरता तय करने से पहले प्रभाव का आकलन करो।"
+   },
+   {
+    "en": "The impact was assessed as low.",
+    "hi": "प्रभाव का आकलन कम के रूप में किया गया।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:122",
+  "phrase": "conduct a pentest",
+  "pattern": "verb + noun",
+  "cefr": "C1",
+  "en_def": "to carry out an authorised simulated attack on a system",
+  "hi_def": "पेनेट्रेशन टेस्ट करना",
+  "wrong": "do hacking test",
+  "why_en": "'Conduct', 'perform' or 'carry out' a penetration test (pentest). 'Hacking test' is not professional language.",
+  "why_hi": "'conduct', 'perform' या 'carry out a penetration test'। 'hacking test' पेशेवर भाषा नहीं है।",
+  "examples": [
+   {
+    "en": "We conducted a pentest of the payment API last month.",
+    "hi": "पिछले महीने हमने पेमेंट API का पेनटेस्ट किया।"
+   },
+   {
+    "en": "An external firm will conduct the pentest.",
+    "hi": "एक बाहरी फ़र्म पेनटेस्ट करेगी।"
+   },
+   {
+    "en": "The pentest was conducted with written authorisation.",
+    "hi": "पेनटेस्ट लिखित अनुमति के साथ किया गया।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:123",
+  "phrase": "review a pull request",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to examine proposed code changes before merging",
+  "hi_def": "पुल रिक्वेस्ट की समीक्षा करना",
+  "wrong": "check the PR once",
+  "why_en": "'Review a PR' is the professional term. 'Check once' is a Hindi calque ('एक बार चेक करना').",
+  "why_hi": "'review a PR' पेशेवर शब्द है। 'check once' हिंदी 'एक बार चेक करना' का अनुवाद है।",
+  "examples": [
+   {
+    "en": "Could you review my pull request when you have time?",
+    "hi": "समय मिले तो क्या तुम मेरी पुल रिक्वेस्ट रिव्यू कर सकते हो?"
+   },
+   {
+    "en": "I reviewed the PR and left a few comments.",
+    "hi": "मैंने PR रिव्यू किया और कुछ टिप्पणियाँ छोड़ीं।"
+   },
+   {
+    "en": "Every PR must be reviewed by two people.",
+    "hi": "हर PR की समीक्षा दो लोगों द्वारा होनी चाहिए।"
+   }
+  ],
+  "tags": [
+   "security",
+   "tech"
+  ]
+ },
+ {
+  "id": "col:124",
+  "phrase": "gain access",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to obtain the ability to enter or use a system",
+  "hi_def": "पहुँच प्राप्त करना, एक्सेस पाना",
+  "wrong": "get entry into the system",
+  "why_en": "'Gain (unauthorised) access to a system' is the standard phrase in security reports.",
+  "why_hi": "'gain (unauthorised) access to' सुरक्षा रिपोर्टों का मानक वाक्यांश है।",
+  "examples": [
+   {
+    "en": "The attacker gained access through a phishing email.",
+    "hi": "हमलावर ने फ़िशिंग ईमेल के ज़रिए पहुँच प्राप्त की।"
+   },
+   {
+    "en": "Nobody should gain access without MFA.",
+    "hi": "MFA के बिना किसी को एक्सेस नहीं मिलनी चाहिए।"
+   },
+   {
+    "en": "We could not determine how they gained access.",
+    "hi": "हम यह तय नहीं कर सके कि उन्होंने एक्सेस कैसे पाई।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:125",
+  "phrase": "bypass authentication",
+  "pattern": "verb + noun",
+  "cefr": "C1",
+  "en_def": "to get past a login check without valid credentials",
+  "hi_def": "प्रमाणीकरण को दरकिनार करना",
+  "wrong": "cross the login",
+  "why_en": "'Bypass' is the exact verb: 'authentication bypass', 'bypass a control'. 'Cross the login' is not English.",
+  "why_hi": "'bypass' सटीक क्रिया है: 'authentication bypass', 'bypass a control'।",
+  "examples": [
+   {
+    "en": "The flaw allowed attackers to bypass authentication entirely.",
+    "hi": "इस खामी ने हमलावरों को प्रमाणीकरण पूरी तरह दरकिनार करने दिया।"
+   },
+   {
+    "en": "We found a way to bypass the rate limit.",
+    "hi": "हमें रेट लिमिट को दरकिनार करने का तरीका मिला।"
+   },
+   {
+    "en": "An authentication bypass is always critical severity.",
+    "hi": "authentication bypass हमेशा critical गंभीरता का होता है।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:126",
+  "phrase": "disclose a finding",
+  "pattern": "verb + noun",
+  "cefr": "C1",
+  "en_def": "to formally report a discovered vulnerability to the affected party",
+  "hi_def": "निष्कर्ष का खुलासा करना, भेद्यता की सूचना देना",
+  "wrong": "tell the vulnerability to the company",
+  "why_en": "'Disclose a vulnerability/finding', 'responsible disclosure'. 'Tell' is too informal for reports.",
+  "why_hi": "'disclose a vulnerability/finding', 'responsible disclosure'। 'tell' रिपोर्ट के लिए बहुत अनौपचारिक है।",
+  "examples": [
+   {
+    "en": "We disclosed the finding to the vendor on 3 March.",
+    "hi": "हमने 3 मार्च को वेंडर को निष्कर्ष का खुलासा किया।"
+   },
+   {
+    "en": "Researchers usually disclose findings after 90 days.",
+    "hi": "शोधकर्ता आमतौर पर 90 दिनों के बाद निष्कर्ष प्रकट करते हैं।"
+   },
+   {
+    "en": "The finding was disclosed responsibly.",
+    "hi": "निष्कर्ष का ज़िम्मेदारी से खुलासा किया गया।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:127",
+  "phrase": "assign severity",
+  "pattern": "verb + noun",
+  "cefr": "C1",
+  "en_def": "to decide how serious a vulnerability or bug is (e.g. critical, high, medium, low)",
+  "hi_def": "गंभीरता निर्धारित करना",
+  "wrong": "give the severity as high",
+  "why_en": "'Assign a severity', 'rate as high severity', 'classify as critical'. Report language should be precise.",
+  "why_hi": "'assign a severity', 'rate as high severity', 'classify as critical'। रिपोर्ट की भाषा सटीक होनी चाहिए।",
+  "examples": [
+   {
+    "en": "We assigned high severity to the IDOR finding.",
+    "hi": "हमने IDOR निष्कर्ष को उच्च गंभीरता दी।"
+   },
+   {
+    "en": "Severity is assigned based on CVSS score.",
+    "hi": "गंभीरता CVSS स्कोर के आधार पर तय की जाती है।"
+   },
+   {
+    "en": "Please assign severity before submitting the report.",
+    "hi": "रिपोर्ट जमा करने से पहले गंभीरता निर्धारित करें।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:128",
+  "phrase": "close the loop",
+  "pattern": "verb + noun",
+  "cefr": "C1",
+  "en_def": "to finish a process by confirming the outcome with everyone involved",
+  "hi_def": "प्रक्रिया पूरी करना, अंतिम पुष्टि करना",
+  "wrong": "complete the cycle with all",
+  "why_en": "'Close the loop' is a fixed business idiom: make sure the final confirmation reaches everyone.",
+  "why_hi": "'close the loop' निश्चित व्यावसायिक मुहावरा है: अंतिम पुष्टि सबको पहुँचाना।",
+  "examples": [
+   {
+    "en": "I'll close the loop with the client once the fix is verified.",
+    "hi": "फ़िक्स सत्यापित होते ही मैं क्लाइंट के साथ लूप बंद कर दूँगा।"
+   },
+   {
+    "en": "Please close the loop on the open tickets by Friday.",
+    "hi": "कृपया शुक्रवार तक खुले टिकटों पर लूप बंद करें।"
+   },
+   {
+    "en": "We never closed the loop, so the vendor was still waiting.",
+    "hi": "हमने लूप बंद नहीं किया, इसलिए वेंडर अभी भी इंतज़ार कर रहा था।"
+   }
+  ],
+  "tags": [
+   "security",
+   "work"
+  ]
+ },
+ {
+  "id": "col:129",
+  "phrase": "flag an issue",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to mark something as needing attention",
+  "hi_def": "मुद्दे को चिह्नित करना, ध्यान दिलाना",
+  "wrong": "highlight the issue to concerned person",
+  "why_en": "'Flag an issue (to someone)' is a concise, natural phrase. 'Concerned person' is Indian English.",
+  "why_hi": "'flag an issue (to someone)' संक्षिप्त और स्वाभाविक है। 'concerned person' भारतीय अंग्रेज़ी है।",
+  "examples": [
+   {
+    "en": "I flagged the issue to the security team.",
+    "hi": "मैंने सुरक्षा टीम को मुद्दे से अवगत कराया।"
+   },
+   {
+    "en": "The scanner flagged three issues in the dependencies.",
+    "hi": "स्कैनर ने डिपेंडेंसी में तीन मुद्दे चिह्नित किए।"
+   },
+   {
+    "en": "Thanks for flagging this early.",
+    "hi": "इसे जल्दी ध्यान में लाने के लिए धन्यवाद।"
+   }
+  ],
+  "tags": [
+   "security",
+   "work"
+  ]
+ },
+ {
+  "id": "col:130",
+  "phrase": "sanitize input",
+  "pattern": "verb + noun",
+  "cefr": "C1",
+  "en_def": "to clean user-supplied data so it cannot cause harm",
+  "hi_def": "इनपुट को साफ़ करना (सुरक्षित बनाना)",
+  "wrong": "clean the input data properly",
+  "why_en": "'Sanitize input', 'validate input', 'escape output' are the exact security verbs. British spelling: sanitise.",
+  "why_hi": "'sanitize input', 'validate input', 'escape output' सटीक सुरक्षा क्रियाएँ हैं। ब्रिटिश वर्तनी: sanitise।",
+  "examples": [
+   {
+    "en": "The form doesn't sanitize input, so it's vulnerable to XSS.",
+    "hi": "फ़ॉर्म इनपुट को सैनिटाइज़ नहीं करता, इसलिए यह XSS के लिए भेद्य है।"
+   },
+   {
+    "en": "Always sanitize input on the server side.",
+    "hi": "हमेशा सर्वर साइड पर इनपुट सैनिटाइज़ करो।"
+   },
+   {
+    "en": "Validating and sanitizing input prevents most injection attacks.",
+    "hi": "इनपुट को वैलिडेट और सैनिटाइज़ करने से ज़्यादातर इंजेक्शन हमले रुकते हैं।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:131",
+  "phrase": "mitigate a risk",
+  "pattern": "verb + noun",
+  "cefr": "C1",
+  "en_def": "to reduce the severity or likelihood of a risk",
+  "hi_def": "जोखिम कम करना",
+  "wrong": "reduce down the risk",
+  "why_en": "'Mitigate a risk/threat/vulnerability'. 'Reduce down' is redundant.",
+  "why_hi": "'mitigate a risk/threat/vulnerability'। 'reduce down' में 'down' फ़ालतू है।",
+  "examples": [
+   {
+    "en": "We mitigated the risk by adding rate limiting.",
+    "hi": "हमने रेट लिमिटिंग जोड़कर जोखिम कम किया।"
+   },
+   {
+    "en": "A WAF can mitigate but not eliminate the risk.",
+    "hi": "WAF जोखिम कम कर सकता है, पर ख़त्म नहीं।"
+   },
+   {
+    "en": "The report lists steps to mitigate each finding.",
+    "hi": "रिपोर्ट में हर निष्कर्ष को कम करने के चरण दिए गए हैं।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:132",
+  "phrase": "apply a patch",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to install a software update that fixes a problem",
+  "hi_def": "पैच लगाना, अपडेट इंस्टॉल करना",
+  "wrong": "put the patch",
+  "why_en": "'Apply', 'install' or 'deploy' a patch. 'Put a patch' is a Hindi calque of 'लगाना'.",
+  "why_hi": "'apply', 'install' या 'deploy a patch'। 'put a patch' हिंदी 'लगाना' का अनुवाद है।",
+  "examples": [
+   {
+    "en": "Apply the patch to all production servers tonight.",
+    "hi": "आज रात सभी प्रोडक्शन सर्वरों पर पैच लगाओ।"
+   },
+   {
+    "en": "The patch was applied without downtime.",
+    "hi": "पैच बिना डाउनटाइम के लगाया गया।"
+   },
+   {
+    "en": "Have you applied the latest security patches?",
+    "hi": "क्या तुमने नवीनतम सुरक्षा पैच लगाए हैं?"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:133",
+  "phrase": "take ownership",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to accept full responsibility for a task or problem",
+  "hi_def": "स्वामित्व लेना, पूरी ज़िम्मेदारी लेना",
+  "wrong": "become the owner of the task",
+  "why_en": "'Take ownership of something' is common in workplace English. It means responsibility, not legal ownership.",
+  "why_hi": "'take ownership of' कार्यस्थल की आम अंग्रेज़ी है। इसका मतलब ज़िम्मेदारी है, कानूनी स्वामित्व नहीं।",
+  "examples": [
+   {
+    "en": "Who is taking ownership of the migration?",
+    "hi": "माइग्रेशन की ज़िम्मेदारी कौन ले रहा है?"
+   },
+   {
+    "en": "She took ownership of the incident from start to finish.",
+    "hi": "उसने शुरू से अंत तक इंसिडेंट की पूरी ज़िम्मेदारी ली।"
+   },
+   {
+    "en": "I'll take ownership of the follow-up actions.",
+    "hi": "मैं फ़ॉलो-अप कार्यों की ज़िम्मेदारी लूँगा।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:134",
+  "phrase": "provide evidence",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to give proof that something is true",
+  "hi_def": "प्रमाण देना, सबूत देना",
+  "wrong": "give the proofs",
+  "why_en": "'Evidence' and 'proof' are uncountable: 'provide evidence', 'some proof', never 'proofs' or 'evidences'.",
+  "why_hi": "'evidence' और 'proof' अगणनीय हैं: 'provide evidence'; 'proofs' या 'evidences' गलत है।",
+  "examples": [
+   {
+    "en": "Please provide evidence for each finding, such as screenshots.",
+    "hi": "हर निष्कर्ष के लिए स्क्रीनशॉट जैसे प्रमाण दें।"
+   },
+   {
+    "en": "There is no evidence of data loss.",
+    "hi": "डेटा खोने का कोई प्रमाण नहीं है।"
+   },
+   {
+    "en": "The logs provide clear evidence of the intrusion.",
+    "hi": "लॉग्स घुसपैठ का स्पष्ट प्रमाण देते हैं।"
+   }
+  ],
+  "tags": [
+   "security",
+   "work"
+  ]
+ },
+ {
+  "id": "col:135",
+  "phrase": "come to a decision",
+  "pattern": "verb + noun",
+  "cefr": "B2",
+  "en_def": "to decide after discussion",
+  "hi_def": "निर्णय पर पहुँचना",
+  "wrong": "arrive to a decision",
+  "why_en": "'Come to' or 'reach' or 'arrive at' a decision. Never 'arrive to'.",
+  "why_hi": "'come to', 'reach' या 'arrive at a decision'। 'arrive to' कभी नहीं।",
+  "examples": [
+   {
+    "en": "We came to a decision after a long discussion.",
+    "hi": "लंबी चर्चा के बाद हम एक निर्णय पर पहुँचे।"
+   },
+   {
+    "en": "Have you come to a decision about the offer?",
+    "hi": "क्या तुम ऑफ़र के बारे में किसी निर्णय पर पहुँचे?"
+   },
+   {
+    "en": "The board came to a unanimous decision.",
+    "hi": "बोर्ड सर्वसम्मत निर्णय पर पहुँचा।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:136",
+  "phrase": "keep a record",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to write down and store information about something",
+  "hi_def": "रिकॉर्ड रखना",
+  "wrong": "maintain the records of everything",
+  "why_en": "'Keep a record of' is natural. 'Maintain records' is fine in formal writing but 'keep' is more common.",
+  "why_hi": "'keep a record of' स्वाभाविक है। औपचारिक लेखन में 'maintain records' ठीक है।",
+  "examples": [
+   {
+    "en": "Keep a record of every change to the firewall.",
+    "hi": "फ़ायरवॉल में हर बदलाव का रिकॉर्ड रखो।"
+   },
+   {
+    "en": "I keep a record of my mistakes in a notebook.",
+    "hi": "मैं अपनी गलतियों का रिकॉर्ड एक नोटबुक में रखता हूँ।"
+   },
+   {
+    "en": "We kept detailed records during the incident.",
+    "hi": "इंसिडेंट के दौरान हमने विस्तृत रिकॉर्ड रखे।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:137",
+  "phrase": "make an appointment",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to arrange a time to see a doctor, dentist, etc.",
+  "hi_def": "अपॉइंटमेंट लेना",
+  "wrong": "take an appointment",
+  "why_en": "You 'make' or 'book' an appointment; then you 'have' it. 'Take an appointment' is Indian English.",
+  "why_hi": "appointment 'make' या 'book' किया जाता है; फिर 'have' किया जाता है। 'take an appointment' भारतीय प्रयोग है।",
+  "examples": [
+   {
+    "en": "I made an appointment with the dentist for Tuesday.",
+    "hi": "मैंने मंगलवार के लिए डेंटिस्ट का अपॉइंटमेंट लिया।"
+   },
+   {
+    "en": "You need to make an appointment in advance.",
+    "hi": "तुम्हें पहले से अपॉइंटमेंट लेना होगा।"
+   },
+   {
+    "en": "She has an appointment at four.",
+    "hi": "उसका चार बजे अपॉइंटमेंट है।"
+   }
+  ],
+  "tags": [
+   "core"
+  ]
+ },
+ {
+  "id": "col:138",
+  "phrase": "go on a trip",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to travel somewhere for a short time",
+  "hi_def": "यात्रा पर जाना",
+  "wrong": "go for a trip / go for outing",
+  "why_en": "'Go on a trip/holiday/tour'. 'Go for a walk/drive/swim'. Indians often mix these.",
+  "why_hi": "'go on a trip/holiday/tour'। 'go for a walk/drive/swim'। भारतीय अक्सर इन्हें मिला देते हैं।",
+  "examples": [
+   {
+    "en": "We're going on a trip to Ladakh in June.",
+    "hi": "हम जून में लद्दाख की यात्रा पर जा रहे हैं।"
+   },
+   {
+    "en": "He went on a business trip last week.",
+    "hi": "वह पिछले हफ़्ते बिज़नेस ट्रिप पर गया था।"
+   },
+   {
+    "en": "Let's go for a walk after dinner.",
+    "hi": "चलो खाने के बाद टहलने चलते हैं।"
+   }
+  ],
+  "tags": [
+   "core"
+  ]
+ },
+ {
+  "id": "col:139",
+  "phrase": "catch a bus",
+  "pattern": "verb + noun",
+  "cefr": "A1",
+  "en_def": "to get on a bus in time",
+  "hi_def": "बस पकड़ना",
+  "wrong": "hold the bus",
+  "why_en": "You 'catch' or 'take' a bus/train/flight, and you 'miss' it if you are late.",
+  "why_hi": "bus/train/flight 'catch' या 'take' की जाती है; देर हो तो 'miss' होती है।",
+  "examples": [
+   {
+    "en": "I catch the 8:15 bus every morning.",
+    "hi": "मैं रोज़ सुबह 8:15 की बस पकड़ता हूँ।"
+   },
+   {
+    "en": "Hurry up or we'll miss the train.",
+    "hi": "जल्दी करो वरना ट्रेन छूट जाएगी।"
+   },
+   {
+    "en": "She caught the last flight to Delhi.",
+    "hi": "उसने दिल्ली की आख़िरी फ़्लाइट पकड़ी।"
+   }
+  ],
+  "tags": [
+   "core"
+  ]
+ },
+ {
+  "id": "col:140",
+  "phrase": "commit a crime",
+  "pattern": "verb + noun",
+  "cefr": "B1",
+  "en_def": "to do something illegal",
+  "hi_def": "अपराध करना",
+  "wrong": "do a crime",
+  "why_en": "Crimes, offences and fraud are 'committed'. 'Do a crime' is wrong.",
+  "why_hi": "crime, offence और fraud 'commit' किए जाते हैं, 'do' नहीं।",
+  "examples": [
+   {
+    "en": "He was arrested for committing fraud.",
+    "hi": "उसे धोखाधड़ी करने के लिए गिरफ़्तार किया गया।"
+   },
+   {
+    "en": "Unauthorised access is a crime in most countries.",
+    "hi": "ज़्यादातर देशों में अनधिकृत पहुँच एक अपराध है।"
+   },
+   {
+    "en": "The attackers committed several offences.",
+    "hi": "हमलावरों ने कई अपराध किए।"
+   }
+  ],
+  "tags": [
+   "security"
+  ]
+ },
+ {
+  "id": "col:141",
+  "phrase": "lose weight",
+  "pattern": "verb + noun",
+  "cefr": "A2",
+  "en_def": "to become thinner",
+  "hi_def": "वज़न घटाना",
+  "wrong": "reduce the weight",
+  "why_en": "'Lose weight' / 'put on weight' / 'gain weight'. 'Reduce weight' sounds like a technical process.",
+  "why_hi": "'lose weight' / 'put on weight' / 'gain weight'। 'reduce weight' तकनीकी प्रक्रिया जैसा लगता है।",
+  "examples": [
+   {
+    "en": "I've lost five kilos since March.",
+    "hi": "मार्च से मेरा पाँच किलो वज़न घटा है।"
+   },
+   {
+    "en": "She wants to lose weight before the wedding.",
+    "hi": "वह शादी से पहले वज़न घटाना चाहती है।"
+   },
+   {
+    "en": "He put on weight while working from home.",
+    "hi": "घर से काम करते हुए उसका वज़न बढ़ गया।"
+   }
+  ],
+  "tags": [
+   "health"
+  ]
+ },
+ {
+  "id": "col:142",
+  "phrase": "run out of",
+  "pattern": "verb + preposition",
+  "cefr": "B1",
+  "en_def": "to have none left",
+  "hi_def": "ख़त्म हो जाना",
+  "wrong": "finish off the stock",
+  "why_en": "'We ran out of milk/time/disk space'. Very common in speech.",
+  "why_hi": "'we ran out of milk/time/disk space'। बोलचाल में बहुत आम।",
+  "examples": [
+   {
+    "en": "The server ran out of disk space at midnight.",
+    "hi": "आधी रात को सर्वर की डिस्क स्पेस ख़त्म हो गई।"
+   },
+   {
+    "en": "We're running out of time; let's decide now.",
+    "hi": "हमारा समय ख़त्म हो रहा है; अभी फ़ैसला करते हैं।"
+   },
+   {
+    "en": "I ran out of coffee this morning.",
+    "hi": "आज सुबह मेरी कॉफ़ी ख़त्म हो गई।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "tech"
+  ]
+ },
+ {
+  "id": "col:143",
+  "phrase": "put pressure on",
+  "pattern": "verb + noun + preposition",
+  "cefr": "B2",
+  "en_def": "to try to force someone to do something",
+  "hi_def": "दबाव डालना",
+  "wrong": "give pressure to",
+  "why_en": "'Put pressure on someone' / 'be under pressure'. Not 'give pressure'.",
+  "why_hi": "'put pressure on someone' / 'be under pressure'। 'give pressure' नहीं।",
+  "examples": [
+   {
+    "en": "The client is putting pressure on us to release early.",
+    "hi": "क्लाइंट हम पर जल्दी रिलीज़ करने का दबाव डाल रहा है।"
+   },
+   {
+    "en": "Don't put too much pressure on the new hires.",
+    "hi": "नए कर्मचारियों पर बहुत ज़्यादा दबाव मत डालो।"
+   },
+   {
+    "en": "We're under a lot of pressure this quarter.",
+    "hi": "इस तिमाही हम पर बहुत दबाव है।"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:144",
+  "phrase": "come up with",
+  "pattern": "phrasal verb + object",
+  "cefr": "B1",
+  "en_def": "to think of an idea or solution",
+  "hi_def": "सुझाना, सोच निकालना",
+  "wrong": "think out an idea",
+  "why_en": "'Come up with an idea/plan/solution' is the everyday phrase for producing an idea.",
+  "why_hi": "'come up with an idea/plan/solution' विचार देने का रोज़मर्रा वाक्यांश है।",
+  "examples": [
+   {
+    "en": "She came up with a clever fix for the race condition.",
+    "hi": "उसने रेस कंडीशन के लिए एक चतुर समाधान सुझाया।"
+   },
+   {
+    "en": "We need to come up with a name for the project.",
+    "hi": "हमें प्रोजेक्ट के लिए एक नाम सोचना होगा।"
+   },
+   {
+    "en": "Can you come up with three alternatives?",
+    "hi": "क्या तुम तीन विकल्प सुझा सकते हो?"
+   }
+  ],
+  "tags": [
+   "work"
+  ]
+ },
+ {
+  "id": "col:145",
+  "phrase": "deal with",
+  "pattern": "verb + preposition",
+  "cefr": "B1",
+  "en_def": "to handle or take action on something",
+  "hi_def": "निपटना, सँभालना",
+  "wrong": "handle out the issue",
+  "why_en": "'Deal with a problem/customer/situation'. Also 'handle' (no preposition): 'handle the situation'.",
+  "why_hi": "'deal with a problem/customer'। 'handle' बिना preposition: 'handle the situation'।",
+  "examples": [
+   {
+    "en": "I'll deal with the customer complaints today.",
+    "hi": "मैं आज ग्राहकों की शिकायतें सँभाल लूँगा।"
+   },
+   {
+    "en": "How do you deal with stress at work?",
+    "hi": "तुम काम के तनाव से कैसे निपटते हो?"
+   },
+   {
+    "en": "The on-call engineer dealt with the alert within minutes.",
+    "hi": "ऑन-कॉल इंजीनियर ने मिनटों में अलर्ट सँभाल लिया।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "work"
+  ]
+ },
+ {
+  "id": "col:146",
+  "phrase": "get rid of",
+  "pattern": "verb + preposition",
+  "cefr": "B1",
+  "en_def": "to remove or throw away something unwanted",
+  "hi_def": "छुटकारा पाना, हटाना",
+  "wrong": "remove out",
+  "why_en": "'Get rid of' is the everyday phrase; 'remove' or 'eliminate' are more formal. 'Remove out' is wrong.",
+  "why_hi": "'get rid of' रोज़मर्रा का है; 'remove' या 'eliminate' औपचारिक हैं। 'remove out' गलत है।",
+  "examples": [
+   {
+    "en": "Let's get rid of the unused dependencies.",
+    "hi": "चलो अनुपयोगी डिपेंडेंसी हटा देते हैं।"
+   },
+   {
+    "en": "I need to get rid of these old laptops.",
+    "hi": "मुझे इन पुराने लैपटॉप से छुटकारा पाना है।"
+   },
+   {
+    "en": "We finally got rid of the flaky test.",
+    "hi": "आख़िरकार हमने उस अस्थिर टेस्ट से छुटकारा पा लिया।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "tech"
+  ]
+ },
+ {
+  "id": "col:147",
+  "phrase": "be responsible for",
+  "pattern": "adjective + preposition",
+  "cefr": "B1",
+  "en_def": "to have the duty of dealing with something",
+  "hi_def": "के लिए ज़िम्मेदार होना",
+  "wrong": "responsible of",
+  "why_en": "'Responsible for something' / 'responsible to someone'. Never 'responsible of'.",
+  "why_hi": "'responsible for something' / 'responsible to someone'। 'responsible of' कभी नहीं।",
+  "examples": [
+   {
+    "en": "I'm responsible for cloud security at my company.",
+    "hi": "मैं अपनी कंपनी में क्लाउड सुरक्षा के लिए ज़िम्मेदार हूँ।"
+   },
+   {
+    "en": "Who is responsible for updating the certificates?",
+    "hi": "सर्टिफ़िकेट अपडेट करने के लिए कौन ज़िम्मेदार है?"
+   },
+   {
+    "en": "The vendor is responsible for patching the firmware.",
+    "hi": "फ़र्मवेयर पैच करने की ज़िम्मेदारी वेंडर की है।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "work"
+  ]
+ },
+ {
+  "id": "col:148",
+  "phrase": "be interested in",
+  "pattern": "adjective + preposition",
+  "cefr": "A2",
+  "en_def": "to want to know more about something",
+  "hi_def": "में रुचि होना",
+  "wrong": "interested to know about / interested for",
+  "why_en": "'Interested in something/doing something'. 'Interested to know' exists but 'interested in' is safer and more common.",
+  "why_hi": "'interested in something/doing'। 'interested in' सुरक्षित और अधिक आम है।",
+  "examples": [
+   {
+    "en": "I'm interested in malware analysis.",
+    "hi": "मुझे मैलवेयर विश्लेषण में रुचि है।"
+   },
+   {
+    "en": "Are you interested in joining the team?",
+    "hi": "क्या तुम टीम में शामिल होने में रुचि रखते हो?"
+   },
+   {
+    "en": "She's interested in learning Japanese.",
+    "hi": "उसे जापानी सीखने में रुचि है।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "core"
+  ]
+ },
+ {
+  "id": "col:149",
+  "phrase": "be good at",
+  "pattern": "adjective + preposition",
+  "cefr": "A2",
+  "en_def": "to be skilled at something",
+  "hi_def": "में अच्छा होना, में निपुण होना",
+  "wrong": "good in English",
+  "why_en": "'Good at' a skill: 'good at English', 'good at maths'. 'Good in' is a very common Indian error.",
+  "why_hi": "कौशल के लिए 'good at': 'good at English'। 'good in' बहुत आम भारतीय गलती है।",
+  "examples": [
+   {
+    "en": "He's very good at explaining technical things simply.",
+    "hi": "वह तकनीकी बातें सरलता से समझाने में बहुत अच्छा है।"
+   },
+   {
+    "en": "I'm not good at remembering names.",
+    "hi": "मैं नाम याद रखने में अच्छा नहीं हूँ।"
+   },
+   {
+    "en": "She's good at spotting bugs in code.",
+    "hi": "वह कोड में बग पकड़ने में माहिर है।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "core"
+  ]
+ },
+ {
+  "id": "col:150",
+  "phrase": "be familiar with",
+  "pattern": "adjective + preposition",
+  "cefr": "B1",
+  "en_def": "to know something well",
+  "hi_def": "से परिचित होना",
+  "wrong": "familiar about / known with",
+  "why_en": "'Be familiar with something' (you know it) or 'something is familiar to you'. Never 'familiar about'.",
+  "why_hi": "'be familiar with' (आप जानते हैं) या 'familiar to you'। 'familiar about' कभी नहीं।",
+  "examples": [
+   {
+    "en": "Are you familiar with the OWASP Top 10?",
+    "hi": "क्या तुम OWASP Top 10 से परिचित हो?"
+   },
+   {
+    "en": "I'm not familiar with this framework yet.",
+    "hi": "मैं अभी इस फ़्रेमवर्क से परिचित नहीं हूँ।"
+   },
+   {
+    "en": "Her voice sounded familiar to me.",
+    "hi": "उसकी आवाज़ मुझे जानी-पहचानी लगी।"
+   }
+  ],
+  "tags": [
+   "verb-prep",
+   "work"
+  ]
+ }
+]

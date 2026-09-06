@@ -1,0 +1,5222 @@
+[
+ {
+  "id": "v:pv:0001",
+  "word": "get up",
+  "ipa": "/ɡet ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 1,
+  "en_def": "to leave your bed after sleeping; to stand up",
+  "hi_def": "उठना, बिस्तर से उठना",
+  "hi_nuance": "Hindi speakers often say 'I woke up at 6' when they mean they left the bed. 'Wake up' = eyes open; 'get up' = leave the bed.",
+  "examples": [
+   {
+    "en": "I get up at six every morning.",
+    "hi": "मैं हर सुबह छह बजे उठता हूँ।"
+   },
+   {
+    "en": "She got up late and missed the bus.",
+    "hi": "वह देर से उठी और बस छूट गई।"
+   },
+   {
+    "en": "Get up, we're going to be late!",
+    "hi": "उठो, हमें देर हो जाएगी!"
+   },
+   {
+    "en": "He got up from his chair to greet us.",
+    "hi": "वह हमारा स्वागत करने के लिए अपनी कुर्सी से उठा।"
+   },
+   {
+    "en": "What time do you usually get up on Sundays?",
+    "hi": "रविवार को आप आमतौर पर कितने बजे उठते हैं?"
+   }
+  ],
+  "collocations": [
+   "get up early",
+   "get up late",
+   "get up at six"
+  ],
+  "synonyms": [
+   "rise",
+   "stand up"
+  ],
+  "antonyms": [
+   "go to bed",
+   "lie down"
+  ],
+  "word_family": [
+   "get up",
+   "getting up"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I get up from bed at 7 and then I wake up.",
+   "right": "I wake up at 7 and then I get up.",
+   "why": "'Wake up' happens first (you open your eyes); 'get up' means leaving the bed."
+  },
+  "cloze": {
+   "sentence": "I usually ____ at seven and have breakfast at half past.",
+   "answer": "get up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0002",
+  "word": "wake up",
+  "ipa": "/weɪk ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 2,
+  "en_def": "to stop sleeping; to make someone stop sleeping",
+  "hi_def": "जागना, जगाना",
+  "hi_nuance": "Hindi 'जगाना' (cause to wake) is also 'wake somebody up' — it is separable: 'wake me up', never 'wake up me'.",
+  "examples": [
+   {
+    "en": "I woke up at five because of the noise.",
+    "hi": "शोर की वजह से मैं पाँच बजे जाग गया।"
+   },
+   {
+    "en": "Please wake me up at seven.",
+    "hi": "कृपया मुझे सात बजे जगा देना।"
+   },
+   {
+    "en": "The baby wakes up three times a night.",
+    "hi": "बच्चा रात में तीन बार जागता है।"
+   },
+   {
+    "en": "Don't wake up the kids; they just fell asleep.",
+    "hi": "बच्चों को मत जगाओ, वे अभी-अभी सोए हैं।"
+   },
+   {
+    "en": "She woke up feeling refreshed after the long sleep.",
+    "hi": "लंबी नींद के बाद वह तरोताज़ा महसूस करते हुए जागी।"
+   }
+  ],
+  "collocations": [
+   "wake up early",
+   "wake somebody up",
+   "wake up to the sound of"
+  ],
+  "synonyms": [
+   "awake",
+   "stir"
+  ],
+  "antonyms": [
+   "fall asleep",
+   "doze off"
+  ],
+  "word_family": [
+   "wake",
+   "wake up",
+   "awake",
+   "wake-up call"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Please wake up me at 6.",
+   "right": "Please wake me up at 6.",
+   "why": "With a pronoun object, separable phrasal verbs must be split: wake + me + up."
+  },
+  "cloze": {
+   "sentence": "Can you ____ me ____ before the meeting starts?",
+   "answer": "wake up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0003",
+  "word": "turn on",
+  "ipa": "/tɜːn ˈɒn/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 3,
+  "en_def": "to start a machine, light, or device working",
+  "hi_def": "चालू करना, ऑन करना",
+  "hi_nuance": "Indian English often uses 'on the light' or 'open the light' (from Hindi 'लाइट खोलो'). Natural English is 'turn on the light' / 'switch on the light'.",
+  "examples": [
+   {
+    "en": "Could you turn on the light, please?",
+    "hi": "क्या आप लाइट चालू कर सकते हैं?"
+   },
+   {
+    "en": "Turn it on and wait for the update to install.",
+    "hi": "इसे चालू करो और अपडेट इंस्टॉल होने का इंतज़ार करो।"
+   },
+   {
+    "en": "I turned on the TV to watch the news.",
+    "hi": "मैंने समाचार देखने के लिए टीवी चालू किया।"
+   },
+   {
+    "en": "She turned the heater on because it was cold.",
+    "hi": "ठंड होने की वजह से उसने हीटर चालू किया।"
+   },
+   {
+    "en": "The server turns on automatically after a power cut.",
+    "hi": "बिजली जाने के बाद सर्वर अपने आप चालू हो जाता है।"
+   }
+  ],
+  "collocations": [
+   "turn on the light",
+   "turn on the tap",
+   "turn on the engine"
+  ],
+  "synonyms": [
+   "switch on",
+   "power on"
+  ],
+  "antonyms": [
+   "turn off",
+   "switch off"
+  ],
+  "word_family": [
+   "turn",
+   "turn on",
+   "turn off"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Please on the fan, it's hot.",
+   "right": "Please turn on the fan, it's hot.",
+   "why": "'On' is not a verb in English; you need 'turn on' or 'switch on'."
+  },
+  "cloze": {
+   "sentence": "It's dark in here — could you ____ the lights?",
+   "answer": "turn on"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0004",
+  "word": "turn off",
+  "ipa": "/tɜːn ˈɒf/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 4,
+  "en_def": "to stop a machine, light, or device working",
+  "hi_def": "बंद करना, ऑफ करना",
+  "hi_nuance": "Hindi 'लाइट बंद करो' becomes 'close the light' in Indian English. Use 'turn off' / 'switch off'; 'close' is for doors and windows.",
+  "examples": [
+   {
+    "en": "Turn off the lights when you leave.",
+    "hi": "जाते समय लाइटें बंद कर देना।"
+   },
+   {
+    "en": "I forgot to turn my phone off during the movie.",
+    "hi": "फ़िल्म के दौरान मैं अपना फ़ोन बंद करना भूल गया।"
+   },
+   {
+    "en": "Turn it off and on again — that usually fixes it.",
+    "hi": "इसे बंद करके फिर चालू करो — आमतौर पर इससे ठीक हो जाता है।"
+   },
+   {
+    "en": "She turned off the tap to save water.",
+    "hi": "पानी बचाने के लिए उसने नल बंद कर दिया।"
+   },
+   {
+    "en": "Please turn off notifications during the demo.",
+    "hi": "डेमो के दौरान कृपया नोटिफ़िकेशन बंद कर दें।"
+   }
+  ],
+  "collocations": [
+   "turn off the light",
+   "turn off the engine",
+   "turn off notifications"
+  ],
+  "synonyms": [
+   "switch off",
+   "shut off"
+  ],
+  "antonyms": [
+   "turn on",
+   "switch on"
+  ],
+  "word_family": [
+   "turn",
+   "turn off",
+   "turn-off"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Close the AC before you go.",
+   "right": "Turn off the AC before you go.",
+   "why": "You close doors and windows; you turn off machines and devices."
+  },
+  "cloze": {
+   "sentence": "Don't forget to ____ the gas after cooking.",
+   "answer": "turn off"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0005",
+  "word": "pick up",
+  "ipa": "/pɪk ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 5,
+  "en_def": "to lift something; to collect someone or something; to learn something without effort",
+  "hi_def": "उठाना, लेने जाना, सीख लेना",
+  "hi_nuance": "Hindi speakers often use 'take' or 'collect' for people ('I will take you from the airport'). English says 'pick you up'. It has many meanings — lift, collect, learn, answer the phone.",
+  "examples": [
+   {
+    "en": "Can you pick up the kids from school today?",
+    "hi": "क्या आज तुम बच्चों को स्कूल से ले सकते हो?"
+   },
+   {
+    "en": "I'll pick you up at eight.",
+    "hi": "मैं तुम्हें आठ बजे लेने आऊँगा।"
+   },
+   {
+    "en": "He picked up the phone on the first ring.",
+    "hi": "उसने पहली घंटी पर ही फ़ोन उठा लिया।"
+   },
+   {
+    "en": "She picked up Spanish while living in Madrid.",
+    "hi": "मैड्रिड में रहते हुए उसने स्पेनिश सीख ली।"
+   },
+   {
+    "en": "Pick up your bag; we're leaving.",
+    "hi": "अपना बैग उठाओ; हम निकल रहे हैं।"
+   },
+   {
+    "en": "I need to pick up some milk on the way home.",
+    "hi": "मुझे घर जाते समय थोड़ा दूध लेना है।"
+   }
+  ],
+  "collocations": [
+   "pick up the phone",
+   "pick up a language",
+   "pick up the kids",
+   "pick up speed"
+  ],
+  "synonyms": [
+   "collect",
+   "lift",
+   "fetch"
+  ],
+  "antonyms": [
+   "drop off",
+   "put down"
+  ],
+  "word_family": [
+   "pick",
+   "pick up",
+   "pickup"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I will come to take you from the station.",
+   "right": "I'll pick you up from the station.",
+   "why": "'Take' sounds like removing someone; the natural verb for collecting a person is 'pick up'."
+  },
+  "cloze": {
+   "sentence": "Could you ____ ____ my parcel from the post office?",
+   "answer": "pick up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0006",
+  "word": "give up",
+  "ipa": "/ɡɪv ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 6,
+  "en_def": "to stop trying; to stop doing something you did regularly",
+  "hi_def": "हार मानना, छोड़ देना",
+  "hi_nuance": "Hindi speakers often write 'leave smoking' (from 'छोड़ना'). English: 'give up smoking' or 'quit smoking'. After 'give up' use the -ing form, not 'to'.",
+  "examples": [
+   {
+    "en": "Don't give up — you're almost there.",
+    "hi": "हार मत मानो — तुम लगभग पहुँच गए हो।"
+   },
+   {
+    "en": "He gave up smoking two years ago.",
+    "hi": "उसने दो साल पहले धूम्रपान छोड़ दिया।"
+   },
+   {
+    "en": "I gave up trying to fix the old laptop.",
+    "hi": "मैंने पुराना लैपटॉप ठीक करने की कोशिश छोड़ दी।"
+   },
+   {
+    "en": "She gave it up after one lesson.",
+    "hi": "उसने एक क्लास के बाद ही इसे छोड़ दिया।"
+   },
+   {
+    "en": "We gave up our seats for the elderly couple.",
+    "hi": "हमने बुज़ुर्ग जोड़े के लिए अपनी सीटें छोड़ दीं।"
+   }
+  ],
+  "collocations": [
+   "give up smoking",
+   "give up hope",
+   "give up easily",
+   "never give up"
+  ],
+  "synonyms": [
+   "quit",
+   "abandon",
+   "stop"
+  ],
+  "antonyms": [
+   "persist",
+   "continue",
+   "keep going"
+  ],
+  "word_family": [
+   "give",
+   "give up",
+   "given up"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I gave up to eat sugar.",
+   "right": "I gave up eating sugar.",
+   "why": "'Give up' is followed by a noun or an -ing form, never 'to' + verb."
+  },
+  "cloze": {
+   "sentence": "After three failed attempts, he decided to ____ ____.",
+   "answer": "give up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0007",
+  "word": "look for",
+  "ipa": "/lʊk ˈfɔː/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 7,
+  "en_def": "to try to find something or someone",
+  "hi_def": "ढूँढना, तलाश करना",
+  "hi_nuance": "Hindi speakers often say 'search the keys' or 'I am searching for job'. Use 'look for' (with 'for') and remember 'a job' needs an article.",
+  "examples": [
+   {
+    "en": "I'm looking for my keys — have you seen them?",
+    "hi": "मैं अपनी चाबियाँ ढूँढ रहा हूँ — क्या तुमने देखी हैं?"
+   },
+   {
+    "en": "She is looking for a new job in Bangalore.",
+    "hi": "वह बैंगलोर में नई नौकरी ढूँढ रही है।"
+   },
+   {
+    "en": "We looked for a parking space for twenty minutes.",
+    "hi": "हमने बीस मिनट तक पार्किंग की जगह ढूँढी।"
+   },
+   {
+    "en": "What exactly are you looking for?",
+    "hi": "आप वास्तव में क्या ढूँढ रहे हैं?"
+   },
+   {
+    "en": "They're looking for someone with security experience.",
+    "hi": "वे सुरक्षा अनुभव वाले किसी व्यक्ति की तलाश कर रहे हैं।"
+   }
+  ],
+  "collocations": [
+   "look for a job",
+   "look for a solution",
+   "look for trouble"
+  ],
+  "synonyms": [
+   "search for",
+   "seek",
+   "hunt for"
+  ],
+  "antonyms": [
+   "find",
+   "discover"
+  ],
+  "word_family": [
+   "look",
+   "look for",
+   "look after",
+   "look up"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I am looking job.",
+   "right": "I am looking for a job.",
+   "why": "'Look for' needs 'for', and singular countable 'job' needs 'a'."
+  },
+  "cloze": {
+   "sentence": "Are you still ____ ____ a flat near the office?",
+   "answer": "looking for"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0008",
+  "word": "look after",
+  "ipa": "/lʊk ˈɑːftə/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 8,
+  "en_def": "to take care of someone or something",
+  "hi_def": "देखभाल करना, ख़्याल रखना",
+  "hi_nuance": "Inseparable: 'look after her', never 'look her after'. Indian English often uses 'take care' alone; 'look after' is the everyday British form.",
+  "examples": [
+   {
+    "en": "Who will look after the dog while you're away?",
+    "hi": "जब तुम बाहर होगे तो कुत्ते की देखभाल कौन करेगा?"
+   },
+   {
+    "en": "She looks after her elderly parents.",
+    "hi": "वह अपने बुज़ुर्ग माता-पिता की देखभाल करती है।"
+   },
+   {
+    "en": "Look after yourself — don't work too hard.",
+    "hi": "अपना ख़्याल रखना — बहुत ज़्यादा काम मत करना।"
+   },
+   {
+    "en": "The nurse looked after him for three weeks.",
+    "hi": "नर्स ने तीन हफ़्ते तक उसकी देखभाल की।"
+   },
+   {
+    "en": "Our team looks after the payment servers.",
+    "hi": "हमारी टीम पेमेंट सर्वरों की देखभाल करती है।"
+   }
+  ],
+  "collocations": [
+   "look after the children",
+   "look after yourself",
+   "well looked after"
+  ],
+  "synonyms": [
+   "take care of",
+   "care for",
+   "mind"
+  ],
+  "antonyms": [
+   "neglect",
+   "ignore"
+  ],
+  "word_family": [
+   "look",
+   "look after"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Can you look the baby after for an hour?",
+   "right": "Can you look after the baby for an hour?",
+   "why": "'Look after' is inseparable; the object always comes after 'after'."
+  },
+  "cloze": {
+   "sentence": "My neighbour will ____ ____ the plants while we're on holiday.",
+   "answer": "look after"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0009",
+  "word": "look up",
+  "ipa": "/lʊk ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 9,
+  "en_def": "to search for information in a book, list, or online",
+  "hi_def": "(शब्दकोश/इंटरनेट में) खोजना, देखना",
+  "hi_nuance": "Hindi speakers tend to say 'search the meaning'. Natural English: 'look up the word' or 'look it up'. Separable.",
+  "examples": [
+   {
+    "en": "I looked up the word in the dictionary.",
+    "hi": "मैंने शब्दकोश में वह शब्द देखा।"
+   },
+   {
+    "en": "If you don't know the CVE, look it up.",
+    "hi": "अगर तुम्हें CVE नहीं पता, तो उसे खोज लो।"
+   },
+   {
+    "en": "Let me look up the train times.",
+    "hi": "मुझे ट्रेन का समय देखने दो।"
+   },
+   {
+    "en": "She looked up his number and called him.",
+    "hi": "उसने उसका नंबर खोजा और उसे फ़ोन किया।"
+   },
+   {
+    "en": "You can look up any IP address on that site.",
+    "hi": "आप उस साइट पर कोई भी IP पता देख सकते हैं।"
+   }
+  ],
+  "collocations": [
+   "look up a word",
+   "look up the meaning",
+   "look it up online"
+  ],
+  "synonyms": [
+   "search",
+   "check",
+   "research"
+  ],
+  "antonyms": [
+   "guess"
+  ],
+  "word_family": [
+   "look",
+   "look up",
+   "lookup"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I searched the word meaning in Google.",
+   "right": "I looked up the word on Google.",
+   "why": "'Look up' is the natural verb for checking information, and it's 'on Google', not 'in Google'."
+  },
+  "cloze": {
+   "sentence": "I didn't know the answer, so I ____ it ____.",
+   "answer": "looked up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0010",
+  "word": "find out",
+  "ipa": "/faɪnd ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 10,
+  "en_def": "to discover a fact or piece of information",
+  "hi_def": "पता लगाना, मालूम करना",
+  "hi_nuance": "Hindi 'पता करना' is often translated as 'know' ('I will know and tell you'). Use 'find out' for discovering; 'know' is a state, not an action.",
+  "examples": [
+   {
+    "en": "I need to find out when the meeting starts.",
+    "hi": "मुझे पता लगाना है कि मीटिंग कब शुरू होती है।"
+   },
+   {
+    "en": "She found out that the email was a phishing attempt.",
+    "hi": "उसे पता चला कि वह ईमेल फ़िशिंग की कोशिश थी।"
+   },
+   {
+    "en": "How did you find out about the job?",
+    "hi": "तुम्हें नौकरी के बारे में कैसे पता चला?"
+   },
+   {
+    "en": "We'll find out the results tomorrow.",
+    "hi": "हमें कल नतीजे पता चलेंगे।"
+   },
+   {
+    "en": "Let me find out and get back to you.",
+    "hi": "मुझे पता करने दो, फिर मैं तुम्हें बताता हूँ।"
+   }
+  ],
+  "collocations": [
+   "find out the truth",
+   "find out about",
+   "find out how/why"
+  ],
+  "synonyms": [
+   "discover",
+   "learn",
+   "establish"
+  ],
+  "antonyms": [
+   "hide",
+   "conceal"
+  ],
+  "word_family": [
+   "find",
+   "find out",
+   "finding"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I will know the price and tell you.",
+   "right": "I'll find out the price and tell you.",
+   "why": "'Know' describes a state; the action of discovering information is 'find out'."
+  },
+  "cloze": {
+   "sentence": "Did you ever ____ ____ who sent that message?",
+   "answer": "find out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0011",
+  "word": "figure out",
+  "ipa": "/ˈfɪɡər ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 11,
+  "en_def": "to understand or solve something after thinking about it",
+  "hi_def": "समझ लेना, हल निकाल लेना",
+  "hi_nuance": "Indian English often uses 'understand' for everything. 'Figure out' means working it out through effort — great for debugging contexts.",
+  "examples": [
+   {
+    "en": "I can't figure out why the script keeps crashing.",
+    "hi": "मुझे समझ नहीं आ रहा कि स्क्रिप्ट बार-बार क्रैश क्यों हो रही है।"
+   },
+   {
+    "en": "We finally figured out the root cause.",
+    "hi": "आख़िरकार हमने मूल कारण समझ लिया।"
+   },
+   {
+    "en": "Let me figure it out on my own first.",
+    "hi": "पहले मुझे इसे ख़ुद समझने दो।"
+   },
+   {
+    "en": "She figured out how to bypass the filter in ten minutes.",
+    "hi": "उसने दस मिनट में समझ लिया कि फ़िल्टर को कैसे बायपास किया जाए।"
+   },
+   {
+    "en": "Have you figured out what you want to do next year?",
+    "hi": "क्या तुमने तय कर लिया है कि अगले साल क्या करना है?"
+   }
+  ],
+  "collocations": [
+   "figure out a way",
+   "figure out the problem",
+   "figure it out"
+  ],
+  "synonyms": [
+   "work out",
+   "solve",
+   "understand"
+  ],
+  "antonyms": [
+   "misunderstand"
+  ],
+  "word_family": [
+   "figure",
+   "figure out"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "I could not figure out it.",
+   "right": "I couldn't figure it out.",
+   "why": "Pronoun objects go between the verb and the particle in separable phrasal verbs."
+  },
+  "cloze": {
+   "sentence": "It took me an hour to ____ ____ the error.",
+   "answer": "figure out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0012",
+  "word": "put off",
+  "ipa": "/pʊt ˈɒf/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 12,
+  "en_def": "to delay something until a later time",
+  "hi_def": "टालना, स्थगित करना",
+  "hi_nuance": "Hindi speakers use 'postpone' in speech, which sounds formal. 'Put off' is the everyday form. And 'prepone' does not exist — use 'bring forward'.",
+  "examples": [
+   {
+    "en": "We've put off the release until Monday.",
+    "hi": "हमने रिलीज़ सोमवार तक टाल दी है।"
+   },
+   {
+    "en": "Stop putting it off and call the dentist.",
+    "hi": "इसे टालना बंद करो और डेंटिस्ट को फ़ोन करो।"
+   },
+   {
+    "en": "They put off the meeting because the CTO was ill.",
+    "hi": "CTO के बीमार होने के कारण उन्होंने मीटिंग टाल दी।"
+   },
+   {
+    "en": "Don't put off until tomorrow what you can do today.",
+    "hi": "जो आज कर सकते हो उसे कल पर मत टालो।"
+   },
+   {
+    "en": "The bad reviews put me off buying that phone.",
+    "hi": "बुरे रिव्यू की वजह से मैंने वह फ़ोन ख़रीदने का इरादा छोड़ दिया।"
+   }
+  ],
+  "collocations": [
+   "put off a decision",
+   "put off the meeting",
+   "keep putting it off"
+  ],
+  "synonyms": [
+   "postpone",
+   "delay",
+   "defer"
+  ],
+  "antonyms": [
+   "bring forward",
+   "advance"
+  ],
+  "word_family": [
+   "put",
+   "put off",
+   "put-off"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Let's prepone the call to 3 pm.",
+   "right": "Let's bring the call forward to 3 pm.",
+   "why": "'Prepone' is Indian English only; the opposite of 'put off' is 'bring forward' or 'move up'."
+  },
+  "cloze": {
+   "sentence": "I can't ____ this ____ any longer — the deadline is Friday.",
+   "answer": "put off"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0013",
+  "word": "set up",
+  "ipa": "/set ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 13,
+  "en_def": "to arrange, start, or install something so that it is ready to use",
+  "hi_def": "स्थापित करना, सेट करना, व्यवस्था करना",
+  "hi_nuance": "The noun is 'setup' (one word); the verb is 'set up' (two words). Indian English overuses 'arrange a meeting' — 'set up a meeting' is more natural at work.",
+  "examples": [
+   {
+    "en": "Can you set up a call with the client for Thursday?",
+    "hi": "क्या तुम गुरुवार को क्लाइंट के साथ कॉल सेट कर सकते हो?"
+   },
+   {
+    "en": "I set up the test environment this morning.",
+    "hi": "मैंने आज सुबह टेस्ट एनवायरनमेंट सेट किया।"
+   },
+   {
+    "en": "They set up a company in 2019.",
+    "hi": "उन्होंने 2019 में एक कंपनी शुरू की।"
+   },
+   {
+    "en": "Set it up and let me know when it's ready.",
+    "hi": "इसे सेट करो और तैयार होने पर मुझे बताना।"
+   },
+   {
+    "en": "We need to set up two-factor authentication for all accounts.",
+    "hi": "हमें सभी खातों के लिए टू-फ़ैक्टर ऑथेंटिकेशन सेट करना होगा।"
+   }
+  ],
+  "collocations": [
+   "set up a meeting",
+   "set up an account",
+   "set up a business"
+  ],
+  "synonyms": [
+   "establish",
+   "arrange",
+   "install"
+  ],
+  "antonyms": [
+   "dismantle",
+   "shut down"
+  ],
+  "word_family": [
+   "set",
+   "set up",
+   "setup"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I will setup the server today.",
+   "right": "I will set up the server today.",
+   "why": "'Setup' is a noun; the verb is written as two words: 'set up'."
+  },
+  "cloze": {
+   "sentence": "HR will ____ ____ your email account on your first day.",
+   "answer": "set up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0014",
+  "word": "carry out",
+  "ipa": "/ˌkæri ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 14,
+  "en_def": "to do or complete a task, test, or piece of work",
+  "hi_def": "पूरा करना, अंजाम देना",
+  "hi_nuance": "Hindi speakers often write 'do a test' or 'perform testing'. 'Carry out' is the standard collocation for tests, checks, audits and attacks in reports.",
+  "examples": [
+   {
+    "en": "We carried out a full security audit last month.",
+    "hi": "हमने पिछले महीने पूरा सुरक्षा ऑडिट किया।"
+   },
+   {
+    "en": "The attackers carried out the intrusion over three days.",
+    "hi": "हमलावरों ने तीन दिनों में घुसपैठ को अंजाम दिया।"
+   },
+   {
+    "en": "Please carry out the checks before deploying.",
+    "hi": "डिप्लॉय करने से पहले कृपया जाँच पूरी करें।"
+   },
+   {
+    "en": "The survey was carried out in March.",
+    "hi": "सर्वे मार्च में किया गया था।"
+   },
+   {
+    "en": "They carried out the instructions exactly.",
+    "hi": "उन्होंने निर्देशों का ठीक-ठीक पालन किया।"
+   }
+  ],
+  "collocations": [
+   "carry out a test",
+   "carry out an attack",
+   "carry out research",
+   "carry out orders"
+  ],
+  "synonyms": [
+   "perform",
+   "conduct",
+   "execute"
+  ],
+  "antonyms": [
+   "abandon",
+   "neglect"
+  ],
+  "word_family": [
+   "carry",
+   "carry out"
+  ],
+  "register": "formal",
+  "common_mistake": {
+   "wrong": "We did the penetration testing on their app.",
+   "right": "We carried out a penetration test on their app.",
+   "why": "'Carry out a test' is the natural professional collocation; 'do' is vague and 'testing' as a countable noun is unnatural."
+  },
+  "cloze": {
+   "sentence": "The team will ____ ____ a vulnerability scan tonight.",
+   "answer": "carry out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0015",
+  "word": "bring up",
+  "ipa": "/brɪŋ ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 15,
+  "en_def": "to mention a topic; to raise a child",
+  "hi_def": "(विषय) उठाना; पालन-पोषण करना",
+  "hi_nuance": "Hindi speakers say 'raise a point' (fine) or 'I was brought up by my grandparents' (correct). Avoid 'I grew up by my grandmother' — 'grow up' is what you do; 'bring up' is what parents do.",
+  "examples": [
+   {
+    "en": "Why did you bring up the salary issue in front of everyone?",
+    "hi": "तुमने सबके सामने वेतन का मुद्दा क्यों उठाया?"
+   },
+   {
+    "en": "She was brought up in a small village in Gujarat.",
+    "hi": "उसका पालन-पोषण गुजरात के एक छोटे गाँव में हुआ।"
+   },
+   {
+    "en": "I'll bring it up at the next stand-up.",
+    "hi": "मैं इसे अगली स्टैंड-अप में उठाऊँगा।"
+   },
+   {
+    "en": "Don't bring up politics at dinner.",
+    "hi": "खाने पर राजनीति की बात मत छेड़ो।"
+   },
+   {
+    "en": "They brought up three children on one income.",
+    "hi": "उन्होंने एक ही आय पर तीन बच्चों को पाला।"
+   }
+  ],
+  "collocations": [
+   "bring up a topic",
+   "bring up a child",
+   "bring it up"
+  ],
+  "synonyms": [
+   "mention",
+   "raise",
+   "rear"
+  ],
+  "antonyms": [
+   "drop",
+   "suppress"
+  ],
+  "word_family": [
+   "bring",
+   "bring up",
+   "upbringing"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I grew up by my uncle in Surat.",
+   "right": "I was brought up by my uncle in Surat.",
+   "why": "'Grow up' has no agent; when someone raises you, use the passive 'was brought up by'."
+  },
+  "cloze": {
+   "sentence": "He ____ ____ the budget question during the review.",
+   "answer": "brought up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0016",
+  "word": "come across",
+  "ipa": "/kʌm əˈkrɒs/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 16,
+  "en_def": "to find or meet something by chance; to seem a certain way to others",
+  "hi_def": "अचानक मिलना; (किसी को) लगना",
+  "hi_nuance": "Two meanings: 'I came across a bug' (found by chance) and 'He comes across as rude' (seems). Hindi speakers rarely use the second one — it is very useful for feedback.",
+  "examples": [
+   {
+    "en": "I came across an old photo while cleaning.",
+    "hi": "सफ़ाई करते समय मुझे एक पुरानी तस्वीर मिल गई।"
+   },
+   {
+    "en": "We came across a serious flaw in the login flow.",
+    "hi": "हमें लॉगिन प्रक्रिया में एक गंभीर ख़ामी मिली।"
+   },
+   {
+    "en": "He comes across as confident in interviews.",
+    "hi": "इंटरव्यू में वह आत्मविश्वासी लगता है।"
+   },
+   {
+    "en": "Have you ever come across this error before?",
+    "hi": "क्या तुमने पहले कभी यह एरर देखी है?"
+   },
+   {
+    "en": "Your email came across as a bit harsh.",
+    "hi": "तुम्हारा ईमेल थोड़ा कठोर लगा।"
+   }
+  ],
+  "collocations": [
+   "come across a problem",
+   "come across as arrogant",
+   "come across well"
+  ],
+  "synonyms": [
+   "stumble upon",
+   "encounter",
+   "seem"
+  ],
+  "antonyms": [
+   "miss",
+   "overlook"
+  ],
+  "word_family": [
+   "come",
+   "come across"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I came across with a strange file.",
+   "right": "I came across a strange file.",
+   "why": "'Come across' takes a direct object with no extra preposition."
+  },
+  "cloze": {
+   "sentence": "I ____ ____ this word in an article yesterday.",
+   "answer": "came across"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0017",
+  "word": "run out of",
+  "ipa": "/rʌn ˈaʊt əv/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 17,
+  "en_def": "to use all of something so that none is left",
+  "hi_def": "ख़त्म हो जाना",
+  "hi_nuance": "Hindi 'ख़त्म हो गया' becomes 'the milk is finished' or 'my balance got over'. Natural English: 'we've run out of milk', 'I ran out of time'.",
+  "examples": [
+   {
+    "en": "We've run out of coffee again.",
+    "hi": "हमारी कॉफ़ी फिर ख़त्म हो गई।"
+   },
+   {
+    "en": "I ran out of time in the exam.",
+    "hi": "परीक्षा में मेरा समय ख़त्म हो गया।"
+   },
+   {
+    "en": "The car ran out of petrol on the highway.",
+    "hi": "हाईवे पर गाड़ी का पेट्रोल ख़त्म हो गया।"
+   },
+   {
+    "en": "The server ran out of memory and crashed.",
+    "hi": "सर्वर की मेमोरी ख़त्म हो गई और वह क्रैश हो गया।"
+   },
+   {
+    "en": "We're running out of options.",
+    "hi": "हमारे विकल्प ख़त्म होते जा रहे हैं।"
+   }
+  ],
+  "collocations": [
+   "run out of time",
+   "run out of money",
+   "run out of patience",
+   "run out of ideas"
+  ],
+  "synonyms": [
+   "exhaust",
+   "use up"
+  ],
+  "antonyms": [
+   "stock up on",
+   "replenish"
+  ],
+  "word_family": [
+   "run",
+   "run out",
+   "run out of"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "My data got over, so I couldn't reply.",
+   "right": "I ran out of data, so I couldn't reply.",
+   "why": "'Got over' is Indian English; standard English uses 'run out of'."
+  },
+  "cloze": {
+   "sentence": "Hurry up — we're ____ ____ ____ time.",
+   "answer": "running out of"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0018",
+  "word": "take off",
+  "ipa": "/teɪk ˈɒf/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 18,
+  "en_def": "to remove clothing; (of a plane) to leave the ground; to become successful quickly",
+  "hi_def": "उतारना; उड़ान भरना; तेज़ी से सफल होना",
+  "hi_nuance": "Hindi 'जूते निकालो' becomes 'remove your shoes' — correct but formal. Everyday English is 'take off your shoes'. Also 'take a day off' = holiday.",
+  "examples": [
+   {
+    "en": "Please take off your shoes before entering.",
+    "hi": "कृपया अंदर आने से पहले अपने जूते उतारें।"
+   },
+   {
+    "en": "The flight took off twenty minutes late.",
+    "hi": "उड़ान बीस मिनट देर से रवाना हुई।"
+   },
+   {
+    "en": "Take it off; it's too hot for a jacket.",
+    "hi": "इसे उतार दो; जैकेट के लिए बहुत गर्मी है।"
+   },
+   {
+    "en": "Her career really took off after that project.",
+    "hi": "उस प्रोजेक्ट के बाद उसका करियर सचमुच चल पड़ा।"
+   },
+   {
+    "en": "I'm taking Friday off to visit my parents.",
+    "hi": "मैं अपने माता-पिता से मिलने के लिए शुक्रवार की छुट्टी ले रहा हूँ।"
+   }
+  ],
+  "collocations": [
+   "take off your coat",
+   "the plane takes off",
+   "take a day off"
+  ],
+  "synonyms": [
+   "remove",
+   "depart",
+   "soar"
+  ],
+  "antonyms": [
+   "put on",
+   "land"
+  ],
+  "word_family": [
+   "take",
+   "take off",
+   "takeoff"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Remove your jacket, it's warm inside.",
+   "right": "Take off your jacket, it's warm inside.",
+   "why": "'Remove' is not wrong but sounds formal; 'take off' is the natural everyday verb for clothes."
+  },
+  "cloze": {
+   "sentence": "The plane will ____ ____ as soon as the fog clears.",
+   "answer": "take off"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0019",
+  "word": "work out",
+  "ipa": "/wɜːk ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 19,
+  "en_def": "to solve or calculate; to exercise; to end well",
+  "hi_def": "हल निकालना, हिसाब लगाना; व्यायाम करना; सफल होना",
+  "hi_nuance": "Hindi speakers say 'I do gym' or 'I go for gymming'. Natural: 'I work out three times a week'. Also 'it worked out' = things went well.",
+  "examples": [
+   {
+    "en": "I work out at the gym before work.",
+    "hi": "मैं काम से पहले जिम में व्यायाम करता हूँ।"
+   },
+   {
+    "en": "Can you work out the total cost?",
+    "hi": "क्या तुम कुल लागत का हिसाब लगा सकते हो?"
+   },
+   {
+    "en": "Don't worry, it will all work out in the end.",
+    "hi": "चिंता मत करो, अंत में सब ठीक हो जाएगा।"
+   },
+   {
+    "en": "We worked out a plan to migrate the database.",
+    "hi": "हमने डेटाबेस माइग्रेट करने की योजना बनाई।"
+   },
+   {
+    "en": "Things didn't work out between them.",
+    "hi": "उन दोनों के बीच बात नहीं बनी।"
+   }
+  ],
+  "collocations": [
+   "work out the answer",
+   "work out a solution",
+   "work out at the gym"
+  ],
+  "synonyms": [
+   "calculate",
+   "exercise",
+   "figure out"
+  ],
+  "antonyms": [
+   "fail",
+   "give up"
+  ],
+  "word_family": [
+   "work",
+   "work out",
+   "workout"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I do gymming every morning.",
+   "right": "I work out every morning.",
+   "why": "'Gymming' is not standard English; use 'work out' or 'go to the gym'."
+  },
+  "cloze": {
+   "sentence": "Let's ____ ____ how much each person owes.",
+   "answer": "work out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0020",
+  "word": "break down",
+  "ipa": "/breɪk ˈdaʊn/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 20,
+  "en_def": "to stop working (machine); to lose control emotionally; to divide into parts",
+  "hi_def": "ख़राब हो जाना; टूट जाना (भावनात्मक रूप से); हिस्सों में बाँटना",
+  "hi_nuance": "Hindi speakers say 'the car got spoiled' or 'my bike became bad'. Use 'broke down'. Note the noun 'breakdown' (one word).",
+  "examples": [
+   {
+    "en": "My car broke down on the way to the office.",
+    "hi": "ऑफ़िस जाते समय मेरी गाड़ी ख़राब हो गई।"
+   },
+   {
+    "en": "She broke down in tears when she heard the news.",
+    "hi": "ख़बर सुनकर वह रो पड़ी।"
+   },
+   {
+    "en": "Let's break the task down into smaller steps.",
+    "hi": "आइए इस काम को छोटे-छोटे चरणों में बाँटें।"
+   },
+   {
+    "en": "Talks between the two companies broke down.",
+    "hi": "दोनों कंपनियों के बीच बातचीत टूट गई।"
+   },
+   {
+    "en": "The washing machine keeps breaking down.",
+    "hi": "वॉशिंग मशीन बार-बार ख़राब हो रही है।"
+   }
+  ],
+  "collocations": [
+   "the car broke down",
+   "break down in tears",
+   "break down the costs"
+  ],
+  "synonyms": [
+   "fail",
+   "collapse",
+   "analyse"
+  ],
+  "antonyms": [
+   "work",
+   "hold together"
+  ],
+  "word_family": [
+   "break",
+   "break down",
+   "breakdown"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "My scooter got spoiled yesterday.",
+   "right": "My scooter broke down yesterday.",
+   "why": "Food gets spoiled; machines break down."
+  },
+  "cloze": {
+   "sentence": "The lift ____ ____ and we had to use the stairs.",
+   "answer": "broke down"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0021",
+  "word": "catch up",
+  "ipa": "/kætʃ ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 21,
+  "en_def": "to reach the same level or position as others; to talk with someone about recent news",
+  "hi_def": "बराबरी पर पहुँचना; हालचाल जानना",
+  "hi_nuance": "'Catch up with someone' = meet and chat; 'catch up on work' = do work you missed. Hindi speakers often say 'let's meet and discuss' — 'let's catch up' is the natural informal version.",
+  "examples": [
+   {
+    "en": "Let's catch up over coffee next week.",
+    "hi": "अगले हफ़्ते कॉफ़ी पर मिलते हैं।"
+   },
+   {
+    "en": "I need to catch up on emails after my holiday.",
+    "hi": "छुट्टी के बाद मुझे बचे हुए ईमेल निपटाने हैं।"
+   },
+   {
+    "en": "You go ahead — I'll catch up with you.",
+    "hi": "तुम आगे चलो — मैं तुम तक पहुँच जाऊँगा।"
+   },
+   {
+    "en": "She missed a week of classes and is struggling to catch up.",
+    "hi": "उसकी एक हफ़्ते की कक्षाएँ छूट गईं और अब वह बराबरी करने में जूझ रही है।"
+   },
+   {
+    "en": "It was great catching up with you yesterday.",
+    "hi": "कल तुमसे मिलकर बहुत अच्छा लगा।"
+   }
+  ],
+  "collocations": [
+   "catch up with a friend",
+   "catch up on sleep",
+   "catch up on work"
+  ],
+  "synonyms": [
+   "keep up",
+   "reconnect"
+  ],
+  "antonyms": [
+   "fall behind"
+  ],
+  "word_family": [
+   "catch",
+   "catch up",
+   "catch-up"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Let's catch up you tomorrow.",
+   "right": "Let's catch up with you tomorrow. / Let's catch up tomorrow.",
+   "why": "'Catch up' takes 'with' before a person, or no object at all."
+  },
+  "cloze": {
+   "sentence": "I've got a lot of reading to ____ ____ on this weekend.",
+   "answer": "catch up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0022",
+  "word": "deal with",
+  "ipa": "/diːl wɪð/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 22,
+  "en_def": "to handle or solve a problem, task, or person",
+  "hi_def": "निपटना, सँभालना",
+  "hi_nuance": "Hindi speakers often use 'handle' or 'tackle' for everything; 'deal with' is more common. Inseparable and always with 'with'.",
+  "examples": [
+   {
+    "en": "I'll deal with the customer complaint this afternoon.",
+    "hi": "मैं आज दोपहर ग्राहक की शिकायत निपटाऊँगा।"
+   },
+   {
+    "en": "How do you deal with stress at work?",
+    "hi": "तुम काम पर तनाव से कैसे निपटते हो?"
+   },
+   {
+    "en": "The support team deals with hundreds of tickets a day.",
+    "hi": "सपोर्ट टीम एक दिन में सैकड़ों टिकट निपटाती है।"
+   },
+   {
+    "en": "We need to deal with the critical vulnerabilities first.",
+    "hi": "हमें पहले गंभीर कमज़ोरियों से निपटना होगा।"
+   },
+   {
+    "en": "She's good at dealing with difficult people.",
+    "hi": "वह मुश्किल लोगों को सँभालने में अच्छी है।"
+   }
+  ],
+  "collocations": [
+   "deal with a problem",
+   "deal with a customer",
+   "deal with pressure"
+  ],
+  "synonyms": [
+   "handle",
+   "manage",
+   "address"
+  ],
+  "antonyms": [
+   "ignore",
+   "avoid"
+  ],
+  "word_family": [
+   "deal",
+   "deal with",
+   "dealing"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I will deal this issue tomorrow.",
+   "right": "I will deal with this issue tomorrow.",
+   "why": "'Deal' needs 'with' before its object; without it the sentence is ungrammatical."
+  },
+  "cloze": {
+   "sentence": "Who is going to ____ ____ the angry client?",
+   "answer": "deal with"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0023",
+  "word": "end up",
+  "ipa": "/end ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 23,
+  "en_def": "to finally be in a place or situation, often unplanned",
+  "hi_def": "अंततः (कहीं/किसी स्थिति में) पहुँच जाना",
+  "hi_nuance": "Hindi speakers rarely use this; they say 'finally I reached'. 'End up' + -ing or + place is very common in natural speech.",
+  "examples": [
+   {
+    "en": "We ended up ordering pizza because the restaurant was full.",
+    "hi": "रेस्तराँ भरा होने की वजह से आख़िर हमने पिज़्ज़ा मँगवा लिया।"
+   },
+   {
+    "en": "He ended up in hospital after the accident.",
+    "hi": "दुर्घटना के बाद वह अस्पताल पहुँच गया।"
+   },
+   {
+    "en": "If you keep skipping backups, you'll end up losing data.",
+    "hi": "अगर तुम बैकअप छोड़ते रहे, तो आख़िर में डेटा खो बैठोगे।"
+   },
+   {
+    "en": "I ended up working until midnight.",
+    "hi": "आख़िर में मुझे आधी रात तक काम करना पड़ा।"
+   },
+   {
+    "en": "How did you end up in cybersecurity?",
+    "hi": "तुम साइबर सुरक्षा में कैसे आ गए?"
+   }
+  ],
+  "collocations": [
+   "end up doing",
+   "end up in",
+   "end up with"
+  ],
+  "synonyms": [
+   "finish up",
+   "wind up"
+  ],
+  "antonyms": [
+   "start out",
+   "begin"
+  ],
+  "word_family": [
+   "end",
+   "end up"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "We ended up to stay at home.",
+   "right": "We ended up staying at home.",
+   "why": "'End up' is followed by the -ing form, not 'to' + verb."
+  },
+  "cloze": {
+   "sentence": "After hours of debugging, I ____ ____ rewriting the whole module.",
+   "answer": "ended up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0024",
+  "word": "get along",
+  "ipa": "/ɡet əˈlɒŋ/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 24,
+  "en_def": "to have a friendly relationship with someone",
+  "hi_def": "अच्छे संबंध होना, बनना",
+  "hi_nuance": "Hindi 'हमारी बनती है' = 'we get along'. Use 'get along with someone' or 'get on with' (British). Indian English often says 'we have good understanding' — unnatural.",
+  "examples": [
+   {
+    "en": "I get along well with my colleagues.",
+    "hi": "मेरी अपने सहकर्मियों से अच्छी बनती है।"
+   },
+   {
+    "en": "Do you and your brother get along?",
+    "hi": "क्या तुम्हारी और तुम्हारे भाई की बनती है?"
+   },
+   {
+    "en": "They don't get along at all.",
+    "hi": "उनकी बिल्कुल नहीं बनती।"
+   },
+   {
+    "en": "She gets along with everyone in the team.",
+    "hi": "टीम में सबके साथ उसकी अच्छी बनती है।"
+   },
+   {
+    "en": "How are you getting along in the new job?",
+    "hi": "नई नौकरी में कैसा चल रहा है?"
+   }
+  ],
+  "collocations": [
+   "get along with",
+   "get along well",
+   "get along fine"
+  ],
+  "synonyms": [
+   "get on",
+   "be friendly with"
+  ],
+  "antonyms": [
+   "clash",
+   "fall out"
+  ],
+  "word_family": [
+   "get",
+   "get along",
+   "get on"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Me and my manager have very good understanding.",
+   "right": "My manager and I get along really well.",
+   "why": "'Have good understanding' is Indian English; 'get along' is the natural expression for a good relationship."
+  },
+  "cloze": {
+   "sentence": "It's important to ____ ____ with the people you work with.",
+   "answer": "get along"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0025",
+  "word": "hang out",
+  "ipa": "/hæŋ ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 25,
+  "en_def": "to spend relaxed time with friends",
+  "hi_def": "दोस्तों के साथ समय बिताना, घूमना-फिरना",
+  "hi_nuance": "Hindi speakers say 'we roamed around' or 'we did timepass'. 'Hang out' is the natural informal verb; 'timepass' does not exist in English.",
+  "examples": [
+   {
+    "en": "We usually hang out at the café after work.",
+    "hi": "हम आमतौर पर काम के बाद कैफ़े में समय बिताते हैं।"
+   },
+   {
+    "en": "Do you want to hang out this weekend?",
+    "hi": "क्या इस वीकेंड मिलना चाहोगे?"
+   },
+   {
+    "en": "She hangs out with her college friends every Friday.",
+    "hi": "वह हर शुक्रवार अपने कॉलेज के दोस्तों के साथ समय बिताती है।"
+   },
+   {
+    "en": "I just hung out at home and watched a series.",
+    "hi": "मैंने बस घर पर आराम किया और एक सीरीज़ देखी।"
+   },
+   {
+    "en": "Who do you hang out with at work?",
+    "hi": "काम पर तुम किसके साथ ज़्यादा समय बिताते हो?"
+   }
+  ],
+  "collocations": [
+   "hang out with friends",
+   "hang out at",
+   "hang out together"
+  ],
+  "synonyms": [
+   "spend time",
+   "chill"
+  ],
+  "antonyms": [
+   "work",
+   "stay in"
+  ],
+  "word_family": [
+   "hang",
+   "hang out",
+   "hangout"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "We did timepass at the mall.",
+   "right": "We hung out at the mall.",
+   "why": "'Timepass' is Indian English; English speakers say 'hang out' or 'kill time'."
+  },
+  "cloze": {
+   "sentence": "Let's ____ ____ on Saturday if you're free.",
+   "answer": "hang out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0026",
+  "word": "hold on",
+  "ipa": "/həʊld ˈɒn/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 26,
+  "en_def": "to wait for a short time; to keep holding something",
+  "hi_def": "रुकना, थोड़ा इंतज़ार करना; पकड़े रहना",
+  "hi_nuance": "Hindi 'एक मिनट रुको' → 'hold on a second'. On the phone, 'hold on' or 'hold the line' — not 'wait on the line'.",
+  "examples": [
+   {
+    "en": "Hold on, I'll check the calendar.",
+    "hi": "रुको, मैं कैलेंडर देखता हूँ।"
+   },
+   {
+    "en": "Can you hold on a minute? I'm on another call.",
+    "hi": "क्या एक मिनट रुक सकते हो? मैं दूसरे कॉल पर हूँ।"
+   },
+   {
+    "en": "Hold on tight — the road is bumpy.",
+    "hi": "कसकर पकड़ो — सड़क ऊबड़-खाबड़ है।"
+   },
+   {
+    "en": "Hold on, that doesn't sound right.",
+    "hi": "रुको, यह सही नहीं लग रहा।"
+   },
+   {
+    "en": "Please hold on while I transfer your call.",
+    "hi": "कृपया लाइन पर रहें, मैं आपका कॉल ट्रांसफ़र कर रहा हूँ।"
+   }
+  ],
+  "collocations": [
+   "hold on a second",
+   "hold on tight",
+   "hold on a minute"
+  ],
+  "synonyms": [
+   "wait",
+   "hang on"
+  ],
+  "antonyms": [
+   "let go",
+   "hang up"
+  ],
+  "word_family": [
+   "hold",
+   "hold on",
+   "hold up"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Wait on the line, I am checking.",
+   "right": "Hold on, I'm just checking.",
+   "why": "'Wait on the line' is unnatural; 'hold on' is the idiomatic phone phrase."
+  },
+  "cloze": {
+   "sentence": "____ ____ a second — I think I've found the file.",
+   "answer": "Hold on"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0027",
+  "word": "log in",
+  "ipa": "/lɒɡ ˈɪn/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 27,
+  "en_def": "to enter your username and password to start using a system",
+  "hi_def": "लॉग इन करना",
+  "hi_nuance": "Verb: 'log in' / 'log into' (two words). Noun/adjective: 'login' (one word) — 'the login page'. Indian English writes 'login to the portal' as a verb, which is wrong.",
+  "examples": [
+   {
+    "en": "Log in with your work email.",
+    "hi": "अपने ऑफ़िस ईमेल से लॉग इन करें।"
+   },
+   {
+    "en": "I can't log in — it says my password is wrong.",
+    "hi": "मैं लॉग इन नहीं कर पा रहा — यह कह रहा है कि पासवर्ड ग़लत है।"
+   },
+   {
+    "en": "You have to log into the VPN first.",
+    "hi": "पहले तुम्हें VPN में लॉग इन करना होगा।"
+   },
+   {
+    "en": "She logged in from an unknown device.",
+    "hi": "उसने एक अनजान डिवाइस से लॉग इन किया।"
+   },
+   {
+    "en": "Users must log in again after 30 minutes.",
+    "hi": "उपयोगकर्ताओं को 30 मिनट बाद फिर से लॉग इन करना होगा।"
+   }
+  ],
+  "collocations": [
+   "log in to",
+   "log in with",
+   "log in again"
+  ],
+  "synonyms": [
+   "sign in"
+  ],
+  "antonyms": [
+   "log out",
+   "sign out"
+  ],
+  "word_family": [
+   "log",
+   "log in",
+   "login",
+   "log out"
+  ],
+  "register": "technical",
+  "common_mistake": {
+   "wrong": "Please login to the dashboard.",
+   "right": "Please log in to the dashboard.",
+   "why": "As a verb it is two words: 'log in'. 'Login' is the noun or adjective."
+  },
+  "cloze": {
+   "sentence": "You need to ____ ____ before you can see your tickets.",
+   "answer": "log in"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0028",
+  "word": "log out",
+  "ipa": "/lɒɡ ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 28,
+  "en_def": "to end your session on a computer system",
+  "hi_def": "लॉग आउट करना",
+  "hi_nuance": "Same pattern as 'log in': verb is two words. 'Logout button' (adjective) is one word.",
+  "examples": [
+   {
+    "en": "Always log out when you use a shared computer.",
+    "hi": "साझा कंप्यूटर इस्तेमाल करते समय हमेशा लॉग आउट करें।"
+   },
+   {
+    "en": "The system logs you out after ten minutes of inactivity.",
+    "hi": "दस मिनट निष्क्रिय रहने पर सिस्टम आपको लॉग आउट कर देता है।"
+   },
+   {
+    "en": "I logged out and logged back in, but it still doesn't work.",
+    "hi": "मैंने लॉग आउट करके फिर लॉग इन किया, पर अब भी काम नहीं कर रहा।"
+   },
+   {
+    "en": "Did you log out of your email on the hotel PC?",
+    "hi": "क्या तुमने होटल के PC पर अपने ईमेल से लॉग आउट किया?"
+   },
+   {
+    "en": "Click your name and choose 'Log out'.",
+    "hi": "अपने नाम पर क्लिक करें और 'लॉग आउट' चुनें।"
+   }
+  ],
+  "collocations": [
+   "log out of",
+   "log out automatically",
+   "log out and back in"
+  ],
+  "synonyms": [
+   "sign out"
+  ],
+  "antonyms": [
+   "log in",
+   "sign in"
+  ],
+  "word_family": [
+   "log",
+   "log out",
+   "logout"
+  ],
+  "register": "technical",
+  "common_mistake": {
+   "wrong": "I forgot to logout from Gmail.",
+   "right": "I forgot to log out of Gmail.",
+   "why": "Verb is 'log out' (two words) and the preposition is 'of', not 'from'."
+  },
+  "cloze": {
+   "sentence": "Please ____ ____ of the admin panel when you're done.",
+   "answer": "log out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0029",
+  "word": "back up",
+  "ipa": "/bæk ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 29,
+  "en_def": "to make a copy of data in case the original is lost; to support someone",
+  "hi_def": "बैकअप लेना; समर्थन करना",
+  "hi_nuance": "Verb: 'back up' (two words); noun: 'backup'. Indian English: 'take a backup' is common and acceptable, but 'back up the database' is more natural.",
+  "examples": [
+   {
+    "en": "Back up your files before you upgrade.",
+    "hi": "अपग्रेड करने से पहले अपनी फ़ाइलों का बैकअप लें।"
+   },
+   {
+    "en": "We back the database up every night.",
+    "hi": "हम हर रात डेटाबेस का बैकअप लेते हैं।"
+   },
+   {
+    "en": "Did you back it up before you ran the script?",
+    "hi": "स्क्रिप्ट चलाने से पहले क्या तुमने इसका बैकअप लिया था?"
+   },
+   {
+    "en": "My manager backed me up in the meeting.",
+    "hi": "मीटिंग में मेरे मैनेजर ने मेरा साथ दिया।"
+   },
+   {
+    "en": "The data is backed up to the cloud automatically.",
+    "hi": "डेटा अपने आप क्लाउड पर बैकअप हो जाता है।"
+   }
+  ],
+  "collocations": [
+   "back up your data",
+   "back up a claim",
+   "back someone up"
+  ],
+  "synonyms": [
+   "copy",
+   "support"
+  ],
+  "antonyms": [
+   "delete",
+   "undermine"
+  ],
+  "word_family": [
+   "back",
+   "back up",
+   "backup"
+  ],
+  "register": "technical",
+  "common_mistake": {
+   "wrong": "Did you backup the server?",
+   "right": "Did you back up the server?",
+   "why": "'Backup' is the noun; the verb is written as two words."
+  },
+  "cloze": {
+   "sentence": "Always ____ ____ your work before a big change.",
+   "answer": "back up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0030",
+  "word": "roll back",
+  "ipa": "/rəʊl ˈbæk/",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "freq_rank": 30,
+  "en_def": "to return a system or change to a previous state",
+  "hi_def": "पिछली स्थिति में लौटाना, रोलबैक करना",
+  "hi_nuance": "Verb 'roll back'; noun 'rollback'. Indian English sometimes says 'revert back' — 'revert' already means 'go back', so 'back' is redundant.",
+  "examples": [
+   {
+    "en": "We rolled back the deployment after the errors started.",
+    "hi": "एरर शुरू होने के बाद हमने डिप्लॉयमेंट रोलबैक कर दिया।"
+   },
+   {
+    "en": "Can you roll the change back?",
+    "hi": "क्या तुम बदलाव वापस ले सकते हो?"
+   },
+   {
+    "en": "If the patch fails, roll it back immediately.",
+    "hi": "अगर पैच फ़ेल हो, तो उसे तुरंत रोलबैक करो।"
+   },
+   {
+    "en": "The government rolled back the new tax.",
+    "hi": "सरकार ने नया कर वापस ले लिया।"
+   },
+   {
+    "en": "We have a plan to roll back to version 2.3.",
+    "hi": "हमारे पास वर्ज़न 2.3 पर वापस जाने की योजना है।"
+   }
+  ],
+  "collocations": [
+   "roll back a change",
+   "roll back a deployment",
+   "roll back to a previous version"
+  ],
+  "synonyms": [
+   "revert",
+   "undo"
+  ],
+  "antonyms": [
+   "roll out",
+   "deploy"
+  ],
+  "word_family": [
+   "roll",
+   "roll back",
+   "rollback"
+  ],
+  "register": "technical",
+  "common_mistake": {
+   "wrong": "We reverted back the release.",
+   "right": "We rolled back the release. / We reverted the release.",
+   "why": "'Revert back' is redundant; use 'roll back' or just 'revert'."
+  },
+  "cloze": {
+   "sentence": "The fix broke login, so we had to ____ it ____.",
+   "answer": "roll back"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0031",
+  "word": "shut down",
+  "ipa": "/ʃʌt ˈdaʊn/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 31,
+  "en_def": "to turn off a computer or machine completely; to close a business permanently",
+  "hi_def": "बंद करना (कंप्यूटर); स्थायी रूप से बंद हो जाना",
+  "hi_nuance": "Verb 'shut down' (two words); noun 'shutdown'. Hindi speakers say 'close the laptop' when they mean shutting it down.",
+  "examples": [
+   {
+    "en": "Shut down your laptop before you leave.",
+    "hi": "जाने से पहले अपना लैपटॉप शट डाउन करें।"
+   },
+   {
+    "en": "The factory shut down in 2020.",
+    "hi": "फ़ैक्टरी 2020 में बंद हो गई।"
+   },
+   {
+    "en": "We shut the server down for maintenance.",
+    "hi": "हमने रखरखाव के लिए सर्वर बंद किया।"
+   },
+   {
+    "en": "Shut it down and restart it.",
+    "hi": "इसे बंद करो और फिर से चालू करो।"
+   },
+   {
+    "en": "The attack forced the company to shut down its website.",
+    "hi": "हमले के कारण कंपनी को अपनी वेबसाइट बंद करनी पड़ी।"
+   }
+  ],
+  "collocations": [
+   "shut down the computer",
+   "shut down a business",
+   "shut down the system"
+  ],
+  "synonyms": [
+   "turn off",
+   "close down",
+   "power off"
+  ],
+  "antonyms": [
+   "start up",
+   "boot up"
+  ],
+  "word_family": [
+   "shut",
+   "shut down",
+   "shutdown"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Please shutdown the system.",
+   "right": "Please shut down the system.",
+   "why": "'Shutdown' is the noun; the verb is written as two words."
+  },
+  "cloze": {
+   "sentence": "IT asked everyone to ____ ____ their machines by 6 pm.",
+   "answer": "shut down"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0032",
+  "word": "follow up",
+  "ipa": "/ˌfɒləʊ ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 32,
+  "en_def": "to take further action after something; to contact someone again about a matter",
+  "hi_def": "आगे कार्रवाई करना, फ़ॉलो-अप करना",
+  "hi_nuance": "Verb: 'follow up on / with' (two words). Noun/adjective: 'follow-up'. Indian English uses 'I will do follow-up' — say 'I'll follow up'.",
+  "examples": [
+   {
+    "en": "I'll follow up with the client on Monday.",
+    "hi": "मैं सोमवार को क्लाइंट से फ़ॉलो-अप करूँगा।"
+   },
+   {
+    "en": "Can you follow up on the ticket I raised yesterday?",
+    "hi": "क्या तुम मेरे कल उठाए टिकट पर फ़ॉलो-अप कर सकते हो?"
+   },
+   {
+    "en": "She followed up the interview with a thank-you email.",
+    "hi": "उसने इंटरव्यू के बाद धन्यवाद ईमेल भेजा।"
+   },
+   {
+    "en": "Nobody followed up, so the bug was never fixed.",
+    "hi": "किसी ने फ़ॉलो-अप नहीं किया, इसलिए बग कभी ठीक नहीं हुआ।"
+   },
+   {
+    "en": "Let's follow it up in tomorrow's call.",
+    "hi": "कल के कॉल में इस पर आगे बात करते हैं।"
+   }
+  ],
+  "collocations": [
+   "follow up on",
+   "follow up with",
+   "follow-up email"
+  ],
+  "synonyms": [
+   "pursue",
+   "chase up"
+  ],
+  "antonyms": [
+   "drop",
+   "ignore"
+  ],
+  "word_family": [
+   "follow",
+   "follow up",
+   "follow-up"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I will do the follow up with him.",
+   "right": "I'll follow up with him.",
+   "why": "Use 'follow up' as a verb directly; 'do the follow up' is awkward."
+  },
+  "cloze": {
+   "sentence": "Please ____ ____ with the vendor about the missing invoice.",
+   "answer": "follow up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0033",
+  "word": "point out",
+  "ipa": "/pɔɪnt ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 33,
+  "en_def": "to tell someone about a fact or mistake they might not have noticed",
+  "hi_def": "ध्यान दिलाना, इंगित करना",
+  "hi_nuance": "Hindi speakers use 'tell' or 'show'. 'Point out' is perfect for code review: 'She pointed out a bug'. Separable.",
+  "examples": [
+   {
+    "en": "The reviewer pointed out three security issues.",
+    "hi": "समीक्षक ने तीन सुरक्षा समस्याओं की ओर ध्यान दिलाया।"
+   },
+   {
+    "en": "Thanks for pointing that out.",
+    "hi": "इसकी ओर ध्यान दिलाने के लिए धन्यवाद।"
+   },
+   {
+    "en": "I'd like to point out that the deadline is tomorrow.",
+    "hi": "मैं यह बताना चाहूँगा कि समय सीमा कल है।"
+   },
+   {
+    "en": "He pointed out the mistake in my calculation.",
+    "hi": "उसने मेरे हिसाब की ग़लती की ओर इशारा किया।"
+   },
+   {
+    "en": "As you pointed out, the logs were incomplete.",
+    "hi": "जैसा आपने बताया, लॉग अधूरे थे।"
+   }
+  ],
+  "collocations": [
+   "point out a mistake",
+   "point out that",
+   "point it out"
+  ],
+  "synonyms": [
+   "indicate",
+   "highlight",
+   "mention"
+  ],
+  "antonyms": [
+   "overlook",
+   "hide"
+  ],
+  "word_family": [
+   "point",
+   "point out",
+   "pointer"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "He pointed out me the error.",
+   "right": "He pointed out the error to me.",
+   "why": "The person receiving the information takes 'to'; the thing noticed is the direct object."
+  },
+  "cloze": {
+   "sentence": "She ____ ____ that the API key was hard-coded.",
+   "answer": "pointed out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0034",
+  "word": "sort out",
+  "ipa": "/sɔːt ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 34,
+  "en_def": "to solve a problem or organise something that is messy",
+  "hi_def": "सुलझाना, ठीक करना, व्यवस्थित करना",
+  "hi_nuance": "Very common in British English. Hindi speakers often use 'solve' or 'settle'; 'sort out' covers problems, paperwork, arguments and messy rooms.",
+  "examples": [
+   {
+    "en": "I need to sort out my visa paperwork.",
+    "hi": "मुझे अपने वीज़ा के काग़ज़ात ठीक करने हैं।"
+   },
+   {
+    "en": "Have you sorted out the payment issue?",
+    "hi": "क्या तुमने भुगतान की समस्या सुलझा ली?"
+   },
+   {
+    "en": "Let's sort this out before the client notices.",
+    "hi": "क्लाइंट के ध्यान देने से पहले इसे सुलझा लेते हैं।"
+   },
+   {
+    "en": "She sorted the files out by date.",
+    "hi": "उसने फ़ाइलों को तारीख़ के हिसाब से व्यवस्थित किया।"
+   },
+   {
+    "en": "They sorted out their differences and are friends again.",
+    "hi": "उन्होंने अपने मतभेद सुलझा लिए और फिर दोस्त बन गए।"
+   }
+  ],
+  "collocations": [
+   "sort out a problem",
+   "sort out the details",
+   "get it sorted out"
+  ],
+  "synonyms": [
+   "resolve",
+   "fix",
+   "organise"
+  ],
+  "antonyms": [
+   "mess up",
+   "complicate"
+  ],
+  "word_family": [
+   "sort",
+   "sort out",
+   "sorted"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "I will settle the DNS problem today.",
+   "right": "I'll sort out the DNS problem today.",
+   "why": "'Settle' is for bills and disputes; for fixing technical or practical problems 'sort out' is natural."
+  },
+  "cloze": {
+   "sentence": "Can you ____ ____ the seating for the workshop?",
+   "answer": "sort out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0035",
+  "word": "put on",
+  "ipa": "/pʊt ˈɒn/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 35,
+  "en_def": "to dress yourself in clothing; to start a device or music playing",
+  "hi_def": "पहनना; चालू करना",
+  "hi_nuance": "'Put on' is the action; 'wear' is the state. Hindi speakers say 'I wore my jacket and left' — natural: 'I put on my jacket and left'.",
+  "examples": [
+   {
+    "en": "Put on a jacket — it's cold outside.",
+    "hi": "जैकेट पहन लो — बाहर ठंड है।"
+   },
+   {
+    "en": "She put her shoes on and ran to the door.",
+    "hi": "उसने जूते पहने और दरवाज़े की ओर दौड़ी।"
+   },
+   {
+    "en": "Can you put on some music?",
+    "hi": "क्या तुम कुछ संगीत चला सकते हो?"
+   },
+   {
+    "en": "He put on his glasses to read the message.",
+    "hi": "उसने संदेश पढ़ने के लिए अपना चश्मा लगाया।"
+   },
+   {
+    "en": "Put it on and see if it fits.",
+    "hi": "इसे पहनकर देखो कि फ़िट है या नहीं।"
+   }
+  ],
+  "collocations": [
+   "put on a coat",
+   "put on weight",
+   "put on music"
+  ],
+  "synonyms": [
+   "don",
+   "get dressed in"
+  ],
+  "antonyms": [
+   "take off",
+   "remove"
+  ],
+  "word_family": [
+   "put",
+   "put on"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I wore my shoes and went out.",
+   "right": "I put on my shoes and went out.",
+   "why": "'Wear' describes a state; the action of getting dressed is 'put on'."
+  },
+  "cloze": {
+   "sentence": "____ ____ your helmet before you start the bike.",
+   "answer": "Put on"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0036",
+  "word": "go on",
+  "ipa": "/ɡəʊ ˈɒn/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 36,
+  "en_def": "to continue; to happen",
+  "hi_def": "जारी रखना; होना, चल रहा होना",
+  "hi_nuance": "'What's going on?' = what's happening. Hindi speakers use 'continue' too formally in speech; 'go on' is the everyday verb. Followed by -ing.",
+  "examples": [
+   {
+    "en": "What's going on with the servers?",
+    "hi": "सर्वरों के साथ क्या हो रहा है?"
+   },
+   {
+    "en": "Go on, I'm listening.",
+    "hi": "बोलते रहो, मैं सुन रहा हूँ।"
+   },
+   {
+    "en": "The meeting went on for three hours.",
+    "hi": "मीटिंग तीन घंटे तक चली।"
+   },
+   {
+    "en": "She went on talking even after the bell rang.",
+    "hi": "घंटी बजने के बाद भी वह बोलती रही।"
+   },
+   {
+    "en": "Something strange is going on in the logs.",
+    "hi": "लॉग में कुछ अजीब हो रहा है।"
+   }
+  ],
+  "collocations": [
+   "go on talking",
+   "go on for hours",
+   "what's going on"
+  ],
+  "synonyms": [
+   "continue",
+   "carry on",
+   "happen"
+  ],
+  "antonyms": [
+   "stop",
+   "cease"
+  ],
+  "word_family": [
+   "go",
+   "go on",
+   "ongoing"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "What is happening there? (in chat, too formal)",
+   "right": "What's going on there?",
+   "why": "Not wrong, but 'what's going on' is the natural spoken form."
+  },
+  "cloze": {
+   "sentence": "Please ____ ____ — tell me what happened next.",
+   "answer": "go on"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0037",
+  "word": "come back",
+  "ipa": "/kʌm ˈbæk/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 37,
+  "en_def": "to return to a place",
+  "hi_def": "वापस आना",
+  "hi_nuance": "Hindi speakers often say 'I will come back to you' meaning reply — English uses 'get back to you'. 'Come back' is physical return.",
+  "examples": [
+   {
+    "en": "When are you coming back from Delhi?",
+    "hi": "तुम दिल्ली से कब वापस आ रहे हो?"
+   },
+   {
+    "en": "She came back late last night.",
+    "hi": "वह कल रात देर से वापस आई।"
+   },
+   {
+    "en": "Come back soon!",
+    "hi": "जल्दी वापस आना!"
+   },
+   {
+    "en": "The error came back after the restart.",
+    "hi": "रीस्टार्ट के बाद एरर फिर आ गई।"
+   },
+   {
+    "en": "He left the company but came back a year later.",
+    "hi": "उसने कंपनी छोड़ दी लेकिन एक साल बाद वापस आ गया।"
+   }
+  ],
+  "collocations": [
+   "come back home",
+   "come back later",
+   "come back to"
+  ],
+  "synonyms": [
+   "return"
+  ],
+  "antonyms": [
+   "leave",
+   "go away"
+  ],
+  "word_family": [
+   "come",
+   "come back",
+   "comeback"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I will come back to you with the details.",
+   "right": "I'll get back to you with the details.",
+   "why": "For replying later, English uses 'get back to'; 'come back' means physically returning."
+  },
+  "cloze": {
+   "sentence": "I'll ____ ____ in an hour to check on the build.",
+   "answer": "come back"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0038",
+  "word": "get back to",
+  "ipa": "/ɡet ˈbæk tuː/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 38,
+  "en_def": "to contact someone later with a reply or information",
+  "hi_def": "बाद में जवाब देना, संपर्क करना",
+  "hi_nuance": "This replaces the Indian English 'revert' in emails. 'I'll revert by EOD' → 'I'll get back to you by EOD'.",
+  "examples": [
+   {
+    "en": "I'll get back to you by the end of the day.",
+    "hi": "मैं आज दिन ख़त्म होने तक आपको जवाब दूँगा।"
+   },
+   {
+    "en": "Thanks for getting back to me so quickly.",
+    "hi": "इतनी जल्दी जवाब देने के लिए धन्यवाद।"
+   },
+   {
+    "en": "Let me check and get back to you.",
+    "hi": "मुझे जाँचने दो, फिर मैं तुम्हें बताता हूँ।"
+   },
+   {
+    "en": "She never got back to me about the proposal.",
+    "hi": "उसने प्रस्ताव के बारे में मुझे कभी जवाब नहीं दिया।"
+   },
+   {
+    "en": "Can you get back to the client with a quote?",
+    "hi": "क्या तुम क्लाइंट को कोटेशन के साथ जवाब दे सकते हो?"
+   }
+  ],
+  "collocations": [
+   "get back to someone",
+   "get back to you soon",
+   "get back to work"
+  ],
+  "synonyms": [
+   "reply",
+   "respond"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "word_family": [
+   "get",
+   "get back",
+   "get back to"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Please revert at the earliest.",
+   "right": "Please get back to me as soon as possible.",
+   "why": "'Revert' means 'return to a previous state' in standard English, not 'reply'."
+  },
+  "cloze": {
+   "sentence": "I'm in a meeting now — I'll ____ ____ ____ you in an hour.",
+   "answer": "get back to"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0039",
+  "word": "go out",
+  "ipa": "/ɡəʊ ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 39,
+  "en_def": "to leave home for entertainment; to stop burning or shining",
+  "hi_def": "बाहर जाना (घूमने); बुझ जाना",
+  "hi_nuance": "Hindi speakers say 'I went outside' for going to a restaurant or cinema. 'Go out' means going somewhere for fun; 'the lights went out' = power cut.",
+  "examples": [
+   {
+    "en": "We're going out for dinner tonight.",
+    "hi": "हम आज रात बाहर खाना खाने जा रहे हैं।"
+   },
+   {
+    "en": "The lights went out during the storm.",
+    "hi": "तूफ़ान के दौरान बत्तियाँ बुझ गईं।"
+   },
+   {
+    "en": "She doesn't go out much these days.",
+    "hi": "वह आजकल ज़्यादा बाहर नहीं जाती।"
+   },
+   {
+    "en": "They've been going out together for a year.",
+    "hi": "वे एक साल से एक-दूसरे को डेट कर रहे हैं।"
+   },
+   {
+    "en": "Let's go out and get some fresh air.",
+    "hi": "चलो बाहर चलकर थोड़ी ताज़ी हवा लेते हैं।"
+   }
+  ],
+  "collocations": [
+   "go out for dinner",
+   "go out with friends",
+   "the lights went out"
+  ],
+  "synonyms": [
+   "head out",
+   "socialise"
+  ],
+  "antonyms": [
+   "stay in",
+   "stay home"
+  ],
+  "word_family": [
+   "go",
+   "go out",
+   "outing"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Yesterday we went outside for a movie.",
+   "right": "Yesterday we went out to see a movie.",
+   "why": "'Outside' just means not indoors; 'go out' means going somewhere for entertainment."
+  },
+  "cloze": {
+   "sentence": "Do you want to ____ ____ for a coffee later?",
+   "answer": "go out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0040",
+  "word": "come up with",
+  "ipa": "/kʌm ˈʌp wɪð/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 40,
+  "en_def": "to think of an idea, plan, or solution",
+  "hi_def": "(विचार/योजना) सोच निकालना",
+  "hi_nuance": "Hindi speakers tend to say 'I got an idea' or 'I thought one solution'. Natural: 'I came up with a solution'.",
+  "examples": [
+   {
+    "en": "She came up with a clever workaround.",
+    "hi": "उसने एक चतुर उपाय सोच निकाला।"
+   },
+   {
+    "en": "We need to come up with a name for the project.",
+    "hi": "हमें प्रोजेक्ट के लिए एक नाम सोचना होगा।"
+   },
+   {
+    "en": "He always comes up with excuses.",
+    "hi": "वह हमेशा बहाने बना लेता है।"
+   },
+   {
+    "en": "Can you come up with three test cases by noon?",
+    "hi": "क्या तुम दोपहर तक तीन टेस्ट केस तैयार कर सकते हो?"
+   },
+   {
+    "en": "They came up with the idea during lunch.",
+    "hi": "उन्हें यह विचार दोपहर के भोजन के दौरान आया।"
+   }
+  ],
+  "collocations": [
+   "come up with an idea",
+   "come up with a plan",
+   "come up with a solution"
+  ],
+  "synonyms": [
+   "think of",
+   "devise",
+   "invent"
+  ],
+  "antonyms": [
+   "copy"
+  ],
+  "word_family": [
+   "come",
+   "come up",
+   "come up with"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I thought one good idea for the demo.",
+   "right": "I came up with a good idea for the demo.",
+   "why": "'Think an idea' is not English; use 'come up with' or 'have an idea'."
+  },
+  "cloze": {
+   "sentence": "Marketing ____ ____ ____ a new slogan overnight.",
+   "answer": "came up with"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0041",
+  "word": "check in",
+  "ipa": "/tʃek ˈɪn/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 41,
+  "en_def": "to register on arrival at a hotel or airport; to contact someone briefly to see how things are",
+  "hi_def": "चेक-इन करना; हालचाल पूछना",
+  "hi_nuance": "'Check in' at a hotel is standard. At work, 'let me check in with you' = a quick status chat. Noun is 'check-in'.",
+  "examples": [
+   {
+    "en": "We checked in at the hotel around noon.",
+    "hi": "हमने दोपहर के आसपास होटल में चेक-इन किया।"
+   },
+   {
+    "en": "You can check in online 24 hours before the flight.",
+    "hi": "आप उड़ान से 24 घंटे पहले ऑनलाइन चेक-इन कर सकते हैं।"
+   },
+   {
+    "en": "I'll check in with you on Friday to see how it's going.",
+    "hi": "मैं शुक्रवार को तुमसे हालचाल पूछूँगा कि काम कैसा चल रहा है।"
+   },
+   {
+    "en": "She checks in with her team every morning.",
+    "hi": "वह हर सुबह अपनी टीम से संपर्क करती है।"
+   },
+   {
+    "en": "Just checking in — do you need anything from me?",
+    "hi": "बस पूछ रहा हूँ — क्या तुम्हें मुझसे कुछ चाहिए?"
+   }
+  ],
+  "collocations": [
+   "check in at a hotel",
+   "check in with someone",
+   "check in online"
+  ],
+  "synonyms": [
+   "register",
+   "touch base"
+  ],
+  "antonyms": [
+   "check out"
+  ],
+  "word_family": [
+   "check",
+   "check in",
+   "check-in"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I will do check-in at the airport at 5.",
+   "right": "I'll check in at the airport at 5.",
+   "why": "'Check in' works as a verb by itself; 'do check-in' is unnatural."
+  },
+  "cloze": {
+   "sentence": "Let's ____ ____ with the vendor to see if the fix is ready.",
+   "answer": "check in"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0042",
+  "word": "check out",
+  "ipa": "/tʃek ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 42,
+  "en_def": "to leave a hotel and pay; to look at something because it is interesting",
+  "hi_def": "चेक-आउट करना; देखना, जाँचना",
+  "hi_nuance": "'Check it out' = have a look — very common in speech. Hindi speakers say 'see this once' — natural: 'check this out'.",
+  "examples": [
+   {
+    "en": "We have to check out by 11 am.",
+    "hi": "हमें सुबह 11 बजे तक चेक-आउट करना है।"
+   },
+   {
+    "en": "Check out this new tool I found.",
+    "hi": "ये नया टूल देखो जो मुझे मिला।"
+   },
+   {
+    "en": "I'll check it out and let you know.",
+    "hi": "मैं इसे देखकर तुम्हें बताता हूँ।"
+   },
+   {
+    "en": "Have you checked out the new café near the office?",
+    "hi": "क्या तुमने ऑफ़िस के पास वाला नया कैफ़े देखा?"
+   },
+   {
+    "en": "The doctor checked him out and said he was fine.",
+    "hi": "डॉक्टर ने उसकी जाँच की और कहा कि वह ठीक है।"
+   }
+  ],
+  "collocations": [
+   "check out of a hotel",
+   "check it out",
+   "check out a website"
+  ],
+  "synonyms": [
+   "look at",
+   "examine",
+   "leave"
+  ],
+  "antonyms": [
+   "check in"
+  ],
+  "word_family": [
+   "check",
+   "check out",
+   "checkout"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "See this once, it's a great article.",
+   "right": "Check this out — it's a great article.",
+   "why": "'See this once' is a direct Hindi translation; 'check this out' is the idiomatic version."
+  },
+  "cloze": {
+   "sentence": "You should ____ ____ that podcast about incident response.",
+   "answer": "check out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0043",
+  "word": "fill in",
+  "ipa": "/fɪl ˈɪn/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 43,
+  "en_def": "to complete a form; to give someone missing information; to do someone's job temporarily",
+  "hi_def": "(फ़ॉर्म) भरना; जानकारी देना; किसी की जगह काम करना",
+  "hi_nuance": "'Fill in a form' (UK) / 'fill out a form' (US) — both fine. 'Fill me in' = tell me what I missed. Hindi speakers say 'update me' — 'fill me in' is more natural.",
+  "examples": [
+   {
+    "en": "Please fill in the form and sign at the bottom.",
+    "hi": "कृपया फ़ॉर्म भरें और नीचे हस्ताक्षर करें।"
+   },
+   {
+    "en": "Can you fill me in on what happened at the meeting?",
+    "hi": "क्या तुम मुझे बता सकते हो कि मीटिंग में क्या हुआ?"
+   },
+   {
+    "en": "She filled in for me while I was on leave.",
+    "hi": "जब मैं छुट्टी पर था तो उसने मेरी जगह काम किया।"
+   },
+   {
+    "en": "Fill in the blanks with the correct word.",
+    "hi": "सही शब्द से रिक्त स्थान भरें।"
+   },
+   {
+    "en": "I'll fill you in later; I'm in a hurry now.",
+    "hi": "मैं तुम्हें बाद में बताऊँगा; अभी जल्दी में हूँ।"
+   }
+  ],
+  "collocations": [
+   "fill in a form",
+   "fill someone in",
+   "fill in for someone"
+  ],
+  "synonyms": [
+   "complete",
+   "fill out",
+   "brief"
+  ],
+  "antonyms": [
+   "leave blank"
+  ],
+  "word_family": [
+   "fill",
+   "fill in",
+   "fill out"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Please fill the form and revert.",
+   "right": "Please fill in the form and send it back.",
+   "why": "'Fill in / fill out' is the natural verb for forms, and 'revert' means something else in standard English."
+  },
+  "cloze": {
+   "sentence": "I missed the call — can you ____ me ____?",
+   "answer": "fill in"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0044",
+  "word": "hand in",
+  "ipa": "/hænd ˈɪn/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 44,
+  "en_def": "to give work or a document to someone in authority",
+  "hi_def": "जमा करना, सौंपना",
+  "hi_nuance": "Hindi 'जमा करना' is usually translated as 'submit' — fine in formal contexts. 'Hand in' is the everyday version; 'hand in your notice' = resign.",
+  "examples": [
+   {
+    "en": "Hand in your report by Friday.",
+    "hi": "शुक्रवार तक अपनी रिपोर्ट जमा करें।"
+   },
+   {
+    "en": "She handed in her notice last week.",
+    "hi": "उसने पिछले हफ़्ते इस्तीफ़ा दे दिया।"
+   },
+   {
+    "en": "Did you hand the assignment in on time?",
+    "hi": "क्या तुमने असाइनमेंट समय पर जमा किया?"
+   },
+   {
+    "en": "Please hand in your badge when you leave the building.",
+    "hi": "इमारत से निकलते समय कृपया अपना बैज जमा करें।"
+   },
+   {
+    "en": "He handed it in a day late.",
+    "hi": "उसने इसे एक दिन देर से जमा किया।"
+   }
+  ],
+  "collocations": [
+   "hand in an assignment",
+   "hand in your notice",
+   "hand in your resignation"
+  ],
+  "synonyms": [
+   "submit",
+   "turn in"
+  ],
+  "antonyms": [
+   "keep",
+   "withhold"
+  ],
+  "word_family": [
+   "hand",
+   "hand in",
+   "hand out",
+   "hand over"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I gave my resignation yesterday.",
+   "right": "I handed in my resignation yesterday.",
+   "why": "'Give a resignation' is unidiomatic; 'hand in' or 'submit' is the correct collocation."
+  },
+  "cloze": {
+   "sentence": "All students must ____ ____ their essays by noon.",
+   "answer": "hand in"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0045",
+  "word": "hand over",
+  "ipa": "/hænd ˈəʊvə/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 45,
+  "en_def": "to give something or responsibility to another person",
+  "hi_def": "सौंपना, हस्तांतरित करना",
+  "hi_nuance": "Very common at work: 'handover' (noun) before leaving a job. Verb is two words: 'hand over the project'.",
+  "examples": [
+   {
+    "en": "I'll hand over the project before I go on leave.",
+    "hi": "छुट्टी पर जाने से पहले मैं प्रोजेक्ट सौंप दूँगा।"
+   },
+   {
+    "en": "The guard asked him to hand over his ID.",
+    "hi": "गार्ड ने उससे अपना पहचान पत्र देने को कहा।"
+   },
+   {
+    "en": "She handed the keys over to the new tenant.",
+    "hi": "उसने चाबियाँ नए किरायेदार को सौंप दीं।"
+   },
+   {
+    "en": "The suspect was handed over to the police.",
+    "hi": "संदिग्ध को पुलिस के हवाले कर दिया गया।"
+   },
+   {
+    "en": "Hand it over — I'll finish it for you.",
+    "hi": "इसे मुझे दे दो — मैं इसे तुम्हारे लिए पूरा कर दूँगा।"
+   }
+  ],
+  "collocations": [
+   "hand over responsibility",
+   "hand over the keys",
+   "hand over power"
+  ],
+  "synonyms": [
+   "transfer",
+   "pass on",
+   "surrender"
+  ],
+  "antonyms": [
+   "keep",
+   "retain"
+  ],
+  "word_family": [
+   "hand",
+   "hand over",
+   "handover"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I will do the handover of my tasks to Ravi.",
+   "right": "I'll hand over my tasks to Ravi.",
+   "why": "Use the verb form directly; 'do the handover of' is heavy and unnatural."
+  },
+  "cloze": {
+   "sentence": "Before you leave, please ____ ____ all your passwords to IT.",
+   "answer": "hand over"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0046",
+  "word": "take over",
+  "ipa": "/teɪk ˈəʊvə/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 46,
+  "en_def": "to take control of something from someone else",
+  "hi_def": "नियंत्रण लेना, कार्यभार सँभालना",
+  "hi_nuance": "Opposite of 'hand over'. Noun 'takeover'. In security: 'account takeover' (ATO). Hindi speakers say 'I took charge' — also fine, but 'took over' is more common.",
+  "examples": [
+   {
+    "en": "Priya will take over the project from next month.",
+    "hi": "अगले महीने से प्रिया प्रोजेक्ट सँभालेगी।"
+   },
+   {
+    "en": "A larger company took over our startup.",
+    "hi": "एक बड़ी कंपनी ने हमारा स्टार्टअप ख़रीद लिया।"
+   },
+   {
+    "en": "Can you take over while I get some lunch?",
+    "hi": "जब तक मैं खाना खाता हूँ, क्या तुम सँभाल सकते हो?"
+   },
+   {
+    "en": "The attacker took over the admin account.",
+    "hi": "हमलावर ने एडमिन खाते पर नियंत्रण कर लिया।"
+   },
+   {
+    "en": "He took it over when the previous lead resigned.",
+    "hi": "जब पिछले लीड ने इस्तीफ़ा दिया तो उसने इसे सँभाल लिया।"
+   }
+  ],
+  "collocations": [
+   "take over a company",
+   "take over responsibility",
+   "account takeover"
+  ],
+  "synonyms": [
+   "assume control",
+   "acquire"
+  ],
+  "antonyms": [
+   "hand over",
+   "give up"
+  ],
+  "word_family": [
+   "take",
+   "take over",
+   "takeover"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "He will take the charge of the team from Monday.",
+   "right": "He'll take over the team from Monday.",
+   "why": "'Take the charge' is Indian English; use 'take over' or 'take charge of' (no 'the')."
+  },
+  "cloze": {
+   "sentence": "Who will ____ ____ your duties while you're away?",
+   "answer": "take over"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0047",
+  "word": "turn up",
+  "ipa": "/tɜːn ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 47,
+  "en_def": "to arrive, often unexpectedly; to increase the volume or heat",
+  "hi_def": "पहुँचना, आ जाना; (आवाज़) बढ़ाना",
+  "hi_nuance": "'Turn up' for people = show up. Hindi speakers say 'he came late' — 'he turned up late' adds the sense of casual or unexpected arrival.",
+  "examples": [
+   {
+    "en": "He turned up an hour late without an apology.",
+    "hi": "वह बिना माफ़ी माँगे एक घंटा देर से पहुँचा।"
+   },
+   {
+    "en": "Can you turn up the volume? I can't hear.",
+    "hi": "क्या आवाज़ बढ़ा सकते हो? मुझे सुनाई नहीं दे रहा।"
+   },
+   {
+    "en": "My lost wallet turned up in the car.",
+    "hi": "मेरा खोया हुआ बटुआ गाड़ी में मिल गया।"
+   },
+   {
+    "en": "Only five people turned up to the meeting.",
+    "hi": "मीटिंग में सिर्फ़ पाँच लोग आए।"
+   },
+   {
+    "en": "Turn it up a bit — the speech is starting.",
+    "hi": "इसे थोड़ा बढ़ाओ — भाषण शुरू हो रहा है।"
+   }
+  ],
+  "collocations": [
+   "turn up late",
+   "turn up the volume",
+   "turn up the heat"
+  ],
+  "synonyms": [
+   "show up",
+   "appear",
+   "increase"
+  ],
+  "antonyms": [
+   "turn down",
+   "fail to appear"
+  ],
+  "word_family": [
+   "turn",
+   "turn up",
+   "turnout"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Please increase the volume of the TV.",
+   "right": "Please turn up the TV.",
+   "why": "'Increase the volume' is correct but stiff; 'turn up' is what people actually say."
+  },
+  "cloze": {
+   "sentence": "Half the team didn't ____ ____ for the training.",
+   "answer": "turn up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0048",
+  "word": "turn down",
+  "ipa": "/tɜːn ˈdaʊn/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 48,
+  "en_def": "to refuse an offer or request; to reduce the volume or heat",
+  "hi_def": "अस्वीकार करना; (आवाज़) कम करना",
+  "hi_nuance": "Hindi speakers say 'reject' for offers — 'turn down' is softer and more natural: 'she turned down the job'.",
+  "examples": [
+   {
+    "en": "She turned down the job offer because of the salary.",
+    "hi": "वेतन की वजह से उसने नौकरी का प्रस्ताव ठुकरा दिया।"
+   },
+   {
+    "en": "Turn the music down, please.",
+    "hi": "कृपया संगीत की आवाज़ कम करो।"
+   },
+   {
+    "en": "He turned it down without even reading it.",
+    "hi": "उसने इसे पढ़े बिना ही ठुकरा दिया।"
+   },
+   {
+    "en": "The bank turned down my loan application.",
+    "hi": "बैंक ने मेरा ऋण आवेदन अस्वीकार कर दिया।"
+   },
+   {
+    "en": "Can you turn down the AC? It's freezing.",
+    "hi": "क्या तुम AC कम कर सकते हो? बहुत ठंड है।"
+   }
+  ],
+  "collocations": [
+   "turn down an offer",
+   "turn down the volume",
+   "turn down a request"
+  ],
+  "synonyms": [
+   "refuse",
+   "decline",
+   "reduce"
+  ],
+  "antonyms": [
+   "accept",
+   "turn up"
+  ],
+  "word_family": [
+   "turn",
+   "turn down"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I rejected their offer politely.",
+   "right": "I turned down their offer politely.",
+   "why": "'Reject' is strong and formal; 'turn down' is the natural, polite way to say no to an offer."
+  },
+  "cloze": {
+   "sentence": "He ____ ____ the promotion because it meant moving to Mumbai.",
+   "answer": "turned down"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0049",
+  "word": "show up",
+  "ipa": "/ʃəʊ ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 49,
+  "en_def": "to arrive at a place where people are expecting you",
+  "hi_def": "आ पहुँचना, हाज़िर होना",
+  "hi_nuance": "American-leaning twin of 'turn up'. 'No-show' = someone who didn't show up. Hindi speakers say 'he didn't come' — fine, but 'didn't show up' is stronger.",
+  "examples": [
+   {
+    "en": "The candidate didn't show up for the interview.",
+    "hi": "उम्मीदवार इंटरव्यू के लिए नहीं आया।"
+   },
+   {
+    "en": "She showed up with a cake for everyone.",
+    "hi": "वह सबके लिए केक लेकर आई।"
+   },
+   {
+    "en": "What time did he show up?",
+    "hi": "वह कितने बजे आया?"
+   },
+   {
+    "en": "Just show up on time and you'll be fine.",
+    "hi": "बस समय पर पहुँचो और सब ठीक रहेगा।"
+   },
+   {
+    "en": "The bug only shows up in Safari.",
+    "hi": "यह बग सिर्फ़ सफ़ारी में दिखाई देता है।"
+   }
+  ],
+  "collocations": [
+   "show up late",
+   "show up on time",
+   "fail to show up"
+  ],
+  "synonyms": [
+   "turn up",
+   "appear",
+   "arrive"
+  ],
+  "antonyms": [
+   "skip",
+   "miss"
+  ],
+  "word_family": [
+   "show",
+   "show up",
+   "no-show"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "He was absent for the meeting without informing.",
+   "right": "He didn't show up for the meeting without letting anyone know.",
+   "why": "'Absent for' and 'without informing' (no object) are unnatural; this is how a native speaker would phrase it."
+  },
+  "cloze": {
+   "sentence": "Twenty people registered but only eight ____ ____.",
+   "answer": "showed up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0050",
+  "word": "get over",
+  "ipa": "/ɡet ˈəʊvə/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 50,
+  "en_def": "to recover from an illness, disappointment, or shock",
+  "hi_def": "उबरना, ठीक हो जाना",
+  "hi_nuance": "Note: 'get over' means recover, while Indian English 'my balance got over' means 'ran out' — that use is wrong in standard English.",
+  "examples": [
+   {
+    "en": "It took her weeks to get over the flu.",
+    "hi": "फ़्लू से उबरने में उसे कई हफ़्ते लगे।"
+   },
+   {
+    "en": "He still hasn't got over losing the match.",
+    "hi": "वह अब भी मैच हारने के सदमे से नहीं उबरा है।"
+   },
+   {
+    "en": "You'll get over it — everyone fails sometimes.",
+    "hi": "तुम इससे उबर जाओगे — हर कोई कभी न कभी असफल होता है।"
+   },
+   {
+    "en": "I can't get over how fast the kids have grown.",
+    "hi": "मुझे यक़ीन नहीं होता कि बच्चे कितनी जल्दी बड़े हो गए।"
+   },
+   {
+    "en": "She got over her fear of public speaking.",
+    "hi": "उसने सार्वजनिक रूप से बोलने के अपने डर पर क़ाबू पा लिया।"
+   }
+  ],
+  "collocations": [
+   "get over an illness",
+   "get over a breakup",
+   "get over the shock"
+  ],
+  "synonyms": [
+   "recover from",
+   "overcome"
+  ],
+  "antonyms": [
+   "suffer from",
+   "dwell on"
+  ],
+  "word_family": [
+   "get",
+   "get over"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "My internet pack got over yesterday.",
+   "right": "My internet pack ran out yesterday.",
+   "why": "'Got over' means recovered; for something being used up, say 'ran out' or 'expired'."
+  },
+  "cloze": {
+   "sentence": "It took him a long time to ____ ____ the loss of his job.",
+   "answer": "get over"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0051",
+  "word": "get through",
+  "ipa": "/ɡet ˈθruː/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 51,
+  "en_def": "to finish or survive something difficult; to reach someone by phone",
+  "hi_def": "पार पाना, पूरा करना; फ़ोन पर संपर्क हो पाना",
+  "hi_nuance": "'I couldn't get through' = the call didn't connect. Hindi speakers say 'the call was not going' — use 'I couldn't get through'.",
+  "examples": [
+   {
+    "en": "I tried calling but couldn't get through.",
+    "hi": "मैंने फ़ोन करने की कोशिश की लेकिन बात नहीं हो पाई।"
+   },
+   {
+    "en": "We got through a lot of work today.",
+    "hi": "हमने आज बहुत सारा काम निपटा लिया।"
+   },
+   {
+    "en": "She got through the exam with flying colours.",
+    "hi": "उसने परीक्षा शानदार अंकों से पास की।"
+   },
+   {
+    "en": "How did you get through such a tough year?",
+    "hi": "तुमने इतना कठिन साल कैसे निकाला?"
+   },
+   {
+    "en": "I need coffee to get through the afternoon.",
+    "hi": "दोपहर निकालने के लिए मुझे कॉफ़ी चाहिए।"
+   }
+  ],
+  "collocations": [
+   "get through the day",
+   "get through to someone",
+   "get through an exam"
+  ],
+  "synonyms": [
+   "survive",
+   "complete",
+   "reach"
+  ],
+  "antonyms": [
+   "fail",
+   "give up"
+  ],
+  "word_family": [
+   "get",
+   "get through"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Your call was not going through, so I messaged.",
+   "right": "I couldn't get through, so I messaged you.",
+   "why": "'Get through' is the idiom for a call connecting; 'call was not going' is a Hindi calque."
+  },
+  "cloze": {
+   "sentence": "I've been trying to ____ ____ to support for an hour.",
+   "answer": "get through"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0052",
+  "word": "go through",
+  "ipa": "/ɡəʊ ˈθruː/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 52,
+  "en_def": "to examine something carefully; to experience something difficult",
+  "hi_def": "ध्यान से देखना/जाँचना; (कठिन समय) से गुज़रना",
+  "hi_nuance": "Perfect for work: 'let's go through the report'. Hindi speakers say 'let's see the document one time' — use 'go through'.",
+  "examples": [
+   {
+    "en": "Let's go through the findings one by one.",
+    "hi": "चलो नतीजों को एक-एक करके देखते हैं।"
+   },
+   {
+    "en": "She's going through a difficult time right now.",
+    "hi": "वह इस समय एक मुश्किल दौर से गुज़र रही है।"
+   },
+   {
+    "en": "I went through the logs but found nothing unusual.",
+    "hi": "मैंने लॉग देखे लेकिन कुछ असामान्य नहीं मिला।"
+   },
+   {
+    "en": "The payment didn't go through.",
+    "hi": "भुगतान सफल नहीं हुआ।"
+   },
+   {
+    "en": "Can we go through the plan again before the call?",
+    "hi": "क्या हम कॉल से पहले योजना को फिर से देख सकते हैं?"
+   }
+  ],
+  "collocations": [
+   "go through the details",
+   "go through a hard time",
+   "the payment went through"
+  ],
+  "synonyms": [
+   "review",
+   "examine",
+   "undergo"
+  ],
+  "antonyms": [
+   "skip",
+   "ignore"
+  ],
+  "word_family": [
+   "go",
+   "go through"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Please see the document once and tell me.",
+   "right": "Please go through the document and let me know.",
+   "why": "'See once' is a Hindi calque ('एक बार देख लो'); 'go through' is the natural verb for reviewing."
+  },
+  "cloze": {
+   "sentence": "We need to ____ ____ every line of the contract.",
+   "answer": "go through"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0053",
+  "word": "look into",
+  "ipa": "/lʊk ˈɪntuː/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 53,
+  "en_def": "to investigate or examine a problem",
+  "hi_def": "जाँच-पड़ताल करना",
+  "hi_nuance": "The polite professional way to say 'I'll investigate'. Hindi speakers write 'I will check on this' — 'I'll look into it' is standard.",
+  "examples": [
+   {
+    "en": "I'll look into the issue and get back to you.",
+    "hi": "मैं इस समस्या की जाँच करके आपको बताऊँगा।"
+   },
+   {
+    "en": "The police are looking into the theft.",
+    "hi": "पुलिस चोरी की जाँच कर रही है।"
+   },
+   {
+    "en": "Thanks for raising this — we're looking into it.",
+    "hi": "इसे उठाने के लिए धन्यवाद — हम इसकी जाँच कर रहे हैं।"
+   },
+   {
+    "en": "Could you look into why the build is failing?",
+    "hi": "क्या तुम देख सकते हो कि बिल्ड क्यों फ़ेल हो रही है?"
+   },
+   {
+    "en": "We looked into several vendors before choosing one.",
+    "hi": "एक चुनने से पहले हमने कई विक्रेताओं की जाँच की।"
+   }
+  ],
+  "collocations": [
+   "look into a problem",
+   "look into a complaint",
+   "look into the matter"
+  ],
+  "synonyms": [
+   "investigate",
+   "examine",
+   "explore"
+  ],
+  "antonyms": [
+   "ignore",
+   "dismiss"
+  ],
+  "word_family": [
+   "look",
+   "look into"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I will look into it and revert.",
+   "right": "I'll look into it and get back to you.",
+   "why": "'Look into' is correct, but 'revert' should be 'get back to you'."
+  },
+  "cloze": {
+   "sentence": "Our team will ____ ____ the reported vulnerability today.",
+   "answer": "look into"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0054",
+  "word": "look forward to",
+  "ipa": "/lʊk ˈfɔːwəd tuː/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 54,
+  "en_def": "to feel happy and excited about something that is going to happen",
+  "hi_def": "बेसब्री से इंतज़ार करना",
+  "hi_nuance": "The number-one email error: 'I look forward to meet you'. The 'to' is a preposition, so it must be followed by -ing or a noun.",
+  "examples": [
+   {
+    "en": "I look forward to hearing from you.",
+    "hi": "मुझे आपके जवाब का इंतज़ार रहेगा।"
+   },
+   {
+    "en": "We're looking forward to the holidays.",
+    "hi": "हम छुट्टियों का बेसब्री से इंतज़ार कर रहे हैं।"
+   },
+   {
+    "en": "She's looking forward to starting her new job.",
+    "hi": "वह अपनी नई नौकरी शुरू करने के लिए उत्सुक है।"
+   },
+   {
+    "en": "I'm not looking forward to the dentist tomorrow.",
+    "hi": "कल डेंटिस्ट के पास जाने का मुझे बिल्कुल मन नहीं है।"
+   },
+   {
+    "en": "Looking forward to working with you.",
+    "hi": "आपके साथ काम करने के लिए उत्सुक हूँ।"
+   }
+  ],
+  "collocations": [
+   "look forward to hearing",
+   "look forward to seeing",
+   "look forward to it"
+  ],
+  "synonyms": [
+   "anticipate",
+   "await eagerly"
+  ],
+  "antonyms": [
+   "dread"
+  ],
+  "word_family": [
+   "look",
+   "look forward to"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I look forward to meet you next week.",
+   "right": "I look forward to meeting you next week.",
+   "why": "'To' here is a preposition, not part of an infinitive, so the verb takes -ing."
+  },
+  "cloze": {
+   "sentence": "I ____ ____ ____ seeing you at the conference.",
+   "answer": "look forward to"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0055",
+  "word": "get on with",
+  "ipa": "/ɡet ˈɒn wɪð/",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "freq_rank": 55,
+  "en_def": "to continue doing a task; to have a good relationship with someone",
+  "hi_def": "काम जारी रखना; अच्छे संबंध होना",
+  "hi_nuance": "British English. 'Get on with it!' = stop wasting time. 'I get on with my boss' = we have a good relationship.",
+  "examples": [
+   {
+    "en": "Let's get on with the review — we're short on time.",
+    "hi": "चलो समीक्षा जारी रखते हैं — समय कम है।"
+   },
+   {
+    "en": "I get on well with my flatmates.",
+    "hi": "मेरी अपने फ़्लैटमेट्स से अच्छी बनती है।"
+   },
+   {
+    "en": "Stop chatting and get on with your work.",
+    "hi": "बातें बंद करो और अपना काम करो।"
+   },
+   {
+    "en": "How are you getting on with the new framework?",
+    "hi": "नए फ़्रेमवर्क के साथ कैसा चल रहा है?"
+   },
+   {
+    "en": "They don't really get on with each other.",
+    "hi": "उनकी आपस में ख़ास नहीं बनती।"
+   }
+  ],
+  "collocations": [
+   "get on with the job",
+   "get on with someone",
+   "get on with it"
+  ],
+  "synonyms": [
+   "continue",
+   "get along"
+  ],
+  "antonyms": [
+   "put off",
+   "clash"
+  ],
+  "word_family": [
+   "get",
+   "get on",
+   "get on with"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Let's continue with the work now, no more talking.",
+   "right": "Let's get on with it — no more talking.",
+   "why": "Not wrong, but 'get on with it' is the idiomatic, energetic version."
+  },
+  "cloze": {
+   "sentence": "I'd better ____ ____ ____ the report before lunch.",
+   "answer": "get on with"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0056",
+  "word": "keep up with",
+  "ipa": "/kiːp ˈʌp wɪð/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 56,
+  "en_def": "to move or progress at the same speed as someone or something",
+  "hi_def": "बराबरी बनाए रखना, साथ चलना",
+  "hi_nuance": "'Keep up with the news / technology / the team'. Hindi speakers say 'stay updated' — 'keep up with' is more natural in speech.",
+  "examples": [
+   {
+    "en": "It's hard to keep up with all the new security tools.",
+    "hi": "सभी नए सुरक्षा टूल्स के साथ तालमेल रखना मुश्किल है।"
+   },
+   {
+    "en": "Slow down — I can't keep up with you.",
+    "hi": "धीरे चलो — मैं तुम्हारी रफ़्तार से नहीं चल पा रहा।"
+   },
+   {
+    "en": "She reads every morning to keep up with the news.",
+    "hi": "ख़बरों से जुड़े रहने के लिए वह हर सुबह पढ़ती है।"
+   },
+   {
+    "en": "We couldn't keep up with the demand.",
+    "hi": "हम माँग के साथ तालमेल नहीं रख पाए।"
+   },
+   {
+    "en": "Do you keep up with your college friends?",
+    "hi": "क्या तुम अपने कॉलेज के दोस्तों के संपर्क में रहते हो?"
+   }
+  ],
+  "collocations": [
+   "keep up with the news",
+   "keep up with demand",
+   "keep up with the pace"
+  ],
+  "synonyms": [
+   "stay abreast of",
+   "match"
+  ],
+  "antonyms": [
+   "fall behind",
+   "lag"
+  ],
+  "word_family": [
+   "keep",
+   "keep up",
+   "keep up with"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I try to be updated with the latest CVEs.",
+   "right": "I try to keep up with the latest CVEs.",
+   "why": "'Be updated' is a Hindi-style passive; 'keep up with' is the natural active phrase."
+  },
+  "cloze": {
+   "sentence": "The old server can't ____ ____ ____ the traffic any more.",
+   "answer": "keep up with"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0057",
+  "word": "cut off",
+  "ipa": "/kʌt ˈɒf/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 57,
+  "en_def": "to stop the supply of something; to interrupt a call or a person speaking",
+  "hi_def": "काट देना (आपूर्ति/संपर्क); बीच में रोकना",
+  "hi_nuance": "'We got cut off' = the call dropped. Hindi speakers say 'the call got disconnected' — fine, but 'we got cut off' is what natives say.",
+  "examples": [
+   {
+    "en": "Sorry, we got cut off — bad signal.",
+    "hi": "माफ़ करना, कॉल कट गया — सिग्नल ख़राब था।"
+   },
+   {
+    "en": "They cut off the power for maintenance.",
+    "hi": "रखरखाव के लिए उन्होंने बिजली काट दी।"
+   },
+   {
+    "en": "Don't cut me off — let me finish.",
+    "hi": "मुझे बीच में मत टोको — मुझे पूरा करने दो।"
+   },
+   {
+    "en": "The village was cut off by the floods.",
+    "hi": "बाढ़ की वजह से गाँव का संपर्क कट गया।"
+   },
+   {
+    "en": "The firewall cut off all outbound traffic.",
+    "hi": "फ़ायरवॉल ने सारा आउटबाउंड ट्रैफ़िक रोक दिया।"
+   }
+  ],
+  "collocations": [
+   "cut off the supply",
+   "get cut off",
+   "cut someone off"
+  ],
+  "synonyms": [
+   "disconnect",
+   "interrupt",
+   "sever"
+  ],
+  "antonyms": [
+   "connect",
+   "restore"
+  ],
+  "word_family": [
+   "cut",
+   "cut off",
+   "cut-off"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "The line got disconnected in between.",
+   "right": "We got cut off halfway through.",
+   "why": "'In between' without an object is a Hindi calque; 'halfway through' and 'cut off' are natural."
+  },
+  "cloze": {
+   "sentence": "The company ____ ____ his access the day he resigned.",
+   "answer": "cut off"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0058",
+  "word": "call off",
+  "ipa": "/kɔːl ˈɒf/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 58,
+  "en_def": "to cancel a planned event",
+  "hi_def": "रद्द करना",
+  "hi_nuance": "'Cancel' is fine; 'call off' is common for meetings, strikes, matches. Separable: 'call it off'.",
+  "examples": [
+   {
+    "en": "The match was called off because of rain.",
+    "hi": "बारिश की वजह से मैच रद्द कर दिया गया।"
+   },
+   {
+    "en": "They called off the strike after talks.",
+    "hi": "बातचीत के बाद उन्होंने हड़ताल वापस ले ली।"
+   },
+   {
+    "en": "Let's call it off — half the team is sick.",
+    "hi": "इसे रद्द कर देते हैं — आधी टीम बीमार है।"
+   },
+   {
+    "en": "The wedding was called off at the last minute.",
+    "hi": "शादी आख़िरी समय पर रद्द कर दी गई।"
+   },
+   {
+    "en": "We called off the release when the tests failed.",
+    "hi": "टेस्ट फ़ेल होने पर हमने रिलीज़ रद्द कर दी।"
+   }
+  ],
+  "collocations": [
+   "call off a meeting",
+   "call off a strike",
+   "call it off"
+  ],
+  "synonyms": [
+   "cancel",
+   "abandon"
+  ],
+  "antonyms": [
+   "go ahead with",
+   "proceed"
+  ],
+  "word_family": [
+   "call",
+   "call off"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "The meeting is cancel due to rain.",
+   "right": "The meeting has been called off because of the rain.",
+   "why": "'Is cancel' is missing the past participle; 'called off' with the correct passive form is natural."
+  },
+  "cloze": {
+   "sentence": "They had to ____ ____ the event at the last minute.",
+   "answer": "call off"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0059",
+  "word": "take up",
+  "ipa": "/teɪk ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 59,
+  "en_def": "to start a new hobby or activity; to occupy space or time",
+  "hi_def": "(शौक/गतिविधि) शुरू करना; (जगह/समय) लेना",
+  "hi_nuance": "Hindi speakers say 'I started learning guitar' — fine; 'I took up the guitar' is more natural. 'It takes up too much time' = consumes.",
+  "examples": [
+   {
+    "en": "I took up running last year.",
+    "hi": "मैंने पिछले साल दौड़ना शुरू किया।"
+   },
+   {
+    "en": "This desk takes up too much space.",
+    "hi": "यह मेज़ बहुत ज़्यादा जगह लेती है।"
+   },
+   {
+    "en": "She took up the offer immediately.",
+    "hi": "उसने तुरंत प्रस्ताव स्वीकार कर लिया।"
+   },
+   {
+    "en": "Sorry to take up so much of your time.",
+    "hi": "आपका इतना समय लेने के लिए क्षमा करें।"
+   },
+   {
+    "en": "He's thinking of taking up photography.",
+    "hi": "वह फ़ोटोग्राफ़ी शुरू करने की सोच रहा है।"
+   }
+  ],
+  "collocations": [
+   "take up a hobby",
+   "take up space",
+   "take up an offer"
+  ],
+  "synonyms": [
+   "start",
+   "occupy",
+   "accept"
+  ],
+  "antonyms": [
+   "give up",
+   "drop"
+  ],
+  "word_family": [
+   "take",
+   "take up",
+   "uptake"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I have joined swimming from this month.",
+   "right": "I've taken up swimming this month.",
+   "why": "'Joined swimming' is Indian English; 'take up' is the verb for starting a new activity."
+  },
+  "cloze": {
+   "sentence": "The logs ____ ____ 80% of the disk.",
+   "answer": "take up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0060",
+  "word": "put up with",
+  "ipa": "/pʊt ˈʌp wɪð/",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "freq_rank": 60,
+  "en_def": "to tolerate something unpleasant without complaining",
+  "hi_def": "सहन करना, बर्दाश्त करना",
+  "hi_nuance": "Hindi 'बर्दाश्त करना' → 'tolerate' (formal) or 'put up with' (everyday). Three-word, inseparable.",
+  "examples": [
+   {
+    "en": "I don't know how she puts up with that noise.",
+    "hi": "पता नहीं वह उस शोर को कैसे बर्दाश्त करती है।"
+   },
+   {
+    "en": "We put up with the slow Wi-Fi for months.",
+    "hi": "हमने महीनों तक धीमा वाई-फ़ाई सहन किया।"
+   },
+   {
+    "en": "I won't put up with rude customers.",
+    "hi": "मैं असभ्य ग्राहकों को बर्दाश्त नहीं करूँगा।"
+   },
+   {
+    "en": "He had to put up with a lot of criticism.",
+    "hi": "उसे बहुत आलोचना सहनी पड़ी।"
+   },
+   {
+    "en": "Thanks for putting up with me during the migration.",
+    "hi": "माइग्रेशन के दौरान मुझे झेलने के लिए धन्यवाद।"
+   }
+  ],
+  "collocations": [
+   "put up with noise",
+   "put up with behaviour",
+   "put up with it"
+  ],
+  "synonyms": [
+   "tolerate",
+   "bear",
+   "endure"
+  ],
+  "antonyms": [
+   "object to",
+   "refuse"
+  ],
+  "word_family": [
+   "put",
+   "put up",
+   "put up with"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "I can't bear up with this behaviour.",
+   "right": "I can't put up with this behaviour.",
+   "why": "'Bear up with' mixes two expressions; the correct phrasal verb is 'put up with'."
+  },
+  "cloze": {
+   "sentence": "How do you ____ ____ ____ such long commutes every day?",
+   "answer": "put up with"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0061",
+  "word": "bring about",
+  "ipa": "/brɪŋ əˈbaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "freq_rank": 61,
+  "en_def": "to cause something to happen, usually a change",
+  "hi_def": "लाना, कारण बनना (परिवर्तन)",
+  "hi_nuance": "Formal-ish; common in reports: 'the policy brought about a reduction in incidents'. Hindi speakers over-use 'cause' or 'result in' — this is a natural alternative.",
+  "examples": [
+   {
+    "en": "The new policy brought about a big drop in phishing incidents.",
+    "hi": "नई नीति से फ़िशिंग घटनाओं में बड़ी गिरावट आई।"
+   },
+   {
+    "en": "What brought about the change in his attitude?",
+    "hi": "उसके रवैये में बदलाव किस कारण आया?"
+   },
+   {
+    "en": "The merger brought about hundreds of job losses.",
+    "hi": "विलय के कारण सैकड़ों नौकरियाँ चली गईं।"
+   },
+   {
+    "en": "Remote work has brought about new security risks.",
+    "hi": "रिमोट वर्क ने नए सुरक्षा जोखिम पैदा किए हैं।"
+   },
+   {
+    "en": "They hope to bring about reform through education.",
+    "hi": "वे शिक्षा के माध्यम से सुधार लाने की उम्मीद करते हैं।"
+   }
+  ],
+  "collocations": [
+   "bring about change",
+   "bring about a reduction",
+   "bring about reform"
+  ],
+  "synonyms": [
+   "cause",
+   "lead to",
+   "produce"
+  ],
+  "antonyms": [
+   "prevent",
+   "stop"
+  ],
+  "word_family": [
+   "bring",
+   "bring about"
+  ],
+  "register": "formal",
+  "common_mistake": {
+   "wrong": "The update brought a lot of changes about the UI.",
+   "right": "The update brought about a lot of changes to the UI.",
+   "why": "'Bring about' is a unit meaning 'cause'; 'about' cannot be moved to describe the topic."
+  },
+  "cloze": {
+   "sentence": "Automation has ____ ____ a shift in how we triage alerts.",
+   "answer": "brought about"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0062",
+  "word": "get away with",
+  "ipa": "/ɡet əˈweɪ wɪð/",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "freq_rank": 62,
+  "en_def": "to do something wrong without being caught or punished",
+  "hi_def": "बच निकलना (सज़ा से)",
+  "hi_nuance": "Three-word, inseparable. Very common in security talk: 'attackers got away with 2 million records'. Hindi speakers might say 'escaped' — less precise.",
+  "examples": [
+   {
+    "en": "The attackers got away with a full customer database.",
+    "hi": "हमलावर पूरा ग्राहक डेटाबेस लेकर बच निकले।"
+   },
+   {
+    "en": "He got away with cheating on the test.",
+    "hi": "वह परीक्षा में नक़ल करके बच गया।"
+   },
+   {
+    "en": "You won't get away with this.",
+    "hi": "तुम इससे बच नहीं पाओगे।"
+   },
+   {
+    "en": "She got away with arriving late every day.",
+    "hi": "वह रोज़ देर से आकर भी बच जाती थी।"
+   },
+   {
+    "en": "How did they get away with it for so long?",
+    "hi": "वे इतने लंबे समय तक इससे कैसे बचते रहे?"
+   }
+  ],
+  "collocations": [
+   "get away with murder",
+   "get away with it",
+   "get away with cheating"
+  ],
+  "synonyms": [
+   "escape punishment",
+   "evade"
+  ],
+  "antonyms": [
+   "get caught",
+   "pay for"
+  ],
+  "word_family": [
+   "get",
+   "get away",
+   "get away with"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "They escaped with the data without any punishment.",
+   "right": "They got away with the data.",
+   "why": "'Get away with' already includes the meaning of not being caught or punished."
+  },
+  "cloze": {
+   "sentence": "Nobody should ____ ____ ____ bypassing the security review.",
+   "answer": "get away with"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0063",
+  "word": "cut down on",
+  "ipa": "/kʌt ˈdaʊn ɒn/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 63,
+  "en_def": "to reduce the amount of something you use or do",
+  "hi_def": "कम करना (खपत/मात्रा)",
+  "hi_nuance": "Hindi speakers say 'reduce sugar' — correct but 'cut down on sugar' is the idiom. Note the pattern: cut down on + noun.",
+  "examples": [
+   {
+    "en": "I'm trying to cut down on sugar.",
+    "hi": "मैं चीनी कम करने की कोशिश कर रहा हूँ।"
+   },
+   {
+    "en": "We need to cut down on cloud costs this quarter.",
+    "hi": "इस तिमाही में हमें क्लाउड लागत कम करनी होगी।"
+   },
+   {
+    "en": "He cut down on smoking before quitting completely.",
+    "hi": "पूरी तरह छोड़ने से पहले उसने धूम्रपान कम किया।"
+   },
+   {
+    "en": "Cut down on the number of meetings and people will be happier.",
+    "hi": "मीटिंगों की संख्या कम करो और लोग ज़्यादा ख़ुश रहेंगे।"
+   },
+   {
+    "en": "The doctor told her to cut down on salt.",
+    "hi": "डॉक्टर ने उसे नमक कम करने को कहा।"
+   }
+  ],
+  "collocations": [
+   "cut down on sugar",
+   "cut down on costs",
+   "cut down on screen time"
+  ],
+  "synonyms": [
+   "reduce",
+   "cut back on"
+  ],
+  "antonyms": [
+   "increase",
+   "step up"
+  ],
+  "word_family": [
+   "cut",
+   "cut down",
+   "cut down on"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I have cut down my coffee to one cup.",
+   "right": "I've cut down on coffee — just one cup now.",
+   "why": "With 'cut down' the reduced thing normally takes 'on'; 'cut down my coffee' sounds like cutting a tree."
+  },
+  "cloze": {
+   "sentence": "You should ____ ____ ____ late-night screen time.",
+   "answer": "cut down on"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0064",
+  "word": "stand out",
+  "ipa": "/stænd ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 64,
+  "en_def": "to be easily noticed because of being different or better",
+  "hi_def": "अलग दिखना, उभरकर आना",
+  "hi_nuance": "Great for CVs and reviews: 'her report stood out'. Hindi speakers say 'was different from others' — 'stood out' is compact and natural.",
+  "examples": [
+   {
+    "en": "One candidate really stood out in the interviews.",
+    "hi": "इंटरव्यू में एक उम्मीदवार सचमुच अलग नज़र आया।"
+   },
+   {
+    "en": "The red button stands out on the dark background.",
+    "hi": "गहरे बैकग्राउंड पर लाल बटन अलग दिखता है।"
+   },
+   {
+    "en": "Her writing stands out for its clarity.",
+    "hi": "उसका लेखन अपनी स्पष्टता के लिए अलग नज़र आता है।"
+   },
+   {
+    "en": "What made this incident stand out from the others?",
+    "hi": "किस बात ने इस घटना को दूसरों से अलग बनाया?"
+   },
+   {
+    "en": "He stood out because he asked good questions.",
+    "hi": "वह इसलिए अलग दिखा क्योंकि उसने अच्छे सवाल पूछे।"
+   }
+  ],
+  "collocations": [
+   "stand out from the crowd",
+   "stand out for",
+   "really stand out"
+  ],
+  "synonyms": [
+   "be noticeable",
+   "excel"
+  ],
+  "antonyms": [
+   "blend in",
+   "go unnoticed"
+  ],
+  "word_family": [
+   "stand",
+   "stand out",
+   "outstanding"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "This resume is looking different than others.",
+   "right": "This CV really stands out.",
+   "why": "'Looking different than others' is clumsy; 'stands out' conveys 'noticeably better'."
+  },
+  "cloze": {
+   "sentence": "Two findings ____ ____ as critical in the report.",
+   "answer": "stand out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0065",
+  "word": "rule out",
+  "ipa": "/ruːl ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "freq_rank": 65,
+  "en_def": "to decide that something is impossible or not an option",
+  "hi_def": "संभावना से बाहर करना, ख़ारिज करना",
+  "hi_nuance": "Essential for incident reports: 'we ruled out insider involvement'. Hindi speakers say 'we rejected the possibility' — 'rule out' is standard.",
+  "examples": [
+   {
+    "en": "We can't rule out a supply-chain attack yet.",
+    "hi": "हम अभी सप्लाई-चेन हमले की संभावना को ख़ारिज नहीं कर सकते।"
+   },
+   {
+    "en": "The doctor ruled out anything serious.",
+    "hi": "डॉक्टर ने किसी गंभीर बीमारी की संभावना को ख़ारिज कर दिया।"
+   },
+   {
+    "en": "They've ruled out moving the office this year.",
+    "hi": "उन्होंने इस साल ऑफ़िस शिफ़्ट करने का विचार ख़ारिज कर दिया है।"
+   },
+   {
+    "en": "Rule it out only after you've checked the logs.",
+    "hi": "लॉग जाँचने के बाद ही इसे ख़ारिज करो।"
+   },
+   {
+    "en": "Bad weather ruled out the outdoor event.",
+    "hi": "ख़राब मौसम की वजह से बाहर का कार्यक्रम संभव नहीं रहा।"
+   }
+  ],
+  "collocations": [
+   "rule out the possibility",
+   "rule out a suspect",
+   "can't rule out"
+  ],
+  "synonyms": [
+   "exclude",
+   "eliminate",
+   "dismiss"
+  ],
+  "antonyms": [
+   "consider",
+   "allow for"
+  ],
+  "word_family": [
+   "rule",
+   "rule out"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "We rejected the possibility of insider threat.",
+   "right": "We ruled out an insider threat.",
+   "why": "'Rule out' is the standard phrase for eliminating a possibility; 'rejected the possibility' is heavy."
+  },
+  "cloze": {
+   "sentence": "The investigators haven't ____ ____ human error.",
+   "answer": "ruled out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0066",
+  "word": "narrow down",
+  "ipa": "/ˌnærəʊ ˈdaʊn/",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "freq_rank": 66,
+  "en_def": "to reduce the number of possibilities or options",
+  "hi_def": "विकल्पों को सीमित करना",
+  "hi_nuance": "Pairs with 'rule out' in troubleshooting. Hindi speakers say 'shortlist' (noun used as verb) — fine, but 'narrow down' is broader.",
+  "examples": [
+   {
+    "en": "We narrowed down the cause to two possible services.",
+    "hi": "हमने कारण को दो संभावित सेवाओं तक सीमित कर दिया।"
+   },
+   {
+    "en": "Can you narrow down the list to five candidates?",
+    "hi": "क्या तुम सूची को पाँच उम्मीदवारों तक सीमित कर सकते हो?"
+   },
+   {
+    "en": "The logs helped us narrow it down.",
+    "hi": "लॉग ने हमें इसे सीमित करने में मदद की।"
+   },
+   {
+    "en": "I've narrowed my choice down to two laptops.",
+    "hi": "मैंने अपनी पसंद दो लैपटॉप तक सीमित कर ली है।"
+   },
+   {
+    "en": "Let's narrow down the time window of the breach.",
+    "hi": "आइए उल्लंघन की समय-सीमा को सीमित करें।"
+   }
+  ],
+  "collocations": [
+   "narrow down the options",
+   "narrow down the search",
+   "narrow it down to"
+  ],
+  "synonyms": [
+   "reduce",
+   "limit",
+   "shortlist"
+  ],
+  "antonyms": [
+   "broaden",
+   "expand"
+  ],
+  "word_family": [
+   "narrow",
+   "narrow down"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "We shortlisted the root cause to the auth service.",
+   "right": "We narrowed down the root cause to the auth service.",
+   "why": "'Shortlist' is for candidates or items; for reducing possibilities use 'narrow down'."
+  },
+  "cloze": {
+   "sentence": "We've ____ ____ the suspects to three IP ranges.",
+   "answer": "narrowed down"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0067",
+  "word": "go over",
+  "ipa": "/ɡəʊ ˈəʊvə/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 67,
+  "en_def": "to examine or review something carefully",
+  "hi_def": "दोहराना, ध्यान से देखना",
+  "hi_nuance": "Similar to 'go through'. 'Go over the plan again' = review it. Hindi speakers say 'revise' — 'go over' is the spoken form.",
+  "examples": [
+   {
+    "en": "Let's go over the steps one more time.",
+    "hi": "चलो चरणों को एक बार फिर देखते हैं।"
+   },
+   {
+    "en": "She went over my essay and marked the errors.",
+    "hi": "उसने मेरा निबंध देखा और ग़लतियाँ चिह्नित कीं।"
+   },
+   {
+    "en": "We went over budget on the project.",
+    "hi": "हम प्रोजेक्ट में बजट से ऊपर चले गए।"
+   },
+   {
+    "en": "I'll go over the contract before signing.",
+    "hi": "मैं हस्ताक्षर करने से पहले अनुबंध देख लूँगा।"
+   },
+   {
+    "en": "Can we go over the findings before the client call?",
+    "hi": "क्या हम क्लाइंट कॉल से पहले नतीजे देख सकते हैं?"
+   }
+  ],
+  "collocations": [
+   "go over the details",
+   "go over the plan",
+   "go over budget"
+  ],
+  "synonyms": [
+   "review",
+   "check",
+   "examine"
+  ],
+  "antonyms": [
+   "skip"
+  ],
+  "word_family": [
+   "go",
+   "go over"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Let's revise the plan once before the demo.",
+   "right": "Let's go over the plan once more before the demo.",
+   "why": "'Revise' means change; 'go over' means review without necessarily changing."
+  },
+  "cloze": {
+   "sentence": "Please ____ ____ the checklist before you deploy.",
+   "answer": "go over"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0068",
+  "word": "back down",
+  "ipa": "/bæk ˈdaʊn/",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "freq_rank": 68,
+  "en_def": "to stop demanding something or admit you were wrong after an argument",
+  "hi_def": "पीछे हटना, हार मान लेना (बहस में)",
+  "hi_nuance": "Hindi speakers say 'he stepped back'. 'Back down' implies giving up a position in an argument.",
+  "examples": [
+   {
+    "en": "Neither side was willing to back down.",
+    "hi": "कोई भी पक्ष पीछे हटने को तैयार नहीं था।"
+   },
+   {
+    "en": "The vendor backed down after we showed the evidence.",
+    "hi": "सबूत दिखाने के बाद विक्रेता पीछे हट गया।"
+   },
+   {
+    "en": "Don't back down — your point is valid.",
+    "hi": "पीछे मत हटो — तुम्हारी बात सही है।"
+   },
+   {
+    "en": "She refused to back down on the deadline.",
+    "hi": "उसने समय सीमा पर पीछे हटने से इनकार कर दिया।"
+   },
+   {
+    "en": "He backed down as soon as the manager arrived.",
+    "hi": "मैनेजर के आते ही वह पीछे हट गया।"
+   }
+  ],
+  "collocations": [
+   "back down from",
+   "refuse to back down",
+   "back down on"
+  ],
+  "synonyms": [
+   "give in",
+   "concede",
+   "yield"
+  ],
+  "antonyms": [
+   "stand firm",
+   "insist"
+  ],
+  "word_family": [
+   "back",
+   "back down"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Finally the client stepped back from their demand.",
+   "right": "Finally the client backed down.",
+   "why": "'Step back' means pause or take a broader view; 'back down' means withdraw from a position."
+  },
+  "cloze": {
+   "sentence": "They eventually ____ ____ and accepted our terms.",
+   "answer": "backed down"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0069",
+  "word": "stick to",
+  "ipa": "/stɪk tuː/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 69,
+  "en_def": "to continue doing or using something and not change",
+  "hi_def": "पर टिके रहना, पालन करना",
+  "hi_nuance": "Hindi 'पर कायम रहना'. 'Stick to the plan / the rules / the point'. Indian English says 'follow the plan' — fine, but 'stick to' adds the sense of not deviating.",
+  "examples": [
+   {
+    "en": "Let's stick to the plan.",
+    "hi": "चलो योजना पर टिके रहते हैं।"
+   },
+   {
+    "en": "Stick to the point — we only have ten minutes.",
+    "hi": "मुद्दे पर रहो — हमारे पास सिर्फ़ दस मिनट हैं।"
+   },
+   {
+    "en": "If you stick to the checklist, you won't miss anything.",
+    "hi": "अगर तुम चेकलिस्ट पर टिके रहोगे तो कुछ नहीं छूटेगा।"
+   },
+   {
+    "en": "He stuck to his story despite the evidence.",
+    "hi": "सबूतों के बावजूद वह अपनी बात पर अड़ा रहा।"
+   },
+   {
+    "en": "I'm trying to stick to a budget this month.",
+    "hi": "मैं इस महीने बजट पर टिके रहने की कोशिश कर रहा हूँ।"
+   }
+  ],
+  "collocations": [
+   "stick to the plan",
+   "stick to the rules",
+   "stick to the point"
+  ],
+  "synonyms": [
+   "adhere to",
+   "keep to",
+   "follow"
+  ],
+  "antonyms": [
+   "deviate from",
+   "abandon"
+  ],
+  "word_family": [
+   "stick",
+   "stick to",
+   "stick with"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Please stick with the topic only.",
+   "right": "Please stick to the topic.",
+   "why": "'Stick with' means stay loyal to a person or choice; 'stick to' means not deviate from a rule or subject."
+  },
+  "cloze": {
+   "sentence": "Whatever happens, ____ ____ the agreed process.",
+   "answer": "stick to"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0070",
+  "word": "call back",
+  "ipa": "/kɔːl ˈbæk/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 70,
+  "en_def": "to phone someone again, or in return for their call",
+  "hi_def": "वापस फ़ोन करना",
+  "hi_nuance": "Indian English: 'I will call you back' is correct; 'I will revert you' is not. Also 'a callback' (noun) in programming.",
+  "examples": [
+   {
+    "en": "Can I call you back in ten minutes?",
+    "hi": "क्या मैं तुम्हें दस मिनट में वापस फ़ोन कर सकता हूँ?"
+   },
+   {
+    "en": "She said she'd call back after lunch.",
+    "hi": "उसने कहा कि वह दोपहर के भोजन के बाद फ़ोन करेगी।"
+   },
+   {
+    "en": "I called him back but got voicemail.",
+    "hi": "मैंने उसे वापस फ़ोन किया लेकिन वॉइसमेल लगा।"
+   },
+   {
+    "en": "Please call me back on this number.",
+    "hi": "कृपया मुझे इसी नंबर पर वापस फ़ोन करें।"
+   },
+   {
+    "en": "Nobody from support ever called back.",
+    "hi": "सपोर्ट से किसी ने कभी वापस फ़ोन नहीं किया।"
+   }
+  ],
+  "collocations": [
+   "call someone back",
+   "call back later",
+   "call back in a minute"
+  ],
+  "synonyms": [
+   "return a call",
+   "ring back"
+  ],
+  "antonyms": [
+   "ignore"
+  ],
+  "word_family": [
+   "call",
+   "call back",
+   "callback"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I will call you after some time.",
+   "right": "I'll call you back in a bit.",
+   "why": "'After some time' is vague Hindi-style; 'call back in a bit / in ten minutes' is natural."
+  },
+  "cloze": {
+   "sentence": "I'm driving — can I ____ you ____ later?",
+   "answer": "call back"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0071",
+  "word": "hang up",
+  "ipa": "/hæŋ ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 71,
+  "en_def": "to end a phone call",
+  "hi_def": "फ़ोन काटना, कॉल ख़त्म करना",
+  "hi_nuance": "Hindi 'फ़ोन काटना' becomes 'cut the call' in Indian English — not standard. Use 'hang up' or 'end the call'.",
+  "examples": [
+   {
+    "en": "Don't hang up — I need one more minute.",
+    "hi": "फ़ोन मत काटो — मुझे एक मिनट और चाहिए।"
+   },
+   {
+    "en": "She hung up before I could explain.",
+    "hi": "मेरे समझाने से पहले ही उसने फ़ोन काट दिया।"
+   },
+   {
+    "en": "He hung up on me!",
+    "hi": "उसने मेरा फ़ोन काट दिया!"
+   },
+   {
+    "en": "Hang up and I'll call you from the landline.",
+    "hi": "फ़ोन रखो, मैं तुम्हें लैंडलाइन से फ़ोन करता हूँ।"
+   },
+   {
+    "en": "The customer hung up after waiting for 20 minutes.",
+    "hi": "20 मिनट इंतज़ार के बाद ग्राहक ने फ़ोन काट दिया।"
+   }
+  ],
+  "collocations": [
+   "hang up the phone",
+   "hang up on someone",
+   "don't hang up"
+  ],
+  "synonyms": [
+   "end the call",
+   "ring off"
+  ],
+  "antonyms": [
+   "pick up",
+   "answer"
+  ],
+  "word_family": [
+   "hang",
+   "hang up"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "He cut the call in the middle.",
+   "right": "He hung up halfway through.",
+   "why": "'Cut the call' is a Hindi calque; native speakers say 'hang up'."
+  },
+  "cloze": {
+   "sentence": "Please don't ____ ____ — your call is important to us.",
+   "answer": "hang up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0072",
+  "word": "drop off",
+  "ipa": "/drɒp ˈɒf/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 72,
+  "en_def": "to take someone or something to a place and leave them there; to fall asleep; to decrease",
+  "hi_def": "छोड़ना (किसी जगह); सो जाना; घटना",
+  "hi_nuance": "Opposite of 'pick up'. Hindi speakers say 'I will drop you' — natural British English also says 'drop you off' or just 'drop you'. Both are fine.",
+  "examples": [
+   {
+    "en": "I'll drop you off at the station.",
+    "hi": "मैं तुम्हें स्टेशन पर छोड़ दूँगा।"
+   },
+   {
+    "en": "Can you drop the parcel off at reception?",
+    "hi": "क्या तुम पार्सल रिसेप्शन पर छोड़ सकते हो?"
+   },
+   {
+    "en": "I dropped off during the long lecture.",
+    "hi": "लंबे लेक्चर के दौरान मुझे झपकी आ गई।"
+   },
+   {
+    "en": "Sales dropped off sharply in March.",
+    "hi": "मार्च में बिक्री तेज़ी से गिरी।"
+   },
+   {
+    "en": "Drop the kids off and then come to the meeting.",
+    "hi": "बच्चों को छोड़कर फिर मीटिंग में आओ।"
+   }
+  ],
+  "collocations": [
+   "drop someone off",
+   "drop off a package",
+   "drop off to sleep"
+  ],
+  "synonyms": [
+   "deliver",
+   "leave",
+   "doze off"
+  ],
+  "antonyms": [
+   "pick up",
+   "collect"
+  ],
+  "word_family": [
+   "drop",
+   "drop off",
+   "drop-off"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I will leave you at the airport at 6.",
+   "right": "I'll drop you off at the airport at 6.",
+   "why": "'Leave you' can sound like abandoning someone; 'drop off' is the clear, friendly verb."
+  },
+  "cloze": {
+   "sentence": "Could you ____ me ____ near the metro?",
+   "answer": "drop off"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0073",
+  "word": "pass away",
+  "ipa": "/pɑːs əˈweɪ/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 73,
+  "en_def": "to die (polite expression)",
+  "hi_def": "गुज़र जाना, देहांत होना",
+  "hi_nuance": "The gentle way to say 'die'. Indian English 'expired' for a person sounds like a passport or licence — avoid it. Also NOT 'pass out' (which means faint or, in Indian English, graduate).",
+  "examples": [
+   {
+    "en": "My grandfather passed away last year.",
+    "hi": "मेरे दादाजी का पिछले साल देहांत हो गया।"
+   },
+   {
+    "en": "She passed away peacefully in her sleep.",
+    "hi": "वह नींद में शांति से गुज़र गई।"
+   },
+   {
+    "en": "I'm sorry to hear that your uncle passed away.",
+    "hi": "आपके चाचा के निधन के बारे में सुनकर दुख हुआ।"
+   },
+   {
+    "en": "He passed away after a long illness.",
+    "hi": "लंबी बीमारी के बाद उनका देहांत हो गया।"
+   },
+   {
+    "en": "Her mother passed away when she was ten.",
+    "hi": "जब वह दस साल की थी तब उसकी माँ गुज़र गईं।"
+   }
+  ],
+  "collocations": [
+   "pass away peacefully",
+   "pass away suddenly",
+   "passed away in"
+  ],
+  "synonyms": [
+   "die",
+   "pass on"
+  ],
+  "antonyms": [
+   "survive",
+   "live"
+  ],
+  "word_family": [
+   "pass",
+   "pass away",
+   "passing"
+  ],
+  "register": "formal",
+  "common_mistake": {
+   "wrong": "His father expired last month.",
+   "right": "His father passed away last month.",
+   "why": "'Expire' is used for documents and products; for people, English uses 'pass away' or 'die'."
+  },
+  "cloze": {
+   "sentence": "Sadly, our old colleague ____ ____ over the weekend.",
+   "answer": "passed away"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0074",
+  "word": "pass out",
+  "ipa": "/pɑːs ˈaʊt/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 74,
+  "en_def": "to lose consciousness; to distribute things to a group",
+  "hi_def": "बेहोश हो जाना; बाँटना",
+  "hi_nuance": "Indian English uses 'passed out from college' to mean graduated — in standard English this means fainted. Say 'graduated from'.",
+  "examples": [
+   {
+    "en": "He passed out from the heat and was taken to hospital.",
+    "hi": "गर्मी से वह बेहोश हो गया और उसे अस्पताल ले जाया गया।"
+   },
+   {
+    "en": "The teacher passed out the worksheets.",
+    "hi": "शिक्षक ने वर्कशीट बाँटीं।"
+   },
+   {
+    "en": "She nearly passed out when she saw the bill.",
+    "hi": "बिल देखकर वह लगभग बेहोश हो गई।"
+   },
+   {
+    "en": "Pass these out to everyone at the table.",
+    "hi": "इन्हें मेज़ पर सबको बाँट दो।"
+   },
+   {
+    "en": "I graduated in 2018 — not 'passed out'.",
+    "hi": "मैंने 2018 में स्नातक किया — 'पास आउट' नहीं।"
+   }
+  ],
+  "collocations": [
+   "pass out from",
+   "pass out cold",
+   "pass out leaflets"
+  ],
+  "synonyms": [
+   "faint",
+   "hand out"
+  ],
+  "antonyms": [
+   "come round",
+   "collect"
+  ],
+  "word_family": [
+   "pass",
+   "pass out"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I passed out from IIT in 2016.",
+   "right": "I graduated from IIT in 2016.",
+   "why": "In standard English 'pass out' means faint; the verb for finishing a degree is 'graduate'."
+  },
+  "cloze": {
+   "sentence": "Two runners ____ ____ from dehydration during the marathon.",
+   "answer": "passed out"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0075",
+  "word": "speak up",
+  "ipa": "/spiːk ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 75,
+  "en_def": "to talk louder; to express your opinion openly",
+  "hi_def": "ज़ोर से बोलना; खुलकर अपनी बात कहना",
+  "hi_nuance": "Two meanings: 'Speak up, I can't hear you' and 'Speak up if you disagree'. Hindi speakers say 'talk loudly' — 'speak up' is what natives say.",
+  "examples": [
+   {
+    "en": "Could you speak up? The line is bad.",
+    "hi": "क्या आप ज़ोर से बोल सकते हैं? लाइन ख़राब है।"
+   },
+   {
+    "en": "If you see something wrong, speak up.",
+    "hi": "अगर कुछ ग़लत दिखे तो खुलकर बोलो।"
+   },
+   {
+    "en": "She spoke up in the meeting about the security gaps.",
+    "hi": "उसने मीटिंग में सुरक्षा कमियों के बारे में खुलकर बात की।"
+   },
+   {
+    "en": "Nobody spoke up, so the decision went through.",
+    "hi": "किसी ने कुछ नहीं कहा, इसलिए फ़ैसला पारित हो गया।"
+   },
+   {
+    "en": "Please speak up for the people at the back.",
+    "hi": "कृपया पीछे बैठे लोगों के लिए ज़ोर से बोलें।"
+   }
+  ],
+  "collocations": [
+   "speak up for",
+   "speak up against",
+   "speak up louder"
+  ],
+  "synonyms": [
+   "raise your voice",
+   "speak out"
+  ],
+  "antonyms": [
+   "keep quiet",
+   "stay silent"
+  ],
+  "word_family": [
+   "speak",
+   "speak up",
+   "speak out"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Please talk loudly, I am not able to hear.",
+   "right": "Please speak up, I can't hear you.",
+   "why": "'Talk loudly' sounds like a complaint; 'speak up' is the polite request."
+  },
+  "cloze": {
+   "sentence": "Don't be afraid to ____ ____ if you disagree.",
+   "answer": "speak up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0076",
+  "word": "look up to",
+  "ipa": "/lʊk ˈʌp tuː/",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "freq_rank": 76,
+  "en_def": "to admire and respect someone",
+  "hi_def": "आदर करना, आदर्श मानना",
+  "hi_nuance": "Three-word. Opposite is 'look down on'. Hindi speakers say 'he is my inspiration' — 'I look up to him' is the verb form.",
+  "examples": [
+   {
+    "en": "I've always looked up to my older sister.",
+    "hi": "मैंने हमेशा अपनी बड़ी बहन को आदर्श माना है।"
+   },
+   {
+    "en": "The juniors look up to her as a mentor.",
+    "hi": "जूनियर उसे एक मेंटर के रूप में आदर देते हैं।"
+   },
+   {
+    "en": "Who did you look up to when you were young?",
+    "hi": "बचपन में तुम किसे अपना आदर्श मानते थे?"
+   },
+   {
+    "en": "He's someone the whole team looks up to.",
+    "hi": "वह ऐसा व्यक्ति है जिसका पूरी टीम सम्मान करती है।"
+   },
+   {
+    "en": "Kids look up to athletes and film stars.",
+    "hi": "बच्चे खिलाड़ियों और फ़िल्म सितारों को आदर्श मानते हैं।"
+   }
+  ],
+  "collocations": [
+   "look up to someone",
+   "look up to as a role model"
+  ],
+  "synonyms": [
+   "admire",
+   "respect",
+   "idolise"
+  ],
+  "antonyms": [
+   "look down on",
+   "despise"
+  ],
+  "word_family": [
+   "look",
+   "look up to",
+   "look down on"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "He is my inspiration since childhood.",
+   "right": "I've looked up to him since I was a child.",
+   "why": "'Since childhood' with present simple is a tense error; the present perfect with 'look up to' is natural."
+  },
+  "cloze": {
+   "sentence": "Young engineers ____ ____ ____ her for her calm under pressure.",
+   "answer": "look up to"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ },
+ {
+  "id": "v:pv:0077",
+  "word": "let down",
+  "ipa": "/let ˈdaʊn/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 77,
+  "en_def": "to disappoint someone by not doing what you promised",
+  "hi_def": "निराश करना, धोखा देना (भरोसे में)",
+  "hi_nuance": "Hindi 'निराश करना'. 'Don't let me down' — very common. Separable. Noun: 'a letdown'.",
+  "examples": [
+   {
+    "en": "I'm counting on you — don't let me down.",
+    "hi": "मैं तुम पर भरोसा कर रहा हूँ — मुझे निराश मत करना।"
+   },
+   {
+    "en": "The vendor let us down again with a late delivery.",
+    "hi": "विक्रेता ने देर से डिलीवरी करके हमें फिर निराश किया।"
+   },
+   {
+    "en": "She felt let down by her manager.",
+    "hi": "उसे अपने मैनेजर से निराशा हुई।"
+   },
+   {
+    "en": "The software let the team down during the demo.",
+    "hi": "डेमो के दौरान सॉफ़्टवेयर ने टीम को निराश कर दिया।"
+   },
+   {
+    "en": "He has never let me down.",
+    "hi": "उसने मुझे कभी निराश नहीं किया।"
+   }
+  ],
+  "collocations": [
+   "let someone down",
+   "feel let down",
+   "let down badly"
+  ],
+  "synonyms": [
+   "disappoint",
+   "fail"
+  ],
+  "antonyms": [
+   "support",
+   "come through for"
+  ],
+  "word_family": [
+   "let",
+   "let down",
+   "letdown"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "You made me disappointed by not coming.",
+   "right": "You let me down by not coming.",
+   "why": "'Made me disappointed' is clumsy; 'let me down' is the idiomatic verb."
+  },
+  "cloze": {
+   "sentence": "The team worked hard and didn't ____ anyone ____.",
+   "answer": "let down"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0078",
+  "word": "make up",
+  "ipa": "/meɪk ˈʌp/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 78,
+  "en_def": "to invent a story or excuse; to become friends again after an argument; to form a whole",
+  "hi_def": "गढ़ना (कहानी); सुलह करना; बनाना (हिस्सा)",
+  "hi_nuance": "Three meanings. 'Make up an excuse', 'they made up after the fight', 'women make up 40% of the team'. 'Make up for' = compensate.",
+  "examples": [
+   {
+    "en": "He made up an excuse for being late.",
+    "hi": "उसने देर से आने का बहाना गढ़ा।"
+   },
+   {
+    "en": "They argued but made up the next day.",
+    "hi": "उनका झगड़ा हुआ लेकिन अगले दिन सुलह हो गई।"
+   },
+   {
+    "en": "Contractors make up half of the workforce.",
+    "hi": "ठेकेदार कार्यबल का आधा हिस्सा हैं।"
+   },
+   {
+    "en": "I'll make up for the lost time this weekend.",
+    "hi": "मैं इस वीकेंड खोए हुए समय की भरपाई करूँगा।"
+   },
+   {
+    "en": "Don't make it up — just say you don't know.",
+    "hi": "मनगढ़ंत बात मत बनाओ — बस कह दो कि तुम्हें नहीं पता।"
+   }
+  ],
+  "collocations": [
+   "make up an excuse",
+   "make up for",
+   "make up a story"
+  ],
+  "synonyms": [
+   "invent",
+   "reconcile",
+   "constitute"
+  ],
+  "antonyms": [
+   "tell the truth",
+   "fall out"
+  ],
+  "word_family": [
+   "make",
+   "make up",
+   "makeup",
+   "make up for"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "He told a lie story about the traffic.",
+   "right": "He made up a story about the traffic.",
+   "why": "'Lie story' is not English; 'make up' is the verb for inventing a false story."
+  },
+  "cloze": {
+   "sentence": "I'll work late tomorrow to ____ ____ for leaving early today.",
+   "answer": "make up"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0079",
+  "word": "set off",
+  "ipa": "/set ˈɒf/",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "freq_rank": 79,
+  "en_def": "to start a journey; to cause an alarm or device to activate",
+  "hi_def": "यात्रा शुरू करना; (अलार्म) बजा देना",
+  "hi_nuance": "Hindi speakers say 'we started at 6' — 'we set off at 6' is the travel idiom. In security: 'the scan set off the IDS alerts'.",
+  "examples": [
+   {
+    "en": "We set off at dawn to avoid the traffic.",
+    "hi": "ट्रैफ़िक से बचने के लिए हम भोर में निकल पड़े।"
+   },
+   {
+    "en": "The smoke set off the fire alarm.",
+    "hi": "धुएँ से फ़ायर अलार्म बज गया।"
+   },
+   {
+    "en": "The port scan set off several alerts.",
+    "hi": "पोर्ट स्कैन से कई अलर्ट सक्रिय हो गए।"
+   },
+   {
+    "en": "What time are you setting off tomorrow?",
+    "hi": "तुम कल कितने बजे निकल रहे हो?"
+   },
+   {
+    "en": "His comment set off a long argument.",
+    "hi": "उसकी टिप्पणी से एक लंबी बहस छिड़ गई।"
+   }
+  ],
+  "collocations": [
+   "set off early",
+   "set off an alarm",
+   "set off a chain reaction"
+  ],
+  "synonyms": [
+   "depart",
+   "trigger"
+  ],
+  "antonyms": [
+   "arrive",
+   "defuse"
+  ],
+  "word_family": [
+   "set",
+   "set off",
+   "set out"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "We started from home at 5 am for Goa.",
+   "right": "We set off for Goa at 5 am.",
+   "why": "'Started from home' is a Hindi calque ('घर से निकले'); 'set off for' is the travel idiom."
+  },
+  "cloze": {
+   "sentence": "Be careful — that motion sensor will ____ ____ the alarm.",
+   "answer": "set off"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": true
+ },
+ {
+  "id": "v:pv:0080",
+  "word": "work on",
+  "ipa": "/wɜːk ɒn/",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "freq_rank": 80,
+  "en_def": "to spend time trying to improve or complete something",
+  "hi_def": "पर काम करना, सुधारने की कोशिश करना",
+  "hi_nuance": "'I'm working on it' = I'm handling it. Also 'work on your accent'. Hindi speakers say 'I am doing that work' — 'I'm working on it' is the idiom.",
+  "examples": [
+   {
+    "en": "I'm working on the report right now.",
+    "hi": "मैं अभी रिपोर्ट पर काम कर रहा हूँ।"
+   },
+   {
+    "en": "She's working on her pronunciation every day.",
+    "hi": "वह हर दिन अपने उच्चारण पर काम कर रही है।"
+   },
+   {
+    "en": "We're working on a fix for the login bug.",
+    "hi": "हम लॉगिन बग के समाधान पर काम कर रहे हैं।"
+   },
+   {
+    "en": "It's not done yet, but I'm working on it.",
+    "hi": "अभी पूरा नहीं हुआ, लेकिन मैं इस पर काम कर रहा हूँ।"
+   },
+   {
+    "en": "You need to work on your time management.",
+    "hi": "तुम्हें अपने समय प्रबंधन पर काम करना चाहिए।"
+   }
+  ],
+  "collocations": [
+   "work on a project",
+   "work on your skills",
+   "working on it"
+  ],
+  "synonyms": [
+   "improve",
+   "develop"
+  ],
+  "antonyms": [
+   "neglect",
+   "abandon"
+  ],
+  "word_family": [
+   "work",
+   "work on",
+   "work out"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I am doing work on that ticket.",
+   "right": "I'm working on that ticket.",
+   "why": "'Doing work on' is heavy; 'working on' is the natural phrase."
+  },
+  "cloze": {
+   "sentence": "I need to ____ ____ my v/w sounds this week.",
+   "answer": "work on"
+  },
+  "tags": [
+   "phrasal"
+  ],
+  "separable": false
+ }
+]

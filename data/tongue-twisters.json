@@ -1,0 +1,383 @@
+[
+ {
+  "id": "tt:01",
+  "text": "Vicky visited the village and wandered to the west wing with a wet velvet vest.",
+  "focus": [
+   "v-w"
+  ],
+  "difficulty": 2,
+  "hi": "विकी गाँव गई और गीली मखमली बनियान पहनकर पश्चिमी हिस्से में घूमी।",
+  "tip_en": "Teeth on lip for every V; round lips for every W. Slow first.",
+  "tip_hi": "हर V पर दाँत होंठ पर; हर W पर होंठ गोल। पहले धीरे।"
+ },
+ {
+  "id": "tt:02",
+  "text": "We were very worried when the vet's van vanished in the west wind.",
+  "focus": [
+   "v-w"
+  ],
+  "difficulty": 2,
+  "hi": "जब डॉक्टर की वैन पश्चिमी हवा में गायब हो गई तो हम बहुत चिंतित थे।",
+  "tip_en": "'we were very worried' — W W V W. Feel the switch.",
+  "tip_hi": "'we were very worried' — W W V W। बदलाव महसूस करें।"
+ },
+ {
+  "id": "tt:03",
+  "text": "Vivian's violin was worth twelve valuable wooden whistles.",
+  "focus": [
+   "v-w"
+  ],
+  "difficulty": 3,
+  "hi": "विवियन का वायलिन बारह क़ीमती लकड़ी की सीटियों के बराबर था।",
+  "tip_en": "Do not let 'valuable' become 'waluable'.",
+  "tip_hi": "'valuable' को 'waluable' न बनने दें।"
+ },
+ {
+  "id": "tt:04",
+  "text": "Wendy's wine and Victor's vinegar were never in the same vase.",
+  "focus": [
+   "v-w"
+  ],
+  "difficulty": 2,
+  "hi": "वेंडी की वाइन और विक्टर का सिरका कभी एक ही गुलदस्ते में नहीं थे।",
+  "tip_en": "wine vs vine: the lips decide the word.",
+  "tip_hi": "wine बनाम vine: होंठ शब्द तय करते हैं।"
+ },
+ {
+  "id": "tt:05",
+  "text": "Very well, we will view the video of the wild waves every Wednesday.",
+  "focus": [
+   "v-w"
+  ],
+  "difficulty": 2,
+  "hi": "बहुत अच्छा, हम हर बुधवार जंगली लहरों का वीडियो देखेंगे।",
+  "tip_en": "'very well, we will' — the V and W alternate immediately.",
+  "tip_hi": "'very well, we will' — V और W तुरंत बदलते हैं।"
+ },
+ {
+  "id": "tt:06",
+  "text": "Walter's vivid vision of a woven velvet wallet was a wonderful invention.",
+  "focus": [
+   "v-w"
+  ],
+  "difficulty": 3,
+  "hi": "वाल्टर की बुने मखमली बटुए की स्पष्ट कल्पना एक शानदार खोज थी।",
+  "tip_en": "Hold the V for a moment — you should feel air on your lip.",
+  "tip_hi": "V को एक पल रोकें — होंठ पर हवा महसूस होनी चाहिए।"
+ },
+ {
+  "id": "tt:07",
+  "text": "Three thin thieves thought thoroughly through thirty-three theories.",
+  "focus": [
+   "th"
+  ],
+  "difficulty": 3,
+  "hi": "तीन दुबले चोरों ने तैंतीस सिद्धांतों पर अच्छी तरह सोचा।",
+  "tip_en": "Tongue tip between the teeth for every 'th'. Never 'tin' or 'tought'.",
+  "tip_hi": "हर 'th' पर जीभ की नोक दाँतों के बीच। कभी 'tin' या 'tought' नहीं।"
+ },
+ {
+  "id": "tt:08",
+  "text": "This, that, these, and those — the brothers gathered them together.",
+  "focus": [
+   "th"
+  ],
+  "difficulty": 2,
+  "hi": "यह, वह, ये और वे — भाइयों ने उन्हें इकट्ठा किया।",
+  "tip_en": "Voiced /ð/: same tongue position, but with your voice on. Not 'dis' and 'dat'.",
+  "tip_hi": "आवाज़ वाला /ð/: वही जीभ की स्थिति, पर आवाज़ के साथ। 'dis', 'dat' नहीं।"
+ },
+ {
+  "id": "tt:09",
+  "text": "The thirty-third thermometer thawed on Thursday.",
+  "focus": [
+   "th"
+  ],
+  "difficulty": 2,
+  "hi": "तैंतीसवाँ थर्मामीटर गुरुवार को पिघला।",
+  "tip_en": "Unvoiced /θ/ — feel air, no voice, tongue visible.",
+  "tip_hi": "बिना आवाज़ /θ/ — हवा महसूस करें, जीभ दिखे।"
+ },
+ {
+  "id": "tt:10",
+  "text": "Neither father nor mother would bother with the other feather.",
+  "focus": [
+   "th"
+  ],
+  "difficulty": 2,
+  "hi": "न पिता न माता दूसरे पंख की परवाह करते।",
+  "tip_en": "Middle /ð/ in father/mother/other — do not turn it into a Hindi 'द'.",
+  "tip_hi": "father/mother/other का बीच वाला /ð/ — हिंदी 'द' न बनाएँ।"
+ },
+ {
+  "id": "tt:11",
+  "text": "I think that thing is thicker than the other thin thing.",
+  "focus": [
+   "th"
+  ],
+  "difficulty": 2,
+  "hi": "मुझे लगता है वह चीज़ दूसरी पतली चीज़ से मोटी है।",
+  "tip_en": "Mix of /θ/ (think, thing, thick, thin) and /ð/ (that, than, the, other).",
+  "tip_hi": "/θ/ (think, thing) और /ð/ (that, than, the) का मिश्रण।"
+ },
+ {
+  "id": "tt:12",
+  "text": "Thank the author for both the thorough theses on healthy teeth.",
+  "focus": [
+   "th"
+  ],
+  "difficulty": 3,
+  "hi": "स्वस्थ दाँतों पर दोनों गहन शोध-पत्रों के लिए लेखक का धन्यवाद करें।",
+  "tip_en": "'theses' has two th sounds; 'teeth' ends in one.",
+  "tip_hi": "'theses' में दो th हैं; 'teeth' एक th पर ख़त्म होता है।"
+ },
+ {
+  "id": "tt:13",
+  "text": "She sells sea shells on the sea shore.",
+  "focus": [
+   "s-sh"
+  ],
+  "difficulty": 1,
+  "hi": "वह समुद्र किनारे सीपियाँ बेचती है।",
+  "tip_en": "/s/ = teeth together, tongue forward; /ʃ/ = lips forward, tongue back.",
+  "tip_hi": "/s/ = दाँत साथ, जीभ आगे; /ʃ/ = होंठ आगे, जीभ पीछे।"
+ },
+ {
+  "id": "tt:14",
+  "text": "Sasha showed six shiny silver sheets to the sleepy shepherd.",
+  "focus": [
+   "s-sh"
+  ],
+  "difficulty": 2,
+  "hi": "साशा ने उनींदे चरवाहे को छह चमकदार चाँदी की चादरें दिखाईं।",
+  "tip_en": "'six shiny silver sheets' — s sh s sh.",
+  "tip_hi": "'six shiny silver sheets' — s sh s sh।"
+ },
+ {
+  "id": "tt:15",
+  "text": "The sun shone on the shop sign as Sam shut the sash.",
+  "focus": [
+   "s-sh"
+  ],
+  "difficulty": 2,
+  "hi": "सूरज दुकान के बोर्ड पर चमका जब सैम ने खिड़की बंद की।",
+  "tip_en": "Keep 'sun' and 'sign' sharp /s/, not 'shun'.",
+  "tip_hi": "'sun' और 'sign' को साफ़ /s/ रखें, 'shun' नहीं।"
+ },
+ {
+  "id": "tt:16",
+  "text": "Sip the soup, ship the soap, and sip it slowly on the ship.",
+  "focus": [
+   "s-sh"
+  ],
+  "difficulty": 2,
+  "hi": "सूप पियो, साबुन भेजो, और जहाज़ पर धीरे से पियो।",
+  "tip_en": "sip/ship minimal pairs inside one sentence.",
+  "tip_hi": "एक ही वाक्य में sip/ship जोड़े।"
+ },
+ {
+  "id": "tt:17",
+  "text": "The zoo's jaguar jumped over Zoe's jazzy zipper.",
+  "focus": [
+   "z-j"
+  ],
+  "difficulty": 2,
+  "hi": "चिड़ियाघर का जगुआर ज़ोई की चमकीली ज़िप पर कूदा।",
+  "tip_en": "/z/ is a buzzing hiss; /dʒ/ starts with a stop. Do not say 'joo' for zoo.",
+  "tip_hi": "/z/ गुंजन वाली फुसफुसाहट है; /dʒ/ रुककर शुरू होता है। zoo को 'joo' न कहें।"
+ },
+ {
+  "id": "tt:18",
+  "text": "Jerry's jeans are zipped, but Zara's jacket is jammed.",
+  "focus": [
+   "z-j"
+  ],
+  "difficulty": 2,
+  "hi": "जेरी की जींस ज़िप है, पर ज़ारा की जैकेट फँस गई है।",
+  "tip_en": "'zipped' vs 'jacket' — buzz vs stop.",
+  "tip_hi": "'zipped' बनाम 'jacket' — गुंजन बनाम रुकावट।"
+ },
+ {
+  "id": "tt:19",
+  "text": "Zealous judges seize jars of zesty jam.",
+  "focus": [
+   "z-j"
+  ],
+  "difficulty": 3,
+  "hi": "उत्साही जज ज़ायकेदार जैम के जार ज़ब्त करते हैं।",
+  "tip_en": "'seize' ends in /z/; 'judges' has two /dʒ/.",
+  "tip_hi": "'seize' /z/ पर ख़त्म; 'judges' में दो /dʒ/।"
+ },
+ {
+  "id": "tt:20",
+  "text": "Zach's lazy cousin Jasmine jogs in the desert with dozens of jugs.",
+  "focus": [
+   "z-j"
+  ],
+  "difficulty": 2,
+  "hi": "ज़ैक की आलसी कज़िन जैस्मिन दर्जनों जग लेकर रेगिस्तान में दौड़ती है।",
+  "tip_en": "lazy, cousin, desert, dozens all have /z/, not /dʒ/.",
+  "tip_hi": "lazy, cousin, desert, dozens में /z/ है, /dʒ/ नहीं।"
+ },
+ {
+  "id": "tt:21",
+  "text": "She asked for twelfths of the sixth text's strengths.",
+  "focus": [
+   "clusters"
+  ],
+  "difficulty": 3,
+  "hi": "उसने छठे टेक्स्ट की ताक़तों के बारहवें हिस्से माँगे।",
+  "tip_en": "asked = /ɑːskt/, twelfths = /twelfθs/, sixth = /sɪksθ/, texts = /teksts/. Every final consonant must sound.",
+  "tip_hi": "हर आख़िरी व्यंजन बोलना है: asked /ɑːskt/, twelfths /twelfθs/, sixth /sɪksθ/, texts /teksts/।"
+ },
+ {
+  "id": "tt:22",
+  "text": "He risked his wrists and clasped the crisp desks' lists.",
+  "focus": [
+   "clusters"
+  ],
+  "difficulty": 3,
+  "hi": "उसने अपनी कलाइयाँ जोखिम में डालीं और कुरकुरे डेस्कों की सूचियाँ पकड़ीं।",
+  "tip_en": "-sked, -sts, -sped, -sks: do not add a vowel between consonants ('ris-ke-d').",
+  "tip_hi": "व्यंजनों के बीच स्वर न जोड़ें ('ris-ke-d' नहीं)।"
+ },
+ {
+  "id": "tt:23",
+  "text": "The months' worth of texts stretched across the sixth month.",
+  "focus": [
+   "clusters"
+  ],
+  "difficulty": 2,
+  "hi": "महीनों के मैसेज छठे महीने तक फैले।",
+  "tip_en": "months = /mʌnθs/, stretched = /stretʃt/.",
+  "tip_hi": "months = /mʌnθs/, stretched = /stretʃt/।"
+ },
+ {
+  "id": "tt:24",
+  "text": "Fifths, sixths, and twelfths are the hardest lengths to pronounce.",
+  "focus": [
+   "clusters"
+  ],
+  "difficulty": 3,
+  "hi": "पाँचवें, छठे और बारहवें हिस्से बोलने में सबसे कठिन हैं।",
+  "tip_en": "-fths, -xths, -lfths, -ngths — go slowly, every sound counts.",
+  "tip_hi": "-fths, -xths, -lfths, -ngths — धीरे बोलें, हर ध्वनि ज़रूरी है।"
+ },
+ {
+  "id": "tt:25",
+  "text": "Red lorry, yellow lorry, red lorry, yellow lorry.",
+  "focus": [
+   "r-l"
+  ],
+  "difficulty": 2,
+  "hi": "लाल ट्रक, पीला ट्रक, लाल ट्रक, पीला ट्रक।",
+  "tip_en": "English /r/ does not touch anything; /l/ touches the ridge behind the teeth.",
+  "tip_hi": "अंग्रेज़ी /r/ कुछ नहीं छूता; /l/ दाँतों के पीछे की रिज को छूता है।"
+ },
+ {
+  "id": "tt:26",
+  "text": "Larry really likes rolling lorries along the rural railway.",
+  "focus": [
+   "r-l"
+  ],
+  "difficulty": 2,
+  "hi": "लैरी को ग्रामीण रेलवे पर ट्रक लुढ़काना बहुत पसंद है।",
+  "tip_en": "'rural railway' is hard even for natives — the tongue must not flap.",
+  "tip_hi": "'rural railway' मूल वक्ताओं के लिए भी कठिन है — जीभ न फड़फड़ाए।"
+ },
+ {
+  "id": "tt:27",
+  "text": "Clearly, the rarely-lit library lured a really lazy reader.",
+  "focus": [
+   "r-l"
+  ],
+  "difficulty": 3,
+  "hi": "साफ़ है, कम रोशनी वाली लाइब्रेरी ने एक बहुत आलसी पाठक को लुभाया।",
+  "tip_en": "'library' has two r's and one l in a row.",
+  "tip_hi": "'library' में दो r और एक l लगातार हैं।"
+ },
+ {
+  "id": "tt:28",
+  "text": "Peter Piper picked a peck of pickled peppers.",
+  "focus": [
+   "p-b",
+   "aspiration"
+  ],
+  "difficulty": 1,
+  "hi": "पीटर पाइपर ने एक माप अचारी मिर्च चुनी।",
+  "tip_en": "English /p/ at the start of a word has a puff of air (aspiration). Hindi प has none.",
+  "tip_hi": "शब्द की शुरुआत में अंग्रेज़ी /p/ में हवा का झोंका है; हिंदी प में नहीं।"
+ },
+ {
+  "id": "tt:29",
+  "text": "How much wood would a woodchuck chuck if a woodchuck could chuck wood?",
+  "focus": [
+   "w",
+   "clusters"
+  ],
+  "difficulty": 2,
+  "hi": "अगर एक वुडचक लकड़ी फेंक सकता तो कितनी फेंकता?",
+  "tip_en": "Every 'w' is rounded lips — no teeth on lip.",
+  "tip_hi": "हर 'w' पर होंठ गोल — दाँत होंठ पर नहीं।"
+ },
+ {
+  "id": "tt:30",
+  "text": "Fuzzy Wuzzy was a bear; Fuzzy Wuzzy had no hair.",
+  "focus": [
+   "z",
+   "w"
+  ],
+  "difficulty": 1,
+  "hi": "फ़ज़ी वज़ी एक भालू था; फ़ज़ी वज़ी के बाल नहीं थे।",
+  "tip_en": "Buzz the /z/ in 'fuzzy' and 'wuzzy'.",
+  "tip_hi": "'fuzzy' और 'wuzzy' के /z/ को गुंजाएँ।"
+ },
+ {
+  "id": "tt:31",
+  "text": "Fan the pan, then fold the bold blue bowl.",
+  "focus": [
+   "f-p",
+   "b-v"
+  ],
+  "difficulty": 2,
+  "hi": "पैन को हवा दो, फिर गहरे नीले कटोरे को मोड़ो।",
+  "tip_en": "/f/ = teeth on lip with air; /p/ = lips together with a pop.",
+  "tip_hi": "/f/ = दाँत होंठ पर, हवा; /p/ = होंठ साथ, धमाका।"
+ },
+ {
+  "id": "tt:32",
+  "text": "Which witch wished which wicked wish?",
+  "focus": [
+   "w",
+   "ch"
+  ],
+  "difficulty": 2,
+  "hi": "किस चुड़ैल ने कौन-सी बुरी इच्छा माँगी?",
+  "tip_en": "'which' and 'witch' sound the same in modern English.",
+  "tip_hi": "आधुनिक अंग्रेज़ी में 'which' और 'witch' एक जैसे लगते हैं।"
+ },
+ {
+  "id": "tt:33",
+  "text": "Betty bought a bit of better butter to make the bitter batter better.",
+  "focus": [
+   "vowels",
+   "flapping"
+  ],
+  "difficulty": 2,
+  "hi": "बेट्टी ने कड़वे घोल को बेहतर बनाने के लिए थोड़ा बेहतर मक्खन खरीदा।",
+  "tip_en": "bit / bet / bat / but — four different vowels. Indians often merge bet and bat.",
+  "tip_hi": "bit / bet / bat / but — चार अलग स्वर। भारतीय अक्सर bet और bat मिला देते हैं।"
+ },
+ {
+  "id": "tt:34",
+  "text": "The ship's sheep sleep in the slip while the cheap chip shop shuts.",
+  "focus": [
+   "i-ii",
+   "s-sh"
+  ],
+  "difficulty": 3,
+  "hi": "जहाज़ की भेड़ें डॉक में सोती हैं जबकि सस्ती चिप्स की दुकान बंद होती है।",
+  "tip_en": "ship /ɪ/ short, sheep /iː/ long. Length AND tongue tension differ.",
+  "tip_hi": "ship /ɪ/ छोटा, sheep /iː/ लंबा। लंबाई और जीभ का तनाव दोनों अलग।"
+ }
+]

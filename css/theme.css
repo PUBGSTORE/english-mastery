@@ -1,0 +1,107 @@
+/* ============================================================
+   English Mastery — design tokens
+   Dark by default; light via [data-theme="light"].
+   ============================================================ */
+:root {
+  --bg: #0f1117;
+  --bg-2: #171a23;
+  --bg-3: #1f2330;
+  --bg-4: #2a2f3f;
+  --text: #e8eaf1;
+  --text-2: #a4a9ba;
+  --text-3: #6f7488;
+  --border: #2a2f3f;
+  --border-2: #363c50;
+  --accent: #8ab4f8;
+  --accent-2: #5b8def;
+  --accent-text: #0b1220;
+  --accent-soft: rgba(138, 180, 248, 0.14);
+  --green: #6fd39b;
+  --green-soft: rgba(111, 211, 155, 0.16);
+  --amber: #f2c14e;
+  --amber-soft: rgba(242, 193, 78, 0.18);
+  --red: #f08080;
+  --red-soft: rgba(240, 128, 128, 0.16);
+  --shadow: 0 1px 2px rgba(0,0,0,.35), 0 8px 24px rgba(0,0,0,.25);
+  --radius: 14px;
+  --radius-sm: 10px;
+  --radius-xs: 7px;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, sans-serif;
+  --font-hi: "Noto Sans Devanagari", "Kohinoor Devanagari", "Devanagari Sangam MN", "Devanagari MT", "Mangal", "Nirmala UI", -apple-system, system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --fs-xs: clamp(0.74rem, 0.7rem + 0.2vw, 0.82rem);
+  --fs-sm: clamp(0.84rem, 0.8rem + 0.2vw, 0.92rem);
+  --fs-md: clamp(0.98rem, 0.94rem + 0.25vw, 1.06rem);
+  --fs-lg: clamp(1.12rem, 1.04rem + 0.4vw, 1.28rem);
+  --fs-xl: clamp(1.35rem, 1.2rem + 0.8vw, 1.7rem);
+  --fs-2xl: clamp(1.7rem, 1.4rem + 1.4vw, 2.3rem);
+  --fs-3xl: clamp(2.1rem, 1.6rem + 2.4vw, 3.2rem);
+  --sidebar-w: 240px;
+  --tabbar-h: 60px;
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+  --dur: 160ms;
+  --ease: cubic-bezier(.2,.7,.2,1);
+  color-scheme: dark;
+}
+
+[data-theme="light"] {
+  --bg: #f6f7fb;
+  --bg-2: #ffffff;
+  --bg-3: #eef0f6;
+  --bg-4: #e2e5ee;
+  --text: #171a23;
+  --text-2: #4e5568;
+  --text-3: #7c8296;
+  --border: #e2e5ee;
+  --border-2: #cfd4e2;
+  --accent: #2f6fed;
+  --accent-2: #2458c4;
+  --accent-text: #ffffff;
+  --accent-soft: rgba(47, 111, 237, 0.10);
+  --green: #1f9d5a;
+  --green-soft: rgba(31, 157, 90, 0.12);
+  --amber: #b7791f;
+  --amber-soft: rgba(183, 121, 31, 0.14);
+  --red: #d13c3c;
+  --red-soft: rgba(209, 60, 60, 0.10);
+  --shadow: 0 1px 2px rgba(20,30,60,.06), 0 8px 24px rgba(20,30,60,.08);
+  color-scheme: light;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur: 0ms; }
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: var(--fs-md);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+  min-height: 100dvh;
+}
+h1, h2, h3, h4 { margin: 0 0 .4em; line-height: 1.2; font-weight: 700; letter-spacing: -0.01em; }
+h1 { font-size: var(--fs-2xl); }
+h2 { font-size: var(--fs-xl); }
+h3 { font-size: var(--fs-lg); }
+h4 { font-size: var(--fs-md); }
+p { margin: 0 0 .8em; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+::selection { background: var(--accent-soft); }
+.hi, [lang="hi"], .devanagari { font-family: var(--font-hi); line-height: 1.75; }
+code, kbd, .mono { font-family: var(--font-mono); font-size: .92em; }
+.ipa { font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Lucida Sans Unicode", "Arial Unicode MS", var(--font); color: var(--text-2); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }

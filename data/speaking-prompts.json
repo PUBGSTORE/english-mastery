@@ -1,0 +1,902 @@
+[
+ {
+  "id": "sp:01",
+  "cefr": "A1",
+  "prompt_en": "Introduce yourself. What is your name? Where are you from? What do you do?",
+  "prompt_hi": "अपना परिचय दें। आपका नाम क्या है? आप कहाँ से हैं? आप क्या काम करते हैं?",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["present simple", "be"],
+  "sample_en": "Hi, my name's Balvant. I'm from Ahmedabad, in India. I work as a security engineer, so I look for problems in computer systems and help fix them. I live with my family, and I'm learning English to speak more clearly at work."
+ },
+ {
+  "id": "sp:02",
+  "cefr": "A1",
+  "prompt_en": "Talk about your morning. What time do you get up? What do you do first?",
+  "prompt_hi": "अपनी सुबह के बारे में बताएँ। आप कितने बजे उठते हैं? पहले क्या करते हैं?",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["present simple", "adverbs of frequency"],
+  "sample_en": "I usually get up at six thirty. First, I drink a glass of water and check my phone. Then I make tea and sit quietly for ten minutes. After that, I take a shower and have breakfast before I start work at nine."
+ },
+ {
+  "id": "sp:03",
+  "cefr": "A1",
+  "prompt_en": "Describe your family. How many people are there? Who are they?",
+  "prompt_hi": "अपने परिवार का वर्णन करें। कितने लोग हैं? वे कौन हैं?",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["there is / there are", "possessives"],
+  "sample_en": "There are four people in my family. There's my wife, my two children, and me. My son is eight and my daughter is five. My parents live nearby, so we see them almost every weekend. It's a small but happy family."
+ },
+ {
+  "id": "sp:04",
+  "cefr": "A1",
+  "prompt_en": "What food do you like and not like? Say why.",
+  "prompt_hi": "आपको कौन-सा खाना पसंद है और कौन-सा नहीं? क्यों बताएँ।",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["like + noun", "because"],
+  "sample_en": "I like dal and rice because it's simple and I eat it almost every day. I also like mangoes a lot. I don't like very spicy food because it upsets my stomach. And I don't drink coffee; I prefer tea in the morning."
+ },
+ {
+  "id": "sp:05",
+  "cefr": "A1",
+  "prompt_en": "Describe the room you are in right now. What can you see?",
+  "prompt_hi": "आप अभी जिस कमरे में हैं उसका वर्णन करें। आप क्या देख सकते हैं?",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["there is / there are", "prepositions of place"],
+  "sample_en": "I'm in my study. There's a desk in front of me with a laptop and a cup of tea on it. There are some books on the shelf behind me. The window is on my left, and I can see a tree outside. The room is small but quiet."
+ },
+ {
+  "id": "sp:06",
+  "cefr": "A1",
+  "prompt_en": "What do you usually do on the weekend?",
+  "prompt_hi": "आप आम तौर पर सप्ताहांत में क्या करते हैं?",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["present simple", "adverbs of frequency"],
+  "sample_en": "On Saturday, I usually clean the house and go to the market. In the evening, we often visit my parents. On Sunday, I relax. Sometimes I read, and sometimes I watch a film with my children. I don't work on weekends if I can help it."
+ },
+ {
+  "id": "sp:07",
+  "cefr": "A1",
+  "prompt_en": "Talk about your favourite place in your city.",
+  "prompt_hi": "अपने शहर की अपनी पसंदीदा जगह के बारे में बताएँ।",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["present simple", "adjectives"],
+  "sample_en": "My favourite place is the riverfront near my home. It's quiet in the morning and there are wide paths for walking. I go there when I want to think. The air is fresh and you can see the water. I feel calm every time I visit."
+ },
+ {
+  "id": "sp:08",
+  "cefr": "A1",
+  "prompt_en": "Describe a person you like. What do they look like? Why do you like them?",
+  "prompt_hi": "किसी ऐसे व्यक्ति का वर्णन करें जो आपको पसंद है। वे कैसे दिखते हैं? आपको वे क्यों पसंद हैं?",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["have got", "adjectives"],
+  "sample_en": "I like my friend Ravi. He's tall and he's got short black hair and glasses. He's very calm and he always listens. I like him because he helps me when I have a problem, and he never gets angry. He's a good friend."
+ },
+ {
+  "id": "sp:09",
+  "cefr": "A1",
+  "prompt_en": "What is the weather like today? What weather do you like best?",
+  "prompt_hi": "आज मौसम कैसा है? आपको कौन-सा मौसम सबसे ज़्यादा पसंद है?",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["present continuous for now", "like + noun"],
+  "sample_en": "Today it's hot and sunny. The sky is clear and there's no wind. I like the rainy season best. When it rains, the weather is cool and everything looks green. I don't like the summer here because it gets very hot in the afternoon."
+ },
+ {
+  "id": "sp:10",
+  "cefr": "A1",
+  "prompt_en": "Talk about your job. What do you do every day at work?",
+  "prompt_hi": "अपने काम के बारे में बताएँ। आप हर दिन काम पर क्या करते हैं?",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["present simple", "sequencing words"],
+  "sample_en": "I'm a security engineer. Every day, I test websites and apps to find weak points. First, I read the code. Then I try to break it in a safe way. After that, I write a report and send it to the developers. I like my job because it's like solving puzzles."
+ },
+ {
+  "id": "sp:11",
+  "cefr": "A1",
+  "prompt_en": "Describe your best friend and what you do together.",
+  "prompt_hi": "अपने सबसे अच्छे दोस्त और आप साथ में क्या करते हैं, इसका वर्णन करें।",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["present simple", "and / but"],
+  "sample_en": "My best friend is Amit. We've known each other since school. We usually meet on Sundays. We drink tea, talk about cricket, and sometimes go for a long walk. He's funny and honest, and I can tell him anything. A good friend like that is rare."
+ },
+ {
+  "id": "sp:12",
+  "cefr": "A1",
+  "prompt_en": "What do you do to relax after work?",
+  "prompt_hi": "काम के बाद आराम करने के लिए आप क्या करते हैं?",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["present simple", "time expressions"],
+  "sample_en": "After work, I like to relax slowly. First, I go for a short walk to clear my head. Then I have dinner with my family and we talk about our day. In the evening, I read a book or listen to music. I try not to look at my work laptop."
+ },
+ {
+  "id": "sp:13",
+  "cefr": "A1",
+  "prompt_en": "Talk about a shop or market you go to often.",
+  "prompt_hi": "किसी दुकान या बाज़ार के बारे में बताएँ जहाँ आप अक्सर जाते हैं।",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["present simple", "there is / there are"],
+  "sample_en": "There's a small market near my house. I go there twice a week to buy vegetables and fruit. The shops are open early, and the sellers know me now. It's busy in the evening, so I go in the morning when it's quiet. Everything is fresh and cheap."
+ },
+ {
+  "id": "sp:14",
+  "cefr": "A1",
+  "prompt_en": "Describe your phone or laptop. What do you use it for?",
+  "prompt_hi": "अपने फ़ोन या laptop का वर्णन करें। आप इसका इस्तेमाल किसलिए करते हैं?",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["present simple", "use it for + -ing"],
+  "sample_en": "I have a black laptop that I use for work. I use it for testing websites, writing reports, and sending emails. It's not new, but it's fast enough. In the evening, I use my phone to read the news and message my friends. I try to put the phone away before I sleep."
+ },
+ {
+  "id": "sp:15",
+  "cefr": "A1",
+  "prompt_en": "What is your favourite day of the week and why?",
+  "prompt_hi": "सप्ताह का आपका पसंदीदा दिन कौन-सा है और क्यों?",
+  "seconds": 30,
+  "target_vocab": [],
+  "target_structures": ["present simple", "because"],
+  "sample_en": "My favourite day is Saturday because I don't work. I get up late, drink my tea slowly, and spend time with my children. In the afternoon, we sometimes go out to eat. I like Saturday because there's no hurry and no meetings. It feels free."
+ },
+ {
+  "id": "sp:16",
+  "cefr": "A2",
+  "prompt_en": "Talk about a trip you took recently. Where did you go and what did you do?",
+  "prompt_hi": "हाल ही में की गई किसी यात्रा के बारे में बताएँ। आप कहाँ गए और क्या किया?",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["past simple", "sequencing words"],
+  "sample_en": "Last month, I went to Udaipur with my family for three days. We took the train on Friday night and arrived early on Saturday. We visited the lake and an old palace, and we ate at a rooftop restaurant. The children loved the boat ride. It was a short trip, but we all needed the break."
+ },
+ {
+  "id": "sp:17",
+  "cefr": "A2",
+  "prompt_en": "Describe your daily routine at work from start to finish.",
+  "prompt_hi": "काम पर शुरू से अंत तक अपनी दिनचर्या का वर्णन करें।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["present simple", "sequencing words"],
+  "sample_en": "I start work at nine and first check my email and messages. Then I join a short team call where we say what we did yesterday and what we'll do today. In the morning, I usually test one part of an application. After lunch, I write up what I found. Before I finish, I plan the next day so I don't waste time in the morning."
+ },
+ {
+  "id": "sp:18",
+  "cefr": "A2",
+  "prompt_en": "Talk about a hobby or activity you enjoy. How did you start it?",
+  "prompt_hi": "किसी शौक या गतिविधि के बारे में बताएँ जिसका आप आनंद लेते हैं। आपने इसे कैसे शुरू किया?",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["past simple", "present simple"],
+  "sample_en": "I enjoy cooking, especially on weekends. I started about two years ago during the lockdown, when the restaurants were closed. At first, my food was terrible, but I watched videos and practised. Now I can make a few dishes well. My family says my dal is better than the restaurant's, but I think they're being kind."
+ },
+ {
+  "id": "sp:19",
+  "cefr": "A2",
+  "prompt_en": "Describe a problem you solved at work last week.",
+  "prompt_hi": "पिछले हफ़्ते काम पर आपने जो समस्या हल की उसका वर्णन करें।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["past simple", "linking words"],
+  "sample_en": "Last week, a login page was very slow. Users complained, so I looked into it. First, I checked the server logs and saw many failed requests. Then I found that one script was running too many times. I removed the extra calls, and the page became fast again. The team was happy, and I learned something new."
+ },
+ {
+  "id": "sp:20",
+  "cefr": "A2",
+  "prompt_en": "Talk about your favourite film or show. What is it about?",
+  "prompt_hi": "अपनी पसंदीदा फ़िल्म या show के बारे में बताएँ। यह किस बारे में है?",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["present simple", "past simple"],
+  "sample_en": "One of my favourite shows is about a group of hackers who try to fix problems in a big company. It's exciting because you never know who to trust. I like it because it feels close to my own work, but with more drama. I watched the whole thing in two weeks, which is too fast, I know."
+ },
+ {
+  "id": "sp:21",
+  "cefr": "A2",
+  "prompt_en": "Describe your city to someone who has never been there.",
+  "prompt_hi": "अपने शहर का वर्णन ऐसे किसी व्यक्ति को करें जो वहाँ कभी नहीं गया।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["present simple", "there is / there are"],
+  "sample_en": "I live in Ahmedabad, a big city in the west of India. It's famous for its food and its old streets. There are modern malls, but also very old temples and markets. The summers are hot, but the winters are pleasant. People here are friendly, and the street food is amazing. You should visit during the kite festival in January."
+ },
+ {
+  "id": "sp:22",
+  "cefr": "A2",
+  "prompt_en": "Talk about something you bought recently. Why did you buy it?",
+  "prompt_hi": "हाल ही में खरीदी गई किसी चीज़ के बारे में बताएँ। आपने इसे क्यों खरीदा?",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["past simple", "because"],
+  "sample_en": "I recently bought a standing desk because my back was hurting. I used to sit all day, and by the evening I felt stiff. I read some reviews and chose a simple one. It arrived last week, and I built it myself. Now I stand for part of the day. My back already feels a bit better."
+ },
+ {
+  "id": "sp:23",
+  "cefr": "A2",
+  "prompt_en": "Describe a teacher or boss who influenced you.",
+  "prompt_hi": "किसी teacher या boss का वर्णन करें जिसने आपको प्रभावित किया।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["past simple", "used to"],
+  "sample_en": "My first manager taught me a lot. He used to say, 'Explain it simply, or you don't understand it.' At first, I wrote long, confusing reports. He read them patiently and asked me questions until I made them clear. Because of him, I now try to write in simple, short sentences. I still hear his voice when I write."
+ },
+ {
+  "id": "sp:24",
+  "cefr": "A2",
+  "prompt_en": "Talk about your plans for the next weekend.",
+  "prompt_hi": "अगले सप्ताहांत के लिए अपनी योजनाओं के बारे में बताएँ।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["going to", "present continuous for future"],
+  "sample_en": "This weekend, I'm going to relax and spend time with my family. On Saturday, we're visiting my parents for lunch. In the evening, I'm going to watch a film with my children. On Sunday, I'll probably read and go for a walk. I'm not planning to do any work, if I can avoid it."
+ },
+ {
+  "id": "sp:25",
+  "cefr": "A2",
+  "prompt_en": "Describe how you learned to use a computer or phone.",
+  "prompt_hi": "आपने computer या phone इस्तेमाल करना कैसे सीखा, इसका वर्णन करें।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["past simple", "used to"],
+  "sample_en": "I learned to use a computer at college. At first, I was slow and I used to make many mistakes. I practised typing every day, and I asked my friends when I got stuck. Slowly, it became easy. My first phone was very simple, but now I use my phone for almost everything, from work to shopping."
+ },
+ {
+  "id": "sp:26",
+  "cefr": "A2",
+  "prompt_en": "Talk about a time you were very busy. What happened?",
+  "prompt_hi": "किसी ऐसे समय के बारे में बताएँ जब आप बहुत व्यस्त थे। क्या हुआ?",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["past simple", "past continuous"],
+  "sample_en": "Last month, we had two reports due on the same day. I was testing one app while my teammate was writing the other. We worked late for three days. It was stressful, but we helped each other and finished on time. After that, we asked the manager for better planning, and he agreed."
+ },
+ {
+  "id": "sp:27",
+  "cefr": "A2",
+  "prompt_en": "Describe your favourite meal and how it is made.",
+  "prompt_hi": "अपने पसंदीदा भोजन और इसे कैसे बनाया जाता है, इसका वर्णन करें।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["present simple", "sequencing words", "passive (simple)"],
+  "sample_en": "My favourite meal is khichdi. It's simple and healthy. First, rice and dal are washed and cooked together with a little salt and turmeric. Then some ghee and spices are added on top. It's served hot, often with yoghurt or pickle. I eat it when I'm tired because it's easy on the stomach and it reminds me of home."
+ },
+ {
+  "id": "sp:28",
+  "cefr": "A2",
+  "prompt_en": "Talk about a skill you would like to learn and why.",
+  "prompt_hi": "किसी ऐसे कौशल के बारे में बताएँ जो आप सीखना चाहेंगे और क्यों।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["would like to", "because"],
+  "sample_en": "I'd like to learn to speak English more fluently and clearly. In meetings, I understand everything, but sometimes I speak slowly and mix up my words. If I improve, I'll feel more confident and I'll be able to explain my findings better. I'm practising a little every day, and I can already feel a small difference."
+ },
+ {
+  "id": "sp:29",
+  "cefr": "A2",
+  "prompt_en": "Describe a photo you have on your phone. What is happening in it?",
+  "prompt_hi": "अपने फ़ोन में मौजूद किसी फ़ोटो का वर्णन करें। इसमें क्या हो रहा है?",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["present continuous", "prepositions of place"],
+  "sample_en": "There's a photo from last Diwali. In it, my whole family is standing in front of our house. My children are holding sparklers and laughing. There are small lamps along the wall behind them. Everyone is wearing new clothes. My mother is in the middle, smiling. It's my favourite photo because we were all together and happy."
+ },
+ {
+  "id": "sp:30",
+  "cefr": "A2",
+  "prompt_en": "Talk about the last book, article, or news story you read.",
+  "prompt_hi": "आपने आखिरी बार जो किताब, लेख या समाचार पढ़ा उसके बारे में बताएँ।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["past simple", "reporting verbs"],
+  "sample_en": "Yesterday, I read an article about a big data leak at a company. It said that millions of passwords were stolen because the company stored them in plain text. The writer explained that this was a basic mistake. It made me think about my own work. I felt lucky that my team takes these things seriously."
+ },
+ {
+  "id": "sp:31",
+  "cefr": "A2",
+  "prompt_en": "Describe a small change that improved your life.",
+  "prompt_hi": "किसी छोटे बदलाव का वर्णन करें जिसने आपके जीवन को बेहतर बनाया।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["present perfect (simple)", "past simple"],
+  "sample_en": "A small change that helped me was walking every morning. I started six months ago. At first, it was hard to wake up early, but now it's a habit. I feel calmer during the day, and I sleep better at night. It's only twenty minutes, but it has made a real difference to my mood."
+ },
+ {
+  "id": "sp:32",
+  "cefr": "A2",
+  "prompt_en": "Talk about the differences between where you grew up and where you live now.",
+  "prompt_hi": "जहाँ आप बड़े हुए और जहाँ आप अभी रहते हैं, उनके बीच के अंतर के बारे में बताएँ।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["comparatives", "used to"],
+  "sample_en": "I grew up in a small town, but now I live in a big city. The town was quieter and everyone knew each other. The city is busier and faster, and there's more traffic. But there are more jobs and better schools here. I miss the calm of the town, but the city has given me more opportunities."
+ },
+ {
+  "id": "sp:33",
+  "cefr": "A2",
+  "prompt_en": "Describe a festival or celebration that is important to you.",
+  "prompt_hi": "किसी त्योहार या उत्सव का वर्णन करें जो आपके लिए महत्वपूर्ण है।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["present simple", "sequencing words"],
+  "sample_en": "Diwali is the most important festival for me. Before it, we clean the whole house and buy new clothes. On the day, we light small lamps, share sweets, and visit family. In the evening, there are fireworks everywhere. I like it because the whole family comes together and the house feels warm and bright. It always reminds me of my childhood."
+ },
+ {
+  "id": "sp:34",
+  "cefr": "A2",
+  "prompt_en": "Talk about a mistake you made and what you learned from it.",
+  "prompt_hi": "किसी गलती के बारे में बताएँ जो आपने की और उससे आपने क्या सीखा।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["past simple", "should have (intro)"],
+  "sample_en": "Once, I sent a report to the wrong client by mistake. I was in a hurry and didn't check the email address. Luckily, the report had no secret data, but I felt very embarrassed. I apologised at once. After that, I started to read the 'To' field twice before sending. A small habit, but it saved me many times."
+ },
+ {
+  "id": "sp:35",
+  "cefr": "A2",
+  "prompt_en": "Describe your ideal weekend if you had no work and no worries.",
+  "prompt_hi": "यदि आपके पास कोई काम और कोई चिंता न हो तो अपने आदर्श सप्ताहांत का वर्णन करें।",
+  "seconds": 45,
+  "target_vocab": [],
+  "target_structures": ["would", "conditional (intro)"],
+  "sample_en": "If I had a free weekend, I'd sleep a little longer and have a slow breakfast. I'd take my family to a hill station where it's cool and green. We'd walk, take photos, and eat outside. In the evening, I'd sit quietly with a book. No phone, no email. Just rest. That would be a perfect weekend for me."
+ },
+ {
+  "id": "sp:36",
+  "cefr": "B1",
+  "prompt_en": "Explain a security concept, like a strong password or two-factor authentication, to a person who is not technical.",
+  "prompt_hi": "किसी गैर-तकनीकी व्यक्ति को कोई security concept, जैसे strong password या two-factor authentication, समझाएँ।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present simple", "cause and effect"],
+  "sample_en": "Imagine your password is the key to your front door. Two-factor authentication is like adding a second lock that needs a code from your phone. Even if someone copies your key, they still can't get in without your phone. It takes ten extra seconds when you log in, but it stops most attackers. That's why I always turn it on for email and banking, and I tell my family to do the same."
+ },
+ {
+  "id": "sp:37",
+  "cefr": "B1",
+  "prompt_en": "Talk about a bug or problem you fixed. What was wrong, and how did you solve it?",
+  "prompt_hi": "किसी bug या समस्या के बारे में बताएँ जो आपने ठीक की। क्या गलत था, और आपने इसे कैसे हल किया?",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["past simple", "past perfect (intro)"],
+  "sample_en": "Last week, I found that a website was leaking session tokens in its logs. This was serious because anyone who read the logs could take over a user's account. I first reproduced the issue on the test server to be sure. Then I wrote a clear report with the exact steps and a suggested fix. I worked with the developer, and by Friday the tokens were no longer being logged. It was a good feeling to close it."
+ },
+ {
+  "id": "sp:38",
+  "cefr": "B1",
+  "prompt_en": "Do you prefer working from home or from an office? Give your reasons.",
+  "prompt_hi": "आप घर से काम करना पसंद करते हैं या office से? अपने कारण बताएँ।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["comparatives", "linking words"],
+  "sample_en": "I prefer a mix, but if I had to choose, I'd pick working from home. The main reason is focus. At home, I can go deep into a problem without interruptions, which matters a lot in my work. I also save nearly two hours of travelling every day. On the other hand, I do miss the quick chats with my team, because you learn a lot from them. So the perfect setup for me would be three days at home and two in the office."
+ },
+ {
+  "id": "sp:39",
+  "cefr": "B1",
+  "prompt_en": "Describe a photo or scene in detail: who is there, what they are doing, and how it feels.",
+  "prompt_hi": "किसी फ़ोटो या दृश्य का विस्तार से वर्णन करें: वहाँ कौन है, वे क्या कर रहे हैं और यह कैसा महसूस होता है।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present continuous", "there is / there are"],
+  "sample_en": "In this scene, a family is sitting on a beach in the late evening. The parents are relaxing on a mat, and two children are building a sandcastle near the water. Behind them, the sun is setting, so the sky is orange and pink. A few people are walking along the shore. The whole picture feels calm and warm, the kind of evening you don't want to end."
+ },
+ {
+  "id": "sp:40",
+  "cefr": "B1",
+  "prompt_en": "Retell a story from a film, book, or your own life, from beginning to end.",
+  "prompt_hi": "किसी फ़िल्म, किताब या अपने जीवन की कहानी शुरू से अंत तक दोबारा सुनाएँ।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["past simple", "past continuous", "sequencing"],
+  "sample_en": "A few years ago, I got lost while travelling alone in a new city. My phone had died, and I didn't know the language. At first, I panicked. Then I decided to stay calm and ask people using signs and a few words. A kind shopkeeper drew me a small map and even walked with me part of the way. In the end, I found my hotel. Since that day, I always keep a paper map and a power bank when I travel."
+ },
+ {
+  "id": "sp:41",
+  "cefr": "B1",
+  "prompt_en": "Compare two tools, apps, or products you have used. Which is better and why?",
+  "prompt_hi": "अपने द्वारा इस्तेमाल किए गए दो tools, apps या products की तुलना करें। कौन-सा बेहतर है और क्यों?",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["comparatives", "superlatives"],
+  "sample_en": "I've used two note-taking apps at work. The first one is prettier and has more features, but it's slower and it needs the internet. The second one is plain and simple, but it opens instantly and works offline. For my daily work, the simple one is better, because I just want to write a quick note without waiting. The lesson for me is that more features aren't always better; speed and reliability often matter more."
+ },
+ {
+  "id": "sp:42",
+  "cefr": "B1",
+  "prompt_en": "Give clear instructions for a task you know well, step by step.",
+  "prompt_hi": "किसी ऐसे काम के लिए स्पष्ट निर्देश दें जिसे आप अच्छी तरह जानते हैं, कदम दर कदम।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["imperatives", "sequencing words"],
+  "sample_en": "Let me explain how to create a strong, safe password. First, don't use a single word or your birthday. Instead, think of a short sentence you'll remember, like 'My dog eats two rotis daily'. Next, take parts of it and add numbers and a symbol, so it becomes something like 'MyDog8ea2Rd!'. Then use a different one for each important account. Finally, if that's too hard, use a password manager and let it remember them for you."
+ },
+ {
+  "id": "sp:43",
+  "cefr": "B1",
+  "prompt_en": "Talk about a time you disagreed with a colleague. How did you handle it?",
+  "prompt_hi": "किसी ऐसे समय के बारे में बताएँ जब आप किसी सहकर्मी से असहमत थे। आपने इसे कैसे संभाला?",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["past simple", "reported speech"],
+  "sample_en": "Once, a developer said that a bug I reported was not important. I disagreed, because I'd seen it expose user data. Instead of arguing in the chat, I asked for a short call. I showed him the exact steps on the screen, and I stayed calm. When he saw the data appear, he understood. We agreed on a higher severity, and he fixed it that week. I learned that showing the evidence quietly works better than fighting in writing."
+ },
+ {
+  "id": "sp:44",
+  "cefr": "B1",
+  "prompt_en": "What are your goals for the next year, at work or in life?",
+  "prompt_hi": "अगले साल के लिए काम में या जीवन में आपके लक्ष्य क्या हैं?",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["future forms", "want to / plan to"],
+  "sample_en": "Next year, I have two main goals. First, I want to speak English confidently in meetings without preparing every sentence in my head. To do that, I'm practising a little every day. Second, at work, I plan to move into cloud security, because that's where the field is going. I'm going to take a course and get some hands-on practice. If I manage both, it'll be a good year."
+ },
+ {
+  "id": "sp:45",
+  "cefr": "B1",
+  "prompt_en": "Describe a place you would like to visit and what you would do there.",
+  "prompt_hi": "किसी ऐसी जगह का वर्णन करें जहाँ आप जाना चाहेंगे और वहाँ आप क्या करेंगे।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["would", "conditional"],
+  "sample_en": "I'd love to visit Japan one day. I'm curious about how they mix very old traditions with the newest technology. If I went, I'd spend the first days in Tokyo, walking around and trying the food. Then I'd take the fast train to a quieter town to see the temples and gardens. I'd also love to see how careful and organised everything is. I think it would change how I see my own habits."
+ },
+ {
+  "id": "sp:46",
+  "cefr": "B1",
+  "prompt_en": "Summarise an article or video you found interesting recently.",
+  "prompt_hi": "हाल ही में आपको दिलचस्प लगे किसी लेख या video का सार बताएँ।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["reporting verbs", "present simple for summaries"],
+  "sample_en": "I watched a video about how attackers trick people instead of breaking the software. The speaker explained that most big attacks start with a simple email that looks real. She said the weakest part of any system is usually the human, not the code. Her main advice was to slow down and check before you click. It made me realise that my job isn't only technical; teaching people to be careful matters just as much."
+ },
+ {
+  "id": "sp:47",
+  "cefr": "B1",
+  "prompt_en": "Talk about how you organise your day to get important work done.",
+  "prompt_hi": "महत्वपूर्ण काम पूरा करने के लिए आप अपना दिन कैसे व्यवस्थित करते हैं, इसके बारे में बताएँ।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present simple", "linking words"],
+  "sample_en": "I try to protect my mornings for the hardest work. As soon as I start, I choose the one task that matters most and I do it before I open my email, because email pulls me in many directions. I keep meetings in the afternoon when my focus is lower. I also write tomorrow's plan before I stop for the day. It's simple, but it stops me from feeling busy while getting nothing important done."
+ },
+ {
+  "id": "sp:48",
+  "cefr": "B1",
+  "prompt_en": "Describe a challenge you faced when learning something new.",
+  "prompt_hi": "कुछ नया सीखते समय आपके सामने आई किसी चुनौती का वर्णन करें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["past simple", "present perfect"],
+  "sample_en": "When I started learning English seriously, my biggest challenge was speaking. I could read and understand well, but when I had to speak, I froze. I was afraid of making mistakes in front of people. What helped was recording myself alone and listening back. It felt strange at first, but I slowly noticed my errors and fixed them. I still make mistakes, but now I keep talking instead of stopping, and that has made all the difference."
+ },
+ {
+  "id": "sp:49",
+  "cefr": "B1",
+  "prompt_en": "If you could change one thing about your job, what would it be?",
+  "prompt_hi": "यदि आप अपनी नौकरी के बारे में एक चीज़ बदल सकते, तो वह क्या होती?",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["second conditional", "would"],
+  "sample_en": "If I could change one thing, I'd reduce the number of meetings. In security work, you need long, quiet stretches to think and test properly. When the day is broken into many short meetings, it's hard to go deep, and small mistakes slip through. If we had two 'no-meeting' days a week, I think the quality of our work would improve. I'd still keep the important discussions, but I'd protect the time for real focus."
+ },
+ {
+  "id": "sp:50",
+  "cefr": "B1",
+  "prompt_en": "Talk about a piece of advice that changed how you work or live.",
+  "prompt_hi": "किसी ऐसी सलाह के बारे में बताएँ जिसने आपके काम करने या जीने के तरीके को बदल दिया।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["past simple", "present perfect"],
+  "sample_en": "A senior colleague once told me, 'Assume you're wrong, then try to prove it.' At first, it sounded strange. But in security, being too sure is dangerous. Since then, whenever I think a system is safe, I actively try to break my own assumption. This habit has helped me find bugs that I would have missed if I'd trusted my first impression. It's changed not just my work, but how I argue about anything."
+ },
+ {
+  "id": "sp:51",
+  "cefr": "B1",
+  "prompt_en": "Describe your hometown and how it has changed over the years.",
+  "prompt_hi": "अपने गृहनगर और यह वर्षों में कैसे बदला है, इसका वर्णन करें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present perfect", "used to"],
+  "sample_en": "My hometown has changed a lot over the years. When I was young, it was a quiet place with narrow streets and small shops. There used to be open fields near our house where we played cricket. Now those fields have become apartments, and there's much more traffic. Some of it is progress; there are better schools and hospitals. But I miss the calm and the open space. Every time I visit, it looks a little less like the place I remember."
+ },
+ {
+  "id": "sp:52",
+  "cefr": "B1",
+  "prompt_en": "Explain why you think learning English is useful for your career.",
+  "prompt_hi": "समझाएँ कि आपको क्यों लगता है कि English सीखना आपके करियर के लिए उपयोगी है।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present simple", "linking words"],
+  "sample_en": "English is very useful in my career for a few reasons. Firstly, most security documents, tools, and research are written in English, so understanding it well lets me learn faster. Secondly, I often work with teams in other countries, and clear English helps us avoid misunderstandings. Finally, when I write a report, good English makes my findings look professional and trustworthy. In short, my technical skills open the door, but English is what lets me walk through it confidently."
+ },
+ {
+  "id": "sp:53",
+  "cefr": "B1",
+  "prompt_en": "Talk about a habit you would like to build or break.",
+  "prompt_hi": "किसी आदत के बारे में बताएँ जो आप बनाना या तोड़ना चाहेंगे।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["would like to", "present continuous for trends"],
+  "sample_en": "A habit I'm trying to break is checking my phone late at night. I tell myself it's just for five minutes, but often half an hour disappears, and then I can't sleep well. To fix it, I've started leaving the phone in another room after ten. Instead, I read a few pages of a book. It's only been two weeks, but I'm already falling asleep faster. Small changes like this are hard to start but easy to keep once they become normal."
+ },
+ {
+  "id": "sp:54",
+  "cefr": "B1",
+  "prompt_en": "Describe a decision you had to make and how you made it.",
+  "prompt_hi": "किसी ऐसे निर्णय का वर्णन करें जो आपको लेना पड़ा और आपने इसे कैसे लिया।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["past simple", "linking words"],
+  "sample_en": "A year ago, I had to decide whether to change jobs. My old job was safe and comfortable, but I'd stopped learning. The new one was exciting but risky. To decide, I wrote down what mattered most to me: growth, family time, and money. When I looked at the list, growth was clearly the winner, and the new job offered that. It was a hard decision, but I've never regretted it. Sometimes writing things down makes a difficult choice surprisingly clear."
+ },
+ {
+  "id": "sp:55",
+  "cefr": "B1",
+  "prompt_en": "Talk about how technology has changed the way you work or live.",
+  "prompt_hi": "technology ने आपके काम करने या जीने के तरीके को कैसे बदला है, इसके बारे में बताएँ।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present perfect", "comparatives"],
+  "sample_en": "Technology has completely changed how I work. A few years ago, I had to be in the office to access most systems. Now I can test, write, and meet from anywhere with a laptop. This has given me more freedom, but it has also blurred the line between work and home. In my personal life, I pay bills, order food, and learn English all from my phone. It's convenient, but I've had to learn to switch off, or the screen never leaves me alone."
+ },
+ {
+  "id": "sp:56",
+  "cefr": "B2",
+  "prompt_en": "Should companies be allowed to monitor their employees' computers? Argue your view and consider the other side.",
+  "prompt_hi": "क्या कंपनियों को अपने कर्मचारियों के computers की निगरानी करने की अनुमति होनी चाहिए? अपना विचार रखें और दूसरे पक्ष पर भी विचार करें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["modals of obligation", "concession", "hedging"],
+  "sample_en": "I think companies should be allowed to monitor work devices, but only within clear limits. On one hand, they have a genuine need to protect sensitive data and detect attacks, and monitoring can catch a leak before it spreads. On the other hand, if monitoring is secret or excessive, it destroys trust and can feel like surveillance rather than security. My view is that it's acceptable as long as it's transparent: employees should know exactly what is logged and why. The moment monitoring extends into people's private lives or personal messages, it crosses a line that no security benefit can justify."
+ },
+ {
+  "id": "sp:57",
+  "cefr": "B2",
+  "prompt_en": "Defend a decision you made that others questioned. Why do you still think it was right?",
+  "prompt_hi": "किसी ऐसे निर्णय का बचाव करें जिस पर दूसरों ने सवाल उठाए। आपको अब भी क्यों लगता है कि यह सही था?",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["past simple", "present perfect", "concession"],
+  "sample_en": "Last quarter, I decided to delay a release by two days because I'd found a serious authentication flaw. Several people were unhappy, since the launch date had been promised to a client. I understood their frustration, but I was convinced that shipping a known account-takeover bug would cause far more damage than a short delay. I laid out the risk clearly, in plain language, and offered a concrete fix timeline. In the end, the client accepted the delay. Looking back, even though it was uncomfortable, I still believe protecting users' accounts was worth two days of awkward conversations."
+ },
+ {
+  "id": "sp:58",
+  "cefr": "B2",
+  "prompt_en": "Discuss the advantages and disadvantages of remote work for a whole company, not just for you.",
+  "prompt_hi": "सिर्फ़ आपके लिए नहीं, बल्कि पूरी कंपनी के लिए remote work के फ़ायदे और नुकसान पर चर्चा करें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["linking words", "comparatives", "hedging"],
+  "sample_en": "Remote work brings clear advantages to a company. It widens the hiring pool, lowers office costs, and often raises focus and productivity. However, the disadvantages are subtle and easy to underestimate. New employees can struggle without a senior colleague nearby, and the quiet knowledge that used to spread through casual conversation can dry up. Company culture, too, is harder to build over video calls. On balance, I'd argue remote work is a net positive, but only for companies that deliberately invest in written communication, structured mentoring, and occasional in-person time. Without that effort, the hidden costs slowly catch up with them."
+ },
+ {
+  "id": "sp:59",
+  "cefr": "B2",
+  "prompt_en": "Explain a complex idea from your field so that a beginner could understand it.",
+  "prompt_hi": "अपने क्षेत्र के किसी जटिल विचार को इस तरह समझाएँ कि एक शुरुआती व्यक्ति भी समझ सके।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present simple", "analogy", "cause and effect"],
+  "sample_en": "Let me explain what encryption really does, without the maths. Imagine you want to send a letter, but the postman might read it. Encryption is like putting the letter in a locked box that only the receiver has the key for. Anyone can carry the box, but no one in the middle can open it. When you see the little padlock in your browser, that box is protecting your passwords and card numbers as they travel. The clever part is that you and a website can agree on that key even though you've never met, and even if someone is watching the whole conversation."
+ },
+ {
+  "id": "sp:60",
+  "cefr": "B2",
+  "prompt_en": "Talk about a trend in your industry and whether you think it is positive or negative.",
+  "prompt_hi": "अपने उद्योग में किसी प्रवृत्ति के बारे में बताएँ और क्या आपको लगता है कि यह सकारात्मक है या नकारात्मक।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present continuous for trends", "future forms", "hedging"],
+  "sample_en": "One clear trend in security is that companies are increasingly relying on automated tools and AI to find vulnerabilities. On the whole, I see this as positive: machines can scan huge amounts of code quickly and catch the obvious mistakes that humans miss when they're tired. That said, I have a reservation. Automated tools are good at finding known patterns, but they still struggle with creative, chained attacks that require real understanding of the business logic. So my view is that automation will handle more of the routine work, which is welcome, but it will raise the value of skilled humans rather than replace them. The danger is if companies trust the tools blindly and stop thinking."
+ },
+ {
+  "id": "sp:61",
+  "cefr": "B2",
+  "prompt_en": "Describe a situation where you had to give bad news. How did you approach it?",
+  "prompt_hi": "किसी ऐसी स्थिति का वर्णन करें जहाँ आपको बुरी खबर देनी पड़ी। आपने इसे कैसे संभाला?",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["past simple", "reported speech", "diplomatic language"],
+  "sample_en": "I once had to tell a client that their brand-new application had a critical flaw just before launch. Nobody wants to hear that. I decided to be honest but constructive. Rather than listing everything that was wrong, I started with the single most important issue and explained, in plain terms, what an attacker could actually do. Then, crucially, I offered a realistic fix and a timeline. I made it clear I was on their side, not there to embarrass them. They were disappointed at first, but by the end of the call they thanked me. I learned that how you frame bad news matters almost as much as the news itself."
+ },
+ {
+  "id": "sp:62",
+  "cefr": "B2",
+  "prompt_en": "Is it better to be a specialist in one area or a generalist across many? Argue your position.",
+  "prompt_hi": "एक क्षेत्र में specialist होना बेहतर है या कई क्षेत्रों में generalist? अपनी स्थिति रखें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["comparatives", "concession", "conditionals"],
+  "sample_en": "This is a genuine dilemma, and I lean towards being a generalist with one area of depth. A pure specialist can become the best in a narrow field, which is valuable, but they risk becoming trapped if that field shrinks or changes. A pure generalist, on the other hand, may know a little about everything and not enough to be trusted with hard problems. The sweet spot, in my experience, is what people call 'T-shaped': broad awareness across many areas, plus real depth in one. In security, for instance, I understand networks, code, and people, but I go deep on web application testing. That balance lets me see the whole picture while still being genuinely useful."
+ },
+ {
+  "id": "sp:63",
+  "cefr": "B2",
+  "prompt_en": "Talk about a book, course, or experience that changed your thinking.",
+  "prompt_hi": "किसी किताब, course या अनुभव के बारे में बताएँ जिसने आपकी सोच बदल दी।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present perfect", "past simple", "cause and effect"],
+  "sample_en": "A book that genuinely changed my thinking was one about how people make decisions under uncertainty. Before reading it, I assumed that being intelligent meant being confident and quick. The book argued the opposite: that good thinkers hold their opinions loosely and actively look for evidence that they're wrong. This reshaped how I work. In security, overconfidence is dangerous, so now I treat my first conclusion as a hypothesis to test, not a fact to defend. It has also made me a calmer person in arguments, because I no longer feel I have to win every point. Changing my mind now feels like progress, not weakness."
+ },
+ {
+  "id": "sp:64",
+  "cefr": "B2",
+  "prompt_en": "How should society balance privacy and security? Give a reasoned opinion.",
+  "prompt_hi": "समाज को privacy और security के बीच संतुलन कैसे बनाना चाहिए? तर्कसंगत राय दें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["modals", "hedging", "concession"],
+  "sample_en": "Balancing privacy and security is one of the hardest questions of our time, and I don't think there's a perfect answer. Clearly, some security measures require access to data; you can't stop fraud or catch attackers while staying completely blind. However, history shows that powers granted for security are rarely given back, and they tend to expand quietly. My position is that any trade-off should be specific, temporary, and open to scrutiny, rather than broad and permanent. In other words, I'd accept a narrow, well-explained loss of privacy for a clear benefit, but I'd strongly resist vague promises of safety that ask us to hand over everything. The default should always favour privacy, with security as the carefully justified exception."
+ },
+ {
+  "id": "sp:65",
+  "cefr": "B2",
+  "prompt_en": "Describe a time you changed your mind about something important.",
+  "prompt_hi": "किसी ऐसे समय का वर्णन करें जब आपने किसी महत्वपूर्ण चीज़ के बारे में अपना मन बदला।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["past perfect", "used to", "present perfect"],
+  "sample_en": "For a long time, I used to believe that the most secure system was the one with the most rules and restrictions. I thought security meant saying 'no'. Over the years, I've completely changed my mind. I watched teams quietly ignore rules that got in their way, which actually made things less safe. I came to understand that if security is too painful, people route around it. Now I believe good security should be the easy path, not the hard one. So instead of adding another rule, I first ask why people are struggling. That shift, from blocking people to helping them, has made me far more effective."
+ },
+ {
+  "id": "sp:66",
+  "cefr": "B2",
+  "prompt_en": "What makes a good leader or manager? Support your view with examples.",
+  "prompt_hi": "एक अच्छे नेता या manager को क्या बनाता है? उदाहरणों के साथ अपने विचार का समर्थन करें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present simple", "relative clauses", "linking words"],
+  "sample_en": "For me, a good manager is someone who removes obstacles rather than creating them. The best manager I've had rarely told us what to do; instead, he made sure we had what we needed and then trusted us to do the work. When something went wrong, he asked 'what did we learn?' rather than 'who is to blame?', which meant people reported mistakes early instead of hiding them. He also protected our time from pointless meetings. In contrast, a weaker manager I worked with measured effort by hours online, which just taught people to look busy. So the qualities I value most are trust, clarity, and the courage to shield your team, not micromanage it."
+ },
+ {
+  "id": "sp:67",
+  "cefr": "B2",
+  "prompt_en": "Talk about the role of failure in learning and growth.",
+  "prompt_hi": "सीखने और विकास में असफलता की भूमिका के बारे में बताएँ।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present simple", "conditionals", "abstract nouns"],
+  "sample_en": "I've come to see failure as essential rather than shameful, though it rarely feels that way in the moment. In my field, every serious bug I missed taught me more than the ones I caught, because a miss forces you to understand why your thinking failed. If we punished every mistake harshly, people would simply stop taking risks and stop being honest about what went wrong. The key, though, is the difference between failing and learning from failure. Failure on its own teaches nothing; it's the honest reflection afterwards that turns a painful experience into a lasting lesson. So I try to create an environment, for myself and others, where mistakes are safe to admit and quick to examine."
+ },
+ {
+  "id": "sp:68",
+  "cefr": "B2",
+  "prompt_en": "Persuade someone to adopt a habit or practice you believe in.",
+  "prompt_hi": "किसी को कोई ऐसी आदत या अभ्यास अपनाने के लिए मनाएँ जिस पर आप विश्वास करते हैं।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["imperatives", "conditionals", "persuasive language"],
+  "sample_en": "If there's one habit I'd urge anyone to adopt, it's writing things down at the end of each day. It sounds almost too simple to matter, but the effect is remarkable. When you write a short note about what you did and what you'll do tomorrow, you stop carrying everything in your head, so you sleep better and start the next day with a clear direction. In my work, this habit has saved me from repeating mistakes, because I can look back and see patterns. You don't need an app or a system; a plain notebook works. Try it for just two weeks, and I'm confident you won't want to stop. The cost is five minutes; the return is a calmer, sharper mind."
+ },
+ {
+  "id": "sp:69",
+  "cefr": "B2",
+  "prompt_en": "Discuss whether social media has done more good or harm.",
+  "prompt_hi": "चर्चा करें कि social media ने अच्छा ज़्यादा किया है या नुकसान।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present perfect", "concession", "hedging"],
+  "sample_en": "Social media is genuinely double-edged, and I'm wary of anyone who claims it's simply good or simply bad. On the positive side, it has given ordinary people a voice, connected distant families, and let movements organise in ways that were impossible before. However, the same tools that spread useful information spread rumours and outrage even faster, because the systems are built to reward whatever keeps us scrolling, not whatever is true. On balance, I lean slightly towards concern, not because the technology is evil, but because its incentives push us towards anger and comparison. My honest view is that the platforms themselves aren't the real problem; the problem is that our attention has become the product being sold, and few of us chose that trade knowingly."
+ },
+ {
+  "id": "sp:70",
+  "cefr": "B2",
+  "prompt_en": "Describe how you would explain your job to a curious ten-year-old.",
+  "prompt_hi": "आप एक जिज्ञासु दस साल के बच्चे को अपनी नौकरी कैसे समझाएँगे, इसका वर्णन करें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present simple", "analogy", "simple relative clauses"],
+  "sample_en": "I'd tell the child to imagine a big house full of doors and windows, where people keep important things like money and photos. My job is to be the friendly person who walks around that house and checks every door and window to see if it locks properly. Sometimes I find a window that looks closed but actually opens with a little push, so I tell the owners before a burglar finds it. I don't steal anything; I just find the weak spots and help fix them. The best part is that it's like a puzzle: I have to think like both the person protecting the house and the person trying to sneak in."
+ },
+ {
+  "id": "sp:71",
+  "cefr": "B2",
+  "prompt_en": "Talk about a tradition you value and whether it should change with time.",
+  "prompt_hi": "किसी परंपरा के बारे में बताएँ जिसे आप महत्व देते हैं और क्या इसे समय के साथ बदलना चाहिए।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present simple", "concession", "modals"],
+  "sample_en": "A tradition I deeply value is the way families in India gather for festivals, cook together, and share food with neighbours. It creates a sense of belonging that's hard to build any other way. That said, I don't believe traditions should be frozen; the ones that survive are usually the ones that quietly adapt. For example, families now spread across cities or countries, so some of us celebrate over video calls, which would have seemed strange a generation ago. To me, the outer form can change, and probably should, as long as the heart of it, spending time together and caring for one another, stays alive. A tradition that refuses to bend at all often ends up breaking instead."
+ },
+ {
+  "id": "sp:72",
+  "cefr": "B2",
+  "prompt_en": "Argue for or against the statement: 'Money is the main motivator at work.'",
+  "prompt_hi": "इस कथन के पक्ष या विपक्ष में तर्क दें: 'काम पर पैसा मुख्य प्रेरक है।'",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present simple", "concession", "hedging"],
+  "sample_en": "I'd argue against the idea that money is the main motivator, while admitting it plays a real part. Of course, no one can ignore money; if people aren't paid fairly, nothing else matters, and resentment builds quickly. However, once a salary is reasonable, its power to motivate fades faster than people expect. In my own experience, what keeps me engaged is interesting problems, the feeling of getting better, and working with people I respect. I've seen well-paid colleagues quit jobs they found meaningless, and I've seen people stay in demanding roles because they felt they mattered. So money is best understood as a foundation: it removes dissatisfaction, but it rarely creates lasting motivation on its own."
+ },
+ {
+  "id": "sp:73",
+  "cefr": "B2",
+  "prompt_en": "Describe a risk you took and whether it paid off.",
+  "prompt_hi": "किसी ऐसे जोखिम का वर्णन करें जो आपने लिया और क्या यह सफल रहा।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["past simple", "third conditional (intro)", "present perfect"],
+  "sample_en": "A few years ago, I took a real risk by leaving a stable job to specialise in security, at a time when I had a family to support and no guarantee it would work out. It was frightening, because I gave up a comfortable salary to start again in a field where I was a beginner. For the first year, it was hard, and I sometimes wondered if I'd made a mistake. But I studied relentlessly, took on unpaid projects to build experience, and slowly earned people's trust. Looking back, it clearly paid off, not just financially, but in how much more alive I feel doing work I care about. If I'd stayed where I was safe, I think a part of me would have quietly given up."
+ },
+ {
+  "id": "sp:74",
+  "cefr": "B2",
+  "prompt_en": "How do you decide whom to trust with important information?",
+  "prompt_hi": "आप महत्वपूर्ण जानकारी के लिए किस पर भरोसा करना है, यह कैसे तय करते हैं?",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present simple", "conditionals", "relative clauses"],
+  "sample_en": "Deciding whom to trust is something I take seriously, both personally and professionally. I've learned not to judge trust by how confident or friendly someone seems, because the most persuasive people aren't always the most reliable. Instead, I watch how they behave when it's inconvenient: do they admit when they don't know something, and do they keep small promises? Someone who's honest about a minor mistake is usually someone I can trust with a bigger one. In security especially, I follow a principle of giving people only the access they genuinely need, no matter how much I like them, because trust and access are different things. Trust is a feeling; access is a decision, and I try never to confuse the two."
+ },
+ {
+  "id": "sp:75",
+  "cefr": "B2",
+  "prompt_en": "Talk about what 'success' means to you and how it has changed.",
+  "prompt_hi": "आपके लिए 'सफलता' का क्या अर्थ है और यह कैसे बदला है, इसके बारे में बताएँ।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present perfect", "used to", "abstract nouns"],
+  "sample_en": "My definition of success has shifted a good deal over the years. When I was younger, I used to measure it almost entirely by titles and salary; I assumed that climbing higher was the whole point. Over time, and especially after starting a family, I've come to see success differently. Now it means doing work I find meaningful, having enough time and energy left for the people I love, and slowly becoming better at things I care about. I still want to do well financially, but it's no longer the scoreboard. In fact, some of the moments I now count as real success, like patiently teaching my child something, or writing a report so clear that anyone could act on it, would not have registered as 'success' to me ten years ago."
+ },
+ {
+  "id": "sp:76",
+  "cefr": "C1",
+  "prompt_en": "To what extent should individuals be held responsible for their own online security?",
+  "prompt_hi": "व्यक्तियों को अपनी online security के लिए किस हद तक ज़िम्मेदार ठहराया जाना चाहिए?",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["hedging", "nominalisation", "concession"],
+  "sample_en": "It's tempting to place the burden of online security squarely on individuals, and up to a point that's fair: no system can protect someone who reuses one weak password everywhere and clicks every link. Yet I'd argue that this framing quietly lets the more powerful actors off the hook. Ordinary users are asked to make expert decisions about threats they can't reasonably understand, using software deliberately designed to be addictive and confusing. The genuine responsibility, in my view, lies disproportionately with those who design the systems and profit from them, since they alone can build safety into the defaults. So while personal vigilance matters, treating security as purely a matter of individual willpower is not only unrealistic but convenient for the very companies whose choices shape the risk in the first place. Responsibility should scale with power, and users have the least of it."
+ },
+ {
+  "id": "sp:77",
+  "cefr": "C1",
+  "prompt_en": "Discuss the claim that convenience always comes at the cost of privacy.",
+  "prompt_hi": "इस दावे पर चर्चा करें कि सुविधा हमेशा privacy की कीमत पर आती है।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["cleft sentences", "hedging", "abstract argument"],
+  "sample_en": "There's a comforting neatness to the claim that convenience and privacy are locked in a zero-sum trade, but I think it's only half true. What's undeniable is that most modern convenience is funded by data: the free app, the instant recommendation, the frictionless checkout are all, in a sense, paid for with information about us. However, the assumption that this is inevitable, that we must surrender privacy to enjoy modern life, is precisely what benefits the companies making the rules. It is entirely possible, technically, to design systems that are both convenient and privacy-respecting; end-to-end encrypted messaging is one everyday proof of that. So rather than accepting the trade as a law of nature, I'd reframe it as a design choice, and often a business choice. The real question isn't whether convenience must cost privacy, but who gets to decide the price, and whether we were ever truly asked."
+ },
+ {
+  "id": "sp:78",
+  "cefr": "C1",
+  "prompt_en": "Is expertise becoming less valuable in an age of instant information? Argue your case.",
+  "prompt_hi": "क्या तुरंत जानकारी के युग में विशेषज्ञता कम मूल्यवान होती जा रही है? अपना पक्ष रखें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["concession", "inversion", "nominalisation"],
+  "sample_en": "At first glance, the flood of instant information seems to have devalued expertise; after all, anyone can now look up in seconds what once required years of study. But I'd argue the opposite is quietly true. Never has it been more valuable to have someone who can judge which of a thousand plausible answers is actually correct. Information has become abundant and therefore cheap, while judgement, the ability to weigh, contextualise, and detect what's subtly wrong, has become scarce and therefore precious. In my own field, a search engine will happily hand a novice a list of security 'best practices', but it takes real expertise to know which of them apply to a particular system and which would quietly make things worse. So expertise hasn't declined in worth; rather, its nature has shifted, from knowing facts to exercising discernment, and that is a far harder thing to automate away."
+ },
+ {
+  "id": "sp:79",
+  "cefr": "C1",
+  "prompt_en": "Reflect on the tension between honesty and diplomacy at work.",
+  "prompt_hi": "काम पर ईमानदारी और कूटनीति के बीच के तनाव पर विचार करें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["abstract nouns", "concession", "hedging"],
+  "sample_en": "The tension between honesty and diplomacy is one I navigate almost daily, and I've stopped seeing them as opposites. Early in my career, I equated honesty with bluntness, and I mistook diplomacy for dishonesty, a kind of polite cowardice. Experience has taught me that this is a false choice. The most effective people I know are ruthlessly honest about the substance while being genuinely careful about the delivery. When I report a serious flaw, I never soften the facts, because doing so would betray the whole point of my job; but I choose my framing, my timing, and my tone deliberately, so that the listener can actually hear the message rather than defend against it. Diplomacy, understood properly, isn't the enemy of honesty; it's what allows an uncomfortable truth to land instead of bouncing off. The failure mode to avoid isn't being tactful, it's letting tact quietly erode the truth until nothing difficult ever gets said."
+ },
+ {
+  "id": "sp:80",
+  "cefr": "C1",
+  "prompt_en": "Should we be optimistic or cautious about artificial intelligence? Defend a nuanced position.",
+  "prompt_hi": "क्या हमें artificial intelligence के बारे में आशावादी होना चाहिए या सतर्क? एक सूक्ष्म स्थिति का बचाव करें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["hedging", "concession", "conditional"],
+  "sample_en": "I resist both the breathless optimism and the reflexive doom that dominate discussions of artificial intelligence, because each, in its own way, is a kind of laziness. The optimists tend to assume that powerful tools naturally produce good outcomes, which history flatly contradicts; the pessimists often treat catastrophe as inevitable, which conveniently excuses us from doing the hard, boring work of shaping the technology well. My own position is one of cautious engagement. These systems are genuinely transformative, and in my field they already help catch mistakes that humans overlook. Yet their very usefulness is what makes complacency dangerous, since we tend to trust what saves us effort. So I'd say the honest stance is neither to celebrate nor to panic, but to stay closely involved, to insist on transparency and accountability, and to remember that whether this technology serves us or diminishes us will be decided less by the machines than by the choices we're making, often carelessly, right now."
+ },
+ {
+  "id": "sp:81",
+  "cefr": "C1",
+  "prompt_en": "Analyse why smart people sometimes make poor decisions.",
+  "prompt_hi": "विश्लेषण करें कि बुद्धिमान लोग कभी-कभी खराब निर्णय क्यों लेते हैं।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["nominalisation", "cause and effect", "hedging"],
+  "sample_en": "It's a paradox worth taking seriously that intelligence offers surprisingly little protection against poor decisions, and sometimes even enables them. Part of the explanation is that clever people are exceptionally good at constructing arguments, which means they're also good at justifying whatever they already want to believe. Their very fluency becomes a trap. There's also the matter of confidence: a track record of being right breeds a quiet certainty that makes them slower to question themselves precisely when they should. In my experience, the smartest technical people I've worked with make their worst calls not from ignorance but from overconfidence, when they trust the elegance of their reasoning more than the messiness of the evidence. What tends to protect against this isn't more intelligence but a set of habits, seeking disagreement, welcoming being proven wrong, and treating strong conviction as a warning sign rather than a badge. Intelligence, in short, is a powerful engine, but on its own it has no steering."
+ },
+ {
+  "id": "sp:82",
+  "cefr": "C1",
+  "prompt_en": "Discuss whether transparency is always the best policy for organisations.",
+  "prompt_hi": "चर्चा करें कि क्या पारदर्शिता संगठनों के लिए हमेशा सबसे अच्छी नीति है।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["concession", "conditionals", "hedging"],
+  "sample_en": "Transparency has become something of a sacred word, and while I broadly champion it, I'm uneasy with treating it as an absolute good. The case for it is strong: openness builds trust, deters wrongdoing, and lets people make informed choices, and in security, hiding a breach almost always compounds the damage. Yet I'd argue that transparency without judgement can be its own kind of failure. Disclosing a vulnerability before a fix exists, for instance, doesn't empower users; it simply hands attackers a weapon. Flooding people with raw information they can't interpret can obscure the truth as effectively as hiding it. So the principle I'd defend isn't transparency for its own sake, but honest transparency exercised responsibly: a default towards openness, a genuine burden of proof on any secrecy, and a recognition that how and when you reveal something is part of the ethics, not separate from it. The opposite of secrecy isn't dumping everything; it's disclosing thoughtfully, in a way people can actually use."
+ },
+ {
+  "id": "sp:83",
+  "cefr": "C1",
+  "prompt_en": "Reflect on how your profession has shaped the way you see the world.",
+  "prompt_hi": "विचार करें कि आपके पेशे ने आपकी दुनिया देखने के तरीके को कैसे आकार दिया है।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present perfect", "cause and effect", "abstract reflection"],
+  "sample_en": "Working in security has quietly rewired how I see almost everything, sometimes for better and occasionally for worse. Because my job is to imagine how things can be misused, I've developed an instinct to look for the gap between how something is supposed to work and how it actually behaves under pressure. This has made me a more careful thinker: I no longer take a smooth surface as proof that all is well, whether I'm reading a contract or listening to a confident argument. The downside is a certain professional suspicion that I have to consciously switch off, because constantly hunting for the flaw is a poor way to treat people you love. What I value most, though, is that the work has taught me humility about certainty. Once you've watched carefully built systems fail in ways nobody predicted, you stop believing that anything is ever fully secure, and you start respecting the people who stay vigilant without becoming cynical. It's a strange lens, but on balance a clarifying one."
+ },
+ {
+  "id": "sp:84",
+  "cefr": "C1",
+  "prompt_en": "Is a certain amount of stress necessary for good performance, or is it always harmful?",
+  "prompt_hi": "क्या अच्छे प्रदर्शन के लिए एक निश्चित मात्रा में तनाव आवश्यक है, या यह हमेशा हानिकारक है?",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["concession", "conditionals", "hedging"],
+  "sample_en": "The fashionable view that all stress is toxic seems to me too simple, though I understand why it has taken hold in a burnout-weary culture. In my own experience, a moderate, time-limited pressure, the kind you feel before an important deadline, can sharpen focus and pull out work you didn't know you had in you. What matters is not the presence of stress but its shape. Pressure that is intense but temporary, and followed by genuine recovery, tends to strengthen people; pressure that is relentless, ill-defined, and never lets up, corrodes them. The crucial variable is control: stress with a clear end point and some sense of agency energises, whereas stress that feels endless and imposed does real damage. So I'd resist both the myth that we should eliminate all stress and the harsher myth that suffering is the price of excellence. The honest answer is that stress is a bit like a weight in training, useful in the right dose with rest around it, and harmful when it simply never stops."
+ },
+ {
+  "id": "sp:85",
+  "cefr": "C1",
+  "prompt_en": "Evaluate the idea that 'anyone can learn anything with enough effort.'",
+  "prompt_hi": "इस विचार का मूल्यांकन करें कि 'पर्याप्त प्रयास से कोई भी कुछ भी सीख सकता है।'",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["concession", "hedging", "nominalisation"],
+  "sample_en": "The claim that anyone can learn anything with enough effort is one I want to believe, and I think it's far closer to the truth than the fatalistic alternative, but it deserves careful qualification. As an encouragement, it's valuable; most people badly underestimate how much they can improve, and they quit long before effort has had a chance to work. I've watched supposedly 'non-technical' colleagues become genuinely skilled simply because they refused to accept that the door was closed. Yet stated as an absolute, the idea can quietly become cruel, because it implies that anyone who fails to master something simply didn't try hard enough, ignoring the very real differences in starting points, resources, time, and circumstance. My honest position is that effort dramatically expands what's possible, far more than we assume, but it doesn't erase every limit, and pretending it does can shame the very people it's meant to inspire. So I'd keep the optimism while dropping the arrogance: not 'anyone can master anything', but 'almost everyone can go much further than they think, given the chance and the support to try.'"
+ },
+ {
+  "id": "sp:86",
+  "cefr": "C1",
+  "prompt_en": "Discuss the ethical responsibilities of someone who discovers a serious vulnerability.",
+  "prompt_hi": "किसी गंभीर vulnerability की खोज करने वाले व्यक्ति की नैतिक ज़िम्मेदारियों पर चर्चा करें।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["modals of obligation", "conditionals", "abstract argument"],
+  "sample_en": "Discovering a serious vulnerability places you, almost overnight, in a position of real ethical weight, because you briefly hold knowledge that could either protect or harm a great many people. The first responsibility, in my view, is restraint: you must resist both the temptation to exploit what you've found and the temptation to show off by publicising it prematurely. The second is to give the people who can actually fix it a fair, private chance to do so, which is the whole logic behind responsible disclosure. Yet the duties don't run in only one direction. If a vendor ignores you, or tries to silence you rather than fix the flaw, then a rigid loyalty to secrecy can itself become unethical, since it leaves users exposed to a danger only you and, eventually, the attackers know about. So the honest picture is one of competing obligations that have to be balanced case by case: to the affected users above all, to the vendor within reason, and to the wider public's right to eventually understand the risks. What you never get to do is pretend the knowledge is morally neutral. Once you've seen the open window, doing nothing is also a choice."
+ },
+ {
+  "id": "sp:87",
+  "cefr": "C1",
+  "prompt_en": "Has the ease of communication made us better or worse at truly understanding each other?",
+  "prompt_hi": "क्या संचार की सुगमता ने हमें एक-दूसरे को सही मायने में समझने में बेहतर बनाया है या बदतर?",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["present perfect", "concession", "cleft sentences"],
+  "sample_en": "It would be perverse to deny that communication has become extraordinarily easy; I can reach a colleague on another continent in seconds. And yet the question of whether this has deepened our understanding of one another is far less comfortable to answer. What we've gained is reach and speed; what we may have lost is patience and depth. So much of genuine understanding depends on tone, hesitation, the pause before a difficult admission, and precisely these things are flattened by text and rushed by the sheer volume of it. It's telling that misunderstandings often multiply in exactly the channels built to prevent them. That said, I'm wary of nostalgia, because the same tools have let people find others who share their private struggles and finally feel less alone. My tentative conclusion is that the technology has made connection easier while making understanding, if anything, harder, because understanding was never really about the number of messages exchanged. It was about the quality of attention behind them, and attention is the one thing all this ease has quietly made scarce."
+ },
+ {
+  "id": "sp:88",
+  "cefr": "C1",
+  "prompt_en": "Reflect on whether it is possible to be truly objective about anything.",
+  "prompt_hi": "विचार करें कि क्या किसी भी चीज़ के बारे में सही मायने में वस्तुनिष्ठ होना संभव है।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["hedging", "abstract nouns", "concession"],
+  "sample_en": "Whether true objectivity is possible is one of those questions that looks abstract until you realise how much rides on the answer. My honest belief is that perfect objectivity is beyond us; every observation is made by someone standing somewhere, shaped by a language, a history, and a set of assumptions they can't fully see. Even the questions we choose to ask, and the ones we never think to, betray a point of view. However, I'd strongly resist the fashionable leap from 'perfect objectivity is impossible' to 'so everything is merely opinion.' That conclusion is both lazy and dangerous. The fact that I can't achieve a perfectly clean lens doesn't mean all lenses distort equally; some methods, careful evidence, openness to disagreement, willingness to be corrected, get us meaningfully closer to the truth than others. So I've made my peace with a modest version of objectivity: not a god's-eye view free of all bias, but a disciplined effort to notice my biases, test my conclusions against reality, and let others check my blind spots. It's imperfect, but the alternative, treating the pursuit as hopeless, is how people end up believing whatever flatters them."
+ },
+ {
+  "id": "sp:89",
+  "cefr": "C1",
+  "prompt_en": "Argue whether prevention or resilience should be the priority when facing risk.",
+  "prompt_hi": "तर्क दें कि जोखिम का सामना करते समय रोकथाम या लचीलापन में से किसे प्राथमिकता देनी चाहिए।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["comparatives", "concession", "conditional"],
+  "sample_en": "The instinctive answer to risk is prevention, stopping the bad thing from ever happening, and for a long time that was the whole philosophy of my field. Experience, though, has shifted my thinking towards resilience, and I'd now argue it deserves at least equal priority. The problem with a pure prevention mindset is that it quietly assumes you can foresee every threat, and the moment reality produces one you didn't imagine, a system built only to prevent has no answer; it simply breaks. Resilience accepts a humbler premise: that some failures are inevitable, so the real measure of strength is how quickly and gracefully you recover. In security, this is the difference between a wall that's either intact or breached, and a system designed to contain damage, detect it fast, and heal. I'm not dismissing prevention, which remains essential and always cheaper than a crisis. But if forced to choose where to place the greater emphasis, I'd choose the ability to absorb and recover from the blow you didn't see coming, because in a complex world, that blow is not a possibility but a certainty. The wise posture is to prevent what you can while assuming, humbly, that prevention will one day fail."
+ },
+ {
+  "id": "sp:90",
+  "cefr": "C1",
+  "prompt_en": "Consider whether being highly self-critical helps or hinders long-term growth.",
+  "prompt_hi": "विचार करें कि अत्यधिक आत्म-आलोचनात्मक होना दीर्घकालिक विकास में मदद करता है या बाधा डालता है।",
+  "seconds": 60,
+  "target_vocab": [],
+  "target_structures": ["concession", "hedging", "abstract reflection"],
+  "sample_en": "Self-criticism enjoys a good reputation, often mistaken for the same thing as high standards, but I've come to see it as a genuinely double-edged trait. In moderation, and aimed at the work rather than the self, it's indispensable; without the willingness to look honestly at where you fell short, you simply repeat your mistakes with more confidence. In my field, the engineers who improve fastest are precisely those who interrogate their own reasoning most ruthlessly. Yet there's a version of self-criticism that masquerades as rigour while actually sabotaging growth, the kind that attacks the person instead of the performance, that treats every error as evidence of some permanent inadequacy. That variety doesn't sharpen you; it paralyses you, because people who are terrified of their own judgement stop taking the risks that learning requires. So the distinction I'd draw is between critique and contempt. Useful self-criticism is specific, forward-looking, and oddly kind: it says 'that approach failed, here's what I'll try next.' The corrosive kind is vague, backward-looking, and cruel: it says 'you always get this wrong.' The first is an engine of growth; the second, wearing the same clothes, is quietly one of its greatest enemies."
+ }
+]

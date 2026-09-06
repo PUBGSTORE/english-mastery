@@ -1,0 +1,3684 @@
+[
+ {
+  "id": "v:id:0001",
+  "word": "hit the ground running",
+  "ipa": "/hɪt ðə ɡraʊnd ˈrʌnɪŋ/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to start a new job or project with energy and immediate effectiveness",
+  "hi_def": "शुरू से ही पूरी तेज़ी और तैयारी से काम शुरू करना",
+  "hi_nuance": "No direct Hindi equivalent; closest is 'पहले दिन से ही जुट जाना'. Used in job ads and onboarding; do not translate literally.",
+  "examples": [
+   {
+    "en": "We need someone who can hit the ground running.",
+    "hi": "हमें ऐसा व्यक्ति चाहिए जो पहले दिन से ही पूरी तरह काम में जुट सके।"
+   },
+   {
+    "en": "She hit the ground running in her new role.",
+    "hi": "उसने अपनी नई भूमिका में पहले ही दिन से ज़ोरदार शुरुआत की।"
+   },
+   {
+    "en": "Read the docs before Monday so you can hit the ground running.",
+    "hi": "सोमवार से पहले दस्तावेज़ पढ़ लो ताकि तुम पहले दिन से ही काम में जुट सको।"
+   },
+   {
+    "en": "The new hire hit the ground running and closed three tickets on day one.",
+    "hi": "नए कर्मचारी ने पहले दिन ही तेज़ शुरुआत की और तीन टिकट बंद किए।"
+   },
+   {
+    "en": "With a good handover, the next team can hit the ground running.",
+    "hi": "अच्छे हैंडओवर से अगली टीम तुरंत काम में जुट सकती है।"
+   }
+  ],
+  "collocations": [
+   "hit the ground running in a new job",
+   "able to hit the ground running"
+  ],
+  "synonyms": [
+   "start strong",
+   "get off to a flying start"
+  ],
+  "antonyms": [
+   "ease in",
+   "start slowly"
+  ],
+  "word_family": [
+   "hit the ground running"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "She hit the ground and started running on the first day.",
+   "right": "She hit the ground running on the first day.",
+   "why": "The idiom is a fixed phrase; splitting it makes it literal and meaningless."
+  },
+  "cloze": {
+   "sentence": "Thanks to the onboarding guide, I was able to ____ ____ ____ ____.",
+   "answer": "hit the ground running"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0002",
+  "word": "on the same page",
+  "ipa": "/ɒn ðə seɪm peɪdʒ/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "in agreement; having the same understanding of a situation",
+  "hi_def": "एक ही राय या समझ पर होना",
+  "hi_nuance": "Hindi 'एक ही पन्ने पर' is a direct translation that people now use jokingly. In English it's neutral and extremely common in meetings.",
+  "examples": [
+   {
+    "en": "Let's make sure we're all on the same page before the client call.",
+    "hi": "क्लाइंट कॉल से पहले सुनिश्चित करें कि हम सब एक ही समझ पर हैं।"
+   },
+   {
+    "en": "The devs and the security team are finally on the same page.",
+    "hi": "डेवलपर और सुरक्षा टीम आख़िरकार एक राय पर आ गए हैं।"
+   },
+   {
+    "en": "I just want to check we're on the same page about the deadline.",
+    "hi": "मैं बस यह जाँचना चाहता हूँ कि समय सीमा पर हम एक ही समझ पर हैं।"
+   },
+   {
+    "en": "We weren't on the same page, which caused the confusion.",
+    "hi": "हमारी समझ एक जैसी नहीं थी, जिससे भ्रम हुआ।"
+   },
+   {
+    "en": "A quick sync helps everyone get on the same page.",
+    "hi": "एक छोटी सिंक मीटिंग से सब एक ही समझ पर आ जाते हैं।"
+   }
+  ],
+  "collocations": [
+   "get on the same page",
+   "be on the same page",
+   "make sure we're on the same page"
+  ],
+  "synonyms": [
+   "in agreement",
+   "aligned"
+  ],
+  "antonyms": [
+   "at odds",
+   "at cross purposes"
+  ],
+  "word_family": [
+   "on the same page"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "We are in the same page regarding the plan.",
+   "right": "We are on the same page regarding the plan.",
+   "why": "The idiom uses 'on', not 'in'."
+  },
+  "cloze": {
+   "sentence": "Before we start coding, let's get ____ ____ ____ ____.",
+   "answer": "on the same page"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0003",
+  "word": "touch base",
+  "ipa": "/tʌtʃ beɪs/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to make brief contact with someone to exchange updates",
+  "hi_def": "थोड़ी देर के लिए संपर्क करना, हालचाल लेना",
+  "hi_nuance": "From baseball. Indian English often says 'let's connect' — fine, but 'touch base' is the standard workplace phrase. Never 'touch the base'.",
+  "examples": [
+   {
+    "en": "Let's touch base on Friday to see where things stand.",
+    "hi": "चलो शुक्रवार को संपर्क करके देखते हैं कि हालात कहाँ हैं।"
+   },
+   {
+    "en": "I just wanted to touch base about the audit.",
+    "hi": "मैं बस ऑडिट के बारे में थोड़ी बात करना चाहता था।"
+   },
+   {
+    "en": "Can we touch base after lunch?",
+    "hi": "क्या हम दोपहर के खाने के बाद बात कर सकते हैं?"
+   },
+   {
+    "en": "She touched base with each team lead before the release.",
+    "hi": "रिलीज़ से पहले उसने हर टीम लीड से बात की।"
+   },
+   {
+    "en": "I'll touch base with the vendor and confirm the date.",
+    "hi": "मैं विक्रेता से संपर्क करके तारीख़ की पुष्टि करूँगा।"
+   }
+  ],
+  "collocations": [
+   "touch base with someone",
+   "touch base on something",
+   "touch base soon"
+  ],
+  "synonyms": [
+   "check in",
+   "catch up briefly"
+  ],
+  "antonyms": [
+   "lose touch"
+  ],
+  "word_family": [
+   "touch base"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Let us touch the base tomorrow.",
+   "right": "Let's touch base tomorrow.",
+   "why": "The idiom has no article: 'touch base'."
+  },
+  "cloze": {
+   "sentence": "I'll ____ ____ with you next week about the budget.",
+   "answer": "touch base"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0004",
+  "word": "in the loop",
+  "ipa": "/ɪn ðə luːp/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "informed about what is happening; included in communications",
+  "hi_def": "जानकारी में रखा जाना, सूचित रहना",
+  "hi_nuance": "Indian English: 'keep me in loop' (missing 'the') and 'mark me in cc' — say 'keep me in the loop' or 'copy me in'.",
+  "examples": [
+   {
+    "en": "Please keep me in the loop on the incident.",
+    "hi": "कृपया मुझे घटना की जानकारी देते रहें।"
+   },
+   {
+    "en": "I was out of the loop while I was on leave.",
+    "hi": "छुट्टी के दौरान मैं जानकारी से बाहर था।"
+   },
+   {
+    "en": "Keep the legal team in the loop from the start.",
+    "hi": "शुरू से ही क़ानूनी टीम को जानकारी में रखें।"
+   },
+   {
+    "en": "Thanks for keeping me in the loop.",
+    "hi": "मुझे जानकारी में रखने के लिए धन्यवाद।"
+   },
+   {
+    "en": "Nobody kept the client in the loop, so they were surprised.",
+    "hi": "किसी ने क्लाइंट को सूचित नहीं रखा, इसलिए वे हैरान थे।"
+   }
+  ],
+  "collocations": [
+   "keep someone in the loop",
+   "stay in the loop",
+   "out of the loop"
+  ],
+  "synonyms": [
+   "informed",
+   "up to date"
+  ],
+  "antonyms": [
+   "out of the loop",
+   "in the dark"
+  ],
+  "word_family": [
+   "in the loop",
+   "out of the loop"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Please keep me in loop.",
+   "right": "Please keep me in the loop.",
+   "why": "The article 'the' is part of the fixed phrase."
+  },
+  "cloze": {
+   "sentence": "Make sure the on-call engineer is kept ____ ____ ____.",
+   "answer": "in the loop"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0005",
+  "word": "a ballpark figure",
+  "ipa": "/ə ˈbɔːlpɑːk ˈfɪɡə/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "a rough estimate, not exact",
+  "hi_def": "मोटा अनुमान",
+  "hi_nuance": "Hindi 'लगभग कितना' → 'give me a ballpark figure'. Also 'in the same ballpark' = roughly equal. Indian English says 'approximate figure' — correct but formal.",
+  "examples": [
+   {
+    "en": "Can you give me a ballpark figure for the migration cost?",
+    "hi": "क्या तुम माइग्रेशन लागत का मोटा अनुमान दे सकते हो?"
+   },
+   {
+    "en": "I don't need an exact number — a ballpark figure is fine.",
+    "hi": "मुझे सटीक संख्या नहीं चाहिए — मोटा अनुमान ठीक है।"
+   },
+   {
+    "en": "Their quote was in the same ballpark as ours.",
+    "hi": "उनका कोटेशन हमारे जितना ही था।"
+   },
+   {
+    "en": "A ballpark figure would be around two lakh rupees.",
+    "hi": "मोटा अनुमान लगभग दो लाख रुपये होगा।"
+   },
+   {
+    "en": "Just a ballpark — how many users were affected?",
+    "hi": "बस अंदाज़न — कितने उपयोगकर्ता प्रभावित हुए?"
+   }
+  ],
+  "collocations": [
+   "give a ballpark figure",
+   "in the same ballpark",
+   "a rough ballpark"
+  ],
+  "synonyms": [
+   "rough estimate",
+   "approximation"
+  ],
+  "antonyms": [
+   "exact figure",
+   "precise number"
+  ],
+  "word_family": [
+   "ballpark",
+   "ballpark figure",
+   "ballpark estimate"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Tell me the approximate approximately.",
+   "right": "Give me a ballpark figure.",
+   "why": "Doubling 'approximate' is redundant; the idiom already means a rough estimate."
+  },
+  "cloze": {
+   "sentence": "I can't quote exactly, but as ____ ____ ____ it's around 50 hours.",
+   "answer": "a ballpark figure"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0006",
+  "word": "back to the drawing board",
+  "ipa": "/bæk tə ðə ˈdrɔːɪŋ bɔːd/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to start planning again from the beginning because the first attempt failed",
+  "hi_def": "शुरू से फिर योजना बनाना",
+  "hi_nuance": "Hindi 'फिर से शुरू से' or 'नए सिरे से'. Used after a plan fails, without blame. Say 'it's back to the drawing board', not 'go to drawing board'.",
+  "examples": [
+   {
+    "en": "The client rejected the design, so it's back to the drawing board.",
+    "hi": "क्लाइंट ने डिज़ाइन ठुकरा दिया, इसलिए अब फिर से शुरू से योजना बनानी होगी।"
+   },
+   {
+    "en": "The fix didn't work — back to the drawing board.",
+    "hi": "समाधान काम नहीं आया — फिर से शुरू से।"
+   },
+   {
+    "en": "After the failed test, the team went back to the drawing board.",
+    "hi": "असफल परीक्षण के बाद टीम फिर से योजना बनाने बैठी।"
+   },
+   {
+    "en": "We may have to go back to the drawing board on the architecture.",
+    "hi": "हमें आर्किटेक्चर पर नए सिरे से सोचना पड़ सकता है।"
+   },
+   {
+    "en": "It's not a disaster, just back to the drawing board.",
+    "hi": "यह कोई आपदा नहीं है, बस फिर से शुरू करना है।"
+   }
+  ],
+  "collocations": [
+   "go back to the drawing board",
+   "it's back to the drawing board"
+  ],
+  "synonyms": [
+   "start over",
+   "start from scratch"
+  ],
+  "antonyms": [
+   "press ahead",
+   "finalise"
+  ],
+  "word_family": [
+   "back to the drawing board"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "We have to go to drawing board again.",
+   "right": "We have to go back to the drawing board.",
+   "why": "The idiom needs both 'back' and 'the'."
+  },
+  "cloze": {
+   "sentence": "The prototype failed the load test, so it's ____ ____ ____ ____ ____.",
+   "answer": "back to the drawing board"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0007",
+  "word": "call it a day",
+  "ipa": "/kɔːl ɪt ə deɪ/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "to stop working for the day; to decide to stop something",
+  "hi_def": "आज का काम यहीं ख़त्म करना",
+  "hi_nuance": "Hindi 'आज के लिए बस इतना ही'. Indian English says 'let's wind up' — that's fine too, but 'call it a day' is more common globally.",
+  "examples": [
+   {
+    "en": "It's 7 pm — let's call it a day.",
+    "hi": "शाम के 7 बज गए — चलो आज के लिए काम ख़त्म करते हैं।"
+   },
+   {
+    "en": "We fixed the main bug, so I think we can call it a day.",
+    "hi": "हमने मुख्य बग ठीक कर दिया, तो मुझे लगता है आज के लिए बस।"
+   },
+   {
+    "en": "After ten years, she decided to call it a day and retire.",
+    "hi": "दस साल बाद उसने काम बंद करके सेवानिवृत्त होने का फ़ैसला किया।"
+   },
+   {
+    "en": "Let's call it a day and continue tomorrow with fresh eyes.",
+    "hi": "आज यहीं रुकते हैं और कल ताज़ा दिमाग़ से जारी रखते हैं।"
+   },
+   {
+    "en": "They called it a day when the rain started.",
+    "hi": "बारिश शुरू होते ही उन्होंने काम रोक दिया।"
+   }
+  ],
+  "collocations": [
+   "call it a day",
+   "time to call it a day",
+   "let's call it a day"
+  ],
+  "synonyms": [
+   "stop for the day",
+   "wrap up"
+  ],
+  "antonyms": [
+   "carry on",
+   "keep going"
+  ],
+  "word_family": [
+   "call it a day",
+   "call it a night"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Let's call the day now.",
+   "right": "Let's call it a day now.",
+   "why": "The idiom is fixed: 'call it a day'."
+  },
+  "cloze": {
+   "sentence": "We've been debugging for six hours — let's ____ ____ ____ ____.",
+   "answer": "call it a day"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0008",
+  "word": "get the hang of",
+  "ipa": "/ɡet ðə hæŋ əv/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "to learn how to do something after practising",
+  "hi_def": "किसी चीज़ की समझ या आदत हो जाना",
+  "hi_nuance": "Hindi 'हाथ बैठ जाना' or 'पकड़ में आना'. Followed by a noun or -ing: 'get the hang of it / of using it'.",
+  "examples": [
+   {
+    "en": "It took me a week to get the hang of the new tool.",
+    "hi": "नए टूल की समझ आने में मुझे एक हफ़्ता लगा।"
+   },
+   {
+    "en": "Once you get the hang of it, it's easy.",
+    "hi": "एक बार समझ आ जाए तो यह आसान है।"
+   },
+   {
+    "en": "She's getting the hang of Burp Suite.",
+    "hi": "उसे बर्प सूट की पकड़ आ रही है।"
+   },
+   {
+    "en": "Don't worry, you'll get the hang of it soon.",
+    "hi": "चिंता मत करो, तुम्हें जल्द ही इसकी आदत हो जाएगी।"
+   },
+   {
+    "en": "I never really got the hang of driving on the left.",
+    "hi": "मुझे बाईं ओर गाड़ी चलाने की आदत कभी नहीं पड़ी।"
+   }
+  ],
+  "collocations": [
+   "get the hang of it",
+   "get the hang of things",
+   "soon get the hang of"
+  ],
+  "synonyms": [
+   "master",
+   "learn",
+   "get used to"
+  ],
+  "antonyms": [
+   "struggle with"
+  ],
+  "word_family": [
+   "get the hang of"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "I got the hang of to use this app.",
+   "right": "I got the hang of using this app.",
+   "why": "After 'of', use a noun or the -ing form, not 'to' + verb."
+  },
+  "cloze": {
+   "sentence": "The syntax looks strange at first, but you'll ____ ____ ____ ____ it.",
+   "answer": "get the hang of"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0009",
+  "word": "up in the air",
+  "ipa": "/ʌp ɪn ði eə/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "not yet decided or certain",
+  "hi_def": "अनिश्चित, अभी तय नहीं",
+  "hi_nuance": "Hindi 'अधर में लटका होना'. Do not confuse with 'in the air' (a feeling everywhere). Used for plans, dates, decisions.",
+  "examples": [
+   {
+    "en": "The launch date is still up in the air.",
+    "hi": "लॉन्च की तारीख़ अभी भी अनिश्चित है।"
+   },
+   {
+    "en": "My travel plans are up in the air until the visa arrives.",
+    "hi": "वीज़ा आने तक मेरी यात्रा योजना अधर में है।"
+   },
+   {
+    "en": "Everything's up in the air after the reorganisation.",
+    "hi": "पुनर्गठन के बाद सब कुछ अनिश्चित है।"
+   },
+   {
+    "en": "Whether we hire more people is up in the air.",
+    "hi": "हम और लोग रखेंगे या नहीं, यह तय नहीं है।"
+   },
+   {
+    "en": "The budget is up in the air, so don't order anything yet.",
+    "hi": "बजट अभी तय नहीं है, इसलिए अभी कुछ ऑर्डर मत करो।"
+   }
+  ],
+  "collocations": [
+   "still up in the air",
+   "leave something up in the air"
+  ],
+  "synonyms": [
+   "undecided",
+   "uncertain"
+  ],
+  "antonyms": [
+   "settled",
+   "fixed"
+  ],
+  "word_family": [
+   "up in the air"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "The decision is in the air till Friday.",
+   "right": "The decision is up in the air till Friday.",
+   "why": "'In the air' means a mood is everywhere; 'up in the air' means undecided."
+  },
+  "cloze": {
+   "sentence": "The office move is ____ ____ ____ ____ until the lease is signed.",
+   "answer": "up in the air"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0010",
+  "word": "cut corners",
+  "ipa": "/kʌt ˈkɔːnəz/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to do something cheaply or quickly by ignoring rules or quality",
+  "hi_def": "गुणवत्ता से समझौता करके शॉर्टकट लेना",
+  "hi_nuance": "Hindi 'जुगाड़' is often positive; 'cut corners' is always negative. Very useful in security reviews.",
+  "examples": [
+   {
+    "en": "They cut corners on testing and shipped a broken release.",
+    "hi": "उन्होंने परीक्षण में शॉर्टकट लिया और टूटी हुई रिलीज़ भेज दी।"
+   },
+   {
+    "en": "Don't cut corners on security to save a week.",
+    "hi": "एक हफ़्ता बचाने के लिए सुरक्षा से समझौता मत करो।"
+   },
+   {
+    "en": "The builder cut corners and the wall cracked within a year.",
+    "hi": "बिल्डर ने घटिया काम किया और साल भर में दीवार में दरार आ गई।"
+   },
+   {
+    "en": "You can tell where corners were cut in this codebase.",
+    "hi": "इस कोडबेस में साफ़ दिखता है कि कहाँ शॉर्टकट लिए गए।"
+   },
+   {
+    "en": "We'd rather miss the deadline than cut corners.",
+    "hi": "हम शॉर्टकट लेने के बजाय समय सीमा चूकना पसंद करेंगे।"
+   }
+  ],
+  "collocations": [
+   "cut corners on",
+   "cutting corners",
+   "never cut corners"
+  ],
+  "synonyms": [
+   "skimp",
+   "take shortcuts"
+  ],
+  "antonyms": [
+   "do it properly",
+   "go by the book"
+  ],
+  "word_family": [
+   "cut corners",
+   "corner-cutting"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "They did jugaad on the encryption and it got hacked.",
+   "right": "They cut corners on the encryption and it got hacked.",
+   "why": "'Jugaad' is not English; 'cut corners' expresses the same idea with a clearly negative sense."
+  },
+  "cloze": {
+   "sentence": "The audit showed the vendor had ____ ____ on patch management.",
+   "answer": "cut corners"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0011",
+  "word": "the ball is in your court",
+  "ipa": "/ðə bɔːl ɪz ɪn jɔː kɔːt/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "it is your turn to act or decide",
+  "hi_def": "अब फ़ैसला या अगला क़दम आपके हाथ में है",
+  "hi_nuance": "From tennis. Hindi 'अब गेंद आपके पाले में है' is a direct and accepted translation. Use after you have done your part.",
+  "examples": [
+   {
+    "en": "I've sent the proposal — the ball is in their court now.",
+    "hi": "मैंने प्रस्ताव भेज दिया है — अब गेंद उनके पाले में है।"
+   },
+   {
+    "en": "We fixed everything they asked for; the ball's in the client's court.",
+    "hi": "उन्होंने जो माँगा हमने सब ठीक कर दिया; अब फ़ैसला क्लाइंट का है।"
+   },
+   {
+    "en": "You've got the offer letter, so the ball is in your court.",
+    "hi": "तुम्हें ऑफ़र लेटर मिल गया है, तो अब फ़ैसला तुम्हारे हाथ में है।"
+   },
+   {
+    "en": "The ball is in HR's court to approve the budget.",
+    "hi": "बजट मंज़ूर करना अब HR के हाथ में है।"
+   },
+   {
+    "en": "I've done my part; the ball is in your court.",
+    "hi": "मैंने अपना काम कर दिया; अब आपकी बारी है।"
+   }
+  ],
+  "collocations": [
+   "the ball is in someone's court",
+   "put the ball in their court"
+  ],
+  "synonyms": [
+   "it's your move",
+   "your turn to decide"
+  ],
+  "antonyms": [
+   "out of your hands"
+  ],
+  "word_family": [
+   "the ball is in your court"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Now the ball is on your court.",
+   "right": "Now the ball is in your court.",
+   "why": "The idiom uses 'in', as in a tennis court."
+  },
+  "cloze": {
+   "sentence": "We've submitted the report; ____ ____ ____ ____ ____ ____ now.",
+   "answer": "the ball is in their court"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0012",
+  "word": "a piece of cake",
+  "ipa": "/ə piːs əv keɪk/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "something very easy to do",
+  "hi_def": "बहुत आसान काम",
+  "hi_nuance": "Hindi 'बाएँ हाथ का खेल'. Indian English 'it's a cakewalk' is also acceptable but slightly dated; 'piece of cake' is more common.",
+  "examples": [
+   {
+    "en": "The exam was a piece of cake.",
+    "hi": "परीक्षा बाएँ हाथ का खेल थी।"
+   },
+   {
+    "en": "Setting up the VPN is a piece of cake if you follow the guide.",
+    "hi": "गाइड का पालन करो तो VPN सेट करना बहुत आसान है।"
+   },
+   {
+    "en": "Don't worry, the interview will be a piece of cake for you.",
+    "hi": "चिंता मत करो, इंटरव्यू तुम्हारे लिए बहुत आसान होगा।"
+   },
+   {
+    "en": "After the last project, this one is a piece of cake.",
+    "hi": "पिछले प्रोजेक्ट के बाद यह तो बहुत आसान है।"
+   },
+   {
+    "en": "Migrating 10 users is a piece of cake; 10,000 is not.",
+    "hi": "10 उपयोगकर्ताओं को माइग्रेट करना आसान है; 10,000 को नहीं।"
+   }
+  ],
+  "collocations": [
+   "a piece of cake",
+   "be a piece of cake"
+  ],
+  "synonyms": [
+   "easy",
+   "a breeze",
+   "a walk in the park"
+  ],
+  "antonyms": [
+   "a tall order",
+   "a nightmare"
+  ],
+  "word_family": [
+   "a piece of cake"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "This task is very much a cake for me.",
+   "right": "This task is a piece of cake for me.",
+   "why": "The idiom is fixed: 'a piece of cake'."
+  },
+  "cloze": {
+   "sentence": "Compared to the C1 test, the A2 quiz was ____ ____ ____ ____.",
+   "answer": "a piece of cake"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0013",
+  "word": "once in a blue moon",
+  "ipa": "/wʌns ɪn ə bluː muːn/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "very rarely",
+  "hi_def": "बहुत कम, कभी-कभार",
+  "hi_nuance": "Hindi 'ईद का चाँद होना'. Hindi speakers say 'very rarely rarely' — English uses this idiom or just 'rarely'.",
+  "examples": [
+   {
+    "en": "I eat sweets once in a blue moon.",
+    "hi": "मैं कभी-कभार ही मिठाई खाता हूँ।"
+   },
+   {
+    "en": "He visits his hometown once in a blue moon.",
+    "hi": "वह कभी-कभार ही अपने गृहनगर जाता है।"
+   },
+   {
+    "en": "That kind of bug shows up once in a blue moon.",
+    "hi": "इस तरह का बग बहुत कम दिखाई देता है।"
+   },
+   {
+    "en": "We go to the cinema once in a blue moon.",
+    "hi": "हम कभी-कभार ही सिनेमा जाते हैं।"
+   },
+   {
+    "en": "Once in a blue moon the whole team is in the office together.",
+    "hi": "कभी-कभार ही पूरी टीम एक साथ ऑफ़िस में होती है।"
+   }
+  ],
+  "collocations": [
+   "once in a blue moon"
+  ],
+  "synonyms": [
+   "rarely",
+   "hardly ever"
+  ],
+  "antonyms": [
+   "often",
+   "all the time"
+  ],
+  "word_family": [
+   "once in a blue moon"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "I meet him very rarely rarely.",
+   "right": "I meet him once in a blue moon.",
+   "why": "Repeating 'rarely' is a Hindi emphasis pattern; the idiom is the natural way to stress rarity."
+  },
+  "cloze": {
+   "sentence": "She checks that old email account ____ ____ ____ ____ ____.",
+   "answer": "once in a blue moon"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0014",
+  "word": "bite the bullet",
+  "ipa": "/baɪt ðə ˈbʊlɪt/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to force yourself to do something unpleasant that you have been avoiding",
+  "hi_def": "हिम्मत करके कठिन काम कर डालना",
+  "hi_nuance": "Hindi 'कड़वा घूँट पीना'. Used for decisions like paying a big bill, having a hard conversation, or rewriting legacy code.",
+  "examples": [
+   {
+    "en": "I bit the bullet and told my manager about the mistake.",
+    "hi": "मैंने हिम्मत जुटाकर मैनेजर को अपनी ग़लती बता दी।"
+   },
+   {
+    "en": "We'll have to bite the bullet and upgrade the whole system.",
+    "hi": "हमें हिम्मत करके पूरा सिस्टम अपग्रेड करना ही होगा।"
+   },
+   {
+    "en": "Just bite the bullet and go to the dentist.",
+    "hi": "बस हिम्मत करो और डेंटिस्ट के पास जाओ।"
+   },
+   {
+    "en": "She bit the bullet and paid for the premium plan.",
+    "hi": "उसने कड़वा घूँट पीकर प्रीमियम प्लान ख़रीद लिया।"
+   },
+   {
+    "en": "Sooner or later we have to bite the bullet on the migration.",
+    "hi": "देर-सवेर हमें माइग्रेशन पर कठिन फ़ैसला लेना ही होगा।"
+   }
+  ],
+  "collocations": [
+   "bite the bullet and do something",
+   "time to bite the bullet"
+  ],
+  "synonyms": [
+   "face up to it",
+   "grit your teeth"
+  ],
+  "antonyms": [
+   "put it off",
+   "avoid"
+  ],
+  "word_family": [
+   "bite the bullet"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "I have to eat the bullet and rewrite it.",
+   "right": "I have to bite the bullet and rewrite it.",
+   "why": "The verb in the idiom is 'bite', not 'eat'."
+  },
+  "cloze": {
+   "sentence": "We finally ____ ____ ____ and replaced the legacy server.",
+   "answer": "bit the bullet"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0015",
+  "word": "under the weather",
+  "ipa": "/ˌʌndə ðə ˈweðə/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "slightly ill",
+  "hi_def": "तबीयत थोड़ी ख़राब होना",
+  "hi_nuance": "Indian English: 'I am not well' or 'I am having fever'. 'Feeling under the weather' is the soft, natural way to say you're a bit unwell.",
+  "examples": [
+   {
+    "en": "I'm feeling a bit under the weather today.",
+    "hi": "आज मेरी तबीयत थोड़ी ख़राब है।"
+   },
+   {
+    "en": "She's under the weather, so she's working from home.",
+    "hi": "उसकी तबीयत ठीक नहीं है, इसलिए वह घर से काम कर रही है।"
+   },
+   {
+    "en": "He looked under the weather at the stand-up.",
+    "hi": "स्टैंड-अप में वह अस्वस्थ लग रहा था।"
+   },
+   {
+    "en": "If you're under the weather, take the day off.",
+    "hi": "अगर तबीयत ठीक नहीं है, तो आज छुट्टी ले लो।"
+   },
+   {
+    "en": "I was under the weather all weekend.",
+    "hi": "पूरे वीकेंड मेरी तबीयत ख़राब रही।"
+   }
+  ],
+  "collocations": [
+   "feel under the weather",
+   "a bit under the weather"
+  ],
+  "synonyms": [
+   "unwell",
+   "off colour"
+  ],
+  "antonyms": [
+   "fit",
+   "well"
+  ],
+  "word_family": [
+   "under the weather"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "I am having fever so I will not come.",
+   "right": "I'm feeling under the weather, so I won't be in today.",
+   "why": "'Having fever' uses the continuous with a state; the idiom is a natural alternative."
+  },
+  "cloze": {
+   "sentence": "Rahul's a bit ____ ____ ____ so he'll join the call from home.",
+   "answer": "under the weather"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0016",
+  "word": "heads up",
+  "ipa": "/hedz ʌp/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "a short warning or piece of information given in advance",
+  "hi_def": "पहले से दी गई चेतावनी या सूचना",
+  "hi_nuance": "Noun: 'a heads-up'. Indian English uses 'FYI' or 'please note' — 'just a heads-up' is friendlier in chat and email.",
+  "examples": [
+   {
+    "en": "Just a heads-up: the VPN will be down at 6 pm.",
+    "hi": "बस एक सूचना: VPN शाम 6 बजे बंद रहेगा।"
+   },
+   {
+    "en": "Thanks for the heads-up about the client's mood.",
+    "hi": "क्लाइंट के मूड के बारे में पहले बताने के लिए धन्यवाद।"
+   },
+   {
+    "en": "Can you give me a heads-up before you push to production?",
+    "hi": "प्रोडक्शन में पुश करने से पहले क्या तुम मुझे बता सकते हो?"
+   },
+   {
+    "en": "Heads up — the CEO is visiting tomorrow.",
+    "hi": "ध्यान दें — CEO कल आ रहे हैं।"
+   },
+   {
+    "en": "I got no heads-up about the schedule change.",
+    "hi": "शेड्यूल बदलने की मुझे पहले से कोई सूचना नहीं मिली।"
+   }
+  ],
+  "collocations": [
+   "give someone a heads-up",
+   "just a heads-up",
+   "thanks for the heads-up"
+  ],
+  "synonyms": [
+   "warning",
+   "advance notice"
+  ],
+  "antonyms": [
+   "surprise"
+  ],
+  "word_family": [
+   "heads-up"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Please note that the server will be down (in a friendly chat).",
+   "right": "Heads up — the server will be down at 6.",
+   "why": "'Please note' is formal notice language; 'heads up' fits chat and quick emails."
+  },
+  "cloze": {
+   "sentence": "Just a ____ ____ — the audit team arrives on Monday.",
+   "answer": "heads up"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0017",
+  "word": "low-hanging fruit",
+  "ipa": "/ˌləʊ hæŋɪŋ ˈfruːt/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "the easiest tasks or wins that give quick results",
+  "hi_def": "सबसे आसान और जल्दी परिणाम देने वाले काम",
+  "hi_nuance": "Very common in security and product talk. Uncountable in this sense: 'some low-hanging fruit', not 'fruits'.",
+  "examples": [
+   {
+    "en": "Let's fix the low-hanging fruit first: default passwords and open ports.",
+    "hi": "पहले आसान चीज़ें ठीक करते हैं: डिफ़ॉल्ट पासवर्ड और खुले पोर्ट।"
+   },
+   {
+    "en": "Enabling MFA is low-hanging fruit for most companies.",
+    "hi": "ज़्यादातर कंपनियों के लिए MFA चालू करना एक आसान जीत है।"
+   },
+   {
+    "en": "We've picked all the low-hanging fruit; the rest is hard.",
+    "hi": "हमने सारे आसान काम कर लिए; बाक़ी मुश्किल है।"
+   },
+   {
+    "en": "Attackers go for the low-hanging fruit: unpatched systems.",
+    "hi": "हमलावर सबसे आसान निशाना चुनते हैं: बिना पैच वाले सिस्टम।"
+   },
+   {
+    "en": "Start with the low-hanging fruit to build momentum.",
+    "hi": "गति बनाने के लिए आसान कामों से शुरू करो।"
+   }
+  ],
+  "collocations": [
+   "go for the low-hanging fruit",
+   "pick the low-hanging fruit"
+  ],
+  "synonyms": [
+   "quick wins",
+   "easy targets"
+  ],
+  "antonyms": [
+   "hard problems",
+   "heavy lifting"
+  ],
+  "word_family": [
+   "low-hanging fruit"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "These are the low hanging fruits we should fix.",
+   "right": "This is the low-hanging fruit we should fix.",
+   "why": "In this idiom 'fruit' is uncountable and normally hyphenated."
+  },
+  "cloze": {
+   "sentence": "Patching the public web server is ____-____ ____.",
+   "answer": "low-hanging fruit"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0018",
+  "word": "move the needle",
+  "ipa": "/muːv ðə ˈniːdl/",
+  "pos": "idiom",
+  "cefr": "C1",
+  "en_def": "to make a noticeable difference to a result or measurement",
+  "hi_def": "नतीजे में ध्यान देने योग्य बदलाव लाना",
+  "hi_nuance": "Business/product jargon; use with managers, not in casual chat. Hindi speakers say 'make a big difference' — same meaning.",
+  "examples": [
+   {
+    "en": "Small UI tweaks won't move the needle on retention.",
+    "hi": "छोटे UI बदलाव रिटेंशन में ख़ास फ़र्क़ नहीं लाएँगे।"
+   },
+   {
+    "en": "Training staff really moved the needle on phishing clicks.",
+    "hi": "कर्मचारियों की ट्रेनिंग से फ़िशिंग क्लिक में सचमुच फ़र्क़ आया।"
+   },
+   {
+    "en": "What can we do this quarter that actually moves the needle?",
+    "hi": "इस तिमाही में हम ऐसा क्या करें जिससे सचमुच फ़र्क़ पड़े?"
+   },
+   {
+    "en": "One blog post won't move the needle.",
+    "hi": "एक ब्लॉग पोस्ट से कोई ख़ास फ़र्क़ नहीं पड़ेगा।"
+   },
+   {
+    "en": "Automating triage moved the needle on response time.",
+    "hi": "ट्रायाज को स्वचालित करने से प्रतिक्रिया समय में बड़ा फ़र्क़ आया।"
+   }
+  ],
+  "collocations": [
+   "move the needle on",
+   "really move the needle"
+  ],
+  "synonyms": [
+   "make a difference",
+   "have an impact"
+  ],
+  "antonyms": [
+   "make no difference"
+  ],
+  "word_family": [
+   "move the needle"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "This feature will move the needle a lot of difference.",
+   "right": "This feature will really move the needle.",
+   "why": "The idiom already means 'make a difference'; don't add 'difference' after it."
+  },
+  "cloze": {
+   "sentence": "Only the top three fixes will ____ ____ ____ on our risk score.",
+   "answer": "move the needle"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0019",
+  "word": "circle back",
+  "ipa": "/ˈsɜːkl bæk/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to return to a topic or person later",
+  "hi_def": "बाद में फिर से (विषय पर) लौटना",
+  "hi_nuance": "Workplace jargon. Hindi speakers say 'we will discuss later' — 'let's circle back on that' is the meeting phrase. Some people find it overused; fine in moderation.",
+  "examples": [
+   {
+    "en": "Let's circle back to the budget after lunch.",
+    "hi": "दोपहर के खाने के बाद बजट पर फिर लौटते हैं।"
+   },
+   {
+    "en": "I'll circle back with you once I have the numbers.",
+    "hi": "आँकड़े मिलते ही मैं तुमसे फिर बात करूँगा।"
+   },
+   {
+    "en": "Can we circle back on the deployment issue tomorrow?",
+    "hi": "क्या हम कल डिप्लॉयमेंट के मुद्दे पर फिर बात कर सकते हैं?"
+   },
+   {
+    "en": "She never circled back, so the question stayed open.",
+    "hi": "वह कभी वापस नहीं आई, इसलिए सवाल खुला रहा।"
+   },
+   {
+    "en": "We'll park this and circle back next week.",
+    "hi": "हम इसे अभी रखते हैं और अगले हफ़्ते फिर देखते हैं।"
+   }
+  ],
+  "collocations": [
+   "circle back to",
+   "circle back on",
+   "circle back with someone"
+  ],
+  "synonyms": [
+   "revisit",
+   "return to",
+   "follow up"
+  ],
+  "antonyms": [
+   "drop",
+   "close"
+  ],
+  "word_family": [
+   "circle back"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "We will discuss about this later again.",
+   "right": "Let's circle back to this later.",
+   "why": "'Discuss about' is wrong (no 'about'), and the idiom is the natural meeting phrase."
+  },
+  "cloze": {
+   "sentence": "Let's ____ ____ to the hiring question once the budget is approved.",
+   "answer": "circle back"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0020",
+  "word": "a drop in the ocean",
+  "ipa": "/ə drɒp ɪn ði ˈəʊʃn/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "a very small amount compared with what is needed",
+  "hi_def": "ऊँट के मुँह में जीरा",
+  "hi_nuance": "Hindi 'ऊँट के मुँह में जीरा' maps perfectly. US English says 'a drop in the bucket'. Do not translate the camel!",
+  "examples": [
+   {
+    "en": "Ten thousand rupees is a drop in the ocean compared to the loss.",
+    "hi": "नुक़सान की तुलना में दस हज़ार रुपये ऊँट के मुँह में जीरा हैं।"
+   },
+   {
+    "en": "Two extra engineers are a drop in the ocean for this backlog.",
+    "hi": "इस बैकलॉग के लिए दो अतिरिक्त इंजीनियर ऊँट के मुँह में जीरा हैं।"
+   },
+   {
+    "en": "The donation was welcome but a drop in the ocean.",
+    "hi": "दान का स्वागत था लेकिन वह बहुत कम था।"
+   },
+   {
+    "en": "Patching one server is a drop in the ocean if the rest stay open.",
+    "hi": "एक सर्वर पैच करना बहुत कम है अगर बाक़ी खुले रहें।"
+   },
+   {
+    "en": "Our budget is a drop in the ocean compared to theirs.",
+    "hi": "उनकी तुलना में हमारा बजट नगण्य है।"
+   }
+  ],
+  "collocations": [
+   "just a drop in the ocean",
+   "a drop in the ocean compared to"
+  ],
+  "synonyms": [
+   "negligible",
+   "a tiny fraction"
+  ],
+  "antonyms": [
+   "a substantial amount"
+  ],
+  "word_family": [
+   "a drop in the ocean",
+   "a drop in the bucket"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "It is like cumin in a camel's mouth.",
+   "right": "It's a drop in the ocean.",
+   "why": "Translating the Hindi idiom literally makes no sense to English speakers."
+  },
+  "cloze": {
+   "sentence": "One training session is ____ ____ ____ ____ ____ given how many staff we have.",
+   "answer": "a drop in the ocean"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0021",
+  "word": "get to the bottom of",
+  "ipa": "/ɡet tə ðə ˈbɒtəm əv/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to find the true cause of a problem",
+  "hi_def": "तह तक जाना, असली कारण पता लगाना",
+  "hi_nuance": "Hindi 'तह तक जाना' is an exact match. Ideal for incident investigation. Takes a noun: 'get to the bottom of the outage'.",
+  "examples": [
+   {
+    "en": "We need to get to the bottom of these random logouts.",
+    "hi": "हमें इन अचानक लॉगआउट की तह तक जाना होगा।"
+   },
+   {
+    "en": "The auditors got to the bottom of the missing funds.",
+    "hi": "ऑडिटरों ने ग़ायब पैसों की तह तक पहुँच बनाई।"
+   },
+   {
+    "en": "I won't rest until I get to the bottom of this.",
+    "hi": "जब तक मैं इसकी तह तक नहीं पहुँचता, चैन नहीं लूँगा।"
+   },
+   {
+    "en": "It took a week to get to the bottom of the memory leak.",
+    "hi": "मेमोरी लीक की तह तक जाने में एक हफ़्ता लगा।"
+   },
+   {
+    "en": "Let's get to the bottom of why the alert didn't fire.",
+    "hi": "चलो पता लगाते हैं कि अलर्ट क्यों नहीं बजा।"
+   }
+  ],
+  "collocations": [
+   "get to the bottom of a problem",
+   "get to the bottom of this"
+  ],
+  "synonyms": [
+   "find the root cause",
+   "uncover"
+  ],
+  "antonyms": [
+   "gloss over",
+   "ignore"
+  ],
+  "word_family": [
+   "get to the bottom of"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "We must reach the depth of this issue.",
+   "right": "We must get to the bottom of this issue.",
+   "why": "'Reach the depth' is a Hindi-style phrasing; the English idiom is 'get to the bottom of'."
+  },
+  "cloze": {
+   "sentence": "The team spent all night trying to ____ ____ ____ ____ ____ the crash.",
+   "answer": "get to the bottom of"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0022",
+  "word": "in the dark",
+  "ipa": "/ɪn ðə dɑːk/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "not informed about something",
+  "hi_def": "अनजान रखा जाना, जानकारी न होना",
+  "hi_nuance": "Hindi 'अँधेरे में रखना' works the same way. Opposite of 'in the loop'. 'Keep someone in the dark' = deliberately not tell them.",
+  "examples": [
+   {
+    "en": "Management kept us in the dark about the layoffs.",
+    "hi": "प्रबंधन ने हमें छँटनी के बारे में अँधेरे में रखा।"
+   },
+   {
+    "en": "I'm completely in the dark about the new process.",
+    "hi": "मुझे नई प्रक्रिया के बारे में कुछ भी नहीं पता।"
+   },
+   {
+    "en": "Don't keep the client in the dark — tell them about the delay.",
+    "hi": "क्लाइंट को अँधेरे में मत रखो — उन्हें देरी के बारे में बताओ।"
+   },
+   {
+    "en": "We were in the dark until the vendor finally emailed.",
+    "hi": "जब तक विक्रेता ने ईमेल नहीं किया, हमें कुछ पता नहीं था।"
+   },
+   {
+    "en": "Users were left in the dark during the outage.",
+    "hi": "आउटेज के दौरान उपयोगकर्ताओं को कोई जानकारी नहीं दी गई।"
+   }
+  ],
+  "collocations": [
+   "keep someone in the dark",
+   "be in the dark about",
+   "left in the dark"
+  ],
+  "synonyms": [
+   "uninformed",
+   "unaware"
+  ],
+  "antonyms": [
+   "in the loop",
+   "informed"
+  ],
+  "word_family": [
+   "in the dark"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "They kept us in darkness about the merger.",
+   "right": "They kept us in the dark about the merger.",
+   "why": "The idiom is 'in the dark'; 'in darkness' is literal."
+  },
+  "cloze": {
+   "sentence": "Please don't leave the support team ____ ____ ____ about known issues.",
+   "answer": "in the dark"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0023",
+  "word": "think outside the box",
+  "ipa": "/θɪŋk aʊtˌsaɪd ðə bɒks/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to think creatively, beyond the usual approach",
+  "hi_def": "लीक से हटकर सोचना",
+  "hi_nuance": "Hindi 'लीक से हटकर सोचना'. Often overused in corporate speak, but it is natural. Use 'outside the box', never 'out of the box' (which means 'ready to use').",
+  "examples": [
+   {
+    "en": "We need to think outside the box to cut costs without cutting staff.",
+    "hi": "कर्मचारी कम किए बिना लागत घटाने के लिए हमें लीक से हटकर सोचना होगा।"
+   },
+   {
+    "en": "Her outside-the-box solution saved the project.",
+    "hi": "उसके अनोखे समाधान ने प्रोजेक्ट बचा लिया।"
+   },
+   {
+    "en": "Attackers think outside the box, so defenders must too.",
+    "hi": "हमलावर लीक से हटकर सोचते हैं, इसलिए रक्षकों को भी सोचना चाहिए।"
+   },
+   {
+    "en": "The interviewer asked me to think outside the box.",
+    "hi": "इंटरव्यूअर ने मुझसे लीक से हटकर सोचने को कहा।"
+   },
+   {
+    "en": "Sometimes the boring solution beats thinking outside the box.",
+    "hi": "कभी-कभी साधारण समाधान रचनात्मक सोच से बेहतर होता है।"
+   }
+  ],
+  "collocations": [
+   "think outside the box",
+   "outside-the-box thinking"
+  ],
+  "synonyms": [
+   "think creatively",
+   "innovate"
+  ],
+  "antonyms": [
+   "go by the book",
+   "think conventionally"
+  ],
+  "word_family": [
+   "think outside the box",
+   "outside-the-box"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "We should think out of the box for this.",
+   "right": "We should think outside the box for this.",
+   "why": "'Out of the box' means something works immediately without setup; creativity is 'outside the box'."
+  },
+  "cloze": {
+   "sentence": "The CTF challenge forced us to ____ ____ ____ ____.",
+   "answer": "think outside the box"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0024",
+  "word": "out of the box",
+  "ipa": "/aʊt əv ðə bɒks/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "working immediately without any configuration",
+  "hi_def": "बिना किसी सेटअप के तुरंत काम करने वाला",
+  "hi_nuance": "Technical idiom, often confused with 'outside the box'. 'It works out of the box' = default settings are enough.",
+  "examples": [
+   {
+    "en": "The scanner works out of the box — no configuration needed.",
+    "hi": "स्कैनर बिना किसी सेटअप के तुरंत काम करता है।"
+   },
+   {
+    "en": "Out of the box, the router has a default password.",
+    "hi": "डिफ़ॉल्ट रूप में राउटर का एक तयशुदा पासवर्ड होता है।"
+   },
+   {
+    "en": "The library supports Hindi out of the box.",
+    "hi": "लाइब्रेरी बिना अतिरिक्त सेटअप के हिंदी सपोर्ट करती है।"
+   },
+   {
+    "en": "Nothing in security works out of the box; you have to tune it.",
+    "hi": "सुरक्षा में कुछ भी तुरंत सही काम नहीं करता; उसे ट्यून करना पड़ता है।"
+   },
+   {
+    "en": "We chose the tool because it does most things out of the box.",
+    "hi": "हमने यह टूल इसलिए चुना क्योंकि यह ज़्यादातर काम बिना सेटअप के करता है।"
+   }
+  ],
+  "collocations": [
+   "work out of the box",
+   "out-of-the-box support",
+   "out-of-the-box settings"
+  ],
+  "synonyms": [
+   "ready to use",
+   "by default"
+  ],
+  "antonyms": [
+   "requires setup",
+   "custom-built"
+  ],
+  "word_family": [
+   "out of the box",
+   "out-of-the-box"
+  ],
+  "register": "technical",
+  "common_mistake": {
+   "wrong": "This tool has out of the box thinking.",
+   "right": "This tool works out of the box.",
+   "why": "'Out of the box' describes ready-to-use software; creativity is 'outside the box'."
+  },
+  "cloze": {
+   "sentence": "The new SIEM parses those logs ____ ____ ____ ____.",
+   "answer": "out of the box"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0025",
+  "word": "hit the nail on the head",
+  "ipa": "/hɪt ðə neɪl ɒn ðə hed/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to describe exactly what is causing a situation or problem",
+  "hi_def": "बिल्कुल सही बात कहना",
+  "hi_nuance": "Hindi 'सही निशाने पर बात कहना'. Say it when someone identifies the root cause exactly. Indian English 'you are absolutely correct' is fine but flat.",
+  "examples": [
+   {
+    "en": "You hit the nail on the head — the cache is the problem.",
+    "hi": "तुमने बिल्कुल सही पकड़ा — कैश ही समस्या है।"
+   },
+   {
+    "en": "Her report hit the nail on the head about our weak logging.",
+    "hi": "उसकी रिपोर्ट ने हमारी कमज़ोर लॉगिंग को बिल्कुल सही पकड़ा।"
+   },
+   {
+    "en": "He hit the nail on the head when he said we lack ownership.",
+    "hi": "उसने बिल्कुल सही कहा कि हममें ज़िम्मेदारी की कमी है।"
+   },
+   {
+    "en": "That comment hit the nail on the head.",
+    "hi": "वह टिप्पणी बिल्कुल सटीक थी।"
+   },
+   {
+    "en": "You've hit the nail on the head: it's a permissions issue.",
+    "hi": "तुमने सही पकड़ा: यह परमिशन की समस्या है।"
+   }
+  ],
+  "collocations": [
+   "hit the nail on the head",
+   "you've hit the nail on the head"
+  ],
+  "synonyms": [
+   "be exactly right",
+   "nail it"
+  ],
+  "antonyms": [
+   "miss the point"
+  ],
+  "word_family": [
+   "hit the nail on the head",
+   "nail it"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "You hit the nail on the point.",
+   "right": "You hit the nail on the head.",
+   "why": "The idiom ends with 'on the head'."
+  },
+  "cloze": {
+   "sentence": "When she blamed the expired certificate, she ____ ____ ____ ____ ____ ____.",
+   "answer": "hit the nail on the head"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0026",
+  "word": "go the extra mile",
+  "ipa": "/ɡəʊ ði ˈekstrə maɪl/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "to make more effort than is expected",
+  "hi_def": "अपेक्षा से अधिक मेहनत करना",
+  "hi_nuance": "Great for performance reviews. Hindi speakers say 'he does extra effort' — 'he goes the extra mile' is the native phrase. Note: 'effort' is not used with 'do'.",
+  "examples": [
+   {
+    "en": "She always goes the extra mile for her clients.",
+    "hi": "वह अपने क्लाइंट के लिए हमेशा अतिरिक्त मेहनत करती है।"
+   },
+   {
+    "en": "The support team went the extra mile to restore my data.",
+    "hi": "सपोर्ट टीम ने मेरा डेटा बहाल करने के लिए अपेक्षा से अधिक मेहनत की।"
+   },
+   {
+    "en": "If you want the promotion, you'll need to go the extra mile.",
+    "hi": "अगर पदोन्नति चाहिए तो तुम्हें अतिरिक्त मेहनत करनी होगी।"
+   },
+   {
+    "en": "He went the extra mile and wrote a full proof of concept.",
+    "hi": "उसने अतिरिक्त मेहनत करके पूरा प्रूफ़ ऑफ़ कॉन्सेप्ट लिखा।"
+   },
+   {
+    "en": "Thanks for going the extra mile on this release.",
+    "hi": "इस रिलीज़ पर अतिरिक्त मेहनत करने के लिए धन्यवाद।"
+   }
+  ],
+  "collocations": [
+   "go the extra mile for",
+   "willing to go the extra mile"
+  ],
+  "synonyms": [
+   "make an extra effort",
+   "over-deliver"
+  ],
+  "antonyms": [
+   "do the bare minimum"
+  ],
+  "word_family": [
+   "go the extra mile"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "He does extra efforts for the team.",
+   "right": "He goes the extra mile for the team.",
+   "why": "'Effort' is uncountable and doesn't pair with 'do'; the idiom is the natural way to say this."
+  },
+  "cloze": {
+   "sentence": "Good engineers ____ ____ ____ ____ and document their fixes.",
+   "answer": "go the extra mile"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0027",
+  "word": "take it with a pinch of salt",
+  "ipa": "/teɪk ɪt wɪð ə pɪntʃ əv sɔːlt/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to not completely believe something because it may not be accurate",
+  "hi_def": "पूरी तरह भरोसा न करना, शंका के साथ लेना",
+  "hi_nuance": "US: 'grain of salt'. Hindi speakers say 'don't fully trust' — the idiom is softer and very common when discussing rumours or vendor claims.",
+  "examples": [
+   {
+    "en": "Take the vendor's benchmark numbers with a pinch of salt.",
+    "hi": "विक्रेता के बेंचमार्क आँकड़ों पर पूरी तरह भरोसा मत करो।"
+   },
+   {
+    "en": "I'd take that rumour with a pinch of salt.",
+    "hi": "मैं उस अफ़वाह पर ज़्यादा भरोसा नहीं करूँगा।"
+   },
+   {
+    "en": "His stories are fun, but take them with a pinch of salt.",
+    "hi": "उसकी कहानियाँ मज़ेदार हैं, लेकिन उन पर पूरा भरोसा मत करो।"
+   },
+   {
+    "en": "Online reviews should be taken with a pinch of salt.",
+    "hi": "ऑनलाइन समीक्षाओं को शंका के साथ लेना चाहिए।"
+   },
+   {
+    "en": "Take the scanner's severity rating with a pinch of salt and verify.",
+    "hi": "स्कैनर की गंभीरता रेटिंग पर आँख मूँदकर भरोसा मत करो, सत्यापित करो।"
+   }
+  ],
+  "collocations": [
+   "take something with a pinch of salt",
+   "with a grain of salt"
+  ],
+  "synonyms": [
+   "be sceptical of",
+   "doubt"
+  ],
+  "antonyms": [
+   "take at face value",
+   "swallow whole"
+  ],
+  "word_family": [
+   "a pinch of salt",
+   "a grain of salt"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Take his words with a spoon of salt.",
+   "right": "Take his words with a pinch of salt.",
+   "why": "The idiom uses 'pinch' (UK) or 'grain' (US), never 'spoon'."
+  },
+  "cloze": {
+   "sentence": "The 'zero vulnerabilities' claim should be taken ____ ____ ____ ____ ____.",
+   "answer": "with a pinch of salt"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0028",
+  "word": "on the fence",
+  "ipa": "/ɒn ðə fens/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "undecided between two options",
+  "hi_def": "दुविधा में, फ़ैसला न कर पाना",
+  "hi_nuance": "Hindi 'दो नावों में पैर' is about trying both, not quite the same. 'On the fence' = haven't chosen yet. 'Sit on the fence' can be mildly critical.",
+  "examples": [
+   {
+    "en": "I'm still on the fence about taking the job.",
+    "hi": "नौकरी लेने के बारे में मैं अभी भी दुविधा में हूँ।"
+   },
+   {
+    "en": "Half the team is on the fence about the new framework.",
+    "hi": "आधी टीम नए फ़्रेमवर्क को लेकर असमंजस में है।"
+   },
+   {
+    "en": "Stop sitting on the fence and pick one.",
+    "hi": "दुविधा छोड़ो और एक चुनो।"
+   },
+   {
+    "en": "She was on the fence until she saw the demo.",
+    "hi": "डेमो देखने तक वह दुविधा में थी।"
+   },
+   {
+    "en": "The board is on the fence about the acquisition.",
+    "hi": "बोर्ड अधिग्रहण को लेकर दुविधा में है।"
+   }
+  ],
+  "collocations": [
+   "on the fence about",
+   "sit on the fence",
+   "come down off the fence"
+  ],
+  "synonyms": [
+   "undecided",
+   "torn"
+  ],
+  "antonyms": [
+   "decided",
+   "committed"
+  ],
+  "word_family": [
+   "on the fence",
+   "fence-sitter"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "I am in the fence about this offer.",
+   "right": "I'm on the fence about this offer.",
+   "why": "The idiom uses 'on'."
+  },
+  "cloze": {
+   "sentence": "I'm ____ ____ ____ about which certification to do next.",
+   "answer": "on the fence"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0029",
+  "word": "a blessing in disguise",
+  "ipa": "/ə ˈblesɪŋ ɪn dɪsˈɡaɪz/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "something that seems bad at first but turns out to be good",
+  "hi_def": "छुपा हुआ वरदान, दुख में छिपा सुख",
+  "hi_nuance": "Hindi 'जो होता है अच्छे के लिए होता है' expresses a similar attitude. Say 'turned out to be a blessing in disguise'.",
+  "examples": [
+   {
+    "en": "Losing that job was a blessing in disguise — I found a better one.",
+    "hi": "वह नौकरी जाना छुपा हुआ वरदान साबित हुआ — मुझे बेहतर नौकरी मिली।"
+   },
+   {
+    "en": "The outage was a blessing in disguise; it exposed our weak monitoring.",
+    "hi": "आउटेज एक छुपा वरदान था; इसने हमारी कमज़ोर निगरानी उजागर कर दी।"
+   },
+   {
+    "en": "Missing the train turned out to be a blessing in disguise.",
+    "hi": "ट्रेन छूटना छुपा हुआ वरदान साबित हुआ।"
+   },
+   {
+    "en": "The failed audit was a blessing in disguise for the security budget.",
+    "hi": "असफल ऑडिट सुरक्षा बजट के लिए छुपा वरदान बन गया।"
+   },
+   {
+    "en": "Sometimes rejection is a blessing in disguise.",
+    "hi": "कभी-कभी अस्वीकार होना छुपा हुआ वरदान होता है।"
+   }
+  ],
+  "collocations": [
+   "turn out to be a blessing in disguise",
+   "a blessing in disguise"
+  ],
+  "synonyms": [
+   "silver lining",
+   "hidden benefit"
+  ],
+  "antonyms": [
+   "a disaster",
+   "a curse"
+  ],
+  "word_family": [
+   "a blessing in disguise"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "It was a blessing in disguise form.",
+   "right": "It was a blessing in disguise.",
+   "why": "The idiom is fixed; don't add extra nouns."
+  },
+  "cloze": {
+   "sentence": "Getting locked out of the account was ____ ____ ____ ____ — we found the bug.",
+   "answer": "a blessing in disguise"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0030",
+  "word": "the last straw",
+  "ipa": "/ðə lɑːst strɔː/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "the final problem in a series that makes you lose patience",
+  "hi_def": "सब्र का बाँध तोड़ने वाली आख़िरी बात",
+  "hi_nuance": "Hindi 'सब्र का प्याला छलकना'. Full form: 'the straw that broke the camel's back'. Used before a decision to quit or complain.",
+  "examples": [
+   {
+    "en": "The third outage this week was the last straw for the client.",
+    "hi": "इस हफ़्ते का तीसरा आउटेज क्लाइंट के सब्र की आख़िरी सीमा था।"
+   },
+   {
+    "en": "When he shouted at the intern, that was the last straw.",
+    "hi": "जब उसने इंटर्न पर चिल्लाया, वही आख़िरी बात थी।"
+   },
+   {
+    "en": "The pay cut was the last straw — she resigned.",
+    "hi": "वेतन कटौती आख़िरी झटका थी — उसने इस्तीफ़ा दे दिया।"
+   },
+   {
+    "en": "One more missed deadline and it'll be the last straw.",
+    "hi": "एक और समय सीमा चूकी तो सब्र ख़त्म हो जाएगा।"
+   },
+   {
+    "en": "The last straw was finding the passwords in a public repo.",
+    "hi": "सब्र की आख़िरी सीमा थी पब्लिक रेपो में पासवर्ड मिलना।"
+   }
+  ],
+  "collocations": [
+   "the last straw",
+   "the final straw",
+   "that was the last straw"
+  ],
+  "synonyms": [
+   "breaking point",
+   "the limit"
+  ],
+  "antonyms": [
+   "a minor issue"
+  ],
+  "word_family": [
+   "the last straw",
+   "the final straw"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "That was the last stick for me.",
+   "right": "That was the last straw for me.",
+   "why": "The idiom uses 'straw' from the camel's back proverb."
+  },
+  "cloze": {
+   "sentence": "Losing the backup tapes was ____ ____ ____ for the CTO.",
+   "answer": "the last straw"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0031",
+  "word": "cost an arm and a leg",
+  "ipa": "/kɒst ən ɑːm ənd ə leɡ/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "to be extremely expensive",
+  "hi_def": "बहुत महँगा होना",
+  "hi_nuance": "Hindi 'जेब पर भारी पड़ना'. Informal; use with friends, not in a formal report (say 'prohibitively expensive' there).",
+  "examples": [
+   {
+    "en": "That laptop cost me an arm and a leg.",
+    "hi": "उस लैपटॉप ने मेरी जेब पर बहुत भारी असर डाला।"
+   },
+   {
+    "en": "Enterprise licences cost an arm and a leg.",
+    "hi": "एंटरप्राइज़ लाइसेंस बहुत महँगे होते हैं।"
+   },
+   {
+    "en": "The wedding cost an arm and a leg.",
+    "hi": "शादी बहुत महँगी पड़ी।"
+   },
+   {
+    "en": "A good pentest doesn't have to cost an arm and a leg.",
+    "hi": "एक अच्छे पेनटेस्ट के लिए ज़रूरी नहीं कि बहुत ख़र्च हो।"
+   },
+   {
+    "en": "Flights to London cost an arm and a leg in December.",
+    "hi": "दिसंबर में लंदन की उड़ानें बहुत महँगी होती हैं।"
+   }
+  ],
+  "collocations": [
+   "cost an arm and a leg",
+   "pay an arm and a leg"
+  ],
+  "synonyms": [
+   "be very expensive",
+   "cost a fortune"
+  ],
+  "antonyms": [
+   "be cheap",
+   "cost next to nothing"
+  ],
+  "word_family": [
+   "cost an arm and a leg"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "This phone costs a hand and a leg.",
+   "right": "This phone costs an arm and a leg.",
+   "why": "The idiom is fixed: 'an arm and a leg'."
+  },
+  "cloze": {
+   "sentence": "Replacing every device would ____ ____ ____ ____ ____ ____.",
+   "answer": "cost an arm and a leg"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0032",
+  "word": "break the ice",
+  "ipa": "/breɪk ði aɪs/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "to do something to make people feel relaxed when they first meet",
+  "hi_def": "शुरुआती झिझक दूर करना",
+  "hi_nuance": "Hindi 'बर्फ़ पिघलाना' is used the same way. Noun: 'icebreaker' (a question or game at the start of a meeting).",
+  "examples": [
+   {
+    "en": "A joke about the coffee broke the ice at the workshop.",
+    "hi": "कॉफ़ी पर एक मज़ाक ने वर्कशॉप में झिझक तोड़ दी।"
+   },
+   {
+    "en": "Let's do a quick icebreaker before we start.",
+    "hi": "शुरू करने से पहले एक छोटी सी परिचय गतिविधि करते हैं।"
+   },
+   {
+    "en": "He's good at breaking the ice with new clients.",
+    "hi": "वह नए क्लाइंट के साथ झिझक तोड़ने में माहिर है।"
+   },
+   {
+    "en": "Asking about someone's weekend is an easy way to break the ice.",
+    "hi": "किसी के वीकेंड के बारे में पूछना झिझक तोड़ने का आसान तरीक़ा है।"
+   },
+   {
+    "en": "It took a while to break the ice, but then everyone talked.",
+    "hi": "झिझक टूटने में थोड़ा समय लगा, फिर सब बोलने लगे।"
+   }
+  ],
+  "collocations": [
+   "break the ice",
+   "an icebreaker"
+  ],
+  "synonyms": [
+   "ease the tension",
+   "warm up"
+  ],
+  "antonyms": [
+   "create tension"
+  ],
+  "word_family": [
+   "break the ice",
+   "icebreaker"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "He cracked the ice with a funny story.",
+   "right": "He broke the ice with a funny story.",
+   "why": "The verb in this idiom is 'break'; 'crack' is used for jokes."
+  },
+  "cloze": {
+   "sentence": "Start the call with a light question to ____ ____ ____.",
+   "answer": "break the ice"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0033",
+  "word": "keep an eye on",
+  "ipa": "/kiːp ən aɪ ɒn/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "to watch or monitor something carefully",
+  "hi_def": "नज़र रखना",
+  "hi_nuance": "Hindi 'नज़र रखना' maps exactly. Perfect for monitoring: 'keep an eye on the logs'. Singular 'eye'.",
+  "examples": [
+   {
+    "en": "Keep an eye on the error rate after the deploy.",
+    "hi": "डिप्लॉय के बाद एरर रेट पर नज़र रखो।"
+   },
+   {
+    "en": "Could you keep an eye on my laptop for a minute?",
+    "hi": "क्या तुम एक मिनट मेरे लैपटॉप पर नज़र रख सकते हो?"
+   },
+   {
+    "en": "We're keeping an eye on that suspicious IP.",
+    "hi": "हम उस संदिग्ध IP पर नज़र रख रहे हैं।"
+   },
+   {
+    "en": "Keep an eye on the time — the call ends at 4.",
+    "hi": "समय पर नज़र रखो — कॉल 4 बजे ख़त्म होती है।"
+   },
+   {
+    "en": "The teacher kept an eye on the students during the test.",
+    "hi": "शिक्षक ने परीक्षा के दौरान छात्रों पर नज़र रखी।"
+   }
+  ],
+  "collocations": [
+   "keep an eye on",
+   "keep a close eye on",
+   "keep an eye out for"
+  ],
+  "synonyms": [
+   "monitor",
+   "watch"
+  ],
+  "antonyms": [
+   "ignore",
+   "neglect"
+  ],
+  "word_family": [
+   "keep an eye on",
+   "keep an eye out"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Keep eyes on the dashboard.",
+   "right": "Keep an eye on the dashboard.",
+   "why": "The idiom uses the singular 'an eye'."
+  },
+  "cloze": {
+   "sentence": "Please ____ ____ ____ ____ CPU usage tonight.",
+   "answer": "keep an eye on"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0034",
+  "word": "learn the ropes",
+  "ipa": "/lɜːn ðə rəʊps/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to learn how a job or activity is done",
+  "hi_def": "काम की बारीकियाँ सीखना",
+  "hi_nuance": "From sailing. Used for new jobs: 'still learning the ropes'. 'Show someone the ropes' = train them. Hindi speakers say 'understanding the work' — this is more idiomatic.",
+  "examples": [
+   {
+    "en": "Give him a month to learn the ropes.",
+    "hi": "उसे काम की बारीकियाँ सीखने के लिए एक महीना दो।"
+   },
+   {
+    "en": "I'm still learning the ropes in my new team.",
+    "hi": "मैं अभी भी अपनी नई टीम में काम सीख रहा हूँ।"
+   },
+   {
+    "en": "Priya showed me the ropes when I joined.",
+    "hi": "जब मैं जुड़ा तो प्रिया ने मुझे काम सिखाया।"
+   },
+   {
+    "en": "Once you've learned the ropes, the job is enjoyable.",
+    "hi": "एक बार बारीकियाँ सीख लो तो काम मज़ेदार है।"
+   },
+   {
+    "en": "It took a few weeks to learn the ropes of the SOC.",
+    "hi": "SOC की बारीकियाँ सीखने में कुछ हफ़्ते लगे।"
+   }
+  ],
+  "collocations": [
+   "learn the ropes",
+   "show someone the ropes",
+   "know the ropes"
+  ],
+  "synonyms": [
+   "get the hang of",
+   "learn the basics"
+  ],
+  "antonyms": [
+   "be lost"
+  ],
+  "word_family": [
+   "learn the ropes",
+   "show the ropes",
+   "know the ropes"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "I am learning the strings of this job.",
+   "right": "I'm learning the ropes of this job.",
+   "why": "The idiom uses 'ropes'; 'strings' belongs to other expressions."
+  },
+  "cloze": {
+   "sentence": "The intern is quick — she ____ ____ ____ in a week.",
+   "answer": "learned the ropes"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0035",
+  "word": "burn the midnight oil",
+  "ipa": "/bɜːn ðə ˈmɪdnaɪt ɔɪl/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to work late into the night",
+  "hi_def": "देर रात तक काम करना",
+  "hi_nuance": "Hindi 'रात-रात भर जागकर काम करना'. Indian English 'I did night out' is not standard. Use this idiom or 'work late'.",
+  "examples": [
+   {
+    "en": "We burned the midnight oil to finish the report.",
+    "hi": "रिपोर्ट पूरी करने के लिए हमने देर रात तक काम किया।"
+   },
+   {
+    "en": "She's been burning the midnight oil before the exam.",
+    "hi": "परीक्षा से पहले वह देर रात तक पढ़ रही है।"
+   },
+   {
+    "en": "Stop burning the midnight oil; you'll burn out.",
+    "hi": "देर रात तक काम करना बंद करो; तुम थक जाओगे।"
+   },
+   {
+    "en": "The team burned the midnight oil during the incident.",
+    "hi": "घटना के दौरान टीम ने रात भर काम किया।"
+   },
+   {
+    "en": "I burned the midnight oil to learn the new framework.",
+    "hi": "नया फ़्रेमवर्क सीखने के लिए मैंने रातें जागकर काम किया।"
+   }
+  ],
+  "collocations": [
+   "burn the midnight oil"
+  ],
+  "synonyms": [
+   "work late",
+   "pull an all-nighter"
+  ],
+  "antonyms": [
+   "knock off early"
+  ],
+  "word_family": [
+   "burn the midnight oil"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I did a night out to finish the project.",
+   "right": "I burned the midnight oil to finish the project.",
+   "why": "'Night out' means going out for fun; the idiom means working late."
+  },
+  "cloze": {
+   "sentence": "The developers ____ ____ ____ ____ to meet the launch date.",
+   "answer": "burned the midnight oil"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0036",
+  "word": "burn out",
+  "ipa": "/bɜːn ˈaʊt/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to become exhausted from too much work or stress",
+  "hi_def": "अत्यधिक काम से थककर चूर हो जाना",
+  "hi_nuance": "Verb 'burn out', noun 'burnout'. Important word for engineers. Hindi 'थककर चूर होना' is temporary; burnout is long-term.",
+  "examples": [
+   {
+    "en": "Many on-call engineers burn out within two years.",
+    "hi": "कई ऑन-कॉल इंजीनियर दो साल में ही बर्नआउट हो जाते हैं।"
+   },
+   {
+    "en": "Take breaks so you don't burn out.",
+    "hi": "ब्रेक लो ताकि तुम थककर टूट न जाओ।"
+   },
+   {
+    "en": "She burned out after a year of 80-hour weeks.",
+    "hi": "80 घंटे के हफ़्तों के एक साल बाद वह बर्नआउट हो गई।"
+   },
+   {
+    "en": "Burnout is common in security operations.",
+    "hi": "सुरक्षा ऑपरेशन में बर्नआउट आम है।"
+   },
+   {
+    "en": "He's showing signs of burning out.",
+    "hi": "उसमें बर्नआउट के लक्षण दिख रहे हैं।"
+   }
+  ],
+  "collocations": [
+   "burn out quickly",
+   "signs of burnout",
+   "suffer burnout"
+  ],
+  "synonyms": [
+   "exhaust yourself",
+   "crash"
+  ],
+  "antonyms": [
+   "recharge",
+   "thrive"
+  ],
+  "word_family": [
+   "burn out",
+   "burnout",
+   "burnt out"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "I am fully burnout from this project.",
+   "right": "I'm completely burnt out from this project.",
+   "why": "'Burnout' is the noun; the adjective is 'burnt out' (or 'burned out')."
+  },
+  "cloze": {
+   "sentence": "Rotate the on-call schedule so nobody ____ ____.",
+   "answer": "burns out"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0037",
+  "word": "in a nutshell",
+  "ipa": "/ɪn ə ˈnʌtʃel/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "said in very few words; in summary",
+  "hi_def": "संक्षेप में",
+  "hi_nuance": "Hindi 'संक्षेप में' / 'एक लाइन में'. Use to open a summary: 'In a nutshell, the login flow is broken.' Indian English 'in short' is fine too.",
+  "examples": [
+   {
+    "en": "In a nutshell, the API leaks user emails.",
+    "hi": "संक्षेप में, API उपयोगकर्ताओं के ईमेल लीक करता है।"
+   },
+   {
+    "en": "Can you explain the incident in a nutshell?",
+    "hi": "क्या तुम घटना को संक्षेप में समझा सकते हो?"
+   },
+   {
+    "en": "In a nutshell, we need more people and more time.",
+    "hi": "संक्षेप में, हमें ज़्यादा लोग और ज़्यादा समय चाहिए।"
+   },
+   {
+    "en": "That's the whole plan in a nutshell.",
+    "hi": "यही पूरी योजना संक्षेप में है।"
+   },
+   {
+    "en": "In a nutshell: patch now, investigate later.",
+    "hi": "संक्षेप में: अभी पैच करो, बाद में जाँच करो।"
+   }
+  ],
+  "collocations": [
+   "in a nutshell",
+   "to put it in a nutshell"
+  ],
+  "synonyms": [
+   "in short",
+   "briefly"
+  ],
+  "antonyms": [
+   "in detail",
+   "at length"
+  ],
+  "word_family": [
+   "in a nutshell"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "In nutshell, the server is down.",
+   "right": "In a nutshell, the server is down.",
+   "why": "The article 'a' is part of the idiom."
+  },
+  "cloze": {
+   "sentence": "____ ____ ____, the project is late but under budget.",
+   "answer": "In a nutshell"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0038",
+  "word": "get your act together",
+  "ipa": "/ɡet jɔːr ækt təˈɡeðə/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to organise yourself and start behaving effectively",
+  "hi_def": "ख़ुद को सँभालना, व्यवस्थित होना",
+  "hi_nuance": "Slightly blunt; use with friends or yourself, not your boss. Hindi 'ख़ुद को सुधारो' has the same tone.",
+  "examples": [
+   {
+    "en": "I need to get my act together and finish this course.",
+    "hi": "मुझे ख़ुद को सँभालकर यह कोर्स पूरा करना होगा।"
+   },
+   {
+    "en": "The vendor needs to get their act together on support.",
+    "hi": "विक्रेता को सपोर्ट के मामले में ख़ुद को सुधारना होगा।"
+   },
+   {
+    "en": "He got his act together after the warning.",
+    "hi": "चेतावनी के बाद उसने ख़ुद को सँभाल लिया।"
+   },
+   {
+    "en": "If we don't get our act together, we'll fail the audit.",
+    "hi": "अगर हमने ख़ुद को व्यवस्थित नहीं किया तो ऑडिट में फ़ेल होंगे।"
+   },
+   {
+    "en": "Get your act together — the deadline is Friday.",
+    "hi": "ख़ुद को सँभालो — समय सीमा शुक्रवार है।"
+   }
+  ],
+  "collocations": [
+   "get your act together",
+   "get its act together"
+  ],
+  "synonyms": [
+   "pull yourself together",
+   "shape up"
+  ],
+  "antonyms": [
+   "fall apart"
+  ],
+  "word_family": [
+   "get your act together"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "I have to make my act together now.",
+   "right": "I have to get my act together now.",
+   "why": "The verb is 'get'."
+  },
+  "cloze": {
+   "sentence": "The team finally ____ ____ ____ ____ and shipped on time.",
+   "answer": "got its act together"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0039",
+  "word": "a grey area",
+  "ipa": "/ə ɡreɪ ˈeəriə/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "a situation where the rules are not clear",
+  "hi_def": "अस्पष्ट स्थिति, जहाँ नियम साफ़ न हों",
+  "hi_nuance": "US spelling 'gray area'. Very useful in security and legal talk. Hindi speakers say 'not clear' — this is more precise.",
+  "examples": [
+   {
+    "en": "Scanning a client's third-party vendor is a legal grey area.",
+    "hi": "क्लाइंट के थर्ड-पार्टी विक्रेता को स्कैन करना क़ानूनी रूप से अस्पष्ट क्षेत्र है।"
+   },
+   {
+    "en": "Whether that counts as overtime is a grey area.",
+    "hi": "वह ओवरटाइम माना जाए या नहीं, यह अस्पष्ट है।"
+   },
+   {
+    "en": "The policy leaves a grey area around personal devices.",
+    "hi": "नीति में निजी डिवाइस को लेकर अस्पष्टता है।"
+   },
+   {
+    "en": "Responsible disclosure timelines are still a grey area.",
+    "hi": "ज़िम्मेदार ख़ुलासे की समय-सीमा अभी भी अस्पष्ट है।"
+   },
+   {
+    "en": "It's a grey area, so ask legal before you proceed.",
+    "hi": "यह अस्पष्ट क्षेत्र है, इसलिए आगे बढ़ने से पहले क़ानूनी टीम से पूछो।"
+   }
+  ],
+  "collocations": [
+   "a legal grey area",
+   "fall into a grey area",
+   "a bit of a grey area"
+  ],
+  "synonyms": [
+   "ambiguous situation",
+   "unclear"
+  ],
+  "antonyms": [
+   "black and white",
+   "clear-cut"
+  ],
+  "word_family": [
+   "grey area",
+   "gray area"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "This rule is a grey zone.",
+   "right": "This rule is a grey area.",
+   "why": "The fixed phrase is 'grey area'."
+  },
+  "cloze": {
+   "sentence": "Testing without a signed scope is ____ ____ ____ at best.",
+   "answer": "a grey area"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0040",
+  "word": "by the book",
+  "ipa": "/baɪ ðə bʊk/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "exactly according to the rules",
+  "hi_def": "नियमों के अनुसार, क़ायदे से",
+  "hi_nuance": "Hindi 'क़ायदे से'. 'Go by the book' / 'do it by the book'. Opposite of 'cut corners'.",
+  "examples": [
+   {
+    "en": "For compliance work, we do everything by the book.",
+    "hi": "अनुपालन के काम में हम सब कुछ नियमों के अनुसार करते हैं।"
+   },
+   {
+    "en": "The new manager goes strictly by the book.",
+    "hi": "नया मैनेजर सख़्ती से नियमों पर चलता है।"
+   },
+   {
+    "en": "Handle the evidence by the book or it won't hold up in court.",
+    "hi": "सबूत को क़ायदे से सँभालो वरना वह अदालत में नहीं टिकेगा।"
+   },
+   {
+    "en": "He did the disclosure by the book — 90 days, then public.",
+    "hi": "उसने ख़ुलासा नियमों के अनुसार किया — 90 दिन, फिर सार्वजनिक।"
+   },
+   {
+    "en": "Sometimes going by the book is slow but safe.",
+    "hi": "कभी-कभी नियमों पर चलना धीमा लेकिन सुरक्षित होता है।"
+   }
+  ],
+  "collocations": [
+   "go by the book",
+   "do it by the book",
+   "strictly by the book"
+  ],
+  "synonyms": [
+   "follow the rules",
+   "by the letter"
+  ],
+  "antonyms": [
+   "cut corners",
+   "bend the rules"
+  ],
+  "word_family": [
+   "by the book"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "We worked as per the book.",
+   "right": "We worked by the book.",
+   "why": "'As per the book' mixes Indian English 'as per' with the idiom; 'by the book' is the fixed form."
+  },
+  "cloze": {
+   "sentence": "The incident response was handled ____ ____ ____.",
+   "answer": "by the book"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0041",
+  "word": "a needle in a haystack",
+  "ipa": "/ə ˈniːdl ɪn ə ˈheɪstæk/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "something almost impossible to find because it is hidden among many other things",
+  "hi_def": "भूसे के ढेर में सुई ढूँढना",
+  "hi_nuance": "Hindi 'भूसे के ढेर में सुई' is the exact match. Perfect for log analysis and threat hunting.",
+  "examples": [
+   {
+    "en": "Finding the malicious request in a million log lines is a needle in a haystack.",
+    "hi": "दस लाख लॉग लाइनों में दुर्भावनापूर्ण अनुरोध ढूँढना भूसे के ढेर में सुई ढूँढना है।"
+   },
+   {
+    "en": "Without indexes, searching that database is like looking for a needle in a haystack.",
+    "hi": "इंडेक्स के बिना उस डेटाबेस में खोजना भूसे में सुई ढूँढने जैसा है।"
+   },
+   {
+    "en": "The one bad commit was a needle in a haystack.",
+    "hi": "वह एक ख़राब कमिट भूसे के ढेर में सुई जैसा था।"
+   },
+   {
+    "en": "Good alerting turns a needle in a haystack into a flashing light.",
+    "hi": "अच्छी अलर्टिंग भूसे की सुई को चमकती बत्ती में बदल देती है।"
+   },
+   {
+    "en": "Locating her old email was a needle in a haystack.",
+    "hi": "उसका पुराना ईमेल ढूँढना बहुत मुश्किल था।"
+   }
+  ],
+  "collocations": [
+   "like looking for a needle in a haystack",
+   "a needle in a haystack"
+  ],
+  "synonyms": [
+   "nearly impossible to find"
+  ],
+  "antonyms": [
+   "easy to spot"
+  ],
+  "word_family": [
+   "a needle in a haystack"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "It is like finding needle in hay.",
+   "right": "It's like finding a needle in a haystack.",
+   "why": "Articles and the full noun 'haystack' are part of the fixed idiom."
+  },
+  "cloze": {
+   "sentence": "Tracking one packet in that capture is ____ ____ ____ ____ ____.",
+   "answer": "a needle in a haystack"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0042",
+  "word": "the tip of the iceberg",
+  "ipa": "/ðə tɪp əv ði ˈaɪsbɜːɡ/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "a small visible part of a much larger problem",
+  "hi_def": "बड़ी समस्या का छोटा दिखने वाला हिस्सा",
+  "hi_nuance": "Great for incident reports: 'the reported bug is just the tip of the iceberg'. No Hindi idiom; explain directly.",
+  "examples": [
+   {
+    "en": "The leaked password was just the tip of the iceberg.",
+    "hi": "लीक हुआ पासवर्ड तो बस बड़ी समस्या की एक झलक था।"
+   },
+   {
+    "en": "These five findings are the tip of the iceberg; the codebase is full of issues.",
+    "hi": "ये पाँच निष्कर्ष तो शुरुआत हैं; कोडबेस समस्याओं से भरा है।"
+   },
+   {
+    "en": "What users see is the tip of the iceberg.",
+    "hi": "उपयोगकर्ता जो देखते हैं वह पूरी समस्या का छोटा सा हिस्सा है।"
+   },
+   {
+    "en": "The complaints we received are only the tip of the iceberg.",
+    "hi": "जो शिकायतें हमें मिलीं वे केवल शुरुआत हैं।"
+   },
+   {
+    "en": "One infected laptop turned out to be the tip of the iceberg.",
+    "hi": "एक संक्रमित लैपटॉप बड़े हमले की सिर्फ़ झलक निकला।"
+   }
+  ],
+  "collocations": [
+   "just the tip of the iceberg",
+   "only the tip of the iceberg"
+  ],
+  "synonyms": [
+   "a small part",
+   "a hint of a bigger problem"
+  ],
+  "antonyms": [
+   "the whole picture"
+  ],
+  "word_family": [
+   "the tip of the iceberg"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "This is only the top of the iceberg.",
+   "right": "This is only the tip of the iceberg.",
+   "why": "The idiom uses 'tip', not 'top'."
+  },
+  "cloze": {
+   "sentence": "The single failed login was ____ ____ ____ ____ ____.",
+   "answer": "the tip of the iceberg"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0043",
+  "word": "play it by ear",
+  "ipa": "/pleɪ ɪt baɪ ɪə/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to decide how to act as a situation develops, rather than planning in advance",
+  "hi_def": "परिस्थिति के अनुसार फ़ैसला लेना",
+  "hi_nuance": "Hindi 'देखते हैं, जैसा होगा वैसा करेंगे'. Informal. Indian English 'we will see' is fine but this is more precise.",
+  "examples": [
+   {
+    "en": "We don't have a fixed agenda; let's play it by ear.",
+    "hi": "हमारा कोई तय एजेंडा नहीं है; जैसी स्थिति होगी वैसा करेंगे।"
+   },
+   {
+    "en": "I'm not sure how long the meeting will take — I'll play it by ear.",
+    "hi": "पता नहीं मीटिंग कितनी लंबी चलेगी — मैं स्थिति देखकर तय करूँगा।"
+   },
+   {
+    "en": "During the incident we had to play it by ear.",
+    "hi": "घटना के दौरान हमें हालात के हिसाब से फ़ैसले लेने पड़े।"
+   },
+   {
+    "en": "Let's play it by ear and see what the client asks.",
+    "hi": "चलो देखते हैं क्लाइंट क्या पूछता है, उसी हिसाब से चलेंगे।"
+   },
+   {
+    "en": "She prefers a plan; I'm happy to play it by ear.",
+    "hi": "वह योजना पसंद करती है; मैं हालात के हिसाब से चलने में ख़ुश हूँ।"
+   }
+  ],
+  "collocations": [
+   "play it by ear",
+   "let's play it by ear"
+  ],
+  "synonyms": [
+   "improvise",
+   "wing it"
+  ],
+  "antonyms": [
+   "plan ahead",
+   "stick to a plan"
+  ],
+  "word_family": [
+   "play it by ear"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "We will play by the ear tomorrow.",
+   "right": "We'll play it by ear tomorrow.",
+   "why": "The idiom needs 'it' and no article before 'ear'."
+  },
+  "cloze": {
+   "sentence": "We don't know the scope yet, so we'll ____ ____ ____ ____.",
+   "answer": "play it by ear"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0044",
+  "word": "pull someone's leg",
+  "ipa": "/pʊl ˈsʌmwʌnz leɡ/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "to joke with someone by telling them something untrue",
+  "hi_def": "मज़ाक करना, टाँग खींचना (मज़ाक में)",
+  "hi_nuance": "Careful: Hindi 'टाँग खींचना' means to hold someone back out of jealousy. In English it just means teasing. Very different!",
+  "examples": [
+   {
+    "en": "Relax, I'm only pulling your leg.",
+    "hi": "आराम से, मैं बस मज़ाक कर रहा हूँ।"
+   },
+   {
+    "en": "Are you pulling my leg, or did we really win?",
+    "hi": "तुम मज़ाक कर रहे हो या हम सच में जीत गए?"
+   },
+   {
+    "en": "He pulled her leg about the typo for weeks.",
+    "hi": "उसने हफ़्तों तक उस टाइपो पर उसका मज़ाक उड़ाया।"
+   },
+   {
+    "en": "Stop pulling my leg and tell me the real number.",
+    "hi": "मज़ाक बंद करो और असली संख्या बताओ।"
+   },
+   {
+    "en": "She loves pulling the interns' legs.",
+    "hi": "उसे इंटर्न्स के साथ मज़ाक करना पसंद है।"
+   }
+  ],
+  "collocations": [
+   "pull someone's leg",
+   "just pulling your leg"
+  ],
+  "synonyms": [
+   "tease",
+   "joke with"
+  ],
+  "antonyms": [
+   "be serious"
+  ],
+  "word_family": [
+   "pull someone's leg",
+   "leg-pulling"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "My colleagues pull my leg so I can't get promoted.",
+   "right": "My colleagues hold me back so I can't get promoted.",
+   "why": "English 'pull someone's leg' means tease; the Hindi meaning of holding someone back is 'hold back' or 'undermine'."
+  },
+  "cloze": {
+   "sentence": "Don't worry, he was just ____ ____ ____ about the exam.",
+   "answer": "pulling your leg"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0045",
+  "word": "see eye to eye",
+  "ipa": "/siː aɪ tu aɪ/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to agree with someone",
+  "hi_def": "सहमत होना, एक राय होना",
+  "hi_nuance": "Usually negative: 'we don't see eye to eye'. Hindi 'एक राय होना'. Do not confuse with 'eye to eye' in Hindi meaning looking directly at someone.",
+  "examples": [
+   {
+    "en": "The developers and QA don't always see eye to eye.",
+    "hi": "डेवलपर और QA हमेशा एक राय नहीं रखते।"
+   },
+   {
+    "en": "We see eye to eye on most things.",
+    "hi": "ज़्यादातर बातों पर हम सहमत हैं।"
+   },
+   {
+    "en": "I didn't see eye to eye with my previous manager.",
+    "hi": "मेरी अपने पिछले मैनेजर से राय नहीं मिलती थी।"
+   },
+   {
+    "en": "They finally saw eye to eye on the budget.",
+    "hi": "आख़िरकार वे बजट पर सहमत हो गए।"
+   },
+   {
+    "en": "It's rare for legal and engineering to see eye to eye.",
+    "hi": "क़ानूनी और इंजीनियरिंग टीम का सहमत होना दुर्लभ है।"
+   }
+  ],
+  "collocations": [
+   "see eye to eye on",
+   "see eye to eye with"
+  ],
+  "synonyms": [
+   "agree",
+   "be of one mind"
+  ],
+  "antonyms": [
+   "disagree",
+   "clash"
+  ],
+  "word_family": [
+   "see eye to eye"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "We are not seeing eye to eye each other.",
+   "right": "We don't see eye to eye with each other.",
+   "why": "State verb 'see' takes the simple form here, and 'with' is needed before the person."
+  },
+  "cloze": {
+   "sentence": "The two founders never ____ ____ ____ ____ on hiring.",
+   "answer": "saw eye to eye"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0046",
+  "word": "raise the bar",
+  "ipa": "/reɪz ðə bɑː/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to set a higher standard",
+  "hi_def": "मानक ऊँचा करना",
+  "hi_nuance": "From high jump. Use in reviews and product talk. Hindi speakers say 'increase the level' — 'raise the bar' is the idiom.",
+  "examples": [
+   {
+    "en": "Her documentation raised the bar for the whole team.",
+    "hi": "उसके दस्तावेज़ों ने पूरी टीम का मानक ऊँचा कर दिया।"
+   },
+   {
+    "en": "The new compliance rules raise the bar for every vendor.",
+    "hi": "नए अनुपालन नियम हर विक्रेता के लिए मानक ऊँचा करते हैं।"
+   },
+   {
+    "en": "Each release should raise the bar on quality.",
+    "hi": "हर रिलीज़ को गुणवत्ता का मानक ऊँचा करना चाहिए।"
+   },
+   {
+    "en": "The competitor's app really raised the bar.",
+    "hi": "प्रतिद्वंद्वी के ऐप ने सचमुच मानक ऊँचा कर दिया।"
+   },
+   {
+    "en": "We want to raise the bar, not just meet it.",
+    "hi": "हम मानक सिर्फ़ पूरा नहीं, ऊँचा करना चाहते हैं।"
+   }
+  ],
+  "collocations": [
+   "raise the bar for",
+   "raise the bar on",
+   "set the bar high"
+  ],
+  "synonyms": [
+   "set a higher standard",
+   "up the game"
+  ],
+  "antonyms": [
+   "lower the bar"
+  ],
+  "word_family": [
+   "raise the bar",
+   "set the bar",
+   "lower the bar"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "This release increased the level of quality bar.",
+   "right": "This release raised the bar on quality.",
+   "why": "Mixing 'level' and 'bar' is confusing; the idiom is simply 'raise the bar'."
+  },
+  "cloze": {
+   "sentence": "The security team wants to ____ ____ ____ for code reviews.",
+   "answer": "raise the bar"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0047",
+  "word": "in hot water",
+  "ipa": "/ɪn hɒt ˈwɔːtə/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "in trouble, likely to be punished",
+  "hi_def": "मुसीबत में, परेशानी में",
+  "hi_nuance": "Hindi 'मुसीबत में पड़ना'. 'Land in hot water' / 'get into hot water'. Informal, mildly humorous.",
+  "examples": [
+   {
+    "en": "He's in hot water for pushing to production on a Friday.",
+    "hi": "शुक्रवार को प्रोडक्शन में पुश करने के कारण वह मुसीबत में है।"
+   },
+   {
+    "en": "The company landed in hot water after the data leak.",
+    "hi": "डेटा लीक के बाद कंपनी मुसीबत में पड़ गई।"
+   },
+   {
+    "en": "You'll be in hot water if the client sees this.",
+    "hi": "अगर क्लाइंट ने यह देखा तो तुम मुसीबत में पड़ जाओगे।"
+   },
+   {
+    "en": "She got into hot water for missing the audit.",
+    "hi": "ऑडिट छूटने के कारण वह मुसीबत में पड़ गई।"
+   },
+   {
+    "en": "Ignoring the disclosure could put us in hot water legally.",
+    "hi": "ख़ुलासे को नज़रअंदाज़ करना हमें क़ानूनी मुसीबत में डाल सकता है।"
+   }
+  ],
+  "collocations": [
+   "be in hot water",
+   "land in hot water",
+   "get into hot water"
+  ],
+  "synonyms": [
+   "in trouble",
+   "in a mess"
+  ],
+  "antonyms": [
+   "in the clear"
+  ],
+  "word_family": [
+   "in hot water"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "He is in a hot water now.",
+   "right": "He's in hot water now.",
+   "why": "'Water' is uncountable, so no article."
+  },
+  "cloze": {
+   "sentence": "The vendor is ____ ____ ____ over the missed SLA.",
+   "answer": "in hot water"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0048",
+  "word": "jump the gun",
+  "ipa": "/dʒʌmp ðə ɡʌn/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to act too soon, before the right time",
+  "hi_def": "जल्दबाज़ी करना, समय से पहले क़दम उठाना",
+  "hi_nuance": "From athletics false starts. Hindi 'जल्दबाज़ी करना'. Useful when someone announces a fix before it's tested.",
+  "examples": [
+   {
+    "en": "Don't jump the gun — wait for the test results.",
+    "hi": "जल्दबाज़ी मत करो — परीक्षण के नतीजों का इंतज़ार करो।"
+   },
+   {
+    "en": "Marketing jumped the gun and announced the feature early.",
+    "hi": "मार्केटिंग ने जल्दबाज़ी में फ़ीचर की घोषणा कर दी।"
+   },
+   {
+    "en": "I think we jumped the gun by closing the ticket.",
+    "hi": "मुझे लगता है हमने टिकट बंद करके जल्दबाज़ी की।"
+   },
+   {
+    "en": "He jumped the gun and told the client it was fixed.",
+    "hi": "उसने जल्दबाज़ी में क्लाइंट को बता दिया कि ठीक हो गया।"
+   },
+   {
+    "en": "Let's not jump the gun on blaming the vendor.",
+    "hi": "विक्रेता को दोष देने में जल्दबाज़ी न करें।"
+   }
+  ],
+  "collocations": [
+   "jump the gun on",
+   "don't jump the gun"
+  ],
+  "synonyms": [
+   "act prematurely",
+   "rush"
+  ],
+  "antonyms": [
+   "wait",
+   "bide your time"
+  ],
+  "word_family": [
+   "jump the gun"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "We did hurry-burry and released early.",
+   "right": "We jumped the gun and released early.",
+   "why": "'Hurry-burry' is Indian English; 'jump the gun' is the standard idiom."
+  },
+  "cloze": {
+   "sentence": "Let's confirm the root cause before we ____ ____ ____ on a fix.",
+   "answer": "jump the gun"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0049",
+  "word": "the elephant in the room",
+  "ipa": "/ði ˈelɪfənt ɪn ðə ruːm/",
+  "pos": "idiom",
+  "cefr": "C1",
+  "en_def": "an obvious problem that everyone avoids talking about",
+  "hi_def": "वह बड़ी समस्या जिसके बारे में कोई बात नहीं करता",
+  "hi_nuance": "No Hindi idiom; explain it. Very common in meetings: 'let's address the elephant in the room'.",
+  "examples": [
+   {
+    "en": "Let's address the elephant in the room: the budget cut.",
+    "hi": "चलो उस बड़ी बात पर चर्चा करें जिससे सब बच रहे हैं: बजट कटौती।"
+   },
+   {
+    "en": "Technical debt is the elephant in the room at every planning meeting.",
+    "hi": "हर योजना बैठक में तकनीकी क़र्ज़ वह समस्या है जिस पर कोई बात नहीं करता।"
+   },
+   {
+    "en": "Nobody mentioned the elephant in the room — the CEO's resignation.",
+    "hi": "किसी ने उस स्पष्ट मुद्दे का ज़िक्र नहीं किया — CEO का इस्तीफ़ा।"
+   },
+   {
+    "en": "The unpatched legacy system is the elephant in the room.",
+    "hi": "बिना पैच वाला पुराना सिस्टम वह समस्या है जिसे सब अनदेखा करते हैं।"
+   },
+   {
+    "en": "Can we talk about the elephant in the room?",
+    "hi": "क्या हम उस मुद्दे पर बात कर सकते हैं जिससे सब बच रहे हैं?"
+   }
+  ],
+  "collocations": [
+   "address the elephant in the room",
+   "ignore the elephant in the room"
+  ],
+  "synonyms": [
+   "the unspoken issue",
+   "the obvious problem"
+  ],
+  "antonyms": [
+   "a minor detail"
+  ],
+  "word_family": [
+   "the elephant in the room"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "There is an elephant in the hall that nobody sees.",
+   "right": "There's an elephant in the room that nobody wants to discuss.",
+   "why": "The idiom is fixed with 'room', and the point is people avoid it, not that they can't see it."
+  },
+  "cloze": {
+   "sentence": "Staff turnover is ____ ____ ____ ____ ____ in this company.",
+   "answer": "the elephant in the room"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0050",
+  "word": "cut to the chase",
+  "ipa": "/kʌt tə ðə tʃeɪs/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to get to the main point without wasting time",
+  "hi_def": "सीधे मुद्दे पर आना",
+  "hi_nuance": "Hindi 'सीधे मुद्दे पर आओ'. Indian English 'come to the point' is also standard. 'Cut to the chase' is slightly more informal.",
+  "examples": [
+   {
+    "en": "Let's cut to the chase: can you deliver by Friday?",
+    "hi": "सीधे मुद्दे पर आते हैं: क्या तुम शुक्रवार तक दे सकते हो?"
+   },
+   {
+    "en": "I'll cut to the chase — we're not renewing the contract.",
+    "hi": "मैं सीधे मुद्दे पर आता हूँ — हम अनुबंध नवीनीकृत नहीं कर रहे।"
+   },
+   {
+    "en": "The report cuts to the chase in the first paragraph.",
+    "hi": "रिपोर्ट पहले पैराग्राफ़ में ही मुद्दे पर आ जाती है।"
+   },
+   {
+    "en": "Cut to the chase — what's the severity?",
+    "hi": "सीधे बताओ — गंभीरता क्या है?"
+   },
+   {
+    "en": "She always cuts to the chase in meetings.",
+    "hi": "वह मीटिंग में हमेशा सीधे मुद्दे पर आती है।"
+   }
+  ],
+  "collocations": [
+   "cut to the chase",
+   "let's cut to the chase"
+  ],
+  "synonyms": [
+   "get to the point",
+   "come to the point"
+  ],
+  "antonyms": [
+   "beat around the bush"
+  ],
+  "word_family": [
+   "cut to the chase"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Let me cut the chase and tell you.",
+   "right": "Let me cut to the chase and tell you.",
+   "why": "'To' is part of the idiom."
+  },
+  "cloze": {
+   "sentence": "We only have five minutes, so I'll ____ ____ ____ ____.",
+   "answer": "cut to the chase"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0051",
+  "word": "beat around the bush",
+  "ipa": "/biːt əˌraʊnd ðə bʊʃ/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to avoid talking about the main point",
+  "hi_def": "घुमा-फिराकर बात करना",
+  "hi_nuance": "Hindi 'घुमा-फिराकर बात करना' is an exact match. Usually negative: 'stop beating around the bush'.",
+  "examples": [
+   {
+    "en": "Stop beating around the bush and tell me what went wrong.",
+    "hi": "घुमा-फिराकर बात मत करो और बताओ क्या ग़लत हुआ।"
+   },
+   {
+    "en": "The vendor beat around the bush about the outage cause.",
+    "hi": "विक्रेता ने आउटेज के कारण पर घुमा-फिराकर बात की।"
+   },
+   {
+    "en": "He beat around the bush for ten minutes before asking for a raise.",
+    "hi": "वेतन बढ़ाने की माँग से पहले उसने दस मिनट तक इधर-उधर की बातें कीं।"
+   },
+   {
+    "en": "Don't beat around the bush in an incident report.",
+    "hi": "घटना रिपोर्ट में घुमा-फिराकर बात मत करो।"
+   },
+   {
+    "en": "She never beats around the bush; she says what she thinks.",
+    "hi": "वह कभी घुमा-फिराकर बात नहीं करती; जो सोचती है कह देती है।"
+   }
+  ],
+  "collocations": [
+   "beat around the bush",
+   "stop beating around the bush"
+  ],
+  "synonyms": [
+   "be evasive",
+   "hedge"
+  ],
+  "antonyms": [
+   "cut to the chase",
+   "get to the point"
+  ],
+  "word_family": [
+   "beat around the bush",
+   "beat about the bush"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "Don't beat the bush, tell me straight.",
+   "right": "Don't beat around the bush, tell me straight.",
+   "why": "'Around' (or 'about') is essential to the idiom."
+  },
+  "cloze": {
+   "sentence": "The manager ____ ____ ____ ____ instead of admitting the mistake.",
+   "answer": "beat around the bush"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0052",
+  "word": "a long shot",
+  "ipa": "/ə lɒŋ ʃɒt/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "an attempt that is unlikely to succeed but worth trying",
+  "hi_def": "कम संभावना वाला प्रयास",
+  "hi_nuance": "'It's a long shot, but...' introduces an unlikely idea politely. 'Not by a long shot' = not at all. Hindi 'दूर की कौड़ी'.",
+  "examples": [
+   {
+    "en": "It's a long shot, but try restarting the router.",
+    "hi": "संभावना कम है, लेकिन राउटर रीस्टार्ट करके देखो।"
+   },
+   {
+    "en": "Getting the CVE assigned this week is a long shot.",
+    "hi": "इस हफ़्ते CVE मिलना मुश्किल है।"
+   },
+   {
+    "en": "Applying for that role was a long shot, but she got it.",
+    "hi": "उस पद के लिए आवेदन करना दूर की कौड़ी था, लेकिन उसे मिल गया।"
+   },
+   {
+    "en": "We're not done — not by a long shot.",
+    "hi": "हम अभी बिल्कुल पूरा नहीं हुए हैं।"
+   },
+   {
+    "en": "A long shot: maybe the cert expired?",
+    "hi": "एक कम संभावना: शायद सर्टिफ़िकेट की अवधि ख़त्म हो गई हो?"
+   }
+  ],
+  "collocations": [
+   "it's a long shot",
+   "not by a long shot"
+  ],
+  "synonyms": [
+   "unlikely attempt",
+   "outside chance"
+  ],
+  "antonyms": [
+   "a sure thing",
+   "a safe bet"
+  ],
+  "word_family": [
+   "a long shot",
+   "not by a long shot"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "It is a far shot but let's try.",
+   "right": "It's a long shot, but let's try.",
+   "why": "The idiom uses 'long', not 'far'."
+  },
+  "cloze": {
+   "sentence": "It's ____ ____ ____, but the old backup might still have the file.",
+   "answer": "a long shot"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0053",
+  "word": "get your foot in the door",
+  "ipa": "/ɡet jɔː fʊt ɪn ðə dɔː/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "to get a first opportunity in a company or field that could lead to more",
+  "hi_def": "शुरुआती मौक़ा पाना, प्रवेश पाना",
+  "hi_nuance": "Career idiom. Hindi 'पैर जमाना' is close but means becoming established; this is the first step only.",
+  "examples": [
+   {
+    "en": "An internship is a good way to get your foot in the door.",
+    "hi": "इंटर्नशिप कंपनी में प्रवेश पाने का अच्छा तरीक़ा है।"
+   },
+   {
+    "en": "Bug bounties helped him get his foot in the door in security.",
+    "hi": "बग बाउंटी से उसे सुरक्षा क्षेत्र में शुरुआती मौक़ा मिला।"
+   },
+   {
+    "en": "Take the contract role to get your foot in the door.",
+    "hi": "प्रवेश पाने के लिए कॉन्ट्रैक्ट भूमिका ले लो।"
+   },
+   {
+    "en": "Once you get your foot in the door, promotions come faster.",
+    "hi": "एक बार प्रवेश मिल जाए तो पदोन्नति जल्दी मिलती है।"
+   },
+   {
+    "en": "She got her foot in the door with a small project.",
+    "hi": "उसने एक छोटे प्रोजेक्ट से शुरुआत की।"
+   }
+  ],
+  "collocations": [
+   "get your foot in the door",
+   "a foot in the door"
+  ],
+  "synonyms": [
+   "get a start",
+   "break in"
+  ],
+  "antonyms": [
+   "be shut out"
+  ],
+  "word_family": [
+   "get your foot in the door",
+   "a foot in the door"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "I want to put my leg in the door of this company.",
+   "right": "I want to get my foot in the door at this company.",
+   "why": "The idiom uses 'foot', and the verb is 'get'."
+  },
+  "cloze": {
+   "sentence": "Volunteering at the conference helped me ____ ____ ____ ____ ____ ____.",
+   "answer": "get my foot in the door"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0054",
+  "word": "a can of worms",
+  "ipa": "/ə kæn əv wɜːmz/",
+  "pos": "idiom",
+  "cefr": "C1",
+  "en_def": "a situation that causes many complicated problems if you start dealing with it",
+  "hi_def": "ऐसा मुद्दा जो छेड़ने पर कई नई समस्याएँ खोल दे",
+  "hi_nuance": "Hindi 'भानुमती का पिटारा' is close. 'Open a can of worms' = start something messy. Common in code and policy discussions.",
+  "examples": [
+   {
+    "en": "Changing the auth system would open a whole can of worms.",
+    "hi": "ऑथ सिस्टम बदलना ढेरों नई समस्याएँ खोल देगा।"
+   },
+   {
+    "en": "Let's not open that can of worms today.",
+    "hi": "आज उस पिटारे को मत खोलो।"
+   },
+   {
+    "en": "Reviewing the old contracts opened a can of worms.",
+    "hi": "पुराने अनुबंधों की समीक्षा ने कई समस्याएँ उजागर कर दीं।"
+   },
+   {
+    "en": "The audit opened a can of worms about access rights.",
+    "hi": "ऑडिट ने एक्सेस अधिकारों को लेकर कई समस्याएँ खोल दीं।"
+   },
+   {
+    "en": "Data retention is a can of worms legally.",
+    "hi": "डेटा प्रतिधारण क़ानूनी रूप से एक जटिल मुद्दा है।"
+   }
+  ],
+  "collocations": [
+   "open a can of worms",
+   "a whole can of worms"
+  ],
+  "synonyms": [
+   "a Pandora's box",
+   "a hornet's nest"
+  ],
+  "antonyms": [
+   "a simple matter"
+  ],
+  "word_family": [
+   "a can of worms",
+   "open a can of worms"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "This will open a box of worms.",
+   "right": "This will open a can of worms.",
+   "why": "The idiom uses 'can'; 'box' belongs to 'Pandora's box'."
+  },
+  "cloze": {
+   "sentence": "Touching the billing code is ____ ____ ____ ____ nobody wants to open.",
+   "answer": "a can of worms"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0055",
+  "word": "keep something under wraps",
+  "ipa": "/kiːp ˈsʌmθɪŋ ˌʌndə ˈræps/",
+  "pos": "idiom",
+  "cefr": "C1",
+  "en_def": "to keep something secret",
+  "hi_def": "गुप्त रखना",
+  "hi_nuance": "Hindi 'पर्दे में रखना'. Used for product launches, findings under embargo. Also 'under NDA' in tech.",
+  "examples": [
+   {
+    "en": "Keep the vulnerability under wraps until the patch is out.",
+    "hi": "पैच आने तक कमज़ोरी को गुप्त रखो।"
+   },
+   {
+    "en": "The launch date is being kept under wraps.",
+    "hi": "लॉन्च की तारीख़ गुप्त रखी जा रही है।"
+   },
+   {
+    "en": "They kept the merger under wraps for months.",
+    "hi": "उन्होंने विलय को महीनों तक गुप्त रखा।"
+   },
+   {
+    "en": "Please keep this under wraps — it's not public yet.",
+    "hi": "कृपया इसे गुप्त रखें — यह अभी सार्वजनिक नहीं है।"
+   },
+   {
+    "en": "The finding stayed under wraps until the 90-day deadline.",
+    "hi": "निष्कर्ष 90 दिन की समय सीमा तक गुप्त रहा।"
+   }
+  ],
+  "collocations": [
+   "keep under wraps",
+   "stay under wraps"
+  ],
+  "synonyms": [
+   "keep secret",
+   "keep quiet about"
+  ],
+  "antonyms": [
+   "disclose",
+   "make public"
+  ],
+  "word_family": [
+   "under wraps"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Keep it under the wrap for now.",
+   "right": "Keep it under wraps for now.",
+   "why": "The idiom is plural 'wraps' with no article."
+  },
+  "cloze": {
+   "sentence": "Details of the breach were kept ____ ____ during the investigation.",
+   "answer": "under wraps"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0056",
+  "word": "ring a bell",
+  "ipa": "/rɪŋ ə bel/",
+  "pos": "idiom",
+  "cefr": "B1",
+  "en_def": "to sound familiar, to remind you of something vaguely",
+  "hi_def": "जाना-पहचाना लगना, कुछ याद आना",
+  "hi_nuance": "Hindi 'कुछ याद सा आ रहा है'. 'Does the name ring a bell?' Indian English 'I have heard it somewhere' is fine too.",
+  "examples": [
+   {
+    "en": "That domain name rings a bell — didn't we block it last year?",
+    "hi": "वह डोमेन नाम जाना-पहचाना लगता है — क्या हमने पिछले साल इसे ब्लॉक नहीं किया था?"
+   },
+   {
+    "en": "Does the name Kavita ring a bell?",
+    "hi": "क्या कविता नाम कुछ याद दिलाता है?"
+   },
+   {
+    "en": "The error message rang a bell, so I checked my notes.",
+    "hi": "एरर संदेश जाना-पहचाना लगा, इसलिए मैंने अपने नोट्स देखे।"
+   },
+   {
+    "en": "It doesn't ring a bell, sorry.",
+    "hi": "कुछ याद नहीं आ रहा, माफ़ करना।"
+   },
+   {
+    "en": "His face rings a bell but I can't place him.",
+    "hi": "उसका चेहरा जाना-पहचाना है पर याद नहीं आ रहा कहाँ देखा।"
+   }
+  ],
+  "collocations": [
+   "ring a bell",
+   "doesn't ring a bell",
+   "ring any bells"
+  ],
+  "synonyms": [
+   "sound familiar"
+  ],
+  "antonyms": [
+   "mean nothing"
+  ],
+  "word_family": [
+   "ring a bell"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "This name is ringing the bell.",
+   "right": "This name rings a bell.",
+   "why": "Use the simple present and 'a bell', not 'the bell'."
+  },
+  "cloze": {
+   "sentence": "That IP address ____ ____ ____ — check last month's alerts.",
+   "answer": "rings a bell"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0057",
+  "word": "go the whole nine yards",
+  "ipa": "/ɡəʊ ðə həʊl naɪn jɑːdz/",
+  "pos": "idiom",
+  "cefr": "C1",
+  "en_def": "to do everything possible; to do something completely",
+  "hi_def": "पूरी तरह से करना, कोई कसर न छोड़ना",
+  "hi_nuance": "Hindi 'कोई कसर न छोड़ना'. American origin, used everywhere now. 'The whole nine yards' can also mean 'everything'.",
+  "examples": [
+   {
+    "en": "They went the whole nine yards: MFA, encryption, monitoring, training.",
+    "hi": "उन्होंने कोई कसर नहीं छोड़ी: MFA, एन्क्रिप्शन, निगरानी, प्रशिक्षण।"
+   },
+   {
+    "en": "For the wedding they went the whole nine yards.",
+    "hi": "शादी के लिए उन्होंने कोई कसर नहीं छोड़ी।"
+   },
+   {
+    "en": "If we're doing this, let's go the whole nine yards.",
+    "hi": "अगर यह कर रहे हैं, तो पूरी तरह से करते हैं।"
+   },
+   {
+    "en": "The report covered the whole nine yards — every host, every port.",
+    "hi": "रिपोर्ट में सब कुछ शामिल था — हर होस्ट, हर पोर्ट।"
+   },
+   {
+    "en": "She went the whole nine yards preparing for the interview.",
+    "hi": "उसने इंटरव्यू की तैयारी में कोई कसर नहीं छोड़ी।"
+   }
+  ],
+  "collocations": [
+   "go the whole nine yards",
+   "the whole nine yards"
+  ],
+  "synonyms": [
+   "go all out",
+   "do it fully"
+  ],
+  "antonyms": [
+   "do the minimum"
+  ],
+  "word_family": [
+   "the whole nine yards"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "We went the full nine yards.",
+   "right": "We went the whole nine yards.",
+   "why": "The fixed phrase uses 'whole'."
+  },
+  "cloze": {
+   "sentence": "For the security launch, marketing ____ ____ ____ ____ ____.",
+   "answer": "went the whole nine yards"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0058",
+  "word": "on the back burner",
+  "ipa": "/ɒn ðə bæk ˈbɜːnə/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "postponed; given low priority for now",
+  "hi_def": "फ़िलहाल टाल दिया गया, कम प्राथमिकता पर",
+  "hi_nuance": "Hindi 'ठंडे बस्ते में डालना' is a near match. 'Put it on the back burner' = keep it, but not now.",
+  "examples": [
+   {
+    "en": "The redesign is on the back burner until Q3.",
+    "hi": "रीडिज़ाइन तीसरी तिमाही तक टाल दिया गया है।"
+   },
+   {
+    "en": "Let's put the mobile app on the back burner for now.",
+    "hi": "मोबाइल ऐप को फ़िलहाल ठंडे बस्ते में डाल देते हैं।"
+   },
+   {
+    "en": "Security training got put on the back burner again.",
+    "hi": "सुरक्षा प्रशिक्षण फिर से टाल दिया गया।"
+   },
+   {
+    "en": "Her PhD plans are on the back burner while she works.",
+    "hi": "काम करते हुए उसकी PhD योजना फ़िलहाल टली हुई है।"
+   },
+   {
+    "en": "We can't leave patching on the back burner.",
+    "hi": "हम पैचिंग को टालकर नहीं रख सकते।"
+   }
+  ],
+  "collocations": [
+   "put on the back burner",
+   "on the back burner for now"
+  ],
+  "synonyms": [
+   "shelved",
+   "deprioritised"
+  ],
+  "antonyms": [
+   "front and centre",
+   "top priority"
+  ],
+  "word_family": [
+   "on the back burner",
+   "the front burner"
+  ],
+  "register": "informal",
+  "common_mistake": {
+   "wrong": "We kept this in the cold box for now.",
+   "right": "We put this on the back burner for now.",
+   "why": "'Cold box' is a translation of 'ठंडा बस्ता'; English uses 'back burner'."
+  },
+  "cloze": {
+   "sentence": "The chatbot feature is ____ ____ ____ ____ until we hire more people.",
+   "answer": "on the back burner"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0059",
+  "word": "take the bull by the horns",
+  "ipa": "/teɪk ðə bʊl baɪ ðə hɔːnz/",
+  "pos": "idiom",
+  "cefr": "C1",
+  "en_def": "to deal with a difficult situation directly and bravely",
+  "hi_def": "साहस से मुश्किल का सीधे सामना करना",
+  "hi_nuance": "Hindi 'सीधे टक्कर लेना'. Similar to 'bite the bullet' but implies bold action rather than reluctant acceptance.",
+  "examples": [
+   {
+    "en": "She took the bull by the horns and called the CEO directly.",
+    "hi": "उसने साहस दिखाकर सीधे CEO को फ़ोन किया।"
+   },
+   {
+    "en": "We need to take the bull by the horns and fix the architecture.",
+    "hi": "हमें साहस के साथ आर्किटेक्चर ठीक करना होगा।"
+   },
+   {
+    "en": "He took the bull by the horns and asked for a raise.",
+    "hi": "उसने हिम्मत करके वेतन बढ़ाने की माँग की।"
+   },
+   {
+    "en": "Someone has to take the bull by the horns on tech debt.",
+    "hi": "तकनीकी क़र्ज़ पर किसी को साहस से पहल करनी होगी।"
+   },
+   {
+    "en": "Take the bull by the horns — report the breach today.",
+    "hi": "साहस दिखाओ — आज ही उल्लंघन की रिपोर्ट करो।"
+   }
+  ],
+  "collocations": [
+   "take the bull by the horns"
+  ],
+  "synonyms": [
+   "confront",
+   "tackle head-on"
+  ],
+  "antonyms": [
+   "shy away from",
+   "avoid"
+  ],
+  "word_family": [
+   "take the bull by the horns"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "Catch the bull from the horns and finish it.",
+   "right": "Take the bull by the horns and finish it.",
+   "why": "The idiom uses 'take' and 'by'."
+  },
+  "cloze": {
+   "sentence": "Instead of waiting, the new lead ____ ____ ____ ____ ____ ____ and restructured the team.",
+   "answer": "took the bull by the horns"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ },
+ {
+  "id": "v:id:0060",
+  "word": "the bottom line",
+  "ipa": "/ðə ˈbɒtəm laɪn/",
+  "pos": "idiom",
+  "cefr": "B2",
+  "en_def": "the most important fact or conclusion; also a company's final profit",
+  "hi_def": "सबसे अहम बात, निष्कर्ष; अंतिम लाभ",
+  "hi_nuance": "Two meanings: 'the bottom line is we need more time' (conclusion) and 'it hurts the bottom line' (profit). Hindi 'असली बात यह है'.",
+  "examples": [
+   {
+    "en": "The bottom line is: we can't ship without the fix.",
+    "hi": "असली बात यह है: बिना फ़िक्स के हम शिप नहीं कर सकते।"
+   },
+   {
+    "en": "Downtime directly hurts the bottom line.",
+    "hi": "डाउनटाइम सीधे कंपनी के मुनाफ़े को नुक़सान पहुँचाता है।"
+   },
+   {
+    "en": "What's the bottom line — safe or not?",
+    "hi": "निष्कर्ष क्या है — सुरक्षित है या नहीं?"
+   },
+   {
+    "en": "The bottom line for management is cost.",
+    "hi": "प्रबंधन के लिए सबसे अहम बात लागत है।"
+   },
+   {
+    "en": "Bottom line: rotate the keys today.",
+    "hi": "निष्कर्ष: आज ही कुंजियाँ बदलो।"
+   }
+  ],
+  "collocations": [
+   "the bottom line is",
+   "affect the bottom line",
+   "bottom line:"
+  ],
+  "synonyms": [
+   "the key point",
+   "net profit"
+  ],
+  "antonyms": [
+   "a side issue"
+  ],
+  "word_family": [
+   "the bottom line"
+  ],
+  "register": "neutral",
+  "common_mistake": {
+   "wrong": "The base line is we need budget.",
+   "right": "The bottom line is we need budget.",
+   "why": "'Baseline' is a starting measurement; the idiom for the key conclusion is 'the bottom line'."
+  },
+  "cloze": {
+   "sentence": "____ ____ ____ is that the patch must go out tonight.",
+   "answer": "The bottom line"
+  },
+  "tags": [
+   "idiom"
+  ],
+  "separable": null
+ }
+]

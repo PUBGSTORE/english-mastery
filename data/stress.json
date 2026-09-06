@@ -1,0 +1,6481 @@
+{
+ "word_stress": [
+  {
+   "id": "ws:001",
+   "word": "record (noun)",
+   "syllables": [
+    "re",
+    "cord"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈrekərd/",
+   "cefr": "A2",
+   "family": [
+    "record (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "'Keep a REcord' vs 'reCORD the call'. Indians often say re-CORD for both."
+  },
+  {
+   "id": "ws:002",
+   "word": "record (verb)",
+   "syllables": [
+    "re",
+    "cord"
+   ],
+   "stressed": 1,
+   "ipa": "/rɪˈkɔːrd/",
+   "cefr": "A2",
+   "family": [
+    "record (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:003",
+   "word": "present (noun/adj)",
+   "syllables": [
+    "pre",
+    "sent"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈpreznt/",
+   "cefr": "A2",
+   "family": [
+    "present (verb):1",
+    "presentation:2"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "PREsent = gift/now; preSENT = to show."
+  },
+  {
+   "id": "ws:004",
+   "word": "present (verb)",
+   "syllables": [
+    "pre",
+    "sent"
+   ],
+   "stressed": 1,
+   "ipa": "/prɪˈzent/",
+   "cefr": "A2",
+   "family": [
+    "present (noun/adj):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "'I will preSENT the findings' — second syllable."
+  },
+  {
+   "id": "ws:005",
+   "word": "object (noun)",
+   "syllables": [
+    "ob",
+    "ject"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈɒbdʒɪkt/",
+   "cefr": "B1",
+   "family": [
+    "object (verb):1",
+    "objection:1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:006",
+   "word": "object (verb)",
+   "syllables": [
+    "ob",
+    "ject"
+   ],
+   "stressed": 1,
+   "ipa": "/əbˈdʒekt/",
+   "cefr": "B1",
+   "family": [
+    "object (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "'I obJECT to that' — second syllable, first vowel is a schwa."
+  },
+  {
+   "id": "ws:007",
+   "word": "conduct (noun)",
+   "syllables": [
+    "con",
+    "duct"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈkɒndʌkt/",
+   "cefr": "B2",
+   "family": [
+    "conduct (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:008",
+   "word": "conduct (verb)",
+   "syllables": [
+    "con",
+    "duct"
+   ],
+   "stressed": 1,
+   "ipa": "/kənˈdʌkt/",
+   "cefr": "B2",
+   "family": [
+    "conduct (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "'We conDUCTed a test' — first syllable is /kən/."
+  },
+  {
+   "id": "ws:009",
+   "word": "increase (noun)",
+   "syllables": [
+    "in",
+    "crease"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈɪŋkriːs/",
+   "cefr": "B1",
+   "family": [
+    "increase (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:010",
+   "word": "increase (verb)",
+   "syllables": [
+    "in",
+    "crease"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪnˈkriːs/",
+   "cefr": "B1",
+   "family": [
+    "increase (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:011",
+   "word": "decrease (noun)",
+   "syllables": [
+    "de",
+    "crease"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈdiːkriːs/",
+   "cefr": "B1",
+   "family": [
+    "decrease (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:012",
+   "word": "decrease (verb)",
+   "syllables": [
+    "de",
+    "crease"
+   ],
+   "stressed": 1,
+   "ipa": "/dɪˈkriːs/",
+   "cefr": "B1",
+   "family": [
+    "decrease (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:013",
+   "word": "export (noun)",
+   "syllables": [
+    "ex",
+    "port"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈekspɔːrt/",
+   "cefr": "B1",
+   "family": [
+    "export (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:014",
+   "word": "export (verb)",
+   "syllables": [
+    "ex",
+    "port"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪkˈspɔːrt/",
+   "cefr": "B1",
+   "family": [
+    "export (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:015",
+   "word": "import (noun)",
+   "syllables": [
+    "im",
+    "port"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈɪmpɔːrt/",
+   "cefr": "B1",
+   "family": [
+    "import (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:016",
+   "word": "import (verb)",
+   "syllables": [
+    "im",
+    "port"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪmˈpɔːrt/",
+   "cefr": "B1",
+   "family": [
+    "import (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "'imPORT the module' — verb, second syllable."
+  },
+  {
+   "id": "ws:017",
+   "word": "permit (noun)",
+   "syllables": [
+    "per",
+    "mit"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈpɜːrmɪt/",
+   "cefr": "B2",
+   "family": [
+    "permit (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:018",
+   "word": "permit (verb)",
+   "syllables": [
+    "per",
+    "mit"
+   ],
+   "stressed": 1,
+   "ipa": "/pərˈmɪt/",
+   "cefr": "B2",
+   "family": [
+    "permit (noun):0",
+    "permission:1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:019",
+   "word": "produce (noun)",
+   "syllables": [
+    "pro",
+    "duce"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈprɒdjuːs/",
+   "cefr": "B2",
+   "family": [
+    "produce (verb):1",
+    "product:0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "PROduce = fruit and vegetables; proDUCE = to make."
+  },
+  {
+   "id": "ws:020",
+   "word": "produce (verb)",
+   "syllables": [
+    "pro",
+    "duce"
+   ],
+   "stressed": 1,
+   "ipa": "/prəˈdjuːs/",
+   "cefr": "B1",
+   "family": [
+    "produce (noun):0",
+    "production:1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:021",
+   "word": "contract (noun)",
+   "syllables": [
+    "con",
+    "tract"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈkɒntrækt/",
+   "cefr": "B1",
+   "family": [
+    "contract (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:022",
+   "word": "contract (verb)",
+   "syllables": [
+    "con",
+    "tract"
+   ],
+   "stressed": 1,
+   "ipa": "/kənˈtrækt/",
+   "cefr": "B2",
+   "family": [
+    "contract (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "conTRACT = shrink or catch (a disease)."
+  },
+  {
+   "id": "ws:023",
+   "word": "protest (noun)",
+   "syllables": [
+    "pro",
+    "test"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈproʊtest/",
+   "cefr": "B2",
+   "family": [
+    "protest (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:024",
+   "word": "protest (verb)",
+   "syllables": [
+    "pro",
+    "test"
+   ],
+   "stressed": 1,
+   "ipa": "/prəˈtest/",
+   "cefr": "B2",
+   "family": [
+    "protest (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:025",
+   "word": "suspect (noun)",
+   "syllables": [
+    "sus",
+    "pect"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈsʌspekt/",
+   "cefr": "B2",
+   "family": [
+    "suspect (verb):1",
+    "suspicious:1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:026",
+   "word": "suspect (verb)",
+   "syllables": [
+    "sus",
+    "pect"
+   ],
+   "stressed": 1,
+   "ipa": "/səˈspekt/",
+   "cefr": "B2",
+   "family": [
+    "suspect (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "'We susPECT a phishing attack' — second syllable."
+  },
+  {
+   "id": "ws:027",
+   "word": "project (noun)",
+   "syllables": [
+    "pro",
+    "ject"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈprɒdʒekt/",
+   "cefr": "A2",
+   "family": [
+    "project (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indians often say pro-JECT for the noun. It is PROject."
+  },
+  {
+   "id": "ws:028",
+   "word": "project (verb)",
+   "syllables": [
+    "pro",
+    "ject"
+   ],
+   "stressed": 1,
+   "ipa": "/prəˈdʒekt/",
+   "cefr": "B2",
+   "family": [
+    "project (noun):0",
+    "projection:1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:029",
+   "word": "progress (noun)",
+   "syllables": [
+    "pro",
+    "gress"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈprɒɡres/",
+   "cefr": "B1",
+   "family": [
+    "progress (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "'Good PROgress' — noun, first syllable."
+  },
+  {
+   "id": "ws:030",
+   "word": "progress (verb)",
+   "syllables": [
+    "pro",
+    "gress"
+   ],
+   "stressed": 1,
+   "ipa": "/prəˈɡres/",
+   "cefr": "B2",
+   "family": [
+    "progress (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:031",
+   "word": "rebel (noun)",
+   "syllables": [
+    "reb",
+    "el"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈrebl/",
+   "cefr": "B2",
+   "family": [
+    "rebel (verb):1",
+    "rebellion:1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:032",
+   "word": "rebel (verb)",
+   "syllables": [
+    "re",
+    "bel"
+   ],
+   "stressed": 1,
+   "ipa": "/rɪˈbel/",
+   "cefr": "B2",
+   "family": [
+    "rebel (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:033",
+   "word": "insult (noun)",
+   "syllables": [
+    "in",
+    "sult"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈɪnsʌlt/",
+   "cefr": "B2",
+   "family": [
+    "insult (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:034",
+   "word": "insult (verb)",
+   "syllables": [
+    "in",
+    "sult"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪnˈsʌlt/",
+   "cefr": "B2",
+   "family": [
+    "insult (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:035",
+   "word": "update (noun)",
+   "syllables": [
+    "up",
+    "date"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈʌpdeɪt/",
+   "cefr": "A2",
+   "family": [
+    "update (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "'a security UPdate' (noun) vs 'upDATE the app' (verb)."
+  },
+  {
+   "id": "ws:036",
+   "word": "update (verb)",
+   "syllables": [
+    "up",
+    "date"
+   ],
+   "stressed": 1,
+   "ipa": "/ʌpˈdeɪt/",
+   "cefr": "A2",
+   "family": [
+    "update (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:037",
+   "word": "upgrade (noun)",
+   "syllables": [
+    "up",
+    "grade"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈʌpɡreɪd/",
+   "cefr": "B1",
+   "family": [
+    "upgrade (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:038",
+   "word": "upgrade (verb)",
+   "syllables": [
+    "up",
+    "grade"
+   ],
+   "stressed": 1,
+   "ipa": "/ʌpˈɡreɪd/",
+   "cefr": "B1",
+   "family": [
+    "upgrade (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:039",
+   "word": "refund (noun)",
+   "syllables": [
+    "re",
+    "fund"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈriːfʌnd/",
+   "cefr": "B1",
+   "family": [
+    "refund (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:040",
+   "word": "refund (verb)",
+   "syllables": [
+    "re",
+    "fund"
+   ],
+   "stressed": 1,
+   "ipa": "/rɪˈfʌnd/",
+   "cefr": "B1",
+   "family": [
+    "refund (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:041",
+   "word": "transfer (noun)",
+   "syllables": [
+    "trans",
+    "fer"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈtrænsfɜːr/",
+   "cefr": "B1",
+   "family": [
+    "transfer (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:042",
+   "word": "transfer (verb)",
+   "syllables": [
+    "trans",
+    "fer"
+   ],
+   "stressed": 1,
+   "ipa": "/trænsˈfɜːr/",
+   "cefr": "B1",
+   "family": [
+    "transfer (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:043",
+   "word": "subject (noun)",
+   "syllables": [
+    "sub",
+    "ject"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈsʌbdʒɪkt/",
+   "cefr": "A2",
+   "family": [
+    "subject (verb):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Email SUBject line — first syllable."
+  },
+  {
+   "id": "ws:044",
+   "word": "subject (verb)",
+   "syllables": [
+    "sub",
+    "ject"
+   ],
+   "stressed": 1,
+   "ipa": "/səbˈdʒekt/",
+   "cefr": "C1",
+   "family": [
+    "subject (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:045",
+   "word": "content (noun)",
+   "syllables": [
+    "con",
+    "tent"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈkɒntent/",
+   "cefr": "B1",
+   "family": [
+    "content (adjective):1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "'Web CONtent' (noun) vs 'I'm conTENT' (happy, adjective)."
+  },
+  {
+   "id": "ws:046",
+   "word": "content (adjective)",
+   "syllables": [
+    "con",
+    "tent"
+   ],
+   "stressed": 1,
+   "ipa": "/kənˈtent/",
+   "cefr": "B2",
+   "family": [
+    "content (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:047",
+   "word": "desert (noun)",
+   "syllables": [
+    "des",
+    "ert"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈdezərt/",
+   "cefr": "B1",
+   "family": [
+    "desert (verb):1",
+    "dessert:1"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "DESert (sand), deSERT (abandon), and desSERT (sweet dish) are three different words."
+  },
+  {
+   "id": "ws:048",
+   "word": "desert (verb)",
+   "syllables": [
+    "de",
+    "sert"
+   ],
+   "stressed": 1,
+   "ipa": "/dɪˈzɜːrt/",
+   "cefr": "B2",
+   "family": [
+    "desert (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:049",
+   "word": "exploit (noun)",
+   "syllables": [
+    "ex",
+    "ploit"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈeksplɔɪt/",
+   "cefr": "C1",
+   "family": [
+    "exploit (verb):1",
+    "exploitation:2"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "'a working EXploit' (noun) vs 'exPLOIT the bug' (verb)."
+  },
+  {
+   "id": "ws:050",
+   "word": "exploit (verb)",
+   "syllables": [
+    "ex",
+    "ploit"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪkˈsplɔɪt/",
+   "cefr": "C1",
+   "family": [
+    "exploit (noun):0"
+   ],
+   "rule_en": "Two-syllable noun/verb pairs: the NOUN stresses the first syllable, the VERB stresses the second.",
+   "rule_hi": "दो अक्षर वाले शब्दों में संज्ञा (noun) का पहला अक्षर और क्रिया (verb) का दूसरा अक्षर ज़ोर से बोला जाता है।",
+   "hindi_trap": "Indian speakers often use one stress for both noun and verb; the meaning changes with stress."
+  },
+  {
+   "id": "ws:051",
+   "word": "request",
+   "syllables": [
+    "re",
+    "quest"
+   ],
+   "stressed": 1,
+   "ipa": "/rɪˈkwest/",
+   "cefr": "A2",
+   "family": [
+    "require:1"
+   ],
+   "rule_en": "Two-syllable verbs usually stress the second syllable; two-syllable nouns usually the first.",
+   "rule_hi": "दो अक्षर वाली क्रियाओं में आमतौर पर दूसरे अक्षर पर, संज्ञाओं में पहले पर ज़ोर होता है।",
+   "hindi_trap": "Very common Indian error: REquest. It is reQUEST for both noun and verb."
+  },
+  {
+   "id": "ws:052",
+   "word": "access",
+   "syllables": [
+    "ac",
+    "cess"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈækses/",
+   "cefr": "A2",
+   "family": [
+    "accessible:1"
+   ],
+   "rule_en": "Two-syllable verbs usually stress the second syllable; two-syllable nouns usually the first.",
+   "rule_hi": "दो अक्षर वाली क्रियाओं में आमतौर पर दूसरे अक्षर पर, संज्ञाओं में पहले पर ज़ोर होता है।",
+   "hindi_trap": "Very common Indian error: acCESS. It is ACcess for both noun and verb."
+  },
+  {
+   "id": "ws:053",
+   "word": "address (verb)",
+   "syllables": [
+    "ad",
+    "dress"
+   ],
+   "stressed": 1,
+   "ipa": "/əˈdres/",
+   "cefr": "B1",
+   "family": [],
+   "rule_en": "Two-syllable verbs usually stress the second syllable; two-syllable nouns usually the first.",
+   "rule_hi": "दो अक्षर वाली क्रियाओं में आमतौर पर दूसरे अक्षर पर, संज्ञाओं में पहले पर ज़ोर होता है।",
+   "hindi_trap": "'adDRESS the issue' — second syllable; first vowel is a schwa."
+  },
+  {
+   "id": "ws:054",
+   "word": "purchase",
+   "syllables": [
+    "pur",
+    "chase"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈpɜːrtʃəs/",
+   "cefr": "B1",
+   "family": [],
+   "rule_en": "Two-syllable verbs usually stress the second syllable; two-syllable nouns usually the first.",
+   "rule_hi": "दो अक्षर वाली क्रियाओं में आमतौर पर दूसरे अक्षर पर, संज्ञाओं में पहले पर ज़ोर होता है।",
+   "hindi_trap": "Indians often say pur-CHASE. It is PURchase; the second syllable is /tʃəs/, not 'chase'."
+  },
+  {
+   "id": "ws:055",
+   "word": "colleague",
+   "syllables": [
+    "col",
+    "league"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈkɒliːɡ/",
+   "cefr": "A2",
+   "family": [],
+   "rule_en": "Two-syllable verbs usually stress the second syllable; two-syllable nouns usually the first.",
+   "rule_hi": "दो अक्षर वाली क्रियाओं में आमतौर पर दूसरे अक्षर पर, संज्ञाओं में पहले पर ज़ोर होता है।",
+   "hindi_trap": "Not col-LEAGUE. Stress the first syllable."
+  },
+  {
+   "id": "ws:056",
+   "word": "career",
+   "syllables": [
+    "ca",
+    "reer"
+   ],
+   "stressed": 1,
+   "ipa": "/kəˈrɪr/",
+   "cefr": "A2",
+   "family": [],
+   "rule_en": "Two-syllable verbs usually stress the second syllable; two-syllable nouns usually the first.",
+   "rule_hi": "दो अक्षर वाली क्रियाओं में आमतौर पर दूसरे अक्षर पर, संज्ञाओं में पहले पर ज़ोर होता है।",
+   "hindi_trap": "Indians say CAreer; it is caREER, first syllable is /kə/."
+  },
+  {
+   "id": "ws:057",
+   "word": "delete",
+   "syllables": [
+    "de",
+    "lete"
+   ],
+   "stressed": 1,
+   "ipa": "/dɪˈliːt/",
+   "cefr": "A2",
+   "family": [
+    "deletion:1"
+   ],
+   "rule_en": "Two-syllable verbs usually stress the second syllable; two-syllable nouns usually the first.",
+   "rule_hi": "दो अक्षर वाली क्रियाओं में आमतौर पर दूसरे अक्षर पर, संज्ञाओं में पहले पर ज़ोर होता है।",
+   "hindi_trap": "deLETE, not DElete."
+  },
+  {
+   "id": "ws:058",
+   "word": "remote",
+   "syllables": [
+    "re",
+    "mote"
+   ],
+   "stressed": 1,
+   "ipa": "/rɪˈmoʊt/",
+   "cefr": "A2",
+   "family": [
+    "remotely:1"
+   ],
+   "rule_en": "Two-syllable verbs usually stress the second syllable; two-syllable nouns usually the first.",
+   "rule_hi": "दो अक्षर वाली क्रियाओं में आमतौर पर दूसरे अक्षर पर, संज्ञाओं में पहले पर ज़ोर होता है।",
+   "hindi_trap": "reMOTE, not REmote."
+  },
+  {
+   "id": "ws:059",
+   "word": "event",
+   "syllables": [
+    "e",
+    "vent"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪˈvent/",
+   "cefr": "A2",
+   "family": [
+    "eventually:1"
+   ],
+   "rule_en": "Two-syllable verbs usually stress the second syllable; two-syllable nouns usually the first.",
+   "rule_hi": "दो अक्षर वाली क्रियाओं में आमतौर पर दूसरे अक्षर पर, संज्ञाओं में पहले पर ज़ोर होता है।",
+   "hindi_trap": "Indians often say Event; it is eVENT."
+  },
+  {
+   "id": "ws:060",
+   "word": "hotel",
+   "syllables": [
+    "ho",
+    "tel"
+   ],
+   "stressed": 1,
+   "ipa": "/hoʊˈtel/",
+   "cefr": "A1",
+   "family": [],
+   "rule_en": "Two-syllable verbs usually stress the second syllable; two-syllable nouns usually the first.",
+   "rule_hi": "दो अक्षर वाली क्रियाओं में आमतौर पर दूसरे अक्षर पर, संज्ञाओं में पहले पर ज़ोर होता है।",
+   "hindi_trap": "HOtel is a very common Indian error; it is hoTEL."
+  },
+  {
+   "id": "ws:061",
+   "word": "detail",
+   "syllables": [
+    "de",
+    "tail"
+   ],
+   "stressed": 1,
+   "ipa": "/dɪˈteɪl/",
+   "cefr": "A2",
+   "family": [
+    "detailed:1"
+   ],
+   "rule_en": "Two-syllable verbs usually stress the second syllable; two-syllable nouns usually the first.",
+   "rule_hi": "दो अक्षर वाली क्रियाओं में आमतौर पर दूसरे अक्षर पर, संज्ञाओं में पहले पर ज़ोर होता है।",
+   "hindi_trap": "British: deTAIL. American also accepts DEtail, but the second-syllable stress is safest."
+  },
+  {
+   "id": "ws:062",
+   "word": "develop",
+   "syllables": [
+    "de",
+    "vel",
+    "op"
+   ],
+   "stressed": 1,
+   "ipa": "/dɪˈveləp/",
+   "cefr": "A2",
+   "family": [
+    "development:1",
+    "developer:1"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "DEvelop is a classic Indian error; it is deVELop."
+  },
+  {
+   "id": "ws:063",
+   "word": "development",
+   "syllables": [
+    "de",
+    "vel",
+    "op",
+    "ment"
+   ],
+   "stressed": 1,
+   "ipa": "/dɪˈveləpmənt/",
+   "cefr": "B1",
+   "family": [
+    "develop:1"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "Not DEvelopment; stress VEL."
+  },
+  {
+   "id": "ws:064",
+   "word": "committee",
+   "syllables": [
+    "com",
+    "mit",
+    "tee"
+   ],
+   "stressed": 1,
+   "ipa": "/kəˈmɪti/",
+   "cefr": "B1",
+   "family": [],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "An exception to the -ee rule: comMITtee, not commitTEE."
+  },
+  {
+   "id": "ws:065",
+   "word": "maintenance",
+   "syllables": [
+    "main",
+    "te",
+    "nance"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈmeɪntənəns/",
+   "cefr": "B1",
+   "family": [
+    "maintain:1"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "Indians say main-TE-nance; it is MAINtenance (three syllables, not four)."
+  },
+  {
+   "id": "ws:066",
+   "word": "industry",
+   "syllables": [
+    "in",
+    "dus",
+    "try"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈɪndəstri/",
+   "cefr": "B1",
+   "family": [
+    "industrial:1"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "INdustry, not in-DUS-try. But inDUStrial moves the stress."
+  },
+  {
+   "id": "ws:067",
+   "word": "democracy",
+   "syllables": [
+    "de",
+    "moc",
+    "ra",
+    "cy"
+   ],
+   "stressed": 1,
+   "ipa": "/dɪˈmɒkrəsi/",
+   "cefr": "B2",
+   "family": [
+    "democratic:2"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "deMOCracy (noun) but demoCRATic (adjective)."
+  },
+  {
+   "id": "ws:068",
+   "word": "economy",
+   "syllables": [
+    "e",
+    "con",
+    "o",
+    "my"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪˈkɒnəmi/",
+   "cefr": "B1",
+   "family": [
+    "economic:2",
+    "economical:2"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "eCONomy but ecoNOMic."
+  },
+  {
+   "id": "ws:069",
+   "word": "parameter",
+   "syllables": [
+    "pa",
+    "ram",
+    "e",
+    "ter"
+   ],
+   "stressed": 1,
+   "ipa": "/pəˈræmɪtər/",
+   "cefr": "B2",
+   "family": [],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "Very common tech error: PAra-meter. It is paRAMeter."
+  },
+  {
+   "id": "ws:070",
+   "word": "certificate",
+   "syllables": [
+    "cer",
+    "tif",
+    "i",
+    "cate"
+   ],
+   "stressed": 1,
+   "ipa": "/sərˈtɪfɪkət/",
+   "cefr": "B1",
+   "family": [
+    "certify:0"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "cerTIFicate; the final -cate is /kət/, not 'cate'."
+  },
+  {
+   "id": "ws:071",
+   "word": "advertisement",
+   "syllables": [
+    "ad",
+    "ver",
+    "tise",
+    "ment"
+   ],
+   "stressed": 1,
+   "ipa": "/ədˈvɜːrtɪsmənt/",
+   "cefr": "B1",
+   "family": [
+    "advertise:0"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "British: adVERtisement. Indian speakers say adverTISEment (American: adverTISEment is also accepted)."
+  },
+  {
+   "id": "ws:072",
+   "word": "infrastructure",
+   "syllables": [
+    "in",
+    "fra",
+    "struc",
+    "ture"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈɪnfrəstrʌktʃər/",
+   "cefr": "B2",
+   "family": [],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "INfrastructure, not infraSTRUCture."
+  },
+  {
+   "id": "ws:073",
+   "word": "executive",
+   "syllables": [
+    "ex",
+    "ec",
+    "u",
+    "tive"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪɡˈzekjətɪv/",
+   "cefr": "B2",
+   "family": [
+    "execute:0",
+    "execution:2"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "exECutive, not EXecutive."
+  },
+  {
+   "id": "ws:074",
+   "word": "technical",
+   "syllables": [
+    "tech",
+    "ni",
+    "cal"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈteknɪkl/",
+   "cefr": "B1",
+   "family": [
+    "technique:1",
+    "technology:1"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "TECHnical, but techNIQUE and techNOLogy."
+  },
+  {
+   "id": "ws:075",
+   "word": "technology",
+   "syllables": [
+    "tech",
+    "nol",
+    "o",
+    "gy"
+   ],
+   "stressed": 1,
+   "ipa": "/tekˈnɒlədʒi/",
+   "cefr": "B1",
+   "family": [
+    "technological:3"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "techNOLogy, not TECHnology."
+  },
+  {
+   "id": "ws:076",
+   "word": "successful",
+   "syllables": [
+    "suc",
+    "cess",
+    "ful"
+   ],
+   "stressed": 1,
+   "ipa": "/səkˈsesfl/",
+   "cefr": "B1",
+   "family": [
+    "success:1"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "sucCESSful; the first syllable is a tiny /sək/."
+  },
+  {
+   "id": "ws:077",
+   "word": "comfortable",
+   "syllables": [
+    "com",
+    "fort",
+    "a",
+    "ble"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈkʌmftəbl/",
+   "cefr": "A2",
+   "family": [
+    "comfort:0"
+   ],
+   "rule_en": "Many -able words stress the first syllable, not the -able part.",
+   "rule_hi": "-able वाले कई शब्दों में ज़ोर पहले अक्षर पर होता है, -able पर नहीं।",
+   "hindi_trap": "COMftable — native speakers drop the 'or'. Not com-FOR-table."
+  },
+  {
+   "id": "ws:078",
+   "word": "vegetable",
+   "syllables": [
+    "veg",
+    "e",
+    "ta",
+    "ble"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈvedʒtəbl/",
+   "cefr": "A1",
+   "family": [],
+   "rule_en": "Many -able words stress the first syllable, not the -able part.",
+   "rule_hi": "-able वाले कई शब्दों में ज़ोर पहले अक्षर पर होता है, -able पर नहीं।",
+   "hindi_trap": "VEGtable — three syllables in speech, not ve-ge-TA-ble."
+  },
+  {
+   "id": "ws:079",
+   "word": "processing",
+   "syllables": [
+    "pro",
+    "cess",
+    "ing"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈprɒsesɪŋ/",
+   "cefr": "B1",
+   "family": [
+    "process:0"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "PROcessing, not proCESSing."
+  },
+  {
+   "id": "ws:080",
+   "word": "process",
+   "syllables": [
+    "pro",
+    "cess"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈprɒses/",
+   "cefr": "A2",
+   "family": [
+    "procedure:1"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "PROcess (noun and verb). But proCEDure."
+  },
+  {
+   "id": "ws:081",
+   "word": "analysis",
+   "syllables": [
+    "a",
+    "nal",
+    "y",
+    "sis"
+   ],
+   "stressed": 1,
+   "ipa": "/əˈnæləsɪs/",
+   "cefr": "B1",
+   "family": [
+    "analyse:0",
+    "analyst:0",
+    "analytical:2"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "aNALysis, but ANalyse and anaLYTical."
+  },
+  {
+   "id": "ws:082",
+   "word": "photograph",
+   "syllables": [
+    "pho",
+    "to",
+    "graph"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈfoʊtəɡræf/",
+   "cefr": "A2",
+   "family": [
+    "photographer:1",
+    "photographic:2",
+    "photography:1"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "The stress moves in the family: PHOtograph, phoTOGrapher, photoGRAPHic."
+  },
+  {
+   "id": "ws:083",
+   "word": "photographer",
+   "syllables": [
+    "pho",
+    "tog",
+    "ra",
+    "pher"
+   ],
+   "stressed": 1,
+   "ipa": "/fəˈtɒɡrəfər/",
+   "cefr": "B1",
+   "family": [
+    "photograph:0",
+    "photography:1"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "phoTOGrapher — not PHOtographer."
+  },
+  {
+   "id": "ws:084",
+   "word": "photography",
+   "syllables": [
+    "pho",
+    "tog",
+    "ra",
+    "phy"
+   ],
+   "stressed": 1,
+   "ipa": "/fəˈtɒɡrəfi/",
+   "cefr": "B1",
+   "family": [
+    "photograph:0"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:085",
+   "word": "politics",
+   "syllables": [
+    "pol",
+    "i",
+    "tics"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈpɒlətɪks/",
+   "cefr": "B1",
+   "family": [
+    "political:1",
+    "politician:2"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "POLitics, poLITical, poliTICian — stress shifts every time."
+  },
+  {
+   "id": "ws:086",
+   "word": "political",
+   "syllables": [
+    "po",
+    "lit",
+    "i",
+    "cal"
+   ],
+   "stressed": 1,
+   "ipa": "/pəˈlɪtɪkl/",
+   "cefr": "B1",
+   "family": [
+    "politics:0"
+   ],
+   "rule_en": "Words ending in -ic stress the syllable just before -ic.",
+   "rule_hi": "-ic से ख़त्म होने वाले शब्दों में ज़ोर -ic से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:087",
+   "word": "politician",
+   "syllables": [
+    "pol",
+    "i",
+    "ti",
+    "cian"
+   ],
+   "stressed": 2,
+   "ipa": "/pɒləˈtɪʃn/",
+   "cefr": "B1",
+   "family": [
+    "politics:0"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:088",
+   "word": "mechanism",
+   "syllables": [
+    "mech",
+    "a",
+    "nism"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈmekənɪzəm/",
+   "cefr": "B2",
+   "family": [
+    "mechanic:1",
+    "mechanical:1"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "MECHanism but meCHANic."
+  },
+  {
+   "id": "ws:089",
+   "word": "interesting",
+   "syllables": [
+    "in",
+    "tres",
+    "ting"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈɪntrəstɪŋ/",
+   "cefr": "A2",
+   "family": [
+    "interest:0"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "INtresting — three syllables. Not in-te-RES-ting."
+  },
+  {
+   "id": "ws:090",
+   "word": "determine",
+   "syllables": [
+    "de",
+    "ter",
+    "mine"
+   ],
+   "stressed": 1,
+   "ipa": "/dɪˈtɜːrmɪn/",
+   "cefr": "B2",
+   "family": [
+    "determination:3"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "deTERmine — the last syllable is /mɪn/, not 'mine'."
+  },
+  {
+   "id": "ws:091",
+   "word": "category",
+   "syllables": [
+    "cat",
+    "e",
+    "go",
+    "ry"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈkætəɡɔːri/",
+   "cefr": "B1",
+   "family": [
+    "categorise:0"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "CATegory, not caTEgory."
+  },
+  {
+   "id": "ws:092",
+   "word": "mandatory",
+   "syllables": [
+    "man",
+    "da",
+    "to",
+    "ry"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈmændətɔːri/",
+   "cefr": "B2",
+   "family": [],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "MANdatory, not manDAtory."
+  },
+  {
+   "id": "ws:093",
+   "word": "necessary",
+   "syllables": [
+    "nec",
+    "es",
+    "sar",
+    "y"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈnesəseri/",
+   "cefr": "A2",
+   "family": [
+    "necessarily:2",
+    "necessity:1"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "NECessary, but neCESSity."
+  },
+  {
+   "id": "ws:094",
+   "word": "alternative",
+   "syllables": [
+    "al",
+    "ter",
+    "na",
+    "tive"
+   ],
+   "stressed": 1,
+   "ipa": "/ɔːlˈtɜːrnətɪv/",
+   "cefr": "B1",
+   "family": [
+    "alternate:0"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "alTERnative, not ALternative."
+  },
+  {
+   "id": "ws:095",
+   "word": "character",
+   "syllables": [
+    "char",
+    "ac",
+    "ter"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈkærəktər/",
+   "cefr": "A2",
+   "family": [
+    "characteristic:3"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "CHARacter, but characteRIStic."
+  },
+  {
+   "id": "ws:096",
+   "word": "competitive",
+   "syllables": [
+    "com",
+    "pet",
+    "i",
+    "tive"
+   ],
+   "stressed": 1,
+   "ipa": "/kəmˈpetətɪv/",
+   "cefr": "B2",
+   "family": [
+    "compete:1",
+    "competition:2"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "comPETitive, but compeTItion."
+  },
+  {
+   "id": "ws:097",
+   "word": "comparable",
+   "syllables": [
+    "com",
+    "pa",
+    "ra",
+    "ble"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈkɒmpərəbl/",
+   "cefr": "C1",
+   "family": [
+    "compare:1"
+   ],
+   "rule_en": "Many -able words stress the first syllable, not the -able part.",
+   "rule_hi": "-able वाले कई शब्दों में ज़ोर पहले अक्षर पर होता है, -able पर नहीं।",
+   "hindi_trap": "COMparable — not comPARable, even though it is comPARE."
+  },
+  {
+   "id": "ws:098",
+   "word": "preferable",
+   "syllables": [
+    "pref",
+    "er",
+    "a",
+    "ble"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈprefərəbl/",
+   "cefr": "C1",
+   "family": [
+    "prefer:1"
+   ],
+   "rule_en": "Many -able words stress the first syllable, not the -able part.",
+   "rule_hi": "-able वाले कई शब्दों में ज़ोर पहले अक्षर पर होता है, -able पर नहीं।",
+   "hindi_trap": "PREFerable — not preFERable, even though it is preFER."
+  },
+  {
+   "id": "ws:099",
+   "word": "admirable",
+   "syllables": [
+    "ad",
+    "mi",
+    "ra",
+    "ble"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈædmərəbl/",
+   "cefr": "C1",
+   "family": [
+    "admire:1"
+   ],
+   "rule_en": "Many -able words stress the first syllable, not the -able part.",
+   "rule_hi": "-able वाले कई शब्दों में ज़ोर पहले अक्षर पर होता है, -able पर नहीं।",
+   "hindi_trap": "ADmirable, though it is adMIRE."
+  },
+  {
+   "id": "ws:100",
+   "word": "formidable",
+   "syllables": [
+    "for",
+    "mi",
+    "da",
+    "ble"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈfɔːrmɪdəbl/",
+   "cefr": "C1",
+   "family": [],
+   "rule_en": "Many -able words stress the first syllable, not the -able part.",
+   "rule_hi": "-able वाले कई शब्दों में ज़ोर पहले अक्षर पर होता है, -able पर नहीं।",
+   "hindi_trap": "FORmidable, not forMIDable."
+  },
+  {
+   "id": "ws:101",
+   "word": "information",
+   "syllables": [
+    "in",
+    "for",
+    "ma",
+    "tion"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌɪnfərˈmeɪʃn/",
+   "cefr": "A1",
+   "family": [
+    "inform:1"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "inforMAtion — Indians often flatten this to four equal syllables."
+  },
+  {
+   "id": "ws:102",
+   "word": "decision",
+   "syllables": [
+    "de",
+    "ci",
+    "sion"
+   ],
+   "stressed": 1,
+   "ipa": "/dɪˈsɪʒn/",
+   "cefr": "A2",
+   "family": [
+    "decide:1",
+    "decisive:1"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "deCIsion — the -sion is /ʒn/, one short syllable."
+  },
+  {
+   "id": "ws:103",
+   "word": "education",
+   "syllables": [
+    "ed",
+    "u",
+    "ca",
+    "tion"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌedʒuˈkeɪʃn/",
+   "cefr": "A2",
+   "family": [
+    "educate:0"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:104",
+   "word": "permission",
+   "syllables": [
+    "per",
+    "mis",
+    "sion"
+   ],
+   "stressed": 1,
+   "ipa": "/pərˈmɪʃn/",
+   "cefr": "A2",
+   "family": [
+    "permit (verb):1"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:105",
+   "word": "organisation",
+   "syllables": [
+    "or",
+    "gan",
+    "i",
+    "sa",
+    "tion"
+   ],
+   "stressed": 3,
+   "ipa": "/ˌɔːrɡənaɪˈzeɪʃn/",
+   "cefr": "B1",
+   "family": [
+    "organise:0"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:106",
+   "word": "communication",
+   "syllables": [
+    "com",
+    "mu",
+    "ni",
+    "ca",
+    "tion"
+   ],
+   "stressed": 3,
+   "ipa": "/kəˌmjuːnɪˈkeɪʃn/",
+   "cefr": "B1",
+   "family": [
+    "communicate:1"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:107",
+   "word": "remediation",
+   "syllables": [
+    "re",
+    "me",
+    "di",
+    "a",
+    "tion"
+   ],
+   "stressed": 3,
+   "ipa": "/rɪˌmiːdiˈeɪʃn/",
+   "cefr": "C1",
+   "family": [
+    "remediate:1",
+    "remedy:0"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "remediAtion — the stress moves from reMEdiate."
+  },
+  {
+   "id": "ws:108",
+   "word": "escalation",
+   "syllables": [
+    "es",
+    "ca",
+    "la",
+    "tion"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌeskəˈleɪʃn/",
+   "cefr": "B2",
+   "family": [
+    "escalate:0"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:109",
+   "word": "mitigation",
+   "syllables": [
+    "mit",
+    "i",
+    "ga",
+    "tion"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌmɪtɪˈɡeɪʃn/",
+   "cefr": "C1",
+   "family": [
+    "mitigate:0"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:110",
+   "word": "configuration",
+   "syllables": [
+    "con",
+    "fig",
+    "u",
+    "ra",
+    "tion"
+   ],
+   "stressed": 3,
+   "ipa": "/kənˌfɪɡəˈreɪʃn/",
+   "cefr": "B2",
+   "family": [
+    "configure:1"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "configuRAtion — five syllables, one big stress."
+  },
+  {
+   "id": "ws:111",
+   "word": "authentication",
+   "syllables": [
+    "au",
+    "then",
+    "ti",
+    "ca",
+    "tion"
+   ],
+   "stressed": 3,
+   "ipa": "/ɔːˌθentɪˈkeɪʃn/",
+   "cefr": "B2",
+   "family": [
+    "authenticate:1"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:112",
+   "word": "exploitation",
+   "syllables": [
+    "ex",
+    "ploi",
+    "ta",
+    "tion"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌeksplɔɪˈteɪʃn/",
+   "cefr": "C1",
+   "family": [
+    "exploit (verb):1"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:113",
+   "word": "explanation",
+   "syllables": [
+    "ex",
+    "pla",
+    "na",
+    "tion"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌekspləˈneɪʃn/",
+   "cefr": "B1",
+   "family": [
+    "explain:1"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:114",
+   "word": "vulnerability",
+   "syllables": [
+    "vul",
+    "ner",
+    "a",
+    "bil",
+    "i",
+    "ty"
+   ],
+   "stressed": 3,
+   "ipa": "/ˌvʌlnərəˈbɪləti/",
+   "cefr": "C1",
+   "family": [
+    "vulnerable:0"
+   ],
+   "rule_en": "Words ending in -ity stress the syllable just before -ity.",
+   "rule_hi": "-ity वाले शब्दों में ज़ोर -ity से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "vulneraBILity — six syllables; only BIL is strong. VULnerable stresses the first."
+  },
+  {
+   "id": "ws:115",
+   "word": "ability",
+   "syllables": [
+    "a",
+    "bil",
+    "i",
+    "ty"
+   ],
+   "stressed": 1,
+   "ipa": "/əˈbɪləti/",
+   "cefr": "A2",
+   "family": [
+    "able:0"
+   ],
+   "rule_en": "Words ending in -ity stress the syllable just before -ity.",
+   "rule_hi": "-ity वाले शब्दों में ज़ोर -ity से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:116",
+   "word": "security",
+   "syllables": [
+    "se",
+    "cu",
+    "ri",
+    "ty"
+   ],
+   "stressed": 1,
+   "ipa": "/sɪˈkjʊrəti/",
+   "cefr": "A2",
+   "family": [
+    "secure:1"
+   ],
+   "rule_en": "Words ending in -ity stress the syllable just before -ity.",
+   "rule_hi": "-ity वाले शब्दों में ज़ोर -ity से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "seCUrity — Indians sometimes say SEcurity."
+  },
+  {
+   "id": "ws:117",
+   "word": "priority",
+   "syllables": [
+    "pri",
+    "or",
+    "i",
+    "ty"
+   ],
+   "stressed": 1,
+   "ipa": "/praɪˈɒrəti/",
+   "cefr": "B1",
+   "family": [
+    "prior:0",
+    "prioritise:1"
+   ],
+   "rule_en": "Words ending in -ity stress the syllable just before -ity.",
+   "rule_hi": "-ity वाले शब्दों में ज़ोर -ity से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "priORity, not PRIority."
+  },
+  {
+   "id": "ws:118",
+   "word": "severity",
+   "syllables": [
+    "se",
+    "ver",
+    "i",
+    "ty"
+   ],
+   "stressed": 1,
+   "ipa": "/sɪˈverəti/",
+   "cefr": "B2",
+   "family": [
+    "severe:1"
+   ],
+   "rule_en": "Words ending in -ity stress the syllable just before -ity.",
+   "rule_hi": "-ity वाले शब्दों में ज़ोर -ity से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "seVERity — first syllable is /sɪ/."
+  },
+  {
+   "id": "ws:119",
+   "word": "responsibility",
+   "syllables": [
+    "re",
+    "spon",
+    "si",
+    "bil",
+    "i",
+    "ty"
+   ],
+   "stressed": 3,
+   "ipa": "/rɪˌspɒnsəˈbɪləti/",
+   "cefr": "B1",
+   "family": [
+    "responsible:1"
+   ],
+   "rule_en": "Words ending in -ity stress the syllable just before -ity.",
+   "rule_hi": "-ity वाले शब्दों में ज़ोर -ity से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:120",
+   "word": "opportunity",
+   "syllables": [
+    "op",
+    "por",
+    "tu",
+    "ni",
+    "ty"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌɒpərˈtjuːnəti/",
+   "cefr": "B1",
+   "family": [],
+   "rule_en": "Words ending in -ity stress the syllable just before -ity.",
+   "rule_hi": "-ity वाले शब्दों में ज़ोर -ity से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:121",
+   "word": "availability",
+   "syllables": [
+    "a",
+    "vail",
+    "a",
+    "bil",
+    "i",
+    "ty"
+   ],
+   "stressed": 3,
+   "ipa": "/əˌveɪləˈbɪləti/",
+   "cefr": "B2",
+   "family": [
+    "available:1"
+   ],
+   "rule_en": "Words ending in -ity stress the syllable just before -ity.",
+   "rule_hi": "-ity वाले शब्दों में ज़ोर -ity से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:122",
+   "word": "university",
+   "syllables": [
+    "u",
+    "ni",
+    "ver",
+    "si",
+    "ty"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌjuːnɪˈvɜːrsəti/",
+   "cefr": "A2",
+   "family": [],
+   "rule_en": "Words ending in -ity stress the syllable just before -ity.",
+   "rule_hi": "-ity वाले शब्दों में ज़ोर -ity से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:123",
+   "word": "integrity",
+   "syllables": [
+    "in",
+    "teg",
+    "ri",
+    "ty"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪnˈteɡrəti/",
+   "cefr": "B2",
+   "family": [],
+   "rule_en": "Words ending in -ity stress the syllable just before -ity.",
+   "rule_hi": "-ity वाले शब्दों में ज़ोर -ity से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:124",
+   "word": "economic",
+   "syllables": [
+    "ec",
+    "o",
+    "nom",
+    "ic"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌiːkəˈnɒmɪk/",
+   "cefr": "B1",
+   "family": [
+    "economy:1"
+   ],
+   "rule_en": "Words ending in -ic stress the syllable just before -ic.",
+   "rule_hi": "-ic से ख़त्म होने वाले शब्दों में ज़ोर -ic से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "ecoNOMic, but eCONomy."
+  },
+  {
+   "id": "ws:125",
+   "word": "photographic",
+   "syllables": [
+    "pho",
+    "to",
+    "graph",
+    "ic"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌfoʊtəˈɡræfɪk/",
+   "cefr": "B2",
+   "family": [
+    "photograph:0"
+   ],
+   "rule_en": "Words ending in -ic stress the syllable just before -ic.",
+   "rule_hi": "-ic से ख़त्म होने वाले शब्दों में ज़ोर -ic से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:126",
+   "word": "specific",
+   "syllables": [
+    "spe",
+    "cif",
+    "ic"
+   ],
+   "stressed": 1,
+   "ipa": "/spəˈsɪfɪk/",
+   "cefr": "B1",
+   "family": [
+    "specify:0"
+   ],
+   "rule_en": "Words ending in -ic stress the syllable just before -ic.",
+   "rule_hi": "-ic से ख़त्म होने वाले शब्दों में ज़ोर -ic से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "speCIFic, but SPECify."
+  },
+  {
+   "id": "ws:127",
+   "word": "scientific",
+   "syllables": [
+    "sci",
+    "en",
+    "tif",
+    "ic"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌsaɪənˈtɪfɪk/",
+   "cefr": "B1",
+   "family": [
+    "science:0"
+   ],
+   "rule_en": "Words ending in -ic stress the syllable just before -ic.",
+   "rule_hi": "-ic से ख़त्म होने वाले शब्दों में ज़ोर -ic से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:128",
+   "word": "electric",
+   "syllables": [
+    "e",
+    "lec",
+    "tric"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪˈlektrɪk/",
+   "cefr": "A2",
+   "family": [
+    "electricity:2"
+   ],
+   "rule_en": "Words ending in -ic stress the syllable just before -ic.",
+   "rule_hi": "-ic से ख़त्म होने वाले शब्दों में ज़ोर -ic से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "eLECtric, but elecTRIcity."
+  },
+  {
+   "id": "ws:129",
+   "word": "automatic",
+   "syllables": [
+    "au",
+    "to",
+    "mat",
+    "ic"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌɔːtəˈmætɪk/",
+   "cefr": "B1",
+   "family": [
+    "automate:0"
+   ],
+   "rule_en": "Words ending in -ic stress the syllable just before -ic.",
+   "rule_hi": "-ic से ख़त्म होने वाले शब्दों में ज़ोर -ic से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:130",
+   "word": "strategic",
+   "syllables": [
+    "stra",
+    "te",
+    "gic"
+   ],
+   "stressed": 1,
+   "ipa": "/strəˈtiːdʒɪk/",
+   "cefr": "B2",
+   "family": [
+    "strategy:0"
+   ],
+   "rule_en": "Words ending in -ic stress the syllable just before -ic.",
+   "rule_hi": "-ic से ख़त्म होने वाले शब्दों में ज़ोर -ic से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "straTEgic, but STRATegy."
+  },
+  {
+   "id": "ws:131",
+   "word": "realistic",
+   "syllables": [
+    "re",
+    "al",
+    "is",
+    "tic"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌriːəˈlɪstɪk/",
+   "cefr": "B1",
+   "family": [
+    "real:0",
+    "reality:1"
+   ],
+   "rule_en": "Words ending in -ic stress the syllable just before -ic.",
+   "rule_hi": "-ic से ख़त्म होने वाले शब्दों में ज़ोर -ic से ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:132",
+   "word": "identify",
+   "syllables": [
+    "i",
+    "den",
+    "ti",
+    "fy"
+   ],
+   "stressed": 1,
+   "ipa": "/aɪˈdentɪfaɪ/",
+   "cefr": "B1",
+   "family": [
+    "identity:1"
+   ],
+   "rule_en": "Verbs ending in -ify stress two syllables before the ending.",
+   "rule_hi": "-ify वाली क्रियाओं में ज़ोर अंत से दो अक्षर पहले होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:133",
+   "word": "verify",
+   "syllables": [
+    "ver",
+    "i",
+    "fy"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈverɪfaɪ/",
+   "cefr": "B1",
+   "family": [
+    "verification:3"
+   ],
+   "rule_en": "Verbs ending in -ify stress two syllables before the ending.",
+   "rule_hi": "-ify वाली क्रियाओं में ज़ोर अंत से दो अक्षर पहले होता है।",
+   "hindi_trap": "VERify, but verifiCAtion."
+  },
+  {
+   "id": "ws:134",
+   "word": "classify",
+   "syllables": [
+    "clas",
+    "si",
+    "fy"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈklæsɪfaɪ/",
+   "cefr": "B2",
+   "family": [
+    "classification:3"
+   ],
+   "rule_en": "Verbs ending in -ify stress two syllables before the ending.",
+   "rule_hi": "-ify वाली क्रियाओं में ज़ोर अंत से दो अक्षर पहले होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:135",
+   "word": "notify",
+   "syllables": [
+    "no",
+    "ti",
+    "fy"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈnoʊtɪfaɪ/",
+   "cefr": "B1",
+   "family": [
+    "notification:3"
+   ],
+   "rule_en": "Verbs ending in -ify stress two syllables before the ending.",
+   "rule_hi": "-ify वाली क्रियाओं में ज़ोर अंत से दो अक्षर पहले होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:136",
+   "word": "simplify",
+   "syllables": [
+    "sim",
+    "pli",
+    "fy"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈsɪmplɪfaɪ/",
+   "cefr": "B1",
+   "family": [
+    "simple:0"
+   ],
+   "rule_en": "Verbs ending in -ify stress two syllables before the ending.",
+   "rule_hi": "-ify वाली क्रियाओं में ज़ोर अंत से दो अक्षर पहले होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:137",
+   "word": "mitigate",
+   "syllables": [
+    "mit",
+    "i",
+    "gate"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈmɪtɪɡeɪt/",
+   "cefr": "C1",
+   "family": [
+    "mitigation:2"
+   ],
+   "rule_en": "Verbs ending in -ate stress two syllables before -ate (in 3+ syllable words).",
+   "rule_hi": "-ate वाली क्रियाओं में ज़ोर -ate से दो अक्षर पहले होता है (3+ अक्षर वाले शब्दों में)।",
+   "hindi_trap": "MITigate, not mitiGATE."
+  },
+  {
+   "id": "ws:138",
+   "word": "escalate",
+   "syllables": [
+    "es",
+    "ca",
+    "late"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈeskəleɪt/",
+   "cefr": "B2",
+   "family": [
+    "escalation:2"
+   ],
+   "rule_en": "Verbs ending in -ate stress two syllables before -ate (in 3+ syllable words).",
+   "rule_hi": "-ate वाली क्रियाओं में ज़ोर -ate से दो अक्षर पहले होता है (3+ अक्षर वाले शब्दों में)।",
+   "hindi_trap": "EScalate, not escaLATE."
+  },
+  {
+   "id": "ws:139",
+   "word": "remediate",
+   "syllables": [
+    "re",
+    "me",
+    "di",
+    "ate"
+   ],
+   "stressed": 1,
+   "ipa": "/rɪˈmiːdieɪt/",
+   "cefr": "C1",
+   "family": [
+    "remediation:3"
+   ],
+   "rule_en": "Verbs ending in -ate stress two syllables before -ate (in 3+ syllable words).",
+   "rule_hi": "-ate वाली क्रियाओं में ज़ोर -ate से दो अक्षर पहले होता है (3+ अक्षर वाले शब्दों में)।",
+   "hindi_trap": "reMEdiate — four syllables, stress on ME."
+  },
+  {
+   "id": "ws:140",
+   "word": "investigate",
+   "syllables": [
+    "in",
+    "ves",
+    "ti",
+    "gate"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪnˈvestɪɡeɪt/",
+   "cefr": "B1",
+   "family": [
+    "investigation:3"
+   ],
+   "rule_en": "Verbs ending in -ate stress two syllables before -ate (in 3+ syllable words).",
+   "rule_hi": "-ate वाली क्रियाओं में ज़ोर -ate से दो अक्षर पहले होता है (3+ अक्षर वाले शब्दों में)।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:141",
+   "word": "communicate",
+   "syllables": [
+    "com",
+    "mu",
+    "ni",
+    "cate"
+   ],
+   "stressed": 1,
+   "ipa": "/kəˈmjuːnɪkeɪt/",
+   "cefr": "B1",
+   "family": [
+    "communication:3"
+   ],
+   "rule_en": "Verbs ending in -ate stress two syllables before -ate (in 3+ syllable words).",
+   "rule_hi": "-ate वाली क्रियाओं में ज़ोर -ate से दो अक्षर पहले होता है (3+ अक्षर वाले शब्दों में)।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:142",
+   "word": "authenticate",
+   "syllables": [
+    "au",
+    "then",
+    "ti",
+    "cate"
+   ],
+   "stressed": 1,
+   "ipa": "/ɔːˈθentɪkeɪt/",
+   "cefr": "B2",
+   "family": [
+    "authentication:3"
+   ],
+   "rule_en": "Verbs ending in -ate stress two syllables before -ate (in 3+ syllable words).",
+   "rule_hi": "-ate वाली क्रियाओं में ज़ोर -ate से दो अक्षर पहले होता है (3+ अक्षर वाले शब्दों में)।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:143",
+   "word": "evaluate",
+   "syllables": [
+    "e",
+    "val",
+    "u",
+    "ate"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪˈvæljueɪt/",
+   "cefr": "B1",
+   "family": [
+    "evaluation:3"
+   ],
+   "rule_en": "Verbs ending in -ate stress two syllables before -ate (in 3+ syllable words).",
+   "rule_hi": "-ate वाली क्रियाओं में ज़ोर -ate से दो अक्षर पहले होता है (3+ अक्षर वाले शब्दों में)।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:144",
+   "word": "demonstrate",
+   "syllables": [
+    "dem",
+    "on",
+    "strate"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈdemənstreɪt/",
+   "cefr": "B1",
+   "family": [
+    "demonstration:2"
+   ],
+   "rule_en": "Verbs ending in -ate stress two syllables before -ate (in 3+ syllable words).",
+   "rule_hi": "-ate वाली क्रियाओं में ज़ोर -ate से दो अक्षर पहले होता है (3+ अक्षर वाले शब्दों में)।",
+   "hindi_trap": "DEMonstrate, not demonSTRATE."
+  },
+  {
+   "id": "ws:145",
+   "word": "calculate",
+   "syllables": [
+    "cal",
+    "cu",
+    "late"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈkælkjuleɪt/",
+   "cefr": "A2",
+   "family": [
+    "calculation:2"
+   ],
+   "rule_en": "Verbs ending in -ate stress two syllables before -ate (in 3+ syllable words).",
+   "rule_hi": "-ate वाली क्रियाओं में ज़ोर -ate से दो अक्षर पहले होता है (3+ अक्षर वाले शब्दों में)।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:146",
+   "word": "employee",
+   "syllables": [
+    "em",
+    "ploy",
+    "ee"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌɪmplɔɪˈiː/",
+   "cefr": "A2",
+   "family": [
+    "employer:1",
+    "employ:1"
+   ],
+   "rule_en": "Words ending in -ee, -eer, -ese stress the final syllable.",
+   "rule_hi": "-ee, -eer, -ese से ख़त्म होने वाले शब्दों में ज़ोर आख़िरी अक्षर पर होता है।",
+   "hindi_trap": "emploYEE (person) vs emPLOYer (company)."
+  },
+  {
+   "id": "ws:147",
+   "word": "refugee",
+   "syllables": [
+    "ref",
+    "u",
+    "gee"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌrefjuˈdʒiː/",
+   "cefr": "B2",
+   "family": [],
+   "rule_en": "Words ending in -ee, -eer, -ese stress the final syllable.",
+   "rule_hi": "-ee, -eer, -ese से ख़त्म होने वाले शब्दों में ज़ोर आख़िरी अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:148",
+   "word": "engineer",
+   "syllables": [
+    "en",
+    "gi",
+    "neer"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌendʒɪˈnɪr/",
+   "cefr": "A1",
+   "family": [
+    "engineering:2"
+   ],
+   "rule_en": "Words ending in -ee, -eer, -ese stress the final syllable.",
+   "rule_hi": "-ee, -eer, -ese से ख़त्म होने वाले शब्दों में ज़ोर आख़िरी अक्षर पर होता है।",
+   "hindi_trap": "engiNEER, not ENgineer — your own job title!"
+  },
+  {
+   "id": "ws:149",
+   "word": "volunteer",
+   "syllables": [
+    "vol",
+    "un",
+    "teer"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌvɒlənˈtɪr/",
+   "cefr": "B1",
+   "family": [],
+   "rule_en": "Words ending in -ee, -eer, -ese stress the final syllable.",
+   "rule_hi": "-ee, -eer, -ese से ख़त्म होने वाले शब्दों में ज़ोर आख़िरी अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:150",
+   "word": "Japanese",
+   "syllables": [
+    "Jap",
+    "a",
+    "nese"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌdʒæpəˈniːz/",
+   "cefr": "A2",
+   "family": [],
+   "rule_en": "Words ending in -ee, -eer, -ese stress the final syllable.",
+   "rule_hi": "-ee, -eer, -ese से ख़त्म होने वाले शब्दों में ज़ोर आख़िरी अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:151",
+   "word": "Chinese",
+   "syllables": [
+    "Chi",
+    "nese"
+   ],
+   "stressed": 1,
+   "ipa": "/ˌtʃaɪˈniːz/",
+   "cefr": "A2",
+   "family": [],
+   "rule_en": "Words ending in -ee, -eer, -ese stress the final syllable.",
+   "rule_hi": "-ee, -eer, -ese से ख़त्म होने वाले शब्दों में ज़ोर आख़िरी अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:152",
+   "word": "trainee",
+   "syllables": [
+    "train",
+    "ee"
+   ],
+   "stressed": 1,
+   "ipa": "/treɪˈniː/",
+   "cefr": "B1",
+   "family": [
+    "trainer:0"
+   ],
+   "rule_en": "Words ending in -ee, -eer, -ese stress the final syllable.",
+   "rule_hi": "-ee, -eer, -ese से ख़त्म होने वाले शब्दों में ज़ोर आख़िरी अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:153",
+   "word": "guarantee",
+   "syllables": [
+    "guar",
+    "an",
+    "tee"
+   ],
+   "stressed": 2,
+   "ipa": "/ˌɡærənˈtiː/",
+   "cefr": "B1",
+   "family": [],
+   "rule_en": "Words ending in -ee, -eer, -ese stress the final syllable.",
+   "rule_hi": "-ee, -eer, -ese से ख़त्म होने वाले शब्दों में ज़ोर आख़िरी अक्षर पर होता है।",
+   "hindi_trap": "guaranTEE, not GUArantee."
+  },
+  {
+   "id": "ws:154",
+   "word": "password",
+   "syllables": [
+    "pass",
+    "word"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈpæswɜːrd/",
+   "cefr": "A1",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "PASSword — not pass-WORD."
+  },
+  {
+   "id": "ws:155",
+   "word": "firewall",
+   "syllables": [
+    "fire",
+    "wall"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈfaɪərwɔːl/",
+   "cefr": "B1",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:156",
+   "word": "software",
+   "syllables": [
+    "soft",
+    "ware"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈsɒftwer/",
+   "cefr": "A2",
+   "family": [
+    "hardware:0"
+   ],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "SOFTware, not soft-WARE."
+  },
+  {
+   "id": "ws:157",
+   "word": "laptop",
+   "syllables": [
+    "lap",
+    "top"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈlæptɒp/",
+   "cefr": "A1",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:158",
+   "word": "keyboard",
+   "syllables": [
+    "key",
+    "board"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈkiːbɔːrd/",
+   "cefr": "A1",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:159",
+   "word": "database",
+   "syllables": [
+    "da",
+    "ta",
+    "base"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈdeɪtəbeɪs/",
+   "cefr": "B1",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "DAtabase — 'data' is /deɪtə/, not 'dah-tah'."
+  },
+  {
+   "id": "ws:160",
+   "word": "network",
+   "syllables": [
+    "net",
+    "work"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈnetwɜːrk/",
+   "cefr": "A2",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:161",
+   "word": "airport",
+   "syllables": [
+    "air",
+    "port"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈerpɔːrt/",
+   "cefr": "A1",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:162",
+   "word": "website",
+   "syllables": [
+    "web",
+    "site"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈwebsaɪt/",
+   "cefr": "A1",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:163",
+   "word": "bug report",
+   "syllables": [
+    "bug",
+    "re",
+    "port"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈbʌɡ rɪpɔːrt/",
+   "cefr": "B1",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "BUG report — as a compound the first word carries the main stress."
+  },
+  {
+   "id": "ws:164",
+   "word": "blackboard",
+   "syllables": [
+    "black",
+    "board"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈblækbɔːrd/",
+   "cefr": "A2",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "BLACKboard (the object) vs black BOARD (any board that is black)."
+  },
+  {
+   "id": "ws:165",
+   "word": "cyber",
+   "syllables": [
+    "cy",
+    "ber"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈsaɪbər/",
+   "cefr": "B1",
+   "family": [
+    "cybersecurity:0"
+   ],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "CYber, not cy-BER."
+  },
+  {
+   "id": "ws:166",
+   "word": "incident",
+   "syllables": [
+    "in",
+    "ci",
+    "dent"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈɪnsɪdənt/",
+   "cefr": "B1",
+   "family": [],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "INcident — not inCIdent."
+  },
+  {
+   "id": "ws:167",
+   "word": "compromise",
+   "syllables": [
+    "com",
+    "pro",
+    "mise"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈkɒmprəmaɪz/",
+   "cefr": "B2",
+   "family": [],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "COMpromise; the last syllable is /maɪz/."
+  },
+  {
+   "id": "ws:168",
+   "word": "malware",
+   "syllables": [
+    "mal",
+    "ware"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈmælwer/",
+   "cefr": "B2",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:169",
+   "word": "encryption",
+   "syllables": [
+    "en",
+    "cryp",
+    "tion"
+   ],
+   "stressed": 1,
+   "ipa": "/ɪnˈkrɪpʃn/",
+   "cefr": "B2",
+   "family": [
+    "encrypt:1"
+   ],
+   "rule_en": "Words ending in -tion/-sion always stress the syllable just before the ending.",
+   "rule_hi": "-tion/-sion से ख़त्म होने वाले शब्दों में ज़ोर हमेशा उससे ठीक पहले वाले अक्षर पर होता है।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:170",
+   "word": "prototype",
+   "syllables": [
+    "pro",
+    "to",
+    "type"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈproʊtətaɪp/",
+   "cefr": "B2",
+   "family": [],
+   "rule_en": "English stress is unpredictable from spelling; learn the stressed syllable with the word, and make the other syllables short and weak.",
+   "rule_hi": "अंग्रेज़ी में ज़ोर स्पेलिंग से तय नहीं होता; हर शब्द के साथ उसका ज़ोर वाला अक्षर याद करें और बाकी अक्षरों को छोटा और हल्का बोलें।",
+   "hindi_trap": "Hindi gives every syllable equal weight; here the unstressed syllables must shrink to a quick schwa /ə/."
+  },
+  {
+   "id": "ws:171",
+   "word": "login",
+   "syllables": [
+    "log",
+    "in"
+   ],
+   "stressed": 0,
+   "ipa": "/ˈlɒɡɪn/",
+   "cefr": "A2",
+   "family": [],
+   "rule_en": "Compound nouns stress the FIRST element: PASSword, FIREwall.",
+   "rule_hi": "संयुक्त संज्ञाओं (compound nouns) में पहले हिस्से पर ज़ोर होता है: PASSword, FIREwall.",
+   "hindi_trap": "LOGin (noun), but 'log IN' as a phrasal verb."
+  }
+ ],
+ "sentence_stress": [
+  {
+   "id": "ss:001",
+   "sentence": "I want to go to the bank.",
+   "content": [
+    1,
+    3,
+    6
+   ],
+   "weak": {
+    "to": "/tə/",
+    "the": "/ðə/"
+   },
+   "hi": "मैं बैंक जाना चाहता हूँ।",
+   "rhythm": "da-DA-da-DA-da-da-DA",
+   "note_en": "Only want/go/bank are strong; 'to' and 'the' shrink to /tə/ and /ðə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:002",
+   "sentence": "She works as an engineer in Pune.",
+   "content": [
+    1,
+    4,
+    6
+   ],
+   "weak": {
+    "she": "/ʃi/",
+    "as": "/əz/",
+    "an": "/ən/",
+    "in": "/ɪn/"
+   },
+   "hi": "वह पुणे में इंजीनियर के रूप में काम करती है।",
+   "rhythm": "da-DA-da-da-DA-da-DA",
+   "note_en": "'as an' becomes /əzən/ — one quick sound.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:003",
+   "sentence": "We need to fix the bug before Friday.",
+   "content": [
+    1,
+    3,
+    5,
+    7
+   ],
+   "weak": {
+    "we": "/wi/",
+    "to": "/tə/",
+    "the": "/ðə/",
+    "before": "/bɪˈfɔːr/"
+   },
+   "hi": "हमें शुक्रवार से पहले बग ठीक करना है।",
+   "rhythm": "da-DA-da-DA-da-DA-da-DA",
+   "note_en": "Three beats: NEED, FIX, BUG, FRIday — everything else hurries between them.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:004",
+   "sentence": "Can you send me the report by noon?",
+   "content": [
+    2,
+    5,
+    7
+   ],
+   "weak": {
+    "can": "/kən/",
+    "you": "/jə/",
+    "me": "/mi/",
+    "the": "/ðə/",
+    "by": "/baɪ/"
+   },
+   "hi": "क्या आप मुझे दोपहर तक रिपोर्ट भेज सकते हैं?",
+   "rhythm": "da-da-DA-da-da-DA-da-DA",
+   "note_en": "'Can you' is /kənjə/ — not 'CAN YOU'.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:005",
+   "sentence": "The meeting has been moved to Monday.",
+   "content": [
+    1,
+    4,
+    6
+   ],
+   "weak": {
+    "the": "/ðə/",
+    "has": "/həz/",
+    "been": "/bɪn/",
+    "to": "/tə/"
+   },
+   "hi": "मीटिंग सोमवार को कर दी गई है।",
+   "rhythm": "da-DA-da-da-DA-da-DA",
+   "note_en": "'has been' is /həzbɪn/, said fast.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:006",
+   "sentence": "I've never seen a film like that.",
+   "content": [
+    1,
+    2,
+    4,
+    6
+   ],
+   "weak": {
+    "a": "/ə/"
+   },
+   "hi": "मैंने ऐसी फ़िल्म कभी नहीं देखी।",
+   "rhythm": "da-DA-DA-da-DA-da-DA",
+   "note_en": "Negatives like 'never' carry stress; 'that' is stressed here because it is a demonstrative at the end.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:007",
+   "sentence": "He said he would call me back.",
+   "content": [
+    1,
+    4,
+    6
+   ],
+   "weak": {
+    "he": "/i/",
+    "would": "/wəd/",
+    "me": "/mi/"
+   },
+   "hi": "उसने कहा कि वह मुझे वापस कॉल करेगा।",
+   "rhythm": "da-DA-da-da-DA-da-DA",
+   "note_en": "'he would' becomes /hiwəd/ or /hiːd/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:008",
+   "sentence": "There's a vulnerability in the login page.",
+   "content": [
+    2,
+    5,
+    6
+   ],
+   "weak": {
+    "a": "/ə/",
+    "in": "/ɪn/",
+    "the": "/ðə/"
+   },
+   "hi": "लॉगिन पेज में एक कमज़ोरी (vulnerability) है।",
+   "rhythm": "da-da-DA-da-da-DA-DA",
+   "note_en": "One big stress on -BIL- in vulnerability.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:009",
+   "sentence": "We should patch the server tonight.",
+   "content": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "weak": {
+    "we": "/wi/",
+    "the": "/ðə/"
+   },
+   "hi": "हमें आज रात सर्वर पैच करना चाहिए।",
+   "rhythm": "da-DA-DA-da-DA-DA",
+   "note_en": "'should' is often weak, but here it carries advice, so it can be stressed.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:010",
+   "sentence": "What time does the train leave?",
+   "content": [
+    0,
+    1,
+    4,
+    5
+   ],
+   "weak": {
+    "does": "/dəz/",
+    "the": "/ðə/"
+   },
+   "hi": "ट्रेन कितने बजे निकलती है?",
+   "rhythm": "DA-DA-da-da-DA-DA",
+   "note_en": "Wh-questions fall at the end; 'does the' is /dəzðə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:011",
+   "sentence": "I don't think it's a good idea.",
+   "content": [
+    1,
+    2,
+    5,
+    6
+   ],
+   "weak": {
+    "a": "/ə/"
+   },
+   "hi": "मुझे नहीं लगता कि यह अच्छा विचार है।",
+   "rhythm": "da-DA-DA-da-da-DA-DA",
+   "note_en": "'don't' is a stressed negative.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:012",
+   "sentence": "They asked us to review the code again.",
+   "content": [
+    1,
+    4,
+    6,
+    7
+   ],
+   "weak": {
+    "us": "/əs/",
+    "to": "/tə/",
+    "the": "/ðə/"
+   },
+   "hi": "उन्होंने हमसे कोड फिर से रिव्यू करने को कहा।",
+   "rhythm": "da-DA-da-da-DA-da-DA-DA",
+   "note_en": "'us to' becomes /əstə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:013",
+   "sentence": "The attacker used a stolen password.",
+   "content": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "weak": {
+    "the": "/ðə/",
+    "a": "/ə/"
+   },
+   "hi": "हमलावर ने चुराया हुआ पासवर्ड इस्तेमाल किया।",
+   "rhythm": "da-DA-DA-da-DA-DA",
+   "note_en": "Four content words, four beats.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:014",
+   "sentence": "Please escalate this to the security team.",
+   "content": [
+    0,
+    1,
+    5,
+    6
+   ],
+   "weak": {
+    "to": "/tə/",
+    "the": "/ðə/"
+   },
+   "hi": "कृपया इसे सिक्योरिटी टीम तक पहुँचाएँ (escalate करें)।",
+   "rhythm": "DA-DA-da-da-da-DA-DA",
+   "note_en": "'this to the' hurries: /ðɪstəðə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:015",
+   "sentence": "I'm going to the shop to buy some milk.",
+   "content": [
+    1,
+    4,
+    6,
+    8
+   ],
+   "weak": {
+    "to": "/tə/",
+    "the": "/ðə/",
+    "some": "/səm/"
+   },
+   "hi": "मैं दुकान पर दूध खरीदने जा रहा हूँ।",
+   "rhythm": "da-DA-da-da-DA-da-DA-da-DA",
+   "note_en": "'going to the' → /ɡoʊɪntəðə/ or 'gonna the' is NOT used here (going to + place, not + verb).",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:016",
+   "sentence": "How long have you been waiting here?",
+   "content": [
+    0,
+    1,
+    5,
+    6
+   ],
+   "weak": {
+    "have": "/həv/",
+    "you": "/jə/",
+    "been": "/bɪn/"
+   },
+   "hi": "आप यहाँ कब से इंतज़ार कर रहे हैं?",
+   "rhythm": "DA-DA-da-da-da-DA-DA",
+   "note_en": "'have you been' → /həvjəbɪn/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:017",
+   "sentence": "It was one of the best days of my life.",
+   "content": [
+    2,
+    5,
+    6,
+    9
+   ],
+   "weak": {
+    "it": "/ɪt/",
+    "was": "/wəz/",
+    "of": "/əv/",
+    "the": "/ðə/",
+    "my": "/maɪ/"
+   },
+   "hi": "यह मेरी ज़िंदगी के सबसे अच्छे दिनों में से एक था।",
+   "rhythm": "da-da-DA-da-da-DA-DA-da-da-DA",
+   "note_en": "'one of the' → /wʌnəvðə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:018",
+   "sentence": "You can do it if you try.",
+   "content": [
+    1,
+    2,
+    6
+   ],
+   "weak": {
+    "you": "/jə/",
+    "it": "/ɪt/",
+    "if": "/ɪf/"
+   },
+   "hi": "अगर आप कोशिश करें तो आप कर सकते हैं।",
+   "rhythm": "da-DA-DA-da-da-da-DA",
+   "note_en": "Here 'can' is stressed for encouragement — the strong form /kæn/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:019",
+   "sentence": "We found the issue and fixed it in an hour.",
+   "content": [
+    1,
+    3,
+    5,
+    9
+   ],
+   "weak": {
+    "we": "/wi/",
+    "the": "/ðə/",
+    "and": "/ən/",
+    "it": "/ɪt/",
+    "in": "/ɪn/",
+    "an": "/ən/"
+   },
+   "hi": "हमने समस्या ढूँढी और एक घंटे में ठीक कर दी।",
+   "rhythm": "da-DA-da-DA-da-DA-da-da-da-DA",
+   "note_en": "'and' is just /ən/; 'in an' is /ɪnən/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:020",
+   "sentence": "Where did you put the keys?",
+   "content": [
+    0,
+    3,
+    5
+   ],
+   "weak": {
+    "you": "/jə/",
+    "the": "/ðə/"
+   },
+   "hi": "आपने चाबियाँ कहाँ रखीं?",
+   "rhythm": "DA-da-da-DA-da-DA",
+   "note_en": "'did you' → /dɪdʒə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:021",
+   "sentence": "I'll let you know as soon as I can.",
+   "content": [
+    1,
+    3,
+    5,
+    8
+   ],
+   "weak": {
+    "you": "/jə/",
+    "as": "/əz/"
+   },
+   "hi": "जैसे ही मुझे पता चलेगा, मैं आपको बता दूँगा।",
+   "rhythm": "da-DA-da-DA-da-DA-da-da-DA",
+   "note_en": "'can' is final, so it takes its strong form /kæn/ and stress.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:022",
+   "sentence": "The client wants a full report by Tuesday.",
+   "content": [
+    1,
+    2,
+    4,
+    5,
+    7
+   ],
+   "weak": {
+    "the": "/ðə/",
+    "a": "/ə/",
+    "by": "/baɪ/"
+   },
+   "hi": "क्लाइंट को मंगलवार तक पूरी रिपोर्ट चाहिए।",
+   "rhythm": "da-DA-DA-da-DA-DA-da-DA",
+   "note_en": "",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:023",
+   "sentence": "She's been working here for ten years.",
+   "content": [
+    2,
+    3,
+    5,
+    6
+   ],
+   "weak": {
+    "been": "/bɪn/",
+    "for": "/fər/"
+   },
+   "hi": "वह यहाँ दस साल से काम कर रही है।",
+   "rhythm": "da-da-DA-DA-da-DA-DA",
+   "note_en": "'for' is /fər/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:024",
+   "sentence": "We have to disclose the bug to the vendor.",
+   "content": [
+    1,
+    3,
+    5,
+    8
+   ],
+   "weak": {
+    "we": "/wi/",
+    "to": "/tə/",
+    "the": "/ðə/"
+   },
+   "hi": "हमें वेंडर को बग की जानकारी देनी होगी।",
+   "rhythm": "da-DA-da-DA-da-DA-da-da-DA",
+   "note_en": "'have to' is /hæftə/ — 'hafta'.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:025",
+   "sentence": "Why didn't you tell me earlier?",
+   "content": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "weak": {
+    "you": "/jə/",
+    "me": "/mi/"
+   },
+   "hi": "आपने मुझे पहले क्यों नहीं बताया?",
+   "rhythm": "DA-DA-da-DA-da-DA",
+   "note_en": "'didn't you' → /dɪdntʃə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:026",
+   "sentence": "He couldn't reproduce the error on his laptop.",
+   "content": [
+    1,
+    2,
+    4,
+    7
+   ],
+   "weak": {
+    "he": "/i/",
+    "the": "/ðə/",
+    "on": "/ɒn/",
+    "his": "/ɪz/"
+   },
+   "hi": "वह अपने लैपटॉप पर वह एरर दोबारा नहीं ला पाया।",
+   "rhythm": "da-DA-DA-da-DA-da-da-DA",
+   "note_en": "'on his' → /ɒnɪz/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:027",
+   "sentence": "It's not as bad as it looks.",
+   "content": [
+    1,
+    3,
+    6
+   ],
+   "weak": {
+    "as": "/əz/",
+    "it": "/ɪt/"
+   },
+   "hi": "यह उतना बुरा नहीं है जितना दिखता है।",
+   "rhythm": "da-DA-da-DA-da-da-DA",
+   "note_en": "Both 'as' are /əz/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:028",
+   "sentence": "Turn it off and on again.",
+   "content": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "weak": {
+    "it": "/ɪt/",
+    "and": "/ən/"
+   },
+   "hi": "इसे बंद करके फिर चालू करें।",
+   "rhythm": "DA-da-DA-da-DA-DA",
+   "note_en": "Classic linking: tur-ni-toff.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:029",
+   "sentence": "I think we should talk to the manager.",
+   "content": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "weak": {
+    "we": "/wi/",
+    "to": "/tə/",
+    "the": "/ðə/"
+   },
+   "hi": "मुझे लगता है हमें मैनेजर से बात करनी चाहिए।",
+   "rhythm": "da-DA-da-DA-DA-da-da-DA",
+   "note_en": "",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:030",
+   "sentence": "The severity of the issue is high.",
+   "content": [
+    1,
+    4,
+    6
+   ],
+   "weak": {
+    "the": "/ðə/",
+    "of": "/əv/"
+   },
+   "hi": "इस समस्या की गंभीरता (severity) ज़्यादा है।",
+   "rhythm": "da-DA-da-da-DA-da-DA",
+   "note_en": "'of the' → /əvðə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:031",
+   "sentence": "Some of them were late for the meeting.",
+   "content": [
+    0,
+    4,
+    7
+   ],
+   "weak": {
+    "of": "/əv/",
+    "them": "/ðəm/",
+    "were": "/wər/",
+    "for": "/fər/",
+    "the": "/ðə/"
+   },
+   "hi": "उनमें से कुछ लोग मीटिंग के लिए देर से आए।",
+   "rhythm": "DA-da-da-da-DA-da-da-DA",
+   "note_en": "'of them were' → /əvðəmwər/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:032",
+   "sentence": "You must change your password every month.",
+   "content": [
+    1,
+    2,
+    4,
+    5,
+    6
+   ],
+   "weak": {
+    "you": "/jə/",
+    "your": "/jər/"
+   },
+   "hi": "आपको हर महीने पासवर्ड बदलना चाहिए।",
+   "rhythm": "da-DA-DA-da-DA-DA-DA",
+   "note_en": "'must' is stressed here because it is an order.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:033",
+   "sentence": "Could you give me a hand with this?",
+   "content": [
+    0,
+    2,
+    5,
+    7
+   ],
+   "weak": {
+    "you": "/jə/",
+    "me": "/mi/",
+    "a": "/ə/",
+    "with": "/wɪð/"
+   },
+   "hi": "क्या आप इसमें मेरी थोड़ी मदद कर सकते हैं?",
+   "rhythm": "DA-da-DA-da-da-DA-da-DA",
+   "note_en": "'Could you' → /kʊdʒə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:034",
+   "sentence": "We're going to need a bigger budget.",
+   "content": [
+    1,
+    3,
+    5,
+    6
+   ],
+   "weak": {
+    "to": "/tə/",
+    "a": "/ə/"
+   },
+   "hi": "हमें बड़े बजट की ज़रूरत पड़ेगी।",
+   "rhythm": "da-DA-da-DA-da-DA-DA",
+   "note_en": "'going to' → 'gonna' in fast speech.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:035",
+   "sentence": "I've already sent him the details.",
+   "content": [
+    1,
+    2,
+    5
+   ],
+   "weak": {
+    "him": "/ɪm/",
+    "the": "/ðə/"
+   },
+   "hi": "मैं उसे विवरण पहले ही भेज चुका हूँ।",
+   "rhythm": "da-DA-DA-da-da-DA",
+   "note_en": "'sent him' → /sentɪm/ — the h disappears.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:036",
+   "sentence": "The exploit only works on older versions.",
+   "content": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "weak": {
+    "the": "/ðə/",
+    "on": "/ɒn/"
+   },
+   "hi": "यह एक्सप्लॉइट सिर्फ़ पुराने वर्ज़न पर काम करता है।",
+   "rhythm": "da-DA-DA-DA-da-DA-DA",
+   "note_en": "EXploit is a noun here — first syllable.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:037",
+   "sentence": "Nobody told me the plan had changed.",
+   "content": [
+    0,
+    1,
+    4,
+    6
+   ],
+   "weak": {
+    "me": "/mi/",
+    "the": "/ðə/",
+    "had": "/həd/"
+   },
+   "hi": "मुझे किसी ने नहीं बताया कि योजना बदल गई है।",
+   "rhythm": "DA-DA-da-da-DA-da-DA",
+   "note_en": "'had' is /həd/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:038",
+   "sentence": "She wanted to know if we were coming.",
+   "content": [
+    1,
+    3,
+    7
+   ],
+   "weak": {
+    "she": "/ʃi/",
+    "to": "/tə/",
+    "if": "/ɪf/",
+    "we": "/wi/",
+    "were": "/wər/"
+   },
+   "hi": "वह जानना चाहती थी कि क्या हम आ रहे हैं।",
+   "rhythm": "da-DA-da-DA-da-da-da-DA",
+   "note_en": "'wanted to' → /wɒnɪdtə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:039",
+   "sentence": "It takes twenty minutes to get there.",
+   "content": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "weak": {
+    "it": "/ɪt/",
+    "to": "/tə/"
+   },
+   "hi": "वहाँ पहुँचने में बीस मिनट लगते हैं।",
+   "rhythm": "da-DA-DA-DA-da-DA-DA",
+   "note_en": "'there' as a place adverb IS stressed; 'there is' would not be.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:040",
+   "sentence": "I can't hear you very well.",
+   "content": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "weak": {
+    "you": "/jə/"
+   },
+   "hi": "मुझे आपकी आवाज़ ठीक से सुनाई नहीं दे रही।",
+   "rhythm": "da-DA-DA-da-DA-DA",
+   "note_en": "'can't' is always strong /kɑːnt/ or /kænt/; 'can' is usually weak. This difference is how natives hear the negative.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:041",
+   "sentence": "We triaged the ticket and marked it as critical.",
+   "content": [
+    1,
+    3,
+    5,
+    8
+   ],
+   "weak": {
+    "we": "/wi/",
+    "the": "/ðə/",
+    "and": "/ən/",
+    "it": "/ɪt/",
+    "as": "/əz/"
+   },
+   "hi": "हमने टिकट को छाँटा (triage) और उसे critical मार्क किया।",
+   "rhythm": "da-DA-da-DA-da-DA-da-da-DA",
+   "note_en": "",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:042",
+   "sentence": "Let's have a look at the logs.",
+   "content": [
+    1,
+    3,
+    6
+   ],
+   "weak": {
+    "a": "/ə/",
+    "at": "/ət/",
+    "the": "/ðə/"
+   },
+   "hi": "चलो लॉग्स देखते हैं।",
+   "rhythm": "da-DA-da-DA-da-da-DA",
+   "note_en": "'have a look at the' — five weak syllables between HAVE/LOOK/LOGS.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:043",
+   "sentence": "Most of the tests passed on the first run.",
+   "content": [
+    0,
+    3,
+    4,
+    7,
+    8
+   ],
+   "weak": {
+    "of": "/əv/",
+    "the": "/ðə/",
+    "on": "/ɒn/"
+   },
+   "hi": "ज़्यादातर टेस्ट पहली बार में पास हो गए।",
+   "rhythm": "DA-da-da-DA-DA-da-da-DA-DA",
+   "note_en": "",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:044",
+   "sentence": "He's one of the nicest people I know.",
+   "content": [
+    1,
+    4,
+    5,
+    7
+   ],
+   "weak": {
+    "of": "/əv/",
+    "the": "/ðə/"
+   },
+   "hi": "वह मेरे जानने वालों में सबसे अच्छे लोगों में से एक है।",
+   "rhythm": "da-DA-da-da-DA-DA-da-DA",
+   "note_en": "",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:045",
+   "sentence": "Don't forget to lock the door.",
+   "content": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "weak": {
+    "to": "/tə/",
+    "the": "/ðə/"
+   },
+   "hi": "दरवाज़ा बंद करना मत भूलना।",
+   "rhythm": "DA-DA-da-DA-da-DA",
+   "note_en": "'forget to' → /fərɡettə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:046",
+   "sentence": "The fix will be deployed at six.",
+   "content": [
+    1,
+    4,
+    6
+   ],
+   "weak": {
+    "the": "/ðə/",
+    "will": "/əl/",
+    "be": "/bi/",
+    "at": "/ət/"
+   },
+   "hi": "यह फ़िक्स छह बजे डिप्लॉय किया जाएगा।",
+   "rhythm": "da-DA-da-da-DA-da-DA",
+   "note_en": "'will be' → /əlbi/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:047",
+   "sentence": "I was hoping you could help me.",
+   "content": [
+    1,
+    2,
+    5
+   ],
+   "weak": {
+    "you": "/jə/",
+    "could": "/kəd/",
+    "me": "/mi/"
+   },
+   "hi": "मुझे उम्मीद थी कि आप मेरी मदद कर सकते हैं।",
+   "rhythm": "da-DA-DA-da-da-DA-da",
+   "note_en": "'was' is stressed here for politeness: 'I WAS hoping…'.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:048",
+   "sentence": "There isn't much time left.",
+   "content": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "weak": {
+    "there": "/ðər/"
+   },
+   "hi": "ज़्यादा समय नहीं बचा है।",
+   "rhythm": "da-DA-DA-DA-DA",
+   "note_en": "",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:049",
+   "sentence": "They live in a small flat near the station.",
+   "content": [
+    1,
+    4,
+    5,
+    8
+   ],
+   "weak": {
+    "in": "/ɪn/",
+    "a": "/ə/",
+    "the": "/ðə/"
+   },
+   "hi": "वे स्टेशन के पास एक छोटे फ़्लैट में रहते हैं।",
+   "rhythm": "da-DA-da-da-DA-DA-da-da-DA",
+   "note_en": "'in a' → /ɪnə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:050",
+   "sentence": "We scoped the test to the public website.",
+   "content": [
+    1,
+    3,
+    6,
+    7
+   ],
+   "weak": {
+    "we": "/wi/",
+    "the": "/ðə/",
+    "to": "/tə/"
+   },
+   "hi": "हमने टेस्ट का दायरा सिर्फ़ पब्लिक वेबसाइट तक रखा।",
+   "rhythm": "da-DA-da-DA-da-da-DA-DA",
+   "note_en": "",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:051",
+   "sentence": "When are you planning to leave?",
+   "content": [
+    0,
+    3,
+    5
+   ],
+   "weak": {
+    "are": "/ər/",
+    "you": "/jə/",
+    "to": "/tə/"
+   },
+   "hi": "आप कब जाने की सोच रहे हैं?",
+   "rhythm": "DA-da-da-DA-da-DA",
+   "note_en": "'are you' → /ərjə/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:052",
+   "sentence": "I think it's plausible but not proven.",
+   "content": [
+    1,
+    3,
+    5,
+    6
+   ],
+   "weak": {
+    "but": "/bət/"
+   },
+   "hi": "मुझे लगता है यह संभव तो है, पर साबित नहीं हुआ।",
+   "rhythm": "da-DA-da-DA-da-DA-DA",
+   "note_en": "'but' is /bət/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:053",
+   "sentence": "She speaks three languages fluently.",
+   "content": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "weak": {
+    "she": "/ʃi/"
+   },
+   "hi": "वह तीन भाषाएँ धाराप्रवाह बोलती है।",
+   "rhythm": "da-DA-DA-DA-DA",
+   "note_en": "",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:054",
+   "sentence": "We've been asked to present our findings.",
+   "content": [
+    1,
+    2,
+    4,
+    6
+   ],
+   "weak": {
+    "to": "/tə/"
+   },
+   "hi": "हमसे अपने निष्कर्ष प्रस्तुत करने को कहा गया है।",
+   "rhythm": "da-DA-DA-da-DA-da-DA",
+   "note_en": "preSENT is a verb here.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:055",
+   "sentence": "What do you want for dinner?",
+   "content": [
+    0,
+    3,
+    5
+   ],
+   "weak": {
+    "do": "/də/",
+    "you": "/jə/",
+    "for": "/fər/"
+   },
+   "hi": "आप रात के खाने में क्या चाहते हैं?",
+   "rhythm": "DA-da-da-DA-da-DA",
+   "note_en": "'What do you' → /wɒdəjə/ — 'whaddaya'.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:056",
+   "sentence": "The scanner flagged a few false positives.",
+   "content": [
+    1,
+    2,
+    4,
+    5,
+    6
+   ],
+   "weak": {
+    "the": "/ðə/",
+    "a": "/ə/"
+   },
+   "hi": "स्कैनर ने कुछ false positives दिखाए।",
+   "rhythm": "da-DA-DA-da-DA-DA-DA",
+   "note_en": "",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:057",
+   "sentence": "I had to wait for an hour at the airport.",
+   "content": [
+    1,
+    3,
+    6,
+    9
+   ],
+   "weak": {
+    "to": "/tə/",
+    "for": "/fər/",
+    "an": "/ən/",
+    "at": "/ət/",
+    "the": "/ðə/"
+   },
+   "hi": "मुझे एयरपोर्ट पर एक घंटा इंतज़ार करना पड़ा।",
+   "rhythm": "da-DA-da-DA-da-da-DA-da-da-DA",
+   "note_en": "'had to' → /hættə/ 'hatta'.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:058",
+   "sentence": "You should read the instructions first.",
+   "content": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "weak": {
+    "you": "/jə/",
+    "the": "/ðə/"
+   },
+   "hi": "आपको पहले निर्देश पढ़ने चाहिए।",
+   "rhythm": "da-DA-DA-da-DA-DA",
+   "note_en": "",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:059",
+   "sentence": "Tell me what happened this morning.",
+   "content": [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "weak": {
+    "me": "/mi/"
+   },
+   "hi": "मुझे बताओ आज सुबह क्या हुआ।",
+   "rhythm": "DA-da-DA-DA-DA-DA",
+   "note_en": "'this morning', never 'today morning'.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:060",
+   "sentence": "As far as I know, the patch is ready.",
+   "content": [
+    1,
+    4,
+    6,
+    8
+   ],
+   "weak": {
+    "as": "/əz/",
+    "the": "/ðə/"
+   },
+   "hi": "जहाँ तक मुझे पता है, पैच तैयार है।",
+   "rhythm": "da-DA-da-da-DA-da-DA-da-DA",
+   "note_en": "'As far as I' → /əzfɑːrəzaɪ/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:061",
+   "sentence": "It's feasible, but it'll take some time.",
+   "content": [
+    1,
+    4,
+    6
+   ],
+   "weak": {
+    "but": "/bət/",
+    "some": "/səm/"
+   },
+   "hi": "यह संभव है, लेकिन इसमें कुछ समय लगेगा।",
+   "rhythm": "da-DA-da-da-DA-da-DA",
+   "note_en": "'it'll' → /ɪtl/, 'some' → /səm/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:062",
+   "sentence": "We need to mitigate the risk quickly.",
+   "content": [
+    1,
+    3,
+    5,
+    6
+   ],
+   "weak": {
+    "we": "/wi/",
+    "to": "/tə/",
+    "the": "/ðə/"
+   },
+   "hi": "हमें जोखिम को जल्दी कम करना होगा।",
+   "rhythm": "da-DA-da-DA-da-DA-DA",
+   "note_en": "MITigate — first syllable.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:063",
+   "sentence": "I'm sorry, I didn't catch your name.",
+   "content": [
+    1,
+    3,
+    4,
+    6
+   ],
+   "weak": {
+    "your": "/jər/"
+   },
+   "hi": "माफ़ कीजिए, मैंने आपका नाम नहीं सुना।",
+   "rhythm": "da-DA-da-DA-DA-da-DA",
+   "note_en": "'catch your' → /kætʃər/.",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  },
+  {
+   "id": "ss:064",
+   "sentence": "Send me the link and I'll have a look.",
+   "content": [
+    0,
+    3,
+    6,
+    8
+   ],
+   "weak": {
+    "me": "/mi/",
+    "the": "/ðə/",
+    "and": "/ən/",
+    "a": "/ə/"
+   },
+   "hi": "मुझे लिंक भेजो, मैं देख लूँगा।",
+   "rhythm": "DA-da-da-DA-da-da-DA-da-DA",
+   "note_en": "",
+   "note_hi": "ज़ोर वाले शब्द (content words) साफ़ और लंबे बोलें; बाकी शब्दों को छोटा और हल्का (schwa) रखें।"
+  }
+ ],
+ "reductions": [
+  {
+   "id": "rd:001",
+   "full": "a",
+   "strong": "/eɪ/",
+   "weak": "/ə/",
+   "example": "I need a pen.",
+   "example_weak": "I need /ə/ pen.",
+   "note_en": "Almost never strong. Say the letter name /eɪ/ only when spelling or contrasting ('not A, the').",
+   "note_hi": "लगभग हमेशा हल्का /ə/। सिर्फ़ स्पेलिंग बताते समय /eɪ/ बोलें।"
+  },
+  {
+   "id": "rd:002",
+   "full": "an",
+   "strong": "/æn/",
+   "weak": "/ən/",
+   "example": "He is an engineer.",
+   "example_weak": "He is /ən/ engineer.",
+   "note_en": "Links to the next vowel: a-nen-gi-NEER.",
+   "note_hi": "अगले स्वर से जुड़ जाता है: a-nen-gi-NEER."
+  },
+  {
+   "id": "rd:003",
+   "full": "the",
+   "strong": "/ðiː/",
+   "weak": "/ðə/",
+   "example": "Close the door.",
+   "example_weak": "Close /ðə/ door.",
+   "note_en": "/ðə/ before consonants, /ði/ before vowels (the apple = /ði æpl/). Strong /ðiː/ only for emphasis: 'THE expert'.",
+   "note_hi": "व्यंजन से पहले /ðə/, स्वर से पहले /ði/। ज़ोर देने के लिए ही /ðiː/।"
+  },
+  {
+   "id": "rd:004",
+   "full": "to",
+   "strong": "/tuː/",
+   "weak": "/tə/",
+   "example": "I want to go.",
+   "example_weak": "I want /tə/ go.",
+   "note_en": "Strong /tuː/ only when final: 'Where to?'",
+   "note_hi": "सिर्फ़ वाक्य के अंत में /tuː/: 'Where to?'"
+  },
+  {
+   "id": "rd:005",
+   "full": "of",
+   "strong": "/ɒv/",
+   "weak": "/əv/",
+   "example": "A cup of tea.",
+   "example_weak": "A cup /əv/ tea.",
+   "note_en": "Often just /ə/ before consonants: 'cuppa tea'.",
+   "note_hi": "अक्सर व्यंजन से पहले सिर्फ़ /ə/: 'cuppa tea'."
+  },
+  {
+   "id": "rd:006",
+   "full": "for",
+   "strong": "/fɔːr/",
+   "weak": "/fər/",
+   "example": "This is for you.",
+   "example_weak": "This is /fər/ you.",
+   "note_en": "Strong only when final or contrasted: 'What is it FOR?'",
+   "note_hi": "अंत में या ज़ोर देने पर ही /fɔːr/।"
+  },
+  {
+   "id": "rd:007",
+   "full": "from",
+   "strong": "/frɒm/",
+   "weak": "/frəm/",
+   "example": "I'm from Gujarat.",
+   "example_weak": "I'm /frəm/ Gujarat.",
+   "note_en": "Strong when final: 'Where are you FROM?'",
+   "note_hi": "अंत में ही strong: 'Where are you FROM?'"
+  },
+  {
+   "id": "rd:008",
+   "full": "and",
+   "strong": "/ænd/",
+   "weak": "/ən/",
+   "example": "Fish and chips.",
+   "example_weak": "Fish /ən/ chips.",
+   "note_en": "Often just /n/: 'fish-n-chips', 'rock-n-roll'.",
+   "note_hi": "अक्सर सिर्फ़ /n/: 'fish-n-chips'।"
+  },
+  {
+   "id": "rd:009",
+   "full": "but",
+   "strong": "/bʌt/",
+   "weak": "/bət/",
+   "example": "Small but useful.",
+   "example_weak": "Small /bət/ useful.",
+   "note_en": "Strong only for contrast at the start of a reply: 'BUT…'",
+   "note_hi": "सिर्फ़ जवाब की शुरुआत में ज़ोर के लिए strong।"
+  },
+  {
+   "id": "rd:010",
+   "full": "or",
+   "strong": "/ɔːr/",
+   "weak": "/ər/",
+   "example": "Tea or coffee?",
+   "example_weak": "Tea /ər/ coffee?",
+   "note_en": "Strong in 'either… or' contrasts.",
+   "note_hi": "'either… or' में strong।"
+  },
+  {
+   "id": "rd:011",
+   "full": "that",
+   "strong": "/ðæt/",
+   "weak": "/ðət/",
+   "example": "I know that he left.",
+   "example_weak": "I know /ðət/ he left.",
+   "note_en": "Weak only as a conjunction/relative. The demonstrative ('THAT one') is always strong.",
+   "note_hi": "सिर्फ़ conjunction के रूप में हल्का। 'THAT one' (वह वाला) में हमेशा strong।"
+  },
+  {
+   "id": "rd:012",
+   "full": "than",
+   "strong": "/ðæn/",
+   "weak": "/ðən/",
+   "example": "Better than before.",
+   "example_weak": "Better /ðən/ before.",
+   "note_en": "Almost never strong.",
+   "note_hi": "लगभग कभी strong नहीं।"
+  },
+  {
+   "id": "rd:013",
+   "full": "as",
+   "strong": "/æz/",
+   "weak": "/əz/",
+   "example": "As soon as possible.",
+   "example_weak": "/əz/ soon /əz/ possible.",
+   "note_en": "Strong only when final or in isolation.",
+   "note_hi": "अंत में ही strong।"
+  },
+  {
+   "id": "rd:014",
+   "full": "at",
+   "strong": "/æt/",
+   "weak": "/ət/",
+   "example": "See you at six.",
+   "example_weak": "See you /ət/ six.",
+   "note_en": "Strong when final: 'What are you looking AT?'",
+   "note_hi": "अंत में strong: 'looking AT?'"
+  },
+  {
+   "id": "rd:015",
+   "full": "can",
+   "strong": "/kæn/",
+   "weak": "/kən/",
+   "example": "I can do it.",
+   "example_weak": "I /kən/ do it.",
+   "note_en": "Strong only when stressed or final: 'Yes, I can.' Note: 'can't' is ALWAYS strong — that is how natives tell them apart.",
+   "note_hi": "ज़ोर देने या अंत में ही /kæn/। 'can't' हमेशा strong होता है — यही फ़र्क़ है।"
+  },
+  {
+   "id": "rd:016",
+   "full": "could",
+   "strong": "/kʊd/",
+   "weak": "/kəd/",
+   "example": "Could you help?",
+   "example_weak": "/kəd/ you help?",
+   "note_en": "Strong when final: 'Yes, I could.'",
+   "note_hi": "अंत में strong: 'Yes, I could.'"
+  },
+  {
+   "id": "rd:017",
+   "full": "would",
+   "strong": "/wʊd/",
+   "weak": "/wəd/",
+   "example": "I would like tea.",
+   "example_weak": "I /wəd/ like tea.",
+   "note_en": "Often contracted to /d/: I'd, he'd.",
+   "note_hi": "अक्सर /d/ में सिकुड़ जाता है: I'd, he'd."
+  },
+  {
+   "id": "rd:018",
+   "full": "should",
+   "strong": "/ʃʊd/",
+   "weak": "/ʃəd/",
+   "example": "You should rest.",
+   "example_weak": "You /ʃəd/ rest.",
+   "note_en": "Strong when final: 'Yes, you should.'",
+   "note_hi": "अंत में strong।"
+  },
+  {
+   "id": "rd:019",
+   "full": "must",
+   "strong": "/mʌst/",
+   "weak": "/məst/",
+   "example": "We must leave now.",
+   "example_weak": "We /məst/ leave now.",
+   "note_en": "Strong when it means 'definitely' or is final.",
+   "note_hi": "'definitely' के अर्थ में या अंत में strong।"
+  },
+  {
+   "id": "rd:020",
+   "full": "have",
+   "strong": "/hæv/",
+   "weak": "/həv/",
+   "example": "They have gone.",
+   "example_weak": "They /həv/ gone.",
+   "note_en": "Weak only as an auxiliary. As a main verb ('I have a car') it stays strong.",
+   "note_hi": "सिर्फ़ auxiliary के रूप में हल्का। मुख्य क्रिया ('I have a car') में strong।"
+  },
+  {
+   "id": "rd:021",
+   "full": "has",
+   "strong": "/hæz/",
+   "weak": "/həz/",
+   "example": "She has left.",
+   "example_weak": "She /həz/ left.",
+   "note_en": "Often /z/ or /s/: she's left.",
+   "note_hi": "अक्सर /z/ या /s/: she's left."
+  },
+  {
+   "id": "rd:022",
+   "full": "had",
+   "strong": "/hæd/",
+   "weak": "/həd/",
+   "example": "He had finished.",
+   "example_weak": "He /həd/ finished.",
+   "note_en": "Often /d/: he'd finished.",
+   "note_hi": "अक्सर /d/: he'd finished."
+  },
+  {
+   "id": "rd:023",
+   "full": "was",
+   "strong": "/wɒz/",
+   "weak": "/wəz/",
+   "example": "It was late.",
+   "example_weak": "It /wəz/ late.",
+   "note_en": "Strong when final or in short answers: 'Yes, it WAS.'",
+   "note_hi": "अंत में या छोटे जवाब में strong।"
+  },
+  {
+   "id": "rd:024",
+   "full": "were",
+   "strong": "/wɜːr/",
+   "weak": "/wər/",
+   "example": "They were tired.",
+   "example_weak": "They /wər/ tired.",
+   "note_en": "Strong in short answers: 'Yes, they were.'",
+   "note_hi": "छोटे जवाब में strong।"
+  },
+  {
+   "id": "rd:025",
+   "full": "are",
+   "strong": "/ɑːr/",
+   "weak": "/ər/",
+   "example": "They are here.",
+   "example_weak": "They /ər/ here.",
+   "note_en": "Usually contracted: they're.",
+   "note_hi": "आमतौर पर they're।"
+  },
+  {
+   "id": "rd:026",
+   "full": "am",
+   "strong": "/æm/",
+   "weak": "/əm/",
+   "example": "I am ready.",
+   "example_weak": "I /əm/ ready.",
+   "note_en": "Usually contracted: I'm.",
+   "note_hi": "आमतौर पर I'm।"
+  },
+  {
+   "id": "rd:027",
+   "full": "is",
+   "strong": "/ɪz/",
+   "weak": "/s/ or /z/",
+   "example": "The bug is fixed.",
+   "example_weak": "The bug's fixed.",
+   "note_en": "Contracts to /s/ after voiceless sounds, /z/ after voiced.",
+   "note_hi": "आमतौर पर 's में सिकुड़ता है।"
+  },
+  {
+   "id": "rd:028",
+   "full": "do",
+   "strong": "/duː/",
+   "weak": "/də/",
+   "example": "What do you want?",
+   "example_weak": "What /də/ you want?",
+   "note_en": "Very weak in questions: 'whaddaya'.",
+   "note_hi": "सवालों में बहुत हल्का: 'whaddaya'।"
+  },
+  {
+   "id": "rd:029",
+   "full": "does",
+   "strong": "/dʌz/",
+   "weak": "/dəz/",
+   "example": "What does he do?",
+   "example_weak": "What /dəz/ he do?",
+   "note_en": "The main verb 'do' at the end stays strong.",
+   "note_hi": "अंत में मुख्य क्रिया 'do' strong रहता है।"
+  },
+  {
+   "id": "rd:030",
+   "full": "some",
+   "strong": "/sʌm/",
+   "weak": "/səm/",
+   "example": "Have some tea.",
+   "example_weak": "Have /səm/ tea.",
+   "note_en": "Weak = 'a little'. Strong = 'some but not all': 'SOME people agree'.",
+   "note_hi": "हल्का = 'थोड़ा'। strong = 'कुछ, सब नहीं'।"
+  },
+  {
+   "id": "rd:031",
+   "full": "them",
+   "strong": "/ðem/",
+   "weak": "/ðəm/",
+   "example": "I told them.",
+   "example_weak": "I told /ðəm/.",
+   "note_en": "Often just /əm/: 'told 'em'.",
+   "note_hi": "अक्सर सिर्फ़ /əm/: 'told 'em'."
+  },
+  {
+   "id": "rd:032",
+   "full": "him",
+   "strong": "/hɪm/",
+   "weak": "/ɪm/",
+   "example": "Give him the file.",
+   "example_weak": "Give /ɪm/ the file.",
+   "note_en": "The /h/ disappears after a consonant: 'giv-im'.",
+   "note_hi": "व्यंजन के बाद /h/ गायब: 'giv-im'."
+  },
+  {
+   "id": "rd:033",
+   "full": "her",
+   "strong": "/hɜːr/",
+   "weak": "/ər/",
+   "example": "Tell her now.",
+   "example_weak": "Tell /ər/ now.",
+   "note_en": "'tell-er' — /h/ dropped.",
+   "note_hi": "'tell-er' — /h/ गायब।"
+  },
+  {
+   "id": "rd:034",
+   "full": "his",
+   "strong": "/hɪz/",
+   "weak": "/ɪz/",
+   "example": "Take his laptop.",
+   "example_weak": "Take /ɪz/ laptop.",
+   "note_en": "'tay-kiz laptop'.",
+   "note_hi": "'tay-kiz laptop'।"
+  },
+  {
+   "id": "rd:035",
+   "full": "you",
+   "strong": "/juː/",
+   "weak": "/jə/",
+   "example": "Can you come?",
+   "example_weak": "Can /jə/ come?",
+   "note_en": "'kən-jə'. Strong at the end: 'Thank YOU.'",
+   "note_hi": "'kən-jə'। अंत में strong: 'Thank YOU.'"
+  },
+  {
+   "id": "rd:036",
+   "full": "your",
+   "strong": "/jɔːr/",
+   "weak": "/jər/",
+   "example": "Check your email.",
+   "example_weak": "Check /jər/ email.",
+   "note_en": "'check-yer-email'.",
+   "note_hi": "'check-yer-email'।"
+  },
+  {
+   "id": "rd:037",
+   "full": "us",
+   "strong": "/ʌs/",
+   "weak": "/əs/",
+   "example": "Tell us later.",
+   "example_weak": "Tell /əs/ later.",
+   "note_en": "'let's' is 'let us' fully reduced.",
+   "note_hi": "'let's' = 'let us' का पूरा हल्का रूप।"
+  },
+  {
+   "id": "rd:038",
+   "full": "our",
+   "strong": "/aʊər/",
+   "weak": "/ɑːr/",
+   "example": "Our team won.",
+   "example_weak": "/ɑːr/ team won.",
+   "note_en": "In fast speech 'our' sounds like 'are'.",
+   "note_hi": "तेज़ बोलने में 'our' 'are' जैसा लगता है।"
+  },
+  {
+   "id": "rd:039",
+   "full": "there",
+   "strong": "/ðer/",
+   "weak": "/ðər/",
+   "example": "There is a problem.",
+   "example_weak": "/ðər/ is a problem.",
+   "note_en": "Weak only in 'there is/are'. As a place word ('over THERE') it is strong.",
+   "note_hi": "सिर्फ़ 'there is/are' में हल्का। जगह के अर्थ में strong।"
+  },
+  {
+   "id": "rd:040",
+   "full": "be",
+   "strong": "/biː/",
+   "weak": "/bi/",
+   "example": "It will be fine.",
+   "example_weak": "It will /bi/ fine.",
+   "note_en": "Short /bi/, not a long 'bee'.",
+   "note_hi": "छोटा /bi/, लंबा 'bee' नहीं।"
+  },
+  {
+   "id": "rd:041",
+   "full": "been",
+   "strong": "/biːn/",
+   "weak": "/bɪn/",
+   "example": "I've been busy.",
+   "example_weak": "I've /bɪn/ busy.",
+   "note_en": "Sounds like 'bin' in fast speech.",
+   "note_hi": "तेज़ बोलने में 'bin' जैसा।"
+  },
+  {
+   "id": "rd:042",
+   "full": "will",
+   "strong": "/wɪl/",
+   "weak": "/əl/",
+   "example": "It will work.",
+   "example_weak": "It'll work.",
+   "note_en": "Contracts to 'll: it'll, that'll.",
+   "note_hi": "'ll में सिकुड़ता है: it'll, that'll."
+  },
+  {
+   "id": "rd:043",
+   "full": "shall",
+   "strong": "/ʃæl/",
+   "weak": "/ʃəl/",
+   "example": "Shall we start?",
+   "example_weak": "/ʃəl/ we start?",
+   "note_en": "Rare in modern speech except 'Shall we…?'",
+   "note_hi": "आधुनिक बोलचाल में सिर्फ़ 'Shall we…?' में।"
+  },
+  {
+   "id": "rd:044",
+   "full": "he",
+   "strong": "/hiː/",
+   "weak": "/i/",
+   "example": "Did he call?",
+   "example_weak": "Did /i/ call?",
+   "note_en": "'di-di call' — /h/ disappears mid-sentence.",
+   "note_hi": "'di-di call' — बीच वाक्य में /h/ गायब।"
+  },
+  {
+   "id": "rd:045",
+   "full": "she",
+   "strong": "/ʃiː/",
+   "weak": "/ʃi/",
+   "example": "Is she in?",
+   "example_weak": "Is /ʃi/ in?",
+   "note_en": "Shorter vowel when unstressed.",
+   "note_hi": "बिना ज़ोर के छोटा स्वर।"
+  },
+  {
+   "id": "rd:046",
+   "full": "we",
+   "strong": "/wiː/",
+   "weak": "/wi/",
+   "example": "Can we talk?",
+   "example_weak": "Can /wi/ talk?",
+   "note_en": "Short vowel; strong when contrasted: 'WE did it, not them'.",
+   "note_hi": "छोटा स्वर; तुलना में strong।"
+  },
+  {
+   "id": "rd:047",
+   "full": "me",
+   "strong": "/miː/",
+   "weak": "/mi/",
+   "example": "Give me a call.",
+   "example_weak": "Gimme a call.",
+   "note_en": "'give me' → 'gimme' (informal).",
+   "note_hi": "'give me' → 'gimme' (अनौपचारिक)।"
+  },
+  {
+   "id": "rd:048",
+   "full": "of course",
+   "strong": "/ɒv kɔːrs/",
+   "weak": "/əˈkɔːrs/",
+   "example": "Of course I can.",
+   "example_weak": "/əˈkɔːrs/ I can.",
+   "note_en": "Sounds like 'a-COURSE'; the /v/ is dropped.",
+   "note_hi": "'a-COURSE' जैसा; /v/ गायब।"
+  }
+ ],
+ "connected": [
+  {
+   "id": "cs:001",
+   "type": "linking",
+   "phrase": "turn it off",
+   "spoken": "tur-ni-toff",
+   "ipa": "/tɜːr nɪ tɒf/",
+   "rule_en": "Consonant + vowel: the final consonant jumps onto the next word.",
+   "rule_hi": "व्यंजन + स्वर: पहले शब्द का आख़िरी व्यंजन अगले शब्द से जुड़ जाता है।",
+   "example_sentence": "Could you turn it off?",
+   "hi": "क्या आप इसे बंद कर सकते हैं?"
+  },
+  {
+   "id": "cs:002",
+   "type": "linking",
+   "phrase": "pick it up",
+   "spoken": "pi-ki-tup",
+   "ipa": "/pɪ kɪ tʌp/",
+   "rule_en": "Consonant + vowel: the final consonant jumps onto the next word.",
+   "rule_hi": "व्यंजन + स्वर: पहले शब्द का आख़िरी व्यंजन अगले शब्द से जुड़ जाता है।",
+   "example_sentence": "Pick it up, please.",
+   "hi": "कृपया इसे उठाइए।"
+  },
+  {
+   "id": "cs:003",
+   "type": "linking",
+   "phrase": "an apple",
+   "spoken": "a-napple",
+   "ipa": "/ə næpl/",
+   "rule_en": "Consonant + vowel: the final consonant jumps onto the next word.",
+   "rule_hi": "व्यंजन + स्वर: पहले शब्द का आख़िरी व्यंजन अगले शब्द से जुड़ जाता है।",
+   "example_sentence": "I ate an apple.",
+   "hi": "मैंने एक सेब खाया।"
+  },
+  {
+   "id": "cs:004",
+   "type": "linking",
+   "phrase": "get out",
+   "spoken": "ge-tout",
+   "ipa": "/ɡe taʊt/",
+   "rule_en": "Consonant + vowel: the final consonant jumps onto the next word.",
+   "rule_hi": "व्यंजन + स्वर: पहले शब्द का आख़िरी व्यंजन अगले शब्द से जुड़ जाता है।",
+   "example_sentence": "Get out of here!",
+   "hi": "यहाँ से निकलो!"
+  },
+  {
+   "id": "cs:005",
+   "type": "linking",
+   "phrase": "look at it",
+   "spoken": "loo-ka-tit",
+   "ipa": "/lʊ kə tɪt/",
+   "rule_en": "Consonant + vowel: the final consonant jumps onto the next word.",
+   "rule_hi": "व्यंजन + स्वर: पहले शब्द का आख़िरी व्यंजन अगले शब्द से जुड़ जाता है।",
+   "example_sentence": "Look at it carefully.",
+   "hi": "इसे ध्यान से देखो।"
+  },
+  {
+   "id": "cs:006",
+   "type": "linking",
+   "phrase": "log in",
+   "spoken": "lo-gin",
+   "ipa": "/lɒ ɡɪn/",
+   "rule_en": "Consonant + vowel: the final consonant jumps onto the next word.",
+   "rule_hi": "व्यंजन + स्वर: पहले शब्द का आख़िरी व्यंजन अगले शब्द से जुड़ जाता है।",
+   "example_sentence": "Please log in again.",
+   "hi": "कृपया फिर से लॉग इन करें।"
+  },
+  {
+   "id": "cs:007",
+   "type": "linking",
+   "phrase": "check it out",
+   "spoken": "che-ki-tout",
+   "ipa": "/tʃe kɪ taʊt/",
+   "rule_en": "Consonant + vowel: the final consonant jumps onto the next word.",
+   "rule_hi": "व्यंजन + स्वर: पहले शब्द का आख़िरी व्यंजन अगले शब्द से जुड़ जाता है।",
+   "example_sentence": "You should check it out.",
+   "hi": "आपको इसे देखना चाहिए।"
+  },
+  {
+   "id": "cs:008",
+   "type": "linking",
+   "phrase": "not at all",
+   "spoken": "no-ta-tall",
+   "ipa": "/nɒ tə tɔːl/",
+   "rule_en": "Consonant + vowel: the final consonant jumps onto the next word.",
+   "rule_hi": "व्यंजन + स्वर: पहले शब्द का आख़िरी व्यंजन अगले शब्द से जुड़ जाता है।",
+   "example_sentence": "Not at all, it's fine.",
+   "hi": "बिल्कुल नहीं, ठीक है।"
+  },
+  {
+   "id": "cs:009",
+   "type": "linking",
+   "phrase": "an hour ago",
+   "spoken": "a-nou-ra-go",
+   "ipa": "/ə naʊ rə ɡoʊ/",
+   "rule_en": "Consonant + vowel: the final consonant jumps onto the next word.",
+   "rule_hi": "व्यंजन + स्वर: पहले शब्द का आख़िरी व्यंजन अगले शब्द से जुड़ जाता है।",
+   "example_sentence": "She left an hour ago.",
+   "hi": "वह एक घंटे पहले गई।"
+  },
+  {
+   "id": "cs:010",
+   "type": "linking",
+   "phrase": "go on",
+   "spoken": "go-won",
+   "ipa": "/ɡoʊ wɒn/",
+   "rule_en": "Vowel + vowel: after /uː/ /oʊ/ /aʊ/ a small /w/ links the words.",
+   "rule_hi": "स्वर + स्वर: /uː/ /oʊ/ /aʊ/ के बाद हल्का /w/ जोड़ता है।",
+   "example_sentence": "Go on, tell me.",
+   "hi": "बताओ ना, आगे बोलो।"
+  },
+  {
+   "id": "cs:011",
+   "type": "linking",
+   "phrase": "do it",
+   "spoken": "do-wit",
+   "ipa": "/duː wɪt/",
+   "rule_en": "Vowel + vowel: after /uː/ /oʊ/ /aʊ/ a small /w/ links the words.",
+   "rule_hi": "स्वर + स्वर: /uː/ /oʊ/ /aʊ/ के बाद हल्का /w/ जोड़ता है।",
+   "example_sentence": "Just do it now.",
+   "hi": "बस अभी कर दो।"
+  },
+  {
+   "id": "cs:012",
+   "type": "linking",
+   "phrase": "who is",
+   "spoken": "who-wiz",
+   "ipa": "/huː wɪz/",
+   "rule_en": "Vowel + vowel: after /uː/ /oʊ/ /aʊ/ a small /w/ links the words.",
+   "rule_hi": "स्वर + स्वर: /uː/ /oʊ/ /aʊ/ के बाद हल्का /w/ जोड़ता है।",
+   "example_sentence": "Who is calling?",
+   "hi": "कौन कॉल कर रहा है?"
+  },
+  {
+   "id": "cs:013",
+   "type": "linking",
+   "phrase": "how are you",
+   "spoken": "how-ware-you",
+   "ipa": "/haʊ wər jə/",
+   "rule_en": "Vowel + vowel: after /uː/ /oʊ/ /aʊ/ a small /w/ links the words.",
+   "rule_hi": "स्वर + स्वर: /uː/ /oʊ/ /aʊ/ के बाद हल्का /w/ जोड़ता है।",
+   "example_sentence": "How are you today?",
+   "hi": "आज आप कैसे हैं?"
+  },
+  {
+   "id": "cs:014",
+   "type": "linking",
+   "phrase": "I agree",
+   "spoken": "I-yagree",
+   "ipa": "/aɪ jəˈɡriː/",
+   "rule_en": "Vowel + vowel: after /iː/ /eɪ/ /aɪ/ /ɔɪ/ a small /j/ links the words.",
+   "rule_hi": "स्वर + स्वर: /iː/ /eɪ/ /aɪ/ /ɔɪ/ के बाद हल्का /j/ जोड़ता है।",
+   "example_sentence": "I agree with you.",
+   "hi": "मैं आपसे सहमत हूँ।"
+  },
+  {
+   "id": "cs:015",
+   "type": "linking",
+   "phrase": "she asked",
+   "spoken": "she-yasked",
+   "ipa": "/ʃiː jɑːskt/",
+   "rule_en": "Vowel + vowel: after /iː/ /eɪ/ /aɪ/ /ɔɪ/ a small /j/ links the words.",
+   "rule_hi": "स्वर + स्वर: /iː/ /eɪ/ /aɪ/ /ɔɪ/ के बाद हल्का /j/ जोड़ता है।",
+   "example_sentence": "She asked me first.",
+   "hi": "उसने मुझसे पहले पूछा।"
+  },
+  {
+   "id": "cs:016",
+   "type": "linking",
+   "phrase": "the end",
+   "spoken": "the-yend",
+   "ipa": "/ði jend/",
+   "rule_en": "Vowel + vowel: after /iː/ /eɪ/ /aɪ/ /ɔɪ/ a small /j/ links the words.",
+   "rule_hi": "स्वर + स्वर: /iː/ /eɪ/ /aɪ/ /ɔɪ/ के बाद हल्का /j/ जोड़ता है।",
+   "example_sentence": "That's the end.",
+   "hi": "बस, यही अंत है।"
+  },
+  {
+   "id": "cs:017",
+   "type": "linking",
+   "phrase": "say it",
+   "spoken": "say-yit",
+   "ipa": "/seɪ jɪt/",
+   "rule_en": "Vowel + vowel: after /iː/ /eɪ/ /aɪ/ /ɔɪ/ a small /j/ links the words.",
+   "rule_hi": "स्वर + स्वर: /iː/ /eɪ/ /aɪ/ /ɔɪ/ के बाद हल्का /j/ जोड़ता है।",
+   "example_sentence": "Say it again.",
+   "hi": "फिर से कहो।"
+  },
+  {
+   "id": "cs:018",
+   "type": "linking",
+   "phrase": "far away",
+   "spoken": "fa-ra-way",
+   "ipa": "/fɑː rə weɪ/",
+   "rule_en": "Linking r: a silent final r is pronounced when the next word starts with a vowel.",
+   "rule_hi": "Linking r: अगर अगला शब्द स्वर से शुरू हो तो मौन r बोला जाता है।",
+   "example_sentence": "It's far away.",
+   "hi": "यह बहुत दूर है।"
+  },
+  {
+   "id": "cs:019",
+   "type": "linking",
+   "phrase": "here and there",
+   "spoken": "he-ran-there",
+   "ipa": "/hɪə rən ðeə/",
+   "rule_en": "Linking r: a silent final r is pronounced when the next word starts with a vowel.",
+   "rule_hi": "Linking r: अगर अगला शब्द स्वर से शुरू हो तो मौन r बोला जाता है।",
+   "example_sentence": "Bugs appear here and there.",
+   "hi": "बग यहाँ-वहाँ दिखते हैं।"
+  },
+  {
+   "id": "cs:020",
+   "type": "linking",
+   "phrase": "for example",
+   "spoken": "fo-rig-zample",
+   "ipa": "/fə rɪɡ zɑːmpl/",
+   "rule_en": "Linking r: a silent final r is pronounced when the next word starts with a vowel.",
+   "rule_hi": "Linking r: अगर अगला शब्द स्वर से शुरू हो तो मौन r बोला जाता है।",
+   "example_sentence": "For example, a stored XSS.",
+   "hi": "उदाहरण के लिए, एक stored XSS।"
+  },
+  {
+   "id": "cs:021",
+   "type": "elision",
+   "phrase": "next door",
+   "spoken": "nex door",
+   "ipa": "/neks dɔːr/",
+   "rule_en": "Elision: /t/ or /d/ between two consonants disappears.",
+   "rule_hi": "Elision: दो व्यंजनों के बीच का /t/ या /d/ गायब हो जाता है।",
+   "example_sentence": "They live next door.",
+   "hi": "वे बगल में रहते हैं।"
+  },
+  {
+   "id": "cs:022",
+   "type": "elision",
+   "phrase": "must be",
+   "spoken": "mus be",
+   "ipa": "/məs bi/",
+   "rule_en": "Elision: /t/ or /d/ between two consonants disappears.",
+   "rule_hi": "Elision: दो व्यंजनों के बीच का /t/ या /d/ गायब हो जाता है।",
+   "example_sentence": "It must be a bug.",
+   "hi": "यह ज़रूर बग होगा।"
+  },
+  {
+   "id": "cs:023",
+   "type": "elision",
+   "phrase": "I don't know",
+   "spoken": "I dunno",
+   "ipa": "/aɪ dəˈnoʊ/",
+   "rule_en": "Elision: a whole weak syllable can vanish in fast speech.",
+   "rule_hi": "Elision: तेज़ बोलने में पूरा हल्का अक्षर गायब हो सकता है।",
+   "example_sentence": "I don't know yet.",
+   "hi": "मुझे अभी पता नहीं।"
+  },
+  {
+   "id": "cs:024",
+   "type": "elision",
+   "phrase": "last night",
+   "spoken": "las night",
+   "ipa": "/lɑːs naɪt/",
+   "rule_en": "Elision: /t/ or /d/ between two consonants disappears.",
+   "rule_hi": "Elision: दो व्यंजनों के बीच का /t/ या /d/ गायब हो जाता है।",
+   "example_sentence": "I worked last night.",
+   "hi": "मैंने कल रात काम किया।"
+  },
+  {
+   "id": "cs:025",
+   "type": "elision",
+   "phrase": "first time",
+   "spoken": "firs time",
+   "ipa": "/fɜːrs taɪm/",
+   "rule_en": "Elision: /t/ or /d/ between two consonants disappears.",
+   "rule_hi": "Elision: दो व्यंजनों के बीच का /t/ या /d/ गायब हो जाता है।",
+   "example_sentence": "It's my first time here.",
+   "hi": "यहाँ मेरी पहली बार है।"
+  },
+  {
+   "id": "cs:026",
+   "type": "elision",
+   "phrase": "old man",
+   "spoken": "ol' man",
+   "ipa": "/oʊl mæn/",
+   "rule_en": "Elision: /t/ or /d/ between two consonants disappears.",
+   "rule_hi": "Elision: दो व्यंजनों के बीच का /t/ या /d/ गायब हो जाता है।",
+   "example_sentence": "An old man was waiting.",
+   "hi": "एक बूढ़ा आदमी इंतज़ार कर रहा था।"
+  },
+  {
+   "id": "cs:027",
+   "type": "elision",
+   "phrase": "tell him",
+   "spoken": "tell-im",
+   "ipa": "/tel ɪm/",
+   "rule_en": "Elision: /h/ in he/him/his/her/have disappears mid-sentence.",
+   "rule_hi": "Elision: he/him/his/her/have का /h/ बीच वाक्य में गायब।",
+   "example_sentence": "Tell him to wait.",
+   "hi": "उसे इंतज़ार करने को कहो।"
+  },
+  {
+   "id": "cs:028",
+   "type": "elision",
+   "phrase": "should have",
+   "spoken": "should-əv / should've",
+   "ipa": "/ʃʊd əv/",
+   "rule_en": "Elision: /h/ in he/him/his/her/have disappears mid-sentence.",
+   "rule_hi": "Elision: he/him/his/her/have का /h/ बीच वाक्य में गायब।",
+   "example_sentence": "You should have called.",
+   "hi": "आपको फ़ोन करना चाहिए था।"
+  },
+  {
+   "id": "cs:029",
+   "type": "elision",
+   "phrase": "give her",
+   "spoken": "giv-er",
+   "ipa": "/ɡɪv ər/",
+   "rule_en": "Elision: /h/ in he/him/his/her/have disappears mid-sentence.",
+   "rule_hi": "Elision: he/him/his/her/have का /h/ बीच वाक्य में गायब।",
+   "example_sentence": "Give her the report.",
+   "hi": "उसे रिपोर्ट दो।"
+  },
+  {
+   "id": "cs:030",
+   "type": "elision",
+   "phrase": "camera",
+   "spoken": "cam-ra",
+   "ipa": "/ˈkæmrə/",
+   "rule_en": "Elision: a whole weak syllable can vanish in fast speech.",
+   "rule_hi": "Elision: तेज़ बोलने में पूरा हल्का अक्षर गायब हो सकता है।",
+   "example_sentence": "The camera is on.",
+   "hi": "कैमरा चालू है।"
+  },
+  {
+   "id": "cs:031",
+   "type": "elision",
+   "phrase": "different",
+   "spoken": "diff-rent",
+   "ipa": "/ˈdɪfrənt/",
+   "rule_en": "Elision: a whole weak syllable can vanish in fast speech.",
+   "rule_hi": "Elision: तेज़ बोलने में पूरा हल्का अक्षर गायब हो सकता है।",
+   "example_sentence": "That's a different issue.",
+   "hi": "वह एक अलग समस्या है।"
+  },
+  {
+   "id": "cs:032",
+   "type": "elision",
+   "phrase": "every",
+   "spoken": "ev-ry",
+   "ipa": "/ˈevri/",
+   "rule_en": "Elision: a whole weak syllable can vanish in fast speech.",
+   "rule_hi": "Elision: तेज़ बोलने में पूरा हल्का अक्षर गायब हो सकता है।",
+   "example_sentence": "Every day at nine.",
+   "hi": "हर दिन नौ बजे।"
+  },
+  {
+   "id": "cs:033",
+   "type": "elision",
+   "phrase": "kept quiet",
+   "spoken": "kep quiet",
+   "ipa": "/kep kwaɪət/",
+   "rule_en": "Elision: /t/ or /d/ between two consonants disappears.",
+   "rule_hi": "Elision: दो व्यंजनों के बीच का /t/ या /d/ गायब हो जाता है।",
+   "example_sentence": "He kept quiet.",
+   "hi": "वह चुप रहा।"
+  },
+  {
+   "id": "cs:034",
+   "type": "elision",
+   "phrase": "hand bag",
+   "spoken": "han-bag",
+   "ipa": "/hæn bæɡ/",
+   "rule_en": "Elision: /t/ or /d/ between two consonants disappears.",
+   "rule_hi": "Elision: दो व्यंजनों के बीच का /t/ या /d/ गायब हो जाता है।",
+   "example_sentence": "She lost her handbag.",
+   "hi": "उसका हैंडबैग खो गया।"
+  },
+  {
+   "id": "cs:035",
+   "type": "assimilation",
+   "phrase": "ten bikes",
+   "spoken": "tem bikes",
+   "ipa": "/tem baɪks/",
+   "rule_en": "Assimilation: /n/ becomes /m/ before /p/ /b/ /m/, and /ŋ/ before /k/ /ɡ/.",
+   "rule_hi": "Assimilation: /p/ /b/ /m/ से पहले /n/ → /m/; /k/ /ɡ/ से पहले /n/ → /ŋ/।",
+   "example_sentence": "We saw ten bikes.",
+   "hi": "हमने दस बाइकें देखीं।"
+  },
+  {
+   "id": "cs:036",
+   "type": "assimilation",
+   "phrase": "in Pune",
+   "spoken": "im Pune",
+   "ipa": "/ɪm puːneɪ/",
+   "rule_en": "Assimilation: /n/ becomes /m/ before /p/ /b/ /m/, and /ŋ/ before /k/ /ɡ/.",
+   "rule_hi": "Assimilation: /p/ /b/ /m/ से पहले /n/ → /m/; /k/ /ɡ/ से पहले /n/ → /ŋ/।",
+   "example_sentence": "I live in Pune.",
+   "hi": "मैं पुणे में रहता हूँ।"
+  },
+  {
+   "id": "cs:037",
+   "type": "assimilation",
+   "phrase": "one more",
+   "spoken": "wum more",
+   "ipa": "/wʌm mɔːr/",
+   "rule_en": "Assimilation: /n/ becomes /m/ before /p/ /b/ /m/, and /ŋ/ before /k/ /ɡ/.",
+   "rule_hi": "Assimilation: /p/ /b/ /m/ से पहले /n/ → /m/; /k/ /ɡ/ से पहले /n/ → /ŋ/।",
+   "example_sentence": "Just one more test.",
+   "hi": "बस एक और टेस्ट।"
+  },
+  {
+   "id": "cs:038",
+   "type": "assimilation",
+   "phrase": "in case",
+   "spoken": "ing case",
+   "ipa": "/ɪŋ keɪs/",
+   "rule_en": "Assimilation: /n/ becomes /m/ before /p/ /b/ /m/, and /ŋ/ before /k/ /ɡ/.",
+   "rule_hi": "Assimilation: /p/ /b/ /m/ से पहले /n/ → /m/; /k/ /ɡ/ से पहले /n/ → /ŋ/।",
+   "example_sentence": "Take it in case.",
+   "hi": "एहतियात के लिए ले लो।"
+  },
+  {
+   "id": "cs:039",
+   "type": "assimilation",
+   "phrase": "would you",
+   "spoken": "wouldja",
+   "ipa": "/wʊdʒə/",
+   "rule_en": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/.",
+   "rule_hi": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/।",
+   "example_sentence": "Would you check this?",
+   "hi": "क्या आप इसे देखेंगे?"
+  },
+  {
+   "id": "cs:040",
+   "type": "assimilation",
+   "phrase": "did you",
+   "spoken": "didja",
+   "ipa": "/dɪdʒə/",
+   "rule_en": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/.",
+   "rule_hi": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/।",
+   "example_sentence": "Did you see the alert?",
+   "hi": "क्या आपने अलर्ट देखा?"
+  },
+  {
+   "id": "cs:041",
+   "type": "assimilation",
+   "phrase": "don't you",
+   "spoken": "dontcha",
+   "ipa": "/doʊntʃə/",
+   "rule_en": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/.",
+   "rule_hi": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/।",
+   "example_sentence": "Don't you agree?",
+   "hi": "क्या आप सहमत नहीं हैं?"
+  },
+  {
+   "id": "cs:042",
+   "type": "assimilation",
+   "phrase": "meet you",
+   "spoken": "meetcha",
+   "ipa": "/miːtʃə/",
+   "rule_en": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/.",
+   "rule_hi": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/।",
+   "example_sentence": "Nice to meet you.",
+   "hi": "आपसे मिलकर ख़ुशी हुई।"
+  },
+  {
+   "id": "cs:043",
+   "type": "assimilation",
+   "phrase": "this year",
+   "spoken": "thish year",
+   "ipa": "/ðɪʃ jɪr/",
+   "rule_en": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/.",
+   "rule_hi": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/।",
+   "example_sentence": "This year was busy.",
+   "hi": "यह साल व्यस्त रहा।"
+  },
+  {
+   "id": "cs:044",
+   "type": "assimilation",
+   "phrase": "as you know",
+   "spoken": "azh you know",
+   "ipa": "/əʒ jə noʊ/",
+   "rule_en": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/.",
+   "rule_hi": "Assimilation: /d/+/j/ → /dʒ/, /t/+/j/ → /tʃ/, /s/+/j/ → /ʃ/, /z/+/j/ → /ʒ/।",
+   "example_sentence": "As you know, it's urgent.",
+   "hi": "जैसा आप जानते हैं, यह ज़रूरी है।"
+  },
+  {
+   "id": "cs:045",
+   "type": "assimilation",
+   "phrase": "that person",
+   "spoken": "thap person",
+   "ipa": "/ðæp pɜːrsn/",
+   "rule_en": "Assimilation: /t/ before /p/ /b/ /m/ becomes /p/; before /k/ /ɡ/ becomes /k/.",
+   "rule_hi": "Assimilation: /p/ /b/ /m/ से पहले /t/ → /p/; /k/ /ɡ/ से पहले /t/ → /k/।",
+   "example_sentence": "That person called again.",
+   "hi": "उस व्यक्ति ने फिर कॉल किया।"
+  },
+  {
+   "id": "cs:046",
+   "type": "assimilation",
+   "phrase": "good boy",
+   "spoken": "goob boy",
+   "ipa": "/ɡʊb bɔɪ/",
+   "rule_en": "Assimilation: /t/ before /p/ /b/ /m/ becomes /p/; before /k/ /ɡ/ becomes /k/.",
+   "rule_hi": "Assimilation: /p/ /b/ /m/ से पहले /t/ → /p/; /k/ /ɡ/ से पहले /t/ → /k/।",
+   "example_sentence": "Good boy!",
+   "hi": "शाबाश!"
+  },
+  {
+   "id": "cs:047",
+   "type": "assimilation",
+   "phrase": "that car",
+   "spoken": "thak car",
+   "ipa": "/ðæk kɑːr/",
+   "rule_en": "Assimilation: /t/ before /p/ /b/ /m/ becomes /p/; before /k/ /ɡ/ becomes /k/.",
+   "rule_hi": "Assimilation: /p/ /b/ /m/ से पहले /t/ → /p/; /k/ /ɡ/ से पहले /t/ → /k/।",
+   "example_sentence": "That car is new.",
+   "hi": "वह कार नई है।"
+  },
+  {
+   "id": "cs:048",
+   "type": "assimilation",
+   "phrase": "white paper",
+   "spoken": "whipe paper",
+   "ipa": "/waɪp peɪpər/",
+   "rule_en": "Assimilation: /t/ before /p/ /b/ /m/ becomes /p/; before /k/ /ɡ/ becomes /k/.",
+   "rule_hi": "Assimilation: /p/ /b/ /m/ से पहले /t/ → /p/; /k/ /ɡ/ से पहले /t/ → /k/।",
+   "example_sentence": "Read the white paper.",
+   "hi": "white paper पढ़ो।"
+  },
+  {
+   "id": "cs:049",
+   "type": "contraction",
+   "phrase": "I will",
+   "spoken": "I'll",
+   "ipa": "/aɪl/",
+   "rule_en": "Contraction: auxiliary verbs shrink and attach to the previous word.",
+   "rule_hi": "Contraction: सहायक क्रिया सिकुड़कर पिछले शब्द से जुड़ जाती है।",
+   "example_sentence": "I'll send it now.",
+   "hi": "मैं इसे अभी भेजता हूँ।"
+  },
+  {
+   "id": "cs:050",
+   "type": "contraction",
+   "phrase": "we have",
+   "spoken": "we've",
+   "ipa": "/wiːv/",
+   "rule_en": "Contraction: auxiliary verbs shrink and attach to the previous word.",
+   "rule_hi": "Contraction: सहायक क्रिया सिकुड़कर पिछले शब्द से जुड़ जाती है।",
+   "example_sentence": "We've fixed it.",
+   "hi": "हमने इसे ठीक कर दिया है।"
+  },
+  {
+   "id": "cs:051",
+   "type": "contraction",
+   "phrase": "should not have",
+   "spoken": "shouldn't've",
+   "ipa": "/ˈʃʊdntəv/",
+   "rule_en": "Contraction: auxiliary verbs shrink and attach to the previous word.",
+   "rule_hi": "Contraction: सहायक क्रिया सिकुड़कर पिछले शब्द से जुड़ जाती है।",
+   "example_sentence": "You shouldn't've deployed on Friday.",
+   "hi": "आपको शुक्रवार को डिप्लॉय नहीं करना चाहिए था।"
+  },
+  {
+   "id": "cs:052",
+   "type": "contraction",
+   "phrase": "it is",
+   "spoken": "it's",
+   "ipa": "/ɪts/",
+   "rule_en": "Contraction: auxiliary verbs shrink and attach to the previous word.",
+   "rule_hi": "Contraction: सहायक क्रिया सिकुड़कर पिछले शब्द से जुड़ जाती है।",
+   "example_sentence": "It's a false positive.",
+   "hi": "यह एक false positive है।"
+  },
+  {
+   "id": "cs:053",
+   "type": "contraction",
+   "phrase": "they are",
+   "spoken": "they're",
+   "ipa": "/ðer/",
+   "rule_en": "Contraction: auxiliary verbs shrink and attach to the previous word.",
+   "rule_hi": "Contraction: सहायक क्रिया सिकुड़कर पिछले शब्द से जुड़ जाती है।",
+   "example_sentence": "They're on a call.",
+   "hi": "वे कॉल पर हैं।"
+  },
+  {
+   "id": "cs:054",
+   "type": "contraction",
+   "phrase": "he had / he would",
+   "spoken": "he'd",
+   "ipa": "/hiːd/",
+   "rule_en": "Contraction: auxiliary verbs shrink and attach to the previous word.",
+   "rule_hi": "Contraction: सहायक क्रिया सिकुड़कर पिछले शब्द से जुड़ जाती है।",
+   "example_sentence": "He'd already left.",
+   "hi": "वह पहले ही जा चुका था।"
+  },
+  {
+   "id": "cs:055",
+   "type": "contraction",
+   "phrase": "would have",
+   "spoken": "would've",
+   "ipa": "/ˈwʊdəv/",
+   "rule_en": "Contraction: auxiliary verbs shrink and attach to the previous word.",
+   "rule_hi": "Contraction: सहायक क्रिया सिकुड़कर पिछले शब्द से जुड़ जाती है।",
+   "example_sentence": "I would've told you.",
+   "hi": "मैं आपको बता देता।"
+  },
+  {
+   "id": "cs:056",
+   "type": "contraction",
+   "phrase": "could not",
+   "spoken": "couldn't",
+   "ipa": "/ˈkʊdnt/",
+   "rule_en": "Contraction: auxiliary verbs shrink and attach to the previous word.",
+   "rule_hi": "Contraction: सहायक क्रिया सिकुड़कर पिछले शब्द से जुड़ जाती है।",
+   "example_sentence": "I couldn't reproduce it.",
+   "hi": "मैं इसे दोबारा नहीं ला पाया।"
+  },
+  {
+   "id": "cs:057",
+   "type": "contraction",
+   "phrase": "there is",
+   "spoken": "there's",
+   "ipa": "/ðerz/",
+   "rule_en": "Contraction: auxiliary verbs shrink and attach to the previous word.",
+   "rule_hi": "Contraction: सहायक क्रिया सिकुड़कर पिछले शब्द से जुड़ जाती है।",
+   "example_sentence": "There's a problem.",
+   "hi": "एक समस्या है।"
+  },
+  {
+   "id": "cs:058",
+   "type": "contraction",
+   "phrase": "what is",
+   "spoken": "what's",
+   "ipa": "/wɒts/",
+   "rule_en": "Contraction: auxiliary verbs shrink and attach to the previous word.",
+   "rule_hi": "Contraction: सहायक क्रिया सिकुड़कर पिछले शब्द से जुड़ जाती है।",
+   "example_sentence": "What's the severity?",
+   "hi": "गंभीरता क्या है?"
+  },
+  {
+   "id": "cs:059",
+   "type": "contraction",
+   "phrase": "let us",
+   "spoken": "let's",
+   "ipa": "/lets/",
+   "rule_en": "Contraction: auxiliary verbs shrink and attach to the previous word.",
+   "rule_hi": "Contraction: सहायक क्रिया सिकुड़कर पिछले शब्द से जुड़ जाती है।",
+   "example_sentence": "Let's start.",
+   "hi": "चलो शुरू करते हैं।"
+  },
+  {
+   "id": "cs:060",
+   "type": "contraction",
+   "phrase": "want to",
+   "spoken": "wanna",
+   "ipa": "/ˈwɒnə/",
+   "rule_en": "Informal contraction: used in casual speech only, never in writing or reports.",
+   "rule_hi": "अनौपचारिक contraction: सिर्फ़ बोलचाल में, लिखने या रिपोर्ट में कभी नहीं।",
+   "example_sentence": "I wanna check the logs.",
+   "hi": "मैं लॉग्स देखना चाहता हूँ।"
+  },
+  {
+   "id": "cs:061",
+   "type": "contraction",
+   "phrase": "going to",
+   "spoken": "gonna",
+   "ipa": "/ˈɡʌnə/",
+   "rule_en": "Informal contraction: used in casual speech only, never in writing or reports.",
+   "rule_hi": "अनौपचारिक contraction: सिर्फ़ बोलचाल में, लिखने या रिपोर्ट में कभी नहीं।",
+   "example_sentence": "It's gonna take a while.",
+   "hi": "इसमें थोड़ा समय लगेगा।"
+  },
+  {
+   "id": "cs:062",
+   "type": "contraction",
+   "phrase": "got to",
+   "spoken": "gotta",
+   "ipa": "/ˈɡɒtə/",
+   "rule_en": "Informal contraction: used in casual speech only, never in writing or reports.",
+   "rule_hi": "अनौपचारिक contraction: सिर्फ़ बोलचाल में, लिखने या रिपोर्ट में कभी नहीं।",
+   "example_sentence": "I gotta go.",
+   "hi": "मुझे जाना है।"
+  },
+  {
+   "id": "cs:063",
+   "type": "contraction",
+   "phrase": "kind of",
+   "spoken": "kinda",
+   "ipa": "/ˈkaɪndə/",
+   "rule_en": "Informal contraction: used in casual speech only, never in writing or reports.",
+   "rule_hi": "अनौपचारिक contraction: सिर्फ़ बोलचाल में, लिखने या रिपोर्ट में कभी नहीं।",
+   "example_sentence": "It's kinda slow.",
+   "hi": "यह थोड़ा धीमा है।"
+  },
+  {
+   "id": "cs:064",
+   "type": "contraction",
+   "phrase": "give me",
+   "spoken": "gimme",
+   "ipa": "/ˈɡɪmi/",
+   "rule_en": "Informal contraction: used in casual speech only, never in writing or reports.",
+   "rule_hi": "अनौपचारिक contraction: सिर्फ़ बोलचाल में, लिखने या रिपोर्ट में कभी नहीं।",
+   "example_sentence": "Gimme a second.",
+   "hi": "एक सेकंड दो।"
+  },
+  {
+   "id": "cs:065",
+   "type": "contraction",
+   "phrase": "let me",
+   "spoken": "lemme",
+   "ipa": "/ˈlemi/",
+   "rule_en": "Informal contraction: used in casual speech only, never in writing or reports.",
+   "rule_hi": "अनौपचारिक contraction: सिर्फ़ बोलचाल में, लिखने या रिपोर्ट में कभी नहीं।",
+   "example_sentence": "Lemme see.",
+   "hi": "मुझे देखने दो।"
+  },
+  {
+   "id": "cs:066",
+   "type": "contraction",
+   "phrase": "out of",
+   "spoken": "outta",
+   "ipa": "/ˈaʊtə/",
+   "rule_en": "Informal contraction: used in casual speech only, never in writing or reports.",
+   "rule_hi": "अनौपचारिक contraction: सिर्फ़ बोलचाल में, लिखने या रिपोर्ट में कभी नहीं।",
+   "example_sentence": "We're outta time.",
+   "hi": "हमारा समय ख़त्म है।"
+  },
+  {
+   "id": "cs:067",
+   "type": "flapping",
+   "phrase": "better",
+   "spoken": "bedder",
+   "ipa": "/ˈbeɾər/",
+   "rule_en": "Flapping (American): /t/ between vowels becomes a quick /d/-like tap /ɾ/.",
+   "rule_hi": "Flapping (अमेरिकी): दो स्वरों के बीच /t/ हल्का /d/ जैसा /ɾ/ बन जाता है।",
+   "example_sentence": "It's better now.",
+   "hi": "अब बेहतर है।"
+  },
+  {
+   "id": "cs:068",
+   "type": "flapping",
+   "phrase": "water",
+   "spoken": "wadder",
+   "ipa": "/ˈwɔːɾər/",
+   "rule_en": "Flapping (American): /t/ between vowels becomes a quick /d/-like tap /ɾ/.",
+   "rule_hi": "Flapping (अमेरिकी): दो स्वरों के बीच /t/ हल्का /d/ जैसा /ɾ/ बन जाता है।",
+   "example_sentence": "Drink some water.",
+   "hi": "थोड़ा पानी पियो।"
+  },
+  {
+   "id": "cs:069",
+   "type": "flapping",
+   "phrase": "get it",
+   "spoken": "ge-dit",
+   "ipa": "/ɡeɾɪt/",
+   "rule_en": "Flapping (American): /t/ between vowels becomes a quick /d/-like tap /ɾ/.",
+   "rule_hi": "Flapping (अमेरिकी): दो स्वरों के बीच /t/ हल्का /d/ जैसा /ɾ/ बन जाता है।",
+   "example_sentence": "Did you get it?",
+   "hi": "क्या आपको मिला / समझ आया?"
+  },
+  {
+   "id": "cs:070",
+   "type": "flapping",
+   "phrase": "little",
+   "spoken": "liddle",
+   "ipa": "/ˈlɪɾl/",
+   "rule_en": "Flapping (American): /t/ between vowels becomes a quick /d/-like tap /ɾ/.",
+   "rule_hi": "Flapping (अमेरिकी): दो स्वरों के बीच /t/ हल्का /d/ जैसा /ɾ/ बन जाता है।",
+   "example_sentence": "Just a little.",
+   "hi": "बस थोड़ा सा।"
+  },
+  {
+   "id": "cs:071",
+   "type": "intrusion",
+   "phrase": "law and order",
+   "spoken": "law-r-and order",
+   "ipa": "/lɔː rən ˈɔːrdər/",
+   "rule_en": "Intrusion: a sound that is not written is added to link two vowels.",
+   "rule_hi": "Intrusion: दो स्वरों को जोड़ने के लिए एक अनलिखा ध्वनि जुड़ता है।",
+   "example_sentence": "Law and order matters.",
+   "hi": "क़ानून-व्यवस्था मायने रखती है।"
+  },
+  {
+   "id": "cs:072",
+   "type": "intrusion",
+   "phrase": "idea of",
+   "spoken": "idea-r-of",
+   "ipa": "/aɪˈdɪə rəv/",
+   "rule_en": "Intrusion: a sound that is not written is added to link two vowels.",
+   "rule_hi": "Intrusion: दो स्वरों को जोड़ने के लिए एक अनलिखा ध्वनि जुड़ता है।",
+   "example_sentence": "The idea of it scares me.",
+   "hi": "इसका ख़याल ही मुझे डराता है।"
+  },
+  {
+   "id": "cs:073",
+   "type": "intrusion",
+   "phrase": "media are",
+   "spoken": "media-r-are",
+   "ipa": "/ˈmiːdiə rɑːr/",
+   "rule_en": "Intrusion: a sound that is not written is added to link two vowels.",
+   "rule_hi": "Intrusion: दो स्वरों को जोड़ने के लिए एक अनलिखा ध्वनि जुड़ता है।",
+   "example_sentence": "The media are here.",
+   "hi": "मीडिया यहाँ है।"
+  }
+ ],
+ "intonation": [
+  {
+   "id": "in:001",
+   "sentence": "Are you coming?",
+   "type": "yes-no",
+   "contour": [
+    1,
+    1,
+    3
+   ],
+   "rule_en": "Yes/no questions RISE on the last stressed syllable.",
+   "rule_hi": "हाँ/ना वाले सवालों में आवाज़ आख़िरी ज़ोर वाले अक्षर पर ऊपर जाती है।",
+   "hi": "क्या आप आ रहे हैं?",
+   "hindi_trap": "Hindi speakers often keep the pitch flat and rely on 'kya'. In English the rise IS the question."
+  },
+  {
+   "id": "in:002",
+   "sentence": "Is it ready?",
+   "type": "yes-no",
+   "contour": [
+    1,
+    1,
+    3
+   ],
+   "rule_en": "Yes/no questions RISE on the last stressed syllable.",
+   "rule_hi": "हाँ/ना वाले सवालों में आवाज़ आख़िरी ज़ोर वाले अक्षर पर ऊपर जाती है।",
+   "hi": "क्या यह तैयार है?",
+   "hindi_trap": "Hindi speakers often keep the pitch flat and rely on 'kya'. In English the rise IS the question."
+  },
+  {
+   "id": "in:003",
+   "sentence": "Did you see the email?",
+   "type": "yes-no",
+   "contour": [
+    1,
+    1,
+    1,
+    1,
+    3
+   ],
+   "rule_en": "Yes/no questions RISE on the last stressed syllable.",
+   "rule_hi": "हाँ/ना वाले सवालों में आवाज़ आख़िरी ज़ोर वाले अक्षर पर ऊपर जाती है।",
+   "hi": "क्या आपने ईमेल देखा?",
+   "hindi_trap": "Hindi speakers often keep the pitch flat and rely on 'kya'. In English the rise IS the question."
+  },
+  {
+   "id": "in:004",
+   "sentence": "Can I help you?",
+   "type": "yes-no",
+   "contour": [
+    1,
+    1,
+    2,
+    3
+   ],
+   "rule_en": "Yes/no questions RISE on the last stressed syllable.",
+   "rule_hi": "हाँ/ना वाले सवालों में आवाज़ आख़िरी ज़ोर वाले अक्षर पर ऊपर जाती है।",
+   "hi": "क्या मैं आपकी मदद करूँ?",
+   "hindi_trap": "Hindi speakers often keep the pitch flat and rely on 'kya'. In English the rise IS the question."
+  },
+  {
+   "id": "in:005",
+   "sentence": "Have you fixed the bug?",
+   "type": "yes-no",
+   "contour": [
+    1,
+    1,
+    1,
+    1,
+    3
+   ],
+   "rule_en": "Yes/no questions RISE on the last stressed syllable.",
+   "rule_hi": "हाँ/ना वाले सवालों में आवाज़ आख़िरी ज़ोर वाले अक्षर पर ऊपर जाती है।",
+   "hi": "क्या आपने बग ठीक किया?",
+   "hindi_trap": "Hindi speakers often keep the pitch flat and rely on 'kya'. In English the rise IS the question."
+  },
+  {
+   "id": "in:006",
+   "sentence": "Do you like it?",
+   "type": "yes-no",
+   "contour": [
+    1,
+    1,
+    2,
+    3
+   ],
+   "rule_en": "Yes/no questions RISE on the last stressed syllable.",
+   "rule_hi": "हाँ/ना वाले सवालों में आवाज़ आख़िरी ज़ोर वाले अक्षर पर ऊपर जाती है।",
+   "hi": "क्या आपको यह पसंद है?",
+   "hindi_trap": "Hindi speakers often keep the pitch flat and rely on 'kya'. In English the rise IS the question."
+  },
+  {
+   "id": "in:007",
+   "sentence": "Is the server down?",
+   "type": "yes-no",
+   "contour": [
+    1,
+    1,
+    1,
+    3
+   ],
+   "rule_en": "Yes/no questions RISE on the last stressed syllable.",
+   "rule_hi": "हाँ/ना वाले सवालों में आवाज़ आख़िरी ज़ोर वाले अक्षर पर ऊपर जाती है।",
+   "hi": "क्या सर्वर बंद है?",
+   "hindi_trap": "Hindi speakers often keep the pitch flat and rely on 'kya'. In English the rise IS the question."
+  },
+  {
+   "id": "in:008",
+   "sentence": "Would you like some tea?",
+   "type": "yes-no",
+   "contour": [
+    1,
+    1,
+    1,
+    1,
+    3
+   ],
+   "rule_en": "Yes/no questions RISE on the last stressed syllable.",
+   "rule_hi": "हाँ/ना वाले सवालों में आवाज़ आख़िरी ज़ोर वाले अक्षर पर ऊपर जाती है।",
+   "hi": "क्या आप चाय लेंगे?",
+   "hindi_trap": "Hindi speakers often keep the pitch flat and rely on 'kya'. In English the rise IS the question."
+  },
+  {
+   "id": "in:009",
+   "sentence": "Are they still here?",
+   "type": "yes-no",
+   "contour": [
+    1,
+    1,
+    2,
+    3
+   ],
+   "rule_en": "Yes/no questions RISE on the last stressed syllable.",
+   "rule_hi": "हाँ/ना वाले सवालों में आवाज़ आख़िरी ज़ोर वाले अक्षर पर ऊपर जाती है।",
+   "hi": "क्या वे अभी भी यहाँ हैं?",
+   "hindi_trap": "Hindi speakers often keep the pitch flat and rely on 'kya'. In English the rise IS the question."
+  },
+  {
+   "id": "in:010",
+   "sentence": "Where do you live?",
+   "type": "wh",
+   "contour": [
+    2,
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Wh-questions FALL at the end — they are not 'open' like yes/no questions.",
+   "rule_hi": "Wh-सवाल (what/where/why) अंत में नीचे आते हैं।",
+   "hi": "आप कहाँ रहते हैं?",
+   "hindi_trap": "Rising on a wh-question sounds like you did not hear and want it repeated."
+  },
+  {
+   "id": "in:011",
+   "sentence": "What time is it?",
+   "type": "wh",
+   "contour": [
+    2,
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Wh-questions FALL at the end — they are not 'open' like yes/no questions.",
+   "rule_hi": "Wh-सवाल (what/where/why) अंत में नीचे आते हैं।",
+   "hi": "कितने बजे हैं?",
+   "hindi_trap": "Rising on a wh-question sounds like you did not hear and want it repeated."
+  },
+  {
+   "id": "in:012",
+   "sentence": "Why did it fail?",
+   "type": "wh",
+   "contour": [
+    2,
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Wh-questions FALL at the end — they are not 'open' like yes/no questions.",
+   "rule_hi": "Wh-सवाल (what/where/why) अंत में नीचे आते हैं।",
+   "hi": "यह क्यों फ़ेल हुआ?",
+   "hindi_trap": "Rising on a wh-question sounds like you did not hear and want it repeated."
+  },
+  {
+   "id": "in:013",
+   "sentence": "How does this work?",
+   "type": "wh",
+   "contour": [
+    2,
+    1,
+    2,
+    0
+   ],
+   "rule_en": "Wh-questions FALL at the end — they are not 'open' like yes/no questions.",
+   "rule_hi": "Wh-सवाल (what/where/why) अंत में नीचे आते हैं।",
+   "hi": "यह कैसे काम करता है?",
+   "hindi_trap": "Rising on a wh-question sounds like you did not hear and want it repeated."
+  },
+  {
+   "id": "in:014",
+   "sentence": "Who reported the issue?",
+   "type": "wh",
+   "contour": [
+    2,
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Wh-questions FALL at the end — they are not 'open' like yes/no questions.",
+   "rule_hi": "Wh-सवाल (what/where/why) अंत में नीचे आते हैं।",
+   "hi": "समस्या किसने रिपोर्ट की?",
+   "hindi_trap": "Rising on a wh-question sounds like you did not hear and want it repeated."
+  },
+  {
+   "id": "in:015",
+   "sentence": "When is the deadline?",
+   "type": "wh",
+   "contour": [
+    2,
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Wh-questions FALL at the end — they are not 'open' like yes/no questions.",
+   "rule_hi": "Wh-सवाल (what/where/why) अंत में नीचे आते हैं।",
+   "hi": "डेडलाइन कब है?",
+   "hindi_trap": "Rising on a wh-question sounds like you did not hear and want it repeated."
+  },
+  {
+   "id": "in:016",
+   "sentence": "What's the severity?",
+   "type": "wh",
+   "contour": [
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Wh-questions FALL at the end — they are not 'open' like yes/no questions.",
+   "rule_hi": "Wh-सवाल (what/where/why) अंत में नीचे आते हैं।",
+   "hi": "गंभीरता क्या है?",
+   "hindi_trap": "Rising on a wh-question sounds like you did not hear and want it repeated."
+  },
+  {
+   "id": "in:017",
+   "sentence": "Which one do you mean?",
+   "type": "wh",
+   "contour": [
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Wh-questions FALL at the end — they are not 'open' like yes/no questions.",
+   "rule_hi": "Wh-सवाल (what/where/why) अंत में नीचे आते हैं।",
+   "hi": "आपका मतलब किससे है?",
+   "hindi_trap": "Rising on a wh-question sounds like you did not hear and want it repeated."
+  },
+  {
+   "id": "in:018",
+   "sentence": "How long will it take?",
+   "type": "wh",
+   "contour": [
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Wh-questions FALL at the end — they are not 'open' like yes/no questions.",
+   "rule_hi": "Wh-सवाल (what/where/why) अंत में नीचे आते हैं।",
+   "hi": "इसमें कितना समय लगेगा?",
+   "hindi_trap": "Rising on a wh-question sounds like you did not hear and want it repeated."
+  },
+  {
+   "id": "in:019",
+   "sentence": "I bought apples, bananas, and oranges.",
+   "type": "list",
+   "contour": [
+    1,
+    1,
+    2,
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Lists rise on each item and FALL on the last one.",
+   "rule_hi": "सूची में हर चीज़ पर आवाज़ ऊपर, आख़िरी पर नीचे।",
+   "hi": "मैंने सेब, केले और संतरे खरीदे।",
+   "hindi_trap": "A flat list sounds unfinished; the final fall signals 'that is all'."
+  },
+  {
+   "id": "in:020",
+   "sentence": "We need a laptop, a charger, and a mouse.",
+   "type": "list",
+   "contour": [
+    1,
+    1,
+    1,
+    2,
+    1,
+    2,
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Lists rise on each item and FALL on the last one.",
+   "rule_hi": "सूची में हर चीज़ पर आवाज़ ऊपर, आख़िरी पर नीचे।",
+   "hi": "हमें लैपटॉप, चार्जर और माउस चाहिए।",
+   "hindi_trap": "A flat list sounds unfinished; the final fall signals 'that is all'."
+  },
+  {
+   "id": "in:021",
+   "sentence": "The bug affects Chrome, Safari, and Firefox.",
+   "type": "list",
+   "contour": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Lists rise on each item and FALL on the last one.",
+   "rule_hi": "सूची में हर चीज़ पर आवाज़ ऊपर, आख़िरी पर नीचे।",
+   "hi": "यह बग Chrome, Safari और Firefox को प्रभावित करता है।",
+   "hindi_trap": "A flat list sounds unfinished; the final fall signals 'that is all'."
+  },
+  {
+   "id": "in:022",
+   "sentence": "You can call, email, or text me.",
+   "type": "list",
+   "contour": [
+    1,
+    1,
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Lists rise on each item and FALL on the last one.",
+   "rule_hi": "सूची में हर चीज़ पर आवाज़ ऊपर, आख़िरी पर नीचे।",
+   "hi": "आप मुझे कॉल, ईमेल या मैसेज कर सकते हैं।",
+   "hindi_trap": "A flat list sounds unfinished; the final fall signals 'that is all'."
+  },
+  {
+   "id": "in:023",
+   "sentence": "She speaks Hindi, Gujarati, and English.",
+   "type": "list",
+   "contour": [
+    1,
+    1,
+    2,
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Lists rise on each item and FALL on the last one.",
+   "rule_hi": "सूची में हर चीज़ पर आवाज़ ऊपर, आख़िरी पर नीचे।",
+   "hi": "वह हिंदी, गुजराती और अंग्रेज़ी बोलती है।",
+   "hindi_trap": "A flat list sounds unfinished; the final fall signals 'that is all'."
+  },
+  {
+   "id": "in:024",
+   "sentence": "First scan, then triage, then report.",
+   "type": "list",
+   "contour": [
+    2,
+    2,
+    1,
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Lists rise on each item and FALL on the last one.",
+   "rule_hi": "सूची में हर चीज़ पर आवाज़ ऊपर, आख़िरी पर नीचे।",
+   "hi": "पहले स्कैन, फिर छाँटो, फिर रिपोर्ट करो।",
+   "hindi_trap": "A flat list sounds unfinished; the final fall signals 'that is all'."
+  },
+  {
+   "id": "in:025",
+   "sentence": "We tested the login, the search, and the checkout.",
+   "type": "list",
+   "contour": [
+    1,
+    1,
+    1,
+    2,
+    1,
+    2,
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Lists rise on each item and FALL on the last one.",
+   "rule_hi": "सूची में हर चीज़ पर आवाज़ ऊपर, आख़िरी पर नीचे।",
+   "hi": "हमने लॉगिन, सर्च और चेकआउट टेस्ट किए।",
+   "hindi_trap": "A flat list sounds unfinished; the final fall signals 'that is all'."
+  },
+  {
+   "id": "in:026",
+   "sentence": "Red, green, and blue.",
+   "type": "list",
+   "contour": [
+    2,
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Lists rise on each item and FALL on the last one.",
+   "rule_hi": "सूची में हर चीज़ पर आवाज़ ऊपर, आख़िरी पर नीचे।",
+   "hi": "लाल, हरा और नीला।",
+   "hindi_trap": "A flat list sounds unfinished; the final fall signals 'that is all'."
+  },
+  {
+   "id": "in:027",
+   "sentence": "You fixed it, didn't you?",
+   "type": "tag-check",
+   "contour": [
+    1,
+    2,
+    1,
+    1,
+    3
+   ],
+   "rule_en": "Tag question with a RISE = you really want to know.",
+   "rule_hi": "Tag पर आवाज़ ऊपर = आप सचमुच पूछ रहे हैं।",
+   "hi": "आपने इसे ठीक किया, है ना? (सचमुच पूछ रहे)",
+   "hindi_trap": "Indians often say 'no?' or 'isn't it?' for everything. Use the real tag and let the pitch carry the meaning."
+  },
+  {
+   "id": "in:028",
+   "sentence": "You fixed it, didn't you?",
+   "type": "tag-sure",
+   "contour": [
+    1,
+    2,
+    1,
+    2,
+    0
+   ],
+   "rule_en": "Tag question with a FALL = you already know, you want agreement.",
+   "rule_hi": "Tag पर आवाज़ नीचे = आप जानते हैं, बस सहमति चाहते हैं।",
+   "hi": "आपने इसे ठीक किया, है ना? (पक्का पता है)",
+   "hindi_trap": "Same words, opposite meaning. The pitch does the work."
+  },
+  {
+   "id": "in:029",
+   "sentence": "She's from Surat, isn't she?",
+   "type": "tag-check",
+   "contour": [
+    1,
+    1,
+    2,
+    1,
+    3
+   ],
+   "rule_en": "Tag question with a RISE = you really want to know.",
+   "rule_hi": "Tag पर आवाज़ ऊपर = आप सचमुच पूछ रहे हैं।",
+   "hi": "वह सूरत से है, है ना? (पूछ रहे)",
+   "hindi_trap": "Indians often say 'no?' or 'isn't it?' for everything. Use the real tag and let the pitch carry the meaning."
+  },
+  {
+   "id": "in:030",
+   "sentence": "She's from Surat, isn't she?",
+   "type": "tag-sure",
+   "contour": [
+    1,
+    1,
+    2,
+    2,
+    0
+   ],
+   "rule_en": "Tag question with a FALL = you already know, you want agreement.",
+   "rule_hi": "Tag पर आवाज़ नीचे = आप जानते हैं, बस सहमति चाहते हैं।",
+   "hi": "वह सूरत से है, है ना? (जानते हैं)",
+   "hindi_trap": "Same words, opposite meaning. The pitch does the work."
+  },
+  {
+   "id": "in:031",
+   "sentence": "It's not urgent, is it?",
+   "type": "tag-check",
+   "contour": [
+    1,
+    2,
+    2,
+    1,
+    3
+   ],
+   "rule_en": "Tag question with a RISE = you really want to know.",
+   "rule_hi": "Tag पर आवाज़ ऊपर = आप सचमुच पूछ रहे हैं।",
+   "hi": "यह ज़रूरी नहीं है, है क्या? (चिंता से पूछ रहे)",
+   "hindi_trap": "Indians often say 'no?' or 'isn't it?' for everything. Use the real tag and let the pitch carry the meaning."
+  },
+  {
+   "id": "in:032",
+   "sentence": "It's not urgent, is it?",
+   "type": "tag-sure",
+   "contour": [
+    1,
+    2,
+    2,
+    2,
+    0
+   ],
+   "rule_en": "Tag question with a FALL = you already know, you want agreement.",
+   "rule_hi": "Tag पर आवाज़ नीचे = आप जानते हैं, बस सहमति चाहते हैं।",
+   "hi": "यह ज़रूरी नहीं है, है ना। (सहमति चाहते हैं)",
+   "hindi_trap": "Same words, opposite meaning. The pitch does the work."
+  },
+  {
+   "id": "in:033",
+   "sentence": "The patch worked, right?",
+   "type": "tag-check",
+   "contour": [
+    1,
+    2,
+    2,
+    3
+   ],
+   "rule_en": "Tag question with a RISE = you really want to know.",
+   "rule_hi": "Tag पर आवाज़ ऊपर = आप सचमुच पूछ रहे हैं।",
+   "hi": "पैच काम कर गया, ना?",
+   "hindi_trap": "Indians often say 'no?' or 'isn't it?' for everything. Use the real tag and let the pitch carry the meaning."
+  },
+  {
+   "id": "in:034",
+   "sentence": "Nice weather, isn't it?",
+   "type": "tag-sure",
+   "contour": [
+    2,
+    2,
+    2,
+    0
+   ],
+   "rule_en": "Tag question with a FALL = you already know, you want agreement.",
+   "rule_hi": "Tag पर आवाज़ नीचे = आप जानते हैं, बस सहमति चाहते हैं।",
+   "hi": "मौसम अच्छा है, है ना।",
+   "hindi_trap": "Same words, opposite meaning. The pitch does the work."
+  },
+  {
+   "id": "in:035",
+   "sentence": "You haven't seen my keys, have you?",
+   "type": "tag-check",
+   "contour": [
+    1,
+    2,
+    2,
+    1,
+    1,
+    1,
+    3
+   ],
+   "rule_en": "Tag question with a RISE = you really want to know.",
+   "rule_hi": "Tag पर आवाज़ ऊपर = आप सचमुच पूछ रहे हैं।",
+   "hi": "आपने मेरी चाबियाँ नहीं देखीं, देखीं क्या?",
+   "hindi_trap": "Indians often say 'no?' or 'isn't it?' for everything. Use the real tag and let the pitch carry the meaning."
+  },
+  {
+   "id": "in:036",
+   "sentence": "That was easy, wasn't it?",
+   "type": "tag-sure",
+   "contour": [
+    1,
+    1,
+    2,
+    2,
+    0
+   ],
+   "rule_en": "Tag question with a FALL = you already know, you want agreement.",
+   "rule_hi": "Tag पर आवाज़ नीचे = आप जानते हैं, बस सहमति चाहते हैं।",
+   "hi": "वह आसान था, है ना।",
+   "hindi_trap": "Same words, opposite meaning. The pitch does the work."
+  },
+  {
+   "id": "in:037",
+   "sentence": "I finished the report.",
+   "type": "statement",
+   "contour": [
+    1,
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Statements FALL at the end. A fall sounds confident and finished.",
+   "rule_hi": "कथन अंत में नीचे आते हैं — यह आत्मविश्वास दिखाता है।",
+   "hi": "मैंने रिपोर्ट पूरी कर ली।",
+   "hindi_trap": "Hindi speakers often end statements on a rise or a flat tone, which sounds uncertain or like a question."
+  },
+  {
+   "id": "in:038",
+   "sentence": "The fix is in production.",
+   "type": "statement",
+   "contour": [
+    1,
+    2,
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Statements FALL at the end. A fall sounds confident and finished.",
+   "rule_hi": "कथन अंत में नीचे आते हैं — यह आत्मविश्वास दिखाता है।",
+   "hi": "फ़िक्स प्रोडक्शन में है।",
+   "hindi_trap": "Hindi speakers often end statements on a rise or a flat tone, which sounds uncertain or like a question."
+  },
+  {
+   "id": "in:039",
+   "sentence": "We found three critical issues.",
+   "type": "statement",
+   "contour": [
+    1,
+    2,
+    2,
+    2,
+    0
+   ],
+   "rule_en": "Statements FALL at the end. A fall sounds confident and finished.",
+   "rule_hi": "कथन अंत में नीचे आते हैं — यह आत्मविश्वास दिखाता है।",
+   "hi": "हमें तीन गंभीर समस्याएँ मिलीं।",
+   "hindi_trap": "Hindi speakers often end statements on a rise or a flat tone, which sounds uncertain or like a question."
+  },
+  {
+   "id": "in:040",
+   "sentence": "I'm from Gujarat.",
+   "type": "statement",
+   "contour": [
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Statements FALL at the end. A fall sounds confident and finished.",
+   "rule_hi": "कथन अंत में नीचे आते हैं — यह आत्मविश्वास दिखाता है।",
+   "hi": "मैं गुजरात से हूँ।",
+   "hindi_trap": "Hindi speakers often end statements on a rise or a flat tone, which sounds uncertain or like a question."
+  },
+  {
+   "id": "in:041",
+   "sentence": "It's not possible.",
+   "type": "statement",
+   "contour": [
+    1,
+    2,
+    0
+   ],
+   "rule_en": "Statements FALL at the end. A fall sounds confident and finished.",
+   "rule_hi": "कथन अंत में नीचे आते हैं — यह आत्मविश्वास दिखाता है।",
+   "hi": "यह संभव नहीं है।",
+   "hindi_trap": "Hindi speakers often end statements on a rise or a flat tone, which sounds uncertain or like a question."
+  },
+  {
+   "id": "in:042",
+   "sentence": "My name is Balvant.",
+   "type": "statement",
+   "contour": [
+    1,
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Statements FALL at the end. A fall sounds confident and finished.",
+   "rule_hi": "कथन अंत में नीचे आते हैं — यह आत्मविश्वास दिखाता है।",
+   "hi": "मेरा नाम बलवंत है।",
+   "hindi_trap": "Hindi speakers often end statements on a rise or a flat tone, which sounds uncertain or like a question."
+  },
+  {
+   "id": "in:043",
+   "sentence": "The meeting starts at ten.",
+   "type": "statement",
+   "contour": [
+    1,
+    2,
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Statements FALL at the end. A fall sounds confident and finished.",
+   "rule_hi": "कथन अंत में नीचे आते हैं — यह आत्मविश्वास दिखाता है।",
+   "hi": "मीटिंग दस बजे शुरू होती है।",
+   "hindi_trap": "Hindi speakers often end statements on a rise or a flat tone, which sounds uncertain or like a question."
+  },
+  {
+   "id": "in:044",
+   "sentence": "I'll send it tonight.",
+   "type": "statement",
+   "contour": [
+    1,
+    2,
+    1,
+    0
+   ],
+   "rule_en": "Statements FALL at the end. A fall sounds confident and finished.",
+   "rule_hi": "कथन अंत में नीचे आते हैं — यह आत्मविश्वास दिखाता है।",
+   "hi": "मैं इसे आज रात भेज दूँगा।",
+   "hindi_trap": "Hindi speakers often end statements on a rise or a flat tone, which sounds uncertain or like a question."
+  },
+  {
+   "id": "in:045",
+   "sentence": "Do you want tea or coffee?",
+   "type": "choice",
+   "contour": [
+    1,
+    1,
+    1,
+    3,
+    1,
+    0
+   ],
+   "rule_en": "Choice questions (A or B) RISE on the first option and FALL on the second.",
+   "rule_hi": "विकल्प वाले सवाल: पहले विकल्प पर ऊपर, दूसरे पर नीचे।",
+   "hi": "आप चाय लेंगे या कॉफ़ी?",
+   "hindi_trap": "If both options rise, it sounds like a yes/no question: 'Do you want tea or coffee (at all)?'"
+  },
+  {
+   "id": "in:046",
+   "sentence": "Should we call or email them?",
+   "type": "choice",
+   "contour": [
+    1,
+    1,
+    3,
+    1,
+    2,
+    0
+   ],
+   "rule_en": "Choice questions (A or B) RISE on the first option and FALL on the second.",
+   "rule_hi": "विकल्प वाले सवाल: पहले विकल्प पर ऊपर, दूसरे पर नीचे।",
+   "hi": "हम उन्हें कॉल करें या ईमेल?",
+   "hindi_trap": "If both options rise, it sounds like a yes/no question: 'Do you want tea or coffee (at all)?'"
+  },
+  {
+   "id": "in:047",
+   "sentence": "Is it a bug or a feature?",
+   "type": "choice",
+   "contour": [
+    1,
+    1,
+    1,
+    3,
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Choice questions (A or B) RISE on the first option and FALL on the second.",
+   "rule_hi": "विकल्प वाले सवाल: पहले विकल्प पर ऊपर, दूसरे पर नीचे।",
+   "hi": "यह बग है या फ़ीचर?",
+   "hindi_trap": "If both options rise, it sounds like a yes/no question: 'Do you want tea or coffee (at all)?'"
+  },
+  {
+   "id": "in:048",
+   "sentence": "Are you coming today or tomorrow?",
+   "type": "choice",
+   "contour": [
+    1,
+    1,
+    1,
+    3,
+    1,
+    0
+   ],
+   "rule_en": "Choice questions (A or B) RISE on the first option and FALL on the second.",
+   "rule_hi": "विकल्प वाले सवाल: पहले विकल्प पर ऊपर, दूसरे पर नीचे।",
+   "hi": "आप आज आ रहे हैं या कल?",
+   "hindi_trap": "If both options rise, it sounds like a yes/no question: 'Do you want tea or coffee (at all)?'"
+  },
+  {
+   "id": "in:049",
+   "sentence": "Would you prefer Hindi or English?",
+   "type": "choice",
+   "contour": [
+    1,
+    1,
+    1,
+    3,
+    1,
+    0
+   ],
+   "rule_en": "Choice questions (A or B) RISE on the first option and FALL on the second.",
+   "rule_hi": "विकल्प वाले सवाल: पहले विकल्प पर ऊपर, दूसरे पर नीचे।",
+   "hi": "आप हिंदी पसंद करेंगे या अंग्रेज़ी?",
+   "hindi_trap": "If both options rise, it sounds like a yes/no question: 'Do you want tea or coffee (at all)?'"
+  },
+  {
+   "id": "in:050",
+   "sentence": "Is the server in Mumbai or Singapore?",
+   "type": "choice",
+   "contour": [
+    1,
+    1,
+    1,
+    1,
+    3,
+    1,
+    0
+   ],
+   "rule_en": "Choice questions (A or B) RISE on the first option and FALL on the second.",
+   "rule_hi": "विकल्प वाले सवाल: पहले विकल्प पर ऊपर, दूसरे पर नीचे।",
+   "hi": "सर्वर मुंबई में है या सिंगापुर में?",
+   "hindi_trap": "If both options rise, it sounds like a yes/no question: 'Do you want tea or coffee (at all)?'"
+  },
+  {
+   "id": "in:051",
+   "sentence": "You quit your job?",
+   "type": "surprise",
+   "contour": [
+    2,
+    3,
+    3,
+    3
+   ],
+   "rule_en": "Surprise or disbelief: a big RISE, often on a repeated word.",
+   "rule_hi": "आश्चर्य: बड़ा उभार, अक्सर दोहराए शब्द पर।",
+   "hi": "आपने नौकरी छोड़ दी?!",
+   "hindi_trap": "Without the rise it sounds like you are simply confirming."
+  },
+  {
+   "id": "in:052",
+   "sentence": "Three hundred alerts?",
+   "type": "surprise",
+   "contour": [
+    2,
+    3,
+    3
+   ],
+   "rule_en": "Surprise or disbelief: a big RISE, often on a repeated word.",
+   "rule_hi": "आश्चर्य: बड़ा उभार, अक्सर दोहराए शब्द पर।",
+   "hi": "तीन सौ अलर्ट?!",
+   "hindi_trap": "Without the rise it sounds like you are simply confirming."
+  },
+  {
+   "id": "in:053",
+   "sentence": "He said what?",
+   "type": "surprise",
+   "contour": [
+    1,
+    2,
+    3
+   ],
+   "rule_en": "Surprise or disbelief: a big RISE, often on a repeated word.",
+   "rule_hi": "आश्चर्य: बड़ा उभार, अक्सर दोहराए शब्द पर।",
+   "hi": "उसने क्या कहा?!",
+   "hindi_trap": "Without the rise it sounds like you are simply confirming."
+  },
+  {
+   "id": "in:054",
+   "sentence": "It worked?",
+   "type": "surprise",
+   "contour": [
+    2,
+    3
+   ],
+   "rule_en": "Surprise or disbelief: a big RISE, often on a repeated word.",
+   "rule_hi": "आश्चर्य: बड़ा उभार, अक्सर दोहराए शब्द पर।",
+   "hi": "यह काम कर गया?!",
+   "hindi_trap": "Without the rise it sounds like you are simply confirming."
+  },
+  {
+   "id": "in:055",
+   "sentence": "Really?",
+   "type": "surprise",
+   "contour": [
+    3
+   ],
+   "rule_en": "Surprise or disbelief: a big RISE, often on a repeated word.",
+   "rule_hi": "आश्चर्य: बड़ा उभार, अक्सर दोहराए शब्द पर।",
+   "hi": "सच में?!",
+   "hindi_trap": "Without the rise it sounds like you are simply confirming."
+  },
+  {
+   "id": "in:056",
+   "sentence": "Could you send me the file, please?",
+   "type": "polite",
+   "contour": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    1
+   ],
+   "rule_en": "Polite requests start higher and end with a gentle rise-fall.",
+   "rule_hi": "विनम्र अनुरोध ऊँचे से शुरू होकर हल्के उतार पर ख़त्म।",
+   "hi": "क्या आप मुझे फ़ाइल भेज सकते हैं, कृपया?",
+   "hindi_trap": "A flat 'Give me the file' sounds like an order. The melody is the politeness."
+  },
+  {
+   "id": "in:057",
+   "sentence": "Would you mind closing the door?",
+   "type": "polite",
+   "contour": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "rule_en": "Polite requests start higher and end with a gentle rise-fall.",
+   "rule_hi": "विनम्र अनुरोध ऊँचे से शुरू होकर हल्के उतार पर ख़त्म।",
+   "hi": "क्या आप दरवाज़ा बंद कर देंगे?",
+   "hindi_trap": "A flat 'Give me the file' sounds like an order. The melody is the politeness."
+  },
+  {
+   "id": "in:058",
+   "sentence": "Sorry, could you repeat that?",
+   "type": "polite",
+   "contour": [
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "rule_en": "Polite requests start higher and end with a gentle rise-fall.",
+   "rule_hi": "विनम्र अनुरोध ऊँचे से शुरू होकर हल्के उतार पर ख़त्म।",
+   "hi": "माफ़ कीजिए, क्या आप दोहरा सकते हैं?",
+   "hindi_trap": "A flat 'Give me the file' sounds like an order. The melody is the politeness."
+  },
+  {
+   "id": "in:059",
+   "sentence": "Excuse me, is this seat taken?",
+   "type": "polite",
+   "contour": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    3
+   ],
+   "rule_en": "Polite requests start higher and end with a gentle rise-fall.",
+   "rule_hi": "विनम्र अनुरोध ऊँचे से शुरू होकर हल्के उतार पर ख़त्म।",
+   "hi": "माफ़ कीजिए, क्या यह सीट ख़ाली है?",
+   "hindi_trap": "A flat 'Give me the file' sounds like an order. The melody is the politeness."
+  },
+  {
+   "id": "in:060",
+   "sentence": "Thanks so much for your help.",
+   "type": "polite",
+   "contour": [
+    2,
+    2,
+    3,
+    1,
+    1,
+    0
+   ],
+   "rule_en": "Polite requests start higher and end with a gentle rise-fall.",
+   "rule_hi": "विनम्र अनुरोध ऊँचे से शुरू होकर हल्के उतार पर ख़त्म।",
+   "hi": "आपकी मदद के लिए बहुत धन्यवाद।",
+   "hindi_trap": "A flat 'Give me the file' sounds like an order. The melody is the politeness."
+  },
+  {
+   "id": "in:061",
+   "sentence": "Would it be possible to reschedule?",
+   "type": "polite",
+   "contour": [
+    2,
+    1,
+    1,
+    2,
+    1,
+    1
+   ],
+   "rule_en": "Polite requests start higher and end with a gentle rise-fall.",
+   "rule_hi": "विनम्र अनुरोध ऊँचे से शुरू होकर हल्के उतार पर ख़त्म।",
+   "hi": "क्या इसे फिर से शेड्यूल किया जा सकता है?",
+   "hindi_trap": "A flat 'Give me the file' sounds like an order. The melody is the politeness."
+  }
+ ]
+}

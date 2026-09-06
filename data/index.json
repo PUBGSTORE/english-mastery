@@ -1,0 +1,63 @@
+{
+ "app": "english-mastery",
+ "contentVersion": "1.0.0",
+ "generated": "2026-09-06",
+ "files": [
+  "collocations.json",
+  "grammar.json",
+  "idioms.json",
+  "indianisms.json",
+  "listening.json",
+  "minimal-pairs.json",
+  "phonemes.json",
+  "phrasal-verbs.json",
+  "placement.json",
+  "shadowing.json",
+  "speaking-prompts.json",
+  "stress.json",
+  "tongue-twisters.json",
+  "vocab-a1.json",
+  "vocab-a2.json",
+  "vocab-b1.json",
+  "vocab-b2.json",
+  "vocab-c1.json",
+  "vocab-tech.json",
+  "writing-prompts.json"
+ ],
+ "counts": {
+  "collocations": 150,
+  "grammar": 60,
+  "idioms": 60,
+  "indianisms": 42,
+  "listening": {
+   "dictation": 150,
+   "numbers": 40,
+   "dates": 32,
+   "spelling": 35
+  },
+  "minimal-pairs": 122,
+  "phonemes": 44,
+  "phrasal-verbs": 80,
+  "placement": 62,
+  "shadowing": 80,
+  "speaking-prompts": 90,
+  "stress": {
+   "word_stress": 171,
+   "sentence_stress": 64,
+   "reductions": 48,
+   "connected": 73,
+   "intonation": 61
+  },
+  "tongue-twisters": 34,
+  "vocab-a1": 200,
+  "vocab-a2": 200,
+  "vocab-b1": 200,
+  "vocab-b2": 200,
+  "vocab-c1": 150,
+  "vocab-tech": 150,
+  "writing-prompts": {
+   "templates": 8,
+   "prompts": 33
+  }
+ }
+}

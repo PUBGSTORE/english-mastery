@@ -1,0 +1,375 @@
+{
+ "templates": [
+  {
+   "id": "wt:email",
+   "name": "Professional email",
+   "register": "formal",
+   "skeleton": "Subject: <one clear line: what this email is about>\n\nHi <name>,\n\n<Context: one sentence on why you are writing.>\n\n<Main point or request: what you need, by when, and why it matters.>\n\n<Optional: any detail the reader needs to act, e.g. a link, a ticket number, a time.>\n\n<Closing line: thank them or say what happens next.>\n\nBest regards,\n<Your name>",
+   "tips_en": "• Put the request in the first two lines; the reader should not have to hunt for it.\n• Use 'Could you…?' or 'Would you be able to…?' instead of 'Kindly do the needful.'\n• Write 'Please reply by Friday' instead of 'Revert back at the earliest.'\n• Say 'the report' or 'the file', not 'the same'.\n• One idea per paragraph. Three short paragraphs beat one long one.\n• End with a clear next step: 'I'll send the updated version on Monday.'",
+   "tips_hi": "• अनुरोध पहली दो पंक्तियों में रखें; पाठक को उसे ढूँढना न पड़े।\n• 'Kindly do the needful' की जगह 'Could you…?' या 'Would you be able to…?' लिखें।\n• 'Revert back at the earliest' की जगह 'Please reply by Friday' लिखें।\n• 'the same' नहीं, 'the report' या 'the file' लिखें।\n• एक पैराग्राफ़ में एक ही बात। तीन छोटे पैराग्राफ़ एक लंबे से बेहतर हैं।\n• अंत में अगला कदम साफ़ बताएँ: 'I'll send the updated version on Monday.'",
+   "model_en": "Subject: Access to the staging environment for the API review\n\nHi Priya,\n\nI'm starting the security review of the payments API next week, and I need read access to the staging environment to test it properly.\n\nCould you add my account (balvant@company.com) to the staging-readonly group by Wednesday? That would give me two full days of testing before the Friday deadline.\n\nIf there is a form I should fill in instead, just point me to it and I'll do that.\n\nThanks for your help.\n\nBest regards,\nBalvant"
+  },
+  {
+   "id": "wt:bug",
+   "name": "Bug / vulnerability report",
+   "register": "formal",
+   "skeleton": "Title: <component> — <what is wrong> (<impact in three words>)\n\nSeverity: <Critical / High / Medium / Low> — <one-line justification>\n\nSummary:\n<Two or three sentences: what the issue is, where it is, and what an attacker can do.>\n\nSteps to Reproduce:\n1. <Go to…>\n2. <Enter… / Send the following request…>\n3. <Observe that…>\n\nImpact:\n<What is exposed or possible, and for whom. Be specific about data and users.>\n\nRemediation:\n<What should change. Prefer the fix, not just the symptom.>\n\nReferences:\n<CWE / OWASP link / related ticket, if any>",
+   "tips_en": "• The title should let a busy engineer understand the issue without opening the ticket.\n• Use the present simple for what the system does: 'The endpoint returns the full token', not 'is returning'.\n• Use the imperative for steps: 'Send a POST request…', 'Observe that…'.\n• Justify severity with facts (authentication needed? user interaction? data exposed?), not adjectives.\n• Say 'I was able to…' for what you actually did; say 'An attacker could…' for what is possible.\n• Avoid 'kindly', 'the same', 'do the needful', and 'revert'. Write 'Please let me know if you need more details.'",
+   "tips_hi": "• शीर्षक ऐसा हो कि व्यस्त इंजीनियर टिकट खोले बिना समस्या समझ जाए।\n• सिस्टम क्या करता है, इसके लिए present simple: 'The endpoint returns the full token', न कि 'is returning'।\n• स्टेप्स के लिए imperative: 'Send a POST request…', 'Observe that…'।\n• severity को तथ्यों से justify करें (authentication चाहिए? user interaction? कौन-सा data?), विशेषणों से नहीं।\n• जो आपने सच में किया उसके लिए 'I was able to…'; जो संभव है उसके लिए 'An attacker could…'।\n• 'kindly', 'the same', 'do the needful', 'revert' से बचें। लिखें: 'Please let me know if you need more details.'",
+   "model_en": "Title: Search page — reflected XSS via the q parameter (session theft)\n\nSeverity: High — no authentication required; one click on a crafted link runs attacker JavaScript in the victim's session.\n\nSummary:\nThe search results page at /search echoes the q parameter into the page without encoding it. A crafted URL can therefore execute arbitrary JavaScript in the browser of any user who opens it.\n\nSteps to Reproduce:\n1. Open https://app.example.com/search?q=%3Cscript%3Ealert(document.cookie)%3C/script%3E\n2. Observe that an alert box appears showing the session cookie.\n\nImpact:\nAn attacker who sends the link to a logged-in user can read the session cookie, perform actions as that user, and read their private data.\n\nRemediation:\nHTML-encode the q value before rendering it, and set the HttpOnly flag on the session cookie. A Content Security Policy would reduce the impact of similar issues.\n\nReferences: CWE-79"
+  },
+  {
+   "id": "wt:slack",
+   "name": "Slack message",
+   "register": "neutral",
+   "skeleton": "<Greeting, optional: Hi <name> / Hey team>\n\n<One or two lines: what happened or what you need.>\n\n<Optional: the link, ticket, or detail they need.>\n\n<What you need from them, and when — or 'no action needed, just FYI'.>",
+   "tips_en": "• Keep it under five lines. Long messages belong in a ticket or a doc.\n• Lead with the ask: 'Quick one: can you check PR #42 before lunch?'\n• 'Just checking' or 'Any update on…?' is friendlier than 'Revert back with status.'\n• Contractions are normal here: I've, we're, it's.\n• Don't write 'Kindly note' — write 'FYI' or 'Heads-up'.\n• If it's urgent, say so once and say why, then stop.",
+   "tips_hi": "• पाँच पंक्तियों से कम रखें। लंबे संदेश टिकट या डॉक में जाते हैं।\n• पहले माँग बताएँ: 'Quick one: can you check PR #42 before lunch?'\n• 'Revert back with status' की जगह 'Just checking' या 'Any update on…?' ज़्यादा दोस्ताना है।\n• यहाँ contractions सामान्य हैं: I've, we're, it's।\n• 'Kindly note' नहीं, 'FYI' या 'Heads-up' लिखें।\n• urgent है तो एक बार बताएँ और वजह दें, फिर रुक जाएँ।",
+   "model_en": "Hey Rahul, quick one — I've found a rate-limiting gap on the login endpoint (ticket SEC-118). It's not blocking the release, but it needs a fix before we open the beta.\n\nCould you have a look this week and let me know roughly how long it'll take? Happy to jump on a call if the repro steps aren't clear.\n\nThanks!"
+  },
+  {
+   "id": "wt:essay",
+   "name": "Opinion essay",
+   "register": "formal",
+   "skeleton": "<Introduction: state the topic and your position in two or three sentences.>\n\n<Paragraph 1: your first reason, with one concrete example.>\n\n<Paragraph 2: your second reason, with one concrete example.>\n\n<Paragraph 3: the strongest argument against your view, and why it does not change your mind.>\n\n<Conclusion: restate your position in different words and say what should happen next.>",
+   "tips_en": "• State your opinion clearly in the first paragraph; do not save it for the end.\n• Use linking words to guide the reader: 'Firstly', 'In addition', 'However', 'On the other hand', 'In conclusion'.\n• One example per reason. A specific example ('my last team lost a day to a broken build') beats a vague claim.\n• Avoid 'I am agreeing' — use 'I agree'. Avoid 'according to me' — use 'in my opinion' or 'I believe'.\n• Use 'the' with specific things you have already mentioned: 'a policy… the policy'.\n• Vary sentence length. A short sentence after a long one adds weight.",
+   "tips_hi": "• अपनी राय पहले पैराग्राफ़ में साफ़ बताएँ; उसे अंत के लिए न बचाएँ।\n• पाठक को राह दिखाने के लिए linking words: 'Firstly', 'In addition', 'However', 'On the other hand', 'In conclusion'।\n• हर कारण के लिए एक उदाहरण। खास उदाहरण अस्पष्ट दावे से बेहतर है।\n• 'I am agreeing' नहीं, 'I agree'। 'according to me' नहीं, 'in my opinion' या 'I believe'।\n• पहले बताई गई चीज़ के साथ 'the': 'a policy… the policy'।\n• वाक्यों की लंबाई बदलते रहें। लंबे वाक्य के बाद छोटा वाक्य वज़न देता है।",
+   "model_en": "Many companies now allow engineers to work from home most of the week. In my opinion, this is a positive change, although it needs clear rules to work well.\n\nFirstly, remote work removes the daily commute. In Ahmedabad, I used to spend nearly two hours a day in traffic; that time now goes into focused work or rest, and I make fewer mistakes as a result.\n\nIn addition, remote teams are forced to write things down. Decisions that were once made in a corridor are now recorded in a ticket, which makes it far easier to trace why a change was made.\n\nHowever, some argue that new engineers learn more slowly without a senior colleague at the next desk. This is a real risk, but it can be managed with scheduled pairing sessions and regular in-person days.\n\nIn conclusion, remote work benefits both the engineer and the company, provided that teams invest in written communication and deliberate mentoring."
+  },
+  {
+   "id": "wt:incident",
+   "name": "Incident summary for management",
+   "register": "formal",
+   "skeleton": "Incident: <short name>\nStatus: <Resolved / Contained / Ongoing>\nDate and time: <start> to <end> (<timezone>)\n\nWhat happened:\n<Two or three sentences in plain language. No jargon the reader would have to look up.>\n\nImpact:\n<Who or what was affected, how many, for how long. State clearly what was NOT affected.>\n\nRoot cause:\n<One or two sentences. Say what failed, not who failed.>\n\nWhat we did:\n<Actions in the order they happened, with times.>\n\nNext steps:\n<Concrete actions, owners, and dates.>",
+   "tips_en": "• Write for a reader who has three minutes and no technical background. Explain what, not how.\n• Use the past simple for the timeline: 'At 10:42 the alert fired. We disabled the key at 10:55.'\n• Use the present perfect for the current state: 'We have rotated all affected credentials.'\n• Say what was not affected — it is the first question a manager asks.\n• Describe the failure, not the person: 'the deployment script skipped the check', not 'Ravi forgot'.\n• Next steps need an owner and a date, or they are wishes, not steps.",
+   "tips_hi": "• ऐसे पाठक के लिए लिखें जिसके पास तीन मिनट हैं और technical background नहीं। 'क्या' समझाएँ, 'कैसे' नहीं।\n• timeline के लिए past simple: 'At 10:42 the alert fired. We disabled the key at 10:55.'\n• वर्तमान स्थिति के लिए present perfect: 'We have rotated all affected credentials.'\n• क्या प्रभावित नहीं हुआ, यह ज़रूर बताएँ — manager का पहला सवाल यही होता है।\n• व्यक्ति नहीं, failure बताएँ: 'the deployment script skipped the check', न कि 'Ravi forgot'।\n• next steps में owner और date होनी चाहिए, वरना वे इच्छाएँ हैं, कदम नहीं।",
+   "model_en": "Incident: Publicly readable backup bucket\nStatus: Resolved\nDate and time: 3 June, 09:10 to 11:05 IST\n\nWhat happened:\nA storage bucket that holds nightly database backups was configured to allow public read access after a permissions change on 2 June. An external researcher reported it on the morning of 3 June.\n\nImpact:\nThe bucket contained backups from the last seven days. Access logs show a single download, by the researcher who reported the issue. Customer-facing systems and the production database were not affected.\n\nRoot cause:\nA script that updates bucket policies applied a template intended for the public assets bucket to the backups bucket.\n\nWhat we did:\nAt 09:10 we received the report. At 09:25 we removed public access. By 11:05 we had reviewed the access logs and rotated the database credentials contained in the backups.\n\nNext steps:\nAdd a policy check that blocks public access on any bucket tagged 'backup' (owner: Balvant, by 10 June). Encrypt backups with a customer-managed key (owner: Platform team, by 30 June)."
+  },
+  {
+   "id": "wt:followup",
+   "name": "Polite follow-up",
+   "register": "neutral",
+   "skeleton": "Subject: Re: <original subject>\n\nHi <name>,\n\n<One line reminding them what you asked and when.>\n\n<Why it matters now, in one sentence: a deadline, a blocker, a customer waiting.>\n\n<Make it easy: offer an option or a smaller ask.>\n\n<Friendly close.>\n\nThanks,\n<Your name>",
+   "tips_en": "• Assume they are busy, not rude. 'I know this is a busy week' opens doors.\n• Never write 'As per my last email' or 'Kindly revert' — both sound angry.\n• Use 'Just following up on…' or 'I wanted to check whether…'.\n• Give a reason for the timing: 'The release freeze starts Thursday.'\n• Offer a smaller step: 'Even a quick yes/no would help.'\n• Two follow-ups maximum, then change channel (call, Slack, or their manager).",
+   "tips_hi": "• मान लें कि वे व्यस्त हैं, असभ्य नहीं। 'I know this is a busy week' से बात खुलती है।\n• कभी न लिखें 'As per my last email' या 'Kindly revert' — दोनों गुस्से में सुनाई देते हैं।\n• लिखें 'Just following up on…' या 'I wanted to check whether…'।\n• समय का कारण दें: 'The release freeze starts Thursday.'\n• छोटा कदम सुझाएँ: 'Even a quick yes/no would help.'\n• ज़्यादा से ज़्यादा दो follow-up, फिर channel बदलें (call, Slack या उनके manager)।",
+   "model_en": "Subject: Re: Severity rating for SEC-204\n\nHi Meera,\n\nJust following up on my note from Monday about the severity of SEC-204 (the token exposure in the logs).\n\nThe fix is ready, but the release freeze starts on Thursday, so I'd like to agree the rating before then so the ticket can go into this sprint.\n\nIf a full discussion isn't possible this week, even a quick yes/no on 'High' would let me move ahead, and we can revisit the details later.\n\nThanks — I know this week is packed.\n\nBalvant"
+  },
+  {
+   "id": "wt:disclosure",
+   "name": "Responsible disclosure first contact",
+   "register": "formal",
+   "skeleton": "Subject: Security vulnerability report — <product / domain>\n\nHello <security team / name>,\n\n<Who you are, in one sentence, and that you are reporting in good faith.>\n\n<What you found, in one or two sentences, without the full technical detail.>\n\n<What you have and have not done: e.g. 'I stopped testing as soon as I confirmed the issue and did not access any user data.'>\n\n<What you are asking for: a secure channel or PGP key, and an acknowledgement.>\n\n<Optional: your disclosure timeline, stated politely.>\n\nKind regards,\n<Your name>",
+   "tips_en": "• Be brief in the first email; save the full detail for a secure channel.\n• State your intent clearly: 'I am reporting this so that it can be fixed.'\n• Use 'I was able to confirm that…' rather than 'I hacked…'.\n• Say what you did not do. It builds trust immediately.\n• Ask, don't demand: 'Could you let me know the best way to send the details?'\n• If you mention a timeline, frame it as standard practice, not a threat: 'I follow a 90-day disclosure policy.'",
+   "tips_hi": "• पहले email में संक्षिप्त रहें; पूरी जानकारी secure channel के लिए रखें।\n• अपना इरादा साफ़ बताएँ: 'I am reporting this so that it can be fixed.'\n• 'I hacked…' नहीं, 'I was able to confirm that…' लिखें।\n• जो आपने नहीं किया, वह बताएँ। इससे तुरंत भरोसा बनता है।\n• माँगें नहीं, पूछें: 'Could you let me know the best way to send the details?'\n• timeline बताएँ तो उसे धमकी नहीं, standard practice की तरह रखें: 'I follow a 90-day disclosure policy.'",
+   "model_en": "Subject: Security vulnerability report — api.example.com\n\nHello Security Team,\n\nMy name is Balvant Patel. I am a security engineer based in India, and I am contacting you in good faith to report a vulnerability I found in your public API.\n\nIn short, one of the endpoints returns more account information than the documentation suggests it should. I was able to confirm the issue using only my own test account, and I stopped testing as soon as I had confirmed it. I have not accessed, stored, or shared any data belonging to other users.\n\nCould you let me know the best way to send the technical details securely? If you have a PGP key or a dedicated reporting portal, I will use that.\n\nI follow a standard 90-day disclosure policy, and I am happy to coordinate on timing.\n\nKind regards,\nBalvant Patel"
+  },
+  {
+   "id": "wt:standup",
+   "name": "Daily standup update",
+   "register": "informal",
+   "skeleton": "Yesterday: <what you finished or moved forward — past simple>\n\nToday: <what you plan to do — 'I'm going to…' / 'I'll…'>\n\nBlockers: <what is stopping you, and who can unblock it — or 'None'>",
+   "tips_en": "• Past simple for yesterday: 'I finished the review', not 'I have finished the review yesterday'.\n• 'I'm going to' or 'I'll' for today; not 'I will be doing'.\n• Name the blocker and the person: 'Waiting on Anita for the API key.'\n• Three lines is a good standup. Ten lines is a status report.\n• Drop 'today morning' — say 'this morning'. Drop 'prepone' — say 'move it earlier'.",
+   "tips_hi": "• कल के लिए past simple: 'I finished the review', न कि 'I have finished the review yesterday'।\n• आज के लिए 'I'm going to' या 'I'll'; 'I will be doing' नहीं।\n• blocker और व्यक्ति का नाम लें: 'Waiting on Anita for the API key.'\n• तीन पंक्तियाँ अच्छा standup है। दस पंक्तियाँ status report है।\n• 'today morning' छोड़ें — 'this morning' कहें। 'prepone' छोड़ें — 'move it earlier' कहें।",
+   "model_en": "Yesterday: I finished the review of the payments API and wrote up two findings (SEC-131, SEC-132). I also paired with Anita on the CSP rollout.\n\nToday: I'm going to retest the login rate limit after Rahul's fix and start the threat model for the new file-upload feature.\n\nBlockers: I'm still waiting on staging access for the upload service — Dev, could you approve the request when you get a minute?"
+  }
+ ],
+ "prompts": [
+  {
+   "id": "wp:01",
+   "template": "wt:bug",
+   "cefr": "B1",
+   "task_en": "You found a reflected XSS in the search box of an internal HR portal. The URL parameter 'q' is printed into the page without encoding. Only logged-in employees can see the page. Write the full report and choose a severity.",
+   "task_hi": "आपको एक internal HR portal के search box में reflected XSS मिला है। URL parameter 'q' बिना encoding के page में छप जाता है। सिर्फ़ logged-in कर्मचारी ही page देख सकते हैं। पूरी रिपोर्ट लिखें और severity चुनें।",
+   "min_words": 120,
+   "focus": ["present-simple", "imperatives", "articles"]
+  },
+  {
+   "id": "wp:02",
+   "template": "wt:incident",
+   "cefr": "B2",
+   "task_en": "A storage bucket containing customer invoices was publicly readable for 36 hours after a permissions change. Logs show two downloads from unknown IP addresses. Write the incident summary for the CTO, who is not a security specialist.",
+   "task_hi": "customer invoices वाला एक storage bucket permissions बदलने के बाद 36 घंटे तक public रूप से पढ़ा जा सकता था। logs में दो अज्ञात IP से downloads दिखते हैं। CTO के लिए incident summary लिखें, जो security विशेषज्ञ नहीं हैं।",
+   "min_words": 150,
+   "focus": ["past-simple", "present-perfect", "passive"]
+  },
+  {
+   "id": "wp:03",
+   "template": "wt:slack",
+   "cefr": "B1",
+   "task_en": "The login endpoint has no rate limiting, so passwords can be guessed without limit. It is not blocking the release, but it must be fixed before the public beta next month. Write a short Slack message to the backend developer, Rahul.",
+   "task_hi": "login endpoint में rate limiting नहीं है, इसलिए passwords बिना सीमा के guess किए जा सकते हैं। यह release को नहीं रोक रहा, पर अगले महीने public beta से पहले ठीक होना चाहिए। backend developer Rahul को छोटा Slack संदेश लिखें।",
+   "min_words": 40,
+   "focus": ["contractions", "polite-requests", "register"]
+  },
+  {
+   "id": "wp:04",
+   "template": "wt:email",
+   "cefr": "B1",
+   "task_en": "You have been asked to test a client's web application, but the scope document only lists the main domain. You want to know whether the mobile API and the admin subdomain are included. Write to the client's project manager, Sarah, to ask.",
+   "task_hi": "आपसे एक client के web application की testing करने को कहा गया है, लेकिन scope document में सिर्फ़ main domain है। आप जानना चाहते हैं कि mobile API और admin subdomain शामिल हैं या नहीं। client की project manager Sarah को पूछते हुए email लिखें।",
+   "min_words": 80,
+   "focus": ["embedded-questions", "polite-requests", "articles"]
+  },
+  {
+   "id": "wp:05",
+   "template": "wt:email",
+   "cefr": "B2",
+   "task_en": "A developer, Karan, has marked your finding as a false positive. You believe it is real because you reproduced it twice on staging. Write a calm email explaining why, with the evidence, and propose a 15-minute call.",
+   "task_hi": "developer Karan ने आपकी finding को false positive बताया है। आपको लगता है यह असली है क्योंकि आपने इसे staging पर दो बार reproduce किया। शांत email लिखें जिसमें कारण और सबूत हों, और 15 मिनट की call का प्रस्ताव दें।",
+   "min_words": 120,
+   "focus": ["present-perfect", "hedging", "linking-words"]
+  },
+  {
+   "id": "wp:06",
+   "template": "wt:followup",
+   "cefr": "B1",
+   "task_en": "Five days ago you asked the platform team for access to the staging Kubernetes cluster. Nobody has replied. Your review must start on Monday. Write a polite follow-up to the team lead, Deepak.",
+   "task_hi": "पाँच दिन पहले आपने platform team से staging Kubernetes cluster का access माँगा था। किसी ने जवाब नहीं दिया। आपकी review सोमवार को शुरू होनी है। team lead Deepak को विनम्र follow-up लिखें।",
+   "min_words": 70,
+   "focus": ["present-perfect", "polite-requests", "since-for"]
+  },
+  {
+   "id": "wp:07",
+   "template": "wt:email",
+   "cefr": "B2",
+   "task_en": "Your penetration test report is due on Friday, but two critical findings need more time to verify properly. Write to your manager, Anjali, asking for a three-day extension. Explain the risk of delivering early.",
+   "task_hi": "आपकी penetration test report शुक्रवार को due है, लेकिन दो critical findings को ठीक से verify करने के लिए और समय चाहिए। manager Anjali को तीन दिन के extension के लिए email लिखें। जल्दी deliver करने का जोखिम समझाएँ।",
+   "min_words": 100,
+   "focus": ["conditionals", "modals", "register"]
+  },
+  {
+   "id": "wp:08",
+   "template": "wt:email",
+   "cefr": "B1",
+   "task_en": "A vendor has invited you to a one-hour product demo on Thursday afternoon. You are not interested right now, but you want to keep the relationship polite. Decline the meeting in an email.",
+   "task_hi": "एक vendor ने आपको गुरुवार दोपहर एक घंटे के product demo में बुलाया है। आपकी अभी रुचि नहीं है, पर आप रिश्ता विनम्र रखना चाहते हैं। email में meeting को मना करें।",
+   "min_words": 60,
+   "focus": ["polite-refusal", "future-forms", "register"]
+  },
+  {
+   "id": "wp:09",
+   "template": "wt:bug",
+   "cefr": "B2",
+   "task_en": "Password reset tokens in a mobile banking app are only six digits and never expire. You confirmed that a token can be brute-forced in under an hour. Write the report with a clear severity justification and remediation.",
+   "task_hi": "एक mobile banking app में password reset tokens सिर्फ़ छह अंकों के हैं और कभी expire नहीं होते। आपने पुष्टि की कि एक घंटे से कम में token brute-force हो सकता है। स्पष्ट severity justification और remediation के साथ रिपोर्ट लिखें।",
+   "min_words": 150,
+   "focus": ["passive", "modals", "cause-effect"]
+  },
+  {
+   "id": "wp:10",
+   "template": "wt:disclosure",
+   "cefr": "B2",
+   "task_en": "You discovered that a popular Indian e-commerce site's order-tracking page shows another customer's address if you change the order ID in the URL. You have no contact there. Write the first disclosure email to security@ the company.",
+   "task_hi": "आपने पाया कि एक लोकप्रिय भारतीय e-commerce site के order-tracking page पर URL में order ID बदलने से दूसरे ग्राहक का पता दिखता है। वहाँ आपका कोई contact नहीं है। कंपनी के security@ पते पर पहला disclosure email लिखें।",
+   "min_words": 120,
+   "focus": ["present-perfect", "conditionals", "register"]
+  },
+  {
+   "id": "wp:11",
+   "template": "wt:standup",
+   "cefr": "A2",
+   "task_en": "Yesterday you finished testing the checkout page and found one medium bug. Today you plan to write the report and start on the admin panel. You are blocked because you do not have an admin test account. Write your standup update.",
+   "task_hi": "कल आपने checkout page की testing पूरी की और एक medium bug मिला। आज आप report लिखने और admin panel शुरू करने की योजना बना रहे हैं। आप blocked हैं क्योंकि आपके पास admin test account नहीं है। अपना standup update लिखें।",
+   "min_words": 40,
+   "focus": ["past-simple", "going-to", "present-simple"]
+  },
+  {
+   "id": "wp:12",
+   "template": "wt:essay",
+   "cefr": "B2",
+   "task_en": "Some people believe that companies should pay security researchers for every bug they report (bug bounties). Others think this encourages low-quality reports. Give your opinion with reasons and one counter-argument.",
+   "task_hi": "कुछ लोग मानते हैं कि कंपनियों को हर reported bug के लिए security researchers को भुगतान करना चाहिए (bug bounties)। दूसरे सोचते हैं कि इससे low-quality reports बढ़ती हैं। कारणों और एक counter-argument के साथ अपनी राय दें।",
+   "min_words": 200,
+   "focus": ["linking-words", "opinion-language", "articles"]
+  },
+  {
+   "id": "wp:13",
+   "template": "wt:essay",
+   "cefr": "B1",
+   "task_en": "Is it better to learn English from apps and videos or from a teacher in a classroom? Give your opinion, two reasons, and one example from your own experience.",
+   "task_hi": "English सीखना apps और videos से बेहतर है या classroom में teacher से? अपनी राय, दो कारण और अपने अनुभव से एक उदाहरण दें।",
+   "min_words": 150,
+   "focus": ["comparatives", "linking-words", "present-perfect"]
+  },
+  {
+   "id": "wp:14",
+   "template": "wt:email",
+   "cefr": "A2",
+   "task_en": "The hot water in your rented flat has not worked for three days. You called the landlord once and he did not answer. Write a short, polite email asking him to send a plumber this week.",
+   "task_hi": "आपके किराये के flat में तीन दिन से गर्म पानी नहीं आ रहा। आपने landlord को एक बार call किया और उन्होंने जवाब नहीं दिया। इस हफ़्ते plumber भेजने का विनम्र अनुरोध करते हुए छोटा email लिखें।",
+   "min_words": 60,
+   "focus": ["present-perfect", "since-for", "polite-requests"]
+  },
+  {
+   "id": "wp:15",
+   "template": "wt:email",
+   "cefr": "A2",
+   "task_en": "A senior colleague, Neha, spent an hour helping you understand a difficult authentication bug last week. Write a short thank-you email.",
+   "task_hi": "पिछले हफ़्ते senior colleague Neha ने एक मुश्किल authentication bug समझाने में एक घंटा लगाया। छोटा thank-you email लिखें।",
+   "min_words": 50,
+   "focus": ["past-simple", "gratitude-phrases", "articles"]
+  },
+  {
+   "id": "wp:16",
+   "template": "wt:email",
+   "cefr": "B1",
+   "task_en": "You promised to send a client the final report on Monday, but you sent it on Wednesday because you were ill. Write an apology email that is honest, brief, and professional.",
+   "task_hi": "आपने client को सोमवार को final report भेजने का वादा किया था, पर बीमार होने के कारण बुधवार को भेजी। ईमानदार, संक्षिप्त और professional apology email लिखें।",
+   "min_words": 70,
+   "focus": ["past-simple", "apology-phrases", "register"]
+  },
+  {
+   "id": "wp:17",
+   "template": "wt:slack",
+   "cefr": "B1",
+   "task_en": "Two tickets describe the same SQL injection bug. Another tester, Vikram, says his ticket came first. Write a friendly Slack message to Vikram proposing to merge the tickets and share the credit.",
+   "task_hi": "दो tickets एक ही SQL injection bug बताते हैं। दूसरा tester Vikram कहता है कि उसका ticket पहले आया। Vikram को दोस्ताना Slack संदेश लिखें जिसमें tickets merge करने और credit बाँटने का प्रस्ताव हो।",
+   "min_words": 50,
+   "focus": ["suggestions", "past-simple", "contractions"]
+  },
+  {
+   "id": "wp:18",
+   "template": "wt:slack",
+   "cefr": "A2",
+   "task_en": "You will be on leave next Friday for a family event. Write a short Slack message to your team so they know and can plan around it.",
+   "task_hi": "आप अगले शुक्रवार family event के लिए छुट्टी पर रहेंगे। अपनी team को छोटा Slack संदेश लिखें ताकि वे जान सकें और योजना बना सकें।",
+   "min_words": 30,
+   "focus": ["future-forms", "prepositions-of-time", "register"]
+  },
+  {
+   "id": "wp:19",
+   "template": "wt:bug",
+   "cefr": "C1",
+   "task_en": "You have chained three low-severity issues (verbose error messages, an open redirect, and a missing SameSite cookie flag) into an account takeover. Write the report so that a reader who only sees the title and summary understands why the combination is critical.",
+   "task_hi": "आपने तीन low-severity issues (verbose error messages, open redirect और missing SameSite cookie flag) को जोड़कर account takeover किया है। रिपोर्ट ऐसे लिखें कि सिर्फ़ शीर्षक और summary पढ़ने वाला भी समझ जाए कि यह संयोजन critical क्यों है।",
+   "min_words": 200,
+   "focus": ["participle-clauses", "cause-effect", "nominalisation"]
+  },
+  {
+   "id": "wp:20",
+   "template": "wt:incident",
+   "cefr": "C1",
+   "task_en": "An engineer accidentally committed a production API key to a public GitHub repository. It was live for four hours before being detected and rotated. No misuse has been found so far. Write the summary for the board, including what is still uncertain.",
+   "task_hi": "एक engineer ने गलती से production API key public GitHub repository में commit कर दी। इसका पता चलने और rotate होने से पहले यह चार घंटे live रही। अब तक कोई misuse नहीं मिला। board के लिए summary लिखें, जिसमें बताएँ कि अभी क्या अनिश्चित है।",
+   "min_words": 180,
+   "focus": ["hedging", "passive", "present-perfect"]
+  },
+  {
+   "id": "wp:21",
+   "template": "wt:email",
+   "cefr": "C1",
+   "task_en": "The product team wants to ship a feature that stores users' government ID photos, and they asked for your sign-off by tomorrow. You have serious concerns about retention and encryption. Write to the product lead explaining your position without blocking the launch outright.",
+   "task_hi": "product team एक feature ship करना चाहती है जो users के government ID photos store करेगा, और उन्होंने कल तक आपका sign-off माँगा है। retention और encryption को लेकर आपकी गंभीर चिंताएँ हैं। product lead को email लिखें जिसमें अपनी स्थिति समझाएँ, पर launch को पूरी तरह न रोकें।",
+   "min_words": 180,
+   "focus": ["hedging", "conditionals", "diplomatic-language"]
+  },
+  {
+   "id": "wp:22",
+   "template": "wt:essay",
+   "cefr": "C1",
+   "task_en": "Should organisations be legally required to disclose every data breach to affected users within 72 hours, regardless of size? Argue your position and address the strongest objection.",
+   "task_hi": "क्या organisations को कानूनी रूप से हर data breach की सूचना प्रभावित users को 72 घंटे के भीतर देनी चाहिए, चाहे वह कितनी भी छोटी हो? अपनी स्थिति रखें और सबसे मज़बूत आपत्ति का जवाब दें।",
+   "min_words": 250,
+   "focus": ["inversion", "cleft-sentences", "nominalisation"]
+  },
+  {
+   "id": "wp:23",
+   "template": "wt:followup",
+   "cefr": "B2",
+   "task_en": "You reported a critical vulnerability to a vendor 45 days ago. They acknowledged it but have given no update. Your disclosure deadline is 90 days. Write a professional follow-up that reminds them of the timeline without sounding threatening.",
+   "task_hi": "आपने 45 दिन पहले एक vendor को critical vulnerability report की थी। उन्होंने acknowledge किया पर कोई update नहीं दिया। आपकी disclosure deadline 90 दिन है। professional follow-up लिखें जो timeline याद दिलाए पर धमकी जैसा न लगे।",
+   "min_words": 100,
+   "focus": ["present-perfect", "hedging", "future-forms"]
+  },
+  {
+   "id": "wp:24",
+   "template": "wt:standup",
+   "cefr": "B1",
+   "task_en": "Yesterday you reproduced the token exposure bug and paired with Anita on the fix. Today you will retest it and review a pull request. There are no blockers. Write the update in natural, spoken-style English.",
+   "task_hi": "कल आपने token exposure bug reproduce किया और Anita के साथ fix पर काम किया। आज आप उसे retest करेंगे और एक pull request review करेंगे। कोई blocker नहीं है। natural, बोलचाल की English में update लिखें।",
+   "min_words": 40,
+   "focus": ["past-simple", "will-vs-going-to", "contractions"]
+  },
+  {
+   "id": "wp:25",
+   "template": "wt:disclosure",
+   "cefr": "C1",
+   "task_en": "You found a vulnerability in an open-source library used by thousands of projects. The maintainer is a single volunteer. Write a first contact that is respectful of their time, explains the impact, and offers to help with the fix.",
+   "task_hi": "आपको एक open-source library में vulnerability मिली जो हज़ारों projects में इस्तेमाल होती है। maintainer एक अकेला volunteer है। पहला संपर्क लिखें जो उनके समय का सम्मान करे, impact समझाए और fix में मदद की पेशकश करे।",
+   "min_words": 150,
+   "focus": ["diplomatic-language", "conditionals", "offers"]
+  },
+  {
+   "id": "wp:26",
+   "template": "wt:slack",
+   "cefr": "B2",
+   "task_en": "A deployment is scheduled for 6 pm, but you have just found a high-severity issue in the code that will ship. Write a Slack message to the release channel asking to delay, giving the reason in one or two lines.",
+   "task_hi": "6 बजे deployment scheduled है, पर आपको अभी-अभी ship होने वाले code में high-severity issue मिला है। release channel में Slack संदेश लिखें जिसमें delay माँगें और एक-दो पंक्तियों में कारण दें।",
+   "min_words": 40,
+   "focus": ["present-perfect", "urgency-language", "register"]
+  },
+  {
+   "id": "wp:27",
+   "template": "wt:email",
+   "cefr": "B1",
+   "task_en": "You attended a security conference last week. Write an email to your manager, Anjali, summarising the two most useful talks and suggesting one thing the team could try.",
+   "task_hi": "आप पिछले हफ़्ते एक security conference में गए थे। manager Anjali को email लिखें जिसमें दो सबसे उपयोगी talks का सार हो और एक चीज़ सुझाएँ जो team आज़मा सकती है।",
+   "min_words": 100,
+   "focus": ["past-simple", "reported-speech", "suggestions"]
+  },
+  {
+   "id": "wp:28",
+   "template": "wt:bug",
+   "cefr": "B1",
+   "task_en": "An internal dashboard exports user lists as CSV, and the export includes phone numbers that the UI hides. Only staff with the 'analyst' role can export. Write the report and decide whether this is Low or Medium, explaining why.",
+   "task_hi": "एक internal dashboard user lists को CSV में export करता है, और export में वे phone numbers शामिल हैं जो UI छिपाता है। सिर्फ़ 'analyst' role वाले staff export कर सकते हैं। रिपोर्ट लिखें और तय करें कि यह Low है या Medium, कारण समझाते हुए।",
+   "min_words": 100,
+   "focus": ["relative-clauses", "present-simple", "modals"]
+  },
+  {
+   "id": "wp:29",
+   "template": "wt:essay",
+   "cefr": "B1",
+   "task_en": "Many people in India move to another city for work. Do the benefits outweigh the difficulties? Give your opinion with two reasons and a personal example.",
+   "task_hi": "भारत में बहुत से लोग काम के लिए दूसरे शहर जाते हैं। क्या फ़ायदे कठिनाइयों से ज़्यादा हैं? दो कारणों और एक व्यक्तिगत उदाहरण के साथ अपनी राय दें।",
+   "min_words": 150,
+   "focus": ["comparatives", "linking-words", "present-perfect"]
+  },
+  {
+   "id": "wp:30",
+   "template": "wt:incident",
+   "cefr": "B2",
+   "task_en": "A phishing email tricked one employee into entering their password on a fake login page. The attacker sent 200 emails from that account before it was locked. Write the summary for the leadership team, including next steps with owners.",
+   "task_hi": "एक phishing email ने एक कर्मचारी को नकली login page पर password डालने के लिए बहका दिया। account lock होने से पहले attacker ने उस account से 200 emails भेजे। leadership team के लिए summary लिखें, owners सहित next steps के साथ।",
+   "min_words": 150,
+   "focus": ["past-simple", "passive", "future-forms"]
+  },
+  {
+   "id": "wp:31",
+   "template": "wt:followup",
+   "cefr": "A2",
+   "task_en": "You ordered a laptop stand online two weeks ago and it has not arrived. Write a short, polite follow-up to the shop asking where it is.",
+   "task_hi": "आपने दो हफ़्ते पहले online एक laptop stand order किया और वह अभी तक नहीं आया। दुकान को छोटा, विनम्र follow-up लिखें और पूछें कि वह कहाँ है।",
+   "min_words": 50,
+   "focus": ["present-perfect", "yet-already-still", "polite-requests"]
+  },
+  {
+   "id": "wp:32",
+   "template": "wt:email",
+   "cefr": "B2",
+   "task_en": "Your team lead asked you to explain, in writing, why the company should switch from password-only login to passkeys. Write an email for a non-technical audience with three clear benefits and one honest limitation.",
+   "task_hi": "आपके team lead ने लिखित में समझाने को कहा कि कंपनी को password-only login से passkeys पर क्यों जाना चाहिए। non-technical audience के लिए email लिखें जिसमें तीन स्पष्ट फ़ायदे और एक ईमानदार सीमा हो।",
+   "min_words": 150,
+   "focus": ["linking-words", "modals", "articles"]
+  },
+  {
+   "id": "wp:33",
+   "template": "wt:slack",
+   "cefr": "C1",
+   "task_en": "A senior engineer has pushed back publicly in a channel, saying your finding is 'theoretical'. Write a reply that stays calm, adds one concrete piece of evidence, and moves the discussion to a call without escalating.",
+   "task_hi": "एक senior engineer ने channel में सार्वजनिक रूप से कहा कि आपकी finding 'theoretical' है। ऐसा जवाब लिखें जो शांत रहे, एक ठोस सबूत जोड़े और बात को बिना escalate किए call पर ले जाए।",
+   "min_words": 60,
+   "focus": ["diplomatic-language", "hedging", "contractions"]
+  }
+ ]
+}

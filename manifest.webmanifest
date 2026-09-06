@@ -1,0 +1,22 @@
+{
+  "name": "English Mastery",
+  "short_name": "English",
+  "description": "Personal English learning system: spaced repetition, grammar, pronunciation, shadowing, AI tutor. Offline-first.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f1117",
+  "theme_color": "#0f1117",
+  "lang": "en",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Review", "url": "./index.html#/review", "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Daily 5", "url": "./index.html#/daily", "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Shadowing", "url": "./index.html#/shadow", "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

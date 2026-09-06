@@ -1,0 +1,134 @@
+# English Mastery
+
+A personal, offline-first English learning system for a Hindi-speaking adult learner. Plain HTML, CSS and vanilla JavaScript ES modules. No build step, no server, no accounts. Everything you do is stored in your browser's IndexedDB and can be exported as one JSON file.
+
+What is inside:
+
+| Module | What it does |
+|---|---|
+| **Review** | SM-2 spaced repetition for every learnable atom: words, collocations, grammar items, minimal pairs, mistakes, notes, AI corrections. Five rotating card faces per word: meaning, produce from Hindi, cloze, listen and type, use it in a sentence. |
+| **Daily 5** | Five new words a day, chosen deterministically by date, with history and per-word retention. Streak with freezes. |
+| **Vocabulary** | 1,150+ frequency-ordered entries across A1 to C1, phrasal verbs, idioms, a security-engineering and report-writing deck, and 150 collocations. Each word has IPA, Hindi meaning, Hindi-speaker nuance, 5+ examples with Hindi, collocations, word family and a common Indian-English mistake. |
+| **Grammar** | 60 lessons A1 to C1: concept, Hindi explanation, pattern, examples, the mistakes Hindi speakers make, 10 practice items, free production graded by AI. |
+| **Pronunciation** | Phoneme lab (44 sounds, record and compare), 122 minimal pairs (ear training then production with speech scoring), word stress trainer, sentence stress and weak forms, connected speech, intonation with pitch curves, tongue twisters. |
+| **Shadowing** | 80 sentences: listen at 1.0×, 0.75×, record while shadowing, A/B compare, self-rate, becomes an SRS card. |
+| **Listening** | 150 dictation sentences with character diff, plus numbers, dates and spelling drills. |
+| **Speaking** | Daily prompt, recording, transcript, AI feedback on grammar, vocabulary range and filler words. |
+| **Writing studio** | Email, bug report, Slack, essay, incident and disclosure templates. AI rubric, corrected version with inline diff, every correction becomes a card. |
+| **Mistakes** | Every wrong answer and AI correction is logged, grouped by rule, and re-tested more aggressively. |
+| **AI tutor** | DeepSeek chat with streaming, context injection from whatever you are studying, threads, rolling summaries and a cost counter. |
+| **Progress** | Heatmap, skill radar, pronunciation and listening trends, CEFR progress, streak, time studied. |
+| **Placement** | 30-question adaptive test on first launch. |
+
+## Deploy to GitHub Pages
+
+1. Create a repository (for example `english-mastery`) and push this folder to the `main` branch:
+
+   ```bash
+   git init
+   git add .
+   git commit -m "English Mastery"
+   git branch -M main
+   git remote add origin git@github.com:<your-user>/english-mastery.git
+   git push -u origin main
+   ```
+
+2. On GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `(root)`**. Save.
+3. After a minute the app is live at `https://<your-user>.github.io/english-mastery/`. All paths are relative, so it works from that subpath.
+4. On iPad or iPhone, open the URL in Safari, tap **Share → Add to Home Screen**. The app then runs full-screen and fully offline.
+
+Every time you push, the service worker picks up the new files. If you change JavaScript, CSS or data, bump `VERSION` in `sw.js` so installed devices refresh their cache. Users see a "new version is ready" toast and can reload.
+
+### Run locally
+
+Service workers and ES modules need HTTP, not `file://`:
+
+```bash
+python3 -m http.server 8080
+# open http://localhost:8080
+```
+
+## The DeepSeek key
+
+The AI tutor, writing rubric, speaking feedback and sentence grading use DeepSeek's `deepseek-chat` model.
+
+1. Create a key at <https://platform.deepseek.com> and set a monthly spending limit there.
+2. In the app, go to **Settings → AI tutor**, paste the key, tap **Save key**, then **Test connection**.
+
+The key is stored only in your browser's IndexedDB on that device and is sent only to `https://api.deepseek.com/chat/completions`. It is never in the repository. Do not open the app on a shared or public device. Without a key, everything else still works; the AI features explain how to add one.
+
+## Backups
+
+There is no server. If the browser's site data is cleared, your progress is gone. Do this:
+
+- **Settings → Backup → Export all progress** at least weekly. The app reminds you after seven days. Save the file to iCloud Drive or Files.
+- **Import** restores from that file. **Merge** keeps current data and adds the file (newer wins). **Replace** wipes first.
+- Exports include cards, reviews, attempts, mistakes, daily sets, notes, chats and settings (including the API key). They exclude audio recordings.
+- On iOS, the app asks for persistent storage so Safari is less likely to evict data, but a backup is still the only guarantee.
+
+## Adding your own content
+
+All content lives in `data/*.json`. No code changes are needed to add items. IDs must be unique and stable, because your progress is keyed to them.
+
+| File | Shape | How to add |
+|---|---|---|
+| `vocab-*.json`, `phrasal-verbs.json`, `idioms.json` | Array of word entries | Append an entry with a new id (`v:b1:0201`). Keep 5+ examples with Hindi. The deck a word belongs to is inferred from its id prefix (`v:a1`, `v:tech`, `v:pv`, `v:id`). |
+| `collocations.json` | Array | `col:151`, phrase, pattern, the wrong version, examples. |
+| `grammar.json` | Array of lessons | Copy a lesson, give it a new `id`, a unique `order`, exactly 10 practice items (`fill`, `choose`, `fix`, `reorder`, `tf`). |
+| `phonemes.json` | Exactly 44 | Edit descriptions only. |
+| `minimal-pairs.json` | Array | `mp:<contrast>:NN`, two words with IPA, a sentence each, tips. |
+| `stress.json` | Object with five arrays | `sentence_stress.content` are 0-based word indices; `intonation.contour` must have one value per word. |
+| `shadowing.json`, `listening.json`, `speaking-prompts.json`, `writing-prompts.json`, `placement.json` | See the existing entries | Keep the Hindi fields in Devanagari. |
+
+After editing, run the validator. It checks every required field, Hindi presence, index ranges and duplicate ids:
+
+```bash
+python3 tools/validate.py            # all files
+python3 tools/validate.py data/grammar.json
+```
+
+Then update the counts in `data/index.json` (or regenerate it with the snippet at the top of `tools/validate.py`), bump `VERSION` in `sw.js`, and push.
+
+To add a whole new vocabulary deck, add it to `VOCAB_DECKS` in `js/content.js`, add the filename to `DATA` in `sw.js`, and add a validator entry in `tools/validate.py`.
+
+## Keyboard shortcuts (desktop)
+
+| Key | Action |
+|---|---|
+| `Space` | Reveal the card, or apply the suggested grade |
+| `1` `2` `3` `4` | Again / Hard / Good / Easy |
+| `Enter` | Submit a typed answer, or apply the suggested grade |
+| `/` | Focus search |
+| `Esc` | Close a sheet, or leave the review |
+
+On a phone or iPad: tap the card to reveal, swipe right for Good, swipe left for Again.
+
+## How it is built
+
+```
+index.html               shell
+css/theme.css            design tokens, dark default, light theme, Devanagari font stack
+css/app.css              layout and components
+js/app.js                boot, routes, navigation, service worker registration
+js/router.js             hash router; views export render(container, params, query)
+js/db.js                 IndexedDB wrapper with versioned additive migrations, export/import
+js/srs.js                SM-2 scheduling, queue building
+js/store.js              progress operations: cards, reviews, days, streak, daily 5, mistakes, notes
+js/content.js            lazy JSON loading and lookups
+js/exercise.js           practice item renderer (fill/choose/fix/reorder/tf)
+js/tts.js  js/asr.js  js/audio.js   speech synthesis, recognition + word-level scoring, recording
+js/ai.js                 DeepSeek streaming client, tutor prompts, structured grading
+js/charts.js             SVG heatmap, line, radar, bars, intonation curve
+js/i18n.js               Hindi toggle and tap-to-reveal
+js/views/*.js            one module per screen
+data/*.json              all content
+tools/validate.py        content validator;  tools/merge.py merges part files
+```
+
+Storage schema, algorithms and content schemas are documented in `PLAN.md`.
+
+## Browser notes
+
+- **iOS and iPadOS Safari** have no `SpeechRecognition`. Scoring drills automatically fall back to record-and-compare with self-rating, which is honest and still effective. Text-to-speech, recording and everything else work. For much better voice quality, download an *Enhanced* English voice under Settings → Accessibility → Spoken Content → Voices.
+- **Chrome and Edge** on desktop and Android support speech recognition, so minimal pairs, sentence scoring and speaking prompts get automatic word-by-word feedback.
+- Speech recognition sends audio to the browser vendor's service; nothing is sent by this app itself except DeepSeek requests when you use AI features.
