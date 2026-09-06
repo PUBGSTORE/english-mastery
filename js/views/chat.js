@@ -19,8 +19,9 @@ export async function render(container, params) {
   const threads = await ai.listThreads();
   const usage = await ai.usageSummary();
   const memory = await ai.getMemory();
+  const inr = await (await import('../db.js')).getSetting('inrRate', 84);
   mount(container, html`
-    <div class="page-head"><div><h1>AI tutor</h1><p class="sub">${key ? `deepseek-chat · ${usage.calls} calls · ~$${usage.cost.toFixed(3)} spent` : 'No API key yet'}</p></div><div class="btn-row"><button class="btn" id="memory">${icon('star')} Memory (${memory.length})</button><button class="btn btn-primary" id="new">${icon('plus')} New chat</button></div></div>
+    <div class="page-head"><div><h1>AI tutor</h1><p class="sub">${key ? `deepseek-chat · ${usage.calls} calls · ≈ ₹${(usage.cost * inr).toFixed(2)} ($${usage.cost.toFixed(3)}) spent` : 'No API key yet'}</p></div><div class="btn-row"><button class="btn" id="memory">${icon('star')} Memory (${memory.length})</button><button class="btn btn-primary" id="new">${icon('plus')} New chat</button></div></div>
     ${!key ? noKeyHtml() : ''}
     <div class="search mb">${icon('search')}<input class="input" type="search" id="q" placeholder="Search chats…"></div>
     <div class="list" id="threads">${threads.length ? threads.map(threadRow) : html`<div class="empty">${icon('chat')}<p>No conversations yet. Tap the Ask button on any screen: the tutor already knows what you are studying.</p></div>`}</div>`);
@@ -95,7 +96,8 @@ async function mountThread(container, threadId, { embedded, context = null, init
     log.scrollTop = log.scrollHeight;
   };
   drawLog();
-  const updateCost = async () => { const u = await ai.usageSummary(); $('#cost', container).textContent = `Session total: ${((u.input + u.output) / 1000).toFixed(1)}k tokens · ~$${u.cost.toFixed(4)}`; };
+  const inr2 = await (await import('../db.js')).getSetting('inrRate', 84);
+  const updateCost = async () => { const u = await ai.usageSummary(); $('#cost', container).textContent = `All-time: ${((u.input + u.output) / 1000).toFixed(1)}k tokens · ≈ ₹${(u.cost * inr2).toFixed(2)} ($${u.cost.toFixed(4)})`; };
   updateCost();
   const autoGrow = () => { input.style.height = 'auto'; input.style.height = Math.min(140, input.scrollHeight) + 'px'; };
   input.oninput = autoGrow;

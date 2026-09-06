@@ -65,7 +65,7 @@ export async function render(container) {
       <div class="grid-3">
         <div class="stat"><div class="label">Calls</div><div class="value">${usage.calls}</div></div>
         <div class="stat"><div class="label">Tokens in / out</div><div class="value" style="font-size:var(--fs-md)">${(usage.input / 1000).toFixed(1)}k / ${(usage.output / 1000).toFixed(1)}k</div></div>
-        <div class="stat"><div class="label">Est. spend</div><div class="value">$${usage.cost.toFixed(3)}</div></div>
+        <div class="stat"><div class="label">Est. spend (all time)</div><div class="value" style="font-size:var(--fs-lg)">₹${(usage.cost * inrRate).toFixed(2)}<small> · $${usage.cost.toFixed(3)}</small></div></div>
       </div>
       <div class="grid-2 mt">
         <div class="field"><label for="priceIn">Price per 1M input tokens ($)</label><input class="input" id="priceIn" type="number" step="0.01" value="${prices.input}"></div>
