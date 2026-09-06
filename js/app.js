@@ -72,6 +72,9 @@ route('/converse/:id', V('converse'), { title: 'Conversation' });
 route('/commute', V('commute'), { title: 'Commute' });
 route('/proof', V('proof'), { title: 'Proof' });
 route('/proof/:id', V('proof'), { title: 'Proof' });
+route('/knowledge', V('knowledge'), { title: 'Get Fast Knowledge' });
+route('/knowledge/:id', V('knowledge'), { title: 'Get Fast Knowledge' });
+route('/myvocab', V('myvocab'), { title: 'My vocabulary list' });
 route('/learn', V('hub'), { title: 'Learn' });
 route('/practice', V('hub'), { title: 'Practice' });
 
@@ -86,6 +89,7 @@ const TABS = [
 const SIDE = [
   { title: '', items: [{ href: '#/', label: 'Today', icon: 'home' }, { href: '#/home', label: 'Dashboard', icon: 'grid' }, { href: '#/review', label: 'Review', icon: 'zap', badge: 'due' }] },
   { title: 'Learn', items: [{ href: '#/vocab', label: 'Vocabulary', icon: 'layers' }, { href: '#/daily', label: 'Daily 5', icon: 'calendar' }, { href: '#/grammar', label: 'Grammar', icon: 'book' }, { href: '#/mine', label: 'Video miner', icon: 'play' }, { href: '#/read', label: 'Reader', icon: 'eye' }, { href: '#/chunks', label: 'Chunks & phrases', icon: 'message' }, { href: '#/roots', label: 'Roots', icon: 'layers' }, { href: '#/coverage', label: 'Coverage', icon: 'trending' }, { href: '#/notes', label: 'Notes', icon: 'note' }] },
+  { title: '🦉 Get Fast Knowledge', cls: 'owl-group', items: [{ href: '#/knowledge', label: 'Analyse a video', icon: 'sparkle', cls: 'owl-link' }, { href: '#/myvocab', label: '❤ My vocabulary list', icon: 'star' }] },
   { title: 'Practice', items: [{ href: '#/pron', label: 'Pronunciation', icon: 'wave' }, { href: '#/shadow', label: 'Shadowing', icon: 'ear' }, { href: '#/listen', label: 'Listening', icon: 'speaker' }, { href: '#/speak', label: 'Speaking', icon: 'mic' }, { href: '#/write', label: 'Writing', icon: 'pen' }, { href: '#/translate', label: 'Translate', icon: 'refresh' }, { href: '#/converse', label: 'Conversation', icon: 'chat' }, { href: '#/generate', label: 'Generate', icon: 'sparkle' }, { href: '#/commute', label: 'Commute', icon: 'speaker' }, { href: '#/mistakes', label: 'Mistakes', icon: 'alert' }] },
   { title: 'More', items: [{ href: '#/chat', label: 'AI Tutor', icon: 'chat' }, { href: '#/progress', label: 'Progress', icon: 'chart' }, { href: '#/proof', label: 'Proof', icon: 'award' }, { href: '#/settings', label: 'Settings', icon: 'settings' }] },
 ];
@@ -93,7 +97,7 @@ function renderNav() {
   const tab = document.getElementById('tabbar');
   tab.innerHTML = TABS.map((t) => `<a href="${t.href}" data-tab aria-label="${t.label}">${icon(t.icon)}<span>${t.label}</span></a>`).join('');
   const side = document.getElementById('side-links');
-  side.innerHTML = SIDE.map((g) => `${g.title ? `<div class="side-title">${g.title}</div>` : ''}${g.items.map((i) => `<a class="side-link" href="${i.href}" data-side>${icon(i.icon)}<span>${i.label}</span>${i.badge ? `<span class="badge" data-badge="${i.badge}" hidden></span>` : ''}</a>`).join('')}`).join('');
+  side.innerHTML = SIDE.map((g) => `${g.title ? `<div class="side-title ${g.cls || ''}">${g.title}</div>` : ''}${g.items.map((i) => `<a class="side-link ${i.cls || ''}" href="${i.href}" data-side>${icon(i.icon)}<span>${i.label}</span>${i.badge ? `<span class="badge" data-badge="${i.badge}" hidden></span>` : ''}</a>`).join('')}`).join('');
   $('#side-theme').onclick = () => setTheme(getTheme() === 'dark' ? 'light' : 'dark');
   const hb = $('#side-hindi');
   const syncHi = () => { hb.setAttribute('aria-pressed', String(isHindi())); hb.classList.toggle('active', isHindi()); };

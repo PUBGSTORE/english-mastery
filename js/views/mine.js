@@ -28,7 +28,7 @@ async function renderHub(container) {
     <div class="page-head"><div><h1>Mine a video</h1><p class="sub">Paste a YouTube link. Every video you watch becomes a deck of the words you did not know, with the exact sentence they appeared in.</p></div></div>
     <div class="card accent">
       <form id="mine-form" autocomplete="off">
-        <div class="row"><input class="input" id="url" placeholder="https://youtu.be/… or a video id" inputmode="url" autocapitalize="off" style="flex:1;min-width:220px"><select class="select" id="cap" style="width:auto"><option value="20" ${cap == 20 ? 'selected' : ''}>20 words</option><option value="40" ${cap == 40 ? 'selected' : ''}>40 words</option><option value="60" ${cap == 60 ? 'selected' : ''}>60 words</option></select><button class="btn btn-primary" type="submit" id="go">${icon('search')} Mine</button></div>
+        <div class="row"><input class="input" id="url" placeholder="https://youtu.be/… or a video id" inputmode="url" autocapitalize="off" style="flex:1;min-width:220px"><select class="select" id="cap" style="width:auto"><option value="20" ${cap == 20 ? 'selected' : ''}>20 words</option><option value="40" ${cap == 40 ? 'selected' : ''}>40 words</option><option value="60" ${cap == 60 ? 'selected' : ''}>60 words</option><option value="0" ${cap == 0 ? 'selected' : ''}>All words</option></select><button class="btn btn-primary" type="submit" id="go">${icon('search')} Mine</button></div>
       </form>
       <p class="xs muted mt mb-0">${proxy ? html`Transcript proxy connected — paste a link and it just works. If a video has no captions you'll be offered the paste box.` : html`No transcript proxy: after tapping Mine you'll paste the transcript.`} ${key ? '' : html`No DeepSeek key: you'll get the word list and video sentences without meanings.`}</p>
       <div id="mine-status" class="mt"></div>
@@ -159,12 +159,14 @@ async function renderVideo(container, id) {
     $('#add-b1', pane).onclick = () => bulkAdd((w) => { const c = cache.get(w.lemma); return c ? ['B1', 'B2', 'C1', 'C2'].includes(c.cefr) : w.band >= 3; });
     $('#export', pane).onclick = () => exportList();
     pane.querySelectorAll('[data-act]').forEach((b) => b.onclick = () => decide(+b.dataset.i, b.dataset.act));
+    pane.querySelectorAll('[data-fav]').forEach((b) => b.onclick = async () => { const w = v.words[+b.dataset.fav]; const c = cache.get(w.lemma) || {}; const mv = await import('../myvocab.js'); const added = await mv.toggle({ key: w.wordId || `lemma:${w.lemma}`, word: c.word || w.lemma, en: c.en_def || `Seen in: ${w.sentence.slice(0, 80)}`, hi: c.hi_def || '', gu: c.gu_def || '', ipa: c.ipa || '', source: { title: v.title, href: `#/mine/${encodeURIComponent(v.id)}` } }); b.style.color = added ? 'var(--red)' : ''; toast(added ? 'Added to your vocabulary list' : 'Removed from your list', 'ok', { timeout: 1500 }); });
+    import('../myvocab.js').then(async (mv) => { const keys = new Set((await mv.list()).map((x) => x.key)); pane.querySelectorAll('[data-fav]').forEach((b) => { const w = v.words[+b.dataset.fav]; if (keys.has(w.wordId || `lemma:${w.lemma}`)) b.style.color = 'var(--red)'; }); });
   };
   const wordRow = (w, i, c) => html`<div class="list-item" style="align-items:flex-start;${w.decision ? 'opacity:.6' : ''}"><div class="grow">
       <div class="row" style="gap:6px"><strong style="font-size:var(--fs-lg)">${c ? c.word : w.lemma}</strong>${c ? html`<span class="ipa xs">${c.ipa}</span><span class="pos xs">${c.pos}</span><span class="chip" style="min-height:20px;padding:0 6px">${c.cefr}</span>` : html`<span class="chip" style="min-height:20px;padding:0 6px">band ${w.band > 5 ? '5+' : w.band}</span>`}<span class="xs faint">×${w.count}</span>${speakButton(c ? c.word : w.lemma)}</div>
-      ${c ? html`<div class="small">${c.en_def}</div><div class="small">${hi(c.hi_def)}</div>${c.hi_nuance ? html`<div class="xs muted">${c.hi_nuance}</div>` : ''}` : ''}
+      ${c ? html`<div class="small">${c.en_def}</div><div class="small">${hi(c.hi_def)}${c.gu_def ? html` <span class="hi-text" lang="gu">· ${c.gu_def}</span>` : ''}</div>${c.hi_nuance ? html`<div class="xs muted">${c.hi_nuance}</div>` : ''}` : ''}
       <div class="xs muted mt" style="font-style:italic">“${{ toString: () => escapeHtml(w.sentence).replace(new RegExp(`\\b(${escapeHtml(w.form || w.lemma)})\\b`, 'i'), '<mark style="background:var(--accent-soft);color:inherit;border-radius:3px">$1</mark>') }}”${w.t != null && v.url ? html` <a href="${yt.watchUrl(v.id, Math.max(0, w.t - 3))}" target="_blank" rel="noopener">${yt.fmtTime(w.t)}</a>` : ''}</div></div>
-      <div class="stack" style="gap:4px">${w.decision ? html`<span class="chip ${w.decision === 'added' ? 'green' : ''}" style="min-height:26px">${w.decision}</span>` : html`<button class="btn btn-sm btn-primary" data-act="added" data-i="${i}">${icon('plus')} Add</button><button class="btn btn-sm" data-act="known" data-i="${i}">Know it</button><button class="btn btn-sm btn-ghost" data-act="ignored" data-i="${i}">Ignore</button>`}</div></div>`;
+      <div class="stack" style="gap:4px">${w.decision ? html`<span class="chip ${w.decision === 'added' ? 'green' : ''}" style="min-height:26px">${w.decision}</span>` : html`<button class="btn btn-sm btn-primary" data-act="added" data-i="${i}">${icon('plus')} Add</button><button class="btn btn-sm" data-act="known" data-i="${i}">Know it</button><button class="btn btn-sm btn-ghost" data-act="ignored" data-i="${i}">Ignore</button>`}<div class="row" style="gap:4px;flex-wrap:nowrap"><button class="btn btn-sm btn-ghost" data-fav="${i}" aria-label="Add to my vocabulary list" title="My vocabulary list">❤</button><a class="btn btn-sm btn-ghost" href="https://www.google.com/search?q=${encodeURIComponent('define ' + (c ? c.word : w.lemma))}" target="_blank" rel="noopener" aria-label="Search on Google" title="Google">G</a></div></div></div>`;
 
   const runEnrich = async (pane) => {
     const pendingNow = v.words.filter((w) => !w.decision);
@@ -197,7 +199,7 @@ async function renderVideo(container, id) {
   const bulkAdd = async (pred) => {
     const targets = v.words.map((w, i) => [w, i]).filter(([w]) => !w.decision && pred(w));
     if (!targets.length) { toast('Nothing to add.', '', { timeout: 1500 }); return; }
-    if (!(await confirmDialog(`Add ${targets.length} words to your reviews?`, { okLabel: 'Add' }))) return;
+    if (!(await confirmDialog(`Add ${targets.length} words to your reviews?${targets.length > 60 ? ' That is a lot; they will arrive at your daily new-card limit.' : ''}`, { okLabel: 'Add' }))) return;
     for (const [, i] of targets) await decide(i, 'added');
     toast(`Added ${targets.length} words`, 'ok');
   };

@@ -26,7 +26,7 @@ export async function render_(container, isLearn) {
   mount(container, html`
     <div class="page-head"><div><h1>${isLearn ? 'Learn' : 'Practice'}</h1><p class="sub">${isLearn ? 'Build the knowledge.' : 'Turn knowledge into skill.'}</p></div></div>
     <div class="list">
-      ${items.map((i) => html`<a class="list-item" href="${i.href}">${icon(i.icon)}<div class="grow"><div class="title">${i.title}${i.key === 'due' && due ? html` <span class="badge">${due}</span>` : ''}</div><div class="sub">${i.sub}</div></div>${icon('next', 'arrow')}</a>`)}
+      ${items.map((i) => html`<a class="list-item ${i.cls || ''}" href="${i.href}">${icon(i.icon)}<div class="grow"><div class="title">${i.title}${i.key === 'due' && due ? html` <span class="badge">${due}</span>` : ''}</div><div class="sub">${i.sub}</div></div>${icon('next', 'arrow')}</a>`)}
     </div>`);
 }
 export function render(container) { return render_(container, current() === '/learn'); }
@@ -34,3 +34,5 @@ PRACTICE.splice(5, 0, { href: '#/translate', icon: 'refresh', title: 'Translate'
 LEARN.splice(4, 0, { href: '#/mine', icon: 'play', title: 'Video miner', sub: 'Turn any YouTube video into a word deck' }, { href: '#/read', icon: 'eye', title: 'Reader', sub: 'Paste any text, tap any word, read aloud' });
 LEARN.splice(6, 0, { href: '#/chunks', icon: 'message', title: 'Chunks & phrases', sub: '300 native frames + 200 everyday phrases' }, { href: '#/roots', icon: 'layers', title: 'Word roots & confusables', sub: 'Decode drill, 100 confusable pairs' }, { href: '#/coverage', icon: 'trending', title: 'Coverage', sub: 'How much of real English you know' });
 PRACTICE.splice(6, 0, { href: '#/converse', icon: 'chat', title: 'Conversation', sub: 'Voice roleplay with a post-mortem report' }, { href: '#/generate', icon: 'sparkle', title: 'Generate', sub: 'New practice from your own weaknesses' }, { href: '#/commute', icon: 'speaker', title: 'Commute mode', sub: 'Hands-free audio drill' });
+LEARN.unshift({ href: '#/knowledge', icon: 'sparkle', title: '🦉 Get Fast Knowledge', sub: 'Any long video → every learning explained, with हिन्दी and ગુજરાતી', cls: 'owl-item' });
+LEARN.splice(4, 0, { href: '#/myvocab', icon: 'star', title: '❤ My vocabulary list', sub: 'Every word you starred, ready to revise' });

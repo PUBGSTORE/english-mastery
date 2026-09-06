@@ -63,7 +63,7 @@ export async function addCustomWords(entries, { topic = '' } = {}) {
     taken.add(word.toLowerCase());
     const row = {
       id: `v:cu:${hashStr(word.toLowerCase()).toString(36)}`, kind: 'vocab', deck: 'custom', topic,
-      word, ipa: e.ipa || '', pos: e.pos || 'noun', cefr: e.cefr || 'B1', freq_rank: 9000, en_def: e.en_def, hi_def: e.hi_def, hi_nuance: e.hi_nuance || '',
+      word, ipa: e.ipa || '', pos: e.pos || 'noun', cefr: e.cefr || 'B1', freq_rank: 9000, en_def: e.en_def, hi_def: e.hi_def, gu_def: e.gu_def || '', hi_nuance: e.hi_nuance || '',
       examples: (e.examples || []).filter((x) => x && x.en).slice(0, 7), collocations: e.collocations || [], synonyms: e.synonyms || [], antonyms: e.antonyms || [],
       word_family: e.word_family && e.word_family.length ? e.word_family : [word], register: e.register || 'neutral',
       common_mistake: e.common_mistake || null, cloze: e.cloze && e.cloze.sentence ? e.cloze : { sentence: (e.examples?.[0]?.en || '____').replace(new RegExp(word, 'i'), '____'), answer: word },

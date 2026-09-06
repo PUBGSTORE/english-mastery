@@ -67,7 +67,7 @@ export async function analyse(text, { segments = null, cap = 40, onProgress = nu
     .sort((a, b) => b.rank - a.rank || a.first - b.first);
   const density = total ? knownish / total : 1;
   const stats = { tokens: total, uniqueLemmas: counts.size + [...new Set(sentences.flatMap((s) => s.tokens.filter((t) => !t.proper).map((t) => t.lemma)))].length - counts.size, unknownTokens: unknownTok, unknownLemmas: counts.size, density: Math.round(density * 1000) / 10, sentences: sentences.length };
-  return { sentences, candidates: candidates.slice(0, cap), allCandidates: candidates, stats };
+  return { sentences, candidates: cap > 0 ? candidates.slice(0, cap) : candidates, allCandidates: candidates, stats };
 }
 /** Keep candidate sentences short: a ±12-word window around the word when the sentence is very long. */
 function window(sentence, word) {
@@ -139,7 +139,7 @@ export async function enrich(lemmaList, { level = 'B1', onBatch = null, sentence
     const rows = [];
     for (const l of batch) {
       const e = got[l] || got[l.toLowerCase()];
-      if (valid(e)) rows.push({ lemma: l, word: e.word.trim().toLowerCase(), ipa: e.ipa, pos: e.pos, cefr: normCefr(e.cefr), en_def: e.en_def, hi_def: e.hi_def, hi_nuance: e.hi_nuance || '', example_en: e.example_en, example_hi: e.example_hi, synonyms: Array.isArray(e.synonyms) ? e.synonyms.slice(0, 5) : [], register: e.register || 'neutral', ts: nowISO(), model: ai.MODEL });
+      if (valid(e)) rows.push({ lemma: l, word: e.word.trim().toLowerCase(), ipa: e.ipa, pos: e.pos, cefr: normCefr(e.cefr), en_def: e.en_def, hi_def: e.hi_def, gu_def: /[઀-૿]/.test(e.gu_def || '') ? e.gu_def : '', hi_nuance: e.hi_nuance || '', example_en: e.example_en, example_hi: e.example_hi, synonyms: Array.isArray(e.synonyms) ? e.synonyms.slice(0, 5) : [], register: e.register || 'neutral', ts: nowISO(), model: ai.MODEL });
       else skipped.push(l);
     }
     if (rows.length) { await db.bulkPut('wordCache', rows); for (const r of rows) entries.set(r.lemma, r); }
@@ -158,7 +158,7 @@ export async function toCustomWord(cacheEntry, sentence, source) {
   const examples = [];
   if (sentence) examples.push({ en: sentence, hi: cacheEntry.example_hi && sentence === cacheEntry.example_en ? cacheEntry.example_hi : `(वीडियो से) ${cacheEntry.hi_def}` });
   if (cacheEntry.example_en && cacheEntry.example_en !== sentence) examples.push({ en: cacheEntry.example_en, hi: cacheEntry.example_hi });
-  const saved = await addCustomWords([{ word, ipa: cacheEntry.ipa, pos: cacheEntry.pos, cefr: cacheEntry.cefr, en_def: cacheEntry.en_def, hi_def: cacheEntry.hi_def, hi_nuance: cacheEntry.hi_nuance, examples, synonyms: cacheEntry.synonyms, register: cacheEntry.register, cloze: { sentence: clozeSentence, answer }, word_family: [word] }], { topic: source && source.title ? `video:${source.title.slice(0, 24)}` : 'mined' });
+  const saved = await addCustomWords([{ word, ipa: cacheEntry.ipa, pos: cacheEntry.pos, cefr: cacheEntry.cefr, en_def: cacheEntry.en_def, hi_def: cacheEntry.hi_def, gu_def: cacheEntry.gu_def || '', hi_nuance: cacheEntry.hi_nuance, examples, synonyms: cacheEntry.synonyms, register: cacheEntry.register, cloze: { sentence: clozeSentence, answer }, word_family: [word] }], { topic: source && source.title ? `video:${source.title.slice(0, 24)}` : 'mined' });
   if (saved.length) { saved[0].source = source; await db.put('custom', saved[0]); return saved[0].id; }
   // already exists as a custom word → find it
   const { allVocab: av } = await import('./content.js');

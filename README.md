@@ -122,12 +122,18 @@ Auto-captions arrive without punctuation. If a DeepSeek key is set, the app offe
 
 Transcripts are fetched for your personal study only; keep it that way.
 
+## 🦉 Get Fast Knowledge
+
+Paste any long video (podcast, lecture, course) on the **Get Fast Knowledge** screen. The app fetches the transcript through the same chain as the miner, shows the cost in rupees, and then sends the transcript to DeepSeek **in 2,000-word parts** so nothing is compressed away. Each part comes back as a chapter with every learning written out in full (explanation, examples, steps, a verbatim quote), a Hindi and a Gujarati summary, and glossary terms in English, हिन्दी and ગુજરાતી. A final pass adds the overview, big ideas, an action checklist and a study tip. Guides are stored forever in the library, so a video is paid for once. From the guide page you can save it as its own page in Notes with one tap, write your own notes on it, ask the tutor about it, read it aloud, export Markdown, tick off actions, and ❤ any glossary term into your vocabulary list.
+
+**❤ My vocabulary list.** Every word screen, mined word, reader popup and glossary term has a ❤ button. The list lives at **My vocabulary list** with a revise mode, and it is mirrored as a page in Notes so it survives exports and cloud backup.
+
 ## Phase 7 additions at a glance
 
 | Screen | What it does |
 |---|---|
 | **Today** (landing) | Pick 10 / 20 / 40 minutes; the app composes the session (interleaved reviews → Daily 5 → weakest skill → a lesson → shadowing or re-watch → a production task) and walks you through it with a progress bar. The classic dashboard is at `#/home`. |
-| **Video miner** and **Reader** | See the section above. |
+| **Video miner** and **Reader** | See the section above. Word cap can be 20/40/60 or **all**; every word has a Google button and Hindi + Gujarati meanings. |
 | **Coverage** | Where you stand against the 5,000 most frequent lemmas, estimated text coverage for general / news / academic text, and the 20 highest-value unknown words with one-tap add. |
 | **Chunks & phrases** | 300 functional frames (softening, disagreeing, hedging, clarifying, interrupting, bad news, escalating, apologising, summarising, small talk…) and 200 everyday spoken phrases. Cards are production-first: Hindi and function in, English frame out. |
 | **Roots & confusables** | 120 Latin/Greek parts with a decode drill, and 106 confusable pairs with a quiz. |

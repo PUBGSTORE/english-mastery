@@ -125,7 +125,10 @@ export async function renderWord(container, id) {
       <div class="btn-row mt">
         ${card ? html`<span class="chip ${card.interval >= 21 ? 'green' : 'amber'}">${card.state === 'new' ? 'In queue' : `Due ${fmtRelDue(card.due)} · ease ${card.ease}`}${retention !== null ? ` · retention ${retention}%` : ''}</span>` : html`<button class="btn btn-primary" id="add-card">${icon('plus')} Add to reviews</button>`}
         <button class="btn" id="add-note">${icon('note')} Note</button>
+        <button class="btn" id="fav" aria-label="Add to my vocabulary list">❤ My list</button>
+        <a class="btn btn-ghost" href="https://www.google.com/search?q=${encodeURIComponent('define ' + w.word)}" target="_blank" rel="noopener">G Google</a>
       </div>
+      ${w.gu_def ? html`<div class="hi-text" lang="gu">${w.gu_def}</div>` : ''}
     </div>
     <div class="section-label">Examples</div>
     <div class="example-list">${(w.examples || []).map((ex) => html`<div class="ex"><div class="grow"><div>${ex.en}</div><div>${hi(ex.hi)}</div></div>${speakButton(ex.en)}</div>`)}</div>
@@ -141,5 +144,8 @@ export async function renderWord(container, id) {
   const add = $('#add-card', container);
   if (add) add.onclick = async () => { await store.ensureVocabCards([id]); toast('Added to reviews', 'ok'); renderWord(container, id); };
   $('#add-note', container).onclick = () => { location.hash = `#/notes/new?attach=${encodeURIComponent(id)}&title=${encodeURIComponent(w.word)}`; };
+  const mv = await import('../myvocab.js'); const fav = $('#fav', container);
+  if (await mv.has(id)) fav.style.color = 'var(--red)';
+  fav.onclick = async () => { const added = await mv.toggle(await mv.fromWordId(id)); fav.style.color = added ? 'var(--red)' : ''; toast(added ? 'Added to your vocabulary list' : 'Removed from your list', 'ok', { timeout: 1500 }); };
   setContext({ title: w.word, text: `The word "${w.word}" (${w.pos}, ${w.cefr}): ${w.en_def}. Hindi: ${w.hi_def}. Example: ${w.examples?.[0]?.en || ''}` });
 }

@@ -440,3 +440,28 @@ mark { background: var(--accent-soft); color: inherit; }
 .session-bar .progress { height: 4px; margin-bottom: 6px; }
 body:has(.session-bar) .view { padding-top: calc(var(--sat) + 76px); }
 @media (min-width: 1024px) { .session-bar { left: var(--sidebar-w); } }
+
+/* 🦉 Get Fast Knowledge */
+.owl-hero { display: flex; gap: 18px; align-items: flex-start; padding: 24px; border-radius: 20px; margin-bottom: 16px; color: #fff;
+  background: linear-gradient(135deg, #f97316 0%, #ec4899 45%, #8b5cf6 100%); box-shadow: 0 10px 30px rgba(236, 72, 153, .25); }
+.owl-hero.compact { padding: 16px 18px; align-items: center; }
+.owl-hero h1 { color: #fff; margin-bottom: 6px; }
+.owl-hero p { color: rgba(255,255,255,.92); margin-bottom: 0; }
+.owl-emoji { font-size: 56px; line-height: 1; flex: none; filter: drop-shadow(0 4px 8px rgba(0,0,0,.25)); }
+.owl-card { border-color: color-mix(in srgb, #ec4899 40%, var(--border)); background: linear-gradient(180deg, rgba(236,72,153,.10), transparent 60%), var(--bg-2); }
+.owl-item { border-color: color-mix(in srgb, #f97316 45%, var(--border)); background: linear-gradient(135deg, rgba(249,115,22,.14), rgba(139,92,246,.12)), var(--bg-2); }
+.owl-item .title { color: #f97316; }
+.owl-chapter { border-left: 5px solid hsl(var(--owl-hue, 20) 85% 60%); background: linear-gradient(180deg, hsl(var(--owl-hue, 20) 85% 60% / .10), transparent 30%), var(--bg-2); }
+.owl-chapter h2 { font-size: var(--fs-xl); }
+.owl-learning { padding: 12px 14px; border-radius: var(--radius-sm); background: var(--bg-3); border: 1px solid var(--border); margin-bottom: 10px; }
+.owl-learning h3 { font-size: var(--fs-md); color: hsl(var(--owl-hue, 20) 85% 65%); margin-bottom: 4px; }
+[data-theme="light"] .owl-learning h3 { color: hsl(var(--owl-hue, 20) 70% 40%); }
+.owl-learning p { margin-bottom: 6px; line-height: 1.65; }
+.owl-sub { margin-top: 6px; } .owl-sub ul, .owl-sub ol { margin: 4px 0 0; padding-left: 1.2em; }
+.owl-label { font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: .08em; color: var(--text-3); font-weight: 700; }
+.owl-quote { margin: 8px 0 0; padding: 8px 12px; border-left: 3px solid #ec4899; background: rgba(236,72,153,.08); border-radius: 0 8px 8px 0; font-style: italic; color: var(--text-2); }
+.owl-ideas li { margin-bottom: 6px; }
+.side-title.owl-group { color: #f97316; }
+.side-link.owl-link { background: linear-gradient(135deg, rgba(249,115,22,.18), rgba(139,92,246,.18)); color: var(--text); font-weight: 600; }
+.side-link.owl-link.active { background: linear-gradient(135deg, #f97316, #ec4899); color: #fff; }
+[lang="gu"] { font-family: "Noto Sans Gujarati", "Kohinoor Gujarati", "Gujarati Sangam MN", "Shruti", var(--font-hi); }
