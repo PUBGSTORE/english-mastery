@@ -37,6 +37,8 @@ const STORES = {
 export const STORE_NAMES = Object.keys(STORES);
 // audio + diary hold Blobs (excluded from JSON export, documented in the UI); backups would nest exports.
 const EXPORT_STORES = STORE_NAMES.filter((s) => !['audio', 'diary', 'backups'].includes(s));
+// Device-local secrets: excluded from every export/backup file; re-enter them on a new device.
+export const SECRET_KEYS = new Set(['apiKey', 'ghToken']);
 
 let dbPromise = null;
 
@@ -187,6 +189,7 @@ export async function exportAll() {
   const counts = {};
   for (const s of EXPORT_STORES) {
     stores[s] = await getAll(s);
+    if (s === 'settings') stores[s] = stores[s].filter((r) => !SECRET_KEYS.has(r.key)); // never write device secrets into a file
     counts[s] = stores[s].length;
   }
   return {
@@ -224,11 +227,12 @@ export async function importAll(data, mode = 'merge') {
       if (mode === 'merge') {
         const existing = new Map((await reqToPromise(os.getAll())).map((r) => [r[STORES[name].keyPath], r]));
         for (const r of rows) {
+          if (name === 'settings' && SECRET_KEYS.has(r.key)) continue;
           const cur = existing.get(r[STORES[name].keyPath]);
           if (!cur || !cur.updatedAt || !r.updatedAt || r.updatedAt >= cur.updatedAt) { os.put(r); written++; }
         }
       } else {
-        for (const r of rows) { os.put(r); written++; }
+        for (const r of rows) { if (name === 'settings' && SECRET_KEYS.has(r.key)) continue; os.put(r); written++; }
       }
       await txDone(tx);
       summary[name] = written;

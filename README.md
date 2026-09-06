@@ -150,6 +150,16 @@ Paste any long video (podcast, lecture, course) on the **Get Fast Knowledge** sc
 | **Safety** | Anki export (.txt / .csv), GitHub Gist cloud sync, global search on `/`, and the last 3 daily snapshots kept in the browser for one-tap restore. |
 | **Say the word** | The third review of every word asks you to say it aloud and scores it (or record-and-compare on iPad), so no word reaches "mastered" unspoken. **Weak-sound detector** on Progress ranks the sounds you actually fail and builds a personal drill deck. Every mined video is closed only after five comprehension questions and a 60-second spoken summary. |
 
+## Security
+
+- **No server, no accounts.** The site is static files on GitHub Pages over HTTPS. There is nothing to log into and no database to breach.
+- **Secrets stay on the device.** The DeepSeek key and GitHub token live only in your browser's IndexedDB, are sent only to `api.deepseek.com` and `api.github.com`, and are **never** written into export files or the repository.
+- **Content Security Policy.** `index.html` carries a strict CSP: scripts only from the site itself (no inline scripts, no CDNs), network calls only to the listed APIs, no frames, no plugins. A referrer policy of `no-referrer` is set.
+- **Output escaping.** All rendering goes through an escaping template helper; user text, AI replies, transcripts and notes are escaped before display, and links from Markdown are restricted to `http(s)` with `rel="noopener"`.
+- **Transcript worker.** The Cloudflare Worker answers only requests whose `Origin` is this app (or localhost), so it cannot be used as a free proxy by strangers. It holds no secrets.
+- **Third parties you contact when you use the miner:** YouTube (metadata), your own worker, and public Piped mirrors as a fallback (they see the video id only). Cloud backup uses a private Gist under your account.
+- **Practical advice:** use a classic GitHub token with only the `gist` scope, set a spending limit on DeepSeek, never open the app on a shared device, and keep exports in a private folder.
+
 ## Keyboard shortcuts (desktop)
 
 | Key | Action |

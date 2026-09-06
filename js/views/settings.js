@@ -88,7 +88,7 @@ export async function render(container) {
     </div>
 
     <div class="card accent"><h3>Backup</h3>
-      <p class="small muted">This is your only backup. A cleared browser cache deletes everything. Export at least weekly; keep the file in iCloud Drive or Files.</p>
+      <p class="small muted">A cleared browser cache deletes everything, so keep a copy. Export files never contain your DeepSeek key or GitHub token (re-enter those on a new device).</p>
       <p class="small">Last export: <strong>${s.lastExport ? new Date(s.lastExport).toLocaleString() : 'never'}</strong></p>
       <div class="btn-row"><button class="btn btn-primary" id="export">${icon('download')} Export all progress</button>
         <label class="btn" for="import-file">${icon('upload')} Import…</label><input type="file" id="import-file" accept="application/json,.json" hidden></div>

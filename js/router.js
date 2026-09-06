@@ -1,5 +1,6 @@
 // router.js — hash router. Views are ES modules exporting render(container, params, query) → optional cleanup fn.
 import { clearShortcuts, closeSheet, setTitle, scrollTop, toast } from './ui.js';
+import { escapeHtml } from './utils.js';
 
 const routes = [];
 let currentCleanup = null;
@@ -64,7 +65,7 @@ async function handle() {
     if (!match.meta.keepFocus) container.focus({ preventScroll: true });
   } catch (e) {
     console.error('[router] render failed', e);
-    container.innerHTML = `<div class="card red"><h3>Something went wrong</h3><p class="muted">${(e && e.message) || e}</p><p><a class="btn" href="#/">Go home</a></p></div>`;
+    container.innerHTML = `<div class="card red"><h3>Something went wrong</h3><p class="muted">${escapeHtml((e && e.message) || e)}</p><p><a class="btn" href="#/">Go home</a></p></div>`;
     toast('View failed to load: ' + ((e && e.message) || e), 'err');
   }
 }

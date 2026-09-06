@@ -6,7 +6,8 @@
 // Why InnerTube: since 2025 the caption URLs embedded in the watch page return empty bodies to non-browser
 // clients (they need a proof-of-origin token). The player API used by the Android/iOS apps still returns working ones.
 
-const ALLOW = '*'; // restrict to your GitHub Pages origin if you like: 'https://<user>.github.io'
+// Only the app's origins may call this worker (plus localhost for development). Anything else gets no CORS header, so browsers block it.
+const ALLOWED_ORIGINS = ['https://pubgstore.github.io', 'http://127.0.0.1:8123', 'http://localhost:8123', 'http://localhost:8080', 'http://127.0.0.1:8080'];
 // Fallback when YouTube bot-checks Cloudflare's IPs: public Piped instances (community-run; the list is tried in order).
 const PIPED = ['https://api.piped.private.coffee', 'https://pipedapi.kavin.rocks', 'https://pipedapi.adminforge.de', 'https://api.piped.yt', 'https://pipedapi.drgns.space'];
 // Several clients are tried in order: datacenter IPs get bot-checked on some of them.
@@ -21,8 +22,11 @@ const CLIENTS = [
 
 export default {
   async fetch(request) {
-    const cors = { 'Access-Control-Allow-Origin': ALLOW, 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': '*', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'public, max-age=86400' };
+    const origin = request.headers.get('Origin') || '';
+    const allowed = ALLOWED_ORIGINS.includes(origin);
+    const cors = { ...(allowed ? { 'Access-Control-Allow-Origin': origin, 'Vary': 'Origin' } : {}), 'Access-Control-Allow-Methods': 'GET, OPTIONS', 'Access-Control-Allow-Headers': '*', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'public, max-age=86400', 'X-Content-Type-Options': 'nosniff' };
     if (request.method === 'OPTIONS') return new Response(null, { headers: cors });
+    if (!allowed) return json({ error: 'origin not allowed' }, 403, cors); // browsers always send Origin on cross-site fetch; scripts without it are refused too
     const url = new URL(request.url);
     const v = (url.searchParams.get('v') || '').trim();
     const wantLang = (url.searchParams.get('lang') || 'en').toLowerCase();

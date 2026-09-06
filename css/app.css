@@ -465,3 +465,46 @@ body:has(.session-bar) .view { padding-top: calc(var(--sat) + 76px); }
 .side-link.owl-link { background: linear-gradient(135deg, rgba(249,115,22,.18), rgba(139,92,246,.18)); color: var(--text); font-weight: 600; }
 .side-link.owl-link.active { background: linear-gradient(135deg, #f97316, #ec4899); color: #fff; }
 [lang="gu"] { font-family: "Noto Sans Gujarati", "Kohinoor Gujarati", "Gujarati Sangam MN", "Shruti", var(--font-hi); }
+
+/* ============================================================
+   Visual polish: section accents, richer buttons, icon badges
+   ============================================================ */
+body[data-section="learn"] { --accent: #7c9cff; --accent-2: #5b7ff0; --accent-soft: rgba(124,156,255,.16); }
+body[data-section="practice"] { --accent: #4fd1b5; --accent-2: #2fb59a; --accent-soft: rgba(79,209,181,.16); --accent-text: #06231c; }
+body[data-section="tutor"] { --accent: #f28ac2; --accent-2: #e0629f; --accent-soft: rgba(242,138,194,.16); --accent-text: #2a0f1e; }
+body[data-section="progress"] { --accent: #f6c453; --accent-2: #e3ad2c; --accent-soft: rgba(246,196,83,.18); --accent-text: #2b2004; }
+[data-theme="light"] body[data-section="learn"] { --accent: #3b63e6; --accent-2: #2c4fc4; --accent-text: #fff; --accent-soft: rgba(59,99,230,.12); }
+[data-theme="light"] body[data-section="practice"] { --accent: #0f9d84; --accent-2: #0b7e6a; --accent-text: #fff; --accent-soft: rgba(15,157,132,.12); }
+[data-theme="light"] body[data-section="tutor"] { --accent: #d63f8c; --accent-2: #b52f74; --accent-text: #fff; --accent-soft: rgba(214,63,140,.12); }
+[data-theme="light"] body[data-section="progress"] { --accent: #c98a00; --accent-2: #a87200; --accent-text: #fff; --accent-soft: rgba(201,138,0,.14); }
+
+.btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); border-color: transparent; box-shadow: 0 6px 16px color-mix(in srgb, var(--accent) 35%, transparent); }
+.btn-primary:hover { background: linear-gradient(135deg, var(--accent-2), var(--accent)); transform: translateY(-1px); }
+.btn-primary:active { transform: scale(.97); box-shadow: none; }
+.btn-lg { border-radius: 16px; letter-spacing: .01em; }
+.btn:not(.btn-primary):not(.btn-ghost):not(.btn-danger) { background: linear-gradient(180deg, var(--bg-3), var(--bg-2)); }
+.chip.active, .chip[aria-pressed="true"] { background: linear-gradient(135deg, var(--accent-soft), transparent); }
+.hero { background: radial-gradient(120% 140% at 0% 0%, color-mix(in srgb, var(--accent) 34%, var(--bg-2)), var(--bg-2) 60%); border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); box-shadow: 0 12px 40px color-mix(in srgb, var(--accent) 12%, transparent); }
+.hero .big { background: linear-gradient(135deg, var(--accent), var(--text)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.page-head h1 { background: linear-gradient(135deg, var(--text), color-mix(in srgb, var(--accent) 65%, var(--text))); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.list-item > .ic:first-child { width: 38px; height: 38px; padding: 8px; border-radius: 12px; background: var(--accent-soft); color: var(--accent); }
+.list-item:hover { transform: translateY(-1px); box-shadow: var(--shadow); }
+.list-item, .card, .btn { transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease), border-color var(--dur), background var(--dur); }
+a.card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.card .row > .ic { background: var(--accent-soft); padding: 7px; border-radius: 10px; width: 34px; height: 34px; }
+.tabbar a.active { position: relative; }
+.tabbar a.active::before { content: ""; position: absolute; top: 6px; width: 44px; height: 30px; border-radius: 12px; background: var(--accent-soft); z-index: -1; }
+.tabbar a { position: relative; z-index: 0; }
+.side-link.active { background: linear-gradient(135deg, var(--accent-soft), transparent); box-shadow: inset 3px 0 0 var(--accent); }
+.stat { background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 10%, var(--bg-3)), var(--bg-3)); }
+.stat .value { background: linear-gradient(135deg, var(--text), var(--accent)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.flashcard { background: radial-gradient(100% 80% at 100% 0%, color-mix(in srgb, var(--accent) 14%, var(--bg-2)), var(--bg-2) 60%); }
+.grade-bar .btn.g2 { background: linear-gradient(180deg, var(--green-soft), var(--bg-3)); }
+.grade-bar .btn.g3 { background: linear-gradient(180deg, var(--accent-soft), var(--bg-3)); }
+.grade-bar .btn.g0 { background: linear-gradient(180deg, var(--red-soft), var(--bg-3)); }
+.grade-bar .btn.g1 { background: linear-gradient(180deg, var(--amber-soft), var(--bg-3)); }
+.progress > span { background: linear-gradient(90deg, var(--accent-2), var(--accent)); }
+.fab { background: linear-gradient(135deg, var(--accent), var(--accent-2)); box-shadow: 0 10px 24px color-mix(in srgb, var(--accent) 40%, transparent); }
+.feedback.ok { border-left: 4px solid var(--green); } .feedback.close { border-left: 4px solid var(--amber); } .feedback.bad { border-left: 4px solid var(--red); }
+.section-label { color: var(--accent); }
+::-webkit-scrollbar { width: 10px; height: 10px; } ::-webkit-scrollbar-thumb { background: var(--bg-4); border-radius: 6px; border: 2px solid var(--bg); }

@@ -113,6 +113,7 @@ function highlightNav(path) {
   });
   const fab = document.getElementById('ask-fab');
   fab.hidden = path.startsWith('/chat');
+  document.body.dataset.section = TABS.find((t) => t.match(path))?.label.toLowerCase() || 'today';
 }
 export async function refreshBadges() {
   try {
@@ -136,7 +137,7 @@ async function boot() {
   try {
     await db.open();
   } catch (e) {
-    document.getElementById('view').innerHTML = `<div class="card red"><h2>Storage unavailable</h2><p>${e.message}. English Mastery needs IndexedDB. Private browsing on iOS may block it; open the site in a normal tab.</p></div>`;
+    document.getElementById('view').innerHTML = `<div class="card red"><h2>Storage unavailable</h2><p>${String(e.message).replace(/[<>&]/g, '')}. English Mastery needs IndexedDB. Private browsing on iOS may block it; open the site in a normal tab.</p></div>`;
     return;
   }
   try {
