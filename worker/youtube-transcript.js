@@ -39,7 +39,7 @@ export default {
     try { const hit = await edge.match(cacheKey); if (hit) { const body = await hit.json(); return json({ ...body, cached: true }, 200, cors); } } catch { /* no cache */ }
     const attempts = [...CLIENTS, 'pause', ...CLIENTS.slice(0, 3), 'pause', ...CLIENTS.slice(0, 2)];
     for (const c of attempts) {
-      if (c === 'pause') { await new Promise((r) => setTimeout(r, 1500)); continue; }
+      if (c === 'pause') { await new Promise((r) => setTimeout(r, 4000)); continue; }
       try {
         const { id, ua, embed, ...client } = c;
         const body = { context: { client, ...(embed ? { thirdParty: { embedUrl: 'https://www.youtube.com/' } } : {}) }, videoId: v, contentCheckOk: true, racyCheckOk: true };
