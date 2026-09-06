@@ -60,14 +60,14 @@ async function startFromUrl(container, input) {
   if (existing && existing.words) { location.hash = `#/mine/${id}`; return; }
   mount(status, html`<div class="row"><span class="spinner"></span> Fetching video info…</div>`);
   const meta = await yt.fetchMeta(id);
-  mount(status, html`<div class="row"><img src="${meta.thumb}" alt="" style="width:96px;border-radius:8px"><div class="grow"><strong>${meta.title || id}</strong><div class="xs muted">${meta.channel}</div><div class="xs muted mt" id="fetch-msg"><span class="spinner"></span> Getting the transcript…</div></div></div><div id="fallback"></div>`);
+  mount(status, html`<div class="row"><img src="${meta.thumb}" alt="" style="width:96px;border-radius:8px"><div class="grow"><strong>${meta.title || id}</strong><div class="xs muted">${meta.channel}</div><div class="xs muted mt" id="fetch-msg"><span class="spinner"></span> Getting the transcript through your worker… (up to a minute for long videos)</div></div></div><div id="fallback"></div>`);
   try {
     const t = await yt.fetchTranscript(id);
     await processSegments(container, { id, kind: 'youtube', title: meta.title || t.title || id, channel: meta.channel || t.channel || '', thumb: meta.thumb, url: yt.watchUrl(id) }, t.segments, { auto: t.auto });
   } catch (e) {
     const msg = $('#fetch-msg', container);
     if (e.code === 'NO_CAPTIONS') { msg.innerHTML = 'This video has no captions, so there is nothing to mine. Pick another one, or paste the text if you have it.'; }
-    else if (e.code === 'CORS') { msg.textContent = 'The browser cannot fetch YouTube transcripts directly. Paste it below (30 seconds):'; }
+    else if (e.code === 'CORS') { msg.textContent = e.message; }
     else { msg.textContent = e.message; }
     mount($('#fallback', container), html`<ol class="small mt" style="padding-left:1.2em"><li>Open the video on YouTube${meta.title ? '' : ''} → tap <strong>…more</strong> under the title → <strong>Show transcript</strong>.</li><li>Select all the transcript text and copy it (timestamps are fine).</li><li>Paste it here:</li></ol>
       <textarea class="textarea" id="fb-paste" rows="6" placeholder="Paste the transcript…"></textarea>

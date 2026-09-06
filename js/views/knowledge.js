@@ -41,7 +41,7 @@ async function startFromUrl(container, input) {
   const existing = await kn.get(id);
   if (existing) { location.hash = `#/knowledge/${id}`; return; }
   const status = $('#kn-status', container);
-  mount(status, html`<div class="row"><span class="spinner"></span> Fetching the video…</div>`);
+  mount(status, html`<div class="row"><span class="spinner"></span> Fetching the video and its transcript through your worker… (up to a minute for long videos)</div>`);
   const meta = await yt.fetchMeta(id);
   try {
     const t = await yt.fetchTranscript(id);

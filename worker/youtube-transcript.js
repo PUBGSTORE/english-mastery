@@ -9,11 +9,11 @@
 // Only the app's origins may call this worker (plus localhost for development). Anything else gets no CORS header, so browsers block it.
 const ALLOWED_ORIGINS = ['https://pubgstore.github.io', 'http://127.0.0.1:8123', 'http://localhost:8123', 'http://localhost:8080', 'http://127.0.0.1:8080'];
 // Fallback when YouTube bot-checks Cloudflare's IPs: public Piped instances (community-run; the list is tried in order).
-const PIPED = ['https://api.piped.private.coffee', 'https://pipedapi.kavin.rocks', 'https://pipedapi.adminforge.de', 'https://api.piped.yt', 'https://pipedapi.drgns.space'];
+const PIPED = ['https://api.piped.private.coffee', 'https://pipedapi.ducks.party', 'https://pipedapi.kavin.rocks', 'https://pipedapi.adminforge.de', 'https://api.piped.yt'];
 // Several clients are tried in order: datacenter IPs get bot-checked on some of them.
 const CLIENTS = [
-  { clientName: 'ANDROID_VR', clientVersion: '1.62.27', deviceMake: 'Oculus', deviceModel: 'Quest 3', androidSdkVersion: 32, osName: 'Android', osVersion: '12L', hl: 'en', id: 28, ua: 'com.google.android.apps.youtube.vr.oculus/1.62.27 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip' },
   { clientName: 'IOS', clientVersion: '20.10.4', deviceMake: 'Apple', deviceModel: 'iPhone16,2', osName: 'iPhone', osVersion: '18.3.2.22D82', hl: 'en', id: 5, ua: 'com.google.ios.youtube/20.10.4 (iPhone16,2; U; CPU iOS 18_3_2 like Mac OS X;)' },
+  { clientName: 'ANDROID_VR', clientVersion: '1.62.27', deviceMake: 'Oculus', deviceModel: 'Quest 3', androidSdkVersion: 32, osName: 'Android', osVersion: '12L', hl: 'en', id: 28, ua: 'com.google.android.apps.youtube.vr.oculus/1.62.27 (Linux; U; Android 12L; eureka-user Build/SQ3A.220605.009.A1) gzip' },
   { clientName: 'ANDROID', clientVersion: '20.10.38', androidSdkVersion: 30, osName: 'Android', osVersion: '11', hl: 'en', id: 3, ua: 'com.google.android.youtube/20.10.38 (Linux; U; Android 11) gzip' },
   { clientName: 'TVHTML5_SIMPLY_EMBEDDED_PLAYER', clientVersion: '2.0', hl: 'en', id: 85, ua: 'Mozilla/5.0 (PlayStation; PlayStation 4/12.00) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15', embed: true },
   { clientName: 'WEB_EMBEDDED_PLAYER', clientVersion: '1.20250901.01.00', hl: 'en', id: 56, ua: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36', embed: true },
@@ -33,7 +33,8 @@ export default {
     if (!/^[\w-]{11}$/.test(v)) return json({ error: 'missing or invalid ?v=<videoId>' }, 400, cors);
     const debug = url.searchParams.get('debug') === '1';
     let lastErr = 'no captions on this video'; let title = '', channel = ''; const trace = [];
-    for (const c of CLIENTS) {
+    // Two passes: Cloudflare egress IPs vary per request, so a bot-checked client often succeeds on the next try.
+    for (const c of [...CLIENTS, ...CLIENTS.slice(0, 3)]) {
       try {
         const { id, ua, embed, ...client } = c;
         const body = { context: { client, ...(embed ? { thirdParty: { embedUrl: 'https://www.youtube.com/' } } : {}) }, videoId: v, contentCheckOk: true, racyCheckOk: true };

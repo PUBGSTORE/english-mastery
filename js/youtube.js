@@ -45,18 +45,19 @@ export async function fetchTranscript(id) {
   let proxy = ((await getSetting('transcriptProxy', '')) || '').trim().replace(/\/$/, '');
   if (!proxy && (await getSetting('transcriptProxyDisabled', false)) !== true) proxy = DEFAULT_PROXY;
   if (proxy) {
-    const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 20000);
+    const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 75000); // long podcasts + YouTube retries can take a while
     let r = null; let j = null;
     try { r = await fetch(`${proxy}/?v=${id}`, { signal: ctrl.signal }); clearTimeout(t); try { j = await r.json(); } catch { /* ignore */ } } catch { clearTimeout(t); }
     if (r && (r.status === 404 || (j && /no captions/i.test(j.error || '')))) throw Object.assign(new Error('This video has no captions.'), { code: 'NO_CAPTIONS', title: j && j.title });
     if (r && r.ok && j && Array.isArray(j.segments) && j.segments.length) return { segments: j.segments, source: 'proxy', title: j.title || '', channel: j.channel || '', auto: !!j.auto, lang: j.lang };
     // proxy unreachable / bot-checked / empty → browser-side fallbacks
-    return fetchWithoutProxy(id);
+    const why = !r ? 'your worker did not answer within 75 seconds' : `your worker said: ${(j && j.error) || r.status}`;
+    return fetchWithoutProxy(id, why);
   }
-  return fetchWithoutProxy(id);
+  return fetchWithoutProxy(id, 'no transcript proxy is configured');
 }
 /** Browser-side fallbacks: public Piped instances (CORS-enabled), then a direct attempt that normally fails on CORS. */
-async function fetchWithoutProxy(id) {
+async function fetchWithoutProxy(id, why = '') {
   for (const base of PIPED) {
     try {
       const ctrl = new AbortController(); const tm = setTimeout(() => ctrl.abort(), 9000);
@@ -83,7 +84,7 @@ async function fetchWithoutProxy(id) {
     return { segments: parseTimedText(xml), source: 'direct', auto: !!track.kind };
   } catch (e) {
     if (e.code) throw e;
-    throw Object.assign(new Error('The browser cannot fetch YouTube transcripts directly (no CORS). Use the paste fallback or set up the free proxy.'), { code: 'CORS' });
+    throw Object.assign(new Error(`Could not get the transcript automatically: ${why}; the public caption mirrors did not respond; and browsers cannot read YouTube directly. Try again in a minute, or paste the transcript below.`), { code: 'CORS' });
   }
 }
 function parseTimedText(xml) {
