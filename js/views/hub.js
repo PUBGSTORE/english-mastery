@@ -36,3 +36,4 @@ LEARN.splice(6, 0, { href: '#/chunks', icon: 'message', title: 'Chunks & phrases
 PRACTICE.splice(6, 0, { href: '#/converse', icon: 'chat', title: 'Conversation', sub: 'Voice roleplay with a post-mortem report' }, { href: '#/generate', icon: 'sparkle', title: 'Generate', sub: 'New practice from your own weaknesses' }, { href: '#/commute', icon: 'speaker', title: 'Commute mode', sub: 'Hands-free audio drill' });
 LEARN.unshift({ href: '#/knowledge', icon: 'sparkle', title: '🦉 Get Fast Knowledge', sub: 'Any long video → every learning explained, with हिन्दी and ગુજરાતી', cls: 'owl-item' });
 LEARN.splice(4, 0, { href: '#/myvocab', icon: 'star', title: '❤ My vocabulary list', sub: 'Every word you starred, ready to revise' });
+LEARN.splice(1, 0, { href: '#/everyday', icon: 'sun', title: '🌞 Every day vocab', sub: 'Simple words for real life: home, shops, calls, doctor, small talk', cls: 'sun-item' });

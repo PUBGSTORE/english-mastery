@@ -72,7 +72,8 @@ async function startFromUrl(container, input) {
     else { msg.textContent = e.message; }
     mount($('#fallback', container), html`<ol class="small mt" style="padding-left:1.2em"><li>Open the video on YouTube${meta.title ? '' : ''} → tap <strong>…more</strong> under the title → <strong>Show transcript</strong>.</li><li>Select all the transcript text and copy it (timestamps are fine).</li><li>Paste it here:</li></ol>
       <textarea class="textarea" id="fb-paste" rows="6" placeholder="Paste the transcript…"></textarea>
-      <div class="btn-row mt"><button class="btn btn-primary" id="fb-go">Mine the pasted transcript</button><a class="btn" href="${yt.watchUrl(id)}" target="_blank" rel="noopener">${icon('play')} Open on YouTube</a></div>`);
+      <div class="btn-row mt"><button class="btn" id="fb-retry">${icon('refresh')} Try again</button><button class="btn btn-primary" id="fb-go">Mine the pasted transcript</button><a class="btn" href="${yt.watchUrl(id)}" target="_blank" rel="noopener">${icon('play')} Open on YouTube</a></div>`);
+    $('#fb-retry', container).onclick = () => startFromUrl(container, id);
     $('#fb-go', container).onclick = async () => {
       const raw = $('#fb-paste', container).value.trim(); if (!raw) return;
       const segs = yt.parseCaptions(raw);

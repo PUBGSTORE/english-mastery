@@ -50,7 +50,8 @@ async function startFromUrl(container, input) {
     const duration = st.timed ? Math.max(...t.segments.map((s) => (s.t || 0) + (s.d || 0))) : 0;
     await run(container, { videoId: id, title: meta.title || t.title || id, channel: meta.channel || t.channel || '', thumb: meta.thumb, url: yt.watchUrl(id), duration, transcript: st.text, segments: st.timed ? t.segments : null });
   } catch (e) {
-    mount(status, html`<div class="feedback close small">${e.code === 'NO_CAPTIONS' ? 'This video has no captions.' : e.message} Paste the transcript instead: open the video → …more → Show transcript → copy.</div><textarea class="textarea mt" id="kn-fb" rows="5" placeholder="Paste the transcript…"></textarea><div class="btn-row mt"><button class="btn btn-primary" id="kn-fb-go">Analyse pasted transcript</button></div>`);
+    mount(status, html`<div class="feedback close small">${e.code === 'NO_CAPTIONS' ? 'This video has no captions.' : e.message} Paste the transcript instead: open the video → …more → Show transcript → copy.</div><textarea class="textarea mt" id="kn-fb" rows="5" placeholder="Paste the transcript…"></textarea><div class="btn-row mt"><button class="btn" id="kn-retry">${icon('refresh')} Try again</button><button class="btn btn-primary" id="kn-fb-go">Analyse pasted transcript</button></div>`);
+    $('#kn-retry', container).onclick = () => startFromUrl(container, id);
     $('#kn-fb-go', container).onclick = () => { const raw = $('#kn-fb', container).value.trim(); if (!raw) return; const segs = yt.parseCaptions(raw); const st = yt.segmentsToText(segs); run(container, { videoId: id, title: meta.title || id, channel: meta.channel, thumb: meta.thumb, url: yt.watchUrl(id), duration: 0, transcript: st.text, segments: st.timed ? segs : null }); };
   }
 }
