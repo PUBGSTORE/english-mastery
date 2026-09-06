@@ -77,6 +77,8 @@ route('/knowledge/:id', V('knowledge'), { title: 'Get Fast Knowledge' });
 route('/myvocab', V('myvocab'), { title: 'My vocabulary list' });
 route('/everyday', V('everyday'), { title: 'Every day vocab' });
 route('/everyday/:id', V('everyday'), { title: 'Every day vocab' });
+route('/books', V('books'), { title: 'Book explainer' });
+route('/books/:id', V('books'), { title: 'Book explainer' });
 route('/learn', V('hub'), { title: 'Learn' });
 route('/practice', V('hub'), { title: 'Practice' });
 
@@ -92,6 +94,7 @@ const SIDE = [
   { title: '', items: [{ href: '#/', label: 'Today', icon: 'home' }, { href: '#/home', label: 'Dashboard', icon: 'grid' }, { href: '#/review', label: 'Review', icon: 'zap', badge: 'due' }] },
   { title: 'Learn', items: [{ href: '#/vocab', label: 'Vocabulary', icon: 'layers' }, { href: '#/daily', label: 'Daily 5', icon: 'calendar' }, { href: '#/grammar', label: 'Grammar', icon: 'book' }, { href: '#/mine', label: 'Video miner', icon: 'play' }, { href: '#/read', label: 'Reader', icon: 'eye' }, { href: '#/chunks', label: 'Chunks & phrases', icon: 'message' }, { href: '#/roots', label: 'Roots', icon: 'layers' }, { href: '#/coverage', label: 'Coverage', icon: 'trending' }, { href: '#/notes', label: 'Notes', icon: 'note' }] },
   { title: '🦉 Get Fast Knowledge', cls: 'owl-group', items: [{ href: '#/knowledge', label: 'Analyse a video', icon: 'sparkle', cls: 'owl-link' }, { href: '#/myvocab', label: '❤ My vocabulary list', icon: 'star' }] },
+  { title: '📚 Book explainer', cls: 'book-group', items: [{ href: '#/books', label: 'Explain a book', icon: 'book', cls: 'book-link' }] },
   { title: '🌞 Every day vocab', cls: 'sun-group', items: [{ href: '#/everyday', label: 'Everyday words', icon: 'sun', cls: 'sun-link' }, { href: '#/everyday/today', label: "Today's 10", icon: 'calendar' }, { href: '#/everyday/phrases', label: 'Ready-made sentences', icon: 'message' }] },
   { title: 'Practice', items: [{ href: '#/pron', label: 'Pronunciation', icon: 'wave' }, { href: '#/shadow', label: 'Shadowing', icon: 'ear' }, { href: '#/listen', label: 'Listening', icon: 'speaker' }, { href: '#/speak', label: 'Speaking', icon: 'mic' }, { href: '#/write', label: 'Writing', icon: 'pen' }, { href: '#/translate', label: 'Translate', icon: 'refresh' }, { href: '#/converse', label: 'Conversation', icon: 'chat' }, { href: '#/generate', label: 'Generate', icon: 'sparkle' }, { href: '#/commute', label: 'Commute', icon: 'speaker' }, { href: '#/mistakes', label: 'Mistakes', icon: 'alert' }] },
   { title: 'More', items: [{ href: '#/chat', label: 'AI Tutor', icon: 'chat' }, { href: '#/progress', label: 'Progress', icon: 'chart' }, { href: '#/proof', label: 'Proof', icon: 'award' }, { href: '#/settings', label: 'Settings', icon: 'settings' }] },

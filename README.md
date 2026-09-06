@@ -130,6 +130,10 @@ Transcripts are fetched for your personal study only; keep it that way.
 
 Paste any long video (podcast, lecture, course) on the **Get Fast Knowledge** screen. The app fetches the transcript through the same chain as the miner, shows the cost in rupees, and then sends the transcript to DeepSeek **in 2,000-word parts** so nothing is compressed away. Each part comes back as a chapter with every learning written out in full (explanation, examples, steps, a verbatim quote), a Hindi and a Gujarati summary, and glossary terms in English, हिन्दी and ગુજરાતી. A final pass adds the overview, big ideas, an action checklist and a study tip. Guides are stored forever in the library, so a video is paid for once. From the guide page you can save it as its own page in Notes with one tap, write your own notes on it, ask the tutor about it, read it aloud, export Markdown, tick off actions, and ❤ any glossary term into your vocabulary list.
 
+## 📚 Book explainer
+
+Type a book title (author optional). The tutor identifies the book and lists its real chapters, shows the cost, then explains every chapter in groups of three: summary, key ideas with full explanations and the author's examples, quotes, terms in English, हिन्दी and ગુજરાતી, and the lesson of the chapter, with Hindi and Gujarati chapter summaries. A final pass writes the study notes: overview, big ideas, action checklist, memorable quotes, how to apply the book, its limits, what to read next, and a revision plan. Each chapter has an **Explain more** button for extra depth. Books live on your shelf forever, save to Notes as their own page, and support your own notes, ask-the-AI, read-aloud and Markdown export. The tutor tells you when it is not confident about a book; obscure titles may be imprecise.
+
 **❤ My vocabulary list.** Every word screen, mined word, reader popup and glossary term has a ❤ button. The list lives at **My vocabulary list** with a revise mode, and it is mirrored as a page in Notes so it survives exports and cloud backup.
 
 ## Phase 7 additions at a glance

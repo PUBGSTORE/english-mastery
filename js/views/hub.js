@@ -37,3 +37,4 @@ PRACTICE.splice(6, 0, { href: '#/converse', icon: 'chat', title: 'Conversation',
 LEARN.unshift({ href: '#/knowledge', icon: 'sparkle', title: '🦉 Get Fast Knowledge', sub: 'Any long video → every learning explained, with हिन्दी and ગુજરાતી', cls: 'owl-item' });
 LEARN.splice(4, 0, { href: '#/myvocab', icon: 'star', title: '❤ My vocabulary list', sub: 'Every word you starred, ready to revise' });
 LEARN.splice(1, 0, { href: '#/everyday', icon: 'sun', title: '🌞 Every day vocab', sub: 'Simple words for real life: home, shops, calls, doctor, small talk', cls: 'sun-item' });
+LEARN.splice(2, 0, { href: '#/books', icon: 'book', title: '📚 Book explainer', sub: 'Any book → every chapter explained + study notes', cls: 'book-item' });
