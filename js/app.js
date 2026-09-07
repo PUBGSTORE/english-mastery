@@ -79,31 +79,58 @@ route('/everyday', V('everyday'), { title: 'Every day vocab' });
 route('/everyday/:id', V('everyday'), { title: 'Every day vocab' });
 route('/books', V('books'), { title: 'Book explainer' });
 route('/books/:id', V('books'), { title: 'Book explainer' });
+route('/know', V('know'), { title: 'Knowledge' });
+route('/discover', V('discover'), { title: 'Daily Discovery' });
+route('/discover/:id', V('discover'), { title: 'Daily Discovery' });
 route('/learn', V('hub'), { title: 'Learn' });
 route('/practice', V('hub'), { title: 'Practice' });
 
 /* ---------------- navigation ---------------- */
-const TABS = [
+const KNOW_RE = /^\/(know|discover|knowledge|books)(\/|$)/;
+const TABS_ENGLISH = [
   { href: '#/', label: 'Today', icon: 'home', match: (p) => p === '/' || p === '/today' || p === '/home' },
   { href: '#/learn', label: 'Learn', icon: 'book', match: (p) => /^\/(learn|vocab|word|daily|grammar|notes)/.test(p) },
   { href: '#/practice', label: 'Practice', icon: 'target', match: (p) => /^\/(practice|pron|shadow|listen|speak|write|translate|mistakes|review|converse|generate|commute)/.test(p) },
   { href: '#/chat', label: 'Tutor', icon: 'chat', match: (p) => p.startsWith('/chat') },
   { href: '#/progress', label: 'Progress', icon: 'chart', match: (p) => /^\/(progress|settings|placement|proof)/.test(p) },
 ];
-const SIDE = [
+const TABS_KNOW = [
+  { href: '#/know', label: 'Knowledge', icon: 'grid', match: (p) => p === '/know' },
+  { href: '#/discover', label: 'Discover', icon: 'sparkle', match: (p) => p.startsWith('/discover') },
+  { href: '#/knowledge', label: 'Videos', icon: 'play', match: (p) => p.startsWith('/knowledge') },
+  { href: '#/books', label: 'Books', icon: 'book', match: (p) => p.startsWith('/books') },
+  { href: '#/', label: 'English', icon: 'home', match: () => false },
+];
+let TABS = TABS_ENGLISH;
+const SIDE_KNOW = [
+  { title: '', items: [{ href: '#/know', label: 'Knowledge home', icon: 'grid' }] },
+  { title: '🧠 Daily Discovery', cls: 'dc-group', items: [{ href: '#/discover', label: "Today's topics", icon: 'sparkle', cls: 'dc-link' }] },
+  { title: '🦉 Get Fast Knowledge', cls: 'owl-group', items: [{ href: '#/knowledge', label: 'Analyse a video', icon: 'play', cls: 'owl-link' }] },
+  { title: '📚 Book explainer', cls: 'book-group', items: [{ href: '#/books', label: 'Explain a book', icon: 'book', cls: 'book-link' }] },
+  { title: 'More', items: [{ href: '#/notes', label: 'Notes', icon: 'note' }, { href: '#/myvocab', label: '❤ My vocabulary list', icon: 'star' }, { href: '#/chat', label: 'AI Tutor', icon: 'chat' }, { href: '#/settings', label: 'Settings', icon: 'settings' }] },
+];
+const SIDE_ENGLISH = [
   { title: '', items: [{ href: '#/', label: 'Today', icon: 'home' }, { href: '#/home', label: 'Dashboard', icon: 'grid' }, { href: '#/review', label: 'Review', icon: 'zap', badge: 'due' }] },
   { title: 'Learn', items: [{ href: '#/vocab', label: 'Vocabulary', icon: 'layers' }, { href: '#/daily', label: 'Daily 5', icon: 'calendar' }, { href: '#/grammar', label: 'Grammar', icon: 'book' }, { href: '#/mine', label: 'Video miner', icon: 'play' }, { href: '#/read', label: 'Reader', icon: 'eye' }, { href: '#/chunks', label: 'Chunks & phrases', icon: 'message' }, { href: '#/roots', label: 'Roots', icon: 'layers' }, { href: '#/coverage', label: 'Coverage', icon: 'trending' }, { href: '#/notes', label: 'Notes', icon: 'note' }] },
-  { title: '🦉 Get Fast Knowledge', cls: 'owl-group', items: [{ href: '#/knowledge', label: 'Analyse a video', icon: 'sparkle', cls: 'owl-link' }, { href: '#/myvocab', label: '❤ My vocabulary list', icon: 'star' }] },
-  { title: '📚 Book explainer', cls: 'book-group', items: [{ href: '#/books', label: 'Explain a book', icon: 'book', cls: 'book-link' }] },
+  { title: '', items: [{ href: '#/myvocab', label: '❤ My vocabulary list', icon: 'star' }] },
   { title: '🌞 Every day vocab', cls: 'sun-group', items: [{ href: '#/everyday', label: 'Everyday words', icon: 'sun', cls: 'sun-link' }, { href: '#/everyday/today', label: "Today's 10", icon: 'calendar' }, { href: '#/everyday/phrases', label: 'Ready-made sentences', icon: 'message' }] },
   { title: 'Practice', items: [{ href: '#/pron', label: 'Pronunciation', icon: 'wave' }, { href: '#/shadow', label: 'Shadowing', icon: 'ear' }, { href: '#/listen', label: 'Listening', icon: 'speaker' }, { href: '#/speak', label: 'Speaking', icon: 'mic' }, { href: '#/write', label: 'Writing', icon: 'pen' }, { href: '#/translate', label: 'Translate', icon: 'refresh' }, { href: '#/converse', label: 'Conversation', icon: 'chat' }, { href: '#/generate', label: 'Generate', icon: 'sparkle' }, { href: '#/commute', label: 'Commute', icon: 'speaker' }, { href: '#/mistakes', label: 'Mistakes', icon: 'alert' }] },
   { title: 'More', items: [{ href: '#/chat', label: 'AI Tutor', icon: 'chat' }, { href: '#/progress', label: 'Progress', icon: 'chart' }, { href: '#/proof', label: 'Proof', icon: 'award' }, { href: '#/settings', label: 'Settings', icon: 'settings' }] },
 ];
+let world = 'english';
 function renderNav() {
+  TABS = world === 'know' ? TABS_KNOW : TABS_ENGLISH;
+  const SIDE = world === 'know' ? SIDE_KNOW : SIDE_ENGLISH;
+  document.body.dataset.world = world;
+  const sw = document.getElementById('world-switch');
+  if (sw) { sw.innerHTML = `<a href="#/" class="${world === 'english' ? 'active' : ''}" data-world="english">📘 English</a><a href="#/know" class="${world === 'know' ? 'active' : ''}" data-world="know">🧠 Knowledge</a>`; }
   const tab = document.getElementById('tabbar');
   tab.innerHTML = TABS.map((t) => `<a href="${t.href}" data-tab aria-label="${t.label}">${icon(t.icon)}<span>${t.label}</span></a>`).join('');
   const side = document.getElementById('side-links');
   side.innerHTML = SIDE.map((g) => `${g.title ? `<div class="side-title ${g.cls || ''}">${g.title}</div>` : ''}${g.items.map((i) => `<a class="side-link ${i.cls || ''}" href="${i.href}" data-side>${icon(i.icon)}<span>${i.label}</span>${i.badge ? `<span class="badge" data-badge="${i.badge}" hidden></span>` : ''}</a>`).join('')}`).join('');
+  refreshBadges();
+}
+function bindSideFoot() {
   $('#side-theme').onclick = () => setTheme(getTheme() === 'dark' ? 'light' : 'dark');
   const hb = $('#side-hindi');
   const syncHi = () => { hb.setAttribute('aria-pressed', String(isHindi())); hb.classList.toggle('active', isHindi()); };
@@ -112,6 +139,8 @@ function renderNav() {
   updateThemeButtons();
 }
 function highlightNav(path) {
+  const w = KNOW_RE.test(path) ? 'know' : 'english';
+  if (w !== world) { world = w; renderNav(); }
   $$('[data-tab]').forEach((a, i) => a.classList.toggle('active', TABS[i].match(path)));
   $$('[data-side]').forEach((a) => {
     const h = a.getAttribute('href').slice(1);
@@ -119,7 +148,7 @@ function highlightNav(path) {
   });
   const fab = document.getElementById('ask-fab');
   fab.hidden = path.startsWith('/chat');
-  document.body.dataset.section = TABS.find((t) => t.match(path))?.label.toLowerCase() || 'today';
+  document.body.dataset.section = world === 'know' ? 'know' : (TABS.find((t) => t.match(path))?.label.toLowerCase() || 'today');
 }
 export async function refreshBadges() {
   try {
@@ -139,7 +168,7 @@ async function openAsk() {
 
 /* ---------------- boot ---------------- */
 async function boot() {
-  renderNav();
+  renderNav(); bindSideFoot();
   try {
     await db.open();
   } catch (e) {

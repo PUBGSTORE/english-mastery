@@ -61,7 +61,8 @@ YouTube sometimes blocks automated access for a minute; the app retries, offers 
 
 1. Take the 5-minute placement test when the app offers it.
 2. Open **Today**, pick 20 minutes, and follow the bar at the top.
-3. Try **🌞 Every day vocab → Today's 10** and **🦉 Get Fast Knowledge** with a video you like.
+3. Try **🌞 Every day vocab → Today's 10**.
+4. Switch to **🧠 Knowledge** (top of the sidebar) for Daily Discovery, video analysis and the Book explainer.
 
 ## Adding your own content
 
