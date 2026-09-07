@@ -234,7 +234,7 @@ export function bindSwipe(node, { onLeft, onRight, onMove, threshold = 80 } = {}
 }
 
 /* ---------------- misc ---------------- */
-export function setTitle(t) { document.title = t ? `${t} · English Mastery` : 'English Mastery'; }
+export function setTitle(t) { document.title = t ? `${t} · ADHD Things` : 'ADHD Things'; }
 export function scrollTop() { window.scrollTo({ top: 0, behavior: 'auto' }); }
 export function haptic() { try { if (navigator.vibrate) navigator.vibrate(8); } catch { /* ignore */ } }
 export function backLink(href, label = 'Back') {

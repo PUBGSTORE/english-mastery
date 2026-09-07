@@ -1,4 +1,4 @@
-# English Mastery — Setup guide
+# ADHD Things — Setup guide
 
 Everything you need to run your own copy. No build step, no server. Ten minutes end to end.
 
@@ -13,7 +13,7 @@ A personal English-learning app (spaced repetition, grammar, pronunciation, shad
 
    ```bash
    cd english-mastery
-   git init && git add . && git commit -m "English Mastery"
+   git init && git add . && git commit -m "ADHD Things"
    git branch -M main
    git remote add origin https://github.com/<your-username>/english-mastery.git
    git push -u origin main
@@ -38,7 +38,7 @@ The key is stored only in that browser. The AI is called only when you press an 
 
 ## 4. Turn on automatic backups (GitHub Gist, free)
 
-1. Go to <https://github.com/settings/tokens/new>, name it "English Mastery backup", tick only the **gist** scope, set the expiry you want, and generate it.
+1. Go to <https://github.com/settings/tokens/new>, name it "ADHD Things backup", tick only the **gist** scope, set the expiry you want, and generate it.
 2. In the app: **Settings → Cloud backup → paste the token → Connect**.
 
 From then on every study session is backed up automatically to a private Gist on your account. On a new device: install the app, paste the same token, tap **Connect and restore existing backup**. Keep the token somewhere safe; it is never written into export files.

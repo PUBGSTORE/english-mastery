@@ -116,7 +116,7 @@ export async function render(container) {
       <div class="btn-row"><button class="btn" id="clear-recs">Delete recordings</button><button class="btn btn-danger" id="reset-all">${icon('trash')} Reset all progress</button></div>
     </div>
 
-    <div class="card"><h3>About</h3><p class="small muted mb-0">English Mastery · offline-first · no server. Add to Home Screen on iPad: Share → Add to Home Screen. Content lives in <code>data/*.json</code>; see README to add your own.</p></div>
+    <div class="card"><h3>About</h3><p class="small muted mb-0">ADHD Things · offline-first · no server. Add to Home Screen on iPad: Share → Add to Home Screen. Content lives in <code>data/*.json</code>; see README to add your own.</p></div>
   `);
 
   const save = async (k, v) => { await store.setSetting(k, v); toast('Saved', 'ok', { timeout: 1200 }); };

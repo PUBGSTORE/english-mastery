@@ -1,13 +1,13 @@
 {
-  "name": "English Mastery",
-  "short_name": "English",
-  "description": "Personal English learning system: spaced repetition, grammar, pronunciation, shadowing, AI tutor. Offline-first.",
+  "name": "ADHD Things",
+  "short_name": "ADHD Things",
+  "description": "ADHD Things: English mastery plus daily knowledge. Spaced repetition, grammar, pronunciation, AI tutor, Daily Discovery, video and book explainers. Offline-first.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#0f1117",
-  "theme_color": "#0f1117",
+  "theme_color": "#7c3aed",
   "lang": "en",
   "icons": [
     { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },

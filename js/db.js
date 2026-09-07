@@ -200,7 +200,7 @@ export async function exportAll() {
 export function validateExport(data) {
   const problems = [];
   if (!data || typeof data !== 'object') return ['Not a JSON object'];
-  if (data.app !== 'english-mastery') problems.push('Not an English Mastery export (app field)');
+  if (data.app !== 'english-mastery') problems.push('Not an ADHD Things export (app field)');
   if (typeof data.format !== 'number' || data.format > EXPORT_FORMAT) problems.push(`Unsupported export format ${data.format}`);
   if (!data.stores || typeof data.stores !== 'object') { problems.push('Missing stores'); return problems; }
   if (data.checksum && checksum(data.stores) !== data.checksum) problems.push('Checksum mismatch: the file was modified or truncated');

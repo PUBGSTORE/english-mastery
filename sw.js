@@ -1,7 +1,7 @@
-/* sw.js — English Mastery service worker.
+/* sw.js — ADHD Things service worker.
    Precaches the app shell and all content JSON so the app works fully offline.
    Bump VERSION whenever files change; old caches are deleted on activate. */
-const VERSION = 'em-v2.5.5';
+const VERSION = 'em-v2.6.0';
 const SHELL = [
   './', './index.html', './manifest.webmanifest',
   './css/theme.css', './css/app.css',

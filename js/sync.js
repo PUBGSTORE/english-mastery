@@ -58,7 +58,7 @@ export async function backup({ reason = 'manual', silent = false } = {}) {
       const data = await db.exportAll();
       const content = JSON.stringify(data);
       let id = await getGistId();
-      const body = { description: `English Mastery backup (${data.counts.cards} cards, ${data.counts.reviews} reviews)`, files: { [FILE]: { content } } };
+      const body = { description: `ADHD Things backup (${data.counts.cards} cards, ${data.counts.reviews} reviews)`, files: { [FILE]: { content } } };
       if (id) {
         try { await gh(`/gists/${id}`, { method: 'PATCH', body }); }
         catch (e) { if (e.message === 'NOT_FOUND') { id = null; } else throw e; }

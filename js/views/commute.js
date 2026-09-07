@@ -72,7 +72,7 @@ export async function render(container) {
   const setMedia = (it) => {
     if (!('mediaSession' in navigator)) return;
     try {
-      navigator.mediaSession.metadata = new MediaMetadata({ title: it ? it.word : 'English Mastery', artist: it ? (it.hi || '') : 'Commute mode', album: 'English Mastery', artwork: [{ src: './icons/icon-512.png', sizes: '512x512', type: 'image/png' }] });
+      navigator.mediaSession.metadata = new MediaMetadata({ title: it ? it.word : 'ADHD Things', artist: it ? (it.hi || '') : 'Commute mode', album: 'ADHD Things', artwork: [{ src: './icons/icon-512.png', sizes: '512x512', type: 'image/png' }] });
       navigator.mediaSession.setActionHandler('play', () => play());
       navigator.mediaSession.setActionHandler('pause', () => stop());
       navigator.mediaSession.setActionHandler('nexttrack', () => { stop(); i = Math.min(queue.length - 1, i + 1); play(); });

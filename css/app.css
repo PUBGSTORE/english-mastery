@@ -604,3 +604,6 @@ body[data-world="know"] .tabbar { background: linear-gradient(0deg, rgba(124,58,
 .dc-reader h2 { font-size: 22px; margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--border); } .dc-reader h3 { font-size: 18px; margin-top: 18px; }
 .dc-reader p, .dc-reader li { margin-bottom: 12px; }
 @media (max-width: 640px) { .dc-reader { font-size: 17px; } .dc-reader h1 { font-size: 26px; } }
+
+.brand-name { background: linear-gradient(90deg, #a78bfa, #f472b6, #fbbf24); -webkit-background-clip: text; background-clip: text; color: transparent; letter-spacing: -.01em; }
+[data-theme="light"] .brand-name { background: linear-gradient(90deg, #6d28d9, #db2777, #d97706); -webkit-background-clip: text; background-clip: text; }

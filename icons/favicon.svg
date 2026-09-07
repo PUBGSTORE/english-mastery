@@ -1,7 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b8def"/><stop offset="1" stop-color="#8ab4f8"/></linearGradient></defs>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".55" stop-color="#ec4899"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ffe4f1"/></linearGradient>
+  </defs>
   <rect width="512" height="512" rx="112" fill="url(#g)"/>
-  <path d="M150 140h212v52H214v52h132v52H214v52h152v52H150z" fill="#fff"/>
-  <circle cx="392" cy="392" r="34" fill="#0f1117" opacity=".9"/>
-  <path d="M378 392l10 10 20-22" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- bouncing thought-squiggle -->
+  <path d="M96 318c30-70 58-70 88 0s58 70 88 0 58-70 88 0 58 70 88 0" fill="none" stroke="#fff" stroke-opacity=".38" stroke-width="22" stroke-linecap="round"/>
+  <!-- lightning bolt -->
+  <path d="M292 62L150 286h94l-40 164 160-238h-96l24-150z" fill="url(#s)"/>
+  <!-- sparkles -->
+  <path d="M392 108l10 26 26 10-26 10-10 26-10-26-26-10 26-10z" fill="#fff"/>
+  <path d="M118 138l7 18 18 7-18 7-7 18-7-18-18-7 18-7z" fill="#fff" opacity=".9"/>
+  <circle cx="404" cy="392" r="12" fill="#fff" opacity=".9"/>
 </svg>

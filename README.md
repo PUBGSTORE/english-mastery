@@ -1,4 +1,4 @@
-# English Mastery
+# ADHD Things
 
 A personal, offline-first English learning system for a Hindi-speaking adult learner. Plain HTML, CSS and vanilla JavaScript ES modules. No build step, no server, no accounts. Everything you do is stored in your browser's IndexedDB and can be exported as one JSON file.
 
@@ -31,7 +31,7 @@ What is inside:
    ```bash
    git init
    git add .
-   git commit -m "English Mastery"
+   git commit -m "ADHD Things"
    git branch -M main
    git remote add origin git@github.com:<your-user>/english-mastery.git
    git push -u origin main
