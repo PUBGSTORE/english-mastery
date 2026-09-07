@@ -91,7 +91,8 @@ export async function render(container) {
       <p class="small muted">A cleared browser cache deletes everything, so keep a copy. Export files never contain your DeepSeek key or GitHub token (re-enter those on a new device).</p>
       <p class="small">Last export: <strong>${s.lastExport ? new Date(s.lastExport).toLocaleString() : 'never'}</strong></p>
       <div class="btn-row"><button class="btn btn-primary" id="export">${icon('download')} Export all progress</button>
-        <label class="btn" for="import-file">${icon('upload')} Import…</label><input type="file" id="import-file" accept="application/json,.json" hidden></div>
+        <label class="btn" for="import-file">${icon('upload')} Import file…</label><input type="file" id="import-file" accept="application/json,.json" hidden><button class="btn" id="import-paste">${icon('edit')} Paste backup JSON…</button></div>
+      <p class="xs muted mt mb-0">Lost the device? On the new one: install the app, paste the same GitHub token → <em>Connect and restore existing backup</em>. Or open your Gist, copy the whole <code>english-mastery-backup.json</code> text and use <em>Paste backup JSON</em>.</p>
     </div>
 
     <div class="card ${ghToken ? 'green' : 'accent'}"><h3>Cloud backup (your GitHub account)</h3>
@@ -164,8 +165,20 @@ export async function render(container) {
   };
   $('#import-file', container).onchange = async (e) => {
     const file = e.target.files[0]; if (!file) return;
+    let text; try { text = await readFileText(file); } catch (err) { toast('Could not read file: ' + err.message, 'err'); return; }
+    e.target.value = '';
+    offerImport(text);
+  };
+  $('#import-paste', container).onclick = () => {
+    const body = openSheet(html`<h3>Paste backup JSON</h3><p class="small muted">Open your Gist (Settings → Cloud backup → view gist, or gist.github.com), tap <em>Raw</em> on <code>english-mastery-backup.json</code>, select all, copy, and paste here. An exported file's contents work too.</p>
+      <textarea class="textarea" id="paste-json" rows="8" placeholder='{"format": "english-mastery-export", ...}' spellcheck="false" autocapitalize="off"></textarea>
+      <div class="btn-row right mt"><button class="btn" data-x="cancel">Cancel</button><button class="btn btn-primary" data-x="go">Continue</button></div>`, { dialog: true });
+    body.querySelector('[data-x="cancel"]').onclick = closeSheet;
+    body.querySelector('[data-x="go"]').onclick = () => { const t = body.querySelector('#paste-json').value.trim(); if (!t) { toast('Paste the backup text first.', 'warn'); return; } closeSheet(); setTimeout(() => offerImport(t), 250); };
+  };
+  async function offerImport(text) {
     let data;
-    try { data = JSON.parse(await readFileText(file)); } catch (err) { toast('Not valid JSON: ' + err.message, 'err'); return; }
+    try { data = JSON.parse(text); } catch (err) { toast('Not valid JSON: ' + err.message + '. Make sure you copied the whole text (use the Raw view).', 'err', { timeout: 7000 }); return; }
     const problems = db.validateExport(data);
     const fatal = problems.filter((p) => !p.includes('will be skipped'));
     if (!fatal.length) { try { await db.snapshotBackup('pre-import'); } catch { /* toasted */ } }
@@ -186,8 +199,7 @@ export async function render(container) {
         setTimeout(() => location.reload(), 800);
       } catch (err) { toast('Import failed: ' + err.message, 'err'); }
     });
-    e.target.value = '';
-  };
+  }
   const connect = async (restoreAfter) => {
     const t = $('#ghToken', container).value.trim();
     if (!t) { toast('Paste a GitHub token first.', 'warn'); return; }

@@ -43,6 +43,8 @@ The key is stored only in that browser. The AI is called only when you press an 
 
 From then on every study session is backed up automatically to a private Gist on your account. On a new device: install the app, paste the same token, tap **Connect and restore existing backup**. Keep the token somewhere safe; it is never written into export files.
 
+Lost the device and the token too? Log in to GitHub on the new device, create a new gist token, and use **Connect and restore existing backup**: the Gist is found by name. Or open gist.github.com, tap **Raw** on `english-mastery-backup.json`, copy the whole text, and use **Settings → Backup → Paste backup JSON**.
+
 Manual export/import (a JSON file) is also in Settings.
 
 ## 5. Video miner and Get Fast Knowledge (transcripts)
