@@ -594,3 +594,12 @@ body[data-world="know"] .tabbar { background: linear-gradient(0deg, rgba(124,58,
 .dc-opt.wrong { background: rgba(239,68,68,.18); border-color: var(--red); color: var(--text); }
 @media (max-width: 640px) { .dc-stats { margin-left: 0; width: 100%; } .dc-stats > div { flex: 1; } }
 .dc-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+
+.dc-genres { border-color: color-mix(in srgb, #a855f7 55%, var(--border)); background: linear-gradient(135deg, rgba(168,85,247,.16), rgba(245,158,11,.10)), var(--bg-2); }
+.dc-pick.ai { border-style: dashed; }
+.dc-item.read { opacity: .78; } .dc-item.read strong { text-decoration: none; }
+.dc-reader { max-width: 700px; margin: 0 auto; padding: 8px 4px 24px; font-size: 18px; line-height: 1.7; }
+.dc-reader h1 { font-size: 30px; line-height: 1.2; margin: 6px 0 8px; } .dc-reader .lead { font-size: 20px; color: var(--text-2); }
+.dc-reader h2 { font-size: 22px; margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--border); } .dc-reader h3 { font-size: 18px; margin-top: 18px; }
+.dc-reader p, .dc-reader li { margin-bottom: 12px; }
+@media (max-width: 640px) { .dc-reader { font-size: 17px; } .dc-reader h1 { font-size: 26px; } }

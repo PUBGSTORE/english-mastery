@@ -10,12 +10,39 @@ const DEV = /[ऀ-ॿ]/, GUJ = /[઀-૿]/;
 export const fields = () => content.load('discover-topics');
 export const topicId = (title) => `tp:${hashStr(title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()).toString(36)}`;
 
-/** Three topics for a given day, from three different fields, deterministic. */
+/* ---- genres (the fields the learner cares about) ---- */
+export async function getGenres() { return (await db.getSetting('dcGenres', [])) || []; }
+export async function setGenres(ids) { return db.setSetting('dcGenres', ids); }
+export async function getAuto() { return !!(await db.getSetting('dcAuto', false)); }
+export async function setAuto(v) { return db.setSetting('dcAuto', !!v); }
+
+/** Three curated topics for a given day, from three different fields (restricted to chosen genres when set), deterministic. */
 export async function picksFor(day = todayKey()) {
-  const all = await fields();
+  const all = await fields(); const genres = await getGenres();
+  const pool = genres.length ? all.filter((f) => genres.includes(f.id)) : all;
   const rng = mulberry32(hashStr(day + '|discover'));
-  return shuffle(all, rng).slice(0, 3).map((f) => { const t = f.topics[Math.floor(rng() * f.topics.length)]; return { field: f, ...t }; });
+  const fs = shuffle(pool, rng); const out = [];
+  for (let i = 0; i < 3; i++) { const f = fs[i % fs.length]; const t = f.topics[Math.floor(rng() * f.topics.length)]; if (!out.some((o) => o.t === t.t)) out.push({ field: f, ...t }); }
+  return out;
 }
+
+/** AI-generated topics of the day for the chosen genres: one small call, cached per day. */
+export async function dailyAI({ force = false } = {}) {
+  const day = todayKey();
+  const cached = await db.getSetting('dcDaily', null);
+  if (!force && cached && cached.day === day) return cached;
+  const all = await fields(); const genres = await getGenres();
+  const chosen = (genres.length ? all.filter((f) => genres.includes(f.id)) : all).map((f) => f.name);
+  const known = (await list()).map((r) => r.title).slice(0, 60);
+  const level = await store.level();
+  const j = await callJSON(`You choose today's learning topics for a curious Hindi- and Gujarati-speaking adult (English level ${level}, security engineer in India). Their chosen genres: ${chosen.join(', ')}. Today is ${new Date().toDateString()}. Pick THREE specific, interesting, genuinely useful topics, each from a different genre in the list (or the same genre if only one is chosen), that a smart person would enjoy understanding in ten minutes. Prefer surprising angles over textbook chapters. Avoid these already-covered titles: ${known.join('; ') || 'none'}. Return JSON only: {"topics":[{"title":"max 8 words","field":"genre name from the list","hook":"one curiosity-raising sentence","why_today":"one short sentence on why it is worth ten minutes today"}]}`, 'Choose today\'s three topics.', 600);
+  const topics = (j.topics || []).filter((t) => t && t.title).slice(0, 3).map((t) => ({ t: t.title, h: t.hook || '', field: t.field || '', why: t.why_today || '' }));
+  if (!topics.length) throw new Error('The tutor did not return any topics. Try again.');
+  const rec = { day, topics, ts: nowISO() };
+  await db.setSetting('dcDaily', rec);
+  return rec;
+}
+export async function estimateDaily() { const p = await ai.getPrices(); const inr = await db.getSetting('inrRate', 84); const usd = (500 / 1e6) * p.input + (250 / 1e6) * p.output; return { usd, inr: usd * inr }; }
 export async function surprise() {
   const all = await fields(); const f = all[Math.floor(Math.random() * all.length)]; const t = f.topics[Math.floor(Math.random() * f.topics.length)];
   return { field: f, ...t };
@@ -68,7 +95,7 @@ export async function explain(input, { field = '' } = {}) {
   const title = j.title || input;
   const rec = {
     id: topicId(title), kind: 'topic', refId: input, title, ts: nowISO(), day: todayKey(),
-    data: { input, field: j.field || field, emoji: j.emoji || '🧠', hook: j.hook || '', eli10: j.eli10 || '', core: j.core || '', how_it_works: j.how_it_works || [], examples: (j.examples || []).filter((e) => e && e.text), real_life: (j.real_life || []).filter((r) => r && r.how), why_useful: j.why_useful || '', apply_steps: (j.apply_steps || []).map((t) => ({ text: t, done: false })), for_security_engineer: j.for_security_engineer || '', mental_model: j.mental_model || null, misconceptions: (j.misconceptions || []).filter((m) => m && m.myth), deeper: j.deeper || '', facts: j.facts || [], history: j.history || '', quiz: (j.quiz || []).filter((q) => q && q.q && Array.isArray(q.options) && q.options.length >= 2), quizResult: null, teach_prompt: j.teach_prompt || '', teachBack: null, terms: (j.terms || []).filter((t) => t && t.term && t.en).map((t) => ({ term: t.term, en: t.en, hi: DEV.test(t.hi || '') ? t.hi : '', gu: GUJ.test(t.gu || '') ? t.gu : '' })), related: j.related || [], further: j.further || [], hi_summary: DEV.test(j.hi_summary || '') ? j.hi_summary : '', gu_summary: GUJ.test(j.gu_summary || '') ? j.gu_summary : '', more: [], myNotes: '', level, estimatedUsd: est.usd },
+    data: { input, field: j.field || field, emoji: j.emoji || '🧠', hook: j.hook || '', eli10: j.eli10 || '', core: j.core || '', how_it_works: j.how_it_works || [], examples: (j.examples || []).filter((e) => e && e.text), real_life: (j.real_life || []).filter((r) => r && r.how), why_useful: j.why_useful || '', apply_steps: (j.apply_steps || []).map((t) => ({ text: t, done: false })), for_security_engineer: j.for_security_engineer || '', mental_model: j.mental_model || null, misconceptions: (j.misconceptions || []).filter((m) => m && m.myth), deeper: j.deeper || '', facts: j.facts || [], history: j.history || '', quiz: (j.quiz || []).filter((q) => q && q.q && Array.isArray(q.options) && q.options.length >= 2), quizResult: null, teach_prompt: j.teach_prompt || '', teachBack: null, terms: (j.terms || []).filter((t) => t && t.term && t.en).map((t) => ({ term: t.term, en: t.en, hi: DEV.test(t.hi || '') ? t.hi : '', gu: GUJ.test(t.gu || '') ? t.gu : '' })), related: j.related || [], further: j.further || [], hi_summary: DEV.test(j.hi_summary || '') ? j.hi_summary : '', gu_summary: GUJ.test(j.gu_summary || '') ? j.gu_summary : '', more: [], myNotes: '', read: false, fav: false, level, estimatedUsd: est.usd },
   };
   await db.put('generated', rec);
   await store.bumpDay({ attempts: 1, skill: 'vocab' });
@@ -103,6 +130,7 @@ export function streakOf(recs) {
   return n;
 }
 
+export function readingMinutes(rec) { const d = rec.data; const words = [d.eli10, d.core, d.deeper, d.why_useful, d.history, ...d.how_it_works, ...d.examples.map((e) => e.text), ...d.real_life.map((r) => r.how), ...d.more.map((m) => m.text)].join(' ').split(/\s+/).length; return Math.max(2, Math.round(words / 160)); }
 export function toMarkdown(rec) {
   const d = rec.data; const L = [];
   L.push(`# ${d.emoji} ${rec.title}`, `*${d.field}*`, '', d.hook, '');
