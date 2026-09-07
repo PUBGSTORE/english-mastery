@@ -128,7 +128,7 @@ export async function render(container) {
   $('#ttsRate', container).onchange = (e) => { const r = parseFloat(e.target.value); tts.setRate(r); save('ttsRate', r); };
   $('#test-voice', container).onclick = () => { tts.speak('Hello Balvant. This is your English voice. The weather was wonderful yesterday.'); setTimeout(() => render(container), 800); };
 
-  $('#save-key', container).onclick = async () => { const v = $('#apiKey', container).value.trim(); await store.setSetting('apiKey', v); toast(v ? 'API key saved on this device' : 'API key removed', 'ok'); };
+  $('#save-key', container).onclick = async () => { const v = $('#apiKey', container).value.trim(); await store.setSetting('apiKey', v); await store.setSetting('hadApiKey', !!v); toast(v ? 'API key saved on this device' : 'API key removed', 'ok'); };
   $('#clear-key', container).onclick = async () => { $('#apiKey', container).value = ''; await store.setSetting('apiKey', ''); toast('API key removed', 'ok'); };
   $('#test-key', container).onclick = async (e) => {
     const b = e.currentTarget; b.disabled = true; b.textContent = 'Testing…';
@@ -191,7 +191,7 @@ export async function render(container) {
   const connect = async (restoreAfter) => {
     const t = $('#ghToken', container).value.trim();
     if (!t) { toast('Paste a GitHub token first.', 'warn'); return; }
-    await store.setSetting('ghToken', t);
+    await store.setSetting('ghToken', t); await store.setSetting('hadGhToken', true);
     try {
       const user = await sync.whoAmI();
       await store.setSetting('ghUser', user);

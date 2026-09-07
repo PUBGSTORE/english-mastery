@@ -192,7 +192,7 @@ async function boot() {
   localAutoBackup();
   registerSW();
   exportReminder();
-  cloudRestoreOffer();
+  cloudRestoreOffer(); missingKeysNotice();
   // First run → placement
   try {
     const s = await store.settings();
@@ -203,6 +203,16 @@ async function boot() {
 }
 
 /** New device with a token but no progress yet → offer to pull the cloud backup. */
+/** If the (backed-up) flags say a key existed but the (never backed-up) secret is gone, the browser storage was cleared or this is a new device: say so plainly. */
+async function missingKeysNotice() {
+  try {
+    const gone = [];
+    if ((await db.getSetting('hadApiKey', false)) && !(await db.getSetting('apiKey', ''))) gone.push('DeepSeek API key');
+    if ((await db.getSetting('hadGhToken', false)) && !(await db.getSetting('ghToken', ''))) gone.push('GitHub backup token');
+    if (!gone.length) return;
+    toast(`${gone.join(' and ')} missing on this device (browser storage was cleared, or this is a new device). Keys are never stored in backups; add ${gone.length > 1 ? 'them' : 'it'} again in Settings.`, 'warn', { timeout: 15000, action: { label: 'Settings', onClick: () => navigate('/settings') } });
+  } catch { /* ignore */ }
+}
 async function cloudRestoreOffer() {
   try {
     if (!(await sync.isConfigured())) return;
