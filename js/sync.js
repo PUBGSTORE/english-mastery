@@ -27,7 +27,7 @@ async function gh(path, { method = 'GET', body } = {}) {
     method, headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json', 'X-GitHub-Api-Version': '2022-11-28' },
     body: body ? JSON.stringify(body) : undefined,
   });
-  if (res.status === 401) throw new Error('GitHub token rejected (401). Create a new token with the gist scope.');
+  if (res.status === 401) throw new Error('GitHub rejected this token (401). Gists need a CLASSIC token (github.com/settings/tokens → "Generate new token (classic)") with the gist box ticked; fine-grained tokens do not work for gists. Also check it was pasted completely and has not expired.');
   if (res.status === 403 && /rate limit/i.test(await res.clone().text())) throw new Error('GitHub rate limit hit. Try again later.');
   if (res.status === 404) throw new Error('NOT_FOUND');
   if (!res.ok) { let m = res.status; try { m = (await res.json()).message || m; } catch { /* ignore */ } throw new Error(`GitHub error: ${m}`); }

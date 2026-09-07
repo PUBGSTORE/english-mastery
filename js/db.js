@@ -222,7 +222,12 @@ export async function importAll(data, mode = 'merge') {
     try {
       const tx = db.transaction(name, 'readwrite');
       const os = tx.objectStore(name);
-      if (mode === 'replace') os.clear();
+      if (mode === 'replace') {
+        // Never wipe device secrets (API key, GitHub token): they are not in any backup, so a replace would lose them.
+        const keep = name === 'settings' ? (await reqToPromise(os.getAll())).filter((r) => SECRET_KEYS.has(r.key)) : [];
+        os.clear();
+        for (const r of keep) os.put(r);
+      }
       let written = 0;
       if (mode === 'merge') {
         const existing = new Map((await reqToPromise(os.getAll())).map((r) => [r[STORES[name].keyPath], r]));
