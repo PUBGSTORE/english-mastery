@@ -123,7 +123,7 @@ function renderNav() {
   const SIDE = world === 'know' ? SIDE_KNOW : SIDE_ENGLISH;
   document.body.dataset.world = world;
   const sw = document.getElementById('world-switch');
-  if (sw) { sw.innerHTML = `<a href="#/" class="${world === 'english' ? 'active' : ''}" data-world="english">📘 English</a><a href="#/know" class="${world === 'know' ? 'active' : ''}" data-world="know">🧠 Knowledge</a>`; }
+  if (sw) { sw.innerHTML = `<a href="#/" class="${world === 'english' ? 'active' : ''}" data-world="english" role="tab" aria-selected="${world === 'english'}"><span class="em">📘</span><span>English</span></a><a href="#/know" class="${world === 'know' ? 'active' : ''}" data-world="know" role="tab" aria-selected="${world === 'know'}"><span class="em">🧠</span><span>Knowledge</span></a>`; }
   const tab = document.getElementById('tabbar');
   tab.innerHTML = TABS.map((t) => `<a href="${t.href}" data-tab aria-label="${t.label}">${icon(t.icon)}<span>${t.label}</span></a>`).join('');
   const side = document.getElementById('side-links');
